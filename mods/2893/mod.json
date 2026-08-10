@@ -1,0 +1,105 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2893,
+      "hub_id": null,
+      "guid": "com.hysocs.traumacore",
+      "name": "TraumaCore",
+      "slug": "traumacore",
+      "teaser": "TraumaCore is a damage and armor overhaul for SPT that makes shot placement, bleeding, bones, and repeated armor hits more important. by adding more hitboxes and changing how damage works",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/jmXNvUYj2Mh7dlpoDw8nQLCQS6PEzr9RkKLeLvDH.png",
+      "downloads": 267,
+      "favourites_count": 1,
+      "description": "<h1>TraumaCore</h1>\n<hr />\n<p>TraumaCore is a damage and armor overhaul for SPT that makes shot placement, bleeding, bones, and repeated armor hits more important.</p>\n<blockquote>\n<p><strong>Warning:</strong> TraumaCore makes combat much more lethal. Penetrating hits cause wounds and blood loss instead of normal direct damage, meaning you can win a fight and still bleed out seconds later.</p>\n<p>Stims quickly stop treatable bleeding and reduce new bleed damage by 50% while active. Medical items are now valued by their ability to control bleeding, not just restore health. Heart wounds cannot be treated normally.</p>\n<p>Head-on gunfights can easily leave both sides dead. Using cover, avoiding hits, and ending fights quickly are now essential.</p>\n<p>TraumaCore is my own take on a more hardcore/semi-realistic damage and bleeding system.</p>\n</blockquote>\n<p>Instead of bullets simply removing health from a body part, most damage becomes wounds that drain health over time. The amount of bleeding depends on where the bullet hits and how much damage it causes. Wounds can stack, so surviving a gunfight does not mean you are safe, you may still bleed out without quick treatment.</p>\n<p>Bullets can also strike the brain, heart, spine, and major bones. These hits can cause instant death, permanent heart bleeding, spinal injuries, or broken limbs. Armor penetration and repeated hits are also reworked, making ammunition, armor condition, and shot placement more important.</p>\n<p>The default settings are balanced for PvE. AI and Scavs receive the full system, while players use more forgiving organ settings for a vanilla+ experience. Vital and center-mass shots are highly effective, while limb shots usually take more time or ammunition to become fatal.</p>\n<h2><strong>Features</strong> <em>(Yes, this is the full list–everything else emerges naturally from these systems.)</em></h2>\n<hr />\n<ul>\n<li>Blood-loss-focused damage with stacking, location-dependent wounds</li>\n<li>Hand placed brain, heart, spine, and major limb-bone hitboxes</li>\n<li>Fatal brain and cervical-spine hits</li>\n<li>Permanent, rapidly fatal heart hemorrhage</li>\n<li>Spinal and deterministic limb-bone fractures</li>\n<li>More simplistic armor penetration and localized armor weakening from repeated hits</li>\n<li>Bruising, movement penalties, and reduced stamina recovery from stopped rounds</li>\n<li>Reworked treatment and blood-loss-blocking stim behavior</li>\n<li>Custom Damage transfer through injured and blacked body parts to reduce leg and arm meta</li>\n<li>Custom trauma icons, wound blood effects, corpse bleeding, and bleed-out voices</li>\n<li>Separate configurable balance for players and AI</li>\n</ul>\n<h3>New Hitboxes</h3>\n<hr />\n<ul>\n<li>Brain</li>\n<li>Lower brain</li>\n<li>Cervical spine</li>\n<li>Lower spine</li>\n<li>Heart</li>\n<li>Arm bones</li>\n<li>Leg bones</li>\n</ul>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://i.ibb.co/Gvk4vCQM/35-CF4136-0-EEA-4990-972-D-80-F669923048.png\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.ibb.co/Gvk4vCQM/35-CF4136-0-EEA-4990-972-D-80-F669923048.png\" alt=\"Anatomical hitbox debug view\" /></a></p>\n<p>Brain and cervical-spine hits are fatal. Heart hits cause extremely fast bleeding. Lower-spine hits cause a spinal fracture, while hits to limb bones can fracture the affected arm or leg.</p>\n<p>The hitboxes follow the character’s movement and animations to the limitations of the native bone system. They do not make the entire head or chest count as an organ hit, the bullet must pass through the smaller internal area. this makes for more accurate gunplay but can make it feel more unforgiving as if you miss the brain and hit the face its not a instant kill</p>\n<h3>Wounds and Bleeding</h3>\n<hr />\n<h2><img loading=\"lazy\" decoding=\"async\" src=\"https://media.giphy.com/media/PEmY1wBijtF0fUGcyJ/giphy.gif\" alt=\"TraumaCore gameplay\" /></h2>\n<p>Most bullet damage causes bleeding instead of instant health damage.</p>\n<ul>\n<li>Repeated chest hits cause more bleeding</li>\n<li>Heart wounds cause severe bleeding that cannot be treated</li>\n<li>Bleeding varies by body part</li>\n<li>Normal bleeding slows down over time</li>\n<li>Blacked body parts transfer damage to nearby healthy parts</li>\n<li>Arm shots transfer less damage than stomach or leg shots</li>\n<li>Vital-area shots kill faster than limb shots</li>\n</ul>\n<p>This makes center-mass hits reliable without making every chest shot an instant kill. Limb shots can still be lethal, but generally require more hits or time than vital-area damage.</p>\n<h3>Armor</h3>\n<hr />\n<ul>\n<li>Armor either blocks a shot or lets it penetrate</li>\n<li>Penetration depends on the ammo and the armor’s class, material, condition, and coverage</li>\n<li>Repeated hits to the same area damage the armor up to 5× faster</li>\n<li>Blocked shots can cause bruising</li>\n<li>Bruising temporarily reduces movement speed and stamina recovery</li>\n</ul>\n<h3>Hit Feedback</h3>\n<hr />\n<ul>\n<li>Custom icons for bruises, heart wounds, and spinal fractures</li>\n<li>Blood sprays from the wound location</li>\n<li>Recently killed bodies bleed when shot</li>\n<li>Characters make death or agony sounds when bleeding out</li>\n<li>Optional hitbox viewer for testing</li>\n</ul>\n<h2>Default Balance</h2>\n<hr />\n<p>TraumaCore is enabled for players, AI, and scavs by default.</p>\n<p>AI and scavs use the complete organ system. Players begin with brain and lower-spine hitboxes enabled, while player heart and cervical-spine hitboxes are disabled to reduce sudden deaths from AI fire.</p>\n<h2>Usage</h2>\n<hr />\n<p>Press F12 to open the BepInEx Configuration Manager and select <strong>TraumaCore</strong>.</p>\n<p>The menu includes separate controls for player and AI hitboxes, bleeding, damage linkage, armor behavior, blood effects, logging, and effect-testing buttons.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2893/traumacore",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>AI was used as a development aid to inspect decompiled DLLs, identify relevant classes and methods, and assist with portions of the GUI and configuration system. Every feature was individually coded/designed, reviewed, and manually tested in-game to ensure it worked as intended and to the performance standards i hold myself to.</p>\n",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 2,
+      "published_at": "2026-08-10T01:25:00.000000Z",
+      "created_at": "2026-08-10T01:25:49.000000Z",
+      "updated_at": "2026-08-10T06:27:14.000000Z",
+      "owner": {
+        "id": 118937,
+        "name": "Hysocs",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/nzRNNHJ0dChzp4dd20Hbhv4q1JkTkMiLNAjIdSbJ_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/lAHgRO7c2a5ET6Cu2bCjFOI2s7dt8SukoSsjUgaC_1280w.webp",
+        "created_at": "2026-07-27T18:19:13.000000Z",
+        "updated_at": "2026-08-10T09:38:29.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14614,
+          "hub_id": null,
+          "version": "1.1.0",
+          "description": "- Fixed custom injury effects persisting after raids and preventing affected profiles from loading.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2893/traumacore/1.1.0",
+          "content_length": 49171,
+          "spt_version_constraint": "~4.1.0 ",
+          "downloads": 215,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-10T02:24:00.000000Z",
+          "created_at": "2026-08-10T02:25:16.000000Z",
+          "updated_at": "2026-08-10T06:02:26.000000Z"
+        }
+      ],
+      "license": {
+        "id": 10,
+        "hub_id": 13,
+        "name": "Apache License 2.0",
+        "link": "https://choosealicense.com/licenses/apache-2.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 2,
+        "hub_id": 79,
+        "title": "Overhauls",
+        "slug": "overhauls",
+        "description": "Large-scale mod packs that overhaul many game systems. Typically combines both client-side and server-side mods into one package."
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Hysocs/traumacore-spt",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14614,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<ul>\n<li>Fixed custom injury effects persisting after raids and preventing affected profiles from loading.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2893/traumacore/1.1.0",
+      "content_length": 49171,
+      "spt_version_constraint": "~4.1.0 ",
+      "downloads": 215,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-10T02:24:00.000000Z",
+      "created_at": "2026-08-10T02:25:16.000000Z",
+      "updated_at": "2026-08-10T06:02:26.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2893/TraumaCore-1.1.0.zip",
+    "bytes_written": 49171,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1329289200/0b787b41-0e49-48ff-b759-c2508341b084?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A21%3A07Z&rscd=attachment%3B+filename%3DTraumaCore-1.1.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A20%3A47Z&ske=2026-08-10T10%3A21%3A07Z&sks=b&skv=2018-11-09&sig=C0R8mQWediJvnZpyUTd9A2g3G7vQC1qM8GA2endeCZ4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTE5MiwibmJmIjoxNzg2MzU0ODkyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.5QlqdXAhMKjR-iZQIojMTyZV6EU7vcPITGYBtY9sAtw&response-content-disposition=attachment%3B%20filename%3DTraumaCore-1.1.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": false
+  }
+}

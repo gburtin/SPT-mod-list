@@ -1,0 +1,223 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2813,
+      "hub_id": null,
+      "guid": "dpx.meleecase",
+      "name": "DPX Melee Case",
+      "slug": "dpx-melee-case",
+      "teaser": "A custom configurable storage case dedicated exclusively to melee weapons.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/vkZ0J9nrvt57XVCL5x1TM5mnt3greBU3DmrRPWKT.jpg",
+      "downloads": 1796,
+      "favourites_count": 13,
+      "description": "<h1>DPX Melee Case</h1>\n<p>DPX Melee Case adds a custom storage container dedicated exclusively to melee weapons.</p>\n<h2>Features</h2>\n<ul>\n<li>Custom 3D model and AssetBundle</li>\n<li>Custom inventory icon</li>\n<li>Stores melee weapons only</li>\n<li>External size: 4x2</li>\n<li>Internal storage grid: 8x8</li>\n<li>Available from Jaeger LL1</li>\n<li>Default price: 250,000₽</li>\n<li>Default stock: 999</li>\n<li>Fully configurable through <code>config.json</code></li>\n</ul>\n<h2>Configuration</h2>\n<p>The following options can be changed:</p>\n<ul>\n<li>Enable or disable the mod</li>\n<li>Trader</li>\n<li>Loyalty level</li>\n<li>Price</li>\n<li>Stock quantity</li>\n<li>External case size</li>\n<li>Internal storage size</li>\n<li>Debug logging</li>\n</ul>\n<h2>Installation</h2>\n<p>Extract the archive directly into your SPT installation folder.</p>\n<p>The archive contains both the required server mod and BepInEx client plugin.</p>\n<h2>Compatibility</h2>\n<ul>\n<li>SPT 4.0.13</li>\n<li>EFT 0.16.9.40087</li>\n</ul>\n<h2>Feedback and Bug Reports</h2>\n<p>If you encounter any bugs, errors, compatibility issues, or unexpected behavior, please report them in the comments section.</p>\n<p>When possible, include:</p>\n<ul>\n<li>A clear description of the issue</li>\n<li>The steps needed to reproduce it</li>\n<li>Your SPT version</li>\n<li>Your server logs</li>\n<li>Your BepInEx logs</li>\n</ul>\n<p>Known issues and useful feedback are always welcome and help improve future versions of the mod.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2813/dpx-melee-case",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>AI tools were used to assist with parts of the code, documentation, testing workflow, and promotional artwork. The mod was reviewed, configured, and tested manually before release.</p>\n",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 4,
+      "published_at": "2026-07-12T00:16:00.000000Z",
+      "created_at": "2026-07-12T00:18:44.000000Z",
+      "updated_at": "2026-07-28T18:02:31.000000Z",
+      "owner": {
+        "id": 63937,
+        "name": "DeePix",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/V7e3lGcbx0VnmPPdL6FaJ4mQPEEO31tl8p6U7uiL_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/ZfsN948So9P91XHvD8O5fUEkFQMRALVkRi2iTqkX_1280w.webp",
+        "created_at": "2024-09-16T02:04:08.000000Z",
+        "updated_at": "2026-08-10T04:09:38.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14271,
+          "hub_id": null,
+          "version": "1.0.5",
+          "description": "DPX Melee Case v1.0.5\n\n Fixed\n\n- Rebuilt the custom prefab using the native EFT Weapon Case rendering structure.\n- Fixed the inventory icon remaining stuck in an infinite loading state.\n- Restored native 3D icon generation for the inventory and trader screens.\n- Replaced the incorrect generic shader with the native opaque EFT shader.\n- Fixed the washed-out, overly bright and partially transparent appearance.\n- Fixed flickering in trader and preview interfaces.\n- Removed the obsolete DPX-MeleeCaseIconFix BepInEx plugin.\n- Removed the embedded Sprite and `PreviewPivot.overrideIcon` workaround.\n\nImportant update note\n\nEFT/SPT stores generated inventory icons in a persistent cache. After updating from an older version, the previous bright or white icon may remain temporarily.\n\nRestart the client first. If the old icon remains, the specific cached icon entry may need to be regenerated.\n\nDo not reinstall the old DPX-MeleeCaseIconFix plugin.\n\nUnchanged\n\n- External size: 4x2\n- Internal grid: 8x8\n- Melee weapon filter\n- Trader offers and prices\n- Existing gameplay balance",
+          "link": "https://forge.sp-tarkov.com/mod/download/2813/dpx-melee-case/1.0.5",
+          "content_length": 6981125,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 667,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-07-28T11:20:00.000000Z",
+          "created_at": "2026-07-28T11:21:22.000000Z",
+          "updated_at": "2026-07-28T18:02:31.000000Z"
+        },
+        {
+          "id": 14058,
+          "hub_id": null,
+          "version": "1.0.4",
+          "description": "Feature update.\n\nChanges:\n- Added optional config setting: enableMeleeWeaponLooting.\n- Disabled by default.\n- When enabled, melee weapons can be looted without modifying SPT_Data.\n- Only melee weapon templates are affected.\n- No 3D model, bundle, or client icon plugin changes.\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/2813/dpx-melee-case/1.0.4",
+          "content_length": 2435619,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 845,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-07-12T09:09:00.000000Z",
+          "created_at": "2026-07-12T09:10:02.000000Z",
+          "updated_at": "2026-07-28T09:37:24.000000Z"
+        },
+        {
+          "id": 14057,
+          "hub_id": null,
+          "version": "1.0.3",
+          "description": "Balance/config update.\n\nChanges:\n- Moved the DPX Melee Case offer from Skier to Jaeger.\n- Updated cash price to 250,000 roubles.\n- Added an alternative Jaeger barter trade.\n- Adjusted public trader stock.\n- No 3D model, bundle, or client icon plugin changes.\n\nTargets SPT 4.0.13 / EFT 0.16.9.40087.\nDoes not modify SPT_Data.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2813/dpx-melee-case/1.0.3",
+          "content_length": 2434112,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 79,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-07-12T08:39:00.000000Z",
+          "created_at": "2026-07-12T08:39:54.000000Z",
+          "updated_at": "2026-07-28T09:37:20.000000Z"
+        },
+        {
+          "id": 14055,
+          "hub_id": null,
+          "version": "1.0.2",
+          "description": "Forge compliance patch.\n\nChanges:\n- Removed hard-coded local file paths.\n- Icon loading now resolves dynamically from the installed mod/plugin location.\n- Cleaned runtime logging and removed absolute path logging.\n- Verbose server audit logs are disabled by default.\n- No bundle or 3D model changes.\n\nTargets SPT 4.0.13 / EFT 0.16.9.40087.\nDoes not modify SPT_Data.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2813/dpx-melee-case/1.0.2",
+          "content_length": 2432425,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 120,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-07-12T03:44:00.000000Z",
+          "created_at": "2026-07-12T03:44:50.000000Z",
+          "updated_at": "2026-07-28T09:37:16.000000Z"
+        },
+        {
+          "id": 14054,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Initial public release.\n\n- Added the DPX Melee Case\n- Custom 3D model and AssetBundle\n- Custom inventory icon\n- 4x2 external size\n- 8x8 internal storage grid\n- Stores melee weapons only\n- Available from Jaeger LL1\n- Default price: 250,000₽\n- Fully configurable through config.json",
+          "link": "https://forge.sp-tarkov.com/mod/download/2813/dpx-melee-case/1.0.0",
+          "content_length": 2411203,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 85,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-07-12T00:25:00.000000Z",
+          "created_at": "2026-07-12T00:25:45.000000Z",
+          "updated_at": "2026-07-28T09:37:09.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 4,
+        "hub_id": 21,
+        "title": "Items",
+        "slug": "items",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/picouik/DPX-MeleeCase",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14271,
+      "hub_id": null,
+      "version": "1.0.5",
+      "description": "<p>DPX Melee Case v1.0.5</p>\n<p>Fixed</p>\n<ul>\n<li>Rebuilt the custom prefab using the native EFT Weapon Case rendering structure.</li>\n<li>Fixed the inventory icon remaining stuck in an infinite loading state.</li>\n<li>Restored native 3D icon generation for the inventory and trader screens.</li>\n<li>Replaced the incorrect generic shader with the native opaque EFT shader.</li>\n<li>Fixed the washed-out, overly bright and partially transparent appearance.</li>\n<li>Fixed flickering in trader and preview interfaces.</li>\n<li>Removed the obsolete DPX-MeleeCaseIconFix BepInEx plugin.</li>\n<li>Removed the embedded Sprite and <code>PreviewPivot.overrideIcon</code> workaround.</li>\n</ul>\n<p>Important update note</p>\n<p>EFT/SPT stores generated inventory icons in a persistent cache. After updating from an older version, the previous bright or white icon may remain temporarily.</p>\n<p>Restart the client first. If the old icon remains, the specific cached icon entry may need to be regenerated.</p>\n<p>Do not reinstall the old DPX-MeleeCaseIconFix plugin.</p>\n<p>Unchanged</p>\n<ul>\n<li>External size: 4x2</li>\n<li>Internal grid: 8x8</li>\n<li>Melee weapon filter</li>\n<li>Trader offers and prices</li>\n<li>Existing gameplay balance</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2813/dpx-melee-case/1.0.5",
+      "content_length": 6981125,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 667,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-07-28T11:20:00.000000Z",
+      "created_at": "2026-07-28T11:21:22.000000Z",
+      "updated_at": "2026-07-28T18:02:31.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14058,
+      "hub_id": null,
+      "version": "1.0.4",
+      "description": "<p>Feature update.</p>\n<p>Changes:</p>\n<ul>\n<li>Added optional config setting: enableMeleeWeaponLooting.</li>\n<li>Disabled by default.</li>\n<li>When enabled, melee weapons can be looted without modifying SPT_Data.</li>\n<li>Only melee weapon templates are affected.</li>\n<li>No 3D model, bundle, or client icon plugin changes.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2813/dpx-melee-case/1.0.4",
+      "content_length": 2435619,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 845,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-07-12T09:09:00.000000Z",
+      "created_at": "2026-07-12T09:10:02.000000Z",
+      "updated_at": "2026-07-28T09:37:24.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14057,
+      "hub_id": null,
+      "version": "1.0.3",
+      "description": "<p>Balance/config update.</p>\n<p>Changes:</p>\n<ul>\n<li>Moved the DPX Melee Case offer from Skier to Jaeger.</li>\n<li>Updated cash price to 250,000 roubles.</li>\n<li>Added an alternative Jaeger barter trade.</li>\n<li>Adjusted public trader stock.</li>\n<li>No 3D model, bundle, or client icon plugin changes.</li>\n</ul>\n<p>Targets SPT 4.0.13 / EFT 0.16.9.40087.\nDoes not modify SPT_Data.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2813/dpx-melee-case/1.0.3",
+      "content_length": 2434112,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 79,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-07-12T08:39:00.000000Z",
+      "created_at": "2026-07-12T08:39:54.000000Z",
+      "updated_at": "2026-07-28T09:37:20.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14055,
+      "hub_id": null,
+      "version": "1.0.2",
+      "description": "<p>Forge compliance patch.</p>\n<p>Changes:</p>\n<ul>\n<li>Removed hard-coded local file paths.</li>\n<li>Icon loading now resolves dynamically from the installed mod/plugin location.</li>\n<li>Cleaned runtime logging and removed absolute path logging.</li>\n<li>Verbose server audit logs are disabled by default.</li>\n<li>No bundle or 3D model changes.</li>\n</ul>\n<p>Targets SPT 4.0.13 / EFT 0.16.9.40087.\nDoes not modify SPT_Data.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2813/dpx-melee-case/1.0.2",
+      "content_length": 2432425,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 120,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-07-12T03:44:00.000000Z",
+      "created_at": "2026-07-12T03:44:50.000000Z",
+      "updated_at": "2026-07-28T09:37:16.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14054,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Initial public release.</p>\n<ul>\n<li>Added the DPX Melee Case</li>\n<li>Custom 3D model and AssetBundle</li>\n<li>Custom inventory icon</li>\n<li>4x2 external size</li>\n<li>8x8 internal storage grid</li>\n<li>Stores melee weapons only</li>\n<li>Available from Jaeger LL1</li>\n<li>Default price: 250,000₽</li>\n<li>Fully configurable through config.json</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2813/dpx-melee-case/1.0.0",
+      "content_length": 2411203,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 85,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-07-12T00:25:00.000000Z",
+      "created_at": "2026-07-12T00:25:45.000000Z",
+      "updated_at": "2026-07-28T09:37:09.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2813/DPX-MeleeCase-v1.0.5.zip",
+    "bytes_written": 6981125,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1297851920/4dec4031-903a-489a-9952-42e4dcef060a?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A47%3A43Z&rscd=attachment%3B+filename%3DDPX-MeleeCase-v1.0.5.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A47%3A36Z&ske=2026-08-10T10%3A47%3A43Z&sks=b&skv=2018-11-09&sig=rZnR5EsG0eiGLlpZNDmyl6GkXm3x8s%2FkmDAR%2BhGcB1o%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTYzMSwibmJmIjoxNzg2MzU1MzMxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.rygsr9YOHZ0HK_0UXyQySUddWSS-Boi67RCKHFiM_Lo&response-content-disposition=attachment%3B%20filename%3DDPX-MeleeCase-v1.0.5.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.5",
+    "same_as_primary_download": true
+  }
+}

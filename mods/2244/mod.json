@@ -1,0 +1,136 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2244,
+      "hub_id": 2949,
+      "guid": "com.pein.scopetweak",
+      "name": "Eye Relief Tweak",
+      "slug": "eye-relief-tweak",
+      "teaser": "Modifies eye relief scale for all optics",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2949.png",
+      "downloads": 12897,
+      "favourites_count": 36,
+      "description": "<h3>Introduction</h3>\n<p>This mod changes the eye relief scale for all optics. Nothing more, nothing less.</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://i.imgur.com/a5XWXOq.gif\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/a5XWXOq.gif\" alt=\"a5XWXOq.gif\" /></a></p>\n<h3>Installation</h3>\n<p>Drag and drop the BepInEx folder into your SPT folder.</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://i.imgur.com/wByb5Ln.gif\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/wByb5Ln.gif\" alt=\"wByb5Ln.gif\" /></a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2244/eye-relief-tweak",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2025-08-06T15:21:58.000000Z",
+      "created_at": "2025-08-06T15:21:58.000000Z",
+      "updated_at": "2026-08-01T16:23:40.000000Z",
+      "owner": {
+        "id": 12179,
+        "name": "pein",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=p&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/0nesldn7JSutui4nqPF0GyFFSoQKV6zImNcy5brD.jpg",
+        "created_at": "2021-12-14T17:06:03.000000Z",
+        "updated_at": "2026-08-10T07:44:57.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14164,
+          "hub_id": null,
+          "version": "1.0.1",
+          "description": "- Speculative fix for scope lenses going vantablack (thx jax)\n- Recompiled mod for SPT 4.0. not that it mattered. but you know.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2244/eye-relief-tweak/1.0.1",
+          "content_length": 3927,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 2542,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-20T15:48:00.000000Z",
+          "created_at": "2026-07-20T15:49:10.000000Z",
+          "updated_at": "2026-08-01T16:23:40.000000Z"
+        },
+        {
+          "id": 131,
+          "hub_id": 14754,
+          "version": "1.0.0",
+          "description": "* Initial release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2244/eye-relief-tweak/1.0.0",
+          "content_length": 4418,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 10355,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-06T15:21:00.000000Z",
+          "created_at": "2025-08-06T15:21:58.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "http://github.com/peinwastaken/SPTScopeTweak",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14164,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<ul>\n<li>Speculative fix for scope lenses going vantablack (thx jax)</li>\n<li>Recompiled mod for SPT 4.0. not that it mattered. but you know.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2244/eye-relief-tweak/1.0.1",
+      "content_length": 3927,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 2542,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-20T15:48:00.000000Z",
+      "created_at": "2026-07-20T15:49:10.000000Z",
+      "updated_at": "2026-08-01T16:23:40.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 131,
+      "hub_id": 14754,
+      "version": "1.0.0",
+      "description": "<ul>\n<li>Initial release</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2244/eye-relief-tweak/1.0.0",
+      "content_length": 4418,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 10355,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-08-06T15:21:00.000000Z",
+      "created_at": "2025-08-06T15:21:58.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2244/SPTEyeReliefTweak101.7z",
+    "bytes_written": 3927,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1033199320/c23c8b72-87cd-4043-b9c7-3e0318654d73?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A49%3A31Z&rscd=attachment%3B+filename%3DSPTEyeReliefTweak101.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A48%3A55Z&ske=2026-08-10T10%3A49%3A31Z&sks=b&skv=2018-11-09&sig=ZNqwzrtUA1hTNqZZ5%2BEIcN4vEbidiv31gmMuFH0xxq8%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NjMxOSwibmJmIjoxNzg2MzU2MDE5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.3rbnZilDsU5ZmY4BZ211nSD3B3R7Noeb9JoUgIRqa_Q&response-content-disposition=attachment%3B%20filename%3DSPTEyeReliefTweak101.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

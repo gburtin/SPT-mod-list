@@ -1,0 +1,203 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2639,
+      "hub_id": null,
+      "guid": "com.hazelify.stancesync",
+      "name": "Auto Shoulder Swap",
+      "slug": "auto-shoulder-swap",
+      "teaser": "A simple mod that enables syncing leaning and shoulder swapping.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/PTaUXehk53O1vXxNfCuDqUzyn1rdKDpLOn0GWRD0.png",
+      "downloads": 5831,
+      "favourites_count": 35,
+      "description": "<h3>So, what is this?</h3>\n<p>Inspired by <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2201/hollywoodcam\" rel=\"noreferrer noopener\">HollywoodCam</a> which is created by the almighty <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/user/72916/jankytheclown\" rel=\"noreferrer noopener\">Janky</a>, I created this little offshoot mod as a standalone for those who, like me, only used HollywoodCam for the leaning. The configuration is more or less the same, with some variation; lean-shoulder-swapping works while you’re aiming with this mod. I have not noticed any problems with leaning during ADS, so I left it in.</p>\n<hr />\n<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Installation</div>\n<div class=\"tab-content\"><ul>\n<li><strong>Extract the <code>BepInEx</code> folder into your source / root SPT folder, where SPT.Server is.</strong>\n<img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/vKRw58b.gif\" alt=\"alt text\" /></li>\n</ul></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Features &amp; Showcase</div>\n<div class=\"tab-content\"><ul>\n<li>Syncing of left leaning and shoulder swapping;\n<ul>\n<li>Works for going into and out of a lean, and sync can be disabled independently;</li>\n</ul>\n</li>\n<li>Disable leaning when in ADS;</li>\n<li>Disable leaning when in ADS <em>only if in ADS with a magnified optic</em>\n<ul>\n<li>This feature only works if the first ADS feature is active</li>\n</ul>\n</li>\n</ul>\n<h3>Video: <img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/yl1UOGN.gif\" alt=\"alt text\" /></h3></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Credits</div>\n<div class=\"tab-content\"><p>Thank you to the almighty <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/user/72916/jankytheclown\" rel=\"noreferrer noopener\">Janky</a> for his original code, of which I trimmed some and cut out so it could be used standalone.</p>\n<p>Thank you to me for, well, making it standalone? :)</p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2639/auto-shoulder-swap",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 3,
+      "published_at": "2026-03-23T20:30:00.000000Z",
+      "created_at": "2026-03-23T20:30:44.000000Z",
+      "updated_at": "2026-08-10T06:29:04.000000Z",
+      "owner": {
+        "id": 20914,
+        "name": "Devraccoon",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/gH4j72I3sL5ip5WBdAdO0itXtjFRSfHbOacX2IKE_256w.webp",
+        "cover_photo_url": null,
+        "created_at": "2022-07-23T23:58:07.000000Z",
+        "updated_at": "2026-08-10T06:28:31.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14621,
+          "hub_id": null,
+          "version": "1.1.1",
+          "description": "Updated to SPT 4.1",
+          "link": "https://forge.sp-tarkov.com/mod/download/2639/auto-shoulder-swap/1.1.1",
+          "content_length": 4949,
+          "spt_version_constraint": "~4.1",
+          "downloads": 128,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-10T06:28:00.000000Z",
+          "created_at": "2026-08-10T06:28:30.000000Z",
+          "updated_at": "2026-08-10T06:29:04.000000Z"
+        },
+        {
+          "id": 13328,
+          "hub_id": null,
+          "version": "1.0.2",
+          "description": "- Added option to disable synchronized leaning when ADSing;\n- Added option to only disable synchronized leaning when ADSing with a magnified optic (i.e LPVO);\n  - this only works if the other ADS option is enabled.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2639/auto-shoulder-swap/1.0.2",
+          "content_length": 4929,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 4881,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-03-29T21:26:00.000000Z",
+          "created_at": "2026-03-29T21:26:09.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 13317,
+          "hub_id": null,
+          "version": "1.0.1",
+          "description": "- Fixed order of items in BepInEx's F12 menu, important is topmost, also clarified the options;\n- Added check for magnified optics (thanks to [RemzDNB](https://forge.sp-tarkov.com/user/105867/remzdnb) for the suggestion)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2639/auto-shoulder-swap/1.0.1",
+          "content_length": 4559,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 438,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-03-26T17:03:00.000000Z",
+          "created_at": "2026-03-26T17:03:03.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 13306,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Initial release. Includes two options.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2639/auto-shoulder-swap/1.0.0",
+          "content_length": 3768,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 384,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-03-24T19:25:00.000000Z",
+          "created_at": "2026-03-24T19:25:48.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 3,
+        "hub_id": 19,
+        "title": "Scripting",
+        "slug": "scripting",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/minihazel/StanceSync",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14621,
+      "hub_id": null,
+      "version": "1.1.1",
+      "description": "<p>Updated to SPT 4.1</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2639/auto-shoulder-swap/1.1.1",
+      "content_length": 4949,
+      "spt_version_constraint": "~4.1",
+      "downloads": 128,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-10T06:28:00.000000Z",
+      "created_at": "2026-08-10T06:28:30.000000Z",
+      "updated_at": "2026-08-10T06:29:04.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13328,
+      "hub_id": null,
+      "version": "1.0.2",
+      "description": "<ul>\n<li>Added option to disable synchronized leaning when ADSing;</li>\n<li>Added option to only disable synchronized leaning when ADSing with a magnified optic (i.e LPVO);\n<ul>\n<li>this only works if the other ADS option is enabled.</li>\n</ul>\n</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2639/auto-shoulder-swap/1.0.2",
+      "content_length": 4929,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 4881,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-03-29T21:26:00.000000Z",
+      "created_at": "2026-03-29T21:26:09.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13317,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<ul>\n<li>Fixed order of items in BepInEx’s F12 menu, important is topmost, also clarified the options;</li>\n<li>Added check for magnified optics (thanks to <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/user/105867/remzdnb\" rel=\"noreferrer noopener\">RemzDNB</a> for the suggestion)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2639/auto-shoulder-swap/1.0.1",
+      "content_length": 4559,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 438,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-03-26T17:03:00.000000Z",
+      "created_at": "2026-03-26T17:03:03.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13306,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Initial release. Includes two options.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2639/auto-shoulder-swap/1.0.0",
+      "content_length": 3768,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 384,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-03-24T19:25:00.000000Z",
+      "created_at": "2026-03-24T19:25:48.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2639/hazelify.StanceSync.zip",
+    "bytes_written": 4949,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1189946463/4ba13314-72bf-4916-9ac4-f10cb98c66ba?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A26%3A43Z&rscd=attachment%3B+filename%3Dhazelify.StanceSync.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A26%3A32Z&ske=2026-08-10T10%3A26%3A43Z&sks=b&skv=2018-11-09&sig=EwLN8KyfS5%2FlwYVIvY6t0L%2Br644ic37shQzFccXGmZ8%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTI3MSwibmJmIjoxNzg2MzU0OTcxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.GpgcvYXm24o7qTV1hqYb7X1rY-LNJ5XLCrA4xYyfcxM&response-content-disposition=attachment%3B%20filename%3Dhazelify.StanceSync.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2639/auto-shoulder-swap-1.0.2-spt40.zip",
+    "bytes_written": 4949,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1189946463/aa8a2ec5-ee58-4551-bb2c-3ad6f4d85921?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T13%3A00%3A56Z&rscd=attachment%3B+filename%3Dhazelify.StanceSync.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T12%3A00%3A17Z&ske=2026-08-10T13%3A00%3A56Z&sks=b&skv=2018-11-09&sig=oUnrPQQdClmV9xGZdpxIO8Ose4wXPbRZEbCDwvV0kZM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzYxNCwibmJmIjoxNzg2MzYzMzE0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.frRig-BlTClHO2O7ZrpCg3_KCKLldXgJHxHz96u8Sp8&response-content-disposition=attachment%3B%20filename%3Dhazelify.StanceSync.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "size_mismatch": {
+      "expected": 4929,
+      "actual": 4949
+    },
+    "target_version": "4.0.13",
+    "version": "1.0.2",
+    "same_as_primary_download": false
+  }
+}

@@ -1,0 +1,179 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2425,
+      "hub_id": null,
+      "guid": "moe.yuyui.animesightsport",
+      "name": "SamSWAT's Anime Rear Sights - 4.0 Port",
+      "slug": "samswats-anime-rear-sights-40-port",
+      "teaser": "Adds 24 anime styled rear sights that are sold by Mechanic.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/6sbXhHOEfQDVdiXXe0Ztgyed0hM22m3mZeB4m2DE.png",
+      "downloads": 8524,
+      "favourites_count": 8,
+      "description": "<p>This mods adds new Rear Iron Sights with anime art at the back, so you can fulfill your dream to raid with your Waifu.</p>\n<h2>Features</h2>\n<ul>\n<li>Adds 24 rear sights with anime girls on them. 8 for MCX and 16 for MBUS weapons.</li>\n<li>Rear sights are sold by the Mechanic and on the Flea Market</li>\n<li>Easily add new and edit current iron sights by editing JSON files (guide below)</li>\n</ul>\n<h2>Installation</h2>\n<ol>\n<li>Download the latest versions on the Releases page</li>\n<li>Extract the downloaded ZIP file on the root of your SPT Installation</li>\n<li>Start up the server</li>\n</ol>\n<h2>How to add new sights or edit them</h2>\n<p>This mod has a small JSON interpreter that allows you to add and edit new back iron sights into the game.</p>\n<h3>items.jsonc</h3>\n<p>All you have to do is open <code>db/items.jsonc</code> with your preferred text editor and add the follow structure for your iron sight:</p>\n<pre><code>{\n  \"id\": \"YOUR_ITEM_MONGOID\",\n  \"clone_from_tpl\": \"ITEM_TO_CLONE_FROM_MONGOID\",\n  \"bundle_path\": \"path/to/your/bundle.bundle\",\n  \"price\": 4000, // Item price. This will be used on Handbook and Mechanic\n  \"ergonomics\": 3 // Ergo boost. You can set this to any value, but play nice ;) (or dont, I'm not the SPT police)\n}\n</code></pre>\n<h3>Locales</h3>\n<p>Then, you need to add the Name, ShortName and Description of your item, otherwise it will have a weird name.\nTo do that, open <code>db/locales/en.json</code> with your preferred text editor and add the follow structure:</p>\n<pre><code>\"YOUR_ITEM_MONGOID\": {\n    \"name\": \"Your beautiful item name\",\n    \"short_name\": \"Short name\",\n    \"description\": \"Very detailed and incredible item description that will give the player a lot of information and totally not be useless\"\n}\n</code></pre>\n<h2>Credits</h2>\n<ul>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/user/38525/rexana\" rel=\"noreferrer noopener\"><strong>Rexana</strong></a> - For giving the idea.</li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/user/30890/grooveypenguinx\" rel=\"noreferrer noopener\"><strong>GrooveyPenguinX</strong></a> - For making <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/GrooveypenguinX/WTT-BundleMaster\" rel=\"noreferrer noopener\">WTT-BundleMaster</a>, used to fix the original bundles</li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/user/200/samswat\" rel=\"noreferrer noopener\"><strong>SamSWAT</strong></a> - For making the <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/316/anime-rear-sights\" rel=\"noreferrer noopener\">original mod and bundles</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://steamcommunity.com/profiles/76561198224517144\" rel=\"noreferrer noopener\"><strong>ApertureAwesome</strong></a> - <a target=\"_blank\" class=\"external-link\" href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=1628771637\" rel=\"noreferrer noopener\">Girls Frontline M4 SOPMOD II</a>.</li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://steamcommunity.com/profiles/76561198224517144\" rel=\"noreferrer noopener\"><strong>ApertureAwesome</strong></a> - <a target=\"_blank\" class=\"external-link\" href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=1636845240\" rel=\"noreferrer noopener\">Ram &amp; Rem</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://steamcommunity.com/profiles/76561198020115276\" rel=\"noreferrer noopener\"><strong>Farengar</strong></a>, <a target=\"_blank\" class=\"external-link\" href=\"https://steamcommunity.com/profiles/76561198057580968\" rel=\"noreferrer noopener\"><strong>tac.error</strong></a>, <a target=\"_blank\" class=\"external-link\" href=\"https://steamcommunity.com/profiles/76561198104088584\" rel=\"noreferrer noopener\"><strong>Rymd</strong></a> - <a target=\"_blank\" class=\"external-link\" href=\"https://steamcommunity.com/sharedfiles/filedetails/?id=1484273642\" rel=\"noreferrer noopener\">Ai Fuyuumi</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://www.reddit.com/user/SUMERIKAN/\" rel=\"noreferrer noopener\"><strong>Sumerikan</strong></a> - <a target=\"_blank\" class=\"external-link\" href=\"https://www.reddit.com/r/PhantomForces/comments/cenaum/animu_sight_anti/\" rel=\"noreferrer noopener\">Art for Anti 1 &amp; 2</a></li>\n<li>And one more unknown artist…</li>\n</ul>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2425/samswats-anime-rear-sights-40-port",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 4,
+      "published_at": "2025-11-05T21:00:00.000000Z",
+      "created_at": "2025-11-05T21:00:51.000000Z",
+      "updated_at": "2026-08-07T06:02:14.000000Z",
+      "owner": {
+        "id": 65345,
+        "name": "yuyui.moe",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/690689ea1ac9a0eaadce8c01f2abaf25147c43b1_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/WvU2OUJlNTqWgxJweWYm1CQb3DU2ajCciDfFqsEH_1280w.webp",
+        "created_at": "2024-10-12T21:27:05.000000Z",
+        "updated_at": "2026-08-10T04:17:35.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 200,
+          "name": "SamSWAT",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/1b5bf15f78035540327b8515a5dfa83a4c339b32_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2020-08-15T19:53:17.000000Z",
+          "updated_at": "2026-07-10T04:49:20.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 14503,
+          "hub_id": null,
+          "version": "1.4.0",
+          "description": "* 4.1.0 Compatibility Patch",
+          "link": "https://forge.sp-tarkov.com/mod/download/2425/samswats-anime-rear-sights-40-port/1.4.0",
+          "content_length": 4017355,
+          "spt_version_constraint": "~4.1.0",
+          "downloads": 585,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-06T19:22:00.000000Z",
+          "created_at": "2026-08-06T19:23:19.000000Z",
+          "updated_at": "2026-08-07T06:02:14.000000Z"
+        },
+        {
+          "id": 14128,
+          "hub_id": null,
+          "version": "1.3.0",
+          "description": "# Changelog\n* General optimizations (Mod loads in ~100ms)\n* Fixed Epic’s All in One incompatibility.\n    * Epic AIO was overwriting my filters, so I decided to load the filters last.\n* Sight names/description now applies to all locales, even if one isn't really configured.\n* Added sights to static loot pool.\n    * Didn't have time to test this. Let me know if there's a need to increase spawn chance.\n* Added missing Anti sight (It had locale, but no item registered)\n\n**Full Changelog**: https://github.com/yuyuimoe/SamSwat-AnimeSights-4.0/compare/1.0.0...1.3.0",
+          "link": "https://forge.sp-tarkov.com/mod/download/2425/samswats-anime-rear-sights-40-port/1.3.0",
+          "content_length": 4015614,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 1076,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-17T22:03:00.000000Z",
+          "created_at": "2026-07-17T22:04:05.000000Z",
+          "updated_at": "2026-07-28T09:40:48.000000Z"
+        },
+        {
+          "id": 12185,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "This version marks the full release of the mod.\n\nKnown issues:\n- Sights will not spawn in containers. Which means it can only be bought\n- English is the only language being loaded.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2425/samswats-anime-rear-sights-40-port/1.0.0",
+          "content_length": 4006739,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 6863,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-05T18:07:00.000000Z",
+          "created_at": "2025-11-05T21:04:08.000000Z",
+          "updated_at": "2026-07-28T06:15:08.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 4,
+        "hub_id": 21,
+        "title": "Items",
+        "slug": "items",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/yuyuimoe/SamSwat-AnimeSights-4.0/",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14503,
+      "hub_id": null,
+      "version": "1.4.0",
+      "description": "<ul>\n<li>4.1.0 Compatibility Patch</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2425/samswats-anime-rear-sights-40-port/1.4.0",
+      "content_length": 4017355,
+      "spt_version_constraint": "~4.1.0",
+      "downloads": 585,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-06T19:22:00.000000Z",
+      "created_at": "2026-08-06T19:23:19.000000Z",
+      "updated_at": "2026-08-07T06:02:14.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14128,
+      "hub_id": null,
+      "version": "1.3.0",
+      "description": "<h1>Changelog</h1>\n<ul>\n<li>General optimizations (Mod loads in ~100ms)</li>\n<li>Fixed Epic’s All in One incompatibility.\n<ul>\n<li>Epic AIO was overwriting my filters, so I decided to load the filters last.</li>\n</ul>\n</li>\n<li>Sight names/description now applies to all locales, even if one isn’t really configured.</li>\n<li>Added sights to static loot pool.\n<ul>\n<li>Didn’t have time to test this. Let me know if there’s a need to increase spawn chance.</li>\n</ul>\n</li>\n<li>Added missing Anti sight (It had locale, but no item registered)</li>\n</ul>\n<p><strong>Full Changelog</strong>: <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/yuyuimoe/SamSwat-AnimeSights-4.0/compare/1.0.0...1.3.0\" rel=\"noreferrer noopener\">https://github.com/yuyuimoe/SamSwat-AnimeSights-4.0/compare/1.0.0...1.3.0</a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2425/samswats-anime-rear-sights-40-port/1.3.0",
+      "content_length": 4015614,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 1076,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-17T22:03:00.000000Z",
+      "created_at": "2026-07-17T22:04:05.000000Z",
+      "updated_at": "2026-07-28T09:40:48.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12185,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>This version marks the full release of the mod.</p>\n<p>Known issues:</p>\n<ul>\n<li>Sights will not spawn in containers. Which means it can only be bought</li>\n<li>English is the only language being loaded.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2425/samswats-anime-rear-sights-40-port/1.0.0",
+      "content_length": 4006739,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 6863,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-05T18:07:00.000000Z",
+      "created_at": "2025-11-05T21:04:08.000000Z",
+      "updated_at": "2026-07-28T06:15:08.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2425/WeebSights-1.4.0.zip",
+    "bytes_written": 4017355,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1089774424/1a5e8e64-3c44-48bb-9f2f-104663cc819f?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A22%3A42Z&rscd=attachment%3B+filename%3DWeebSights-1.4.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A22%3A27Z&ske=2026-08-10T10%3A22%3A42Z&sks=b&skv=2018-11-09&sig=hJEA%2FcEKDKXYPOfxuX0889vuMnC9AjeKztC5N%2FiQKLA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NDk5NywibmJmIjoxNzg2MzU0Njk3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.m-Y6TM2qDCi1Ejrsl_NtIQBXjdF-2tq4qEQAfZUNF_o&response-content-disposition=attachment%3B%20filename%3DWeebSights-1.4.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2425/samswats-anime-rear-sights-40-port-1.3.0-spt40.zip",
+    "bytes_written": 4015614,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1089774424/c2e1759e-c5ba-44b4-89f9-3693aa9e356f?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T13%3A00%3A47Z&rscd=attachment%3B+filename%3DWeebSights-1.3.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T12%3A00%3A32Z&ske=2026-08-10T13%3A00%3A47Z&sks=b&skv=2018-11-09&sig=3a1e9l%2B0NxR8GJ6LYAi89zNH1W9aDuUGBmSkV3UHqjk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzYwMSwibmJmIjoxNzg2MzYzMzAxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Qa8QKkTGw32eaO8BhnuyhVpFgAG9jy7LmusrlI4xz-8&response-content-disposition=attachment%3B%20filename%3DWeebSights-1.3.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.3.0",
+    "same_as_primary_download": false
+  }
+}

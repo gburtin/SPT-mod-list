@@ -1,0 +1,245 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1988,
+      "hub_id": 2668,
+      "guid": "com.dvize.bullettime",
+      "name": "Low Budget Bullet Time NG",
+      "slug": "low-budget-bullet-time-ng",
+      "teaser": "Want to slow down time to corner peak a bunch of AI? Now you can... with some limitations",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2668.png",
+      "downloads": 8423,
+      "favourites_count": 7,
+      "description": "<p><strong>Installation</strong></p>\n<p>1. Unzip directly into your SPT directory and it should install itself to your bepinex/plugins folder as dvize.BulletTime folder with ogg sound files and a dvize.BulletTime.dll within it.</p>\n<p>2. You can replace the ogg files with your own sounds, just keep the same name.</p>\n<p><strong>issues</strong></p>\n<p>1. Jumping is funky in bullet time mode.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1988/low-budget-bullet-time-ng",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2025-01-27T11:17:00.000000Z",
+      "created_at": "2025-01-27T11:17:28.000000Z",
+      "updated_at": "2026-07-28T06:04:27.000000Z",
+      "owner": {
+        "id": 69402,
+        "name": "flir",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/c6b09b9b0ec85eafdaed4a0fcd100ec77d72d939_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-12-12T12:24:24.000000Z",
+        "updated_at": "2026-08-09T14:14:47.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 15516,
+          "name": "Props",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/53f17847d86ea53a84f69a549ce2b50baf31d665_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2022-03-09T07:33:42.000000Z",
+          "updated_at": "2026-07-10T04:50:00.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 11878,
+          "hub_id": null,
+          "version": "2.5.0",
+          "description": "Ported to SPT 4",
+          "link": "https://forge.sp-tarkov.com/mod/download/1988/low-budget-bullet-time-ng/2.5.0",
+          "content_length": 66602,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 3400,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-17T12:46:22.000000Z",
+          "created_at": "2025-10-17T12:43:32.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 691,
+          "hub_id": 14134,
+          "version": "2.0.4",
+          "description": "This is a maintenance release:\n\n\\- fixed deprecation warnings for UnityWebRequest.Result.ConnectionError and UnityWebRequest.Result.ProtocolError\n\n\\- made the project work with dotnet on Linux\n\n\\- switched from .net 4.7.1 to 4.7.2\n\n\\- remove version requirements for references (BepInEx, Harmony...)\n\n\\- added explicit references to Sirenix.Serialization, Sirenix.Serialization.Config, Sirenix.Utilities\n\n\\- remove old powershell postbuild (replaced by python tooling to package and upload)\n\n\\- added a task file to ease commands",
+          "link": "https://forge.sp-tarkov.com/mod/download/1988/low-budget-bullet-time-ng/2.0.4",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 887,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-01T10:08:44.000000Z",
+          "created_at": "2025-05-01T10:08:44.000000Z",
+          "updated_at": "2026-05-14T01:37:48.000000Z"
+        },
+        {
+          "id": 560,
+          "hub_id": 14295,
+          "version": "2.0.4+1",
+          "description": "\\- fixed packaging to add the ogg files in the release... Thanks to [LeGourmet](https://hub.sp-tarkov.com/user/30664-legourmet/) for reporting this bug!",
+          "link": "https://forge.sp-tarkov.com/mod/download/1988/low-budget-bullet-time-ng/2.0.4+1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1354,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-20T07:18:50.000000Z",
+          "created_at": "2025-05-20T07:18:50.000000Z",
+          "updated_at": "2026-05-14T01:37:42.000000Z"
+        },
+        {
+          "id": 1127,
+          "hub_id": 13652,
+          "version": "2.0.3",
+          "description": "Recompiled for 3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/1988/low-budget-bullet-time-ng/2.0.3",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 935,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-17T16:47:11.000000Z",
+          "created_at": "2025-03-17T16:47:11.000000Z",
+          "updated_at": "2026-05-14T01:38:06.000000Z"
+        },
+        {
+          "id": 1413,
+          "hub_id": 13348,
+          "version": "2.0.2",
+          "description": "This version fixes a bug that made SFX only play during first raid and not during subsequent raids.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1988/low-budget-bullet-time-ng/2.0.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 831,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-02-09T15:31:57.000000Z",
+          "created_at": "2025-02-09T15:31:57.000000Z",
+          "updated_at": "2026-05-14T01:38:37.000000Z"
+        },
+        {
+          "id": 1484,
+          "hub_id": 13275,
+          "version": "2.0.1",
+          "description": "Fixed bug when the player died or exfilled with the Bullet Time activated and Time.timescale stayed slowed in the whole GUI and hideout afterwards.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1988/low-budget-bullet-time-ng/2.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 399,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-02-01T22:55:48.000000Z",
+          "created_at": "2025-02-01T22:55:48.000000Z",
+          "updated_at": "2026-05-14T01:38:40.000000Z"
+        },
+        {
+          "id": 1514,
+          "hub_id": 13239,
+          "version": "2.0.0",
+          "description": "3.10 port, and internal tooling. NOT tested with Fika...",
+          "link": "https://forge.sp-tarkov.com/mod/download/1988/low-budget-bullet-time-ng/2.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 617,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-27T11:17:28.000000Z",
+          "created_at": "2025-01-27T11:17:28.000000Z",
+          "updated_at": "2026-05-14T01:38:42.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://gitlab.com/flir063-spt/bullettime",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11878,
+      "hub_id": null,
+      "version": "2.5.0",
+      "description": "<p>Ported to SPT 4</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1988/low-budget-bullet-time-ng/2.5.0",
+      "content_length": 66602,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 3400,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-17T12:46:22.000000Z",
+      "created_at": "2025-10-17T12:43:32.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 691,
+      "hub_id": 14134,
+      "version": "2.0.4",
+      "description": "<p>This is a maintenance release:</p>\n<p>- fixed deprecation warnings for UnityWebRequest.Result.ConnectionError and UnityWebRequest.Result.ProtocolError</p>\n<p>- made the project work with dotnet on Linux</p>\n<p>- switched from .net 4.7.1 to 4.7.2</p>\n<p>- remove version requirements for references (BepInEx, Harmony…)</p>\n<p>- added explicit references to Sirenix.Serialization, Sirenix.Serialization.Config, Sirenix.Utilities</p>\n<p>- remove old powershell postbuild (replaced by python tooling to package and upload)</p>\n<p>- added a task file to ease commands</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1988/low-budget-bullet-time-ng/2.0.4",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 887,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-01T10:08:44.000000Z",
+      "created_at": "2025-05-01T10:08:44.000000Z",
+      "updated_at": "2026-05-14T01:37:48.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1127,
+      "hub_id": 13652,
+      "version": "2.0.3",
+      "description": "<p>Recompiled for 3.11</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1988/low-budget-bullet-time-ng/2.0.3",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 935,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-17T16:47:11.000000Z",
+      "created_at": "2025-03-17T16:47:11.000000Z",
+      "updated_at": "2026-05-14T01:38:06.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1514,
+      "hub_id": 13239,
+      "version": "2.0.0",
+      "description": "<p>3.10 port, and internal tooling. NOT tested with Fika…</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1988/low-budget-bullet-time-ng/2.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 617,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-01-27T11:17:28.000000Z",
+      "created_at": "2025-01-27T11:17:28.000000Z",
+      "updated_at": "2026-05-14T01:38:42.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1988/dvize.BulletTime-v2.0.5.0.zip filenameUTF-8dvize.BulletTime-v2.0.5.0.zip",
+    "bytes_written": 66602,
+    "final_url": "https://gitlab.com/flir063-spt/bullettime/-/package_files/238689545/download",
+    "content_type": "application/zip"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "2.5.0",
+    "same_as_primary_download": true
+  }
+}

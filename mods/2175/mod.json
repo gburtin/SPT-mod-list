@@ -1,0 +1,134 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2175,
+      "hub_id": 2878,
+      "guid": "com.amightytank.limitless",
+      "name": "🛠️ Limitless – Unlimited or Multiply Buy Limits",
+      "slug": "limitless-unlimited-or-multiply-buy-limits",
+      "teaser": "No more running out of ammo or gear due to stock restrictions — unless you want to keep a higher limit. It’s all configurable.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2878.png",
+      "downloads": 3542,
+      "favourites_count": 4,
+      "description": "<p>Customize or completely remove both <strong>global</strong> and <strong>personal</strong> purchase limits from every trader’s assortment.</p>\n<h2>💾 Installation</h2>\n<ol>\n<li>Download the ZIP.</li>\n<li>Extract the <code>spt</code> folder.</li>\n<li>Start the server — done.</li>\n</ol>\n<h2>⚙️ Configuration</h2>\n<p><code>user/mods/Limitless/config.json</code>:</p>\n<pre><code>{\n  \"PersonalLimits\": {\n    \"Unlimited\": true,\n    \"Multiplier\": 5\n  },\n  \"GlobalLimits\": {\n    \"Unlimited\": true,\n    \"Multiplier\": 5\n  }\n}\n</code></pre>\n<ul>\n<li><strong>PersonalLimits</strong> — how many of an item <em>one character</em> can buy before a trader’s stock resets.</li>\n<li><strong>GlobalLimits</strong> — the shared stock available to <em>all</em> characters. Never touches an item’s price.</li>\n</ul>\n<p>Each section has two settings:</p>\n<ul>\n<li><strong><code>Unlimited</code></strong> — <code>true</code> removes that limit entirely.</li>\n<li><strong><code>Multiplier</code></strong> — only used when <code>Unlimited</code> is <code>false</code>. Scales the original value: <code>1</code> leaves it unchanged, <code>5</code> makes it 5× larger, and so on.</li>\n</ul>\n<p>✅ <strong>Default</strong>: both limits are fully removed (<code>Unlimited: true</code> on both).</p>\n<h2>🖥️ Edit it live from the Server Information Center</h2>\n<p>Limitless registers with SPT 4.1’s <strong>Server Information Center → Configs</strong> page, so you can flip these toggles and change the multiplier from your browser while the server is running — no file editing, no restart.</p>\n<h2>🧾 Example Logs</h2>\n<p>On load:</p>\n<pre><code>[Limitless] Applied to 5525 item(s) (personalLimits: unlimited, globalLimits: unlimited)\n</code></pre>\n<h2>🔧 Compatibility</h2>\n<p>Rewritten from the ground up in C# for <strong>SPT 4.1.1</strong>. SPT’s server moved from Node.js/TypeScript to .NET in the 4.x line, so old JS-based mods (including earlier Limitless releases) can’t load on it — this is a full rewrite, not a patch. If you’re still on <strong>SPT 3.11.x</strong>, grab the older <code>0.1.1</code> release instead.</p>\n<p>Let me know if you need help or have suggestions.</p>\n<p>Enjoy limitless buying! 💰</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2175/limitless-unlimited-or-multiply-buy-limits",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 2,
+      "published_at": "2025-06-09T03:15:00.000000Z",
+      "created_at": "2025-06-09T03:15:43.000000Z",
+      "updated_at": "2026-08-03T18:02:24.000000Z",
+      "owner": {
+        "id": 59864,
+        "name": "AmightyTank",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/ca455d7c3c3a7a3a5f0c349de15469a9aedb1443_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-07-29T05:47:41.000000Z",
+        "updated_at": "2026-08-10T01:29:30.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14436,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Full rewrite for SPT 4.1.1. SPT's server moved from Node.js/TypeScript to C#/.NET in the 4.x line, so old JS-based mods (including earlier Limitless releases) can't load on it anymore — this is a ground-up rewrite, not a patch.\n\n## What's new\n- Rewritten in C# against the SPT 4.1.1 server API\n- Fixed a bug in the original where \"global limits\" mutated `barter_scheme` (an item's price) instead of the item's actual stock fields — global limits no longer affect price\n- Config simplified to `PersonalLimits` / `GlobalLimits`, each with `Unlimited` (bool) and `Multiplier` (only used when `Unlimited` is false; `1` = no change)\n- Registers with SPT 4.1's Server Information Center \"Configs\" page, so settings can be viewed and edited live from the browser without restarting the server\n\n## Installation\nExtract the zip at the root of your SPT install — files land in `SPT_Runtime/user/mods/Limitless/`.\n\nIf you're still on SPT 3.11.x, use the `3.11-0.1.1` release instead.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2175/limitless-unlimited-or-multiply-buy-limits/1.0.0",
+          "content_length": 27217,
+          "spt_version_constraint": "~4.1.1",
+          "downloads": 1011,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-03T14:57:00.000000Z",
+          "created_at": "2026-08-03T14:58:19.000000Z",
+          "updated_at": "2026-08-03T18:02:24.000000Z"
+        },
+        {
+          "id": 452,
+          "hub_id": 14413,
+          "version": "0.1.0",
+          "description": "I've tested everything i can test. Everything should work like it needs too. Leave a comment if it doesn't.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2175/limitless-unlimited-or-multiply-buy-limits/0.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2531,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-09T03:15:43.000000Z",
+          "created_at": "2025-06-09T03:15:43.000000Z",
+          "updated_at": "2026-05-14T01:47:55.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 2,
+        "hub_id": 79,
+        "title": "Overhauls",
+        "slug": "overhauls",
+        "description": "Large-scale mod packs that overhaul many game systems. Typically combines both client-side and server-side mods into one package."
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/AlmightyTank/Limitless",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14436,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Full rewrite for SPT 4.1.1. SPT’s server moved from Node.js/TypeScript to C#/.NET in the 4.x line, so old JS-based mods (including earlier Limitless releases) can’t load on it anymore — this is a ground-up rewrite, not a patch.</p>\n<h2>What’s new</h2>\n<ul>\n<li>Rewritten in C# against the SPT 4.1.1 server API</li>\n<li>Fixed a bug in the original where “global limits” mutated <code>barter_scheme</code> (an item’s price) instead of the item’s actual stock fields — global limits no longer affect price</li>\n<li>Config simplified to <code>PersonalLimits</code> / <code>GlobalLimits</code>, each with <code>Unlimited</code> (bool) and <code>Multiplier</code> (only used when <code>Unlimited</code> is false; <code>1</code> = no change)</li>\n<li>Registers with SPT 4.1’s Server Information Center “Configs” page, so settings can be viewed and edited live from the browser without restarting the server</li>\n</ul>\n<h2>Installation</h2>\n<p>Extract the zip at the root of your SPT install — files land in <code>SPT_Runtime/user/mods/Limitless/</code>.</p>\n<p>If you’re still on SPT 3.11.x, use the <code>3.11-0.1.1</code> release instead.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2175/limitless-unlimited-or-multiply-buy-limits/1.0.0",
+      "content_length": 27217,
+      "spt_version_constraint": "~4.1.1",
+      "downloads": 1011,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-03T14:57:00.000000Z",
+      "created_at": "2026-08-03T14:58:19.000000Z",
+      "updated_at": "2026-08-03T18:02:24.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 452,
+      "hub_id": 14413,
+      "version": "0.1.0",
+      "description": "<p>I’ve tested everything i can test. Everything should work like it needs too. Leave a comment if it doesn’t.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2175/limitless-unlimited-or-multiply-buy-limits/0.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2531,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-06-09T03:15:43.000000Z",
+      "created_at": "2025-06-09T03:15:43.000000Z",
+      "updated_at": "2026-05-14T01:47:55.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2175/Limitless-1.0.0.zip",
+    "bytes_written": 27217,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/998650217/e04ff57c-1a43-497e-a4f1-ccd9dc531b86?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A23%3A47Z&rscd=attachment%3B+filename%3DLimitless-1.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A23%3A01Z&ske=2026-08-10T10%3A23%3A47Z&sks=b&skv=2018-11-09&sig=qgunDYVQEQPWY%2Bw9rU2LTAe6IyxQI5vcpwXcblPrOL0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTQyOCwibmJmIjoxNzg2MzU1MTI4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ._q7pW5UmdcyNy4wr_-cHWoz3CP0EZed8wBRd2OUvsug&response-content-disposition=attachment%3B%20filename%3DLimitless-1.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": false
+  }
+}

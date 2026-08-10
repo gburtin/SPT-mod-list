@@ -1,0 +1,428 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2875,
+      "hub_id": null,
+      "guid": "com.wtt.cag",
+      "name": "WTT - Clothing and Gear [BETA]",
+      "slug": "wtt-clothing-and-gear-beta",
+      "teaser": "lousy smarch weather...",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/LJvIPCaFylDVXM7wY0HVsAa2EDPS4AQ6rFDj72rz.png",
+      "downloads": 702,
+      "favourites_count": 28,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">What is CAG?</div>\n<div class=\"tab-content\"><p><strong>THIS VERSION OF CAG IS A PRE-RELEASE, EXPECT SOME BUGS.</strong></p>\n\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://imgup.uk/i/Z6vsyNQI.png\" alt=\"Image\" /></p>\n<p>WTT-Clothing and Gear (CAG) is the WTT-Armory equivalent for clothing mods, adding new high-quality Clothing, Armor, and Headgear to the game, all of which is friendly to the style of the Game’s existing assets.</p>\n\n<p>(Mostly) Everything in this mod is added to the <strong>CAG Specific Trader, Hoser,</strong> who only sells items from this mod, and nothing else.</p>\n<p>He does not have any quests, for now.</p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">The Wiki</div>\n<div class=\"tab-content\"><p><strong>As a side-project, I have (mostly singlehandedly, sorry noodal) been working on a comprehensive Wiki Page for WTT projects. THIS IS UNFINISHED, BUT HAS A LOT OF EXISTING DATA.</strong></p>\n<p>You can find it here:\n<a target=\"_blank\" class=\"external-link\" href=\"https://welcometotarkov.wiki.gg/wiki/Clothing_and_Gear_(CAG)\" rel=\"noreferrer noopener\">https://welcometotarkov.wiki.gg/wiki/Clothing_and_Gear_(CAG)</a></p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Gallery</div>\n<div class=\"tab-content\"><p><img loading=\"lazy\" decoding=\"async\" src=\"https://imgup.uk/i/hZr4Sa9I.png\" alt=\"Image\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://imgup.uk/i/EB1t9hvw.png\" alt=\"Image\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://imgup.uk/i/KXyQaCCT.png\" alt=\"Gallery 1\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://imgup.uk/i/w5fIEygS.png\" alt=\"Gallery 1\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://imgup.uk/i/djMwEEtE.png\" alt=\"Image\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://imgup.uk/i/7CFcT6E2.png\" alt=\"Render\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://imgup.uk/i/YhCUnvg6.png\" alt=\"Render\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://imgup.uk/i/SNcIV9pI.png\" alt=\"Render\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://imgup.uk/i/16PeVzoD.png\" alt=\"Render\" />\n<strong>UNRELEASED ITEMS, COMING SOON</strong>\n<img loading=\"lazy\" decoding=\"async\" src=\"https://imgup.uk/i/R7QeXfoZ.png\" alt=\"Render\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://imgup.uk/i/MV1XLD5H.png\" alt=\"Render\" /></p></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">The Team</div>\n<div class=\"tab-content\"><p><strong>Dar’Zhar</strong> | Assets &amp; QA</p>\n<p><strong>Eco</strong> | Asset Fixing and QA</p>\n<p><strong>Eukyre (Myself)</strong> | Almost all Assets and Balancing</p>\n<p><strong>GrooveyPenguinX</strong> | Codebase &amp; QA</p>\n<p><strong>Rwby</strong> | Assorts</p>\n<p><strong>Tron</strong> | Assorts &amp; (some) Assets</p>\n<p><strong>Pein</strong> | he had the “what is wtt?” copypasta i needed</p>\n<p><strong>Pigeon</strong> | diamond 1 procrastinator</p></div></div>\n<div id=\"tabset-1-panel-5\" class=\"tab-panel\"><div class=\"tab-title\">What is WTT?</div>\n<div class=\"tab-content\"><p><strong>What is Welcome To Thursday ?</strong></p>\n<p>Welcome To Thursday (WTT) is a mod for SPT AKI that has been in development for over a year. What started as a small passion project has grown in size to incorporate 15+ core members as well as contributions from other well-known mod authors and friends of WTT alike.</p>\n<p><strong>How does Welcome To Thursday change the game?</strong></p>\n<p>As a mod, WTT overhauls SPT, touching on almost every vanilla game system, as well as adding completely new systems to the game and its core mechanics. Inspired by open-world hardcore survival projects like STALKER: Anomaly and STALKER: GAMMA, WTT takes SPT’s artificial multiplayer MMO difficulty adders and replaces them with a challenging world economy, loot scarcity rebalancing, a lore friendly quest overhaul, and a map-traveling system built from rewritten portions of the Traveler mod allowing seamless travel between maps. Aside from its changes to the game’s core properties, WTT also adds to the world’s variety of traders, NPC’s, characters, items, and quests:</p>\n<p>Over 1,000 custom bundles adding new weapons, attachments, wearables, containers, food, medical, and barter items.\nNew bosses with their own custom gear that will be properly incorporated into WTT’s quest lines.\nNew, meaningful traders with their own lore-friendly quests and narrative elements to help the player progress through the story-line of WTT.\nNew playable characters and outfits that will add to the player’s customization abilities.\nNew quest types incorporating brand new map extraction points, putting the player’s knowledge and familiarization of SPT’s maps to the test.\nWelcome To Thursday stands as one of the largest mods created for SPT thus far.</p>\n<p><strong>When does Welcome To Thursday release?</strong></p>\n<p>Take a guess from the name.</p>\n<p><strong>Which Thursday?</strong></p>\n<p>TBD</p>\n<p><strong>Want to follow our progress?</strong></p>\n<p>You can follow the project through it’s development in our discord here:</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://discord.gg/Nz6VX78xRa\" rel=\"noreferrer noopener\">https://discord.gg/Nz6VX78xRa</a></p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2875/wtt-clothing-and-gear-beta",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": true,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 15,
+      "published_at": "2026-08-01T11:00:00.000000Z",
+      "created_at": "2026-08-02T00:16:44.000000Z",
+      "updated_at": "2026-08-10T06:02:25.000000Z",
+      "owner": {
+        "id": 58981,
+        "name": "probablyEukyre",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/6b14f569dfc35cbab2a39266e8b20b20f3a9ca62_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/luydB7qfy3yKsLjY09U1gO5qMQG0bOgi9rVtP8ql.png",
+        "created_at": "2024-07-21T15:22:59.000000Z",
+        "updated_at": "2026-08-09T23:58:05.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 22121,
+          "name": "Tron",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+          "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+          "created_at": "2022-08-31T05:49:04.000000Z",
+          "updated_at": "2026-08-10T09:32:43.000000Z"
+        },
+        {
+          "id": 30890,
+          "name": "GrooveypenguinX",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2023-05-07T19:55:52.000000Z",
+          "updated_at": "2026-08-09T14:03:01.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 14600,
+          "hub_id": null,
+          "version": "0.1.3",
+          "description": "## v0.1.3 for SPT 4.0.X\nThanks again to everybody who reported bugs to us during this process, your insight is absolutely crucial to helping us make this mod perfect! <3\n### New Content\n- UNTAR high cut helmet (Works for quests!)\n- Zero Foxtrot Woobie Hoodie (available Hoser LL3)\n- Spiritus Systems LV-120 (Olive Drab)\n- Platatac Bullock Echo bag (M81 & Coyote)\n### Bug Fixes\n- Fixed a naming inconsistency that caused NREs on Linux\n- Added ConflictingItems to headsets to prevent double-stacking\n- Fixed REV-X headset using a placeholder description\n- Changed RootNamespace to better match the project\n- Fixed an error that was causing the AM95 to have level 1 armor\n- Fixed a bug that was causing FIKA users to be unable to extract from a raid\n- Fixed a bug with the PICO-DS plate carrier that allowed any item to go into medical slots\n- Fixed Crye AirFrame (Black) having no soft armor inserts.\n- Bumped the mod's load order to be above Backport for renaming purposes\n- Fixed the DTNVS not being available on the Wilcox L4G24 mounts\n- Fixed Assort bugs and tweaked values\n### Gallery\n![Image](https://imgup.uk/i/djMwEEtE.png)\n![Image](https://imgup.uk/i/rSnk3cP7.png)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2875/wtt-clothing-and-gear-beta/0.1.3",
+          "content_length": 1000158543,
+          "spt_version_constraint": "~4.0.10",
+          "downloads": 702,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-09T18:30:00.000000Z",
+          "created_at": "2026-08-09T19:01:22.000000Z",
+          "updated_at": "2026-08-10T06:02:25.000000Z"
+        }
+      ],
+      "license": {
+        "id": 16,
+        "hub_id": 19,
+        "name": "Creative Commons BY-NC-ND 4.0",
+        "link": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 15,
+        "hub_id": 78,
+        "title": "Equipment",
+        "slug": "equipment",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/WelcomeToTarkov/WTT-CAG/tree/4.0",
+          "label": "4.0 Github"
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14600,
+      "hub_id": null,
+      "version": "0.1.3",
+      "description": "<h2>v0.1.3 for SPT 4.0.X</h2>\n<p>Thanks again to everybody who reported bugs to us during this process, your insight is absolutely crucial to helping us make this mod perfect! &lt;3</p>\n<h3>New Content</h3>\n<ul>\n<li>UNTAR high cut helmet (Works for quests!)</li>\n<li>Zero Foxtrot Woobie Hoodie (available Hoser LL3)</li>\n<li>Spiritus Systems LV-120 (Olive Drab)</li>\n<li>Platatac Bullock Echo bag (M81 &amp; Coyote)</li>\n</ul>\n<h3>Bug Fixes</h3>\n<ul>\n<li>Fixed a naming inconsistency that caused NREs on Linux</li>\n<li>Added ConflictingItems to headsets to prevent double-stacking</li>\n<li>Fixed REV-X headset using a placeholder description</li>\n<li>Changed RootNamespace to better match the project</li>\n<li>Fixed an error that was causing the AM95 to have level 1 armor</li>\n<li>Fixed a bug that was causing FIKA users to be unable to extract from a raid</li>\n<li>Fixed a bug with the PICO-DS plate carrier that allowed any item to go into medical slots</li>\n<li>Fixed Crye AirFrame (Black) having no soft armor inserts.</li>\n<li>Bumped the mod’s load order to be above Backport for renaming purposes</li>\n<li>Fixed the DTNVS not being available on the Wilcox L4G24 mounts</li>\n<li>Fixed Assort bugs and tweaked values</li>\n</ul>\n<h3>Gallery</h3>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://imgup.uk/i/djMwEEtE.png\" alt=\"Image\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://imgup.uk/i/rSnk3cP7.png\" alt=\"Image\" /></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2875/wtt-clothing-and-gear-beta/0.1.3",
+      "content_length": 1000158543,
+      "spt_version_constraint": "~4.0.10",
+      "downloads": 702,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-09T18:30:00.000000Z",
+      "created_at": "2026-08-09T19:01:22.000000Z",
+      "updated_at": "2026-08-10T06:02:25.000000Z",
+      "dependencies": [
+        {
+          "id": 2246,
+          "hub_id": 2952,
+          "guid": "com.wtt.armory",
+          "name": "WTT- Armory",
+          "slug": "wtt-armory",
+          "teaser": "The official weapons pack forged by the WTT developers & friends...  Arm yourself accordingly...",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/2952.jpg",
+          "downloads": 247168,
+          "favourites_count": 286,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2246/wtt-armory",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 13,
+          "published_at": "2025-08-08T03:08:00.000000Z",
+          "created_at": "2025-08-08T03:08:00.000000Z",
+          "updated_at": "2026-07-28T08:14:57.000000Z",
+          "owner": {
+            "id": 22121,
+            "name": "Tron",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+            "created_at": "2022-08-31T05:49:04.000000Z",
+            "updated_at": "2026-08-10T09:32:43.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 44,
+              "name": "Choccy Milk",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/385222d64fa85020e601547d6e3f90cd761236d0_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2020-07-03T04:06:15.000000Z",
+              "updated_at": "2026-07-10T04:49:17.000000Z"
+            },
+            {
+              "id": 30890,
+              "name": "GrooveypenguinX",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2023-05-07T19:55:52.000000Z",
+              "updated_at": "2026-08-09T14:03:01.000000Z"
+            },
+            {
+              "id": 36153,
+              "name": "EpicRangeTime",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/80209a4aec54836a03e10eeabd944d2668084215_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/e92f6113cef81fe9a7ad58950e63d8fb25468163_1280w.webp",
+              "created_at": "2023-08-26T03:19:00.000000Z",
+              "updated_at": "2026-08-09T19:17:01.000000Z"
+            },
+            {
+              "id": 58981,
+              "name": "probablyEukyre",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/6b14f569dfc35cbab2a39266e8b20b20f3a9ca62_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/luydB7qfy3yKsLjY09U1gO5qMQG0bOgi9rVtP8ql.png",
+              "created_at": "2024-07-21T15:22:59.000000Z",
+              "updated_at": "2026-08-09T23:58:05.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13288,
+              "hub_id": null,
+              "version": "2.0.5",
+              "description": "<p>-Fix for MSBS Grot stock angle </p>\n<p>-Added cubemaps to multiple weapons and attachments </p>\n<p>-Various bundle tweaks/optimizations </p>\n<p>-Fixed bundles.json to include some missing quest bundles </p>\n<p>-Fixed various locales</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2246/wtt-armory/2.0.5",
+              "content_length": 4742653444,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 79645,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-03-20T17:28:00.000000Z",
+              "created_at": "2026-03-20T17:33:38.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            }
+          ],
+          "category": {
+            "id": 13,
+            "hub_id": 76,
+            "title": "Weapons",
+            "slug": "weapons",
+            "description": ""
+          }
+        },
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338312,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14228,
+              "hub_id": null,
+              "version": "2.0.23",
+              "description": "<p>reduced the error logging to be behind config.\nMODDERS THAT USE COMMONLIB - ENABLE ITEM DEBUGGING IN THE CONFIG AND FIX YOUR SHIT</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.23",
+              "content_length": 245746,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 25429,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-26T04:25:00.000000Z",
+              "created_at": "2026-07-26T04:26:24.000000Z",
+              "updated_at": "2026-07-28T18:02:31.000000Z"
+            },
+            {
+              "id": 14222,
+              "hub_id": null,
+              "version": "2.0.22",
+              "description": "<ul>\n<li>FINALLY fixed salvage zones :prayge:</li>\n<li>salvage zone UI update + icon!</li>\n<li>add random craft result amount options</li>\n<li>initialized buyrestrictioncurrent for traderhelper barters (ty for the detailed bug report!)</li>\n<li>added client handling for random craft amounts</li>\n<li>added better validation warnings and a config for validation logging</li>\n<li>added fixplugintypesserialization patcher (thank you tarkin ❤️)</li>\n<li>added new quest service for making quest items</li>\n<li>removed dependency on spt customitemservice</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.22",
+              "content_length": 245907,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 2925,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-25T17:47:00.000000Z",
+              "created_at": "2026-07-25T17:47:29.000000Z",
+              "updated_at": "2026-07-28T09:55:31.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        },
+        {
+          "id": 2512,
+          "hub_id": null,
+          "guid": "com.wtt.contentbackport",
+          "name": "WTT - Content Backport",
+          "slug": "wtt-content-backport",
+          "teaser": "The moment you've all been waiting for....",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/55TZW6CnHJHPtEYdFvuJWmHazdFuhlCiMLfsbagQ.jpg",
+          "downloads": 380784,
+          "favourites_count": 500,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2512/wtt-content-backport",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 2,
+          "published_at": "2025-12-26T03:52:00.000000Z",
+          "created_at": "2025-12-26T03:52:16.000000Z",
+          "updated_at": "2026-08-03T06:02:25.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            },
+            {
+              "id": 36153,
+              "name": "EpicRangeTime",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/80209a4aec54836a03e10eeabd944d2668084215_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/e92f6113cef81fe9a7ad58950e63d8fb25468163_1280w.webp",
+              "created_at": "2023-08-26T03:19:00.000000Z",
+              "updated_at": "2026-08-09T19:17:01.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14391,
+              "hub_id": null,
+              "version": "1.1.3",
+              "description": "<ul>\n<li>fixed airframe chops AGAIN</li>\n<li>fixed di optical fc1 sight mount</li>\n<li>removed wedge head from being available to players</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.1.3",
+              "content_length": 4147088902,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 16795,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-08-02T19:32:00.000000Z",
+              "created_at": "2026-08-02T19:32:03.000000Z",
+              "updated_at": "2026-08-03T06:02:25.000000Z"
+            },
+            {
+              "id": 14284,
+              "hub_id": null,
+              "version": "1.1.2",
+              "description": "<ul>\n<li>fixed airframe chops missing texture bundle</li>\n<li>blacklisted new keycards and keys from pmc loot/rewards</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.1.2",
+              "content_length": 4148941929,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 18125,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-29T14:33:00.000000Z",
+              "created_at": "2026-07-29T14:33:43.000000Z",
+              "updated_at": "2026-07-29T18:02:19.000000Z"
+            }
+          ],
+          "category": {
+            "id": 2,
+            "hub_id": 79,
+            "title": "Overhauls",
+            "slug": "overhauls",
+            "description": "Large-scale mod packs that overhaul many game systems. Typically combines both client-side and server-side mods into one package."
+          }
+        }
+      ]
+    }
+  ],
+  "addons": [
+    {
+      "id": 100,
+      "name": "CAG BRNVG patch",
+      "slug": "cag-brnvg-patch",
+      "teaser": "Official Compatibility to Borkel's RNVG",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/KVdTQ1mPguepBBJsrrXUAwOXRxAbeKCU47VPqypI.png",
+      "downloads": 534,
+      "detail_url": "https://forge.sp-tarkov.com/addon/100/cag-brnvg-patch",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2875,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-08-02T12:46:00.000000Z",
+      "created_at": "2026-08-02T13:04:45.000000Z",
+      "updated_at": "2026-08-09T19:07:57.000000Z",
+      "owner": {
+        "id": 58981,
+        "name": "probablyEukyre",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/6b14f569dfc35cbab2a39266e8b20b20f3a9ca62_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/luydB7qfy3yKsLjY09U1gO5qMQG0bOgi9rVtP8ql.png",
+        "created_at": "2024-07-21T15:22:59.000000Z",
+        "updated_at": "2026-08-09T23:58:05.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/WelcomeToTarkov/WTT-CAG-Addons/",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 198,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/100/cag-brnvg-patch/1.0.0",
+          "content_length": 171399,
+          "mod_version_constraint": "*",
+          "downloads": 534,
+          "published_at": "2026-08-02T13:06:00.000000Z",
+          "created_at": "2026-08-02T13:07:21.000000Z",
+          "updated_at": "2026-08-09T19:07:57.000000Z"
+        }
+      ]
+    }
+  ],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2875/WTT-CAGv0.1.3.7z",
+    "bytes_written": 1000158543,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1034694907/a908701a-209f-45fb-b46d-c4c95f064e1c?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T11%3A18%3A04Z&rscd=attachment%3B+filename%3DWTT-CAGv0.1.3.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T10%3A17%3A35Z&ske=2026-08-10T11%3A18%3A04Z&sks=b&skv=2018-11-09&sig=9bOJaCAtCoQiRUMIfnKqCICEZc0JCP9gt5dPSwEbuek%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MDc1MiwibmJmIjoxNzg2MzU3MTUyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.-zWC98UrSg6G_1A8PtMZJ2Dq4NQM0qvTNL-jOWHmov8&response-content-disposition=attachment%3B%20filename%3DWTT-CAGv0.1.3.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "0.1.3",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,486 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2825,
+      "hub_id": null,
+      "guid": "com.suomi.makshepard.smprt",
+      "name": "S&M PRT - Portable Radio Transmitter",
+      "slug": "sm-prt-portable-radio-transmitter",
+      "teaser": "Realistic portable radio communications for EFT + FIKA with the ability to talk during a raid, with detailed interface customization and raid recordings included.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/8O1zU2NqgKXrV4J0AMorzchJxAai9VZY0IGL2oQ5.png",
+      "downloads": 870,
+      "favourites_count": 6,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Requirements</div>\n<div class=\"tab-content\"><h4>For full functionality, the mod requires <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2326/project-fika\" rel=\"noreferrer noopener\">Project Fika</a>, otherwise the radio interaction functionality is unavailable. Radios act as additional items that also spawn in locations and can be bought from traders. In addition, they can be placed in the Hall of Fame.</h4>\n<hr /></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Features</div>\n<div class=\"tab-content\"><ul>\n<li>A dozen or so radios, each with its own range, sound quality, and transmission character;</li>\n<li>Spawning of radios in the world and their purchase from traders (at different loyalty levels);</li>\n<li>On‑screen status indicators in raid (radio on/off, transmit state, channel busy, duplex/simplex mode, signal strength) with detailed configuration options;</li>\n<li>A dedicated notification overlay with detailed configuration options;</li>\n<li>Recording of in‑raid conversations with save support and auto‑cleanup;</li>\n<li>Full localization into 8 languages (Russian, English, German, Spanish, French, Polish, Italian, and Czech);</li>\n<li>Support for the <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2513/batteries-not-included\" rel=\"noreferrer noopener\">Batteries Not Included</a> mod (for 4.0.13);</li>\n</ul>\n<hr /></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Installation</div>\n<div class=\"tab-content\"><ol>\n<li>Open the downloaded archive with 7zip (recommended)</li>\n<li>Locate the mod folder inside the 7zip archive</li>\n<li>Drag the selected folders (BepInEx and SPT) into your SPT client folder</li>\n</ol>\n<p><strong>Installation demonstration</strong> (<em>many thanks to DrakiaXYZ for the demo</em>):</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/34vXXDj.gif\" alt=\"Demonstration\" /></p>\n<hr /></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">Controls</div>\n<div class=\"tab-content\"><p>The radio uses key combinations, and each of them includes the VOIP key. By default this is the “K” key. If you have a different one, use the key you assigned – the combinations below are based on the original:</p>\n<p><code>Right Ctrl + K</code> — turn the radio on/off;</p>\n<p><code>Right Shift + K</code> — switch to another radio (if you have several in valid slots);</p>\n<p><code>Enter + K</code> — toggle Half‑Duplex/Duplex* mode (while the radio is on);</p>\n<p>To view radio recordings, the default key is <code>F9</code>, but this can be changed in the F12 settings.</p>\n<blockquote>\n<h5><em>Half‑Duplex is a transmission mode in which devices can exchange information in both directions, but only one at a time, not simultaneously</em></h5>\n<h5><em>Duplex is a radio mode in which the device can both transmit and receive signals at the same time. Not all radios in the game support this mode (it will be indicated in the description).</em></h5>\n</blockquote>\n<hr /></div></div>\n<div id=\"tabset-1-panel-5\" class=\"tab-panel\"><div class=\"tab-title\">Raid Recordings</div>\n<div class=\"tab-content\"><p>Optionally record radio traffic during a raid and listen back afterwards in a built-in browser — playback controls, waveform or spectrogram view, filtering, and auto-cleanup.</p>\n<p><strong>Off by default; enable it in F12.</strong></p>\n<hr /></div></div>\n<div id=\"tabset-1-panel-6\" class=\"tab-panel\"><div class=\"tab-title\">Settings</div>\n<div class=\"tab-content\"><p><strong>DO NOT FORGET TO ENABLE VOIP IN THE ESCAPE FROM TARKOV SETTINGS AND IN THE F12 FIKA SETTINGS MENU, OTHERWISE THE MOD WILL NOT WORK</strong>\n<strong>Enabling VOIP in FIKA settings</strong></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/K5lRuJF.png\" alt=\"AllowVOIP_inSettingsFIKA\" /></p>\n<p>The mod settings are located in‑game in the F12 menu under S&amp;M-PRT 1.0.* (the image below shows an older version, for reference):</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/n4a0WBA.png\" alt=\"SettingsPRT\" /></p>\n<p>Currently the settings are split into 8 sections:</p>\n<ul>\n<li><em>Hotkeys</em> – keybind settings for the radio</li>\n<li><em>Volume</em> – volume settings for receive signal, interference, and notifications</li>\n<li><em>Radio</em> – language settings, operation in the Labyrinth, and an experimental feature to transmit the sounds of gunfire near you</li>\n<li><em>Notifications</em> – notification style, opacity, and size settings</li>\n<li><em>Indicators</em> – indicator style, opacity, and size settings</li>\n<li><em>Colors</em> – indicator colour settings</li>\n<li><em>Raid Recordings</em> – theme settings for the recordings window, auto‑cleanup, and manual file cleaning</li>\n<li><em>Developer</em> – toggle for verbose logging and battery drain rate adjustment (for the battery mod)</li>\n</ul>\n<hr /></div></div>\n<div id=\"tabset-1-panel-7\" class=\"tab-panel\"><div class=\"tab-title\">Known Issues</div>\n<div class=\"tab-content\"><ul>\n<li><strong>When broadcasting inside buildings, sound quality degrades significantly due to the audio engine’s behaviour</strong> (currently unfixable);</li>\n<li>While in raid, if you open the menu with the ESC key, the radio indicators remain visible (currently unfixable);</li>\n</ul>\n<blockquote>\n<p>If you encounter any errors, please write in the comments or on Discord with a description of the issue and attach the logs: <code>\\BepInEx\\plugins\\prt-fika\\prt-fika.log</code></p>\n</blockquote>\n<hr /></div></div>\n<div id=\"tabset-1-panel-8\" class=\"tab-panel\"><div class=\"tab-title\">Credits</div>\n<div class=\"tab-content\"><ul>\n<li><em>Suomi</em> handled the engine‑side work: sourcing and adapting 3D radio models, bundling them into Unity AssetBundles, reverse‑engineering EFT’s internal classes/APIs with dnSpy, finding and organising sound assets, extensive in‑game testing across multiple sessions, and designing the on‑screen status indicator system (layout, behaviour, style);</li>\n<li><em>makshepard</em> provided guides, reference material, design feedback, suggested and jointly reviewed ideas, participated in testing at all stages of development, and also drowned one radio in a puddle;</li>\n<li><strong>Developed with the help of AI</strong>.</li>\n</ul>\n<hr /></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2825/sm-prt-portable-radio-transmitter",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>This project was developed with AI assistance for most of the C# code. The author has practically no prior C# experience — this was their first real hands-on project with the language, so AI help with writing and explaining the code was necessary.</p>\n<p>AI was used as an implementation tool under the author’s direction and testing — not as an autonomous replacement for their own engineering and QA work.</p>\n",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 12,
+      "published_at": "2026-07-18T15:00:00.000000Z",
+      "created_at": "2026-07-18T14:46:47.000000Z",
+      "updated_at": "2026-08-09T18:02:46.000000Z",
+      "owner": {
+        "id": 1274,
+        "name": "_Suomi",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/gKk5SaLCMX8A71mmKtsb8yfKmglyeeYKC5zX2R4i_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2021-01-10T07:03:07.000000Z",
+        "updated_at": "2026-08-10T01:39:13.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 117974,
+          "name": "makshepard",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/TBGyiqxmGvddSv5sftoFSvdkLs9OXXmZyMFkYhdh_256w.webp",
+          "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/B55ESoyjon6IfwtxBOSkO9bifIoA9VyuT8eOSUpj.gif",
+          "created_at": "2026-07-13T12:07:35.000000Z",
+          "updated_at": "2026-08-10T08:49:04.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 14592,
+          "hub_id": null,
+          "version": "1.0.1",
+          "description": "Experimental port of v1.0.0 to SPT 4.1.x. Nothing was added or changed — same mod, rebuilt against the new server and game APIs. Less tested than the stable build, so expect rough edges.\n\nNote: battery support is inactive here, since Batteries Not Included has no 4.1 release yet. The radios simply run as if no battery mod were installed.\n\n**VirusTotal:** [Client.dll](https://www.virustotal.com/gui/file/23e692534150c6ff97035f119bf0aeb00b084f29d5484ae20dd305ac677598c1) — clean (0/71). [Server.dll](https://www.virustotal.com/gui/file/4e71633abb61fe7e1d09c6a7e79cad7fbea5fd7a88f40b843ef4dfa7ff032bd6) — 1/71, a heuristic false positive (`susgen` = *suspicious generic*, fires on small unsigned .NET assemblies). Full source is on GitHub if you want to check it yourself.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2825/sm-prt-portable-radio-transmitter/1.0.1",
+          "content_length": 39273719,
+          "spt_version_constraint": "4.1.x",
+          "downloads": 136,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-09T14:15:00.000000Z",
+          "created_at": "2026-08-09T14:16:19.000000Z",
+          "updated_at": "2026-08-09T18:02:46.000000Z"
+        },
+        {
+          "id": 14572,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "## S&M-PRT v1.0.0\n\nBuilt for **SPT 4.0.13** · requires [Project Fika](https://forge.sp-tarkov.com/mod/2326/project-fika)\n\n> This release targets SPT **4.0.13** only. A build for 4.1.x will follow later.\n\n### Added\n\n- **Optional battery support.** With [Batteries Not Included](https://forge.sp-tarkov.com/mod/2513/batteries-not-included) installed, every radio now takes real AA or CR123A cells — 1 or 2 slots depending on the model, each with its own runtime. Charge is shown on the inventory icon and on screen, the radio warns you when it runs low, and shuts down when flat. Without that mod nothing changes: radios are always powered, exactly as before.\n- **Raid Recordings (F9).** Optionally record radio traffic during a raid and listen back afterwards in a built-in browser — playback controls, waveform or spectrogram view, filtering, and auto-cleanup. Off by default; enable it in F12.\n- Radios can now be carried in the **special slots**, alongside the compass, multitool and paracord.\n- **Notification overlay is now fully configurable** — style (full panel or minimal stripe, each with a compact variant), BEAR/USEC colour theme, opacity and scale.\n- Separate **UI scale sliders** for the status indicators and the notifications (0.5x–3x), which never overlap each other regardless of the values.\n- **Interface language override.** Notifications and the recordings browser follow your game language automatically, or can be pinned to one of the 8 supported languages.\n- **Indicators fade out while the channel is quiet** and come back on activity, to cut down on screen clutter. Optional.\n- A short **frequency-dial sweep** plays on screen when you switch between radios. Purely cosmetic.\n- **Radio traffic is jammed on Labyrinth** — heavy interference there drowns out every radio, regardless of tier. Can be turned off.\n- You can now increase the receive volume above 100%.\n\n### Changed\n\n- The F12 menu was reorganised from five sections into eight clearly separated ones. **Note for existing users:** indicator and colour settings moved sections and will reset to their defaults once.\n- Far less log noise by default; detailed logging now lives behind the new Verbose Logging toggle.\n\n### Fixed\n\n- A radio could stay switched on after you selected a different one.\n\n### Verification\n\nBoth DLLs were scanned before release: [Client.dll](https://www.virustotal.com/gui/file/38ccfc469308f7c57656ab33cf098717cfa6824b0eff0e2e9722624065d47379) — clean, [Server.dll](https://www.virustotal.com/gui/file/9fa858428c52bf6fd1d0c44b50d281ebaf0f68300da61c1ce1a2a0c5650467f6) — 1 / 71.\n\nThat single detection (MaxSecure, `...susgen` — *suspicious generic*) is a false positive: it is a heuristic that fires on small unsigned .NET assemblies, which is every SPT server mod. The full source is public at [Suomi-PRT-sourceCode](https://github.com/Cyomu/Suomi-PRT-sourceCode), and the file hashes are in [`VIRUSTOTAL.md`](VIRUSTOTAL.md).",
+          "link": "https://forge.sp-tarkov.com/mod/download/2825/sm-prt-portable-radio-transmitter/1.0.0",
+          "content_length": 39792506,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 115,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-09T00:18:00.000000Z",
+          "created_at": "2026-08-09T00:18:49.000000Z",
+          "updated_at": "2026-08-09T06:02:27.000000Z"
+        },
+        {
+          "id": 14155,
+          "hub_id": null,
+          "version": "0.9.7",
+          "description": "## What's New in v0.9.7\n\n### Radios in the world\nRadios can now be found as loot while exploring — not just bought from traders. Civilian radios (Baofeng, Kenwood TH-21BT, T460, Yaesu, DP4800, DP4601e, TRC-83, Alinco, Kenwood ProTalk XLS) spawn on Factory, Customs, Woods, Lighthouse, Shoreline, Interchange, Streets, and Ground Zero. Military radios (Azart, XTS5000, Harris, MTH800) spawn on Lighthouse, Reserve, Ground Zero, and Labs. Rarer radios are rarer to find, matching their trader price tier.\n\n### Works without Fika too\nIf Project Fika isn't installed, radios automatically become collectible-only items (no voice functionality, since the client hard-depends on Fika) and can be displayed in the Hall of Fame instead. With Fika installed, everything works as normal. (Testing and feedback are needed.)\n\n### Full localization (8 languages)\nItem names, descriptions, and on-screen notifications are now localized into Russian, English, German, Spanish, French, Polish, Italian, and Czech — auto-detected from your game's language.\n\n### Fixed: Duplex mode terminology\nThe switchable mode on some radios was mislabeled \"Simplex\" — corrected to \"Duplex\" everywhere (item descriptions, on-screen notification, F12 menu) across all languages.\n\n### Fixed: Indicators showing over the in-raid settings menu\nThe on-screen status indicators no longer stay visible when you open the in-raid settings menu.\n\n### Misc\n- Startup banner simplified (removed a few internal debug-style lines)\n- Internal code cleanup",
+          "link": "https://forge.sp-tarkov.com/mod/download/2825/sm-prt-portable-radio-transmitter/0.9.7",
+          "content_length": 39467818,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 434,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-19T21:10:00.000000Z",
+          "created_at": "2026-07-19T21:10:56.000000Z",
+          "updated_at": "2026-07-28T09:42:50.000000Z"
+        },
+        {
+          "id": 14132,
+          "hub_id": null,
+          "version": "0.9.6",
+          "description": "Pre-release version",
+          "link": "https://forge.sp-tarkov.com/mod/download/2825/sm-prt-portable-radio-transmitter/0.9.6",
+          "content_length": 39442784,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 185,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-18T15:00:00.000000Z",
+          "created_at": "2026-07-18T14:55:36.000000Z",
+          "updated_at": "2026-07-28T09:41:04.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 12,
+        "hub_id": 75,
+        "title": "Audio",
+        "slug": "audio",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Cyomu/Suomi-PRT-sourceCode",
+          "label": "4.0.13"
+        },
+        {
+          "url": "https://github.com/Cyomu/Suomi-PRT-sourceCode/tree/spt-4.1",
+          "label": "4.1.x"
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14592,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<p>Experimental port of v1.0.0 to SPT 4.1.x. Nothing was added or changed — same mod, rebuilt against the new server and game APIs. Less tested than the stable build, so expect rough edges.</p>\n<p>Note: battery support is inactive here, since Batteries Not Included has no 4.1 release yet. The radios simply run as if no battery mod were installed.</p>\n<p><strong>VirusTotal:</strong> <a target=\"_blank\" class=\"external-link\" href=\"https://www.virustotal.com/gui/file/23e692534150c6ff97035f119bf0aeb00b084f29d5484ae20dd305ac677598c1\" rel=\"noreferrer noopener\">Client.dll</a> — clean (0/71). <a target=\"_blank\" class=\"external-link\" href=\"https://www.virustotal.com/gui/file/4e71633abb61fe7e1d09c6a7e79cad7fbea5fd7a88f40b843ef4dfa7ff032bd6\" rel=\"noreferrer noopener\">Server.dll</a> — 1/71, a heuristic false positive (<code>susgen</code> = <em>suspicious generic</em>, fires on small unsigned .NET assemblies). Full source is on GitHub if you want to check it yourself.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2825/sm-prt-portable-radio-transmitter/1.0.1",
+      "content_length": 39273719,
+      "spt_version_constraint": "4.1.x",
+      "downloads": 136,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-09T14:15:00.000000Z",
+      "created_at": "2026-08-09T14:16:19.000000Z",
+      "updated_at": "2026-08-09T18:02:46.000000Z",
+      "dependencies": [
+        {
+          "id": 2326,
+          "hub_id": null,
+          "guid": "com.fika.core",
+          "name": "Project Fika",
+          "slug": "project-fika",
+          "teaser": "Project Fika is a mod designed to enable co-op multiplayer game play with your friends in SPT. You can progress through quests, share items and quest progression, fight AI bots (PMCs, SCAVs, and bosses) together and much more.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/RhGQs4svMQ3MWGiEwn8WUQXxP3GUdVhLorptQcXA.png",
+          "downloads": 81990,
+          "favourites_count": 114,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2326/project-fika",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 2,
+          "published_at": "2025-09-26T20:43:00.000000Z",
+          "created_at": "2025-09-26T20:14:55.000000Z",
+          "updated_at": "2026-08-07T18:02:18.000000Z",
+          "owner": {
+            "id": 47969,
+            "name": "Lacyway",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/95a5b3e7532938e8baff549cb4defc29e382f4ac_128w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/05b1bc6e2a3f74b8f41de186273e89430b36bb0a_1280w.webp",
+            "created_at": "2024-04-09T17:00:56.000000Z",
+            "updated_at": "2026-08-10T08:56:42.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 52282,
+              "name": "ArchangelWTF",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bc678ae6a663d65b719827be994414a484a8e356_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-05-20T14:55:34.000000Z",
+              "updated_at": "2026-08-09T21:39:13.000000Z"
+            },
+            {
+              "id": 85060,
+              "name": "trippyone",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/gloYnvKsCxIr4hzbMtfeGisaXi1jgGOJp8ifmVpj_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2025-09-26T20:56:18.000000Z",
+              "updated_at": "2026-07-24T12:54:51.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14447,
+              "hub_id": null,
+              "version": "2.4.0",
+              "description": "<ul>\n<li>Updated to SPT 4.1.X</li>\n<li>Fixed a bug where a player was immortal after getting revived</li>\n<li>Fixed a bug where an empty hands swap would get rejected</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2326/project-fika/2.4.0",
+              "content_length": 1182409,
+              "spt_version_constraint": ">=4.1.1",
+              "downloads": 1608,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-08-03T19:40:00.000000Z",
+              "created_at": "2026-08-03T19:40:14.000000Z",
+              "updated_at": "2026-08-04T06:02:32.000000Z"
+            },
+            {
+              "id": 14511,
+              "hub_id": null,
+              "version": "2.4.1",
+              "description": "<ul>\n<li>Fixed a nullref when using meds/food</li>\n<li>Updated handling of disposing of players after a raid\n<ul>\n<li>If an errors is thrown, the player is now notified and asked to restart after the raid. It will no longer stop the execution.</li>\n<li>Please keep in mind that 99% of these errors <em><strong>are from mods</strong></em>. It is up to you to find the culprit.</li>\n</ul>\n</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2326/project-fika/2.4.1",
+              "content_length": 1182548,
+              "spt_version_constraint": ">=4.1.2",
+              "downloads": 1578,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-08-07T07:51:00.000000Z",
+              "created_at": "2026-08-07T07:51:48.000000Z",
+              "updated_at": "2026-08-07T18:02:18.000000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14572,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<h2>S&amp;M-PRT v1.0.0</h2>\n<p>Built for <strong>SPT 4.0.13</strong> · requires <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2326/project-fika\" rel=\"noreferrer noopener\">Project Fika</a></p>\n<blockquote>\n<p>This release targets SPT <strong>4.0.13</strong> only. A build for 4.1.x will follow later.</p>\n</blockquote>\n<h3>Added</h3>\n<ul>\n<li><strong>Optional battery support.</strong> With <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2513/batteries-not-included\" rel=\"noreferrer noopener\">Batteries Not Included</a> installed, every radio now takes real AA or CR123A cells — 1 or 2 slots depending on the model, each with its own runtime. Charge is shown on the inventory icon and on screen, the radio warns you when it runs low, and shuts down when flat. Without that mod nothing changes: radios are always powered, exactly as before.</li>\n<li><strong>Raid Recordings (F9).</strong> Optionally record radio traffic during a raid and listen back afterwards in a built-in browser — playback controls, waveform or spectrogram view, filtering, and auto-cleanup. Off by default; enable it in F12.</li>\n<li>Radios can now be carried in the <strong>special slots</strong>, alongside the compass, multitool and paracord.</li>\n<li><strong>Notification overlay is now fully configurable</strong> — style (full panel or minimal stripe, each with a compact variant), BEAR/USEC colour theme, opacity and scale.</li>\n<li>Separate <strong>UI scale sliders</strong> for the status indicators and the notifications (0.5x–3x), which never overlap each other regardless of the values.</li>\n<li><strong>Interface language override.</strong> Notifications and the recordings browser follow your game language automatically, or can be pinned to one of the 8 supported languages.</li>\n<li><strong>Indicators fade out while the channel is quiet</strong> and come back on activity, to cut down on screen clutter. Optional.</li>\n<li>A short <strong>frequency-dial sweep</strong> plays on screen when you switch between radios. Purely cosmetic.</li>\n<li><strong>Radio traffic is jammed on Labyrinth</strong> — heavy interference there drowns out every radio, regardless of tier. Can be turned off.</li>\n<li>You can now increase the receive volume above 100%.</li>\n</ul>\n<h3>Changed</h3>\n<ul>\n<li>The F12 menu was reorganised from five sections into eight clearly separated ones. <strong>Note for existing users:</strong> indicator and colour settings moved sections and will reset to their defaults once.</li>\n<li>Far less log noise by default; detailed logging now lives behind the new Verbose Logging toggle.</li>\n</ul>\n<h3>Fixed</h3>\n<ul>\n<li>A radio could stay switched on after you selected a different one.</li>\n</ul>\n<h3>Verification</h3>\n<p>Both DLLs were scanned before release: <a target=\"_blank\" class=\"external-link\" href=\"https://www.virustotal.com/gui/file/38ccfc469308f7c57656ab33cf098717cfa6824b0eff0e2e9722624065d47379\" rel=\"noreferrer noopener\">Client.dll</a> — clean, <a target=\"_blank\" class=\"external-link\" href=\"https://www.virustotal.com/gui/file/9fa858428c52bf6fd1d0c44b50d281ebaf0f68300da61c1ce1a2a0c5650467f6\" rel=\"noreferrer noopener\">Server.dll</a> — 1 / 71.</p>\n<p>That single detection (MaxSecure, <code>...susgen</code> — <em>suspicious generic</em>) is a false positive: it is a heuristic that fires on small unsigned .NET assemblies, which is every SPT server mod. The full source is public at <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/Cyomu/Suomi-PRT-sourceCode\" rel=\"noreferrer noopener\">Suomi-PRT-sourceCode</a>, and the file hashes are in <a href=\"VIRUSTOTAL.md\"><code>VIRUSTOTAL.md</code></a>.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2825/sm-prt-portable-radio-transmitter/1.0.0",
+      "content_length": 39792506,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 115,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-09T00:18:00.000000Z",
+      "created_at": "2026-08-09T00:18:49.000000Z",
+      "updated_at": "2026-08-09T06:02:27.000000Z",
+      "dependencies": [
+        {
+          "id": 2326,
+          "hub_id": null,
+          "guid": "com.fika.core",
+          "name": "Project Fika",
+          "slug": "project-fika",
+          "teaser": "Project Fika is a mod designed to enable co-op multiplayer game play with your friends in SPT. You can progress through quests, share items and quest progression, fight AI bots (PMCs, SCAVs, and bosses) together and much more.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/RhGQs4svMQ3MWGiEwn8WUQXxP3GUdVhLorptQcXA.png",
+          "downloads": 81990,
+          "favourites_count": 114,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2326/project-fika",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 2,
+          "published_at": "2025-09-26T20:43:00.000000Z",
+          "created_at": "2025-09-26T20:14:55.000000Z",
+          "updated_at": "2026-08-07T18:02:18.000000Z",
+          "owner": {
+            "id": 47969,
+            "name": "Lacyway",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/95a5b3e7532938e8baff549cb4defc29e382f4ac_128w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/05b1bc6e2a3f74b8f41de186273e89430b36bb0a_1280w.webp",
+            "created_at": "2024-04-09T17:00:56.000000Z",
+            "updated_at": "2026-08-10T08:56:42.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 52282,
+              "name": "ArchangelWTF",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bc678ae6a663d65b719827be994414a484a8e356_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-05-20T14:55:34.000000Z",
+              "updated_at": "2026-08-09T21:39:13.000000Z"
+            },
+            {
+              "id": 85060,
+              "name": "trippyone",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/gloYnvKsCxIr4hzbMtfeGisaXi1jgGOJp8ifmVpj_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2025-09-26T20:56:18.000000Z",
+              "updated_at": "2026-07-24T12:54:51.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14270,
+              "hub_id": null,
+              "version": "2.3.9",
+              "description": "<ul>\n<li>Fixed a bug where bots couldn’t operate stationary weapons</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2326/project-fika/2.3.9",
+              "content_length": 1181936,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 4108,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-28T08:20:00.000000Z",
+              "created_at": "2026-07-28T08:20:29.000000Z",
+              "updated_at": "2026-08-01T16:38:27.000000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14155,
+      "hub_id": null,
+      "version": "0.9.7",
+      "description": "<h2>What’s New in v0.9.7</h2>\n<h3>Radios in the world</h3>\n<p>Radios can now be found as loot while exploring — not just bought from traders. Civilian radios (Baofeng, Kenwood TH-21BT, T460, Yaesu, DP4800, DP4601e, TRC-83, Alinco, Kenwood ProTalk XLS) spawn on Factory, Customs, Woods, Lighthouse, Shoreline, Interchange, Streets, and Ground Zero. Military radios (Azart, XTS5000, Harris, MTH800) spawn on Lighthouse, Reserve, Ground Zero, and Labs. Rarer radios are rarer to find, matching their trader price tier.</p>\n<h3>Works without Fika too</h3>\n<p>If Project Fika isn’t installed, radios automatically become collectible-only items (no voice functionality, since the client hard-depends on Fika) and can be displayed in the Hall of Fame instead. With Fika installed, everything works as normal. (Testing and feedback are needed.)</p>\n<h3>Full localization (8 languages)</h3>\n<p>Item names, descriptions, and on-screen notifications are now localized into Russian, English, German, Spanish, French, Polish, Italian, and Czech — auto-detected from your game’s language.</p>\n<h3>Fixed: Duplex mode terminology</h3>\n<p>The switchable mode on some radios was mislabeled “Simplex” — corrected to “Duplex” everywhere (item descriptions, on-screen notification, F12 menu) across all languages.</p>\n<h3>Fixed: Indicators showing over the in-raid settings menu</h3>\n<p>The on-screen status indicators no longer stay visible when you open the in-raid settings menu.</p>\n<h3>Misc</h3>\n<ul>\n<li>Startup banner simplified (removed a few internal debug-style lines)</li>\n<li>Internal code cleanup</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2825/sm-prt-portable-radio-transmitter/0.9.7",
+      "content_length": 39467818,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 434,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-19T21:10:00.000000Z",
+      "created_at": "2026-07-19T21:10:56.000000Z",
+      "updated_at": "2026-07-28T09:42:50.000000Z",
+      "dependencies": [
+        {
+          "id": 2326,
+          "hub_id": null,
+          "guid": "com.fika.core",
+          "name": "Project Fika",
+          "slug": "project-fika",
+          "teaser": "Project Fika is a mod designed to enable co-op multiplayer game play with your friends in SPT. You can progress through quests, share items and quest progression, fight AI bots (PMCs, SCAVs, and bosses) together and much more.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/RhGQs4svMQ3MWGiEwn8WUQXxP3GUdVhLorptQcXA.png",
+          "downloads": 81990,
+          "favourites_count": 114,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2326/project-fika",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 2,
+          "published_at": "2025-09-26T20:43:00.000000Z",
+          "created_at": "2025-09-26T20:14:55.000000Z",
+          "updated_at": "2026-08-07T18:02:18.000000Z",
+          "owner": {
+            "id": 47969,
+            "name": "Lacyway",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/95a5b3e7532938e8baff549cb4defc29e382f4ac_128w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/05b1bc6e2a3f74b8f41de186273e89430b36bb0a_1280w.webp",
+            "created_at": "2024-04-09T17:00:56.000000Z",
+            "updated_at": "2026-08-10T08:56:42.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 52282,
+              "name": "ArchangelWTF",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bc678ae6a663d65b719827be994414a484a8e356_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-05-20T14:55:34.000000Z",
+              "updated_at": "2026-08-09T21:39:13.000000Z"
+            },
+            {
+              "id": 85060,
+              "name": "trippyone",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/gloYnvKsCxIr4hzbMtfeGisaXi1jgGOJp8ifmVpj_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2025-09-26T20:56:18.000000Z",
+              "updated_at": "2026-07-24T12:54:51.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14270,
+              "hub_id": null,
+              "version": "2.3.9",
+              "description": "<ul>\n<li>Fixed a bug where bots couldn’t operate stationary weapons</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2326/project-fika/2.3.9",
+              "content_length": 1181936,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 4108,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-28T08:20:00.000000Z",
+              "created_at": "2026-07-28T08:20:29.000000Z",
+              "updated_at": "2026-08-01T16:38:27.000000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14132,
+      "hub_id": null,
+      "version": "0.9.6",
+      "description": "<p>Pre-release version</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2825/sm-prt-portable-radio-transmitter/0.9.6",
+      "content_length": 39442784,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 185,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-18T15:00:00.000000Z",
+      "created_at": "2026-07-18T14:55:36.000000Z",
+      "updated_at": "2026-07-28T09:41:04.000000Z",
+      "dependencies": [
+        {
+          "id": 2326,
+          "hub_id": null,
+          "guid": "com.fika.core",
+          "name": "Project Fika",
+          "slug": "project-fika",
+          "teaser": "Project Fika is a mod designed to enable co-op multiplayer game play with your friends in SPT. You can progress through quests, share items and quest progression, fight AI bots (PMCs, SCAVs, and bosses) together and much more.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/RhGQs4svMQ3MWGiEwn8WUQXxP3GUdVhLorptQcXA.png",
+          "downloads": 81990,
+          "favourites_count": 114,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2326/project-fika",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 2,
+          "published_at": "2025-09-26T20:43:00.000000Z",
+          "created_at": "2025-09-26T20:14:55.000000Z",
+          "updated_at": "2026-08-07T18:02:18.000000Z",
+          "owner": {
+            "id": 47969,
+            "name": "Lacyway",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/95a5b3e7532938e8baff549cb4defc29e382f4ac_128w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/05b1bc6e2a3f74b8f41de186273e89430b36bb0a_1280w.webp",
+            "created_at": "2024-04-09T17:00:56.000000Z",
+            "updated_at": "2026-08-10T08:56:42.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 52282,
+              "name": "ArchangelWTF",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bc678ae6a663d65b719827be994414a484a8e356_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-05-20T14:55:34.000000Z",
+              "updated_at": "2026-08-09T21:39:13.000000Z"
+            },
+            {
+              "id": 85060,
+              "name": "trippyone",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/gloYnvKsCxIr4hzbMtfeGisaXi1jgGOJp8ifmVpj_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2025-09-26T20:56:18.000000Z",
+              "updated_at": "2026-07-24T12:54:51.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14270,
+              "hub_id": null,
+              "version": "2.3.9",
+              "description": "<ul>\n<li>Fixed a bug where bots couldn’t operate stationary weapons</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2326/project-fika/2.3.9",
+              "content_length": 1181936,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 4108,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-28T08:20:00.000000Z",
+              "created_at": "2026-07-28T08:20:29.000000Z",
+              "updated_at": "2026-08-01T16:38:27.000000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2825/sm-prt-v1.0.0e.4.1.x.7z",
+    "bytes_written": 39273719,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1304919154/08befe25-718c-469b-94a4-863d7e20bc15?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A22%3A20Z&rscd=attachment%3B+filename%3Dsm-prt-v1.0.0e.4.1.x.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A21%3A42Z&ske=2026-08-10T10%3A22%3A20Z&sks=b&skv=2018-11-09&sig=C8vMvTQK58wkDr%2FlJGhZlpH8ywJcBYda7HGhRtboVZw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NjU5MSwibmJmIjoxNzg2MzU0NzkxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.xaUgzo5MnJFS2vs1WpWiR4SlIpGtJOh5xy6yXEZf9BI&response-content-disposition=attachment%3B%20filename%3Dsm-prt-v1.0.0e.4.1.x.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2825/sm-prt-portable-radio-transmitter-1.0.0-spt40.7z",
+    "bytes_written": 39792506,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1304919154/bd5d9184-b2e7-4e56-be36-acc9e073c264?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T13%3A00%3A02Z&rscd=attachment%3B+filename%3Dsm-prt-v1.0.0.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T11%3A59%3A15Z&ske=2026-08-10T13%3A00%3A02Z&sks=b&skv=2018-11-09&sig=290iKrEJ5F4VY8J4aoBnaTh8Zr%2Fyc8jTOrsRusN73wU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2NTE2MiwibmJmIjoxNzg2MzYzMzYyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.EBKNjK-5-QpkOkKnUI9YpLHF1YhMzQnnc3bkZt1pX2s&response-content-disposition=attachment%3B%20filename%3Dsm-prt-v1.0.0.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.0.0",
+    "same_as_primary_download": false
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2496,
+      "hub_id": null,
+      "guid": "ca.bushtail.speciallyweightless",
+      "name": "Specially Weightless",
+      "slug": "specially-weightless",
+      "teaser": "Weightless Special Items",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/dKLQupUIobbnpEv2SSE90OQ6FMo2ThQelNocWc24.png",
+      "downloads": 2850,
+      "favourites_count": 8,
+      "description": "<p>Special items are special, so they’re now specially weightless.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2496/specially-weightless",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 4,
+      "published_at": "2025-12-12T02:57:00.000000Z",
+      "created_at": "2025-12-12T02:57:50.000000Z",
+      "updated_at": "2026-07-28T07:04:59.000000Z",
+      "owner": {
+        "id": 33775,
+        "name": "bushtail",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/TdWzpvy2rqkXMd0ZgmhFFK4drV4CyIIonC6CpuXT_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/9kPkXgrFjtLcjpFyR4bUGOAc6Rr8PaFIl5GMCjnt.png",
+        "created_at": "2023-07-09T21:22:21.000000Z",
+        "updated_at": "2026-08-09T21:19:05.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12578,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "First version. Aware of the current false positives thrown by VirusTotal.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2496/specially-weightless/1.0.0",
+          "content_length": 5667,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 2850,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-12-12T03:00:00.000000Z",
+          "created_at": "2025-12-12T03:00:36.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 4,
+        "hub_id": 21,
+        "title": "Items",
+        "slug": "items",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/bushtail/SpeciallyWeightless",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12578,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>First version. Aware of the current false positives thrown by VirusTotal.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2496/specially-weightless/1.0.0",
+      "content_length": 5667,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 2850,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-12-12T03:00:00.000000Z",
+      "created_at": "2025-12-12T03:00:36.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2496/bushtail-SpeciallyWeightless_v1.0.0.zip",
+    "bytes_written": 5667,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1114872144/c14f67b4-aac0-4ece-85c2-058677f1869d?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A48%3A28Z&rscd=attachment%3B+filename%3Dbushtail-SpeciallyWeightless_v1.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A47%3A51Z&ske=2026-08-10T10%3A48%3A28Z&sks=b&skv=2018-11-09&sig=GiCjk2pQQl%2FEJbwLiTjvDL0J7QDNNfRSMNnjILSo1a4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NjE5MCwibmJmIjoxNzg2MzU1ODkwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.W-52_Pcr9prSduDzWnpiynYbC99FXrWuN9ttRiE5lH0&response-content-disposition=attachment%3B%20filename%3Dbushtail-SpeciallyWeightless_v1.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,154 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1576,
+      "hub_id": 2156,
+      "guid": "com.wispsflame.infmeds",
+      "name": "INFMEDS-Update BY WispsFlame",
+      "slug": "infmeds-update-by-wispsflame",
+      "teaser": "COMPATIBLEVERSION",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2156.webp",
+      "downloads": 11423,
+      "favourites_count": 8,
+      "description": "<p>Need InfineMeds? Here it is!</p>\n<p>This is an updated version of the “<a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1791-infmeds/?highlight=inf#overview\" rel=\"noreferrer noopener\">INFMEDS</a>” mod by sunglasses, compatible with SPT 3.10.0.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1576/infmeds-update-by-wispsflame",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-07-19T15:57:25.000000Z",
+      "created_at": "2024-07-19T15:57:25.000000Z",
+      "updated_at": "2026-07-28T06:13:37.000000Z",
+      "owner": {
+        "id": 48469,
+        "name": "WispsFlame",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/nnfAjDFV7jV928UmCzeSpJubnu8eBn6MgOCpiLMy_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/ZyZW3PoF8YcdoyAd5hAhpMd65yJmNGyUnvFPjh1f_1280w.webp",
+        "created_at": "2024-04-17T11:42:46.000000Z",
+        "updated_at": "2026-07-10T04:57:01.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12125,
+          "hub_id": null,
+          "version": "2.0.1",
+          "description": "Fix me too dummy to forgot put the file on the path :/\nFix the stim multiply not apply",
+          "link": "https://forge.sp-tarkov.com/mod/download/1576/infmeds-update-by-wispsflame/2.0.1",
+          "content_length": 9542,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 6711,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-02T06:45:00.000000Z",
+          "created_at": "2025-11-02T06:49:15.000000Z",
+          "updated_at": "2026-07-28T06:13:37.000000Z"
+        },
+        {
+          "id": 12111,
+          "hub_id": null,
+          "version": "2.0.0",
+          "description": "update to the 4.0.3 version(SPT keep fixing i just want upload the mod :/\n\nAdd Mutiplymode\nMake the blacklist config just use one of then\n\njust want make the mod better can comment for me :D",
+          "link": "https://forge.sp-tarkov.com/mod/download/1576/infmeds-update-by-wispsflame/2.0.0",
+          "content_length": 9290,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 284,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-01T16:57:00.000000Z",
+          "created_at": "2025-11-01T17:18:42.000000Z",
+          "updated_at": "2026-07-28T06:13:00.000000Z"
+        },
+        {
+          "id": 1163,
+          "hub_id": 13613,
+          "version": "1.2.0",
+          "description": "Update ~3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/1576/infmeds-update-by-wispsflame/1.2.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 4428,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-16T12:54:58.000000Z",
+          "created_at": "2025-03-16T12:54:58.000000Z",
+          "updated_at": "2025-03-16T12:54:58.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12125,
+      "hub_id": null,
+      "version": "2.0.1",
+      "description": "<p>Fix me too dummy to forgot put the file on the path :/\nFix the stim multiply not apply</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1576/infmeds-update-by-wispsflame/2.0.1",
+      "content_length": 9542,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 6711,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-02T06:45:00.000000Z",
+      "created_at": "2025-11-02T06:49:15.000000Z",
+      "updated_at": "2026-07-28T06:13:37.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12111,
+      "hub_id": null,
+      "version": "2.0.0",
+      "description": "<p>update to the 4.0.3 version(SPT keep fixing i just want upload the mod :/</p>\n<p>Add Mutiplymode\nMake the blacklist config just use one of then</p>\n<p>just want make the mod better can comment for me :D</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1576/infmeds-update-by-wispsflame/2.0.0",
+      "content_length": 9290,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 284,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-01T16:57:00.000000Z",
+      "created_at": "2025-11-01T17:18:42.000000Z",
+      "updated_at": "2026-07-28T06:13:00.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1163,
+      "hub_id": 13613,
+      "version": "1.2.0",
+      "description": "<p>Update ~3.11</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1576/infmeds-update-by-wispsflame/1.2.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 4428,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-16T12:54:58.000000Z",
+      "created_at": "2025-03-16T12:54:58.000000Z",
+      "updated_at": "2025-03-16T12:54:58.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1576/Wisps-InfMeds-2.0.1.zip",
+    "bytes_written": 9542,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1087802024/c8dc4efd-3e58-4fcf-a348-aec00be30a36?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A51%3A28Z&rscd=attachment%3B+filename%3DWisps-InfMeds-2.0.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A50%3A31Z&ske=2026-08-10T10%3A51%3A28Z&sks=b&skv=2018-11-09&sig=99SESwotmRmjC4NdMRCQwafVqEt6JGx0uyWnxcgpvQM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTgwNywibmJmIjoxNzg2MzU1NTA3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.09jJmGMu8OpzEJow1zlNwR0bAu-NJwd8dR7-HLklgeQ&response-content-disposition=attachment%3B%20filename%3DWisps-InfMeds-2.0.1.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "2.0.1",
+    "same_as_primary_download": true
+  }
+}

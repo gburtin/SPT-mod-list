@@ -1,0 +1,1819 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1895,
+      "hub_id": 2557,
+      "guid": "com.twitchplayers",
+      "name": "[SAIN] Twitch Players",
+      "slug": "sain-twitch-players",
+      "teaser": "EFT was never forgiving. So are they.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/SPDckoZ7xbs2PSAd9MoYrfFZfRqveqTer2s1gJtE.png",
+      "downloads": 31256,
+      "favourites_count": 22,
+      "description": "<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/harmonyzt/twitchplayers.github.io/e35307acc0fbe5d94bb2c4620db3ee9ad85707dd/media/twitchPlayers.gif\" alt=\"gif\" /></p>\n<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Introduction</div>\n<div class=\"tab-content\"><h3><em>You WILL die.</em></h3>\n<p>Does exactly what you’re thinking. Adds PMCs and PSCAVs with the names of Twitch streamers into your raids with significantly harder AI overall.</p>\n<h3>Main differences between Death Wish Preset</h3>\n<ul>\n<li>SCAVs are as close as possible to live behavior, they no longer kill PMCs at the start of the raid, leaving your raid empty.</li>\n<li>Generally much harder PMCs, including Bosses and Rogues/Raiders.</li>\n<li>No constant head-eyes for both side of Project Fika and SPT players. AI always (mostly, but still <strong>will</strong> hit your head) aims center mass, and if you have no issues, you can turn off “Always Aim Center Mass” inside Global Settings - all head aim chances are pre-configured for this scenario.</li>\n<li>Per-Map configurations for Labs/Factory/Lighthouse due sizes of the map</li>\n<li>Personality-Focused Progression - early wipe you won’t be able to meet hard PMCs or tell much difference, the game will be going just fine like with any other preset. Preset reaches full potential at PMC Level 30-40 due Personalities being locked behind much higher level requirement for AI.</li>\n<li>Twitch Players - AI PMCs with TTV/TV/YT or any other streaming platform inside their name will cause real trouble for you. They use reserved SAIN Personality made specifically for them to be able to act <strong>way</strong> faster. Their reaction time (based from tests) can range from ~100 to ~200ms (<em>slightly</em> less than average human being). Goons, and some bosses like Killa also inherit that personality by default.</li>\n</ul>\n<p>Enjoy.</p>\n<blockquote>\n<p>Disclaimer: Some of the settings won’t correspond to what you’re actually seeing in the game if you use Fika Project/Headless. Some might experience instant head-eyes, some won’t. I have no fix for this. This Preset is heavily FPS dependent. The worse performance you get (looking at you, Headless Client hosters), the worse is your experience. This Mod&amp;Preset is not made for everyone. You perfectly know what you’re subscribing for by installing this mod. Or about to.. Find out.</p>\n</blockquote></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Bots are too hard?</div>\n<div class=\"tab-content\"><p><img loading=\"lazy\" decoding=\"async\" src=\"https://media1.tenor.com/m/QyJuBax5RG4AAAAC/suntzu-osu.gif\" alt=\"suntzu-osu.gif\" /></p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Showcase</div>\n<div class=\"tab-content\"><div class=\"youtube-lite\" data-video-id=\"wAKJav8bqq0\" data-embed-url=\"https://www.youtube-nocookie.com/embed/wAKJav8bqq0?autoplay=1\"><img src=\"https://i.ytimg.com/vi/wAKJav8bqq0/hqdefault.jpg\" alt=\"YouTube video thumbnail\" loading=\"lazy\" decoding=\"async\" /></div>\n<div class=\"youtube-lite\" data-video-id=\"88Cu_DiZ9YY\" data-embed-url=\"https://www.youtube-nocookie.com/embed/88Cu_DiZ9YY?autoplay=1\"><img src=\"https://i.ytimg.com/vi/88Cu_DiZ9YY/hqdefault.jpg\" alt=\"YouTube video thumbnail\" loading=\"lazy\" decoding=\"async\" /></div></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">Installation</div>\n<div class=\"tab-content\"><p>Drag and drop 7z contents in your root directory of SPT game.</p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1895/sain-twitch-players",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 5,
+      "published_at": "2026-01-09T01:09:00.000000Z",
+      "created_at": "2024-12-17T08:58:03.000000Z",
+      "updated_at": "2026-07-30T23:38:52.000000Z",
+      "owner": {
+        "id": 30878,
+        "name": "harmony",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/zCGf86MOlzlGlGoDlIYL3IgPnAyHSRRX82XKlfMB_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/sOfeZOKwozRC3qpSES8BHbhlzBwuCRkMlL1Gtoem_1280w.webp",
+        "created_at": "2023-05-07T14:52:19.000000Z",
+        "updated_at": "2026-08-10T08:43:16.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 65345,
+          "name": "yuyui.moe",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/690689ea1ac9a0eaadce8c01f2abaf25147c43b1_128w.webp",
+          "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/WvU2OUJlNTqWgxJweWYm1CQb3DU2ajCciDfFqsEH_1280w.webp",
+          "created_at": "2024-10-12T21:27:05.000000Z",
+          "updated_at": "2026-08-10T04:17:35.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 12931,
+          "hub_id": null,
+          "version": "3.0.8",
+          "description": "### Twitch Players - Rebalanced\n- Now uses SAIN server mod config service for its personalities and custom names assignment\n- Now properly handles flag from Bot Callsigns and removes it\n\n### Preset Changes\n- Global difficulty values are now mostly default, now only bot types/personalities will have a major effect on bots\n- Disabled all talking, with a small chance they'll still sneak in a couple of shouts, but not as much as before\n- Nerfed SCAVs by a lot\n- Disabled aiming for head for impossible bot types (scavs on impossible will always aim center mass)\n- Disabled global center mass aiming\n- Disabled grenades in AIvsAI scenarios to eliminate chances of them killing themselves with the grenades somewhere on the map in a forgotten place\n- Enabled aim center mass aiming with height value changed - for those who have no issues with bots aimbotting your head, feel free to disable it back\n- Increased convergence boost\n- Enabled aiming for head for all bot types back so you don't have to manually edit all bot types and now just use global center mass aiming option\n- Disabled random sway for bots\n- Slightly tuned down smoothing for bots when in combat/aiming\n- Disabled rushing for some personalities\n- Gigachads and chads now jump shot you",
+          "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.8",
+          "content_length": 102027,
+          "spt_version_constraint": "4.0.11",
+          "downloads": 6903,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-01-28T13:38:00.000000Z",
+          "created_at": "2026-01-28T13:38:50.000000Z",
+          "updated_at": "2026-07-28T07:57:35.000000Z"
+        },
+        {
+          "id": 12818,
+          "hub_id": null,
+          "version": "3.0.7",
+          "description": "### Back, now even more deadly.\n- Black Division is now the deadliest faction out of all\n- Global precision values has been increased\n- Minimized min aiming times and increased CQB reaction distances\n- Updated TTV names to match with the latest Bot Callsigns version",
+          "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.7",
+          "content_length": 102107,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 1639,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-01-09T01:15:00.000000Z",
+          "created_at": "2026-01-09T01:15:30.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 12733,
+          "hub_id": null,
+          "version": "3.0.6",
+          "description": "### v3.0.6\n- Added Black Division and Santa Claus Bot files into Bot Settings.\n- Enabled aiming for head for the following bots - Killa, Black Division, Shturman, Goons, Raider, Rogue.\n- Updated Wreckless personality tooltip.\n- Significantly decreased global maximum aiming time for USEC, BEAR, and Goons.\n- Significantly increased global settings for accuracy and precision.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.6",
+          "content_length": 104745,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 378,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-01-01T09:59:00.000000Z",
+          "created_at": "2026-01-01T09:59:39.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 12665,
+          "hub_id": null,
+          "version": "3.0.5",
+          "description": "- Updated SAIN preset structure to latest\n- Small precision adjustments",
+          "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.5",
+          "content_length": 97266,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 765,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-12-24T17:11:00.000000Z",
+          "created_at": "2025-12-24T17:11:36.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 12654,
+          "hub_id": null,
+          "version": "3.0.4",
+          "description": "Note to all of the Fika users - if you use Headless Client, with a very high chance (around ~95%) most of your deaths will be head-eyes. There is no known to me fix for this.\n\nChanges\n- Disabled Coward, Timmy personalities\n- Lowered global aggression\n- Global aim time was reduced\n- Lowered audible ranges for subsonic rounds and silenced weapons\n- Set low chance to aim for head back **only** for PMCs.\n- Disabled aim for center mass (globally)\n- Reduced scatter multiplier down to the bottom when player is running, or moving in general.\n- All bots will toggle their flashlight off or on when needed.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.4",
+          "content_length": 97194,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 316,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-12-22T17:15:00.000000Z",
+          "created_at": "2025-12-22T17:15:12.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 12402,
+          "hub_id": null,
+          "version": "3.0.3",
+          "description": "### Latest SAIN Compatibility Update\n- Updated SAIN Preset structure to match the latest version.\n- Reduced chance of responses for non-friendly bots.\n- Increased Accuracy and Precision global values.\n- Updated Boss personalities to only have Chad/Gigachad/Wreckless/SnappingTurtle assigned.\n- Updated BaseSAINDifficulty inside preset to match the \"deathwish\" SAIN difficulty.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.3",
+          "content_length": 92740,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 2072,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-11-22T14:24:00.000000Z",
+          "created_at": "2025-11-22T14:24:48.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 12337,
+          "hub_id": null,
+          "version": "3.0.2",
+          "description": "- Due to mass ~~skill issue~~ head-eyes, I've come to decision to disable any intentional aiming for head SAIN features provides. \n- Increased Accuracy Speed",
+          "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.2",
+          "content_length": 92723,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 660,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-11-16T05:50:00.000000Z",
+          "created_at": "2025-11-16T05:51:49.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 12036,
+          "hub_id": null,
+          "version": "3.0.1",
+          "description": "- Fixed all bot types having incredibly high aim for head chances\n- SCAVs should now react/aim way slower",
+          "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.1",
+          "content_length": 23698,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 1319,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-26T11:37:00.000000Z",
+          "created_at": "2025-10-26T11:37:19.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 11994,
+          "hub_id": null,
+          "version": "3.0.0",
+          "description": "## They're back.\n\n- Initial update to SPT 4.0\n- Uses Bot Callsigns 2.0.1\n- Preset update to SAIN 4.2.0\n- Most of the functionality except base nickname personalities update was removed. I'm learning I swear x)\n\nHave fun.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.0",
+          "content_length": 23313,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 421,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-23T15:44:00.000000Z",
+          "created_at": "2025-10-23T15:46:25.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 11552,
+          "hub_id": 14953,
+          "version": "2.0.5",
+          "description": "\\- Nerfed general accuracy speed and aggression.\n\n\\- Debuffed Normal, Rat, Coward personalities in terms of hearing, accuracy speed and aggression due to overwhelmingly high skill ceiling.\n\n\\- Now USEC/BEAR react as fast as they can be in CQB.\n\n\\- Scavs no longer can aim for head except Impossible difficulties.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/2.0.5",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1311,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-09T08:39:03.000000Z",
+          "created_at": "2025-09-09T08:39:03.000000Z",
+          "updated_at": "2026-05-14T05:52:33.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 5,
+        "hub_id": 22,
+        "title": "Bots",
+        "slug": "bots",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/harmonyzt/TwitchPlayers",
+          "label": "Repo"
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12931,
+      "hub_id": null,
+      "version": "3.0.8",
+      "description": "<h3>Twitch Players - Rebalanced</h3>\n<ul>\n<li>Now uses SAIN server mod config service for its personalities and custom names assignment</li>\n<li>Now properly handles flag from Bot Callsigns and removes it</li>\n</ul>\n<h3>Preset Changes</h3>\n<ul>\n<li>Global difficulty values are now mostly default, now only bot types/personalities will have a major effect on bots</li>\n<li>Disabled all talking, with a small chance they’ll still sneak in a couple of shouts, but not as much as before</li>\n<li>Nerfed SCAVs by a lot</li>\n<li>Disabled aiming for head for impossible bot types (scavs on impossible will always aim center mass)</li>\n<li>Disabled global center mass aiming</li>\n<li>Disabled grenades in AIvsAI scenarios to eliminate chances of them killing themselves with the grenades somewhere on the map in a forgotten place</li>\n<li>Enabled aim center mass aiming with height value changed - for those who have no issues with bots aimbotting your head, feel free to disable it back</li>\n<li>Increased convergence boost</li>\n<li>Enabled aiming for head for all bot types back so you don’t have to manually edit all bot types and now just use global center mass aiming option</li>\n<li>Disabled random sway for bots</li>\n<li>Slightly tuned down smoothing for bots when in combat/aiming</li>\n<li>Disabled rushing for some personalities</li>\n<li>Gigachads and chads now jump shot you</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.8",
+      "content_length": 102027,
+      "spt_version_constraint": "4.0.11",
+      "downloads": 6903,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-01-28T13:38:00.000000Z",
+      "created_at": "2026-01-28T13:38:50.000000Z",
+      "updated_at": "2026-07-28T07:57:35.000000Z",
+      "dependencies": [
+        {
+          "id": 791,
+          "hub_id": 1062,
+          "guid": "me.sol.sain",
+          "name": "SAIN - Solarint's AI Modifications - Full AI Combat System Replacement",
+          "slug": "sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+          "teaser": "Bots that don't suck.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1062.jpg",
+          "downloads": 1252440,
+          "favourites_count": 481,
+          "detail_url": "https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2023-03-09T02:46:00.000000Z",
+          "created_at": "2023-03-09T02:46:50.000000Z",
+          "updated_at": "2026-08-04T17:42:31.000000Z",
+          "owner": {
+            "id": 27463,
+            "name": "Solarint",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/9fa66985990895e0c115adbdee4dbf71409d1566_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-02-23T17:11:59.000000Z",
+            "updated_at": "2026-07-10T04:50:24.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 27605,
+              "name": "DrakiaXYZ",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/M9qMWlknCITEk33QXO07mJG0j8qP4xhz1QOsHUHD_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2023-02-26T18:51:50.000000Z",
+              "updated_at": "2026-08-10T04:45:59.000000Z"
+            },
+            {
+              "id": 52282,
+              "name": "ArchangelWTF",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bc678ae6a663d65b719827be994414a484a8e356_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-05-20T14:55:34.000000Z",
+              "updated_at": "2026-08-09T21:39:13.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 12930,
+              "hub_id": null,
+              "version": "4.4.0",
+              "description": "<p>It is recommended to install the latest version of Fika along with this version of SAIN</p>\n<h2>What’s Changed</h2>\n<ul>\n<li>Fixed up certain bots not doing damage when getting shot in the head</li>\n<li>Added an interop with Fika to prevent SAIN from loading components when the player is a client</li>\n<li>Added various fixes for bot hearing when players are using Fika, bots will now hear just as good as they would in base SPT</li>\n<li>Fixed IsPointInvisibleSector which stopped bots from seeing various things by @astron8t-voyagerx</li>\n<li>Fixed TimeSinceShotAtToSuppress which was getting an incorrect value by @astron8t-voyagerx</li>\n<li>Minor lights optimization by @ozen-m</li>\n<li>Replacement for <code>ToggleSoundPatch</code> by @ozen-m</li>\n<li>fix: bot cannot hit reliably when strafing by @powerCasualUser</li>\n<li>Added various fixes for teleportation when switching between layers (Thanks Janky)</li>\n<li>Added a server mod to allow preset modders to more easily define bot personalities</li>\n<li>Fixed up Deathwish to include harder pmc’s</li>\n<li>Added a fix for uninstalling mods that contain custom WildSpawnTypes, this would previously cause SAIN to break</li>\n<li>Added some more grenade changes, these should be a bit more random now.. As well as fixing up a edge case that might still have allowed bots to throw grenades while BSG’s layers were in control</li>\n<li>More code cleanup work</li>\n</ul>\n<p>This will give a warning about outdated presets due to one new variable being added, but older presets should work as intended with this version.</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement/4.4.0",
+              "content_length": 348509,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 43638,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-01-28T13:00:00.000000Z",
+              "created_at": "2026-01-28T13:24:29.000000Z",
+              "updated_at": "2026-08-04T17:42:31.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        },
+        {
+          "id": 1873,
+          "hub_id": 2534,
+          "guid": "com.harmonyzt.botcallsigns",
+          "name": "Bot Callsigns - Reloaded",
+          "slug": "bot-callsigns-reloaded",
+          "teaser": "Getting tired of the same bot names you meet? Well.. This mod adds 32,651 of them. Including original names from SPT!",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/feW2ZQR7gjKA49b4EMnKnRiSQfGibyK2TCe9WYKs.png",
+          "downloads": 56711,
+          "favourites_count": 103,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1873/bot-callsigns-reloaded",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2024-12-07T06:15:00.000000Z",
+          "created_at": "2024-12-07T06:15:20.000000Z",
+          "updated_at": "2026-08-05T06:03:55.000000Z",
+          "owner": {
+            "id": 30878,
+            "name": "harmony",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/zCGf86MOlzlGlGoDlIYL3IgPnAyHSRRX82XKlfMB_256w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/sOfeZOKwozRC3qpSES8BHbhlzBwuCRkMlL1Gtoem_1280w.webp",
+            "created_at": "2023-05-07T14:52:19.000000Z",
+            "updated_at": "2026-08-10T08:43:16.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 28987,
+              "name": "Helldiver",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/066daff3199146fe0c957f51f27226bdaefe28ec_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/7a9860d2d9bb2565adac7bdc369f224ab5b7a1c8.png",
+              "created_at": "2023-03-19T05:23:27.000000Z",
+              "updated_at": "2026-07-10T04:56:53.000000Z"
+            },
+            {
+              "id": 65345,
+              "name": "yuyui.moe",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/690689ea1ac9a0eaadce8c01f2abaf25147c43b1_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/WvU2OUJlNTqWgxJweWYm1CQb3DU2ajCciDfFqsEH_1280w.webp",
+              "created_at": "2024-10-12T21:27:05.000000Z",
+              "updated_at": "2026-08-10T04:17:35.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 12817,
+              "hub_id": null,
+              "version": "2.0.3",
+              "description": "<ul>\n<li>Updated names</li>\n<li>Fixed warning in the console about Twitch Players directory missing</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.3",
+              "content_length": 16378,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 8269,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-01-09T01:05:00.000000Z",
+              "created_at": "2026-01-09T01:05:42.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 12818,
+      "hub_id": null,
+      "version": "3.0.7",
+      "description": "<h3>Back, now even more deadly.</h3>\n<ul>\n<li>Black Division is now the deadliest faction out of all</li>\n<li>Global precision values has been increased</li>\n<li>Minimized min aiming times and increased CQB reaction distances</li>\n<li>Updated TTV names to match with the latest Bot Callsigns version</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.7",
+      "content_length": 102107,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 1639,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-01-09T01:15:00.000000Z",
+      "created_at": "2026-01-09T01:15:30.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": [
+        {
+          "id": 791,
+          "hub_id": 1062,
+          "guid": "me.sol.sain",
+          "name": "SAIN - Solarint's AI Modifications - Full AI Combat System Replacement",
+          "slug": "sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+          "teaser": "Bots that don't suck.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1062.jpg",
+          "downloads": 1252440,
+          "favourites_count": 481,
+          "detail_url": "https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2023-03-09T02:46:00.000000Z",
+          "created_at": "2023-03-09T02:46:50.000000Z",
+          "updated_at": "2026-08-04T17:42:31.000000Z",
+          "owner": {
+            "id": 27463,
+            "name": "Solarint",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/9fa66985990895e0c115adbdee4dbf71409d1566_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-02-23T17:11:59.000000Z",
+            "updated_at": "2026-07-10T04:50:24.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 27605,
+              "name": "DrakiaXYZ",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/M9qMWlknCITEk33QXO07mJG0j8qP4xhz1QOsHUHD_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2023-02-26T18:51:50.000000Z",
+              "updated_at": "2026-08-10T04:45:59.000000Z"
+            },
+            {
+              "id": 52282,
+              "name": "ArchangelWTF",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bc678ae6a663d65b719827be994414a484a8e356_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-05-20T14:55:34.000000Z",
+              "updated_at": "2026-08-09T21:39:13.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 12661,
+              "hub_id": null,
+              "version": "4.3.1",
+              "description": "<p><strong>This version will require new presets!</strong></p>\n<p>This version wouldn’t have been possible if it weren’t for some community members actively contributing to SAIN’s code base, thanks to each one of you!</p>\n<h2>What’s Changed</h2>\n<ul>\n<li>Fix: Stops RemovePerson from being invoked repeatedly by @Arys</li>\n<li>Further fixes to log spam on bot extracting by @Arys</li>\n<li>QoL: Embed version, description, copyright into the assembly. by @yurikus</li>\n<li>Fix bot not sprint when seeking cover and invalid <code>IsSniper</code> check by @powerCasualUser</li>\n<li>Fix: add missing Blicky, 12.7x99mm, and rocket launcher to Shoot settings by @powerCasualUser</li>\n<li>Fix: Bots being able to see through certain objects and thus attempting to shoot through them</li>\n<li>Fix: Bots being forced to stop moving while asleep causing erratic behaviour</li>\n<li>Fix: Bots not entering BSG’s sleep state correctly when a user has moved far enough away</li>\n<li>Removed: No Bush ESP (Comes with the latest client by default now)</li>\n<li>Added: Partisan’s AI to be overridden by SAIN</li>\n<li>Added: Glukhar’s AI to be overridden by SAIN</li>\n<li>Added: Santa’s AI to be overridden by SAIN</li>\n<li>Added: Support for the AK-50, rocket launcher &amp; blicky</li>\n<li>Fix: Introduce global minimum aim time + fix crouch spamming by @Janky</li>\n<li>Fix: Various null references in Calcmodifier</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement/4.3.1",
+              "content_length": 1705545,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 37220,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-12-24T15:00:00.000000Z",
+              "created_at": "2025-12-24T14:52:31.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        },
+        {
+          "id": 1873,
+          "hub_id": 2534,
+          "guid": "com.harmonyzt.botcallsigns",
+          "name": "Bot Callsigns - Reloaded",
+          "slug": "bot-callsigns-reloaded",
+          "teaser": "Getting tired of the same bot names you meet? Well.. This mod adds 32,651 of them. Including original names from SPT!",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/feW2ZQR7gjKA49b4EMnKnRiSQfGibyK2TCe9WYKs.png",
+          "downloads": 56711,
+          "favourites_count": 103,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1873/bot-callsigns-reloaded",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2024-12-07T06:15:00.000000Z",
+          "created_at": "2024-12-07T06:15:20.000000Z",
+          "updated_at": "2026-08-05T06:03:55.000000Z",
+          "owner": {
+            "id": 30878,
+            "name": "harmony",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/zCGf86MOlzlGlGoDlIYL3IgPnAyHSRRX82XKlfMB_256w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/sOfeZOKwozRC3qpSES8BHbhlzBwuCRkMlL1Gtoem_1280w.webp",
+            "created_at": "2023-05-07T14:52:19.000000Z",
+            "updated_at": "2026-08-10T08:43:16.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 28987,
+              "name": "Helldiver",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/066daff3199146fe0c957f51f27226bdaefe28ec_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/7a9860d2d9bb2565adac7bdc369f224ab5b7a1c8.png",
+              "created_at": "2023-03-19T05:23:27.000000Z",
+              "updated_at": "2026-07-10T04:56:53.000000Z"
+            },
+            {
+              "id": 65345,
+              "name": "yuyui.moe",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/690689ea1ac9a0eaadce8c01f2abaf25147c43b1_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/WvU2OUJlNTqWgxJweWYm1CQb3DU2ajCciDfFqsEH_1280w.webp",
+              "created_at": "2024-10-12T21:27:05.000000Z",
+              "updated_at": "2026-08-10T04:17:35.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 12817,
+              "hub_id": null,
+              "version": "2.0.3",
+              "description": "<ul>\n<li>Updated names</li>\n<li>Fixed warning in the console about Twitch Players directory missing</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.3",
+              "content_length": 16378,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 8269,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-01-09T01:05:00.000000Z",
+              "created_at": "2026-01-09T01:05:42.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 12733,
+      "hub_id": null,
+      "version": "3.0.6",
+      "description": "<h3>v3.0.6</h3>\n<ul>\n<li>Added Black Division and Santa Claus Bot files into Bot Settings.</li>\n<li>Enabled aiming for head for the following bots - Killa, Black Division, Shturman, Goons, Raider, Rogue.</li>\n<li>Updated Wreckless personality tooltip.</li>\n<li>Significantly decreased global maximum aiming time for USEC, BEAR, and Goons.</li>\n<li>Significantly increased global settings for accuracy and precision.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.6",
+      "content_length": 104745,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 378,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-01-01T09:59:00.000000Z",
+      "created_at": "2026-01-01T09:59:39.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": [
+        {
+          "id": 791,
+          "hub_id": 1062,
+          "guid": "me.sol.sain",
+          "name": "SAIN - Solarint's AI Modifications - Full AI Combat System Replacement",
+          "slug": "sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+          "teaser": "Bots that don't suck.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1062.jpg",
+          "downloads": 1252440,
+          "favourites_count": 481,
+          "detail_url": "https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2023-03-09T02:46:00.000000Z",
+          "created_at": "2023-03-09T02:46:50.000000Z",
+          "updated_at": "2026-08-04T17:42:31.000000Z",
+          "owner": {
+            "id": 27463,
+            "name": "Solarint",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/9fa66985990895e0c115adbdee4dbf71409d1566_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-02-23T17:11:59.000000Z",
+            "updated_at": "2026-07-10T04:50:24.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 27605,
+              "name": "DrakiaXYZ",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/M9qMWlknCITEk33QXO07mJG0j8qP4xhz1QOsHUHD_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2023-02-26T18:51:50.000000Z",
+              "updated_at": "2026-08-10T04:45:59.000000Z"
+            },
+            {
+              "id": 52282,
+              "name": "ArchangelWTF",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bc678ae6a663d65b719827be994414a484a8e356_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-05-20T14:55:34.000000Z",
+              "updated_at": "2026-08-09T21:39:13.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 12661,
+              "hub_id": null,
+              "version": "4.3.1",
+              "description": "<p><strong>This version will require new presets!</strong></p>\n<p>This version wouldn’t have been possible if it weren’t for some community members actively contributing to SAIN’s code base, thanks to each one of you!</p>\n<h2>What’s Changed</h2>\n<ul>\n<li>Fix: Stops RemovePerson from being invoked repeatedly by @Arys</li>\n<li>Further fixes to log spam on bot extracting by @Arys</li>\n<li>QoL: Embed version, description, copyright into the assembly. by @yurikus</li>\n<li>Fix bot not sprint when seeking cover and invalid <code>IsSniper</code> check by @powerCasualUser</li>\n<li>Fix: add missing Blicky, 12.7x99mm, and rocket launcher to Shoot settings by @powerCasualUser</li>\n<li>Fix: Bots being able to see through certain objects and thus attempting to shoot through them</li>\n<li>Fix: Bots being forced to stop moving while asleep causing erratic behaviour</li>\n<li>Fix: Bots not entering BSG’s sleep state correctly when a user has moved far enough away</li>\n<li>Removed: No Bush ESP (Comes with the latest client by default now)</li>\n<li>Added: Partisan’s AI to be overridden by SAIN</li>\n<li>Added: Glukhar’s AI to be overridden by SAIN</li>\n<li>Added: Santa’s AI to be overridden by SAIN</li>\n<li>Added: Support for the AK-50, rocket launcher &amp; blicky</li>\n<li>Fix: Introduce global minimum aim time + fix crouch spamming by @Janky</li>\n<li>Fix: Various null references in Calcmodifier</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement/4.3.1",
+              "content_length": 1705545,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 37220,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-12-24T15:00:00.000000Z",
+              "created_at": "2025-12-24T14:52:31.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        },
+        {
+          "id": 1873,
+          "hub_id": 2534,
+          "guid": "com.harmonyzt.botcallsigns",
+          "name": "Bot Callsigns - Reloaded",
+          "slug": "bot-callsigns-reloaded",
+          "teaser": "Getting tired of the same bot names you meet? Well.. This mod adds 32,651 of them. Including original names from SPT!",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/feW2ZQR7gjKA49b4EMnKnRiSQfGibyK2TCe9WYKs.png",
+          "downloads": 56711,
+          "favourites_count": 103,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1873/bot-callsigns-reloaded",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2024-12-07T06:15:00.000000Z",
+          "created_at": "2024-12-07T06:15:20.000000Z",
+          "updated_at": "2026-08-05T06:03:55.000000Z",
+          "owner": {
+            "id": 30878,
+            "name": "harmony",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/zCGf86MOlzlGlGoDlIYL3IgPnAyHSRRX82XKlfMB_256w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/sOfeZOKwozRC3qpSES8BHbhlzBwuCRkMlL1Gtoem_1280w.webp",
+            "created_at": "2023-05-07T14:52:19.000000Z",
+            "updated_at": "2026-08-10T08:43:16.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 28987,
+              "name": "Helldiver",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/066daff3199146fe0c957f51f27226bdaefe28ec_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/7a9860d2d9bb2565adac7bdc369f224ab5b7a1c8.png",
+              "created_at": "2023-03-19T05:23:27.000000Z",
+              "updated_at": "2026-07-10T04:56:53.000000Z"
+            },
+            {
+              "id": 65345,
+              "name": "yuyui.moe",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/690689ea1ac9a0eaadce8c01f2abaf25147c43b1_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/WvU2OUJlNTqWgxJweWYm1CQb3DU2ajCciDfFqsEH_1280w.webp",
+              "created_at": "2024-10-12T21:27:05.000000Z",
+              "updated_at": "2026-08-10T04:17:35.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 12630,
+              "hub_id": null,
+              "version": "2.0.2",
+              "description": "<ul>\n<li><strong>[New | by Bushtail]</strong> Added support for custom names. After first SPT Server launch a file with name <code>userDefinedNames.json</code> should appear. Must follow same JSON structure as default name files.</li>\n<li>Added names of players who participated in SPT Leaderboard (Season 6)</li>\n<li>Added names suggested by NorvinskSila</li>\n<li>Names clean up</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.2",
+              "content_length": null,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 3289,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-12-18T19:49:00.000000Z",
+              "created_at": "2025-12-18T19:49:27.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            },
+            {
+              "id": 11988,
+              "hub_id": null,
+              "version": "2.0.1",
+              "description": "<ul>\n<li>Updated/Removed some of the names</li>\n<li>Twitch Players pre-support was added</li>\n<li>Added names of players who participated in SPT Leaderboard (Season 5)</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.1",
+              "content_length": null,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 10230,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-10-23T09:33:00.000000Z",
+              "created_at": "2025-10-23T09:33:52.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            },
+            {
+              "id": 11941,
+              "hub_id": null,
+              "version": "2.0.0",
+              "description": "<ul>\n<li>Initial update to SPT 4.0</li>\n<li>Removed all of the offensive names</li>\n</ul>\n<p>Big thanks to:</p>\n<ul>\n<li>yui</li>\n<li>Refringe</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.0",
+              "content_length": null,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 1000,
+              "fika_compatibility": "unknown",
+              "published_at": "2025-10-20T16:19:00.000000Z",
+              "created_at": "2025-10-20T16:22:40.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            },
+            {
+              "id": 12817,
+              "hub_id": null,
+              "version": "2.0.3",
+              "description": "<ul>\n<li>Updated names</li>\n<li>Fixed warning in the console about Twitch Players directory missing</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.3",
+              "content_length": 16378,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 8269,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-01-09T01:05:00.000000Z",
+              "created_at": "2026-01-09T01:05:42.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            },
+            {
+              "id": 13278,
+              "hub_id": null,
+              "version": "2.0.4",
+              "description": "<ul>\n<li>More hand picked names. That’s it. Enjoy</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.4",
+              "content_length": 19171,
+              "spt_version_constraint": "~4.0.10",
+              "downloads": 19659,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-03-17T16:27:00.000000Z",
+              "created_at": "2026-03-17T16:27:36.000000Z",
+              "updated_at": "2026-07-28T08:10:26.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 12665,
+      "hub_id": null,
+      "version": "3.0.5",
+      "description": "<ul>\n<li>Updated SAIN preset structure to latest</li>\n<li>Small precision adjustments</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.5",
+      "content_length": 97266,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 765,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-12-24T17:11:00.000000Z",
+      "created_at": "2025-12-24T17:11:36.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": [
+        {
+          "id": 1873,
+          "hub_id": 2534,
+          "guid": "com.harmonyzt.botcallsigns",
+          "name": "Bot Callsigns - Reloaded",
+          "slug": "bot-callsigns-reloaded",
+          "teaser": "Getting tired of the same bot names you meet? Well.. This mod adds 32,651 of them. Including original names from SPT!",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/feW2ZQR7gjKA49b4EMnKnRiSQfGibyK2TCe9WYKs.png",
+          "downloads": 56711,
+          "favourites_count": 103,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1873/bot-callsigns-reloaded",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2024-12-07T06:15:00.000000Z",
+          "created_at": "2024-12-07T06:15:20.000000Z",
+          "updated_at": "2026-08-05T06:03:55.000000Z",
+          "owner": {
+            "id": 30878,
+            "name": "harmony",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/zCGf86MOlzlGlGoDlIYL3IgPnAyHSRRX82XKlfMB_256w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/sOfeZOKwozRC3qpSES8BHbhlzBwuCRkMlL1Gtoem_1280w.webp",
+            "created_at": "2023-05-07T14:52:19.000000Z",
+            "updated_at": "2026-08-10T08:43:16.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 28987,
+              "name": "Helldiver",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/066daff3199146fe0c957f51f27226bdaefe28ec_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/7a9860d2d9bb2565adac7bdc369f224ab5b7a1c8.png",
+              "created_at": "2023-03-19T05:23:27.000000Z",
+              "updated_at": "2026-07-10T04:56:53.000000Z"
+            },
+            {
+              "id": 65345,
+              "name": "yuyui.moe",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/690689ea1ac9a0eaadce8c01f2abaf25147c43b1_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/WvU2OUJlNTqWgxJweWYm1CQb3DU2ajCciDfFqsEH_1280w.webp",
+              "created_at": "2024-10-12T21:27:05.000000Z",
+              "updated_at": "2026-08-10T04:17:35.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 12630,
+              "hub_id": null,
+              "version": "2.0.2",
+              "description": "<ul>\n<li><strong>[New | by Bushtail]</strong> Added support for custom names. After first SPT Server launch a file with name <code>userDefinedNames.json</code> should appear. Must follow same JSON structure as default name files.</li>\n<li>Added names of players who participated in SPT Leaderboard (Season 6)</li>\n<li>Added names suggested by NorvinskSila</li>\n<li>Names clean up</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.2",
+              "content_length": null,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 3289,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-12-18T19:49:00.000000Z",
+              "created_at": "2025-12-18T19:49:27.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            },
+            {
+              "id": 11988,
+              "hub_id": null,
+              "version": "2.0.1",
+              "description": "<ul>\n<li>Updated/Removed some of the names</li>\n<li>Twitch Players pre-support was added</li>\n<li>Added names of players who participated in SPT Leaderboard (Season 5)</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.1",
+              "content_length": null,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 10230,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-10-23T09:33:00.000000Z",
+              "created_at": "2025-10-23T09:33:52.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            },
+            {
+              "id": 11941,
+              "hub_id": null,
+              "version": "2.0.0",
+              "description": "<ul>\n<li>Initial update to SPT 4.0</li>\n<li>Removed all of the offensive names</li>\n</ul>\n<p>Big thanks to:</p>\n<ul>\n<li>yui</li>\n<li>Refringe</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.0",
+              "content_length": null,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 1000,
+              "fika_compatibility": "unknown",
+              "published_at": "2025-10-20T16:19:00.000000Z",
+              "created_at": "2025-10-20T16:22:40.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            },
+            {
+              "id": 12817,
+              "hub_id": null,
+              "version": "2.0.3",
+              "description": "<ul>\n<li>Updated names</li>\n<li>Fixed warning in the console about Twitch Players directory missing</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.3",
+              "content_length": 16378,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 8269,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-01-09T01:05:00.000000Z",
+              "created_at": "2026-01-09T01:05:42.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            },
+            {
+              "id": 13278,
+              "hub_id": null,
+              "version": "2.0.4",
+              "description": "<ul>\n<li>More hand picked names. That’s it. Enjoy</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.4",
+              "content_length": 19171,
+              "spt_version_constraint": "~4.0.10",
+              "downloads": 19659,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-03-17T16:27:00.000000Z",
+              "created_at": "2026-03-17T16:27:36.000000Z",
+              "updated_at": "2026-07-28T08:10:26.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        },
+        {
+          "id": 791,
+          "hub_id": 1062,
+          "guid": "me.sol.sain",
+          "name": "SAIN - Solarint's AI Modifications - Full AI Combat System Replacement",
+          "slug": "sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+          "teaser": "Bots that don't suck.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1062.jpg",
+          "downloads": 1252440,
+          "favourites_count": 481,
+          "detail_url": "https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2023-03-09T02:46:00.000000Z",
+          "created_at": "2023-03-09T02:46:50.000000Z",
+          "updated_at": "2026-08-04T17:42:31.000000Z",
+          "owner": {
+            "id": 27463,
+            "name": "Solarint",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/9fa66985990895e0c115adbdee4dbf71409d1566_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-02-23T17:11:59.000000Z",
+            "updated_at": "2026-07-10T04:50:24.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 27605,
+              "name": "DrakiaXYZ",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/M9qMWlknCITEk33QXO07mJG0j8qP4xhz1QOsHUHD_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2023-02-26T18:51:50.000000Z",
+              "updated_at": "2026-08-10T04:45:59.000000Z"
+            },
+            {
+              "id": 52282,
+              "name": "ArchangelWTF",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bc678ae6a663d65b719827be994414a484a8e356_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-05-20T14:55:34.000000Z",
+              "updated_at": "2026-08-09T21:39:13.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 12661,
+              "hub_id": null,
+              "version": "4.3.1",
+              "description": "<p><strong>This version will require new presets!</strong></p>\n<p>This version wouldn’t have been possible if it weren’t for some community members actively contributing to SAIN’s code base, thanks to each one of you!</p>\n<h2>What’s Changed</h2>\n<ul>\n<li>Fix: Stops RemovePerson from being invoked repeatedly by @Arys</li>\n<li>Further fixes to log spam on bot extracting by @Arys</li>\n<li>QoL: Embed version, description, copyright into the assembly. by @yurikus</li>\n<li>Fix bot not sprint when seeking cover and invalid <code>IsSniper</code> check by @powerCasualUser</li>\n<li>Fix: add missing Blicky, 12.7x99mm, and rocket launcher to Shoot settings by @powerCasualUser</li>\n<li>Fix: Bots being able to see through certain objects and thus attempting to shoot through them</li>\n<li>Fix: Bots being forced to stop moving while asleep causing erratic behaviour</li>\n<li>Fix: Bots not entering BSG’s sleep state correctly when a user has moved far enough away</li>\n<li>Removed: No Bush ESP (Comes with the latest client by default now)</li>\n<li>Added: Partisan’s AI to be overridden by SAIN</li>\n<li>Added: Glukhar’s AI to be overridden by SAIN</li>\n<li>Added: Santa’s AI to be overridden by SAIN</li>\n<li>Added: Support for the AK-50, rocket launcher &amp; blicky</li>\n<li>Fix: Introduce global minimum aim time + fix crouch spamming by @Janky</li>\n<li>Fix: Various null references in Calcmodifier</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement/4.3.1",
+              "content_length": 1705545,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 37220,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-12-24T15:00:00.000000Z",
+              "created_at": "2025-12-24T14:52:31.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 12654,
+      "hub_id": null,
+      "version": "3.0.4",
+      "description": "<p>Note to all of the Fika users - if you use Headless Client, with a very high chance (around ~95%) most of your deaths will be head-eyes. There is no known to me fix for this.</p>\n<p>Changes</p>\n<ul>\n<li>Disabled Coward, Timmy personalities</li>\n<li>Lowered global aggression</li>\n<li>Global aim time was reduced</li>\n<li>Lowered audible ranges for subsonic rounds and silenced weapons</li>\n<li>Set low chance to aim for head back <strong>only</strong> for PMCs.</li>\n<li>Disabled aim for center mass (globally)</li>\n<li>Reduced scatter multiplier down to the bottom when player is running, or moving in general.</li>\n<li>All bots will toggle their flashlight off or on when needed.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.4",
+      "content_length": 97194,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 316,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-12-22T17:15:00.000000Z",
+      "created_at": "2025-12-22T17:15:12.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": [
+        {
+          "id": 1873,
+          "hub_id": 2534,
+          "guid": "com.harmonyzt.botcallsigns",
+          "name": "Bot Callsigns - Reloaded",
+          "slug": "bot-callsigns-reloaded",
+          "teaser": "Getting tired of the same bot names you meet? Well.. This mod adds 32,651 of them. Including original names from SPT!",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/feW2ZQR7gjKA49b4EMnKnRiSQfGibyK2TCe9WYKs.png",
+          "downloads": 56711,
+          "favourites_count": 103,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1873/bot-callsigns-reloaded",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2024-12-07T06:15:00.000000Z",
+          "created_at": "2024-12-07T06:15:20.000000Z",
+          "updated_at": "2026-08-05T06:03:55.000000Z",
+          "owner": {
+            "id": 30878,
+            "name": "harmony",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/zCGf86MOlzlGlGoDlIYL3IgPnAyHSRRX82XKlfMB_256w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/sOfeZOKwozRC3qpSES8BHbhlzBwuCRkMlL1Gtoem_1280w.webp",
+            "created_at": "2023-05-07T14:52:19.000000Z",
+            "updated_at": "2026-08-10T08:43:16.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 28987,
+              "name": "Helldiver",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/066daff3199146fe0c957f51f27226bdaefe28ec_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/7a9860d2d9bb2565adac7bdc369f224ab5b7a1c8.png",
+              "created_at": "2023-03-19T05:23:27.000000Z",
+              "updated_at": "2026-07-10T04:56:53.000000Z"
+            },
+            {
+              "id": 65345,
+              "name": "yuyui.moe",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/690689ea1ac9a0eaadce8c01f2abaf25147c43b1_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/WvU2OUJlNTqWgxJweWYm1CQb3DU2ajCciDfFqsEH_1280w.webp",
+              "created_at": "2024-10-12T21:27:05.000000Z",
+              "updated_at": "2026-08-10T04:17:35.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 12630,
+              "hub_id": null,
+              "version": "2.0.2",
+              "description": "<ul>\n<li><strong>[New | by Bushtail]</strong> Added support for custom names. After first SPT Server launch a file with name <code>userDefinedNames.json</code> should appear. Must follow same JSON structure as default name files.</li>\n<li>Added names of players who participated in SPT Leaderboard (Season 6)</li>\n<li>Added names suggested by NorvinskSila</li>\n<li>Names clean up</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.2",
+              "content_length": null,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 3289,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-12-18T19:49:00.000000Z",
+              "created_at": "2025-12-18T19:49:27.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            },
+            {
+              "id": 11988,
+              "hub_id": null,
+              "version": "2.0.1",
+              "description": "<ul>\n<li>Updated/Removed some of the names</li>\n<li>Twitch Players pre-support was added</li>\n<li>Added names of players who participated in SPT Leaderboard (Season 5)</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.1",
+              "content_length": null,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 10230,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-10-23T09:33:00.000000Z",
+              "created_at": "2025-10-23T09:33:52.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            },
+            {
+              "id": 11941,
+              "hub_id": null,
+              "version": "2.0.0",
+              "description": "<ul>\n<li>Initial update to SPT 4.0</li>\n<li>Removed all of the offensive names</li>\n</ul>\n<p>Big thanks to:</p>\n<ul>\n<li>yui</li>\n<li>Refringe</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.0",
+              "content_length": null,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 1000,
+              "fika_compatibility": "unknown",
+              "published_at": "2025-10-20T16:19:00.000000Z",
+              "created_at": "2025-10-20T16:22:40.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            },
+            {
+              "id": 12817,
+              "hub_id": null,
+              "version": "2.0.3",
+              "description": "<ul>\n<li>Updated names</li>\n<li>Fixed warning in the console about Twitch Players directory missing</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.3",
+              "content_length": 16378,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 8269,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-01-09T01:05:00.000000Z",
+              "created_at": "2026-01-09T01:05:42.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            },
+            {
+              "id": 13278,
+              "hub_id": null,
+              "version": "2.0.4",
+              "description": "<ul>\n<li>More hand picked names. That’s it. Enjoy</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.4",
+              "content_length": 19171,
+              "spt_version_constraint": "~4.0.10",
+              "downloads": 19659,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-03-17T16:27:00.000000Z",
+              "created_at": "2026-03-17T16:27:36.000000Z",
+              "updated_at": "2026-07-28T08:10:26.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        },
+        {
+          "id": 791,
+          "hub_id": 1062,
+          "guid": "me.sol.sain",
+          "name": "SAIN - Solarint's AI Modifications - Full AI Combat System Replacement",
+          "slug": "sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+          "teaser": "Bots that don't suck.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1062.jpg",
+          "downloads": 1252440,
+          "favourites_count": 481,
+          "detail_url": "https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2023-03-09T02:46:00.000000Z",
+          "created_at": "2023-03-09T02:46:50.000000Z",
+          "updated_at": "2026-08-04T17:42:31.000000Z",
+          "owner": {
+            "id": 27463,
+            "name": "Solarint",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/9fa66985990895e0c115adbdee4dbf71409d1566_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-02-23T17:11:59.000000Z",
+            "updated_at": "2026-07-10T04:50:24.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 27605,
+              "name": "DrakiaXYZ",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/M9qMWlknCITEk33QXO07mJG0j8qP4xhz1QOsHUHD_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2023-02-26T18:51:50.000000Z",
+              "updated_at": "2026-08-10T04:45:59.000000Z"
+            },
+            {
+              "id": 52282,
+              "name": "ArchangelWTF",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bc678ae6a663d65b719827be994414a484a8e356_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-05-20T14:55:34.000000Z",
+              "updated_at": "2026-08-09T21:39:13.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 256,
+              "hub_id": 14621,
+              "version": "4.0.3",
+              "description": "<p>Full credit to @dwesterwick for the fixes here.</p>\n<p>Gameplay Changes:</p>\n<p>Fixed bots being unable to extract</p>\n<p>Bots will now use the new SAIN steering system while extracting (instead of only looking straight ahead)</p>\n<p>Code Changes:</p>\n<p>Fixed BotPathFollowerClass.WalkToPoint() not returning true if Bot.Mover.CanGoToPoint() returns true (which is the case with RunToPoint())</p>\n<p>Expose mustHaveCompletePath as an argument in WalkToPoint() and RunToPoint()</p>\n<p>Fixed NRE spam for GetEnemyToShoot() if priorityEnemy == null</p>\n<p>Fixed BotComponent.Bot NRE if BotOwner == null</p>\n<p>Fixed AddCornersToPath() exception when a path was not previously set for the bot</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement/4.0.3",
+              "content_length": null,
+              "spt_version_constraint": "",
+              "downloads": 4193,
+              "fika_compatibility": "unknown",
+              "published_at": "2025-07-15T07:47:29.000000Z",
+              "created_at": "2025-07-15T07:47:29.000000Z",
+              "updated_at": "2026-05-14T01:42:04.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 12402,
+      "hub_id": null,
+      "version": "3.0.3",
+      "description": "<h3>Latest SAIN Compatibility Update</h3>\n<ul>\n<li>Updated SAIN Preset structure to match the latest version.</li>\n<li>Reduced chance of responses for non-friendly bots.</li>\n<li>Increased Accuracy and Precision global values.</li>\n<li>Updated Boss personalities to only have Chad/Gigachad/Wreckless/SnappingTurtle assigned.</li>\n<li>Updated BaseSAINDifficulty inside preset to match the “deathwish” SAIN difficulty.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.3",
+      "content_length": 92740,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 2072,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-11-22T14:24:00.000000Z",
+      "created_at": "2025-11-22T14:24:48.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": [
+        {
+          "id": 1873,
+          "hub_id": 2534,
+          "guid": "com.harmonyzt.botcallsigns",
+          "name": "Bot Callsigns - Reloaded",
+          "slug": "bot-callsigns-reloaded",
+          "teaser": "Getting tired of the same bot names you meet? Well.. This mod adds 32,651 of them. Including original names from SPT!",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/feW2ZQR7gjKA49b4EMnKnRiSQfGibyK2TCe9WYKs.png",
+          "downloads": 56711,
+          "favourites_count": 103,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1873/bot-callsigns-reloaded",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2024-12-07T06:15:00.000000Z",
+          "created_at": "2024-12-07T06:15:20.000000Z",
+          "updated_at": "2026-08-05T06:03:55.000000Z",
+          "owner": {
+            "id": 30878,
+            "name": "harmony",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/zCGf86MOlzlGlGoDlIYL3IgPnAyHSRRX82XKlfMB_256w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/sOfeZOKwozRC3qpSES8BHbhlzBwuCRkMlL1Gtoem_1280w.webp",
+            "created_at": "2023-05-07T14:52:19.000000Z",
+            "updated_at": "2026-08-10T08:43:16.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 28987,
+              "name": "Helldiver",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/066daff3199146fe0c957f51f27226bdaefe28ec_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/7a9860d2d9bb2565adac7bdc369f224ab5b7a1c8.png",
+              "created_at": "2023-03-19T05:23:27.000000Z",
+              "updated_at": "2026-07-10T04:56:53.000000Z"
+            },
+            {
+              "id": 65345,
+              "name": "yuyui.moe",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/690689ea1ac9a0eaadce8c01f2abaf25147c43b1_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/WvU2OUJlNTqWgxJweWYm1CQb3DU2ajCciDfFqsEH_1280w.webp",
+              "created_at": "2024-10-12T21:27:05.000000Z",
+              "updated_at": "2026-08-10T04:17:35.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 11988,
+              "hub_id": null,
+              "version": "2.0.1",
+              "description": "<ul>\n<li>Updated/Removed some of the names</li>\n<li>Twitch Players pre-support was added</li>\n<li>Added names of players who participated in SPT Leaderboard (Season 5)</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.1",
+              "content_length": null,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 10230,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-10-23T09:33:00.000000Z",
+              "created_at": "2025-10-23T09:33:52.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        },
+        {
+          "id": 791,
+          "hub_id": 1062,
+          "guid": "me.sol.sain",
+          "name": "SAIN - Solarint's AI Modifications - Full AI Combat System Replacement",
+          "slug": "sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+          "teaser": "Bots that don't suck.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1062.jpg",
+          "downloads": 1252440,
+          "favourites_count": 481,
+          "detail_url": "https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2023-03-09T02:46:00.000000Z",
+          "created_at": "2023-03-09T02:46:50.000000Z",
+          "updated_at": "2026-08-04T17:42:31.000000Z",
+          "owner": {
+            "id": 27463,
+            "name": "Solarint",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/9fa66985990895e0c115adbdee4dbf71409d1566_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-02-23T17:11:59.000000Z",
+            "updated_at": "2026-07-10T04:50:24.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 27605,
+              "name": "DrakiaXYZ",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/M9qMWlknCITEk33QXO07mJG0j8qP4xhz1QOsHUHD_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2023-02-26T18:51:50.000000Z",
+              "updated_at": "2026-08-10T04:45:59.000000Z"
+            },
+            {
+              "id": 52282,
+              "name": "ArchangelWTF",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bc678ae6a663d65b719827be994414a484a8e356_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-05-20T14:55:34.000000Z",
+              "updated_at": "2026-08-09T21:39:13.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 12392,
+              "hub_id": null,
+              "version": "4.3.0",
+              "description": "<p>Re-release of 4.2.0 (4.0.0) with the following changes:</p>\n<p><strong>This release will require new presets due to the Labyrinth bosses being added! Older presets will not work in Labyrinth!</strong></p>\n<ul>\n<li>Fixes Labyrinth being an invalid location</li>\n<li>Clears up logic in center of mass handling</li>\n<li>Adds new labyrinth bosses</li>\n</ul>\n<p>A huge thanks to <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/user/72916/jankytheclown\" rel=\"noreferrer noopener\">JankyTheClown</a> for most these fixes</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement/4.3.0",
+              "content_length": 1640918,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 46363,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-11-21T16:01:00.000000Z",
+              "created_at": "2025-11-21T16:02:01.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 12337,
+      "hub_id": null,
+      "version": "3.0.2",
+      "description": "<ul>\n<li>Due to mass <del>skill issue</del> head-eyes, I’ve come to decision to disable any intentional aiming for head SAIN features provides.</li>\n<li>Increased Accuracy Speed</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.2",
+      "content_length": 92723,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 660,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-11-16T05:50:00.000000Z",
+      "created_at": "2025-11-16T05:51:49.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": [
+        {
+          "id": 1873,
+          "hub_id": 2534,
+          "guid": "com.harmonyzt.botcallsigns",
+          "name": "Bot Callsigns - Reloaded",
+          "slug": "bot-callsigns-reloaded",
+          "teaser": "Getting tired of the same bot names you meet? Well.. This mod adds 32,651 of them. Including original names from SPT!",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/feW2ZQR7gjKA49b4EMnKnRiSQfGibyK2TCe9WYKs.png",
+          "downloads": 56711,
+          "favourites_count": 103,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1873/bot-callsigns-reloaded",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2024-12-07T06:15:00.000000Z",
+          "created_at": "2024-12-07T06:15:20.000000Z",
+          "updated_at": "2026-08-05T06:03:55.000000Z",
+          "owner": {
+            "id": 30878,
+            "name": "harmony",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/zCGf86MOlzlGlGoDlIYL3IgPnAyHSRRX82XKlfMB_256w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/sOfeZOKwozRC3qpSES8BHbhlzBwuCRkMlL1Gtoem_1280w.webp",
+            "created_at": "2023-05-07T14:52:19.000000Z",
+            "updated_at": "2026-08-10T08:43:16.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 28987,
+              "name": "Helldiver",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/066daff3199146fe0c957f51f27226bdaefe28ec_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/7a9860d2d9bb2565adac7bdc369f224ab5b7a1c8.png",
+              "created_at": "2023-03-19T05:23:27.000000Z",
+              "updated_at": "2026-07-10T04:56:53.000000Z"
+            },
+            {
+              "id": 65345,
+              "name": "yuyui.moe",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/690689ea1ac9a0eaadce8c01f2abaf25147c43b1_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/WvU2OUJlNTqWgxJweWYm1CQb3DU2ajCciDfFqsEH_1280w.webp",
+              "created_at": "2024-10-12T21:27:05.000000Z",
+              "updated_at": "2026-08-10T04:17:35.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 11988,
+              "hub_id": null,
+              "version": "2.0.1",
+              "description": "<ul>\n<li>Updated/Removed some of the names</li>\n<li>Twitch Players pre-support was added</li>\n<li>Added names of players who participated in SPT Leaderboard (Season 5)</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.1",
+              "content_length": null,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 10230,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-10-23T09:33:00.000000Z",
+              "created_at": "2025-10-23T09:33:52.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 12036,
+      "hub_id": null,
+      "version": "3.0.1",
+      "description": "<ul>\n<li>Fixed all bot types having incredibly high aim for head chances</li>\n<li>SCAVs should now react/aim way slower</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.1",
+      "content_length": 23698,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 1319,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-26T11:37:00.000000Z",
+      "created_at": "2025-10-26T11:37:19.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": [
+        {
+          "id": 1873,
+          "hub_id": 2534,
+          "guid": "com.harmonyzt.botcallsigns",
+          "name": "Bot Callsigns - Reloaded",
+          "slug": "bot-callsigns-reloaded",
+          "teaser": "Getting tired of the same bot names you meet? Well.. This mod adds 32,651 of them. Including original names from SPT!",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/feW2ZQR7gjKA49b4EMnKnRiSQfGibyK2TCe9WYKs.png",
+          "downloads": 56711,
+          "favourites_count": 103,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1873/bot-callsigns-reloaded",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2024-12-07T06:15:00.000000Z",
+          "created_at": "2024-12-07T06:15:20.000000Z",
+          "updated_at": "2026-08-05T06:03:55.000000Z",
+          "owner": {
+            "id": 30878,
+            "name": "harmony",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/zCGf86MOlzlGlGoDlIYL3IgPnAyHSRRX82XKlfMB_256w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/sOfeZOKwozRC3qpSES8BHbhlzBwuCRkMlL1Gtoem_1280w.webp",
+            "created_at": "2023-05-07T14:52:19.000000Z",
+            "updated_at": "2026-08-10T08:43:16.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 28987,
+              "name": "Helldiver",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/066daff3199146fe0c957f51f27226bdaefe28ec_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/7a9860d2d9bb2565adac7bdc369f224ab5b7a1c8.png",
+              "created_at": "2023-03-19T05:23:27.000000Z",
+              "updated_at": "2026-07-10T04:56:53.000000Z"
+            },
+            {
+              "id": 65345,
+              "name": "yuyui.moe",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/690689ea1ac9a0eaadce8c01f2abaf25147c43b1_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/WvU2OUJlNTqWgxJweWYm1CQb3DU2ajCciDfFqsEH_1280w.webp",
+              "created_at": "2024-10-12T21:27:05.000000Z",
+              "updated_at": "2026-08-10T04:17:35.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 11988,
+              "hub_id": null,
+              "version": "2.0.1",
+              "description": "<ul>\n<li>Updated/Removed some of the names</li>\n<li>Twitch Players pre-support was added</li>\n<li>Added names of players who participated in SPT Leaderboard (Season 5)</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.1",
+              "content_length": null,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 10230,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-10-23T09:33:00.000000Z",
+              "created_at": "2025-10-23T09:33:52.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 11994,
+      "hub_id": null,
+      "version": "3.0.0",
+      "description": "<h2>They’re back.</h2>\n<ul>\n<li>Initial update to SPT 4.0</li>\n<li>Uses Bot Callsigns 2.0.1</li>\n<li>Preset update to SAIN 4.2.0</li>\n<li>Most of the functionality except base nickname personalities update was removed. I’m learning I swear x)</li>\n</ul>\n<p>Have fun.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/3.0.0",
+      "content_length": 23313,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 421,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-23T15:44:00.000000Z",
+      "created_at": "2025-10-23T15:46:25.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": [
+        {
+          "id": 1873,
+          "hub_id": 2534,
+          "guid": "com.harmonyzt.botcallsigns",
+          "name": "Bot Callsigns - Reloaded",
+          "slug": "bot-callsigns-reloaded",
+          "teaser": "Getting tired of the same bot names you meet? Well.. This mod adds 32,651 of them. Including original names from SPT!",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/feW2ZQR7gjKA49b4EMnKnRiSQfGibyK2TCe9WYKs.png",
+          "downloads": 56711,
+          "favourites_count": 103,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1873/bot-callsigns-reloaded",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2024-12-07T06:15:00.000000Z",
+          "created_at": "2024-12-07T06:15:20.000000Z",
+          "updated_at": "2026-08-05T06:03:55.000000Z",
+          "owner": {
+            "id": 30878,
+            "name": "harmony",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/zCGf86MOlzlGlGoDlIYL3IgPnAyHSRRX82XKlfMB_256w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/sOfeZOKwozRC3qpSES8BHbhlzBwuCRkMlL1Gtoem_1280w.webp",
+            "created_at": "2023-05-07T14:52:19.000000Z",
+            "updated_at": "2026-08-10T08:43:16.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 28987,
+              "name": "Helldiver",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/066daff3199146fe0c957f51f27226bdaefe28ec_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/7a9860d2d9bb2565adac7bdc369f224ab5b7a1c8.png",
+              "created_at": "2023-03-19T05:23:27.000000Z",
+              "updated_at": "2026-07-10T04:56:53.000000Z"
+            },
+            {
+              "id": 65345,
+              "name": "yuyui.moe",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/690689ea1ac9a0eaadce8c01f2abaf25147c43b1_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/WvU2OUJlNTqWgxJweWYm1CQb3DU2ajCciDfFqsEH_1280w.webp",
+              "created_at": "2024-10-12T21:27:05.000000Z",
+              "updated_at": "2026-08-10T04:17:35.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 11988,
+              "hub_id": null,
+              "version": "2.0.1",
+              "description": "<ul>\n<li>Updated/Removed some of the names</li>\n<li>Twitch Players pre-support was added</li>\n<li>Added names of players who participated in SPT Leaderboard (Season 5)</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1873/bot-callsigns-reloaded/2.0.1",
+              "content_length": null,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 10230,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-10-23T09:33:00.000000Z",
+              "created_at": "2025-10-23T09:33:52.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 11552,
+      "hub_id": 14953,
+      "version": "2.0.5",
+      "description": "<p>- Nerfed general accuracy speed and aggression.</p>\n<p>- Debuffed Normal, Rat, Coward personalities in terms of hearing, accuracy speed and aggression due to overwhelmingly high skill ceiling.</p>\n<p>- Now USEC/BEAR react as fast as they can be in CQB.</p>\n<p>- Scavs no longer can aim for head except Impossible difficulties.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/2.0.5",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1311,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-09T08:39:03.000000Z",
+      "created_at": "2025-09-09T08:39:03.000000Z",
+      "updated_at": "2026-05-14T05:52:33.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 42,
+      "hub_id": 14863,
+      "version": "2.0.4",
+      "description": "<p>- Bumped Accuracy Speed due to its incorrect setting. (sorry)</p>\n<p>- Bumped Precision Speed.</p>\n<p>- Even’d out Bot Settings for various bot types - Raiders, Goons, Reshala Guard, Partisan, BEAR and USEC.</p>\n<p>- Impossible bots can throw nades while running.</p>\n<p>Have fun.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/2.0.4",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 644,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-08-25T12:22:25.000000Z",
+      "created_at": "2025-08-25T12:22:25.000000Z",
+      "updated_at": "2026-05-14T01:38:01.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 94,
+      "hub_id": 14807,
+      "version": "2.0.3",
+      "description": "<p><strong>SPT 3.11 | SAIN 4.1.3</strong></p>\n<p>- Bots should turn to their target faster now.</p>\n<p>- Changed personalities inside configuration file to only “Wreckless” and “SnappingTurtle”.</p>\n<p>- Toggled SAIN extract behavior.</p>\n<p>- Disabled AI vs AI limitations.</p>\n<p>- Small tweaks for BEAR bot settings along with global difficulty.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/2.0.3",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 591,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-08-15T16:04:36.000000Z",
+      "created_at": "2025-08-15T16:04:36.000000Z",
+      "updated_at": "2026-05-14T01:38:27.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 128,
+      "hub_id": 14757,
+      "version": "2.0.2",
+      "description": "<p><strong>SPT 3.11 | SAIN 4.1.3</strong></p>\n<p>- Lowered headshot percent for most bots. Disabled “Aim for Head” for easy difficulty SCAVs (hard/impossible still have it on)</p>\n<p>- Debuffed Normal, Rat, Coward, Timmy personalities due to default values set</p>\n<p>- Fixed wrong value of Accuracy Speed set for Wreckless personality</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/2.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 622,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-08-07T02:29:31.000000Z",
+      "created_at": "2025-08-07T02:29:31.000000Z",
+      "updated_at": "2026-05-14T01:38:41.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 150,
+      "hub_id": 14733,
+      "version": "2.0.1",
+      "description": "<p><strong>SPT 3.11 | SAIN 4.1.3</strong></p>\n<p><strong>- Updated SAIN preset Structure &amp; EFT Bot Settings to the latest</strong></p>\n<p><strong>- Removed unused variable from mod</strong></p>\n<p><strong>- Disabled Aim For Center Mass</strong></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/2.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 453,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-08-03T18:53:35.000000Z",
+      "created_at": "2025-08-03T18:53:35.000000Z",
+      "updated_at": "2026-05-14T01:38:53.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 183,
+      "hub_id": 14696,
+      "version": "2.0.0",
+      "description": "<p><strong>SPT 3.11 | SAIN 4.1.1/4.1.2 (Latest)</strong></p>\n<p>- Small clean-up of the mod/config and unused code.</p>\n<p>- Removed Progressive Difficulty. Now progression is tied to personalities.</p>\n<p>- Re-based preset entirely from scratch due to significant changes.</p>\n<p>- Fixed reserved personalities being assigned by power level.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/2.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 503,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-30T15:02:47.000000Z",
+      "created_at": "2025-07-30T15:02:47.000000Z",
+      "updated_at": "2026-05-14T01:40:24.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 202,
+      "hub_id": 14675,
+      "version": "1.9.4",
+      "description": "<p><strong>SPT 3.11 | SAIN 4.0.4 | Alpha | Progressive Difficulty Disabled</strong></p>\n<p><strong>Technical update including finishing preset changes.</strong><br />\n- Fixed mod swearing at BotCallsigns missing config.</p>\n<p>- Now using config for extra names (if exist).</p>\n<p>- Updated all names in the files to the latest from BotCallsigns mod due to mod not picking up name changes.</p>\n<p>- Added forceMainFileRewrite in config - will always scan and rewrite names on every server start.</p>\n<p>- Forced personality “Wreckless” for “Legion” Boss.</p>\n<p><strong>Preset</strong><br />\n- Glukhar has been fairly buffed, along with his guards as well as other bosses.<br />\n- Turned down turn smoothing to 0.001 when in combat.<br />\n- Global precision speed, accuracy speed were buffed.<br />\n- Personality levels (chance to be assigned by PMC level) were slightly changed. Less chads on low levels, more on high levels. Twitch Players do not count into this, they can appear any time.</p>\n<p>Here’s a small, but surely, a nice showcase how it feels playing:<br />\n<a target=\"_blank\" class=\"external-link\" href=\"https://www.youtube.com/watch?v=88Cu\" rel=\"noreferrer noopener\">https://www.youtube.com/watch?v=88Cu</a>_DiZ9YY</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/1.9.4",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 532,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-26T18:05:05.000000Z",
+      "created_at": "2025-07-26T18:05:05.000000Z",
+      "updated_at": "2026-05-14T01:40:45.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 219,
+      "hub_id": 14658,
+      "version": "1.9.3",
+      "description": "<p><strong>SPT 3.11 | SAIN 4.0.4 | Alpha | Progressive Difficulty Disabled</strong></p>\n<p>- Mirrored values of precision speed for global difficulties and personalities due to their incorrect display (Thanks <strong>anOrangeDoggo!</strong>)</p>\n<p>- Bumped accuracy speed</p>\n<p>That’s all. Have fun.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/1.9.3",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 301,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-24T20:48:57.000000Z",
+      "created_at": "2025-07-24T20:48:57.000000Z",
+      "updated_at": "2026-05-14T01:41:17.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 241,
+      "hub_id": 14636,
+      "version": "1.9.2",
+      "description": "<p><strong>SPT 3.11 | SAIN 4.0.4 | Alpha | Progressive Difficulty Disabled</strong></p>\n<p>- Reduced <strong>smooth turning</strong> which was resulting in bots emptying their mags and miss in CQB if you strafed/sprinted to the side to 0.01, nullifying chances of being missed in plain sight. <strong>That doesn’t guarantee bots 100% accuracy.</strong> (<strong>Thanks Janky!</strong>)</p>\n<p>- Debuffed SCAVs vision speed, gain sight and accuracy coefficients further to compensate smooth turning change.</p>\n<p>- Reduced global recoil scaling.</p>\n<p>- Bots react faster if you’re moving/sprinting.</p>\n<p>- Bots no longer can be suppressed.</p>\n<p>- Further work on personalities - global setting adjustments, less PMC talking, improvements on reserved personalities, along with debuffing Normal personality.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/1.9.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 545,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-19T14:40:00.000000Z",
+      "created_at": "2025-07-19T14:40:00.000000Z",
+      "updated_at": "2026-05-14T01:41:54.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 249,
+      "hub_id": 14628,
+      "version": "1.9.1",
+      "description": "<p><strong>SPT 3.11 | SAIN 4.0.4 | Alpha | Progressive Difficulty Disabled</strong></p>\n<p>- Changed default personalities for Big Pipe, Knight to Wreckless (Reserved Twitch Players Personality).<br />\n- Bumped global accuracy speed and precision times.</p>\n<p>- Debuffed bot suppression for certain personalities.</p>\n<p>- Headshot chance was changed to 18% <strong>(15% -&gt; 18%).</strong><br />\n- Aim down sights time reduced by 85% <strong>(100% -&gt; 15%).</strong><br />\n- Bot names containing ‘chad’ are now considered Twitch Players - changes will be applied on the server start.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/1.9.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 402,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-17T06:18:02.000000Z",
+      "created_at": "2025-07-17T06:18:02.000000Z",
+      "updated_at": "2026-05-14T01:41:59.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 263,
+      "hub_id": 14614,
+      "version": "1.9.0",
+      "description": "<p><strong>SPT 3.11 | SAIN 4.0.2</strong></p>\n<p><strong>This is alpha version. Progressive difficulty is disabled, custom SAIN preset is capped to its original difficulty. Use this version only for SAIN labeled at the top.<br />\nChanges:</strong></p>\n<p>- Adjusted difficulties per bot types (i.e Rogues, Raiders/Bosses), making them more deadlier.</p>\n<p>- Adjusted global difficulties to accustom to the latest default presets.</p>\n<p>- Wreckless personality is now reserved for Twitch Players only.</p>\n<p>- Adjusted SCAV difficulties, making them.. Less deadly, but still able to give you a lot of problems.</p>\n<p>- Minor config changes to use Wreckless personality more than others<br />\n- Other minor changes relating accuracy, recoil, scatter and aim speed.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/1.9.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 391,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-14T10:26:36.000000Z",
+      "created_at": "2025-07-14T10:26:36.000000Z",
+      "updated_at": "2026-05-14T01:42:12.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 392,
+      "hub_id": 14479,
+      "version": "1.8.2",
+      "description": "<p><strong>SPT 3.11</strong></p>\n<p>After hours of testing and playthroughs, some global difficulty settings and tier settings were redone to accustom 3.11 AI difficulties**.**</p>\n<p><strong>Changes:</strong></p>\n<ul>\n<li>Bots no longer see you through entire map i.e on Labs, Factory or any other map.</li>\n</ul>\n<p><strong>This includes:</strong></p>\n<ul>\n<li>Bots no longer pushing you from all over the map i.e Rogues on Labs swarming your place, unless you’ve made too much noise.</li>\n<li>Bots no longer know where you’re at if you silent walk and re-position.</li>\n<li>Lowered aggression multipliers, hearing distance multiplier and vision distance multipliers for everyone (per-personality settings remained unchanged, so overall difficulty will be as hard as it was).</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/1.8.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1080,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-06-17T09:03:04.000000Z",
+      "created_at": "2025-06-17T09:03:04.000000Z",
+      "updated_at": "2026-05-14T01:46:18.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 462,
+      "hub_id": 14401,
+      "version": "1.8.1",
+      "description": "<p><strong>SPT 3.11</strong></p>\n<p>This update includes cumulative fixes and improvements to SAIN Preset based on user feedback.</p>\n<p><strong>Mod</strong></p>\n<p>- Nerfed hearing distance coefficient for Progressive Difficulty tiers <strong>3-6</strong>. (<strong>Old 1.2-&gt;1.8</strong> to <strong>New 1.1-&gt;1.5</strong>)</p>\n<p>- Next Names were added to names shipped with pre-set personalities on server start:<br />\n<strong>DrakiaXYZ<br />\nRaiRaiTheRaichu<br />\nRefringe<br />\nChomp<br />\n100KmhAMXPeek<br />\nCWX<br />\nwaffle.lord<br />\nAmands2Mello<br />\nJehree</strong></p>\n<p><strong>SAIN Preset</strong><br />\n- Reduced headshot chance from <strong>30%</strong> to <strong>10%.</strong><br />\n- Chad, GigaChad can now jump corners too.</p>\n<p>- Wreckless has more chance to jump corners. (<strong>50%</strong> -&gt;<strong>80%</strong>).<br />\n- Reduced accuracy multiplier for optics in close range (<strong>0.8</strong> -&gt; <strong>0.5</strong>).<br />\n- Reduced distance that counts as close range for optics. (<strong>75</strong> meters -&gt; <strong>35</strong> meters).</p>\n<p>Please direct any issues towards <strong>GitHub Issues Page. Good Luck with raids!</strong></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/1.8.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 823,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-06-06T20:18:03.000000Z",
+      "created_at": "2025-06-06T20:18:03.000000Z",
+      "updated_at": "2026-05-14T01:48:01.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 477,
+      "hub_id": 14383,
+      "version": "1.8.0",
+      "description": "<p><strong>SPT 3.11</strong></p>\n<p>- Updated mod dependencies - SAIN 2.3.0-&gt;3.3.0 (Latest), Bot Callsigns 1.4.4-&gt;1.5.2 (Latest)</p>\n<p>- Major mod revamp has been done to optimize its work and performance on Server start</p>\n<p>- Updated SAIN Preset Structure to the latest<br />\n- liveMode has been removed and mod automatically detects names to use from Bot Callsigns<br />\n- Fixed copyFolder() failing on server start<br />\n- Fixed pushNewestUpdateToSAIN() not reading personalities file</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1895/sain-twitch-players/1.8.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 801,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-06-01T19:00:50.000000Z",
+      "created_at": "2025-06-01T19:00:50.000000Z",
+      "updated_at": "2026-05-14T01:48:12.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1895/Twitch-Players-3.0.8.7z",
+    "bytes_written": 102027,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1080277330/0a37e72d-6acb-44c6-b74c-3674f34d6d13?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T11%3A15%3A40Z&rscd=attachment%3B+filename%3DTwitch-Players-3.0.8.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T10%3A15%3A04Z&ske=2026-08-10T11%3A15%3A40Z&sks=b&skv=2018-11-09&sig=Idoe1Xnq2qQj%2BMIm0pqQk7JG%2BCgkg2adgjxQBrIk7gw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NzM1MCwibmJmIjoxNzg2MzU3MDUwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.eMdDrrE0kAJFyjcQJk4FdjJDCGJHk7faQHPJ7M2VQx8&response-content-disposition=attachment%3B%20filename%3DTwitch-Players-3.0.8.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1895/sain-twitch-players-3.0.7-spt40.7z",
+    "bytes_written": 102107,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1080277330/4f330883-0093-4b3d-bd32-5c2733e9d5dd?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T13%3A01%3A43Z&rscd=attachment%3B+filename%3DTwitch-Players-3.0.7.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T12%3A00%3A55Z&ske=2026-08-10T13%3A01%3A43Z&sks=b&skv=2018-11-09&sig=k1ubgqsoSRiS0PBt4T5fxTKbDa5XIezrKTnadkF%2B%2FZ4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzU1NiwibmJmIjoxNzg2MzYzMjU2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.8GefTh5clcGRjM2xCwNBtFkLO9nL5V4v7YT-5i1yJKA&response-content-disposition=attachment%3B%20filename%3DTwitch-Players-3.0.7.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "3.0.7",
+    "same_as_primary_download": false
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2152,
+      "hub_id": 2852,
+      "guid": "com.almightytank.sjxelitestims",
+      "name": "SJX Elite Stims Addon for Consumables Galore",
+      "slug": "sjx-elite-stims-addon-for-consumables-galore",
+      "teaser": "Welcome to SJX Elite Stims Addon, a powerful expansion to the Consumables Galore mod.",
+      "thumbnail": "",
+      "downloads": 2822,
+      "favourites_count": 1,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Overview</div>\n<div class=\"tab-content\"><p>Welcome to SJX Elite Stims, an addon to Consumables Galore that introduces eight high-performance, late-game stimulants crafted for PvP, high-tier raids, and solo survivalists. Each stim is built off vanilla Tarkov stimulants, with rebalanced effects to deliver serious edge — at a cost.</p>\n<p>This mod requires Consumables Galore and benefits from its full feature set:</p>\n<p>- Flea market integration</p>\n<p>- (Optional) Trader support</p>\n<p>- (Optional) Crafting options</p>\n<p>- (Optional) Map spawnpoints</p>\n<p>- Modular design — delete what you don’t want</p>\n<p>Included Stims:</p>\n<p><strong>Zagustin Plus</strong></p>\n<p>• Instantly stops all bleeds</p>\n<p>• Prevents new bleeds for 240s</p>\n<p>• Painkiller effect (60s)</p>\n<p>• <em>Side effect:</em> Hydration -15</p>\n<p><strong>AHF1-M Plus</strong></p>\n<p>• Health regen: +2.5 HP/sec</p>\n<p>• Painkiller effect (90s)</p>\n<p>• <em>Side effect:</em> Energy -5</p>\n<p>• Faster onset, shorter duration</p>\n<p><strong>L1-Sprint</strong></p>\n<p>• +60% sprint time</p>\n<p>• Endurance XP rate: +20%</p>\n<p>• Painkiller effect (20s)</p>\n<p>• <em>Side effect:</em> +10% movement noise</p>\n<p><strong>Obdolbos++</strong></p>\n<p>• +20% Strength, Endurance, Perception XP</p>\n<p>• +20% stamina regen &amp; carry weight</p>\n<p>• <em>Side effects:</em> 10% chance to fracture limbs after 5 min, Tremor for 120s</p>\n<p><strong>M.U.L.E. Plus</strong></p>\n<p>• +75% carry weight</p>\n<p>• Strength XP: +15%</p>\n<p>• <em>Side effects:</em> Hydration -30, Energy -30 (over time)</p>\n<p><strong>Adrenaline Surge</strong></p>\n<p>• +25% stamina regen</p>\n<p>• Painkillers (90s)</p>\n<p>• Strength XP: +15%</p>\n<p>• Temporarily +10 HP to each limb (180s)</p>\n<p><strong>PNB++ (PNB Glycine)</strong></p>\n<p>• +15% recoil control</p>\n<p>• +20% aim stability</p>\n<p>• -10% movement noise</p>\n<p>• -20% AI detection for 240s</p>\n<p><strong>RegenX-7</strong></p>\n<p>• +1.5 HP/sec regen for 600s</p>\n<p>• Painkiller (300s)</p>\n<p>• Removes light bleeds on use</p>\n<p>Each stim is handcrafted with thoughtful buffs, trade-offs, and synergy for advanced players.</p>\n<p>[tab=Setup, Config]</p>\n<p>1. Drop the folder into spt folder</p>\n<p>2. Requires Consumables Galore to work</p>\n<p>3. All items are in items as individual JSONs</p>\n<p>4. To disable an item, delete its file (after removing from inventory)</p>\n<p>Each stim JSON can be customized for price, effects, trader access, crafts, and spawns.</p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">How to add your own stims</div>\n<div class=\"tab-content\"><p>Mod loads any JSON inside the items folder.</p>\n<p>Use the included stim files as examples.</p>\n<p>To make your own:</p>\n<p>- Clone a base Tarkov stim using “cloneOrigin” ID</p>\n<p>- Set a unique MongoDB-style “id”</p>\n<p>- Add “Buffs” array for effects</p>\n<p>- Optional: trader, spawns, crafts</p>\n<p>- Reference Aki_Data/Server/database/globals.json for available buffs</p>\n<p>IDs can be found via: <a target=\"_blank\" class=\"external-link\" href=\"https://db.sp-tarkov.com/search/\" rel=\"noreferrer noopener\">https://db.sp-tarkov.com/search/</a></p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Credits and stuff</div>\n<div class=\"tab-content\"><p>- Based on Consumables Galore by MusicManiac</p>\n<p>- Thanks to papershredder432 for More Stim Injectors</p>\n<p>- Stim designs by [your name here]</p>\n<p>- IDs sourced from db.sp-tarkov.com</p>\n<p>- Buffs balanced for fun and challenge</p></div></div></div>\n<p><em>If you’d like to support the mod, feel free to buy me a coffee on Ko-fi!</em></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2152/sjx-elite-stims-addon-for-consumables-galore",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 4,
+      "published_at": "2025-05-25T21:21:50.000000Z",
+      "created_at": "2025-05-25T21:21:50.000000Z",
+      "updated_at": "2026-08-03T18:02:24.000000Z",
+      "owner": {
+        "id": 59864,
+        "name": "AmightyTank",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/ca455d7c3c3a7a3a5f0c349de15469a9aedb1443_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-07-29T05:47:41.000000Z",
+        "updated_at": "2026-08-10T01:29:30.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14430,
+          "hub_id": null,
+          "version": "1.0.2",
+          "description": "# Changelog\n\n## v1.0.2\n\n**Requires Consumables Galore v3.0.0+ and SPT ~4.1.1** - install Consumables Galore\nfirst; SJX-Elite-Stims will not load without it.\n\n### Changed\n\n- Packaged as a standalone mod (`AlmightyTank-SJXEliteStims.dll`) instead of raw item\n  files\n- Item definitions kept in this mod's own `items/` folder (same file contents, no\n  balance/stat changes)\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/2152/sjx-elite-stims-addon-for-consumables-galore/1.0.2",
+          "content_length": 13652,
+          "spt_version_constraint": "~4.1.1",
+          "downloads": 595,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-03T07:15:00.000000Z",
+          "created_at": "2026-08-03T07:15:47.000000Z",
+          "updated_at": "2026-08-03T18:02:24.000000Z"
+        },
+        {
+          "id": 521,
+          "hub_id": 14336,
+          "version": "1.0.1",
+          "description": "Fix the zip",
+          "link": "https://forge.sp-tarkov.com/mod/download/2152/sjx-elite-stims-addon-for-consumables-galore/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2100,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-26T01:53:13.000000Z",
+          "created_at": "2025-05-26T01:53:13.000000Z",
+          "updated_at": "2026-05-14T01:49:49.000000Z"
+        },
+        {
+          "id": 523,
+          "hub_id": 14334,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2152/sjx-elite-stims-addon-for-consumables-galore/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 127,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-25T21:21:50.000000Z",
+          "created_at": "2025-05-25T21:21:50.000000Z",
+          "updated_at": "2026-05-14T01:50:05.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 4,
+        "hub_id": 21,
+        "title": "Items",
+        "slug": "items",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/AlmightyTank/SJX-Elite-Stims/releases/download/3.11-1.0.0/SJX.Elite.Stims-3.11-1.0.0.zip",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14430,
+      "hub_id": null,
+      "version": "1.0.2",
+      "description": "<h1>Changelog</h1>\n<h2>v1.0.2</h2>\n<p><strong>Requires Consumables Galore v3.0.0+ and SPT ~4.1.1</strong> - install Consumables Galore\nfirst; SJX-Elite-Stims will not load without it.</p>\n<h3>Changed</h3>\n<ul>\n<li>Packaged as a standalone mod (<code>AlmightyTank-SJXEliteStims.dll</code>) instead of raw item\nfiles</li>\n<li>Item definitions kept in this mod’s own <code>items/</code> folder (same file contents, no\nbalance/stat changes)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2152/sjx-elite-stims-addon-for-consumables-galore/1.0.2",
+      "content_length": 13652,
+      "spt_version_constraint": "~4.1.1",
+      "downloads": 595,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-03T07:15:00.000000Z",
+      "created_at": "2026-08-03T07:15:47.000000Z",
+      "updated_at": "2026-08-03T18:02:24.000000Z",
+      "dependencies": [
+        {
+          "id": 1237,
+          "hub_id": 1725,
+          "guid": "com.musicmaniac.consumablesgalore",
+          "name": "Consumables Galore",
+          "slug": "consumables-galore",
+          "teaser": "Easily create your stims and foods in-game. Tool that comes pre-packed with some new and old stims and foods.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1725.png",
+          "downloads": 11291,
+          "favourites_count": 7,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1237/consumables-galore",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 4,
+          "published_at": "2024-01-23T21:46:00.000000Z",
+          "created_at": "2024-01-23T21:46:16.000000Z",
+          "updated_at": "2026-08-03T06:02:26.000000Z",
+          "owner": {
+            "id": 31382,
+            "name": "MusicManiac",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/ca9efbb42b4e3190891e87b23f064c0faf5d31aa_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-22T00:57:24.000000Z",
+            "updated_at": "2026-08-02T12:40:35.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 48626,
+              "name": "Awoo",
+              "profile_photo_url": "https://ui-avatars.com/api/?name=A&color=7F9CF5&background=EBF4FF",
+              "cover_photo_url": null,
+              "created_at": "2024-04-19T22:13:08.000000Z",
+              "updated_at": "2025-09-26T15:37:26.000000Z"
+            },
+            {
+              "id": 59864,
+              "name": "AmightyTank",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/ca455d7c3c3a7a3a5f0c349de15469a9aedb1443_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-07-29T05:47:41.000000Z",
+              "updated_at": "2026-08-10T01:29:30.000000Z"
+            },
+            {
+              "id": 82969,
+              "name": "Rana Hamza",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/K6kms49Pw8i6rqx2shGYWf28KCsQR7D8mUTDsAI4_256w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/j4M8y3E7lTn8Il0eqjUDN8B7wRjzD2MYZQxVX3qg.jpg",
+              "created_at": "2025-08-07T21:05:24.000000Z",
+              "updated_at": "2026-08-09T20:06:41.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14399,
+              "hub_id": null,
+              "version": "3.0.0",
+              "description": "<h1>Changelog</h1>\n<h2>v3.0.0</h2>\n<p><strong>SPT 4.1 compatibility</strong> - updated server and client for SPT 4.1.x\n<strong>Not backward compatible</strong> - this version requires SPT 4.1.x and will not work with SPT 4.0.x or earlier.</p>\n<h3>New</h3>\n<ul>\n<li><strong>Quest-assort and quest-reward hookups</strong>:\n<ul>\n<li><code>includeInQuestAssortAsOrigin</code> - mirrors whatever quest already locks the origin item’s trader assortment onto the new item</li>\n<li><code>includeInQuestRewardsAsOrigin</code> - mirrors any quest reward that gives the origin item onto the new item</li>\n<li><code>trader.questUnlock</code> - locks the new item’s assortment entry behind a specific quest, independent of the origin</li>\n<li><code>questReward</code> - gives the new item as a reward on a specific quest, independent of the origin</li>\n<li>Quest-assort locks now also add a matching <code>AssortmentUnlock</code> reward, so the quest correctly displays “unlocks trader assortment” in-game instead of only working mechanically</li>\n</ul>\n</li>\n<li><strong><code>LoadAdditionalItems</code> extension point</strong> - other mods can now register their own item folders (including nested paths like <code>db/CustomItems/Consumables</code>) to be loaded through Consumables Galore’s full pipeline (clone, buffs, trader, quest hookups, spawns), without editing this mod</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1237/consumables-galore/3.0.0",
+              "content_length": 45886,
+              "spt_version_constraint": "~4.1.1",
+              "downloads": 1155,
+              "fika_compatibility": "unknown",
+              "published_at": "2026-08-03T01:03:00.000000Z",
+              "created_at": "2026-08-03T01:04:06.000000Z",
+              "updated_at": "2026-08-03T06:02:26.000000Z"
+            }
+          ],
+          "category": {
+            "id": 4,
+            "hub_id": 21,
+            "title": "Items",
+            "slug": "items",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 521,
+      "hub_id": 14336,
+      "version": "1.0.1",
+      "description": "<p>Fix the zip</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2152/sjx-elite-stims-addon-for-consumables-galore/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2100,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-26T01:53:13.000000Z",
+      "created_at": "2025-05-26T01:53:13.000000Z",
+      "updated_at": "2026-05-14T01:49:49.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2152/SJX-Elite-Stims-1.0.2.zip",
+    "bytes_written": 13652,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/990278115/4440a1a8-3025-41c4-8059-99e11d44ba08?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A22%3A48Z&rscd=attachment%3B+filename%3DSJX-Elite-Stims-1.0.2.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A22%3A31Z&ske=2026-08-10T10%3A22%3A48Z&sks=b&skv=2018-11-09&sig=3oKmFx8WGLm1g7a2AsDzyZPb4GV%2B9M9d8SBngdKmK%2FQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTAyMywibmJmIjoxNzg2MzU0NzIzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Y9rgMIo9bdW62QWV7YJYdI1QKtmQIeSnS4zfJXxQ3yc&response-content-disposition=attachment%3B%20filename%3DSJX-Elite-Stims-1.0.2.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": false
+  }
+}

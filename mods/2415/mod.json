@@ -1,0 +1,294 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2415,
+      "hub_id": null,
+      "guid": "ca.bushtail.cantedaiming",
+      "name": "Canted Aiming",
+      "slug": "canted-aiming",
+      "teaser": "Allow the player to point shoot without a backup sight mount.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/gi9iw2VlhJrw0TGjw67s2wpjoUH8MUFZWjWkwuyb.png",
+      "downloads": 16342,
+      "favourites_count": 34,
+      "description": "<p>Adds an item named Canted Aim, can be found on the flea for extremely cheap. Goes in place of your scope, and any other scope you want to use gets attached to it.</p>\n<p>The bundle comes from Pluto’s old Echoes of Tarkov project, thank you Pluto for allowing me to use it.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2415/canted-aiming",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 4,
+      "published_at": "2025-11-02T02:55:00.000000Z",
+      "created_at": "2025-11-02T02:55:24.000000Z",
+      "updated_at": "2026-07-28T09:37:26.000000Z",
+      "owner": {
+        "id": 33775,
+        "name": "bushtail",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/TdWzpvy2rqkXMd0ZgmhFFK4drV4CyIIonC6CpuXT_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/9kPkXgrFjtLcjpFyR4bUGOAc6Rr8PaFIl5GMCjnt.png",
+        "created_at": "2023-07-09T21:22:21.000000Z",
+        "updated_at": "2026-08-09T21:19:05.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 44944,
+          "name": "Pluto!",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/c5ca589561729a180df6a8c53aa2dea0e6a8d8b1_128w.webp",
+          "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/a2b76828492fe6f925e02ac685e73b7c6a04c7e0_1280w.webp",
+          "created_at": "2024-02-04T02:53:57.000000Z",
+          "updated_at": "2026-07-10T04:57:00.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 14060,
+          "hub_id": null,
+          "version": "1.2.0",
+          "description": "WTT CommonLib Rewrite",
+          "link": "https://forge.sp-tarkov.com/mod/download/2415/canted-aiming/1.2.0",
+          "content_length": 10269,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 2445,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-12T17:52:00.000000Z",
+          "created_at": "2026-07-12T17:51:59.000000Z",
+          "updated_at": "2026-07-28T09:37:26.000000Z"
+        },
+        {
+          "id": 12537,
+          "hub_id": null,
+          "version": "1.0.7",
+          "description": "1.0.6 remained unpublished accidentally - add incompatibility with EoT Requisitions NG (they're the same item)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2415/canted-aiming/1.0.7",
+          "content_length": 12639,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 10967,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-12-07T02:49:00.000000Z",
+          "created_at": "2025-12-07T02:49:56.000000Z",
+          "updated_at": "2026-07-28T07:02:07.000000Z"
+        },
+        {
+          "id": 12289,
+          "hub_id": null,
+          "version": "1.0.4",
+          "description": "no more gitlab, no more 404",
+          "link": "https://forge.sp-tarkov.com/mod/download/2415/canted-aiming/1.0.4",
+          "content_length": 12240,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 2930,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-11-12T01:27:00.000000Z",
+          "created_at": "2025-11-12T01:27:48.000000Z",
+          "updated_at": "2026-07-28T06:21:08.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 4,
+        "hub_id": 21,
+        "title": "Items",
+        "slug": "items",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/bushtail/CantedAiming",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14060,
+      "hub_id": null,
+      "version": "1.2.0",
+      "description": "<p>WTT CommonLib Rewrite</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2415/canted-aiming/1.2.0",
+      "content_length": 10269,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 2445,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-12T17:52:00.000000Z",
+      "created_at": "2026-07-12T17:51:59.000000Z",
+      "updated_at": "2026-07-28T09:37:26.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338276,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13486,
+              "hub_id": null,
+              "version": "2.0.20",
+              "description": "<p>Version so good it jumped a number!</p>\n<ul>\n<li>new hideout crafting expansion by pein, now supports multi-endproducts and endproducts with nested children</li>\n<li>reworked custom parent mapping into a server service + client attribute (also by pein)</li>\n<li>separated logic in the slothelper methods, added a new one</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.20",
+              "content_length": 167466,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 103727,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-04-25T04:15:00.000000Z",
+              "created_at": "2026-04-25T04:16:03.000000Z",
+              "updated_at": "2026-07-28T08:25:15.000000Z"
+            },
+            {
+              "id": 13416,
+              "hub_id": null,
+              "version": "2.0.18",
+              "description": "<ul>\n<li>added new itemservice helper for adding items to blacklist</li>\n<li>fixed nuget package forcibly including the en.json locale for the salvage zones in your project /bonk</li>\n<li>fixed slothelper method and added support for creating new slot info</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.18",
+              "content_length": 157079,
+              "spt_version_constraint": "~4.0.2",
+              "downloads": 17436,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-04-11T22:24:00.000000Z",
+              "created_at": "2026-04-11T22:25:48.000000Z",
+              "updated_at": "2026-07-28T08:21:24.000000Z"
+            },
+            {
+              "id": 13398,
+              "hub_id": null,
+              "version": "2.0.17",
+              "description": "<ul>\n<li>fixed hideout crafts service not supporting anything but arrays /bonk</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.17",
+              "content_length": 151817,
+              "spt_version_constraint": "~4.0.1",
+              "downloads": 4952,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-04-08T13:26:00.000000Z",
+              "created_at": "2026-04-08T13:26:58.000000Z",
+              "updated_at": "2026-07-28T08:20:36.000000Z"
+            },
+            {
+              "id": 13391,
+              "hub_id": null,
+              "version": "2.0.16",
+              "description": "<ul>\n<li>Added new helper to slothelper to add ids by name</li>\n<li>Added fix custom item sort order patch (thanks Pein! ❤ )</li>\n<li>Added new “Salvage” zones to possible quest types</li>\n<li>Added locales for the salvage zone interactions</li>\n<li>Fixed hideout crafts not supporting .jsonc /bonk</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.16",
+              "content_length": 151472,
+              "spt_version_constraint": "~4.0.1",
+              "downloads": 1550,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-04-07T22:15:00.000000Z",
+              "created_at": "2026-04-07T22:16:03.000000Z",
+              "updated_at": "2026-07-28T08:20:01.000000Z"
+            },
+            {
+              "id": 12977,
+              "hub_id": null,
+              "version": "2.0.15",
+              "description": "<ul>\n<li>Implemented random loot container support for customitemserviceextended</li>\n<li>Added save method to confighelper</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.15",
+              "content_length": 141736,
+              "spt_version_constraint": "~4.0.1",
+              "downloads": 49139,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-02-02T21:52:00.000000Z",
+              "created_at": "2026-02-02T21:52:47.000000Z",
+              "updated_at": "2026-07-28T07:58:57.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 12537,
+      "hub_id": null,
+      "version": "1.0.7",
+      "description": "<p>1.0.6 remained unpublished accidentally - add incompatibility with EoT Requisitions NG (they’re the same item)</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2415/canted-aiming/1.0.7",
+      "content_length": 12639,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 10967,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-12-07T02:49:00.000000Z",
+      "created_at": "2025-12-07T02:49:56.000000Z",
+      "updated_at": "2026-07-28T07:02:07.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12289,
+      "hub_id": null,
+      "version": "1.0.4",
+      "description": "<p>no more gitlab, no more 404</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2415/canted-aiming/1.0.4",
+      "content_length": 12240,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 2930,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-11-12T01:27:00.000000Z",
+      "created_at": "2025-11-12T01:27:48.000000Z",
+      "updated_at": "2026-07-28T06:21:08.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2415/bushtail-CantedAiming_v1.2.0.zip",
+    "bytes_written": 10269,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1094626533/2df021f3-1a9b-4b35-a7e4-3efe0527a785?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A50%3A15Z&rscd=attachment%3B+filename%3Dbushtail-CantedAiming_v1.2.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A49%3A54Z&ske=2026-08-10T10%3A50%3A15Z&sks=b&skv=2018-11-09&sig=Jy16kXg6j%2BVYGzZIzmplDZ5jNNCYPi6nKojrylKdv30%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NjE2OSwibmJmIjoxNzg2MzU1ODY5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.6Kvoazcqvqm_A9RtZe7y6iRJMosNvz0H7YaeNwcl7pw&response-content-disposition=attachment%3B%20filename%3Dbushtail-CantedAiming_v1.2.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.2.0",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,173 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1946,
+      "hub_id": 2618,
+      "guid": "com.dvize.ass",
+      "name": "Arse Scratching Service (ASS)",
+      "slug": "arse-scratching-service-ass",
+      "teaser": "Restore armour and weapon durability after gunfights in raid over time.",
+      "thumbnail": "",
+      "downloads": 10366,
+      "favourites_count": 8,
+      "description": "<p>Useful mod for long raid with many fights.</p>\n<p>Restore weapon and armor durability in raid.</p>\n<p>Ported to SPT 4.0</p>\n<p>Original mod <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1138-arse-scratching-service-ass/?highlight=ars\" rel=\"noreferrer noopener\">Arse Scratching Service (ASS) 1.7.0</a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1946/arse-scratching-service-ass",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2025-01-06T10:37:00.000000Z",
+      "created_at": "2025-01-06T10:37:22.000000Z",
+      "updated_at": "2026-07-28T06:03:56.000000Z",
+      "owner": {
+        "id": 26519,
+        "name": "wizard83",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=w&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2023-02-03T13:05:13.000000Z",
+        "updated_at": "2026-08-10T07:13:41.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 15516,
+          "name": "Props",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/53f17847d86ea53a84f69a549ce2b50baf31d665_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2022-03-09T07:33:42.000000Z",
+          "updated_at": "2026-07-10T04:50:00.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 11850,
+          "hub_id": null,
+          "version": "1.7.3",
+          "description": "Update to SPT 4.0",
+          "link": "https://forge.sp-tarkov.com/mod/download/1946/arse-scratching-service-ass/1.7.3",
+          "content_length": 5808,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 5530,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-15T07:07:00.000000Z",
+          "created_at": "2025-10-15T07:08:26.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 1040,
+          "hub_id": 13745,
+          "version": "1.7.2",
+          "description": "update to 3.11  \n[Virustotal](https://www.virustotal.com/gui/url/15294d69051852aa755bb53de23edccd36276c39eafec24d77a35d3aa88d40ba?nocache=1)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1946/arse-scratching-service-ass/1.7.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2724,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-23T09:21:57.000000Z",
+          "created_at": "2025-03-23T09:21:57.000000Z",
+          "updated_at": "2026-05-14T02:03:23.000000Z"
+        },
+        {
+          "id": 1685,
+          "hub_id": 13041,
+          "version": "1.7.1",
+          "description": "Moved to github. Updated version in dll file",
+          "link": "https://forge.sp-tarkov.com/mod/download/1946/arse-scratching-service-ass/1.7.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1604,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-09T08:42:38.000000Z",
+          "created_at": "2025-01-09T08:42:38.000000Z",
+          "updated_at": "2026-05-14T02:32:32.000000Z"
+        },
+        {
+          "id": 1725,
+          "hub_id": 12995,
+          "version": "1.7.0",
+          "description": "Fix missing version",
+          "link": "https://forge.sp-tarkov.com/mod/download/1946/arse-scratching-service-ass/1.7.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 508,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-06T10:37:22.000000Z",
+          "created_at": "2025-01-06T10:37:22.000000Z",
+          "updated_at": "2026-07-13T18:02:31.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/asler/Armor-Stitching-Service",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11850,
+      "hub_id": null,
+      "version": "1.7.3",
+      "description": "<p>Update to SPT 4.0</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1946/arse-scratching-service-ass/1.7.3",
+      "content_length": 5808,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 5530,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-15T07:07:00.000000Z",
+      "created_at": "2025-10-15T07:08:26.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1040,
+      "hub_id": 13745,
+      "version": "1.7.2",
+      "description": "<p>update to 3.11<br />\n<a target=\"_blank\" class=\"external-link\" href=\"https://www.virustotal.com/gui/url/15294d69051852aa755bb53de23edccd36276c39eafec24d77a35d3aa88d40ba?nocache=1\" rel=\"noreferrer noopener\">Virustotal</a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1946/arse-scratching-service-ass/1.7.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2724,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-23T09:21:57.000000Z",
+      "created_at": "2025-03-23T09:21:57.000000Z",
+      "updated_at": "2026-05-14T02:03:23.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1946/dvize.ASS-v1.7.3.0.zip",
+    "bytes_written": 5808,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/914246858/fbddfdcc-06b7-43cf-8a4d-e54850c2edcf?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A50%3A04Z&rscd=attachment%3B+filename%3Ddvize.ASS-v1.7.3.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A49%3A11Z&ske=2026-08-10T10%3A50%3A04Z&sks=b&skv=2018-11-09&sig=9yUf21Y1BzH1XYyeoez4XV0OTt05rfsSDucjeDEyWTs%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NjU0OCwibmJmIjoxNzg2MzU2MjQ4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.tl6zwCaQnZWgw7OHxAggqbQoA0QYp3Nq_y7eiwi1T9E&response-content-disposition=attachment%3B%20filename%3Ddvize.ASS-v1.7.3.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.7.3",
+    "same_as_primary_download": true
+  }
+}

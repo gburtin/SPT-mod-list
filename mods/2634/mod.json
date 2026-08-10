@@ -1,0 +1,207 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2634,
+      "hub_id": null,
+      "guid": "escapefromlowframes",
+      "name": "Escape From Low Frames",
+      "slug": "escape-from-low-frames",
+      "teaser": "A way to escape that disturbingly low framerate",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/LZwuOx1elSWlLuN6FhlN799gfVmScen2268f7NT0.png",
+      "downloads": 15932,
+      "favourites_count": 67,
+      "description": "<p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎‎<img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/rJCC2np.png\" alt=\"Logo\" /></p>\n<h1>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Escape From Low Frames</h1>\n<h5>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ A way to escape that disturbingly low framerate</h5>\n<p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ <img loading=\"lazy\" decoding=\"async\" src=\"https://img.shields.io/github/stars/NRK-git/Escape-From-Low-Frames?style=for-the-badge\" alt=\"GitHub stars\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://img.shields.io/github/issues/NRK-git/Escape-From-Low-Frames?style=for-the-badge\" alt=\"GitHub issues\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://img.shields.io/github/downloads/NRK-git/Escape-From-Low-Frames/total?style=for-the-badge\" alt=\"GitHub downloads\" /></p>\n<hr />\n<h2>🧩 Overview</h2>\n<p><strong>Escape From Low Frames</strong> is a <em>Performance</em> focused project designed to try fixing <em>Framerate</em> &amp; <em>Latency</em> issues with <em>Tarkov</em></p>\n<h3>Escape From Low Frames Utilizes</h3>\n<ul>\n<li>⚙️ <strong>NVIDIA Profile Inspector Revamped (NVPI-R)</strong></li>\n</ul>\n<p><strong>NVIDIA Profile Inspector Revamped (NVPI-R)</strong> is a community-driven, enhanced fork of the original NVIDIA Profile Inspector (NVPI), designed to improve usability, documentation, and user experience. It was created to address the limitations of the original tool, which had become outdated and lacked support, as well as the incomplete state of other forks.</p>\n<hr />\n<h2>⚡ What Does My Preset Try To Achieve?</h2>\n<ul>\n<li>📈 Increases framerate</li>\n<li>📉 Tries to stabilise 1% lows</li>\n<li>🧠 Tries to reduce the CPU bottlenecks</li>\n<li>📊 Tries to keep frames consistent</li>\n<li>⚙️ Utilizes Smooth Motion &amp; <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2621/tarkov-dlss-45\" rel=\"noreferrer noopener\">DLSS 4.5</a></li>\n</ul>\n<hr />\n<h2>📥 Mod Installation</h2>\n<div class=\"youtube-lite\" data-video-id=\"uhSCEmJHOOw\" data-embed-url=\"https://www.youtube-nocookie.com/embed/uhSCEmJHOOw?autoplay=1\"><img src=\"https://i.ytimg.com/vi/uhSCEmJHOOw/hqdefault.jpg\" alt=\"YouTube video thumbnail\" loading=\"lazy\" decoding=\"async\" /></div>\n<ol>\n<li>Download from <strong><a target=\"_blank\" class=\"external-link\" href=\"https://github.com/NRK-git/Escape-From-Low-Frames/releases\" rel=\"noreferrer noopener\">Latest Release</a></strong></li>\n<li>Extract the <em><strong>Escape From Low Frames.zip</strong></em> file</li>\n<li>Open the <em><strong>Escape From Low Frames</strong></em> folder</li>\n<li>Open the <em><strong>NVPI-R.exe</strong></em> as Administrator</li>\n<li>Click on Profile and search for <em><strong>Escape From Tarkov</strong></em></li>\n<li>Click on <em><strong>Export user defined profiles</strong></em> and then <em><strong>Export current profile including predefined settings</strong></em></li>\n<li>Save <em><strong>Escape From Tarkov.nip</strong></em> to your desired location</li>\n<li>Click on <em><strong>Import user defined profiles</strong></em> and then <em><strong>Import profile(s)</strong></em></li>\n<li>In the <em><strong>Escape From Low Frames</strong></em> folder, open <em><strong>Preset</strong></em> folder</li>\n<li>Now select the  <em><strong>Escape From Low Frames.nip</strong></em> and <em><strong>Apply Changes</strong></em></li>\n</ol>\n<hr />\n<h2>❓ Running Into Issues?</h2>\n<h4>If you are running into issues, Leave a <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2634/escape-from-low-frames#comments\" rel=\"noreferrer noopener\">Comment</a> With your issue or Contact me on Discord if you have a specific issue: <strong>@nrk_z</strong></h4>\n<hr />\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2634/escape-from-low-frames",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2026-03-24T08:30:00.000000Z",
+      "created_at": "2026-03-20T18:47:32.000000Z",
+      "updated_at": "2026-08-02T03:40:03.000000Z",
+      "owner": {
+        "id": 96373,
+        "name": "NRK.Z",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/n3IgSVwnZDQsmZpn8FOYV2EsFQcTmrNLed9Ksmbj_256w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-12-13T17:08:23.000000Z",
+        "updated_at": "2026-08-10T09:44:30.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14195,
+          "hub_id": null,
+          "version": "1.0.3",
+          "description": "‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎‎![Logo](https://i.imgur.com/rJCC2np.png)\n# ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Escape From Low Frames\n\n##### ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ A way to escape that disturbingly low framerate\n\n‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ![GitHub stars](https://img.shields.io/github/stars/NRK-git/Escape-From-Low-Frames?style=for-the-badge)\n![GitHub issues](https://img.shields.io/github/issues/NRK-git/Escape-From-Low-Frames?style=for-the-badge)\n![GitHub downloads](https://img.shields.io/github/downloads/NRK-git/Escape-From-Low-Frames/total?style=for-the-badge)\n\n---\n\n##### Future Plans:\n\n##### 1. | Separate YouTube guide to debloat your graphics drivers and optimize your system\n\n##### 2. | Discord server for help with optimizations regarding Tarkov specifically. (WIP)\n\n---\n\n#### Update Information:\n\n#### Updated The Nvidia Profile Inspector Revamped To The Latest Version\n#### Added 4 New Presets Updated With New Settings\n#### Updated All Presets With New Improved And Refined Settings With Bettered Latency And Performance\n#### GTX Preset Is Finally Added\n#### Bunch More Improvements Were Added That Is Not Listed\n\n##### If you encounter issues, please leave a [Comment](https://forge.sp-tarkov.com/mod/2634/escape-from-low-frames#comments)!",
+          "link": "https://forge.sp-tarkov.com/mod/download/2634/escape-from-low-frames/1.0.3",
+          "content_length": 985842,
+          "spt_version_constraint": "4.1.0",
+          "downloads": 3664,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-23T14:30:00.000000Z",
+          "created_at": "2026-07-23T14:30:42.000000Z",
+          "updated_at": "2026-08-02T03:39:14.000000Z"
+        },
+        {
+          "id": 13678,
+          "hub_id": null,
+          "version": "1.0.2",
+          "description": "‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎‎![Logo](https://i.imgur.com/rJCC2np.png)\n# ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Escape From Low Frames\n\n##### ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ A way to escape that disturbingly low framerate\n\n‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ![GitHub stars](https://img.shields.io/github/stars/NRK-git/Escape-From-Low-Frames?style=for-the-badge)\n![GitHub issues](https://img.shields.io/github/issues/NRK-git/Escape-From-Low-Frames?style=for-the-badge)\n![GitHub downloads](https://img.shields.io/github/downloads/NRK-git/Escape-From-Low-Frames/total?style=for-the-badge)\n\n---\n\n##### Future Plans:\n\n##### 1. | Adding Specific Presets for RTX 20-30 series cards and GTX cards (WIP)\n\n##### 2. | Optimizing further settings to balance the config for all users\n\n##### 3. | Separate YouTube guide to debloat your graphics drivers and optimize your system\n\n##### 4. | Discord server for help with optimizations regarding Tarkov specifically. (WIP)\n\n---\n\n#### Update Information:\n\n#### Updated The Nvidia Profile Inspector + Nvidia Profile Inspector Revamped To Their Latest Versions\n#### Added Another Preset With The Suffix (Fix) Which Was Made To Resolve The Current Tarkov Issue With Smooth Motion, If You Can Run Smooth Motion, Select The None (Fix) Version Of The Preset\n#### UI Is Updated And More Modern\n#### Added My Up To Date Global Settings\n\n##### If you encounter issues, please leave a [Comment](https://forge.sp-tarkov.com/mod/2634/escape-from-low-frames#comments)!",
+          "link": "https://forge.sp-tarkov.com/mod/download/2634/escape-from-low-frames/1.0.2",
+          "content_length": 948960,
+          "spt_version_constraint": "4.1.0",
+          "downloads": 4541,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-06-01T15:48:00.000000Z",
+          "created_at": "2026-06-01T15:48:54.000000Z",
+          "updated_at": "2026-08-02T03:39:41.000000Z"
+        },
+        {
+          "id": 13301,
+          "hub_id": null,
+          "version": "1.0.1",
+          "description": "‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎‎![Logo](https://i.imgur.com/rJCC2np.png)\n# ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Escape From Low Frames\n\n##### ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ A way to escape that disturbingly low framerate\n\n‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ![GitHub stars](https://img.shields.io/github/stars/NRK-git/Escape-From-Low-Frames?style=for-the-badge)\n![GitHub issues](https://img.shields.io/github/issues/NRK-git/Escape-From-Low-Frames?style=for-the-badge)\n![GitHub downloads](https://img.shields.io/github/downloads/NRK-git/Escape-From-Low-Frames/total?style=for-the-badge)\n\n---\n\n##### Future Plans:\n\n##### 1. | Adding Specific Presets for RTX 20-30 series cards and GTX cards\n\n##### 2. | Optimizing further settings to balance the config for all users\n\n##### 3. | Separate YouTube guide to debloat your graphics drivers and optimize your system\n\n##### 4. | Discord server for help with optimizations regarding Tarkov specifically.\n\n---\n\n#### Update Information:\n\n#### Removed Useless Parameters/HexSettingIDs\n#### Refined Settings To Reasonable Values\n#### (Should Have) Fixed Previous Issues\n#### Added My Own Global Nvidia Settings - (Would Recommend If You Think You Need It)\n#### Updated Nvidia Profile Inspector Revamped CustomSettings.xml With New Hidden Settings\n#### Removed Forced DLSS Presets - (Now You Can Select The Preset Straight Trough The Game)\n#### (Quick disclaimer, the DLSS quality is forced to 80%, which is basically a value between Quality Ultra and DLAA Lite, if its to much, then you can change it)\n\n##### If you encounter issues, please leave a [Comment](https://forge.sp-tarkov.com/mod/2634/escape-from-low-frames#comments)!",
+          "link": "https://forge.sp-tarkov.com/mod/download/2634/escape-from-low-frames/1.0.1",
+          "content_length": 438826,
+          "spt_version_constraint": "4.1.0",
+          "downloads": 6469,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-03-23T19:40:00.000000Z",
+          "created_at": "2026-03-23T19:33:48.000000Z",
+          "updated_at": "2026-08-02T03:40:03.000000Z"
+        },
+        {
+          "id": 13289,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎‎![Logo](https://i.imgur.com/rJCC2np.png)\n# ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Escape From Low Frames\n\n##### ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ A way to escape that disturbingly low framerate\n\n‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ![GitHub stars](https://img.shields.io/github/stars/NRK-git/Escape-From-Low-Frames?style=for-the-badge)\n![GitHub issues](https://img.shields.io/github/issues/NRK-git/Escape-From-Low-Frames?style=for-the-badge)\n![GitHub downloads](https://img.shields.io/github/downloads/NRK-git/Escape-From-Low-Frames/total?style=for-the-badge)\n\n---\n\n# [OUTDATED VERSION]",
+          "link": "https://forge.sp-tarkov.com/mod/download/2634/escape-from-low-frames/1.0.0",
+          "content_length": 280,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 1258,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-03-23T19:34:00.000000Z",
+          "created_at": "2026-03-20T18:55:57.000000Z",
+          "updated_at": "2026-07-28T08:15:04.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/NRK-git/Escape-From-Low-Frames",
+          "label": "Escape From Low Frames"
+        },
+        {
+          "url": "https://github.com/Orbmu2k/nvidiaProfileInspector",
+          "label": "Nvidia Profile Inspector"
+        },
+        {
+          "url": "https://github.com/xHybred/NvidiaProfileInspectorRevamped",
+          "label": "Nvidia Profile Inspector Revamped"
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14195,
+      "hub_id": null,
+      "version": "1.0.3",
+      "description": "<p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎‎<img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/rJCC2np.png\" alt=\"Logo\" /></p>\n<h1>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Escape From Low Frames</h1>\n<h5>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ A way to escape that disturbingly low framerate</h5>\n<p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ <img loading=\"lazy\" decoding=\"async\" src=\"https://img.shields.io/github/stars/NRK-git/Escape-From-Low-Frames?style=for-the-badge\" alt=\"GitHub stars\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://img.shields.io/github/issues/NRK-git/Escape-From-Low-Frames?style=for-the-badge\" alt=\"GitHub issues\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://img.shields.io/github/downloads/NRK-git/Escape-From-Low-Frames/total?style=for-the-badge\" alt=\"GitHub downloads\" /></p>\n<hr />\n<h5>Future Plans:</h5>\n<h5>1. | Separate YouTube guide to debloat your graphics drivers and optimize your system</h5>\n<h5>2. | Discord server for help with optimizations regarding Tarkov specifically. (WIP)</h5>\n<hr />\n<h4>Update Information:</h4>\n<h4>Updated The Nvidia Profile Inspector Revamped To The Latest Version</h4>\n<h4>Added 4 New Presets Updated With New Settings</h4>\n<h4>Updated All Presets With New Improved And Refined Settings With Bettered Latency And Performance</h4>\n<h4>GTX Preset Is Finally Added</h4>\n<h4>Bunch More Improvements Were Added That Is Not Listed</h4>\n<h5>If you encounter issues, please leave a <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2634/escape-from-low-frames#comments\" rel=\"noreferrer noopener\">Comment</a>!</h5>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2634/escape-from-low-frames/1.0.3",
+      "content_length": 985842,
+      "spt_version_constraint": "4.1.0",
+      "downloads": 3664,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-23T14:30:00.000000Z",
+      "created_at": "2026-07-23T14:30:42.000000Z",
+      "updated_at": "2026-08-02T03:39:14.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13678,
+      "hub_id": null,
+      "version": "1.0.2",
+      "description": "<p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎‎<img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/rJCC2np.png\" alt=\"Logo\" /></p>\n<h1>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Escape From Low Frames</h1>\n<h5>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ A way to escape that disturbingly low framerate</h5>\n<p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ <img loading=\"lazy\" decoding=\"async\" src=\"https://img.shields.io/github/stars/NRK-git/Escape-From-Low-Frames?style=for-the-badge\" alt=\"GitHub stars\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://img.shields.io/github/issues/NRK-git/Escape-From-Low-Frames?style=for-the-badge\" alt=\"GitHub issues\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://img.shields.io/github/downloads/NRK-git/Escape-From-Low-Frames/total?style=for-the-badge\" alt=\"GitHub downloads\" /></p>\n<hr />\n<h5>Future Plans:</h5>\n<h5>1. | Adding Specific Presets for RTX 20-30 series cards and GTX cards (WIP)</h5>\n<h5>2. | Optimizing further settings to balance the config for all users</h5>\n<h5>3. | Separate YouTube guide to debloat your graphics drivers and optimize your system</h5>\n<h5>4. | Discord server for help with optimizations regarding Tarkov specifically. (WIP)</h5>\n<hr />\n<h4>Update Information:</h4>\n<h4>Updated The Nvidia Profile Inspector + Nvidia Profile Inspector Revamped To Their Latest Versions</h4>\n<h4>Added Another Preset With The Suffix (Fix) Which Was Made To Resolve The Current Tarkov Issue With Smooth Motion, If You Can Run Smooth Motion, Select The None (Fix) Version Of The Preset</h4>\n<h4>UI Is Updated And More Modern</h4>\n<h4>Added My Up To Date Global Settings</h4>\n<h5>If you encounter issues, please leave a <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2634/escape-from-low-frames#comments\" rel=\"noreferrer noopener\">Comment</a>!</h5>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2634/escape-from-low-frames/1.0.2",
+      "content_length": 948960,
+      "spt_version_constraint": "4.1.0",
+      "downloads": 4541,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-06-01T15:48:00.000000Z",
+      "created_at": "2026-06-01T15:48:54.000000Z",
+      "updated_at": "2026-08-02T03:39:41.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13301,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎‎<img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/rJCC2np.png\" alt=\"Logo\" /></p>\n<h1>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Escape From Low Frames</h1>\n<h5>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ A way to escape that disturbingly low framerate</h5>\n<p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ <img loading=\"lazy\" decoding=\"async\" src=\"https://img.shields.io/github/stars/NRK-git/Escape-From-Low-Frames?style=for-the-badge\" alt=\"GitHub stars\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://img.shields.io/github/issues/NRK-git/Escape-From-Low-Frames?style=for-the-badge\" alt=\"GitHub issues\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://img.shields.io/github/downloads/NRK-git/Escape-From-Low-Frames/total?style=for-the-badge\" alt=\"GitHub downloads\" /></p>\n<hr />\n<h5>Future Plans:</h5>\n<h5>1. | Adding Specific Presets for RTX 20-30 series cards and GTX cards</h5>\n<h5>2. | Optimizing further settings to balance the config for all users</h5>\n<h5>3. | Separate YouTube guide to debloat your graphics drivers and optimize your system</h5>\n<h5>4. | Discord server for help with optimizations regarding Tarkov specifically.</h5>\n<hr />\n<h4>Update Information:</h4>\n<h4>Removed Useless Parameters/HexSettingIDs</h4>\n<h4>Refined Settings To Reasonable Values</h4>\n<h4>(Should Have) Fixed Previous Issues</h4>\n<h4>Added My Own Global Nvidia Settings - (Would Recommend If You Think You Need It)</h4>\n<h4>Updated Nvidia Profile Inspector Revamped CustomSettings.xml With New Hidden Settings</h4>\n<h4>Removed Forced DLSS Presets - (Now You Can Select The Preset Straight Trough The Game)</h4>\n<h4>(Quick disclaimer, the DLSS quality is forced to 80%, which is basically a value between Quality Ultra and DLAA Lite, if its to much, then you can change it)</h4>\n<h5>If you encounter issues, please leave a <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2634/escape-from-low-frames#comments\" rel=\"noreferrer noopener\">Comment</a>!</h5>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2634/escape-from-low-frames/1.0.1",
+      "content_length": 438826,
+      "spt_version_constraint": "4.1.0",
+      "downloads": 6469,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-03-23T19:40:00.000000Z",
+      "created_at": "2026-03-23T19:33:48.000000Z",
+      "updated_at": "2026-08-02T03:40:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13289,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎‎<img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/rJCC2np.png\" alt=\"Logo\" /></p>\n<h1>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ Escape From Low Frames</h1>\n<h5>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ A way to escape that disturbingly low framerate</h5>\n<p>‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎ ‎‎ <img loading=\"lazy\" decoding=\"async\" src=\"https://img.shields.io/github/stars/NRK-git/Escape-From-Low-Frames?style=for-the-badge\" alt=\"GitHub stars\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://img.shields.io/github/issues/NRK-git/Escape-From-Low-Frames?style=for-the-badge\" alt=\"GitHub issues\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://img.shields.io/github/downloads/NRK-git/Escape-From-Low-Frames/total?style=for-the-badge\" alt=\"GitHub downloads\" /></p>\n<hr />\n<h1>[OUTDATED VERSION]</h1>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2634/escape-from-low-frames/1.0.0",
+      "content_length": 280,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 1258,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-03-23T19:34:00.000000Z",
+      "created_at": "2026-03-20T18:55:57.000000Z",
+      "updated_at": "2026-07-28T08:15:04.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2634/Escape.From.Low.Frames.zip",
+    "bytes_written": 985842,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1187456861/34236417-a9b5-40c5-b151-7b5edad18c10?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T11%3A17%3A48Z&rscd=attachment%3B+filename%3DEscape.From.Low.Frames.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T10%3A16%3A53Z&ske=2026-08-10T11%3A17%3A48Z&sks=b&skv=2018-11-09&sig=12AmeSkNsyM8uDwQGPsJiJupBkbYdRt8J0IENJ0y5Kw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NzMzMCwibmJmIjoxNzg2MzU3MDMwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.02tZ02OCZTN02ICA2OAH3CfLZyIFwLDNyVx32UJTHLk&response-content-disposition=attachment%3B%20filename%3DEscape.From.Low.Frames.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2634/escape-from-low-frames-1.0.0-spt40.zip",
+    "bytes_written": 280,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1187456861/5580470c-85ba-412c-a01c-f3c98fbfe154?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T13%3A02%3A05Z&rscd=attachment%3B+filename%3DDummy.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T12%3A01%3A19Z&ske=2026-08-10T13%3A02%3A05Z&sks=b&skv=2018-11-09&sig=CXMUJ6W%2BP4pJLtTDP6kYK1a%2FiRvfO%2Fvu5T4kz4Sl5gw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzYxNCwibmJmIjoxNzg2MzYzMzE0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.frRig-BlTClHO2O7ZrpCg3_KCKLldXgJHxHz96u8Sp8&response-content-disposition=attachment%3B%20filename%3DDummy.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.0.0",
+    "same_as_primary_download": false
+  }
+}

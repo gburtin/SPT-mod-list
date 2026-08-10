@@ -1,0 +1,289 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1569,
+      "hub_id": 2145,
+      "guid": "com.hood.wolfiksheavytroopers",
+      "name": "Wolfik's Heavy Trooper Masks - Reupload",
+      "slug": "wolfiks-heavy-trooper-masks-reupload",
+      "teaser": "Adds 5 new heavy trooper masks (Black, Tan, Black/Coyote, Wolf, and Cult ) that actually provide protection",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2145.jpg",
+      "downloads": 42915,
+      "favourites_count": 49,
+      "description": "<h2>Available Heavy Trooper Masks</h2>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/7prwZZM.png\" alt=\"AvailableMasks\" /></p>\n<h2>README</h2>\n<p><strong>This is a reupload of an older mod that I really liked, so I rewrote an updated version of the mod that now works on SPT 4.0.x. that includes a few new additions that weren’t originally in the mod. I DID NOT create the trooper masks, as they was created by SerWolfik.</strong></p>\n<p><strong>Original mod:</strong> <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/212-wolfik-s-heavy-trooper/#overview\" rel=\"noreferrer noopener\"><strong>SerWolfik’s Heavy Trooper</strong></a></p>\n<h2>Mod Overview</h2>\n<p>Adds 5 new Heavy trooper masks: Coyote, Tan, Black, Wolf, and Cultist. These masks are like the original Tac-Kek trooper mask, but with higher armor tiers and much higher prices. These masks can be bought from Peacekeeper and the flea-market and are highly configurable (Check out the config file for more information!). Masks can also be found in-raid in weapon boxes, caches, duffle bags, and dead scavs. The ultra rare and valuable Cultist mask can be found worn by Cultists if you are lucky.</p>\n<h2>Trooper Mask Information</h2>\n<p>Coyote Mask - Class 3 armor with max durability 45. Available at level 3 Peacekeeper for $1200 dollars.</p>\n<p>Black And Tan Masks - Class 4 armor with max durability 50. Available at level 4 Peacekeeper for $2000 dollars.</p>\n<p>Wolf Mask (flea-market banned) - Class 5 armor, with max durability 60. Available at level 4 Peacekeeper after completing quest “Wet Job - Part 5” for $3000 dollars</p>\n<p>Cultist Mask (flea-market banned) - Class 5 armor, with max durability 80. Available at level 4 Peacekeeper after completing quest “The Guide” for $3500 dollars</p>\n<h2>In-raid Mask Spawns</h2>\n<p>All Masks can also be found in-raid in loot containers: weapon boxes, caches, duffle bags, and dead scavs.</p>\n<p>Cultist Trooper Masks can be found from Cultists if you are lucky,</p>\n<h2>How To Install</h2>\n<p>Open the downloaded zip file then drag and drop the ‘SPT’ folder into your SPT directory</p>\n<h2>Compatibility Issues:</h2>\n<p>These masks are not compatible with mods that add new nvgs or helmets as I have to manually make these mods compatible which I will try to do when such mods update to 4.0.x and above.</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/Epfi8o9.jpeg\" alt=\"CultistTrooper\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/7GUem7a.jpeg\" alt=\"WolfTrooper\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/V2D06bZ.jpeg\" alt=\"BlackTrooper\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/dFlIZVn.jpeg\" alt=\"Coyotetrooper\" /></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1569/wolfiks-heavy-trooper-masks-reupload",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 15,
+      "published_at": "2024-07-17T08:17:00.000000Z",
+      "created_at": "2024-07-17T08:17:43.000000Z",
+      "updated_at": "2026-07-28T06:27:05.000000Z",
+      "owner": {
+        "id": 52386,
+        "name": "Hood",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/9ApXnt8RHneQzgXZ5F36TSIqUAn6ZeVebkT6Q0br_256w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-05-21T21:49:53.000000Z",
+        "updated_at": "2026-08-10T09:44:13.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 3259,
+          "name": "SerWolfik",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/0d969eb63d870f7d0f1de41925ab6fade36263c9_128w.webp",
+          "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/d51f043b510e749538bc006cf605d3eba529fbb6_1280w.webp",
+          "created_at": "2021-03-07T06:40:42.000000Z",
+          "updated_at": "2026-07-10T04:56:44.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 12322,
+          "hub_id": null,
+          "version": "1.1.0",
+          "description": " I've tested as much as I can, but there can always be bugs. Let me know if you find any or if something doesn't seem right.\n - Updated to SPT version 4.0.x\n  - Updated prices, armor durability, and spawn rates of all masks.\n  - Added small chance cultists can spawn with Cultist heavy trooper mask.\n  - Added Quest unlock to purchase the Black Wolf trooper mask after completing \"Wet Job - Part 5\". (configurable)\n  - Added Quest unlock to purchase the Cultist trooper mask after completing \"The Guide\". (configurable)\n  - Flea-market banned Wolf and Cultist masks by default as they are meant to be rare and not easily obtainable (configurable)\n  - Added ability to wear light face coverings with heavy trooper masks ie: shemaghs, balaclavas, and more...\n  - Added many more options to the config file, most properties for each mask can be altered now through the config.\n  - Removed all compatibility patches for previously compatible mods as most of them haven't been updated to SPT version 4.0 at the moment.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1569/wolfiks-heavy-trooper-masks-reupload/1.1.0",
+          "content_length": 19340753,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 19614,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-11-15T00:30:00.000000Z",
+          "created_at": "2025-11-15T00:29:22.000000Z",
+          "updated_at": "2026-07-28T06:27:05.000000Z"
+        },
+        {
+          "id": 2125,
+          "hub_id": 12526,
+          "version": "1.0.7",
+          "description": "- Updated for SPT 3.10\n- Reduced Tan Heavy Trooper Mask armor rating from 4 to 3 and reduced price\n- Fixed armour point issue with Coyote Heavy Trooper",
+          "link": "https://forge.sp-tarkov.com/mod/download/1569/wolfiks-heavy-trooper-masks-reupload/1.0.7",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 8526,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-07T05:06:23.000000Z",
+          "created_at": "2024-12-07T05:06:23.000000Z",
+          "updated_at": "2026-07-13T18:02:51.000000Z"
+        },
+        {
+          "id": 2877,
+          "hub_id": 11624,
+          "version": "1.0.6",
+          "description": "**You MUST delete the old mod file 'SerWolfik-Heavy-Troopers' in SPT/user/mods before updating as the file name has been changed to help compatibility or else you will have errors**\n\n- Fixed server startup error that can occur with folder naming",
+          "link": "https://forge.sp-tarkov.com/mod/download/1569/wolfiks-heavy-trooper-masks-reupload/1.0.6",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 5027,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-09-04T18:19:22.000000Z",
+          "created_at": "2024-09-04T18:19:22.000000Z",
+          "updated_at": "2026-07-13T18:03:26.000000Z"
+        },
+        {
+          "id": 2885,
+          "hub_id": 11615,
+          "version": "1.0.5",
+          "description": "**You MUST delete the old mod file 'SerWolfik-Heavy-Troopers' in SPT/user/mods before updating as the file name has been changed to help compatibility or else you will have errors**\n\n- Added compatibility with a few mods that add custom helmets and nvgs: \n    - Tactical Gear Component (helmets)\n    - Artem (helmets and nvgs)\n    - Atlas Custom Weapons &amp; Equipment (nvgs)\n- Wendy helmets are now compatible with all heavy trooper masks\n- Fixed coyote heavy trooper from not being able to be slotted in helmets",
+          "link": "https://forge.sp-tarkov.com/mod/download/1569/wolfiks-heavy-trooper-masks-reupload/1.0.5",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 487,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-09-04T07:11:10.000000Z",
+          "created_at": "2024-09-04T07:11:10.000000Z",
+          "updated_at": "2026-07-13T18:03:36.000000Z"
+        },
+        {
+          "id": 3125,
+          "hub_id": 11274,
+          "version": "1.0.4",
+          "description": "**SPT 3.9.x**\n\n- Reduced chance of finding heavy trooper masks as they were spawning way more than intended in loot pools.\n- Added Config file which contains all the loot pool probabilities for each heavy trooper mask, all values can be changed and disabled for each loot container if desired.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1569/wolfiks-heavy-trooper-masks-reupload/1.0.4",
+          "content_length": null,
+          "spt_version_constraint": "~3.9.0",
+          "downloads": 3087,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-08-11T06:49:19.000000Z",
+          "created_at": "2024-08-11T06:49:19.000000Z",
+          "updated_at": "2026-07-01T06:04:12.000000Z"
+        },
+        {
+          "id": 3132,
+          "hub_id": 11265,
+          "version": "1.0.3",
+          "description": "**SPT 3.9.x**\n\n- Added chance to find all heavy trooper masks in weapon boxes, wooden crates, duffle bags, and ground caches on all maps.\n    - Cult and Wolf masks are much more rarer than the Black, Coyote, and Tan as they are higher armour class.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1569/wolfiks-heavy-trooper-masks-reupload/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "~3.9.0",
+          "downloads": 743,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-08-10T03:23:25.000000Z",
+          "created_at": "2024-08-10T03:23:25.000000Z",
+          "updated_at": "2026-07-03T18:03:59.000000Z"
+        },
+        {
+          "id": 3400,
+          "hub_id": 10931,
+          "version": "1.0.2+a",
+          "description": "**SPT 3.9.x**\n\n**If the Tan Heavy Trooper Mask is still not Tan skinned, you must clear your temp files in the SPT Launcher settings. This will fix it.**\n\n**FIX**\n\n- TAN Heavy Trooper Mask is now tan skinned, was previously using the wrong skin.\n- Fixed trader assort loyalty levels",
+          "link": "https://forge.sp-tarkov.com/mod/download/1569/wolfiks-heavy-trooper-masks-reupload/1.0.2+a",
+          "content_length": null,
+          "spt_version_constraint": "~3.9.0",
+          "downloads": 3932,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-18T21:51:52.000000Z",
+          "created_at": "2024-07-18T21:51:52.000000Z",
+          "updated_at": "2026-07-03T18:04:35.000000Z"
+        },
+        {
+          "id": 3424,
+          "hub_id": 10897,
+          "version": "1.0.2+b",
+          "description": "**SPT 3.8.x**\n\n- Includes all the above changes",
+          "link": "https://forge.sp-tarkov.com/mod/download/1569/wolfiks-heavy-trooper-masks-reupload/1.0.2+b",
+          "content_length": null,
+          "spt_version_constraint": "~3.8.0",
+          "downloads": 1499,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-17T08:17:43.000000Z",
+          "created_at": "2024-07-17T08:17:43.000000Z",
+          "updated_at": "2024-07-17T08:17:43.000000Z"
+        }
+      ],
+      "license": {
+        "id": 5,
+        "hub_id": 7,
+        "name": "Creative Commons BY-NC-SA 3.0",
+        "link": "http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 15,
+        "hub_id": 78,
+        "title": "Equipment",
+        "slug": "equipment",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Hood26/WolfiksHeavyTroopers",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12322,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<p>I’ve tested as much as I can, but there can always be bugs. Let me know if you find any or if something doesn’t seem right.</p>\n<ul>\n<li>Updated to SPT version 4.0.x</li>\n<li>Updated prices, armor durability, and spawn rates of all masks.</li>\n<li>Added small chance cultists can spawn with Cultist heavy trooper mask.</li>\n<li>Added Quest unlock to purchase the Black Wolf trooper mask after completing “Wet Job - Part 5”. (configurable)</li>\n<li>Added Quest unlock to purchase the Cultist trooper mask after completing “The Guide”. (configurable)</li>\n<li>Flea-market banned Wolf and Cultist masks by default as they are meant to be rare and not easily obtainable (configurable)</li>\n<li>Added ability to wear light face coverings with heavy trooper masks ie: shemaghs, balaclavas, and more…</li>\n<li>Added many more options to the config file, most properties for each mask can be altered now through the config.</li>\n<li>Removed all compatibility patches for previously compatible mods as most of them haven’t been updated to SPT version 4.0 at the moment.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1569/wolfiks-heavy-trooper-masks-reupload/1.1.0",
+      "content_length": 19340753,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 19614,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-11-15T00:30:00.000000Z",
+      "created_at": "2025-11-15T00:29:22.000000Z",
+      "updated_at": "2026-07-28T06:27:05.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2125,
+      "hub_id": 12526,
+      "version": "1.0.7",
+      "description": "<ul>\n<li>Updated for SPT 3.10</li>\n<li>Reduced Tan Heavy Trooper Mask armor rating from 4 to 3 and reduced price</li>\n<li>Fixed armour point issue with Coyote Heavy Trooper</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1569/wolfiks-heavy-trooper-masks-reupload/1.0.7",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 8526,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-12-07T05:06:23.000000Z",
+      "created_at": "2024-12-07T05:06:23.000000Z",
+      "updated_at": "2026-07-13T18:02:51.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 3125,
+      "hub_id": 11274,
+      "version": "1.0.4",
+      "description": "<p><strong>SPT 3.9.x</strong></p>\n<ul>\n<li>Reduced chance of finding heavy trooper masks as they were spawning way more than intended in loot pools.</li>\n<li>Added Config file which contains all the loot pool probabilities for each heavy trooper mask, all values can be changed and disabled for each loot container if desired.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1569/wolfiks-heavy-trooper-masks-reupload/1.0.4",
+      "content_length": null,
+      "spt_version_constraint": "~3.9.0",
+      "downloads": 3087,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-08-11T06:49:19.000000Z",
+      "created_at": "2024-08-11T06:49:19.000000Z",
+      "updated_at": "2026-07-01T06:04:12.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 3132,
+      "hub_id": 11265,
+      "version": "1.0.3",
+      "description": "<p><strong>SPT 3.9.x</strong></p>\n<ul>\n<li>Added chance to find all heavy trooper masks in weapon boxes, wooden crates, duffle bags, and ground caches on all maps.\n<ul>\n<li>Cult and Wolf masks are much more rarer than the Black, Coyote, and Tan as they are higher armour class.</li>\n</ul>\n</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1569/wolfiks-heavy-trooper-masks-reupload/1.0.3",
+      "content_length": null,
+      "spt_version_constraint": "~3.9.0",
+      "downloads": 743,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-08-10T03:23:25.000000Z",
+      "created_at": "2024-08-10T03:23:25.000000Z",
+      "updated_at": "2026-07-03T18:03:59.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 3424,
+      "hub_id": 10897,
+      "version": "1.0.2+b",
+      "description": "<p><strong>SPT 3.8.x</strong></p>\n<ul>\n<li>Includes all the above changes</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1569/wolfiks-heavy-trooper-masks-reupload/1.0.2+b",
+      "content_length": null,
+      "spt_version_constraint": "~3.8.0",
+      "downloads": 1499,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-07-17T08:17:43.000000Z",
+      "created_at": "2024-07-17T08:17:43.000000Z",
+      "updated_at": "2024-07-17T08:17:43.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 3400,
+      "hub_id": 10931,
+      "version": "1.0.2+a",
+      "description": "<p><strong>SPT 3.9.x</strong></p>\n<p><strong>If the Tan Heavy Trooper Mask is still not Tan skinned, you must clear your temp files in the SPT Launcher settings. This will fix it.</strong></p>\n<p><strong>FIX</strong></p>\n<ul>\n<li>TAN Heavy Trooper Mask is now tan skinned, was previously using the wrong skin.</li>\n<li>Fixed trader assort loyalty levels</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1569/wolfiks-heavy-trooper-masks-reupload/1.0.2+a",
+      "content_length": null,
+      "spt_version_constraint": "~3.9.0",
+      "downloads": 3932,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-07-18T21:51:52.000000Z",
+      "created_at": "2024-07-18T21:51:52.000000Z",
+      "updated_at": "2026-07-03T18:04:35.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1569/WolfiksHeavyTroopers1.1.0.zip",
+    "bytes_written": 19340753,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1090609158/c7cd09fa-97f9-495e-9cdf-14d0f5df1d96?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A48%3A32Z&rscd=attachment%3B+filename%3DWolfiksHeavyTroopers1.1.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A48%3A20Z&ske=2026-08-10T10%3A48%3A32Z&sks=b&skv=2018-11-09&sig=prK6U5OAlCL4ry3p0SS3tPvheAOJzCGN3azUK0cetJs%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NzkxNSwibmJmIjoxNzg2MzU2MTE1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.YktwzomfevI9MrAiKkcAGp4toXFnuCSJsiAuy92FmuU&response-content-disposition=attachment%3B%20filename%3DWolfiksHeavyTroopers1.1.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.1.0",
+    "same_as_primary_download": true
+  }
+}

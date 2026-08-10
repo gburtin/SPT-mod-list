@@ -1,0 +1,1168 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2880,
+      "hub_id": null,
+      "guid": "com.forneus93.projectarsenal",
+      "name": "Project Arsenal",
+      "slug": "project-arsenal",
+      "teaser": "Project Arsenal is a large-scale ammunition, crafting, trader, and quest expansion for Single Player Tarkov, built around realistic progression, deep weapon specialization, and experimental ballistic projects.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/gIjIJUe4lKfcTguCXgv3ew1gJSti82q5sdfX7wmg.png",
+      "downloads": 1014,
+      "favourites_count": 11,
+      "description": "<h1>⚠️ REQUIRED DEPENDENCIES — READ BEFORE INSTALLING</h1>\n<blockquote>\n<p><strong>Do not rely solely on the compatibility information displayed by The Forge under “Dependencies”.</strong>\nThe displayed SPT compatibility status of individual dependencies may be incorrect, incomplete or outdated.</p>\n</blockquote>\n<p><strong>Project Arsenal 0.0.1 was built and tested for SPT 4.0.13 using the exact dependency versions listed below.</strong></p>\n<p>All dependencies are mandatory:</p>\n<ul>\n<li><strong>TraderGen 2.2.0</strong></li>\n<li><strong>AmmoGen 2.3.0</strong></li>\n<li><strong>ItemGen 1.5.0</strong></li>\n<li><strong>Map Editor Lite 2.0.2</strong></li>\n<li><strong>WTT ServerCommonLib 2.0.23</strong></li>\n<li><strong>WTT-ContentBackport 1.0.7</strong></li>\n<li><strong>WTT-Armory 2.0.5</strong></li>\n<li><strong>MassivesoftCore 1.0.2</strong></li>\n<li><strong>MassivesoftWeapons 1.1.1</strong></li>\n</ul>\n<blockquote>\n<p><strong>Install these versions before reporting startup errors, missing items, broken quests or unavailable recipes.</strong>\nUsing newer, older or otherwise incompatible dependency versions may prevent Project Arsenal from loading correctly.</p>\n</blockquote>\n<hr />\n<h1>⚠️ SPT VERSION NOTICE</h1>\n<p>Project Arsenal is currently built for <strong>SPT 4.0.13</strong>.</p>\n<p>An update to <strong>SPT 4.1.1</strong> will be released as soon as all mandatory dependencies have received compatible updates and Project Arsenal has passed compatibility testing.</p>\n<p>Until then, Project Arsenal should not be assumed to work correctly on SPT 4.1.1, regardless of any compatibility labels displayed by The Forge.</p>\n<hr />\n<h1>📋 FEEDBACK AND BUG REPORTS</h1>\n<p>Project Arsenal is currently in public Alpha testing. Reports from players are essential for identifying progression problems, balancing issues and technical errors.</p>\n<h2>Alpha Community Survey</h2>\n<p>Use this form for:</p>\n<ul>\n<li>General impressions</li>\n<li>Ammunition balancing</li>\n<li>Recipe costs</li>\n<li>Quest pacing</li>\n<li>Progression concerns</li>\n<li>Suggestions and feature feedback</li>\n</ul>\n<p><strong>Community Survey:</strong>\n<a target=\"_blank\" class=\"external-link\" href=\"https://forms.gle/fobscxbMbayaButGA\" rel=\"noreferrer noopener\">https://forms.gle/fobscxbMbayaButGA</a></p>\n<h2>Bug Report</h2>\n<p>Use this form for:</p>\n<ul>\n<li>Broken or blocked quests</li>\n<li>Missing recipe unlocks</li>\n<li>Missing trader offers</li>\n<li>Crafting problems</li>\n<li>Quest-item or spawn issues</li>\n<li>Server errors</li>\n<li>Reproducible technical problems</li>\n</ul>\n<p><strong>Bug Report Form:</strong>\n<a target=\"_blank\" class=\"external-link\" href=\"https://forms.gle/62DD3eJvdGPpehME6\" rel=\"noreferrer noopener\">https://forms.gle/62DD3eJvdGPpehME6</a></p>\n<blockquote>\n<p>When reporting a bug, please include the affected quest, cartridge, recipe or item, describe how the issue can be reproduced and attach the relevant server-log section whenever possible.</p>\n</blockquote>\n<hr />\n<h1>Project Arsenal</h1>\n<h2>Ammunition is no longer a shopping list. It is progression.</h2>\n<blockquote>\n<p>“Factory ammunition is only a starting point. A man who cannot understand the starting point should not be trusted with the destination.”\n— <strong>Mikhail Volkov, The Alchemist</strong></p>\n</blockquote>\n<p>Project Arsenal is a large-scale, quest-driven ammunition, crafting and progression expansion for SPT.</p>\n<p>Instead of simply adding a new “best round” to every caliber, Project Arsenal gives cartridges distinct jobs. Some are designed for precision. Some reshape recoil for automatic fire. Some trade velocity for discretion. Others sacrifice economy, weapon life or comfort in exchange for extreme terminal performance.</p>\n<p>Every loading is a compromise—and learning when that compromise is useful is the heart of the mod.</p>\n<p>Vanilla ammunition remains relevant throughout the entire game. Existing cartridges are not obsolete loot: they become <strong>shootable crafting ingredients</strong> used as donor loads for refined, specialized and experimental ammunition at the Workbench.</p>\n<hr />\n<h1>Alpha Content at a Glance</h1>\n<ul>\n<li><strong>214 custom cartridges</strong> covering 32 calibers</li>\n<li><strong>4 custom hand grenades</strong></li>\n<li><strong>4 custom grenade-launcher rounds</strong></li>\n<li><strong>222 individual Workbench recipes</strong></li>\n<li><strong>107 fully written quests</strong></li>\n<li><strong>49 bespoke in-raid quest artifacts</strong> across 10 locations</li>\n<li><strong>22 separate Prototype Authorizations</strong></li>\n<li>Quest-locked ammunition recipes and trader assortments</li>\n<li>Fixed-batch access to restricted factory donor ammunition</li>\n<li>Quest-locked weapons, optics, mounts and specialist equipment</li>\n<li>Early-, mid- and late-game progression across Workbench levels 1–3</li>\n</ul>\n<p>The Alpha includes:</p>\n<ul>\n<li>Real-world ammunition missing from the base game</li>\n<li>Plausible military, civilian, hunting and specialist loadings</li>\n<li>Carefully designed handloads and refined donor cartridges</li>\n<li>Fictional Soviet and Russian prototype projects</li>\n<li>TerraGroup Black Projects</li>\n<li>Dedicated stats, descriptions, recipes, costs, unlock conditions and lore for every new munition</li>\n<li>Reworked interpretations of 7.62×51 mm M118LR and 7.62×54 mm R Tungsten Carbide AP</li>\n<li>New tactical roles for calibers and weapons that normally lose relevance during progression</li>\n</ul>\n<h2>Workbench Distribution</h2>\n<table>\n<thead>\n<tr>\n<th>Workbench Level</th>\n<th align=\"right\">Recipes</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Workbench 1</td>\n<td align=\"right\">52</td>\n</tr>\n<tr>\n<td>Workbench 2</td>\n<td align=\"right\">88</td>\n</tr>\n<tr>\n<td>Workbench 3</td>\n<td align=\"right\">82</td>\n</tr>\n<tr>\n<td><strong>Total</strong></td>\n<td align=\"right\"><strong>222</strong></td>\n</tr>\n</tbody>\n</table>\n<p>Recipes are not handed to the player all at once. Completing the appropriate quest permanently unlocks its blueprint.</p>\n<p>Progress comes from knowledge and field work—not from reaching a trader level and buying unlimited stacks from a shelf.</p>\n<hr />\n<h1>Meet the Alchemist</h1>\n<p>Mikhail Volkov, better known as <strong>The Alchemist</strong>, is a former Soviet ballistic engineer with decades of experience, very little patience and an unhealthy familiarity with chamber pressure.</p>\n<p>He becomes available after completing Jaeger’s <strong>“Acquaintance”</strong> quest and accompanies the player from early Workbench experiments to classified Soviet archives and TerraGroup’s most dangerous research programs.</p>\n<p>The Alchemist is not a conventional ammunition trader.</p>\n<p>His assortment focuses on:</p>\n<ul>\n<li>Propellants</li>\n<li>Tools and components</li>\n<li>Restricted donor ammunition</li>\n<li>Carefully controlled barter opportunities</li>\n<li>Quest-gated specialist weapons</li>\n<li>Optics and mounting equipment</li>\n</ul>\n<p>He does not exist to sell unlimited quantities of Project Arsenal ammunition. He teaches the player how to manufacture it, provides restricted factory ammunition when progression requires it and expects every useful lesson to be proven in the field.</p>\n<p>His storyline combines practical ammunition work, dry Russian humor, field trials, archive recovery and an escalating investigation into projects that should probably have remained buried.</p>\n<hr />\n<h1>Quest and Progression Structure</h1>\n<p>Project Arsenal is designed to feel like an expansion of Tarkov’s existing progression rather than a separate cheat menu.</p>\n<table>\n<thead>\n<tr>\n<th>Questline</th>\n<th align=\"center\">Prefix</th>\n<th align=\"right\">Quests</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Main Story</td>\n<td align=\"center\">M</td>\n<td align=\"right\">12</td>\n</tr>\n<tr>\n<td>Specializations</td>\n<td align=\"center\">S</td>\n<td align=\"right\">21</td>\n</tr>\n<tr>\n<td>Legendary Projects</td>\n<td align=\"center\">L</td>\n<td align=\"right\">44</td>\n</tr>\n<tr>\n<td>TerraGroup</td>\n<td align=\"center\">T</td>\n<td align=\"right\">30</td>\n</tr>\n<tr>\n<td><strong>Total</strong></td>\n<td align=\"center\"></td>\n<td align=\"right\"><strong>107</strong></td>\n</tr>\n</tbody>\n</table>\n<h2>Main Story</h2>\n<p>The early quests introduce:</p>\n<ul>\n<li>Cartridge construction</li>\n<li>Donor ammunition</li>\n<li>Civilian and hunting ammunition</li>\n<li>Practical service loads</li>\n<li>Workbench progression</li>\n<li>Restricted components</li>\n<li>Heavy and experimental ammunition concepts</li>\n</ul>\n<p>These recipes provide meaningful alternatives without bypassing the normal early-game struggle.</p>\n<h2>Weapon and Caliber Specializations</h2>\n<p>As the questline develops, the player gains access to dedicated specialization branches for:</p>\n<ul>\n<li>Pistol ammunition</li>\n<li>4.6×30 mm and 5.7×28 mm PDWs</li>\n<li>Intermediate rifles</li>\n<li>Full-power rifle cartridges</li>\n<li>Suppressed weapons</li>\n<li>Shotguns</li>\n<li>Precision rifles</li>\n<li>Heavy weapons</li>\n<li>Grenade launchers</li>\n<li>Special-purpose ammunition</li>\n</ul>\n<p>Specialization quests introduce related loading families such as:</p>\n<ul>\n<li>Precision</li>\n<li>Control</li>\n<li>Modernized</li>\n<li>High Velocity</li>\n<li>Subsonic</li>\n<li>Refined</li>\n</ul>\n<p>Each cartridge retains a distinct purpose instead of becoming a simple statistical upgrade.</p>\n<hr />\n<h1>Legendary Projects</h1>\n<p>The Legendary branch follows fictional Soviet and Russian prototype projects, unusual specialist programs, refined foreign designs and experimental grenades.</p>\n<p>These projects are original Project Arsenal creations. They are not presented as real historical ammunition programs.</p>\n<p>Their names, engineering problems and archive lore are fictional, although many of the underlying ballistic concepts are inspired by real projectile technology and military research.</p>\n<h2>Two-Stage Prototype Progression</h2>\n<p>Each of the 22 Legendary Projects follows the same basic structure:</p>\n<ol>\n<li>Recover the project’s files, drawings, test reports or physical evidence.</li>\n<li>Receive a unique Prototype Authorization, produce a limited trial batch and prove the design in the field.</li>\n</ol>\n<p>Only after the field trial is complete does the permanent recipe become available.</p>\n<p>Legendary ammunition is powerful, rare and expensive—but deliberately specialized. These cartridges are progression capstones, not universal replacements for everything below them.</p>\n<p>The first Legendary questline, <strong>Project Sokol</strong> for .366 TKM, becomes available at player level 15 after completing <strong>M05 – The Journeyman’s Bench</strong>.</p>\n<p>Every later Legendary project requires the appropriate completed Specialization quest, tying recovered prototype designs to mastery of their caliber or weapon class.</p>\n<hr />\n<h1>TerraGroup Black Projects</h1>\n<p>The late-game investigation opens TerraGroup’s compartmentalized ammunition programs.</p>\n<p>These include:</p>\n<ul>\n<li>High-pressure PDW concepts</li>\n<li>Advanced penetrators</li>\n<li>Duplex and flechette designs</li>\n<li>Heavy anti-materiel projects</li>\n<li>Experimental explosive payloads</li>\n<li>The Mjölnir-derived technology behind Naglfar</li>\n</ul>\n<p>TerraGroup ammunition pushes performance far beyond conventional service requirements, but its advantages come with severe costs:</p>\n<ul>\n<li>Scarce donor ammunition</li>\n<li>Expensive components</li>\n<li>Tiny production batches</li>\n<li>Heavy recoil</li>\n<li>Excessive heat</li>\n<li>Accelerated weapon wear</li>\n<li>Highly specialized behavior</li>\n<li>Questionable safety margins</li>\n</ul>\n<p>The 30-quest TerraGroup storyline begins at <strong>player level 40</strong> and requires completion of <strong>M12 – The Master’s Examination</strong>.</p>\n<p>In the Alchemist’s words, some of it is less ammunition engineering and more:</p>\n<blockquote>\n<p>“A pact with the devil in a brass case.”</p>\n</blockquote>\n<hr />\n<h1>Real Quest Artifacts</h1>\n<p>The Russian archive and TerraGroup investigations use <strong>49 custom in-raid quest artifacts</strong> across:</p>\n<ul>\n<li>Ground Zero</li>\n<li>Customs</li>\n<li>Woods</li>\n<li>Factory</li>\n<li>Shoreline</li>\n<li>Interchange</li>\n<li>Reserve</li>\n<li>Lighthouse</li>\n<li>Streets of Tarkov</li>\n<li>The Lab</li>\n</ul>\n<p>Quest artifacts follow a consistent set of rules:</p>\n<ul>\n<li>They spawn only while the relevant quest is active.</li>\n<li>The item is guaranteed to exist somewhere inside the hinted landmark area.</li>\n<li>One of several nearby anchors is selected.</li>\n<li>The artifact enters the quest inventory.</li>\n<li>The artifact is lost on death.</li>\n<li>It cannot be sold or listed on the Flea Market.</li>\n<li>It does not appear as ordinary loot.</li>\n<li>The player must survive and extract with the recovered material.</li>\n</ul>\n<p>Quest dialogue provides an approximate location and enough context to begin the search without reducing each recovery mission to a glowing objective marker.</p>\n<hr />\n<h1>Giving Forgotten Weapons a New Purpose</h1>\n<p>Project Arsenal does not focus only on popular assault-rifle calibers.</p>\n<p>One of its central goals is to make overlooked cartridges and niche weapons relevant again by giving them several distinct roles instead of one short-lived gimmick.</p>\n<h2>.366 TKM</h2>\n<p>.366 TKM develops from an early-game compromise into a complete ammunition family.</p>\n<p>Its progression includes:</p>\n<ul>\n<li>Match ammunition</li>\n<li>Premium civilian loads</li>\n<li>Subsonic ammunition</li>\n<li>High Velocity ammunition</li>\n<li>Specialized armor-defeating designs</li>\n</ul>\n<p>This allows the VPO platforms to remain useful as hunting rifles, suppressed weapons and precision tools.</p>\n<p>At the end of that path waits <strong>Project Sokol</strong>—a Legendary experiment that asks how much performance can be extracted from a civilian caliber and a rifle most soldiers would dismiss.</p>\n<h2>KS-23 and 23×75 mm R</h2>\n<p>The KS-23 receives a broad family of specialist ammunition:</p>\n<ul>\n<li>HE-FI</li>\n<li>AP-HE</li>\n<li>Mini-HESH</li>\n<li>APDS</li>\n<li>FAPDS</li>\n<li>TP-T</li>\n<li>Refined Volna concepts</li>\n</ul>\n<p>Depending on the shell, the KS-23 can be configured for breaching, armor damage, direct-impact precision, fragmentation or specialist utility.</p>\n<h2>Conventional Shotguns</h2>\n<p>12/70 and 20/70 shotguns also receive carefully differentiated ammunition.</p>\n<p>Project Arsenal adds:</p>\n<ul>\n<li>Precision slugs</li>\n<li>Barrier-oriented cartridges</li>\n<li>Specialized buckshot</li>\n<li>Hunting and civilian loads</li>\n<li>Unusual tactical ammunition</li>\n</ul>\n<p>The goal is not to make every weapon equally powerful. It is to give more weapons a credible reason to leave the stash.</p>\n<hr />\n<h1>Familiar Cartridges with More Credible Ballistics</h1>\n<p>Project Arsenal also includes revised interpretations of two well-known cartridges.</p>\n<h2>7.62×51 mm M118LR</h2>\n<p>M118LR returns to its intended role as a precision-oriented long-range match cartridge.</p>\n<p>Its value comes from:</p>\n<ul>\n<li>Consistency</li>\n<li>External ballistics</li>\n<li>Accuracy</li>\n<li>Retained long-range performance</li>\n</ul>\n<p>It is not treated as an implausible universal armor-piercing cartridge.</p>\n<h2>7.62×54 mm R Tungsten Carbide AP</h2>\n<p>Tungsten Carbide AP remains a formidable specialist armor-piercing cartridge, but its damage, penetration and overall performance have been brought into a more credible relationship with its construction and caliber.</p>\n<p>Both cartridges remain valuable high-end tools without becoming stat-inflated shortcuts that make every other loading irrelevant.</p>\n<hr />\n<h1>Ammunition Philosophy</h1>\n<p>There is no single “best” Project Arsenal cartridge.</p>\n<p>Each loading is balanced through a combination of:</p>\n<ul>\n<li>Flesh damage</li>\n<li>Penetration</li>\n<li>Armor damage</li>\n<li>Muzzle velocity</li>\n<li>Long-range behavior</li>\n<li>Accuracy modifiers</li>\n<li>Recoil modifiers</li>\n<li>Fragmentation</li>\n<li>Ricochet chance</li>\n<li>Bleeding potential</li>\n<li>Heat generation</li>\n<li>Durability burn</li>\n<li>Donor-ammunition availability</li>\n<li>Component cost</li>\n<li>Production time</li>\n<li>Batch size</li>\n<li>Workbench requirement</li>\n<li>Quest placement</li>\n</ul>\n<p>A cartridge that dominates one task should create a meaningful disadvantage somewhere else.</p>\n<p>A controllable loading may surrender velocity. A high-velocity cartridge may punish the weapon. A precision load may be wasted in close-range automatic fire. A Legendary penetrator may be too expensive to use as general-purpose ammunition.</p>\n<p><strong>Project Arsenal expands the toolbox. It does not replace it with one hammer.</strong></p>\n<hr />\n<h1>Ammunition Naming Guide</h1>\n<p>Project Arsenal’s names describe a cartridge’s design goal, not a simple quality tier.</p>\n<p>A suffix does not automatically mean “better.” It tells the player what was changed and which compromise the loading is built around.</p>\n<h3>Real-World, Factory and Service Ammunition</h3>\n<p>Existing military, law-enforcement, sporting or experimental ammunition missing from the base game.</p>\n<p>These cartridges normally retain their real designation.</p>\n<h3>Premium</h3>\n<p>Higher-quality civilian or hunting ammunition assembled for improved consistency or terminal behavior.</p>\n<p>“Premium” does not automatically mean armor-piercing.</p>\n<h3>Match</h3>\n<p>Ammunition produced with tighter tolerances, selected components and an emphasis on repeatable accuracy.</p>\n<p>Match ammunition is built for precision, not necessarily maximum damage or penetration.</p>\n<h3>-P — Precision</h3>\n<p>A loading optimized for consistency, dispersion and deliberate fire.</p>\n<p>Examples include FMJ-P and Whisper-P.</p>\n<h3>-C — Control</h3>\n<p>A cartridge tuned to reshape recoil impulse and improve controllability during rapid, burst or automatic fire.</p>\n<p>Examples include M80-C, M62-C and BT-C.</p>\n<p>Reduced recoil may cost velocity, energy or penetration.</p>\n<h3>-M — Modernized</h3>\n<p>An established cartridge updated through revised projectile construction, propellant selection or loading methods while preserving its original role.</p>\n<p>Examples include M855-M, M995-M and BT-M.</p>\n<p>Modernized ammunition may generate additional pressure, heat, wear or cost.</p>\n<h3>-HV — High Velocity</h3>\n<p>A faster loading intended to produce a flatter trajectory, shorter flight time or improved impact behavior.</p>\n<p>Additional velocity commonly produces more recoil, pressure, heat or durability burn.</p>\n<h3>Subsonic</h3>\n<p>Ammunition kept below the speed of sound for suppressed use and a reduced ballistic signature.</p>\n<p>Subsonic loads usually offer improved control and discretion in exchange for a more curved trajectory, lower retained energy or reduced penetration.</p>\n<h3>-R — Refined</h3>\n<p>An existing cartridge used as a donor load and carefully reworked by the Alchemist.</p>\n<p>Powder charges, projectiles and assembly tolerances are selected and controlled to sharpen a specific role.</p>\n<p>Examples include Match-R, M8 API-R and Raufoss-R.</p>\n<h3>Special Purpose</h3>\n<p>Barrier, tracer, incendiary, frangible, sabot, duplex, flechette and other role-specific ammunition.</p>\n<p>Conventional abbreviations such as AP, API, APIT, HE, HEI and APDS retain their normal meaning.</p>\n<h3>Named and Legendary Projects</h3>\n<p>Fictional Soviet or Russian prototype ammunition created for Project Arsenal.</p>\n<p>Examples include:</p>\n<ul>\n<li>Sokol</li>\n<li>Voron</li>\n<li>Freight Train</li>\n<li>Molot</li>\n<li>Perun</li>\n</ul>\n<p>These designs are inspired by real ballistic concepts but are not historical cartridges.</p>\n<h3>TG and TerraGroup Black Projects</h3>\n<p>Fictional late-game ammunition created under TerraGroup’s compartmentalized programs.</p>\n<p>These cartridges explore extreme pressure, advanced penetrators, unusual payloads and questionable safety margins.</p>\n<p>Some ammunition combines multiple design markers where appropriate. The complete item name and description always take priority.</p>\n<hr />\n<h1>Supported Calibers</h1>\n<h2>Handgun and PDW</h2>\n<ul>\n<li>4.6×30 mm</li>\n<li>5.7×28 mm</li>\n<li>7.62×25 mm Tokarev</li>\n<li>9×18 mm Makarov</li>\n<li>9×19 mm</li>\n<li>9×21 mm</li>\n<li>.357 Magnum</li>\n<li>.44 Magnum</li>\n<li>.45 ACP</li>\n<li>.50 AE</li>\n</ul>\n<h2>Intermediate and Suppressed Rifle</h2>\n<ul>\n<li>5.45×39 mm</li>\n<li>5.56×45 mm</li>\n<li>7.62×39 mm</li>\n<li>9×39 mm</li>\n<li>.300 Blackout</li>\n<li>.366 TKM</li>\n</ul>\n<h2>Full-Power, Precision and Heavy Rifle</h2>\n<ul>\n<li>6.8×51 mm</li>\n<li>7.62×51 mm NATO</li>\n<li>7.62×54 mm R</li>\n<li>7.92×57 mm Mauser</li>\n<li>9.3×64 mm</li>\n<li>12.7×55 mm</li>\n<li>.308 Marlin Express</li>\n<li>.300 Winchester Magnum</li>\n<li>.338 Lapua Magnum</li>\n<li>.338 Norma Magnum</li>\n<li>.408 CheyTac</li>\n<li>.50 BMG</li>\n</ul>\n<h2>Shotgun and Special Weapon</h2>\n<ul>\n<li>12/70</li>\n<li>20/70</li>\n<li>23×75 mm R</li>\n<li>25×59 mm</li>\n</ul>\n<p>Project Arsenal adds ammunition and ordnance, not firearms.</p>\n<p>Calibers without a compatible weapon in vanilla SPT require an appropriate weapon mod.</p>\n<hr />\n<h1>Grenade and Launcher Expansion</h1>\n<p>Project Arsenal extends its progression beyond conventional cartridges.</p>\n<h2>Hand Grenades</h2>\n<ul>\n<li>RGO-92 “Groza”</li>\n<li>RGN-93 “Kapkan”</li>\n<li>TG-MF9 “Hailstorm”</li>\n<li>TG-SF4 “Black Ice”</li>\n</ul>\n<h2>Grenade-Launcher Rounds</h2>\n<ul>\n<li>40×53 mm OFK-93 “Metel”</li>\n<li>40×53 mm OFS-94 “Kuvalda”</li>\n<li>40×46 mm XM1187 “Porcupine”</li>\n<li>40×46 mm XM1192 “Shattercloud”</li>\n</ul>\n<p>These follow the same design principles as the main ammunition expansion:</p>\n<ul>\n<li>Dedicated quests</li>\n<li>Workbench recipes</li>\n<li>Limited production batches</li>\n<li>Strong individual identities</li>\n<li>Deliberate progression placement</li>\n</ul>\n<p>Black Ice becomes available only after the technologies behind Shattercloud and Hailstorm have been recovered.</p>\n<p>All three compatible 40 mm grenade-launcher platforms can also be obtained from the Alchemist through expensive, quest-locked barter trades.</p>\n<hr />\n<h1>Crafting, Economy and Availability</h1>\n<ul>\n<li>Project Arsenal ammunition is primarily crafted, not purchased.</li>\n<li>Recipes use believable donor cartridges and Tarkov crafting materials.</li>\n<li>The Alchemist supplies knowledge and components rather than unlimited finished ammunition.</li>\n<li>Unlocking a recipe also unlocks a fixed-batch offer for its required factory donor ammunition.</li>\n<li>Loot-only donor ammunition costs between ₽5,000 and ₽25,000 per round or grenade.</li>\n<li>Donor ammunition normally available from traders or the Flea Market costs the Flea Market reference price plus 25%.</li>\n<li>Every restricted offer is limited to one fixed batch per trader restock.</li>\n<li>Selected real-world factory ammunition may appear in extremely rare ammunition boxes.</li>\n<li>Handcrafted, Legendary and TerraGroup ammunition remains outside ordinary loot pools.</li>\n<li>High-end experimental items are Flea-restricted where required.</li>\n<li>Crafting time, cost and output scale with the role and performance of the ammunition.</li>\n</ul>\n<h2>Controlled Donor-Ammunition Access</h2>\n<p>Whenever a Project Arsenal recipe requires factory ammunition as a donor load, completing the quest that unlocks the recipe also unlocks a corresponding fixed-batch offer at the Alchemist.</p>\n<p>This prevents a learned blueprint from becoming unusable because its required donor ammunition has no reliable source.</p>\n<p>If the donor cartridge is loot-only, its price is set between ₽5,000 and ₽25,000 per round or grenade, depending on caliber and performance.</p>\n<p>If it is normally available from another trader or through the Flea Market, the Alchemist charges the Flea Market reference value plus a 25% premium.</p>\n<p>His offer provides dependable access, while the surcharge keeps normal trader and Flea acquisition economically preferable.</p>\n<h2>Additional Level 40 / Loyalty Level 4 Ammunition</h2>\n<p>Additional loot-only ammunition not tied to a recipe unlock becomes available at player level 40 and Alchemist Loyalty Level 4.</p>\n<p>Each offer is limited to one complete batch per trader restock.</p>\n<table>\n<thead>\n<tr>\n<th>Ammunition</th>\n<th align=\"right\">Batch</th>\n<th align=\"right\">Unit Price</th>\n<th align=\"right\">Total</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>5.45×39 mm BS</td>\n<td align=\"right\">60</td>\n<td align=\"right\">₽7,500</td>\n<td align=\"right\">₽450,000</td>\n</tr>\n<tr>\n<td>5.45×39 mm PPBS</td>\n<td align=\"right\">60</td>\n<td align=\"right\">₽10,000</td>\n<td align=\"right\">₽600,000</td>\n</tr>\n<tr>\n<td>5.56×45 mm SSA AP</td>\n<td align=\"right\">60</td>\n<td align=\"right\">₽12,500</td>\n<td align=\"right\">₽750,000</td>\n</tr>\n<tr>\n<td>7.62×39 mm MAI AP</td>\n<td align=\"right\">60</td>\n<td align=\"right\">₽12,500</td>\n<td align=\"right\">₽750,000</td>\n</tr>\n<tr>\n<td>7.62×51 mm M993</td>\n<td align=\"right\">40</td>\n<td align=\"right\">₽15,000</td>\n<td align=\"right\">₽600,000</td>\n</tr>\n<tr>\n<td>40 mm M406</td>\n<td align=\"right\">5</td>\n<td align=\"right\">₽25,000</td>\n<td align=\"right\">₽125,000</td>\n</tr>\n<tr>\n<td>40 mm M433</td>\n<td align=\"right\">5</td>\n<td align=\"right\">₽25,000</td>\n<td align=\"right\">₽125,000</td>\n</tr>\n<tr>\n<td>40 mm M441</td>\n<td align=\"right\">5</td>\n<td align=\"right\">₽25,000</td>\n<td align=\"right\">₽125,000</td>\n</tr>\n<tr>\n<td>40 mm M576</td>\n<td align=\"right\">5</td>\n<td align=\"right\">₽25,000</td>\n<td align=\"right\">₽125,000</td>\n</tr>\n<tr>\n<td>Acid Green signal cartridge</td>\n<td align=\"right\">1</td>\n<td align=\"right\">₽25,000</td>\n<td align=\"right\">₽25,000</td>\n</tr>\n<tr>\n<td>White signal cartridge</td>\n<td align=\"right\">1</td>\n<td align=\"right\">₽5,000</td>\n<td align=\"right\">₽5,000</td>\n</tr>\n</tbody>\n</table>\n<p>Restricted ammunition remains obtainable without becoming plentiful.</p>\n<p>Every valuable stack must still be earned.</p>\n<hr />\n<h1>Quest-Locked Weapons and Equipment</h1>\n<p>The Alchemist offers a controlled selection of weapons and equipment tied directly to Main Story and Specialization quests.</p>\n<p>High-cost barters provide alternative access to exceptional weapon platforms, while direct rouble purchases support weapon classes the player has learned to load for.</p>\n<h2>High-Cost Weapon Barters</h2>\n<table>\n<thead>\n<tr>\n<th>Weapon Platform</th>\n<th>Unlock Condition</th>\n<th>Balance</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>GP-25 Kostyor</td>\n<td>Complete “The Second Examination”</td>\n<td>Approximately ₽100,000 barter</td>\n</tr>\n<tr>\n<td>M203</td>\n<td>Complete “The Second Examination”</td>\n<td>Approximately ₽100,000 barter</td>\n</tr>\n<tr>\n<td>Milkor M32A1</td>\n<td>Complete Grenade Launcher Specialization</td>\n<td>Approximately ₽400,000 barter</td>\n</tr>\n<tr>\n<td>Desert Tech MDR 7.62×51 mm</td>\n<td>Complete M06 – Service Loads</td>\n<td>Expensive alternative acquisition</td>\n</tr>\n<tr>\n<td>MK-18 .338 Lapua Magnum</td>\n<td>Complete S06 – Beyond a Kilometer</td>\n<td>Extremely expensive specialist barter</td>\n</tr>\n<tr>\n<td>Accuracy International AXMC .338 Lapua Magnum</td>\n<td>Complete S06 – Beyond a Kilometer</td>\n<td>Extremely expensive specialist barter</td>\n</tr>\n</tbody>\n</table>\n<p>These offers provide alternative access after the player has mastered the associated weapon class or caliber.</p>\n<p>They are deliberately expensive and are not intended to replace normal trader progression.</p>\n<h2>M06 – Service Loads</h2>\n<p>Completing M06 unlocks two precision-rifle equipment groups.</p>\n<h3>M700 Equipment</h3>\n<ul>\n<li>Remington Model 700</li>\n<li>M700 Extended Multi-Slot Weaver Rail Base</li>\n<li>M700 30 mm Integral Ring Scope Mount</li>\n<li>Burris FullField TAC30 1–4×24</li>\n<li>Monstrum Tactical Compact Prism Scope 2×32</li>\n<li>KMZ 1P69 3–10× sniper-rifle scope</li>\n<li>KMZ 1P69 Weaver mount</li>\n</ul>\n<h3>SV-98 Equipment</h3>\n<ul>\n<li>SV-98</li>\n<li>KMZ 1P69 3–10× scope</li>\n<li>KMZ 1P69 Weaver mount</li>\n<li>Pilad 4×32 riflescope</li>\n<li>Leapers UTG 25 mm rings</li>\n<li>SIG Sauer TANGO6T 1–6×24</li>\n<li>Recknagel Era-Tac 30 mm ring scope mount</li>\n</ul>\n<p>Unless a fixed price is listed, direct-purchase equipment costs the Flea Market reference price plus 25%.</p>\n<h2>M09 – Restricted Loads</h2>\n<table>\n<thead>\n<tr>\n<th>Weapon</th>\n<th align=\"right\">Price</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>M249 SAW</td>\n<td align=\"right\">₽279,999</td>\n</tr>\n<tr>\n<td>Kalashnikov PKM</td>\n<td align=\"right\">₽279,999</td>\n</tr>\n<tr>\n<td>M60E6</td>\n<td align=\"right\">₽379,999</td>\n</tr>\n</tbody>\n</table>\n<h2>M10 – Heavy Tools</h2>\n<table>\n<thead>\n<tr>\n<th>Weapon</th>\n<th align=\"right\">Price</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>TKPD</td>\n<td align=\"right\">₽220,000</td>\n</tr>\n<tr>\n<td>Remington MSR .300 Winchester Magnum</td>\n<td align=\"right\">₽198,999</td>\n</tr>\n<tr>\n<td>Accuracy International AXMC .300 Winchester Magnum</td>\n<td align=\"right\">₽198,999</td>\n</tr>\n<tr>\n<td>Surgeon Rifles 1581 XL .338 Norma Magnum</td>\n<td align=\"right\">₽299,999</td>\n</tr>\n</tbody>\n</table>\n<h2>Specialization Unlocks</h2>\n<table>\n<thead>\n<tr>\n<th>Quest</th>\n<th>Unlock</th>\n<th>Price</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>S02 – The 23 Millimeter Problem</td>\n<td>KS-23</td>\n<td>Flea reference +25%</td>\n</tr>\n<tr>\n<td>S06 – Beyond a Kilometer</td>\n<td>KATT AMR .50 BMG</td>\n<td>Flea reference +25%</td>\n</tr>\n<tr>\n<td>S09 – Below the Sound Barrier</td>\n<td>VSS Vintorez and AS VAL</td>\n<td>Flea reference +25% each</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h1>Version and Required Dependencies</h1>\n<p>The initial Alpha is built and tested for:</p>\n<blockquote>\n<p><strong>SPT 4.0.13</strong></p>\n</blockquote>\n<p>Project Arsenal requires all of the following dependencies:</p>\n<ul>\n<li>TraderGen 2.2.0</li>\n<li>AmmoGen 2.3.0</li>\n<li>ItemGen 1.5.0</li>\n<li>Map Editor Lite 2.0.2</li>\n<li>WTT ServerCommonLib 2.0.23</li>\n<li>WTT-ContentBackport 1.0.7</li>\n<li>WTT-Armory 2.0.5</li>\n<li>MassivesoftCore 1.0.2</li>\n<li>MassivesoftWeapons 1.1.1</li>\n</ul>\n<p>These are mandatory requirements, not optional compatibility recommendations.</p>\n<p>Project Arsenal uses their frameworks, items and weapon platforms throughout its ammunition, crafting and quest progression.</p>\n<p>Please use the dependency versions listed for the current release. Requirements may change with future SPT updates.</p>\n<hr />\n<h1>Alpha Notice</h1>\n<p>Project Arsenal is entering public testing as an Alpha.</p>\n<p>The complete initial progression and content structure is present, but the following may change in response to testing:</p>\n<ul>\n<li>Cartridge values</li>\n<li>Crafting costs</li>\n<li>Production quantities</li>\n<li>Quest objectives</li>\n<li>Quest pacing</li>\n<li>Trader prices</li>\n<li>Compatibility</li>\n<li>Progression placement</li>\n<li>Item locations</li>\n</ul>\n<p>The Alpha currently uses compatible existing game assets for much of its ammunition and ordnance.</p>\n<p>Dedicated cartridge models, grenade models, improved textures and additional visual assets are planned for later development.</p>\n<p>When reporting a problem, please include:</p>\n<ul>\n<li>The affected quest, cartridge or recipe</li>\n<li>A description of what happened</li>\n<li>Steps to reproduce the issue</li>\n<li>The relevant server-log section whenever possible</li>\n</ul>\n<hr />\n<h1>Community Feedback and Bug Reports</h1>\n<p>Project Arsenal’s Alpha will be shaped by the people actually playing it.</p>\n<p>Feedback on progression, recipe costs, cartridge balance, quest pacing and compatibility problems is extremely valuable.</p>\n<h2>Alpha Community Survey</h2>\n<p>Use this form for general impressions, balancing feedback, progression concerns and suggestions:</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://forms.gle/fobscxbMbayaButGA\" rel=\"noreferrer noopener\">https://forms.gle/fobscxbMbayaButGA</a></p>\n<h2>Bug Report</h2>\n<p>Use this form for broken quests, missing unlocks, recipe problems, server errors and reproducible technical issues:</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://forms.gle/62DD3eJvdGPpehME6\" rel=\"noreferrer noopener\">https://forms.gle/62DD3eJvdGPpehME6</a></p>\n<hr />\n<h1>Planned After Alpha</h1>\n<p>The following systems are part of the longer-term roadmap and are not included in the initial Alpha:</p>\n<ul>\n<li>A dedicated Reloader Bench</li>\n<li>A cleaner ammunition-crafting interface</li>\n<li>Custom 3D models for cartridges and grenades</li>\n<li>Improved textures and visual assets</li>\n<li>Ammunition disassembly</li>\n<li>Reusable cartridge cases</li>\n<li>Separate projectiles, propellant and primers</li>\n<li>Additional calibers</li>\n<li>Compatibility patches</li>\n<li>Continued balancing</li>\n<li>Further quest dialogue and lore improvements</li>\n<li>Additional localization support</li>\n</ul>\n<hr />\n<h1>A Note from the Developer</h1>\n<p>Project Arsenal is my first mod project.</p>\n<p>What started as an attempt to give Tarkov’s overlooked ammunition more purpose grew into something much larger: a complete crafting progression, a new trader and an investigation spanning fictional Russian prototype projects and TerraGroup Black Projects.</p>\n<p>I have put an enormous amount of care into the research, balancing, recipes and writing, but an Alpha of this size will inevitably have rough edges.</p>\n<p>Constructive criticism, detailed bug reports and honest player feedback will help Project Arsenal become the mod I want it to be.</p>\n<p>Thank you for giving my first project a place in your SPT installation.</p>\n<hr />\n<h1>Credits</h1>\n<p>Project Arsenal was created with the help of the SPT modding ecosystem, including:</p>\n<ul>\n<li>AmmoGen by Serenity</li>\n<li>TraderGen by Serenity</li>\n<li>ItemGen by Serenity</li>\n<li>Map Editor Lite</li>\n<li>WTT ServerCommonLib</li>\n<li>WTT-ContentBackport</li>\n<li>WTT-Armory</li>\n<li>MassivesoftCore</li>\n<li>MassivesoftWeapons</li>\n</ul>\n<p>Special thanks to everyone who tests the Alpha, reports broken recipes, questions the balancing and survives one of the Alchemist’s “perfectly safe” experiments.</p>\n<blockquote>\n<p><strong>Factory ammunition is the beginning. Build the rest.</strong></p>\n</blockquote>\n<p>Project Arsenal is a fan-made mod for SPT and is not affiliated with Battlestate Games.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2880/project-arsenal",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>Generative AI was used as a development assistant during the creation of Project Arsenal. This included help with code drafting and refactoring, debugging, JSON and configuration review, documentation, quest and lore writing, balancing discussions, and the creation or editing of some graphical assets.</p>\n<p>All AI-assisted output was manually reviewed, adapted, integrated, compiled, and tested by me. AI-generated suggestions were not accepted blindly, and I remain fully responsible for the final code, assets, design decisions, balancing, and overall quality of the mod.</p>\n",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 16,
+      "published_at": "2026-08-02T20:43:00.000000Z",
+      "created_at": "2026-08-02T20:49:48.000000Z",
+      "updated_at": "2026-08-05T06:03:56.000000Z",
+      "owner": {
+        "id": 118287,
+        "name": "Forneus93",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/Eg8uP0BjwHYICCbmZshkHaAlDI1FOzAXlddOcFyA_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2026-07-18T10:10:30.000000Z",
+        "updated_at": "2026-08-09T23:58:44.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14480,
+          "hub_id": null,
+          "version": "0.0.3",
+          "description": "# Project Arsenal v0.0.3-alpha.3\n\nThis release focuses on fixing quest progression, correcting ammunition requirements and resolving problems with custom quest-item objectives.\n\n## Main Quest Fixes\n\n### M03 – Purpose Before Power\n\n* Replaced 20x `.366 TKM FMJ Match` with 20x `.366 TKM Geksa Premium`.\n* Replaced 20x `7.62x39mm FMJ Match` with 20x standard `7.62x39mm FMJ`.\n* Replaced 20x `7.62x25mm TT Control-R` with 20x `7.62x25mm TT S&B FMJ`.\n\n### M04 – The First Examination\n\n* Replaced 20x `7.62x39mm FMJ Match` with 20x `7.62x51mm NATO BCP FMJ-P`.\n* Added 2x Ammunition Case to the completion rewards.\n\n### M06 – Service Loads\n\nThe quest now requires only:\n\n* 20x `5.45x39mm BT`\n* 20x `5.56x45mm FMJ`\n* 20x `7.62x54mm R FMJ`\n\nRemoved all other ammunition requirements from this quest.\n\n### M07 – Special Purpose Loads\n\n* Replaced 20x `5.45x39mm US-S` with 20x standard `5.45x39mm US`.\n* Replaced 20x `7.62x54mm R FMJ-P` with 20x `7.62x54mm R FMJ-M`.\n\n### M08 – The Second Examination\n\nCorrected the ammunition requirements to:\n\n* 20x `7.62x54mm R LPS-M`\n* 20x `7.62x51mm BCP FMJ-P`\n* 20x `7.62x51mm BCP FMJ-M`\n\nAdditional changes:\n\n* Added 4x Ammunition Case to the completion rewards.\n\n### M12 – The Master’s Examination\n\nThe quest now requires only:\n\n* 10x `7.62x51mm M80A2`\n* 10x `7.62x51mm BCP FMJ-P`\n* 10x `.300 Winchester Magnum FMJ-M`\n* 10x `.366 TKM FMJ Match`\n* 10x `7.62x54mm R PS-M`\n\nAdded the following completion rewards:\n\n* 1x T H I C C Items Case\n* 1x T H I C C Weapon Case\n\n## Specialization Quest Fixes\n\n### S03 – Shotgun Specialization\n\nCorrected the ammunition requirements to:\n\n* 10x `12/70 AP-20`\n* 15x `23x75mm Barrikada`\n* 15x `23x75mm TP-T`\n\n### S14\n\n* Removed all ammunition crafting and handover requirements.\n* All remaining quest objectives are unchanged.\n\n## Legendary Project and TerraGroup Quest Fixes\n\n* Corrected custom quest-item handling throughout the Legendary Project and TerraGroup questlines.\n* Removed redundant manually configured quest-item handover objectives.\n* Quest artifacts now use their associated FindItem objectives without incorrectly requiring the same file twice.\n* Corrected affected quests that requested two copies of a unique quest artifact.\n* Improved compatibility between the Project Arsenal quest database and ItemGen quest-item registration.\n\n## Additional Fixes\n\n* Corrected outdated or renamed ammunition references.\n* Removed obsolete quest requirements.\n* Corrected several quest reward configurations.\n* Improved consistency across the Main, Specialization, Legendary Project and TerraGroup questlines.\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/2880/project-arsenal/0.0.3",
+          "content_length": 25829943,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 581,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-05T05:23:00.000000Z",
+          "created_at": "2026-08-05T05:26:05.000000Z",
+          "updated_at": "2026-08-05T06:03:56.000000Z"
+        },
+        {
+          "id": 14404,
+          "hub_id": null,
+          "version": "0.0.2",
+          "description": "## Project Arsenal 0.0.2\n\n### Fixed\n\n- Integrated the batch-barter system into `ProjectArsenal.Server.dll`.\n- Removed the separate `ProjectArsenalBatchBarters.dll`.\n- Fixed fixed-batch purchases delivering only one cartridge or grenade.\n- Added missing batch definitions for selected rouble-purchased ammunition.\n- Corrected batch quantities for:\n  - .366 TKM AP\n  - 5.45×39 mm BS\n  - 5.45×39 mm PPBS\n  - 5.56×45 mm SSA AP\n  - 7.62×39 mm MAI AP\n  - 7.62×51 mm M993\n  - M406\n  - M433 HEDP\n  - M441\n  - M576\n  - VOG-25\n\n### Changed\n\n- Moved the batch-barter configuration into the main Project Arsenal mod folder.\n- Published the exact source code used to build `ProjectArsenal.Server.dll`.\n- Added public build instructions and a versioned source tag.\n- Added an AI disclosure for the project.\n\n### Installation\n\nDelete the previous Project Arsenal installation before installing version 0.0.2.\n\nDo not retain:\n\n- `ProjectArsenalBatchBarters.dll`\n- the old standalone `BatchBarters` mod folder",
+          "link": "https://forge.sp-tarkov.com/mod/download/2880/project-arsenal/0.0.2",
+          "content_length": 25830187,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 417,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-03T03:11:00.000000Z",
+          "created_at": "2026-08-03T03:12:13.000000Z",
+          "updated_at": "2026-08-03T06:02:26.000000Z"
+        },
+        {
+          "id": 14395,
+          "hub_id": null,
+          "version": "0.0.1",
+          "description": "Initial Release Version. Mod Will be Updated to 4.1.1 When the Dependencies are Updated.\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/2880/project-arsenal/0.0.1",
+          "content_length": 25834462,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 16,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-02T22:46:00.000000Z",
+          "created_at": "2026-08-02T22:47:44.000000Z",
+          "updated_at": "2026-08-03T02:38:35.000000Z"
+        }
+      ],
+      "license": {
+        "id": 16,
+        "hub_id": 19,
+        "name": "Creative Commons BY-NC-ND 4.0",
+        "link": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 16,
+        "hub_id": 29,
+        "title": "Traders",
+        "slug": "traders",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Forneus93/Project-Arsenal-Source/tree/v0.0.2",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14480,
+      "hub_id": null,
+      "version": "0.0.3",
+      "description": "<h1>Project Arsenal v0.0.3-alpha.3</h1>\n<p>This release focuses on fixing quest progression, correcting ammunition requirements and resolving problems with custom quest-item objectives.</p>\n<h2>Main Quest Fixes</h2>\n<h3>M03 – Purpose Before Power</h3>\n<ul>\n<li>Replaced 20x <code>.366 TKM FMJ Match</code> with 20x <code>.366 TKM Geksa Premium</code>.</li>\n<li>Replaced 20x <code>7.62x39mm FMJ Match</code> with 20x standard <code>7.62x39mm FMJ</code>.</li>\n<li>Replaced 20x <code>7.62x25mm TT Control-R</code> with 20x <code>7.62x25mm TT S&amp;B FMJ</code>.</li>\n</ul>\n<h3>M04 – The First Examination</h3>\n<ul>\n<li>Replaced 20x <code>7.62x39mm FMJ Match</code> with 20x <code>7.62x51mm NATO BCP FMJ-P</code>.</li>\n<li>Added 2x Ammunition Case to the completion rewards.</li>\n</ul>\n<h3>M06 – Service Loads</h3>\n<p>The quest now requires only:</p>\n<ul>\n<li>20x <code>5.45x39mm BT</code></li>\n<li>20x <code>5.56x45mm FMJ</code></li>\n<li>20x <code>7.62x54mm R FMJ</code></li>\n</ul>\n<p>Removed all other ammunition requirements from this quest.</p>\n<h3>M07 – Special Purpose Loads</h3>\n<ul>\n<li>Replaced 20x <code>5.45x39mm US-S</code> with 20x standard <code>5.45x39mm US</code>.</li>\n<li>Replaced 20x <code>7.62x54mm R FMJ-P</code> with 20x <code>7.62x54mm R FMJ-M</code>.</li>\n</ul>\n<h3>M08 – The Second Examination</h3>\n<p>Corrected the ammunition requirements to:</p>\n<ul>\n<li>20x <code>7.62x54mm R LPS-M</code></li>\n<li>20x <code>7.62x51mm BCP FMJ-P</code></li>\n<li>20x <code>7.62x51mm BCP FMJ-M</code></li>\n</ul>\n<p>Additional changes:</p>\n<ul>\n<li>Added 4x Ammunition Case to the completion rewards.</li>\n</ul>\n<h3>M12 – The Master’s Examination</h3>\n<p>The quest now requires only:</p>\n<ul>\n<li>10x <code>7.62x51mm M80A2</code></li>\n<li>10x <code>7.62x51mm BCP FMJ-P</code></li>\n<li>10x <code>.300 Winchester Magnum FMJ-M</code></li>\n<li>10x <code>.366 TKM FMJ Match</code></li>\n<li>10x <code>7.62x54mm R PS-M</code></li>\n</ul>\n<p>Added the following completion rewards:</p>\n<ul>\n<li>1x T H I C C Items Case</li>\n<li>1x T H I C C Weapon Case</li>\n</ul>\n<h2>Specialization Quest Fixes</h2>\n<h3>S03 – Shotgun Specialization</h3>\n<p>Corrected the ammunition requirements to:</p>\n<ul>\n<li>10x <code>12/70 AP-20</code></li>\n<li>15x <code>23x75mm Barrikada</code></li>\n<li>15x <code>23x75mm TP-T</code></li>\n</ul>\n<h3>S14</h3>\n<ul>\n<li>Removed all ammunition crafting and handover requirements.</li>\n<li>All remaining quest objectives are unchanged.</li>\n</ul>\n<h2>Legendary Project and TerraGroup Quest Fixes</h2>\n<ul>\n<li>Corrected custom quest-item handling throughout the Legendary Project and TerraGroup questlines.</li>\n<li>Removed redundant manually configured quest-item handover objectives.</li>\n<li>Quest artifacts now use their associated FindItem objectives without incorrectly requiring the same file twice.</li>\n<li>Corrected affected quests that requested two copies of a unique quest artifact.</li>\n<li>Improved compatibility between the Project Arsenal quest database and ItemGen quest-item registration.</li>\n</ul>\n<h2>Additional Fixes</h2>\n<ul>\n<li>Corrected outdated or renamed ammunition references.</li>\n<li>Removed obsolete quest requirements.</li>\n<li>Corrected several quest reward configurations.</li>\n<li>Improved consistency across the Main, Specialization, Legendary Project and TerraGroup questlines.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2880/project-arsenal/0.0.3",
+      "content_length": 25829943,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 581,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-05T05:23:00.000000Z",
+      "created_at": "2026-08-05T05:26:05.000000Z",
+      "updated_at": "2026-08-05T06:03:56.000000Z",
+      "dependencies": [
+        {
+          "id": 2246,
+          "hub_id": 2952,
+          "guid": "com.wtt.armory",
+          "name": "WTT- Armory",
+          "slug": "wtt-armory",
+          "teaser": "The official weapons pack forged by the WTT developers & friends...  Arm yourself accordingly...",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/2952.jpg",
+          "downloads": 247159,
+          "favourites_count": 286,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2246/wtt-armory",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 13,
+          "published_at": "2025-08-08T03:08:00.000000Z",
+          "created_at": "2025-08-08T03:08:00.000000Z",
+          "updated_at": "2026-07-28T08:14:57.000000Z",
+          "owner": {
+            "id": 22121,
+            "name": "Tron",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+            "created_at": "2022-08-31T05:49:04.000000Z",
+            "updated_at": "2026-08-10T09:32:43.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 44,
+              "name": "Choccy Milk",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/385222d64fa85020e601547d6e3f90cd761236d0_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2020-07-03T04:06:15.000000Z",
+              "updated_at": "2026-07-10T04:49:17.000000Z"
+            },
+            {
+              "id": 30890,
+              "name": "GrooveypenguinX",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2023-05-07T19:55:52.000000Z",
+              "updated_at": "2026-08-09T14:03:01.000000Z"
+            },
+            {
+              "id": 36153,
+              "name": "EpicRangeTime",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/80209a4aec54836a03e10eeabd944d2668084215_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/e92f6113cef81fe9a7ad58950e63d8fb25468163_1280w.webp",
+              "created_at": "2023-08-26T03:19:00.000000Z",
+              "updated_at": "2026-08-09T19:17:01.000000Z"
+            },
+            {
+              "id": 58981,
+              "name": "probablyEukyre",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/6b14f569dfc35cbab2a39266e8b20b20f3a9ca62_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/luydB7qfy3yKsLjY09U1gO5qMQG0bOgi9rVtP8ql.png",
+              "created_at": "2024-07-21T15:22:59.000000Z",
+              "updated_at": "2026-08-09T23:58:05.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13288,
+              "hub_id": null,
+              "version": "2.0.5",
+              "description": "<p>-Fix for MSBS Grot stock angle </p>\n<p>-Added cubemaps to multiple weapons and attachments </p>\n<p>-Various bundle tweaks/optimizations </p>\n<p>-Fixed bundles.json to include some missing quest bundles </p>\n<p>-Fixed various locales</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2246/wtt-armory/2.0.5",
+              "content_length": 4742653444,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 79642,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-03-20T17:28:00.000000Z",
+              "created_at": "2026-03-20T17:33:38.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            }
+          ],
+          "category": {
+            "id": 13,
+            "hub_id": 76,
+            "title": "Weapons",
+            "slug": "weapons",
+            "description": ""
+          }
+        },
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338278,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14228,
+              "hub_id": null,
+              "version": "2.0.23",
+              "description": "<p>reduced the error logging to be behind config.\nMODDERS THAT USE COMMONLIB - ENABLE ITEM DEBUGGING IN THE CONFIG AND FIX YOUR SHIT</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.23",
+              "content_length": 245746,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 25419,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-26T04:25:00.000000Z",
+              "created_at": "2026-07-26T04:26:24.000000Z",
+              "updated_at": "2026-07-28T18:02:31.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        },
+        {
+          "id": 2512,
+          "hub_id": null,
+          "guid": "com.wtt.contentbackport",
+          "name": "WTT - Content Backport",
+          "slug": "wtt-content-backport",
+          "teaser": "The moment you've all been waiting for....",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/55TZW6CnHJHPtEYdFvuJWmHazdFuhlCiMLfsbagQ.jpg",
+          "downloads": 380515,
+          "favourites_count": 500,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2512/wtt-content-backport",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 2,
+          "published_at": "2025-12-26T03:52:00.000000Z",
+          "created_at": "2025-12-26T03:52:16.000000Z",
+          "updated_at": "2026-08-03T06:02:25.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            },
+            {
+              "id": 36153,
+              "name": "EpicRangeTime",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/80209a4aec54836a03e10eeabd944d2668084215_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/e92f6113cef81fe9a7ad58950e63d8fb25468163_1280w.webp",
+              "created_at": "2023-08-26T03:19:00.000000Z",
+              "updated_at": "2026-08-09T19:17:01.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13487,
+              "hub_id": null,
+              "version": "1.0.7",
+              "description": "<p>HOTFIX</p>\n<ul>\n<li>changed slothelper methods to ensure the slot exists before pushing to it</li>\n<li>stopped overriding the twitch case entirely and safely added the new streamer items</li>\n<li>val 4 sounds have been updated to their new sounds</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.0.7",
+              "content_length": 3490550189,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 96159,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-04-25T12:14:00.000000Z",
+              "created_at": "2026-04-25T12:15:28.000000Z",
+              "updated_at": "2026-07-17T00:16:30.000000Z"
+            }
+          ],
+          "category": {
+            "id": 2,
+            "hub_id": 79,
+            "title": "Overhauls",
+            "slug": "overhauls",
+            "description": "Large-scale mod packs that overhaul many game systems. Typically combines both client-side and server-side mods into one package."
+          }
+        },
+        {
+          "id": 2588,
+          "hub_id": null,
+          "guid": "com.massivesoft.massivesoftweapons",
+          "name": "MassivesoftWeapons",
+          "slug": "massivesoftweapons",
+          "teaser": "Collection of my and saintdeer's weapons for SPT 4.0.0+",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/odY9Z2Odh84q7XTGmTSAnpYg6cggpDJVW4onEke7.png",
+          "downloads": 33044,
+          "favourites_count": 93,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2588/massivesoftweapons",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 13,
+          "published_at": "2026-02-13T13:54:00.000000Z",
+          "created_at": "2026-02-13T14:35:28.000000Z",
+          "updated_at": "2026-07-28T09:49:54.000000Z",
+          "owner": {
+            "id": 15672,
+            "name": "Massivesoft",
+            "profile_photo_url": "https://ui-avatars.com/api/?name=M&color=7F9CF5&background=EBF4FF",
+            "cover_photo_url": null,
+            "created_at": "2022-03-14T13:54:37.000000Z",
+            "updated_at": "2026-08-10T07:36:47.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 50237,
+              "name": "saintdeer",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/7fbec50612ec7801c4b7d503d85c0573ecd85a64_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-05-01T01:01:59.000000Z",
+              "updated_at": "2026-07-10T04:51:10.000000Z"
+            },
+            {
+              "id": 59864,
+              "name": "AmightyTank",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/ca455d7c3c3a7a3a5f0c349de15469a9aedb1443_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-07-29T05:47:41.000000Z",
+              "updated_at": "2026-08-10T01:29:30.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14219,
+              "hub_id": null,
+              "version": "1.1.2",
+              "description": "<p>New:</p>\n<ul>\n<li>AK-74M/AK-101/AK-103 Rifles with JAK Banlanced Automatics Recoil System</li>\n<li>DBR 7.62x54R double-barrel rifle</li>\n<li>P90 Advanced Tactical Kit</li>\n<li>FN FAL 7.62x51 assault rifle</li>\n<li>JAK Outlaw-277 6.8x51 lever-action rifle</li>\n</ul>\n<p>Fixes:</p>\n<ul>\n<li><strong>(IMPORTANT)</strong> Fixed server crash caused by missing some empty folder when not installing from downloaded zip.</li>\n<li>Fixed T725 shotgun missing mode switch animation.</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2588/massivesoftweapons/1.1.2",
+              "content_length": 1347177091,
+              "spt_version_constraint": "~4.0.12",
+              "downloads": 5876,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-25T13:04:00.000000Z",
+              "created_at": "2026-07-25T13:30:14.000000Z",
+              "updated_at": "2026-07-28T09:49:54.000000Z"
+            }
+          ],
+          "category": {
+            "id": 13,
+            "hub_id": 76,
+            "title": "Weapons",
+            "slug": "weapons",
+            "description": ""
+          }
+        },
+        {
+          "id": 2749,
+          "hub_id": null,
+          "guid": "com.serenity.tradergen",
+          "name": "TraderGen",
+          "slug": "tradergen",
+          "teaser": "A dependency/framework mod that lets anyone, including non-programmers, create custom traders for SPTarkov using simple JSON files.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/2l684qRhec4JlUbWvicbBCMtShK4A8O8lld5pNS3.png",
+          "downloads": 4395,
+          "favourites_count": 36,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2749/tradergen",
+          "fika_compatibility": false,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": true,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 16,
+          "published_at": "2026-06-17T19:53:00.000000Z",
+          "created_at": "2026-06-17T20:03:18.000000Z",
+          "updated_at": "2026-08-04T06:02:33.000000Z",
+          "owner": {
+            "id": 86008,
+            "name": "shaneeexd",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/CzoBD8u0ZJWanwXrKVPvmAhvsX72I6JNZkEFQWX3_128w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/LoL77W5RmT8vOHIkKv04LwmtH0IZhX7JoAm1SlsP_1280w.webp",
+            "created_at": "2025-10-19T19:42:09.000000Z",
+            "updated_at": "2026-08-10T07:49:33.000000Z"
+          },
+          "additional_authors": [],
+          "versions": [
+            {
+              "id": 14301,
+              "hub_id": null,
+              "version": "2.2.0",
+              "description": "<h2>v2.2.0 Changelog</h2>\n<ul>\n<li>Assort items unlocked via quest are now properly integrated so they show within quest rewards</li>\n<li>Productions schemes can now also be set as a quest reward</li>\n<li>Web tool updated with a new <code>Schemes</code> tab for making custom hideout crafts</li>\n<li>Updated web tool so that assort items unlocked via quest in the assorts tab are auto synced to the quest reward section of the chosen quest</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2749/tradergen/2.2.0",
+              "content_length": 255441,
+              "spt_version_constraint": "4.0.13",
+              "downloads": 955,
+              "fika_compatibility": "unknown",
+              "published_at": "2026-07-30T19:23:00.000000Z",
+              "created_at": "2026-07-30T19:21:19.000000Z",
+              "updated_at": "2026-07-31T06:01:57.000000Z"
+            }
+          ],
+          "category": {
+            "id": 16,
+            "hub_id": 29,
+            "title": "Traders",
+            "slug": "traders",
+            "description": ""
+          }
+        },
+        {
+          "id": 2777,
+          "hub_id": null,
+          "guid": "com.serenity.ammogen",
+          "name": "AmmoGen",
+          "slug": "ammogen",
+          "teaser": "AmmoGen is a server-side framework for SPTarkov that lets anyone create custom ammo, ammo boxes, and loot injections using simple JSON packs, no programming required.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/YIztrHnlzvomHEQ0pO51DMqPdutMiUtmpYn3X6NK.png",
+          "downloads": 4641,
+          "favourites_count": 32,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2777/ammogen",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": true,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 4,
+          "published_at": "2026-06-26T15:12:00.000000Z",
+          "created_at": "2026-06-26T15:19:51.000000Z",
+          "updated_at": "2026-08-06T17:09:45.000000Z",
+          "owner": {
+            "id": 86008,
+            "name": "shaneeexd",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/CzoBD8u0ZJWanwXrKVPvmAhvsX72I6JNZkEFQWX3_128w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/LoL77W5RmT8vOHIkKv04LwmtH0IZhX7JoAm1SlsP_1280w.webp",
+            "created_at": "2025-10-19T19:42:09.000000Z",
+            "updated_at": "2026-08-10T07:49:33.000000Z"
+          },
+          "additional_authors": [],
+          "versions": [
+            {
+              "id": 14072,
+              "hub_id": null,
+              "version": "2.3.0",
+              "description": "<h2>v2.3.0 Changelog</h2>\n<ul>\n<li><strong>UI: Raw properties JSON</strong> - You can now edit item properties as raw JSON in the tool. The mod will also keep any extra properties that are not shown in the UI, so advanced edits are not lost.</li>\n<li><strong>Mod Patches</strong> - Filters for modded magazines and weapons (Cartridges, Chambers, Camoras all included) are now handled automatically by the mod.</li>\n<li><strong>Tool UI refresh</strong> - Removed the Mod Patches tab. Added Modded Filter Exclusions to the Filters tab, so you can exclude specific modded magazines and weapons from automatic patching.</li>\n<li><strong>Client: smoke colours + bundle injection</strong> - Smoke colour and bundle injection are now combined into a single client plugin. (<strong>Make sure to delete the old dll within the “plugins” folder as the new one is inside the “Serenity-AmmoGen” folder in plugins</strong>)</li>\n<li><strong>Server: cleaner logs</strong> - Registration and filter patch logs are now condensed into single summary counts instead of listing every item and patched filter.</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2777/ammogen/2.3.0",
+              "content_length": 67240,
+              "spt_version_constraint": "4.0.13",
+              "downloads": 1526,
+              "fika_compatibility": "unknown",
+              "published_at": "2026-07-13T19:40:00.000000Z",
+              "created_at": "2026-07-13T19:48:27.000000Z",
+              "updated_at": "2026-07-28T09:38:30.000000Z"
+            }
+          ],
+          "category": {
+            "id": 4,
+            "hub_id": 21,
+            "title": "Items",
+            "slug": "items",
+            "description": ""
+          }
+        },
+        {
+          "id": 2803,
+          "hub_id": null,
+          "guid": "com.serenity.itemgen",
+          "name": "ItemGen",
+          "slug": "itemgen",
+          "teaser": "A server-side framework for SPTarkov that lets anyone, including non-programmers, create custom items using simple JSON packs. Includes a web-based tool for generating packs visually and a client-side bundle injector for custom 3D models.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/ONjHcQzOhEa1yNlZbili0L9M4c6yzXWMgqo0s81L.png",
+          "downloads": 6155,
+          "favourites_count": 42,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2803/itemgen",
+          "fika_compatibility": false,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": true,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 4,
+          "published_at": "2026-07-07T00:12:00.000000Z",
+          "created_at": "2026-07-07T00:12:57.000000Z",
+          "updated_at": "2026-08-03T23:04:58.000000Z",
+          "owner": {
+            "id": 86008,
+            "name": "shaneeexd",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/CzoBD8u0ZJWanwXrKVPvmAhvsX72I6JNZkEFQWX3_128w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/LoL77W5RmT8vOHIkKv04LwmtH0IZhX7JoAm1SlsP_1280w.webp",
+            "created_at": "2025-10-19T19:42:09.000000Z",
+            "updated_at": "2026-08-10T07:49:33.000000Z"
+          },
+          "additional_authors": [],
+          "versions": [
+            {
+              "id": 14247,
+              "hub_id": null,
+              "version": "1.5.0",
+              "description": "<h2>v1.5.0 Changelog</h2>\n<ul>\n<li><strong>BetterKeys compatibility</strong> - ItemGen keys now integrate with BetterKeys: map-specific background colors, key descriptions with Tips, Required Extracts, Required Quests, and Behind the Lock loot info.</li>\n<li><strong>Custom models for keys</strong> - keys now support Custom Model and Use Model bundle paths, matching the same pattern used by other item types.</li>\n<li><strong>Bartering for custom items</strong> - custom items can now be added as barter offers in trader inventories.</li>\n<li><strong>Removed custom stim patch</strong> - the stim effects/damage patch has been removed due to instability and conflicts with other items.</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2803/itemgen/1.5.0",
+              "content_length": 54035,
+              "spt_version_constraint": "4.0.13",
+              "downloads": 2028,
+              "fika_compatibility": "unknown",
+              "published_at": "2026-07-27T07:06:00.000000Z",
+              "created_at": "2026-07-27T07:07:02.000000Z",
+              "updated_at": "2026-07-28T09:57:56.000000Z"
+            }
+          ],
+          "category": {
+            "id": 4,
+            "hub_id": 21,
+            "title": "Items",
+            "slug": "items",
+            "description": ""
+          }
+        },
+        {
+          "id": 2805,
+          "hub_id": null,
+          "guid": "com.shaneeexd.mapeditorlite",
+          "name": "Map Editor Lite",
+          "slug": "map-editor-lite",
+          "teaser": "Map Editor Lite is a server-side framework for SPTarkov that lets anyone create and share custom map content - using an in-raid editor and simple JSON packs, no programming required.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/URXE5JbXDR7275SJ18sywwReCwSFW3W6giRc28wN.png",
+          "downloads": 2834,
+          "favourites_count": 23,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2805/map-editor-lite",
+          "fika_compatibility": false,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": true,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": true,
+          "category_id": 17,
+          "published_at": "2026-07-07T03:20:00.000000Z",
+          "created_at": "2026-07-07T03:22:40.000000Z",
+          "updated_at": "2026-08-07T06:01:59.000000Z",
+          "owner": {
+            "id": 86008,
+            "name": "shaneeexd",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/CzoBD8u0ZJWanwXrKVPvmAhvsX72I6JNZkEFQWX3_128w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/LoL77W5RmT8vOHIkKv04LwmtH0IZhX7JoAm1SlsP_1280w.webp",
+            "created_at": "2025-10-19T19:42:09.000000Z",
+            "updated_at": "2026-08-10T07:49:33.000000Z"
+          },
+          "additional_authors": [],
+          "versions": [
+            {
+              "id": 14281,
+              "hub_id": null,
+              "version": "2.0.2",
+              "description": "<h2>v2.0.2 Changelog</h2>\n<ul>\n<li>For vanilla removals, doors are now checked via ID also for better accuracy, no more wrong door removals if there are more than 1 in close proximity to each other</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2805/map-editor-lite/2.0.2",
+              "content_length": 2563005,
+              "spt_version_constraint": "4.0.13",
+              "downloads": 982,
+              "fika_compatibility": "unknown",
+              "published_at": "2026-07-29T06:43:00.000000Z",
+              "created_at": "2026-07-29T06:44:33.000000Z",
+              "updated_at": "2026-07-29T18:02:21.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 14404,
+      "hub_id": null,
+      "version": "0.0.2",
+      "description": "<h2>Project Arsenal 0.0.2</h2>\n<h3>Fixed</h3>\n<ul>\n<li>Integrated the batch-barter system into <code>ProjectArsenal.Server.dll</code>.</li>\n<li>Removed the separate <code>ProjectArsenalBatchBarters.dll</code>.</li>\n<li>Fixed fixed-batch purchases delivering only one cartridge or grenade.</li>\n<li>Added missing batch definitions for selected rouble-purchased ammunition.</li>\n<li>Corrected batch quantities for:\n<ul>\n<li>.366 TKM AP</li>\n<li>5.45×39 mm BS</li>\n<li>5.45×39 mm PPBS</li>\n<li>5.56×45 mm SSA AP</li>\n<li>7.62×39 mm MAI AP</li>\n<li>7.62×51 mm M993</li>\n<li>M406</li>\n<li>M433 HEDP</li>\n<li>M441</li>\n<li>M576</li>\n<li>VOG-25</li>\n</ul>\n</li>\n</ul>\n<h3>Changed</h3>\n<ul>\n<li>Moved the batch-barter configuration into the main Project Arsenal mod folder.</li>\n<li>Published the exact source code used to build <code>ProjectArsenal.Server.dll</code>.</li>\n<li>Added public build instructions and a versioned source tag.</li>\n<li>Added an AI disclosure for the project.</li>\n</ul>\n<h3>Installation</h3>\n<p>Delete the previous Project Arsenal installation before installing version 0.0.2.</p>\n<p>Do not retain:</p>\n<ul>\n<li><code>ProjectArsenalBatchBarters.dll</code></li>\n<li>the old standalone <code>BatchBarters</code> mod folder</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2880/project-arsenal/0.0.2",
+      "content_length": 25830187,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 417,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-03T03:11:00.000000Z",
+      "created_at": "2026-08-03T03:12:13.000000Z",
+      "updated_at": "2026-08-03T06:02:26.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338278,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14228,
+              "hub_id": null,
+              "version": "2.0.23",
+              "description": "<p>reduced the error logging to be behind config.\nMODDERS THAT USE COMMONLIB - ENABLE ITEM DEBUGGING IN THE CONFIG AND FIX YOUR SHIT</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.23",
+              "content_length": 245746,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 25419,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-26T04:25:00.000000Z",
+              "created_at": "2026-07-26T04:26:24.000000Z",
+              "updated_at": "2026-07-28T18:02:31.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        },
+        {
+          "id": 2588,
+          "hub_id": null,
+          "guid": "com.massivesoft.massivesoftweapons",
+          "name": "MassivesoftWeapons",
+          "slug": "massivesoftweapons",
+          "teaser": "Collection of my and saintdeer's weapons for SPT 4.0.0+",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/odY9Z2Odh84q7XTGmTSAnpYg6cggpDJVW4onEke7.png",
+          "downloads": 33044,
+          "favourites_count": 93,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2588/massivesoftweapons",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 13,
+          "published_at": "2026-02-13T13:54:00.000000Z",
+          "created_at": "2026-02-13T14:35:28.000000Z",
+          "updated_at": "2026-07-28T09:49:54.000000Z",
+          "owner": {
+            "id": 15672,
+            "name": "Massivesoft",
+            "profile_photo_url": "https://ui-avatars.com/api/?name=M&color=7F9CF5&background=EBF4FF",
+            "cover_photo_url": null,
+            "created_at": "2022-03-14T13:54:37.000000Z",
+            "updated_at": "2026-08-10T07:36:47.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 50237,
+              "name": "saintdeer",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/7fbec50612ec7801c4b7d503d85c0573ecd85a64_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-05-01T01:01:59.000000Z",
+              "updated_at": "2026-07-10T04:51:10.000000Z"
+            },
+            {
+              "id": 59864,
+              "name": "AmightyTank",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/ca455d7c3c3a7a3a5f0c349de15469a9aedb1443_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-07-29T05:47:41.000000Z",
+              "updated_at": "2026-08-10T01:29:30.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14219,
+              "hub_id": null,
+              "version": "1.1.2",
+              "description": "<p>New:</p>\n<ul>\n<li>AK-74M/AK-101/AK-103 Rifles with JAK Banlanced Automatics Recoil System</li>\n<li>DBR 7.62x54R double-barrel rifle</li>\n<li>P90 Advanced Tactical Kit</li>\n<li>FN FAL 7.62x51 assault rifle</li>\n<li>JAK Outlaw-277 6.8x51 lever-action rifle</li>\n</ul>\n<p>Fixes:</p>\n<ul>\n<li><strong>(IMPORTANT)</strong> Fixed server crash caused by missing some empty folder when not installing from downloaded zip.</li>\n<li>Fixed T725 shotgun missing mode switch animation.</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2588/massivesoftweapons/1.1.2",
+              "content_length": 1347177091,
+              "spt_version_constraint": "~4.0.12",
+              "downloads": 5876,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-25T13:04:00.000000Z",
+              "created_at": "2026-07-25T13:30:14.000000Z",
+              "updated_at": "2026-07-28T09:49:54.000000Z"
+            }
+          ],
+          "category": {
+            "id": 13,
+            "hub_id": 76,
+            "title": "Weapons",
+            "slug": "weapons",
+            "description": ""
+          }
+        },
+        {
+          "id": 2749,
+          "hub_id": null,
+          "guid": "com.serenity.tradergen",
+          "name": "TraderGen",
+          "slug": "tradergen",
+          "teaser": "A dependency/framework mod that lets anyone, including non-programmers, create custom traders for SPTarkov using simple JSON files.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/2l684qRhec4JlUbWvicbBCMtShK4A8O8lld5pNS3.png",
+          "downloads": 4395,
+          "favourites_count": 36,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2749/tradergen",
+          "fika_compatibility": false,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": true,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 16,
+          "published_at": "2026-06-17T19:53:00.000000Z",
+          "created_at": "2026-06-17T20:03:18.000000Z",
+          "updated_at": "2026-08-04T06:02:33.000000Z",
+          "owner": {
+            "id": 86008,
+            "name": "shaneeexd",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/CzoBD8u0ZJWanwXrKVPvmAhvsX72I6JNZkEFQWX3_128w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/LoL77W5RmT8vOHIkKv04LwmtH0IZhX7JoAm1SlsP_1280w.webp",
+            "created_at": "2025-10-19T19:42:09.000000Z",
+            "updated_at": "2026-08-10T07:49:33.000000Z"
+          },
+          "additional_authors": [],
+          "versions": [
+            {
+              "id": 14301,
+              "hub_id": null,
+              "version": "2.2.0",
+              "description": "<h2>v2.2.0 Changelog</h2>\n<ul>\n<li>Assort items unlocked via quest are now properly integrated so they show within quest rewards</li>\n<li>Productions schemes can now also be set as a quest reward</li>\n<li>Web tool updated with a new <code>Schemes</code> tab for making custom hideout crafts</li>\n<li>Updated web tool so that assort items unlocked via quest in the assorts tab are auto synced to the quest reward section of the chosen quest</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2749/tradergen/2.2.0",
+              "content_length": 255441,
+              "spt_version_constraint": "4.0.13",
+              "downloads": 955,
+              "fika_compatibility": "unknown",
+              "published_at": "2026-07-30T19:23:00.000000Z",
+              "created_at": "2026-07-30T19:21:19.000000Z",
+              "updated_at": "2026-07-31T06:01:57.000000Z"
+            }
+          ],
+          "category": {
+            "id": 16,
+            "hub_id": 29,
+            "title": "Traders",
+            "slug": "traders",
+            "description": ""
+          }
+        },
+        {
+          "id": 2777,
+          "hub_id": null,
+          "guid": "com.serenity.ammogen",
+          "name": "AmmoGen",
+          "slug": "ammogen",
+          "teaser": "AmmoGen is a server-side framework for SPTarkov that lets anyone create custom ammo, ammo boxes, and loot injections using simple JSON packs, no programming required.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/YIztrHnlzvomHEQ0pO51DMqPdutMiUtmpYn3X6NK.png",
+          "downloads": 4641,
+          "favourites_count": 32,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2777/ammogen",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": true,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 4,
+          "published_at": "2026-06-26T15:12:00.000000Z",
+          "created_at": "2026-06-26T15:19:51.000000Z",
+          "updated_at": "2026-08-06T17:09:45.000000Z",
+          "owner": {
+            "id": 86008,
+            "name": "shaneeexd",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/CzoBD8u0ZJWanwXrKVPvmAhvsX72I6JNZkEFQWX3_128w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/LoL77W5RmT8vOHIkKv04LwmtH0IZhX7JoAm1SlsP_1280w.webp",
+            "created_at": "2025-10-19T19:42:09.000000Z",
+            "updated_at": "2026-08-10T07:49:33.000000Z"
+          },
+          "additional_authors": [],
+          "versions": [
+            {
+              "id": 14072,
+              "hub_id": null,
+              "version": "2.3.0",
+              "description": "<h2>v2.3.0 Changelog</h2>\n<ul>\n<li><strong>UI: Raw properties JSON</strong> - You can now edit item properties as raw JSON in the tool. The mod will also keep any extra properties that are not shown in the UI, so advanced edits are not lost.</li>\n<li><strong>Mod Patches</strong> - Filters for modded magazines and weapons (Cartridges, Chambers, Camoras all included) are now handled automatically by the mod.</li>\n<li><strong>Tool UI refresh</strong> - Removed the Mod Patches tab. Added Modded Filter Exclusions to the Filters tab, so you can exclude specific modded magazines and weapons from automatic patching.</li>\n<li><strong>Client: smoke colours + bundle injection</strong> - Smoke colour and bundle injection are now combined into a single client plugin. (<strong>Make sure to delete the old dll within the “plugins” folder as the new one is inside the “Serenity-AmmoGen” folder in plugins</strong>)</li>\n<li><strong>Server: cleaner logs</strong> - Registration and filter patch logs are now condensed into single summary counts instead of listing every item and patched filter.</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2777/ammogen/2.3.0",
+              "content_length": 67240,
+              "spt_version_constraint": "4.0.13",
+              "downloads": 1526,
+              "fika_compatibility": "unknown",
+              "published_at": "2026-07-13T19:40:00.000000Z",
+              "created_at": "2026-07-13T19:48:27.000000Z",
+              "updated_at": "2026-07-28T09:38:30.000000Z"
+            }
+          ],
+          "category": {
+            "id": 4,
+            "hub_id": 21,
+            "title": "Items",
+            "slug": "items",
+            "description": ""
+          }
+        },
+        {
+          "id": 2803,
+          "hub_id": null,
+          "guid": "com.serenity.itemgen",
+          "name": "ItemGen",
+          "slug": "itemgen",
+          "teaser": "A server-side framework for SPTarkov that lets anyone, including non-programmers, create custom items using simple JSON packs. Includes a web-based tool for generating packs visually and a client-side bundle injector for custom 3D models.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/ONjHcQzOhEa1yNlZbili0L9M4c6yzXWMgqo0s81L.png",
+          "downloads": 6155,
+          "favourites_count": 42,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2803/itemgen",
+          "fika_compatibility": false,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": true,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 4,
+          "published_at": "2026-07-07T00:12:00.000000Z",
+          "created_at": "2026-07-07T00:12:57.000000Z",
+          "updated_at": "2026-08-03T23:04:58.000000Z",
+          "owner": {
+            "id": 86008,
+            "name": "shaneeexd",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/CzoBD8u0ZJWanwXrKVPvmAhvsX72I6JNZkEFQWX3_128w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/LoL77W5RmT8vOHIkKv04LwmtH0IZhX7JoAm1SlsP_1280w.webp",
+            "created_at": "2025-10-19T19:42:09.000000Z",
+            "updated_at": "2026-08-10T07:49:33.000000Z"
+          },
+          "additional_authors": [],
+          "versions": [
+            {
+              "id": 14247,
+              "hub_id": null,
+              "version": "1.5.0",
+              "description": "<h2>v1.5.0 Changelog</h2>\n<ul>\n<li><strong>BetterKeys compatibility</strong> - ItemGen keys now integrate with BetterKeys: map-specific background colors, key descriptions with Tips, Required Extracts, Required Quests, and Behind the Lock loot info.</li>\n<li><strong>Custom models for keys</strong> - keys now support Custom Model and Use Model bundle paths, matching the same pattern used by other item types.</li>\n<li><strong>Bartering for custom items</strong> - custom items can now be added as barter offers in trader inventories.</li>\n<li><strong>Removed custom stim patch</strong> - the stim effects/damage patch has been removed due to instability and conflicts with other items.</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2803/itemgen/1.5.0",
+              "content_length": 54035,
+              "spt_version_constraint": "4.0.13",
+              "downloads": 2028,
+              "fika_compatibility": "unknown",
+              "published_at": "2026-07-27T07:06:00.000000Z",
+              "created_at": "2026-07-27T07:07:02.000000Z",
+              "updated_at": "2026-07-28T09:57:56.000000Z"
+            }
+          ],
+          "category": {
+            "id": 4,
+            "hub_id": 21,
+            "title": "Items",
+            "slug": "items",
+            "description": ""
+          }
+        },
+        {
+          "id": 2805,
+          "hub_id": null,
+          "guid": "com.shaneeexd.mapeditorlite",
+          "name": "Map Editor Lite",
+          "slug": "map-editor-lite",
+          "teaser": "Map Editor Lite is a server-side framework for SPTarkov that lets anyone create and share custom map content - using an in-raid editor and simple JSON packs, no programming required.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/URXE5JbXDR7275SJ18sywwReCwSFW3W6giRc28wN.png",
+          "downloads": 2834,
+          "favourites_count": 23,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2805/map-editor-lite",
+          "fika_compatibility": false,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": true,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": true,
+          "category_id": 17,
+          "published_at": "2026-07-07T03:20:00.000000Z",
+          "created_at": "2026-07-07T03:22:40.000000Z",
+          "updated_at": "2026-08-07T06:01:59.000000Z",
+          "owner": {
+            "id": 86008,
+            "name": "shaneeexd",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/CzoBD8u0ZJWanwXrKVPvmAhvsX72I6JNZkEFQWX3_128w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/LoL77W5RmT8vOHIkKv04LwmtH0IZhX7JoAm1SlsP_1280w.webp",
+            "created_at": "2025-10-19T19:42:09.000000Z",
+            "updated_at": "2026-08-10T07:49:33.000000Z"
+          },
+          "additional_authors": [],
+          "versions": [
+            {
+              "id": 14281,
+              "hub_id": null,
+              "version": "2.0.2",
+              "description": "<h2>v2.0.2 Changelog</h2>\n<ul>\n<li>For vanilla removals, doors are now checked via ID also for better accuracy, no more wrong door removals if there are more than 1 in close proximity to each other</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2805/map-editor-lite/2.0.2",
+              "content_length": 2563005,
+              "spt_version_constraint": "4.0.13",
+              "downloads": 982,
+              "fika_compatibility": "unknown",
+              "published_at": "2026-07-29T06:43:00.000000Z",
+              "created_at": "2026-07-29T06:44:33.000000Z",
+              "updated_at": "2026-07-29T18:02:21.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        },
+        {
+          "id": 2246,
+          "hub_id": 2952,
+          "guid": "com.wtt.armory",
+          "name": "WTT- Armory",
+          "slug": "wtt-armory",
+          "teaser": "The official weapons pack forged by the WTT developers & friends...  Arm yourself accordingly...",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/2952.jpg",
+          "downloads": 247159,
+          "favourites_count": 286,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2246/wtt-armory",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 13,
+          "published_at": "2025-08-08T03:08:00.000000Z",
+          "created_at": "2025-08-08T03:08:00.000000Z",
+          "updated_at": "2026-07-28T08:14:57.000000Z",
+          "owner": {
+            "id": 22121,
+            "name": "Tron",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+            "created_at": "2022-08-31T05:49:04.000000Z",
+            "updated_at": "2026-08-10T09:32:43.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 44,
+              "name": "Choccy Milk",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/385222d64fa85020e601547d6e3f90cd761236d0_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2020-07-03T04:06:15.000000Z",
+              "updated_at": "2026-07-10T04:49:17.000000Z"
+            },
+            {
+              "id": 30890,
+              "name": "GrooveypenguinX",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2023-05-07T19:55:52.000000Z",
+              "updated_at": "2026-08-09T14:03:01.000000Z"
+            },
+            {
+              "id": 36153,
+              "name": "EpicRangeTime",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/80209a4aec54836a03e10eeabd944d2668084215_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/e92f6113cef81fe9a7ad58950e63d8fb25468163_1280w.webp",
+              "created_at": "2023-08-26T03:19:00.000000Z",
+              "updated_at": "2026-08-09T19:17:01.000000Z"
+            },
+            {
+              "id": 58981,
+              "name": "probablyEukyre",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/6b14f569dfc35cbab2a39266e8b20b20f3a9ca62_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/luydB7qfy3yKsLjY09U1gO5qMQG0bOgi9rVtP8ql.png",
+              "created_at": "2024-07-21T15:22:59.000000Z",
+              "updated_at": "2026-08-09T23:58:05.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13288,
+              "hub_id": null,
+              "version": "2.0.5",
+              "description": "<p>-Fix for MSBS Grot stock angle </p>\n<p>-Added cubemaps to multiple weapons and attachments </p>\n<p>-Various bundle tweaks/optimizations </p>\n<p>-Fixed bundles.json to include some missing quest bundles </p>\n<p>-Fixed various locales</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2246/wtt-armory/2.0.5",
+              "content_length": 4742653444,
+              "spt_version_constraint": "~4.0 <4.1.0",
+              "downloads": 79642,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-03-20T17:28:00.000000Z",
+              "created_at": "2026-03-20T17:33:38.000000Z",
+              "updated_at": "2026-08-01T20:39:03.000000Z"
+            }
+          ],
+          "category": {
+            "id": 13,
+            "hub_id": 76,
+            "title": "Weapons",
+            "slug": "weapons",
+            "description": ""
+          }
+        },
+        {
+          "id": 2512,
+          "hub_id": null,
+          "guid": "com.wtt.contentbackport",
+          "name": "WTT - Content Backport",
+          "slug": "wtt-content-backport",
+          "teaser": "The moment you've all been waiting for....",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/55TZW6CnHJHPtEYdFvuJWmHazdFuhlCiMLfsbagQ.jpg",
+          "downloads": 380515,
+          "favourites_count": 500,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2512/wtt-content-backport",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 2,
+          "published_at": "2025-12-26T03:52:00.000000Z",
+          "created_at": "2025-12-26T03:52:16.000000Z",
+          "updated_at": "2026-08-03T06:02:25.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            },
+            {
+              "id": 36153,
+              "name": "EpicRangeTime",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/80209a4aec54836a03e10eeabd944d2668084215_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/e92f6113cef81fe9a7ad58950e63d8fb25468163_1280w.webp",
+              "created_at": "2023-08-26T03:19:00.000000Z",
+              "updated_at": "2026-08-09T19:17:01.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13487,
+              "hub_id": null,
+              "version": "1.0.7",
+              "description": "<p>HOTFIX</p>\n<ul>\n<li>changed slothelper methods to ensure the slot exists before pushing to it</li>\n<li>stopped overriding the twitch case entirely and safely added the new streamer items</li>\n<li>val 4 sounds have been updated to their new sounds</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.0.7",
+              "content_length": 3490550189,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 96159,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-04-25T12:14:00.000000Z",
+              "created_at": "2026-04-25T12:15:28.000000Z",
+              "updated_at": "2026-07-17T00:16:30.000000Z"
+            }
+          ],
+          "category": {
+            "id": 2,
+            "hub_id": 79,
+            "title": "Overhauls",
+            "slug": "overhauls",
+            "description": "Large-scale mod packs that overhaul many game systems. Typically combines both client-side and server-side mods into one package."
+          }
+        }
+      ]
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2880/Forneus93-Project-Arsenal-0.0.3-alpha.3.zip",
+    "bytes_written": 25829943,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1320733717/8166b735-ccc3-4210-9452-e315357d09da?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A56%3A04Z&rscd=attachment%3B+filename%3DForneus93-Project-Arsenal-0.0.3-alpha.3.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A55%3A14Z&ske=2026-08-10T10%3A56%3A04Z&sks=b&skv=2018-11-09&sig=XQWm8hPccSVhhphPFi3xyxLq5y%2BMwtJyId3o5mfstlM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1Nzc2NSwibmJmIjoxNzg2MzU1OTY1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.1nVsq_wGZohsBZgvNzMN6Betn73jKoR74UQz9El5oeA&response-content-disposition=attachment%3B%20filename%3DForneus93-Project-Arsenal-0.0.3-alpha.3.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "0.0.3",
+    "same_as_primary_download": true
+  }
+}

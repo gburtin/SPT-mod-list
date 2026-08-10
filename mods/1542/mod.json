@@ -1,0 +1,229 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1542,
+      "hub_id": 2112,
+      "guid": "com.tyfon.debugtooltip",
+      "name": "Debug Tooltip",
+      "slug": "debug-tooltip",
+      "teaser": "Adds debug information to tooltips for mod developers",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2112.png",
+      "downloads": 3536,
+      "favourites_count": 5,
+      "description": "<h3>Features</h3>\n<ul>\n<li>Adds item and item address information to tooltips</li>\n<li>Adds tooltips to trader icons and to quest rows that show those object’s IDs</li>\n<li>Adds tooltip to <em>empty</em> slots to show slot ID</li>\n<li>Copy to clipboard:\n<ul>\n<li>Ctrl-C: Copy the ID of the item/trader/quest under the cursor</li>\n<li>Ctrl-Alt-C: Copy the template ID (tpl) of items, or parent ID of empty slots</li>\n<li>Ctrl-Shift-C: Copy the whole debug tooltip</li>\n</ul>\n</li>\n<li>Debug info and additional tooltips are enabled/disabled through the F12 menu or by pressing F9 (configurable)</li>\n</ul>\n<h3>Installation</h3>\n<ul>\n<li>You’ll figure it out, I’m sure.</li>\n</ul>\n<h3>Some previews</h3>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/3yDpYah.png\" alt=\"3yDpYah.png\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/xNvZN2z.png\" alt=\"xNvZN2z.png\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/0nHihB8.png\" alt=\"0nHihB8.png\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/wpAwNa8.png\" alt=\"wpAwNa8.png\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/E95GAHg.png\" alt=\"E95GAHg.png\" /></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1542/debug-tooltip",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-07-10T04:26:59.000000Z",
+      "created_at": "2024-07-10T04:26:59.000000Z",
+      "updated_at": "2026-07-28T06:03:47.000000Z",
+      "owner": {
+        "id": 46005,
+        "name": "Tyfon",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/63c0fc245b25b135a26465ea268ebdd8a35b62d0_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-02-27T23:21:18.000000Z",
+        "updated_at": "2026-08-10T04:22:04.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11835,
+          "hub_id": null,
+          "version": "4.0.0",
+          "description": "Updated for SPT 4.0",
+          "link": "https://forge.sp-tarkov.com/mod/download/1542/debug-tooltip/4.0.0",
+          "content_length": 10328,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 1080,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-13T11:49:00.000000Z",
+          "created_at": "2025-10-13T20:50:40.000000Z",
+          "updated_at": "2026-07-28T06:03:47.000000Z"
+        },
+        {
+          "id": 1182,
+          "hub_id": 13594,
+          "version": "3.0.0",
+          "description": "Updated for SPT 3.11 🚀",
+          "link": "https://forge.sp-tarkov.com/mod/download/1542/debug-tooltip/3.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 710,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-16T04:03:24.000000Z",
+          "created_at": "2025-03-16T04:03:24.000000Z",
+          "updated_at": "2026-05-14T02:07:27.000000Z"
+        },
+        {
+          "id": 2054,
+          "hub_id": 12610,
+          "version": "2.0.1",
+          "description": "Added quest conditions\n\nTweaked tooltip",
+          "link": "https://forge.sp-tarkov.com/mod/download/1542/debug-tooltip/2.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 391,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-11T09:33:16.000000Z",
+          "created_at": "2024-12-11T09:33:16.000000Z",
+          "updated_at": "2026-05-14T03:13:22.000000Z"
+        },
+        {
+          "id": 2322,
+          "hub_id": 12285,
+          "version": "2.0.0",
+          "description": "Updated for SPT 3.10",
+          "link": "https://forge.sp-tarkov.com/mod/download/1542/debug-tooltip/2.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 277,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-26T19:39:22.000000Z",
+          "created_at": "2024-11-26T19:39:22.000000Z",
+          "updated_at": "2026-05-14T03:19:44.000000Z"
+        },
+        {
+          "id": 2676,
+          "hub_id": 11864,
+          "version": "1.0.3",
+          "description": "Added ctrl-alt-c support to copy item template ID (Tpl)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1542/debug-tooltip/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 314,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-09-30T19:02:28.000000Z",
+          "created_at": "2024-09-30T19:02:28.000000Z",
+          "updated_at": "2026-05-14T03:28:36.000000Z"
+        },
+        {
+          "id": 3478,
+          "hub_id": 10832,
+          "version": "1.0.2",
+          "description": "\\- Added tooltip to empty equipment slots\n\n\\- Made quest tooltips turn on/off without having to refresh the screen",
+          "link": "https://forge.sp-tarkov.com/mod/download/1542/debug-tooltip/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 364,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-14T09:02:42.000000Z",
+          "created_at": "2024-07-14T09:02:42.000000Z",
+          "updated_at": "2026-05-14T03:50:56.000000Z"
+        },
+        {
+          "id": 3560,
+          "hub_id": 10726,
+          "version": "1.0.1",
+          "description": "\\- Fixed armor plate tooltips not working (because BSG implements them twice and stomps on the first one)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1542/debug-tooltip/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 214,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-11T00:33:38.000000Z",
+          "created_at": "2024-07-11T00:33:38.000000Z",
+          "updated_at": "2026-05-14T03:53:04.000000Z"
+        },
+        {
+          "id": 3589,
+          "hub_id": 10691,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1542/debug-tooltip/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 186,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-10T04:26:59.000000Z",
+          "created_at": "2024-07-10T04:26:59.000000Z",
+          "updated_at": "2026-05-14T03:53:45.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/tyfon7/DebugTooltip",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11835,
+      "hub_id": null,
+      "version": "4.0.0",
+      "description": "<p>Updated for SPT 4.0</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1542/debug-tooltip/4.0.0",
+      "content_length": 10328,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 1081,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-13T11:49:00.000000Z",
+      "created_at": "2025-10-13T20:50:40.000000Z",
+      "updated_at": "2026-07-28T06:03:47.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1182,
+      "hub_id": 13594,
+      "version": "3.0.0",
+      "description": "<p>Updated for SPT 3.11 🚀</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1542/debug-tooltip/3.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 710,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-16T04:03:24.000000Z",
+      "created_at": "2025-03-16T04:03:24.000000Z",
+      "updated_at": "2026-05-14T02:07:27.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2322,
+      "hub_id": 12285,
+      "version": "2.0.0",
+      "description": "<p>Updated for SPT 3.10</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1542/debug-tooltip/2.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 277,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-11-26T19:39:22.000000Z",
+      "created_at": "2024-11-26T19:39:22.000000Z",
+      "updated_at": "2026-05-14T03:19:44.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1542/Tyfon-DebugTooltip-4.0.0.zip",
+    "bytes_written": 10328,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/826616411/dd3de06c-d8cf-46d1-b8c5-07ddaeebbc3f?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A49%3A02Z&rscd=attachment%3B+filename%3DTyfon-DebugTooltip-4.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A48%3A26Z&ske=2026-08-10T10%3A49%3A02Z&sks=b&skv=2018-11-09&sig=3TDbXriZ9Mlr%2Fxpzc58vJwexr5PKA0%2BNh08yOno1nos%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1Njk2MywibmJmIjoxNzg2MzU2NjYzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.2bCvBMl0PVDLz088VDA22Bxe-btyb4tcZ8i_yB93Ncc&response-content-disposition=attachment%3B%20filename%3DTyfon-DebugTooltip-4.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "4.0.0",
+    "same_as_primary_download": true
+  }
+}

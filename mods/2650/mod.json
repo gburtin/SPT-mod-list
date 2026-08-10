@@ -1,0 +1,223 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2650,
+      "hub_id": null,
+      "guid": "com.alanyung-yl.holstereverything",
+      "name": "Holster Everything",
+      "slug": "holster-everything",
+      "teaser": "HolsterEverything is a server-side SPT mod that expands what can be equipped in the PMC holster slot.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/AbBly8hvjSM5lTaEfCqF73DoQKnSQvxcJbfFGpS6.png",
+      "downloads": 4616,
+      "favourites_count": 18,
+      "description": "<h1>HolsterEverything (SPT 4.0.13)</h1>\n<p>HolsterEverything lets you control which weapon categories can be equipped in the holster slot, with client-side holster size and holster handling restrictions.</p>\n<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Features</div>\n<div class=\"tab-content\"><ul>\n<li>Lets you choose which weapon categories can be equipped in the holster slot</li>\n<li>Saves your selected weapon category settings for the mod</li>\n<li>Optionally blocks oversized holster weapons</li>\n<li>Optionally treat folded weapons as unfolded for the holster size check</li>\n<li>Optionally keep the size limit off for vanilla holster weapons</li>\n<li>Optionally apply handling penalty to weapon in hand</li>\n<li>Optionally keep the handling penalty off for vanilla holster weapons</li>\n<li>Optionally let non-foldable holstered weapons trigger the handling penalty</li>\n</ul></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Behavior</div>\n<div class=\"tab-content\"><ul>\n<li>Supports either all weapon categories or only selected weapon categories</li>\n<li>Does not remove or alter vanilla holster whitelist entries</li>\n<li>Weapon category settings require restarting the server</li>\n<li>Holster size and holster handling settings apply immediately</li>\n<li><code>Limit Additional Weapons Only</code> defaults to <code>true</code> for both size and handling</li>\n<li><code>Use Unfolded Size</code> checks folded weapons against their unfolded size before allowing a holster drop</li>\n<li><code>Enable Handling Penalty</code> applies an ergonomics penalty to the weapon in hand</li>\n<li>Vanilla holster weapons only trigger the handling penalty when they have an installed stock attachment</li>\n</ul></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Installation</div>\n<div class=\"tab-content\"><ol>\n<li>Download the release file</li>\n<li>Extract it directly into your SPT installation folder</li>\n<li>Start the game</li>\n<li>Restart server after changing weapon category settings</li>\n</ol></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">Uninstall</div>\n<div class=\"tab-content\"><p>Delete:</p>\n<ul>\n<li><code>SPT/user/mods/HolsterEverything</code></li>\n<li><code>BepInEx/plugins/HolsterEverything</code></li>\n</ul>\n<p>If you uninstall the mod while a non-default weapon is already in holster, that weapon can remain there in your existing profile</p>\n<p>After you unequip that weapon, you cannot equip it back into holster unless the mod is enabled again</p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2650/holster-everything",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 13,
+      "published_at": "2026-04-01T03:49:00.000000Z",
+      "created_at": "2026-04-01T10:49:14.000000Z",
+      "updated_at": "2026-07-28T08:24:19.000000Z",
+      "owner": {
+        "id": 89944,
+        "name": "yung_.",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/CRp3IFN3jJ7V1v3u3hLtreXShQ25u3XleMiULTL3_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-11-18T01:44:43.000000Z",
+        "updated_at": "2026-08-09T07:36:42.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 13457,
+          "hub_id": null,
+          "version": "1.3.1",
+          "description": "# v1.3.1\n\n### What's new\n- Prevent adding mods to holstered weapons if resulting size exceeds size limit \n- Added checks for alt+click that bypass size validation\n- Added feedback for holster size restriction blocks\n- Alt+click blocked weapon-to-holster now shows `No free slot for that item`\n- Drag/hover blocked holster placement now shows vanilla `Item is incompatible` tooltip\n\n### Behavior\n- Supports either all weapon categories or only selected weapon categories\n- Does not remove or alter vanilla holster whitelist entries\n- Weapon category settings require restarting the server\n- Holster size and holster handling settings apply immediately\n- `Limit Additional Weapons Only` defaults to `true` for both size and handling\n- `Use Unfolded Size` checks folded weapons against their unfolded size before allowing a holster drop\n- `Enable Handling Penalty` applies an ergonomics penalty to the weapon in hand\n- Vanilla holster weapons only triggers the handling penalty when they have an installed stock attachment \n\n## Installation\n1. Download the release file\n2. Extract it directly into your SPT installation folder\n3. Start the game\n4. Restart server after changing weapon category settings",
+          "link": "https://forge.sp-tarkov.com/mod/download/2650/holster-everything/1.3.1",
+          "content_length": 37202,
+          "spt_version_constraint": "~4.0.13",
+          "downloads": 3169,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-04-19T09:06:36.000000Z",
+          "created_at": "2026-04-19T09:06:18.000000Z",
+          "updated_at": "2026-07-28T08:24:19.000000Z"
+        },
+        {
+          "id": 13445,
+          "hub_id": null,
+          "version": "1.3.0",
+          "description": "### What's new\n- Added client-side holster handling penalty\n- Added more client-side holster size options, including unfolded-size checks for folded weapons\n- Added settings to keep size and handling restrictions off for vanilla holster weapons\n\n### Behavior\n- Supports either all weapon categories or only selected weapon categories\n- Does not remove or alter vanilla holster whitelist entries\n- Weapon category settings require restarting the server\n- Holster size and holster handling settings apply immediately\n- `Limit Additional Weapons Only` defaults to `true` for both size and handling\n- `Use Unfolded Size` checks folded weapons against their unfolded size before allowing a holster drop\n- `Enable Handling Penalty` applies an ergonomics penalty to the weapon in hand\n- Vanilla holster weapons only trigger the handling penalty when they have an installed stock attachment\n\n## Installation\n1. Download the release file\n2. Extract it directly into your SPT installation folder\n3. Start the game\n4. Restart server after changing weapon category settings",
+          "link": "https://forge.sp-tarkov.com/mod/download/2650/holster-everything/1.3.0",
+          "content_length": 36446,
+          "spt_version_constraint": "~4.0.13",
+          "downloads": 247,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-04-17T02:33:50.000000Z",
+          "created_at": "2026-04-16T18:05:26.000000Z",
+          "updated_at": "2026-07-28T08:22:22.000000Z"
+        },
+        {
+          "id": 13402,
+          "hub_id": null,
+          "version": "1.2.0",
+          "description": "### What's new\n- Added optional holster weapon size restriction\n- Added holster size settings in BepInEx F12 Configuration Manager\n- Kept weapon category control through `config.json` and the optional BepInEx F12 Configuration Manager plugin\n\n### Behavior\n- `EnableAllWeapons = true` allows all weapon categories\n- If `EnableAllWeapons = false`, only selected categories from `config.json` or BepInEx F12 Configuration Manager are applied\n- Weapon category settings require restarting server\n- Holster size settings apply immediately\n\n## Installation\n1. Download the release file\n2. Extract it directly into your SPT installation folder\n3. Start the game\n4. Restart server if weapon category settings are changed",
+          "link": "https://forge.sp-tarkov.com/mod/download/2650/holster-everything/1.2.0",
+          "content_length": 27501,
+          "spt_version_constraint": "~4.0.13",
+          "downloads": 442,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-04-09T01:42:00.000000Z",
+          "created_at": "2026-04-09T08:42:32.000000Z",
+          "updated_at": "2026-07-28T08:20:37.000000Z"
+        },
+        {
+          "id": 13357,
+          "hub_id": null,
+          "version": "1.1.0",
+          "description": "### What's new\n- Added optional F12 config plugin menu for category toggle\n- Added config.json\n\n### Behavior\n- `EnableAllWeapons = true` allows all weapon categories\n- If `EnableAllWeapons = false`, only selected categories from config/F12 are applied\n\n## Installation\n1. Download the release file\n2. Extract it directly into your SPT installation folder\n3. Start the game and edit config.json as needed\n4. Restart server after config changes",
+          "link": "https://forge.sp-tarkov.com/mod/download/2650/holster-everything/1.1.0",
+          "content_length": 24902,
+          "spt_version_constraint": "~4.0.13",
+          "downloads": 449,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-04-02T20:36:00.000000Z",
+          "created_at": "2026-04-03T03:36:16.000000Z",
+          "updated_at": "2026-07-28T08:18:17.000000Z"
+        },
+        {
+          "id": 13342,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "First release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2650/holster-everything/1.0.0",
+          "content_length": 16804,
+          "spt_version_constraint": "~4.0.13",
+          "downloads": 309,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-04-01T03:55:00.000000Z",
+          "created_at": "2026-04-01T10:55:27.000000Z",
+          "updated_at": "2026-07-28T08:17:14.000000Z"
+        }
+      ],
+      "license": {
+        "id": 15,
+        "hub_id": 18,
+        "name": "GNU GPLv3",
+        "link": "https://choosealicense.com/licenses/gpl-3.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 13,
+        "hub_id": 76,
+        "title": "Weapons",
+        "slug": "weapons",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/alanyung-yl/HolsterEverything",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 13457,
+      "hub_id": null,
+      "version": "1.3.1",
+      "description": "<h1>v1.3.1</h1>\n<h3>What’s new</h3>\n<ul>\n<li>Prevent adding mods to holstered weapons if resulting size exceeds size limit</li>\n<li>Added checks for alt+click that bypass size validation</li>\n<li>Added feedback for holster size restriction blocks</li>\n<li>Alt+click blocked weapon-to-holster now shows <code>No free slot for that item</code></li>\n<li>Drag/hover blocked holster placement now shows vanilla <code>Item is incompatible</code> tooltip</li>\n</ul>\n<h3>Behavior</h3>\n<ul>\n<li>Supports either all weapon categories or only selected weapon categories</li>\n<li>Does not remove or alter vanilla holster whitelist entries</li>\n<li>Weapon category settings require restarting the server</li>\n<li>Holster size and holster handling settings apply immediately</li>\n<li><code>Limit Additional Weapons Only</code> defaults to <code>true</code> for both size and handling</li>\n<li><code>Use Unfolded Size</code> checks folded weapons against their unfolded size before allowing a holster drop</li>\n<li><code>Enable Handling Penalty</code> applies an ergonomics penalty to the weapon in hand</li>\n<li>Vanilla holster weapons only triggers the handling penalty when they have an installed stock attachment</li>\n</ul>\n<h2>Installation</h2>\n<ol>\n<li>Download the release file</li>\n<li>Extract it directly into your SPT installation folder</li>\n<li>Start the game</li>\n<li>Restart server after changing weapon category settings</li>\n</ol>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2650/holster-everything/1.3.1",
+      "content_length": 37202,
+      "spt_version_constraint": "~4.0.13",
+      "downloads": 3169,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-04-19T09:06:36.000000Z",
+      "created_at": "2026-04-19T09:06:18.000000Z",
+      "updated_at": "2026-07-28T08:24:19.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13445,
+      "hub_id": null,
+      "version": "1.3.0",
+      "description": "<h3>What’s new</h3>\n<ul>\n<li>Added client-side holster handling penalty</li>\n<li>Added more client-side holster size options, including unfolded-size checks for folded weapons</li>\n<li>Added settings to keep size and handling restrictions off for vanilla holster weapons</li>\n</ul>\n<h3>Behavior</h3>\n<ul>\n<li>Supports either all weapon categories or only selected weapon categories</li>\n<li>Does not remove or alter vanilla holster whitelist entries</li>\n<li>Weapon category settings require restarting the server</li>\n<li>Holster size and holster handling settings apply immediately</li>\n<li><code>Limit Additional Weapons Only</code> defaults to <code>true</code> for both size and handling</li>\n<li><code>Use Unfolded Size</code> checks folded weapons against their unfolded size before allowing a holster drop</li>\n<li><code>Enable Handling Penalty</code> applies an ergonomics penalty to the weapon in hand</li>\n<li>Vanilla holster weapons only trigger the handling penalty when they have an installed stock attachment</li>\n</ul>\n<h2>Installation</h2>\n<ol>\n<li>Download the release file</li>\n<li>Extract it directly into your SPT installation folder</li>\n<li>Start the game</li>\n<li>Restart server after changing weapon category settings</li>\n</ol>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2650/holster-everything/1.3.0",
+      "content_length": 36446,
+      "spt_version_constraint": "~4.0.13",
+      "downloads": 247,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-04-17T02:33:50.000000Z",
+      "created_at": "2026-04-16T18:05:26.000000Z",
+      "updated_at": "2026-07-28T08:22:22.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13402,
+      "hub_id": null,
+      "version": "1.2.0",
+      "description": "<h3>What’s new</h3>\n<ul>\n<li>Added optional holster weapon size restriction</li>\n<li>Added holster size settings in BepInEx F12 Configuration Manager</li>\n<li>Kept weapon category control through <code>config.json</code> and the optional BepInEx F12 Configuration Manager plugin</li>\n</ul>\n<h3>Behavior</h3>\n<ul>\n<li><code>EnableAllWeapons = true</code> allows all weapon categories</li>\n<li>If <code>EnableAllWeapons = false</code>, only selected categories from <code>config.json</code> or BepInEx F12 Configuration Manager are applied</li>\n<li>Weapon category settings require restarting server</li>\n<li>Holster size settings apply immediately</li>\n</ul>\n<h2>Installation</h2>\n<ol>\n<li>Download the release file</li>\n<li>Extract it directly into your SPT installation folder</li>\n<li>Start the game</li>\n<li>Restart server if weapon category settings are changed</li>\n</ol>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2650/holster-everything/1.2.0",
+      "content_length": 27501,
+      "spt_version_constraint": "~4.0.13",
+      "downloads": 442,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-04-09T01:42:00.000000Z",
+      "created_at": "2026-04-09T08:42:32.000000Z",
+      "updated_at": "2026-07-28T08:20:37.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13357,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<h3>What’s new</h3>\n<ul>\n<li>Added optional F12 config plugin menu for category toggle</li>\n<li>Added config.json</li>\n</ul>\n<h3>Behavior</h3>\n<ul>\n<li><code>EnableAllWeapons = true</code> allows all weapon categories</li>\n<li>If <code>EnableAllWeapons = false</code>, only selected categories from config/F12 are applied</li>\n</ul>\n<h2>Installation</h2>\n<ol>\n<li>Download the release file</li>\n<li>Extract it directly into your SPT installation folder</li>\n<li>Start the game and edit config.json as needed</li>\n<li>Restart server after config changes</li>\n</ol>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2650/holster-everything/1.1.0",
+      "content_length": 24902,
+      "spt_version_constraint": "~4.0.13",
+      "downloads": 449,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-04-02T20:36:00.000000Z",
+      "created_at": "2026-04-03T03:36:16.000000Z",
+      "updated_at": "2026-07-28T08:18:17.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13342,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>First release</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2650/holster-everything/1.0.0",
+      "content_length": 16804,
+      "spt_version_constraint": "~4.0.13",
+      "downloads": 309,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-04-01T03:55:00.000000Z",
+      "created_at": "2026-04-01T10:55:27.000000Z",
+      "updated_at": "2026-07-28T08:17:14.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2650/HolsterEverything-v1.3.1.7z",
+    "bytes_written": 37202,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1198327510/ac196c49-2d4c-41b5-9894-bc9f25a841ee?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T11%3A17%3A34Z&rscd=attachment%3B+filename%3DHolsterEverything-v1.3.1.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T10%3A16%3A54Z&ske=2026-08-10T11%3A17%3A34Z&sks=b&skv=2018-11-09&sig=0XpsOl3038FQd56EdgfAIauBNv8wT9Jq0atltBaeeeg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NzMyMSwibmJmIjoxNzg2MzU3MDIxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.XNZRd04v8VH4tSZCorwY5AG0c_ceylAZ6CeHbDPtC6A&response-content-disposition=attachment%3B%20filename%3DHolsterEverything-v1.3.1.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.3.1",
+    "same_as_primary_download": true
+  }
+}

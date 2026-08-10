@@ -1,0 +1,134 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2874,
+      "hub_id": null,
+      "guid": "com.hysocs.adaptivebotculling",
+      "name": "Adaptive Bot Culling",
+      "slug": "adaptive-bot-culling",
+      "teaser": "Integrates AI brain and animation pausing into EFT’s native asset-culling system, reducing CPU usage when bots are occluded.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/U69LKHdaWZAKIa1emEfDp71yNMvUI0mNwVFz5CuS.png",
+      "downloads": 2481,
+      "favourites_count": 16,
+      "description": "<h1>Adaptive Bot Culling — AI &amp; Animation Optimizer</h1>\n<hr />\n<p>This mod began with an investigation into SPT’s CPU bottlenecks. Using ILSpy, I decompiled and traced EFT’s more raw managed assemblies, gradually disabling parts of the AI, animation, and asset-processing systems to measure their impact. Removing active bots eliminated most of the CPU bottleneck, which led me to discover that distant and occluded bots continued running their AI brains, bone updates, and body animations at full capacity.</p>\n<blockquote>\n<p>Let me know in the comments the performance gains you get</p>\n</blockquote>\n<p>Adaptive Bot Culling extends EFT’s existing culling system to pause this unnecessary processing when bots are hidden or occluded. This can provide meaningful performance improvements, especially on larger maps where many bots are spread across distant or obstructed areas.</p>\n<blockquote>\n<p><strong>Warning:</strong> These gains come at the cost of some immersion and normal AI behavior. Culled bots may stop roaming, reacting, or fighting other AI until you move close enough for them to become active again.</p>\n</blockquote>\n<blockquote>\n<p>Compatibility Notice: This mod has only been tested with SPT’s default AI. Mods that modify AI behavior may conflict with it or behave unexpectedly.</p>\n</blockquote>\n<blockquote>\n<p>Performance Notice: Results will vary significantly depending on your hardware, map, bot count, and whether your game is CPU-limited. On my CPU-bottlenecked system, performance increased from approximately 40–55 FPS to 70–90 FPS. Systems limited by the GPU, or situations where most bots remain visible and active, may experience smaller gains or none at all.</p>\n</blockquote>\n<h2>Usage</h2>\n<hr />\n<p>Use the F12 menu to turn it on and off</p>\n<hr />\n<p>Performance gains depend on the situation. The mod provides little or no benefit when every bot is visible or otherwise not being culled. Generally, the larger the map and the more separated its bot population, the greater the potential improvement.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2874/adaptive-bot-culling",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>AI was used as a development aid to inspect decompiled DLLs, identify relevant classes and methods, and assist with portions of the GUI and configuration system. Every feature was individually coded/designed, reviewed, and manually tested in-game to ensure it worked as intended and to the performance standards i hold myself to.</p>\n",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2026-08-02T00:15:00.000000Z",
+      "created_at": "2026-08-02T00:05:49.000000Z",
+      "updated_at": "2026-08-03T06:02:26.000000Z",
+      "owner": {
+        "id": 118937,
+        "name": "Hysocs",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/nzRNNHJ0dChzp4dd20Hbhv4q1JkTkMiLNAjIdSbJ_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/lAHgRO7c2a5ET6Cu2bCjFOI2s7dt8SukoSsjUgaC_1280w.webp",
+        "created_at": "2026-07-27T18:19:13.000000Z",
+        "updated_at": "2026-08-10T09:38:29.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14398,
+          "hub_id": null,
+          "version": "1.1.0",
+          "description": "### Version 1.1.0\n\n- Reworked bot detection to use Tarkov’s native `Player.IsVisible` culling state.\n- Removed supplemental visibility raycasts and repeated visibility polling.\n- Added a 1.5-second delay before suppressing newly hidden bots to prevent rapid switching.\n- Paused looping bot AudioSources while culled and safely resumed them afterward.\n- Preserved essential movement and steering updates needed for safe state handling.\n- Added safeguards so death poses and corpse creation complete correctly.\n\nThis is for 4.1.0, 4.1.1+, this version wont work on previous versions\n\n\n\n### Adaptive Bot Culling 1.1.0 — Performance Results\n\nTest system: i9-9900K, RTX 3060, 32 GB RAM, Windows 11, SPT 4.1.1.\n\nTest 1 — 21 bots, 17 culled  \nMod disabled: 38.04 FPS  \nMod enabled: 61.24 FPS  \nGain: +60.99%\n\nTest 2 — 10 bots, 8 culled  \nMod disabled: 61.76 FPS  \nMod enabled: 85.13 FPS  \nGain: +37.84%\n\nTest 3 — 10 bots, 10 culled  \nMod disabled: 61.47 FPS  \nMod enabled: 101.61 FPS  \nGain: +65.30%\n\nTest 4 — 10 bots, 10 culled  \nMod disabled: 59.71 FPS  \nMod enabled: 84.08 FPS  \nGain: +40.81%\n\nTest 5 — 11 bots, 8 culled  \nMod disabled: 53.62 FPS  \nMod enabled: 73.29 FPS  \nGain: +36.68%\n\nTest 6 — 53 bots, 42 culled  \nMod disabled: 25.97 FPS  \nMod enabled: 43.14 FPS  \nGain: +66.11%\n\n### Overall results\n\nAverage FPS: 50.10 → 74.75 (+49.21%)  \nEMA FPS: 45.00 → 67.57 (+50.18%)\n\nAverage 1% low: 35.21 → 50.23 (+42.67%)  \nEMA 1% low: 31.58 → 44.95 (+42.30%)\n\nPerformance gains depend on how many bots Tarkov considers culled. Results will vary by raid, location, bot count and visibility.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2874/adaptive-bot-culling/1.1.0",
+          "content_length": 13897,
+          "spt_version_constraint": "~4.1.0 ",
+          "downloads": 1884,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-03T00:51:00.000000Z",
+          "created_at": "2026-08-03T00:54:15.000000Z",
+          "updated_at": "2026-08-03T06:02:26.000000Z"
+        },
+        {
+          "id": 14363,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Release\n\nThis is for 4.1.0 only, previous versions wont work. \nif the community is slow to update to 4.1.0 i will make a new version backwards compatible",
+          "link": "https://forge.sp-tarkov.com/mod/download/2874/adaptive-bot-culling/1.0.0",
+          "content_length": 8924,
+          "spt_version_constraint": "~4.1.0 ",
+          "downloads": 597,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-02T00:10:00.000000Z",
+          "created_at": "2026-08-02T00:15:41.000000Z",
+          "updated_at": "2026-08-02T13:52:52.000000Z"
+        }
+      ],
+      "license": {
+        "id": 10,
+        "hub_id": 13,
+        "name": "Apache License 2.0",
+        "link": "https://choosealicense.com/licenses/apache-2.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Hysocs/AdaptiveBotCulling-spt",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14398,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<h3>Version 1.1.0</h3>\n<ul>\n<li>Reworked bot detection to use Tarkov’s native <code>Player.IsVisible</code> culling state.</li>\n<li>Removed supplemental visibility raycasts and repeated visibility polling.</li>\n<li>Added a 1.5-second delay before suppressing newly hidden bots to prevent rapid switching.</li>\n<li>Paused looping bot AudioSources while culled and safely resumed them afterward.</li>\n<li>Preserved essential movement and steering updates needed for safe state handling.</li>\n<li>Added safeguards so death poses and corpse creation complete correctly.</li>\n</ul>\n<p>This is for 4.1.0, 4.1.1+, this version wont work on previous versions</p>\n<h3>Adaptive Bot Culling 1.1.0 — Performance Results</h3>\n<p>Test system: i9-9900K, RTX 3060, 32 GB RAM, Windows 11, SPT 4.1.1.</p>\n<p>Test 1 — 21 bots, 17 culled<br />\nMod disabled: 38.04 FPS<br />\nMod enabled: 61.24 FPS<br />\nGain: +60.99%</p>\n<p>Test 2 — 10 bots, 8 culled<br />\nMod disabled: 61.76 FPS<br />\nMod enabled: 85.13 FPS<br />\nGain: +37.84%</p>\n<p>Test 3 — 10 bots, 10 culled<br />\nMod disabled: 61.47 FPS<br />\nMod enabled: 101.61 FPS<br />\nGain: +65.30%</p>\n<p>Test 4 — 10 bots, 10 culled<br />\nMod disabled: 59.71 FPS<br />\nMod enabled: 84.08 FPS<br />\nGain: +40.81%</p>\n<p>Test 5 — 11 bots, 8 culled<br />\nMod disabled: 53.62 FPS<br />\nMod enabled: 73.29 FPS<br />\nGain: +36.68%</p>\n<p>Test 6 — 53 bots, 42 culled<br />\nMod disabled: 25.97 FPS<br />\nMod enabled: 43.14 FPS<br />\nGain: +66.11%</p>\n<h3>Overall results</h3>\n<p>Average FPS: 50.10 → 74.75 (+49.21%)<br />\nEMA FPS: 45.00 → 67.57 (+50.18%)</p>\n<p>Average 1% low: 35.21 → 50.23 (+42.67%)<br />\nEMA 1% low: 31.58 → 44.95 (+42.30%)</p>\n<p>Performance gains depend on how many bots Tarkov considers culled. Results will vary by raid, location, bot count and visibility.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2874/adaptive-bot-culling/1.1.0",
+      "content_length": 13897,
+      "spt_version_constraint": "~4.1.0 ",
+      "downloads": 1884,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-03T00:51:00.000000Z",
+      "created_at": "2026-08-03T00:54:15.000000Z",
+      "updated_at": "2026-08-03T06:02:26.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14363,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Release</p>\n<p>This is for 4.1.0 only, previous versions wont work.\nif the community is slow to update to 4.1.0 i will make a new version backwards compatible</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2874/adaptive-bot-culling/1.0.0",
+      "content_length": 8924,
+      "spt_version_constraint": "~4.1.0 ",
+      "downloads": 597,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-02T00:10:00.000000Z",
+      "created_at": "2026-08-02T00:15:41.000000Z",
+      "updated_at": "2026-08-02T13:52:52.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2874/AdaptiveBotCulling-1.1.0.zip",
+    "bytes_written": 13897,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1319688373/2cd1ad2d-6bd3-4a48-9edb-8eb098683dd3?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A21%3A57Z&rscd=attachment%3B+filename%3DAdaptiveBotCulling-1.1.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A21%3A15Z&ske=2026-08-10T10%3A21%3A57Z&sks=b&skv=2018-11-09&sig=dyY68%2BkYYC43tVV4oL9vazuzp8lpgygTrIo4esbC%2BfY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTIxMiwibmJmIjoxNzg2MzU0OTEyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.qu3J1g16wJU7gh-7vBdQ85JNYi0V4odaNErjxBCOQqs&response-content-disposition=attachment%3B%20filename%3DAdaptiveBotCulling-1.1.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": false
+  }
+}

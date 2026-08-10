@@ -1,0 +1,1769 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2843,
+      "hub_id": null,
+      "guid": "com.vultify.blackout",
+      "name": "Blackout",
+      "slug": "blackout",
+      "teaser": "Recreates the live EFT Blackout event on Labs. The power dies, the facility goes dark. Real darkness, extract lockdown, keypad code doors.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/TUbFUbxJ2fMDesjdhv96XyJvUvXlGEoLpy4tF64F.png",
+      "downloads": 12098,
+      "favourites_count": 56,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Description</div>\n<div class=\"tab-content\"><p>Recreates the live EFT “Blackout” event on Labs. Seconds into the raid the generators die, the lights go out, and you run the facility on emergency power while the Wedge and his Black Division hold the floors.</p>\n<p>Configure event roll chance in the config.json</p>\n<h3>The blackout</h3>\n<ul>\n<li>Darkness Done in my own image. BSGs version and settings for darkness were unobtainable (by me at least)</li>\n<li>The live event’s power-cut sound and intercom announcement through the map’s own PA speakers</li>\n<li>Amber emergency floods at the real event positions, keycard LEDs stay lit like live keeps them</li>\n<li>Extract lockdown: only the two gates are live, and one press of the Arsenal Storage Room switch opens both</li>\n<li>Keycard doors take a fresh 4-digit code each raid instead of swipes, written on the admin office whiteboard in the event’s own marker digits</li>\n</ul></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Recommended</div>\n<div class=\"tab-content\"><p>-WTT Black Divsion: Set <code>LabsStartchance</code> to 100 and <code>LabsGateChance</code> to 100</p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Install Instructions</div>\n<div class=\"tab-content\"><ol>\n<li>Extract the archive</li>\n<li>Drop the <code>BepInEx</code> and <code>SPT</code> folders into your SPT root directory</li>\n<li>Requires WTT-CommonLib, WTT-ContentBackport, and MoreBotsAPI (client + server halves). SAIN recommended.</li>\n<li>Load into Labs</li>\n</ol></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">Known Limitations / Bugs</div>\n<div class=\"tab-content\"><ul>\n<li>Some issues with fika headless maybe. Test it out of if there’s issues then report them to my discord thread.</li>\n</ul></div></div>\n<div id=\"tabset-1-panel-5\" class=\"tab-panel\"><div class=\"tab-title\">Support</div>\n<div class=\"tab-content\"><p>Found a bug or have a question? Leave a comment here, or reach out in my thread on the SPT Discord: <a target=\"_blank\" class=\"external-link\" href=\"https://discord.com/channels/875684761291599922/1521972310595338260\" rel=\"noreferrer noopener\">https://discord.com/channels/875684761291599922/1521972310595338260</a></p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2843/blackout",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>Ai was used to make the mod picture.</p>\n",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 8,
+      "published_at": "2026-07-25T06:36:00.000000Z",
+      "created_at": "2026-07-25T06:26:57.000000Z",
+      "updated_at": "2026-08-09T06:02:27.000000Z",
+      "owner": {
+        "id": 52241,
+        "name": "Vultify",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/4457233962ecb2b7d1e522ec0ad81c03210096ee_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-05-20T01:39:49.000000Z",
+        "updated_at": "2026-08-10T06:50:11.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14573,
+          "hub_id": null,
+          "version": "4.0.0",
+          "description": "## Blackout 4.0.0 — the SPT 4.1 release\n\nSame event, now on **SPT 4.1.x**. On 4.0.13? Stay on **3.1.1** - this version will not run there.\n\n**Requires WTT-CommonLib 3.0.0 or newer** \n\n### Changed\n\n- Rebuilt the Light cutting from the ground up, should be a little closer to live than it was before.\n\n**Install:** extract the zip into your SPT root. Client lands in `BepInEx/plugins/Blackout/`, server in `SPT_Runtime/user/mods/Blackout/`.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/4.0.0",
+          "content_length": 6088057,
+          "spt_version_constraint": "4.1.0",
+          "downloads": 1302,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-09T00:43:00.000000Z",
+          "created_at": "2026-08-09T00:46:14.000000Z",
+          "updated_at": "2026-08-09T06:02:27.000000Z"
+        },
+        {
+          "id": 14509,
+          "hub_id": null,
+          "version": "3.1.1",
+          "description": "For SPT **4.0.13** LAST last update before 4.1.x\n\n## Fixed\n\n-Fika Headless: raid lights cut properly now \n\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/3.1.1",
+          "content_length": 6086487,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 1378,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-07T03:21:00.000000Z",
+          "created_at": "2026-08-07T03:27:12.000000Z",
+          "updated_at": "2026-08-07T06:02:14.000000Z"
+        },
+        {
+          "id": 14490,
+          "hub_id": null,
+          "version": "3.1.0",
+          "description": "For SPT **4.0.13**. This is the final version for 4.0.x\n\n## Changed\n\n**The Fika addon is now part of this download.** `BlackoutFika.dll` sits in `BepInEx/plugins/Blackout/` and Blackout loads it itself once it sees Fika installed. \n\n**delete** `BepInEx/plugins/BlackoutFika/BlackoutFika.dll`\n\n\n**The event key is now the Admin's Key** (short name \"Admin\"). The old name was wrong. Same key, same item, same single use — only the name and description changed, so anything already sitting in your stash still works.\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/3.1.0",
+          "content_length": 6086402,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 753,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-06T00:06:00.000000Z",
+          "created_at": "2026-08-06T00:11:17.000000Z",
+          "updated_at": "2026-08-06T06:02:14.000000Z"
+        },
+        {
+          "id": 14387,
+          "hub_id": null,
+          "version": "3.0.0",
+          "description": "**Still SPT 4.0.13.** This is not the 4.1 port — it removes the Wedge so Blackout stops colliding with WTT's Black Division mod, which added him recently. \n\n## Delete the old version before installing\n\n- `SPT/user/mods/Blackout/`\n- `BepInEx/plugins/Blackout/` (`Blackout.dll` and `blackout_sounds.bundle`)\n- `BepInEx/patchers/BlackoutPrepatch.dll`\n\n\n### Removed\n- **The Wedge and his Black Division guards.** Black Division adds the Wedge/followers itself now. Install Black Division alongside Blackout if you want him holding the floors — the event works with or without it.\n- **Two dependencies, with them.** WTT-ContentBackport and MoreBotsAPI were only ever there for Wedge's gear and his bot type. Neither is required now. The prepatcher is gone too, so there is nothing to install in `BepInEx/patchers/` any more.\n\n### Changed\n- The **arsenal storage room key** now spawns on the map instead of being carried by the Wedge. finding where it spawns is up to you :D\n- Raid setup polls four times a second instead of running every frame — the old path ran two `GameObject.Find` calls plus a reflection walk every frame for the whole Labs load.\n\n### Install\nExtract into your SPT root folder. It contains `BepInEx` and `SPT` folders.\n\nYour `config.json` is untouched by the update and keeps your `blackoutChance`.\n\nWTT-ContentBackport and MoreBotsAPI can be uninstalled if nothing else on your setup uses them — Blackout no longer touches either.\n\n### Fika\nThe **Blackout Fika addon is unaffected** — no update needed. Co-op raids sync exactly as before; the addon only ever talked to the lights, the admin switch and the keycard doors, none of which changed.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/3.0.0",
+          "content_length": 6079220,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 1655,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-02T16:56:00.000000Z",
+          "created_at": "2026-08-02T17:01:37.000000Z",
+          "updated_at": "2026-08-03T03:10:25.000000Z"
+        },
+        {
+          "id": 14289,
+          "hub_id": null,
+          "version": "2.1.1",
+          "description": "## Fixed\n\n**The server room racks no longer disappear when the lights cut.** Labs' light scene holds solid props as well as light fixtures.\n\n## Changed\n\n`blackoutChance` is re-read before every roll instead of only when the server starts, so editing `config.json` no longer needs a server restart. One thing to know about the timing: the roll for your next raid is made when your current one ends, so an edit while you are in a raid applies to the very next one, and an edit made in the menu applies to the one after that.\n\n## Install\n\nExtract and drop the `BepInEx` and `SPT` folders into your SPT root. The archive layout has not changed, so install straight over the top of 2.1.0 without deleting anything first.\n\n## Co-op\n\nThe **Blackout Fika** addon is unchanged and does not need updating. It requires Blackout 2.1.0 or newer, so 2.1.1 covers it.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/2.1.1",
+          "content_length": 6142596,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 2280,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-30T00:29:00.000000Z",
+          "created_at": "2026-07-30T00:31:04.000000Z",
+          "updated_at": "2026-07-30T06:02:05.000000Z"
+        },
+        {
+          "id": 14279,
+          "hub_id": null,
+          "version": "2.1.0",
+          "description": "## Fika co-op support\n\nBlackout now runs the same for everyone in a Fika raid. The lights cut for the whole group at once, the admin office switch opens the gates for every player instead of only the one who pulled it, and a keycard door someone else opens with the emergency code is open for you too.\n\n### Which downloads do I need?\n\n**Playing with Fika:** this version **plus** the separate **Blackout Fika** addon, under the Addons tab on this page. Both are needed. The addon is a single file and there is nothing to configure. It requires Blackout 2.1.0 or newer, so update the mod first.\n\n**Playing solo:** just this version, and you are done. Everything above sits inactive without the addon, so nothing about your raids changes. It is worth updating anyway, since it is what makes co-op possible if you ever want to run the event with friends later.\n\n## Also in this version\n\n- The emergency code is rolled by the server instead of by each player, so everyone in a raid reads the same four digits off the same whiteboard\n- The server log is down to two lines instead of six. A clean start is quiet now, and each raid gets one line saying whether it rolled a blackout\n- The F12 menu is gone. `blackoutChance` in `config.json` already did the same job, and setting it to 0 switches the event off entirely\n\n## Install\n\nExtract and drop the `BepInEx` and `SPT` folders into your SPT root. The archive layout has not changed since 2.0.0, so you can install straight over the top without deleting anything first.\n\n## Requirements\n\n- SPT 4.0.x\n- WTT-CommonLib 2.0.22 or newer, both halves\n- WTT-ContentBackport 1.1.0 or newer, both halves\n- MoreBotsAPI, both halves\n- Fika only if you want co-op, and only with the addon",
+          "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/2.1.0",
+          "content_length": 6142535,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 1009,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-28T23:39:00.000000Z",
+          "created_at": "2026-07-28T23:31:32.000000Z",
+          "updated_at": "2026-07-29T06:02:13.000000Z"
+        },
+        {
+          "id": 14227,
+          "hub_id": null,
+          "version": "2.0.0",
+          "description": "## Dependencies changed\n- **WTT-ContentBackport 1.1.0 or newer** (both halves, server and client)\n- **WTT-CommonLib 2.0.22 or newer** (both halves)\n\nContent Backport 1.1.0 backported the same live items Blackout was shipping: the MP7 ARS adapter and FX-KPOS stock, the SF3P flash hider, the ComTac VI, the EXFIL helmets and the Wedge cover, the LV-119, and Wedge's face, clothing and voicelines. Two mods adding the same things meant duplicate items in the handbook and a stack of errors on every server start. Blackout now points at theirs, so there is one copy of everything and it stays in sync with whatever they ship.\n\n## Removed\n- Every asset bundle. The download went from about 61 MB to under 6 MB\n- Wedge's gear items, his clothing, his head and his voice, all of which Content Backport provides now\n- The custom black Team Wendy helmet that only existed to hold the helmet cover. Content Backport adds the cover slot to the normal black one, so it earns its keep no more\n\n## Updating from 1.1.0 or older\n**Delete both of these folders before you extract:**\n- `BepInEx/plugins/Blackout`\n- `SPT/user/mods/Blackout`\n\nThen drop the `BepInEx` and `SPT` folders into your SPT root as usual.\n\nThis matters more than it normally would. 2.0.0 ships no bundles at all, so installing over the top leaves roughly 60 MB of old bundle files behind, and those now fight with Content Backport's copies of the same assets. Deleting first is the whole fix.\n\nFresh installs can ignore all of that and just extract.\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/2.0.0",
+          "content_length": 6142661,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 2420,
+          "fika_compatibility": "incompatible",
+          "published_at": "2026-07-25T22:36:00.000000Z",
+          "created_at": "2026-07-25T22:37:05.000000Z",
+          "updated_at": "2026-07-28T06:02:08.000000Z"
+        },
+        {
+          "id": 14225,
+          "hub_id": null,
+          "version": "1.1.0",
+          "description": "## Added\n- The blackout is a per raid roll now instead of firing on every Labs run, so you never know which one goes dark until the lights cut. 25% by default. Set `blackoutChance` in `SPT/user/mods/Blackout/config.json` to change it, or put it to 100 if you want the old behaviour back\n\n## Changed\n- The LV-119's soft armor inserts are built in and can no longer be left out, the same as every other armor in the game\n\n## Fixed\n- The Wedge's armor was spawning with their plates but no soft armor, so he was taking full damage anywhere the plates didn't cover. He gets his inserts now\n- The vehicles at the hangar and parking gates were disappearing the moment the lights went out, collision and all, so you could walk straight through where a car was parked. They stay put now, and they still stop bullets\n\n## Updating\nExtract and drop the `BepInEx` and `SPT` folders into your SPT root, straight over the top of 1.0.0. Nothing was renamed or moved, so there is nothing to delete first. The only new file is `config.json`.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/1.1.0",
+          "content_length": 63806249,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 322,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-07-25T20:35:00.000000Z",
+          "created_at": "2026-07-25T20:36:03.000000Z",
+          "updated_at": "2026-07-28T06:02:08.000000Z"
+        },
+        {
+          "id": 14218,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "-Initial Release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/1.0.0",
+          "content_length": 63804273,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 979,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-07-25T06:35:00.000000Z",
+          "created_at": "2026-07-25T06:35:17.000000Z",
+          "updated_at": "2026-07-28T06:02:08.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 8,
+        "hub_id": 25,
+        "title": "Locations",
+        "slug": "locations",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Vultify/Blackout",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14573,
+      "hub_id": null,
+      "version": "4.0.0",
+      "description": "<h2>Blackout 4.0.0 — the SPT 4.1 release</h2>\n<p>Same event, now on <strong>SPT 4.1.x</strong>. On 4.0.13? Stay on <strong>3.1.1</strong> - this version will not run there.</p>\n<p><strong>Requires WTT-CommonLib 3.0.0 or newer</strong></p>\n<h3>Changed</h3>\n<ul>\n<li>Rebuilt the Light cutting from the ground up, should be a little closer to live than it was before.</li>\n</ul>\n<p><strong>Install:</strong> extract the zip into your SPT root. Client lands in <code>BepInEx/plugins/Blackout/</code>, server in <code>SPT_Runtime/user/mods/Blackout/</code>.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/4.0.0",
+      "content_length": 6088057,
+      "spt_version_constraint": "4.1.0",
+      "downloads": 1302,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-09T00:43:00.000000Z",
+      "created_at": "2026-08-09T00:46:14.000000Z",
+      "updated_at": "2026-08-09T06:02:27.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338295,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14228,
+              "hub_id": null,
+              "version": "2.0.23",
+              "description": "<p>reduced the error logging to be behind config.\nMODDERS THAT USE COMMONLIB - ENABLE ITEM DEBUGGING IN THE CONFIG AND FIX YOUR SHIT</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.23",
+              "content_length": 245746,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 25424,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-26T04:25:00.000000Z",
+              "created_at": "2026-07-26T04:26:24.000000Z",
+              "updated_at": "2026-07-28T18:02:31.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 14509,
+      "hub_id": null,
+      "version": "3.1.1",
+      "description": "<p>For SPT <strong>4.0.13</strong> LAST last update before 4.1.x</p>\n<h2>Fixed</h2>\n<p>-Fika Headless: raid lights cut properly now</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/3.1.1",
+      "content_length": 6086487,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 1378,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-07T03:21:00.000000Z",
+      "created_at": "2026-08-07T03:27:12.000000Z",
+      "updated_at": "2026-08-07T06:02:14.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338295,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14228,
+              "hub_id": null,
+              "version": "2.0.23",
+              "description": "<p>reduced the error logging to be behind config.\nMODDERS THAT USE COMMONLIB - ENABLE ITEM DEBUGGING IN THE CONFIG AND FIX YOUR SHIT</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.23",
+              "content_length": 245746,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 25424,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-26T04:25:00.000000Z",
+              "created_at": "2026-07-26T04:26:24.000000Z",
+              "updated_at": "2026-07-28T18:02:31.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 14490,
+      "hub_id": null,
+      "version": "3.1.0",
+      "description": "<p>For SPT <strong>4.0.13</strong>. This is the final version for 4.0.x</p>\n<h2>Changed</h2>\n<p><strong>The Fika addon is now part of this download.</strong> <code>BlackoutFika.dll</code> sits in <code>BepInEx/plugins/Blackout/</code> and Blackout loads it itself once it sees Fika installed.</p>\n<p><strong>delete</strong> <code>BepInEx/plugins/BlackoutFika/BlackoutFika.dll</code></p>\n<p><strong>The event key is now the Admin’s Key</strong> (short name “Admin”). The old name was wrong. Same key, same item, same single use — only the name and description changed, so anything already sitting in your stash still works.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/3.1.0",
+      "content_length": 6086402,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 753,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-06T00:06:00.000000Z",
+      "created_at": "2026-08-06T00:11:17.000000Z",
+      "updated_at": "2026-08-06T06:02:14.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338295,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14228,
+              "hub_id": null,
+              "version": "2.0.23",
+              "description": "<p>reduced the error logging to be behind config.\nMODDERS THAT USE COMMONLIB - ENABLE ITEM DEBUGGING IN THE CONFIG AND FIX YOUR SHIT</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.23",
+              "content_length": 245746,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 25424,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-26T04:25:00.000000Z",
+              "created_at": "2026-07-26T04:26:24.000000Z",
+              "updated_at": "2026-07-28T18:02:31.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 14387,
+      "hub_id": null,
+      "version": "3.0.0",
+      "description": "<p><strong>Still SPT 4.0.13.</strong> This is not the 4.1 port — it removes the Wedge so Blackout stops colliding with WTT’s Black Division mod, which added him recently.</p>\n<h2>Delete the old version before installing</h2>\n<ul>\n<li><code>SPT/user/mods/Blackout/</code></li>\n<li><code>BepInEx/plugins/Blackout/</code> (<code>Blackout.dll</code> and <code>blackout_sounds.bundle</code>)</li>\n<li><code>BepInEx/patchers/BlackoutPrepatch.dll</code></li>\n</ul>\n<h3>Removed</h3>\n<ul>\n<li><strong>The Wedge and his Black Division guards.</strong> Black Division adds the Wedge/followers itself now. Install Black Division alongside Blackout if you want him holding the floors — the event works with or without it.</li>\n<li><strong>Two dependencies, with them.</strong> WTT-ContentBackport and MoreBotsAPI were only ever there for Wedge’s gear and his bot type. Neither is required now. The prepatcher is gone too, so there is nothing to install in <code>BepInEx/patchers/</code> any more.</li>\n</ul>\n<h3>Changed</h3>\n<ul>\n<li>The <strong>arsenal storage room key</strong> now spawns on the map instead of being carried by the Wedge. finding where it spawns is up to you :D</li>\n<li>Raid setup polls four times a second instead of running every frame — the old path ran two <code>GameObject.Find</code> calls plus a reflection walk every frame for the whole Labs load.</li>\n</ul>\n<h3>Install</h3>\n<p>Extract into your SPT root folder. It contains <code>BepInEx</code> and <code>SPT</code> folders.</p>\n<p>Your <code>config.json</code> is untouched by the update and keeps your <code>blackoutChance</code>.</p>\n<p>WTT-ContentBackport and MoreBotsAPI can be uninstalled if nothing else on your setup uses them — Blackout no longer touches either.</p>\n<h3>Fika</h3>\n<p>The <strong>Blackout Fika addon is unaffected</strong> — no update needed. Co-op raids sync exactly as before; the addon only ever talked to the lights, the admin switch and the keycard doors, none of which changed.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/3.0.0",
+      "content_length": 6079220,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 1655,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-02T16:56:00.000000Z",
+      "created_at": "2026-08-02T17:01:37.000000Z",
+      "updated_at": "2026-08-03T03:10:25.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338295,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14228,
+              "hub_id": null,
+              "version": "2.0.23",
+              "description": "<p>reduced the error logging to be behind config.\nMODDERS THAT USE COMMONLIB - ENABLE ITEM DEBUGGING IN THE CONFIG AND FIX YOUR SHIT</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.23",
+              "content_length": 245746,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 25424,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-26T04:25:00.000000Z",
+              "created_at": "2026-07-26T04:26:24.000000Z",
+              "updated_at": "2026-07-28T18:02:31.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 14289,
+      "hub_id": null,
+      "version": "2.1.1",
+      "description": "<h2>Fixed</h2>\n<p><strong>The server room racks no longer disappear when the lights cut.</strong> Labs’ light scene holds solid props as well as light fixtures.</p>\n<h2>Changed</h2>\n<p><code>blackoutChance</code> is re-read before every roll instead of only when the server starts, so editing <code>config.json</code> no longer needs a server restart. One thing to know about the timing: the roll for your next raid is made when your current one ends, so an edit while you are in a raid applies to the very next one, and an edit made in the menu applies to the one after that.</p>\n<h2>Install</h2>\n<p>Extract and drop the <code>BepInEx</code> and <code>SPT</code> folders into your SPT root. The archive layout has not changed, so install straight over the top of 2.1.0 without deleting anything first.</p>\n<h2>Co-op</h2>\n<p>The <strong>Blackout Fika</strong> addon is unchanged and does not need updating. It requires Blackout 2.1.0 or newer, so 2.1.1 covers it.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/2.1.1",
+      "content_length": 6142596,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 2280,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-30T00:29:00.000000Z",
+      "created_at": "2026-07-30T00:31:04.000000Z",
+      "updated_at": "2026-07-30T06:02:05.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338295,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14222,
+              "hub_id": null,
+              "version": "2.0.22",
+              "description": "<ul>\n<li>FINALLY fixed salvage zones :prayge:</li>\n<li>salvage zone UI update + icon!</li>\n<li>add random craft result amount options</li>\n<li>initialized buyrestrictioncurrent for traderhelper barters (ty for the detailed bug report!)</li>\n<li>added client handling for random craft amounts</li>\n<li>added better validation warnings and a config for validation logging</li>\n<li>added fixplugintypesserialization patcher (thank you tarkin ❤️)</li>\n<li>added new quest service for making quest items</li>\n<li>removed dependency on spt customitemservice</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.22",
+              "content_length": 245907,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 2925,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-25T17:47:00.000000Z",
+              "created_at": "2026-07-25T17:47:29.000000Z",
+              "updated_at": "2026-07-28T09:55:31.000000Z"
+            },
+            {
+              "id": 14228,
+              "hub_id": null,
+              "version": "2.0.23",
+              "description": "<p>reduced the error logging to be behind config.\nMODDERS THAT USE COMMONLIB - ENABLE ITEM DEBUGGING IN THE CONFIG AND FIX YOUR SHIT</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.23",
+              "content_length": 245746,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 25424,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-26T04:25:00.000000Z",
+              "created_at": "2026-07-26T04:26:24.000000Z",
+              "updated_at": "2026-07-28T18:02:31.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        },
+        {
+          "id": 2426,
+          "hub_id": null,
+          "guid": "com.morebotsapi.tacticaltoaster",
+          "name": "MoreBotsAPI",
+          "slug": "morebotsapi",
+          "teaser": "API for making the implementation of custom bots easier",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/6Wb2mnMw9FZ5UICdern1nYkwGy7oyIWTtAouIN97.png",
+          "downloads": 90367,
+          "favourites_count": 271,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2426/morebotsapi",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2025-11-06T06:48:00.000000Z",
+          "created_at": "2025-11-06T06:36:01.000000Z",
+          "updated_at": "2026-08-01T17:03:13.000000Z",
+          "owner": {
+            "id": 7768,
+            "name": "TacticalToaster",
+            "profile_photo_url": "https://ui-avatars.com/api/?name=T&color=7F9CF5&background=EBF4FF",
+            "cover_photo_url": null,
+            "created_at": "2021-08-11T22:12:09.000000Z",
+            "updated_at": "2026-08-09T04:48:09.000000Z"
+          },
+          "additional_authors": [],
+          "versions": [
+            {
+              "id": 13531,
+              "hub_id": null,
+              "version": "2.0.1",
+              "description": "<p>Removed excessive client logging caused by hunt behaviors</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2426/morebotsapi/2.0.1",
+              "content_length": 44942,
+              "spt_version_constraint": "~4.0.0",
+              "downloads": 46918,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-05-01T22:44:00.000000Z",
+              "created_at": "2026-05-01T22:45:17.000000Z",
+              "updated_at": "2026-08-01T17:03:12.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        },
+        {
+          "id": 2512,
+          "hub_id": null,
+          "guid": "com.wtt.contentbackport",
+          "name": "WTT - Content Backport",
+          "slug": "wtt-content-backport",
+          "teaser": "The moment you've all been waiting for....",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/55TZW6CnHJHPtEYdFvuJWmHazdFuhlCiMLfsbagQ.jpg",
+          "downloads": 380559,
+          "favourites_count": 500,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2512/wtt-content-backport",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 2,
+          "published_at": "2025-12-26T03:52:00.000000Z",
+          "created_at": "2025-12-26T03:52:16.000000Z",
+          "updated_at": "2026-08-03T06:02:25.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            },
+            {
+              "id": 36153,
+              "name": "EpicRangeTime",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/80209a4aec54836a03e10eeabd944d2668084215_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/e92f6113cef81fe9a7ad58950e63d8fb25468163_1280w.webp",
+              "created_at": "2023-08-26T03:19:00.000000Z",
+              "updated_at": "2026-08-09T19:17:01.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14223,
+              "hub_id": null,
+              "version": "1.1.0",
+              "description": "<p>MAJOR UPDATE - REQUIRES LATEST COMMONLIB 2.0.22</p>\n<ul>\n<li>added all missing items and clothing up to 7/25/2026 (NOTE: SOME THINGS WERE OMITTED LIKE NOTES, TAPES, RECORDER, ETC). If these items were omitted their bundles are still present if someone needs them for a personal project.</li>\n<li>tons of bug fixes, too many to count</li>\n<li>added patch to fence plate randomization to fix the weird logic (will be removed in 4.1)</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.1.0",
+              "content_length": 4134244480,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 10889,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-25T20:13:00.000000Z",
+              "created_at": "2026-07-25T20:13:43.000000Z",
+              "updated_at": "2026-07-28T09:55:27.000000Z"
+            },
+            {
+              "id": 14391,
+              "hub_id": null,
+              "version": "1.1.3",
+              "description": "<ul>\n<li>fixed airframe chops AGAIN</li>\n<li>fixed di optical fc1 sight mount</li>\n<li>removed wedge head from being available to players</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.1.3",
+              "content_length": 4147088902,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 16571,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-08-02T19:32:00.000000Z",
+              "created_at": "2026-08-02T19:32:03.000000Z",
+              "updated_at": "2026-08-03T06:02:25.000000Z"
+            },
+            {
+              "id": 14284,
+              "hub_id": null,
+              "version": "1.1.2",
+              "description": "<ul>\n<li>fixed airframe chops missing texture bundle</li>\n<li>blacklisted new keycards and keys from pmc loot/rewards</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.1.2",
+              "content_length": 4148941929,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 18125,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-29T14:33:00.000000Z",
+              "created_at": "2026-07-29T14:33:43.000000Z",
+              "updated_at": "2026-07-29T18:02:19.000000Z"
+            },
+            {
+              "id": 14277,
+              "hub_id": null,
+              "version": "1.1.1",
+              "description": "<ul>\n<li>fixed 30al/45al modslot issue</li>\n<li>fixed placeholder handbook ids in some item configs</li>\n<li>fixed comtac helmet headphone modslots</li>\n<li>fixed several helmet presets not being added</li>\n<li>added missing bundles for a few bundles</li>\n<li>added new streamer items to streamer case</li>\n<li>added new streamer items to container loot</li>\n<li>blacklisted more bad items</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.1.1",
+              "content_length": 4148165412,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 3920,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-28T22:25:00.000000Z",
+              "created_at": "2026-07-28T22:25:21.000000Z",
+              "updated_at": "2026-07-29T06:02:09.000000Z"
+            }
+          ],
+          "category": {
+            "id": 2,
+            "hub_id": 79,
+            "title": "Overhauls",
+            "slug": "overhauls",
+            "description": "Large-scale mod packs that overhaul many game systems. Typically combines both client-side and server-side mods into one package."
+          }
+        }
+      ]
+    },
+    {
+      "id": 14279,
+      "hub_id": null,
+      "version": "2.1.0",
+      "description": "<h2>Fika co-op support</h2>\n<p>Blackout now runs the same for everyone in a Fika raid. The lights cut for the whole group at once, the admin office switch opens the gates for every player instead of only the one who pulled it, and a keycard door someone else opens with the emergency code is open for you too.</p>\n<h3>Which downloads do I need?</h3>\n<p><strong>Playing with Fika:</strong> this version <strong>plus</strong> the separate <strong>Blackout Fika</strong> addon, under the Addons tab on this page. Both are needed. The addon is a single file and there is nothing to configure. It requires Blackout 2.1.0 or newer, so update the mod first.</p>\n<p><strong>Playing solo:</strong> just this version, and you are done. Everything above sits inactive without the addon, so nothing about your raids changes. It is worth updating anyway, since it is what makes co-op possible if you ever want to run the event with friends later.</p>\n<h2>Also in this version</h2>\n<ul>\n<li>The emergency code is rolled by the server instead of by each player, so everyone in a raid reads the same four digits off the same whiteboard</li>\n<li>The server log is down to two lines instead of six. A clean start is quiet now, and each raid gets one line saying whether it rolled a blackout</li>\n<li>The F12 menu is gone. <code>blackoutChance</code> in <code>config.json</code> already did the same job, and setting it to 0 switches the event off entirely</li>\n</ul>\n<h2>Install</h2>\n<p>Extract and drop the <code>BepInEx</code> and <code>SPT</code> folders into your SPT root. The archive layout has not changed since 2.0.0, so you can install straight over the top without deleting anything first.</p>\n<h2>Requirements</h2>\n<ul>\n<li>SPT 4.0.x</li>\n<li>WTT-CommonLib 2.0.22 or newer, both halves</li>\n<li>WTT-ContentBackport 1.1.0 or newer, both halves</li>\n<li>MoreBotsAPI, both halves</li>\n<li>Fika only if you want co-op, and only with the addon</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/2.1.0",
+      "content_length": 6142535,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 1009,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-28T23:39:00.000000Z",
+      "created_at": "2026-07-28T23:31:32.000000Z",
+      "updated_at": "2026-07-29T06:02:13.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338295,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14228,
+              "hub_id": null,
+              "version": "2.0.23",
+              "description": "<p>reduced the error logging to be behind config.\nMODDERS THAT USE COMMONLIB - ENABLE ITEM DEBUGGING IN THE CONFIG AND FIX YOUR SHIT</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.23",
+              "content_length": 245746,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 25424,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-26T04:25:00.000000Z",
+              "created_at": "2026-07-26T04:26:24.000000Z",
+              "updated_at": "2026-07-28T18:02:31.000000Z"
+            },
+            {
+              "id": 14222,
+              "hub_id": null,
+              "version": "2.0.22",
+              "description": "<ul>\n<li>FINALLY fixed salvage zones :prayge:</li>\n<li>salvage zone UI update + icon!</li>\n<li>add random craft result amount options</li>\n<li>initialized buyrestrictioncurrent for traderhelper barters (ty for the detailed bug report!)</li>\n<li>added client handling for random craft amounts</li>\n<li>added better validation warnings and a config for validation logging</li>\n<li>added fixplugintypesserialization patcher (thank you tarkin ❤️)</li>\n<li>added new quest service for making quest items</li>\n<li>removed dependency on spt customitemservice</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.22",
+              "content_length": 245907,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 2925,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-25T17:47:00.000000Z",
+              "created_at": "2026-07-25T17:47:29.000000Z",
+              "updated_at": "2026-07-28T09:55:31.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        },
+        {
+          "id": 2426,
+          "hub_id": null,
+          "guid": "com.morebotsapi.tacticaltoaster",
+          "name": "MoreBotsAPI",
+          "slug": "morebotsapi",
+          "teaser": "API for making the implementation of custom bots easier",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/6Wb2mnMw9FZ5UICdern1nYkwGy7oyIWTtAouIN97.png",
+          "downloads": 90367,
+          "favourites_count": 271,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2426/morebotsapi",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2025-11-06T06:48:00.000000Z",
+          "created_at": "2025-11-06T06:36:01.000000Z",
+          "updated_at": "2026-08-01T17:03:13.000000Z",
+          "owner": {
+            "id": 7768,
+            "name": "TacticalToaster",
+            "profile_photo_url": "https://ui-avatars.com/api/?name=T&color=7F9CF5&background=EBF4FF",
+            "cover_photo_url": null,
+            "created_at": "2021-08-11T22:12:09.000000Z",
+            "updated_at": "2026-08-09T04:48:09.000000Z"
+          },
+          "additional_authors": [],
+          "versions": [
+            {
+              "id": 13531,
+              "hub_id": null,
+              "version": "2.0.1",
+              "description": "<p>Removed excessive client logging caused by hunt behaviors</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2426/morebotsapi/2.0.1",
+              "content_length": 44942,
+              "spt_version_constraint": "~4.0.0",
+              "downloads": 46918,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-05-01T22:44:00.000000Z",
+              "created_at": "2026-05-01T22:45:17.000000Z",
+              "updated_at": "2026-08-01T17:03:12.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        },
+        {
+          "id": 2512,
+          "hub_id": null,
+          "guid": "com.wtt.contentbackport",
+          "name": "WTT - Content Backport",
+          "slug": "wtt-content-backport",
+          "teaser": "The moment you've all been waiting for....",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/55TZW6CnHJHPtEYdFvuJWmHazdFuhlCiMLfsbagQ.jpg",
+          "downloads": 380559,
+          "favourites_count": 500,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2512/wtt-content-backport",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 2,
+          "published_at": "2025-12-26T03:52:00.000000Z",
+          "created_at": "2025-12-26T03:52:16.000000Z",
+          "updated_at": "2026-08-03T06:02:25.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            },
+            {
+              "id": 36153,
+              "name": "EpicRangeTime",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/80209a4aec54836a03e10eeabd944d2668084215_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/e92f6113cef81fe9a7ad58950e63d8fb25468163_1280w.webp",
+              "created_at": "2023-08-26T03:19:00.000000Z",
+              "updated_at": "2026-08-09T19:17:01.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14391,
+              "hub_id": null,
+              "version": "1.1.3",
+              "description": "<ul>\n<li>fixed airframe chops AGAIN</li>\n<li>fixed di optical fc1 sight mount</li>\n<li>removed wedge head from being available to players</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.1.3",
+              "content_length": 4147088902,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 16571,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-08-02T19:32:00.000000Z",
+              "created_at": "2026-08-02T19:32:03.000000Z",
+              "updated_at": "2026-08-03T06:02:25.000000Z"
+            },
+            {
+              "id": 14284,
+              "hub_id": null,
+              "version": "1.1.2",
+              "description": "<ul>\n<li>fixed airframe chops missing texture bundle</li>\n<li>blacklisted new keycards and keys from pmc loot/rewards</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.1.2",
+              "content_length": 4148941929,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 18125,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-29T14:33:00.000000Z",
+              "created_at": "2026-07-29T14:33:43.000000Z",
+              "updated_at": "2026-07-29T18:02:19.000000Z"
+            },
+            {
+              "id": 14277,
+              "hub_id": null,
+              "version": "1.1.1",
+              "description": "<ul>\n<li>fixed 30al/45al modslot issue</li>\n<li>fixed placeholder handbook ids in some item configs</li>\n<li>fixed comtac helmet headphone modslots</li>\n<li>fixed several helmet presets not being added</li>\n<li>added missing bundles for a few bundles</li>\n<li>added new streamer items to streamer case</li>\n<li>added new streamer items to container loot</li>\n<li>blacklisted more bad items</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.1.1",
+              "content_length": 4148165412,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 3920,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-28T22:25:00.000000Z",
+              "created_at": "2026-07-28T22:25:21.000000Z",
+              "updated_at": "2026-07-29T06:02:09.000000Z"
+            },
+            {
+              "id": 14223,
+              "hub_id": null,
+              "version": "1.1.0",
+              "description": "<p>MAJOR UPDATE - REQUIRES LATEST COMMONLIB 2.0.22</p>\n<ul>\n<li>added all missing items and clothing up to 7/25/2026 (NOTE: SOME THINGS WERE OMITTED LIKE NOTES, TAPES, RECORDER, ETC). If these items were omitted their bundles are still present if someone needs them for a personal project.</li>\n<li>tons of bug fixes, too many to count</li>\n<li>added patch to fence plate randomization to fix the weird logic (will be removed in 4.1)</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.1.0",
+              "content_length": 4134244480,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 10889,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-25T20:13:00.000000Z",
+              "created_at": "2026-07-25T20:13:43.000000Z",
+              "updated_at": "2026-07-28T09:55:27.000000Z"
+            }
+          ],
+          "category": {
+            "id": 2,
+            "hub_id": 79,
+            "title": "Overhauls",
+            "slug": "overhauls",
+            "description": "Large-scale mod packs that overhaul many game systems. Typically combines both client-side and server-side mods into one package."
+          }
+        }
+      ]
+    },
+    {
+      "id": 14227,
+      "hub_id": null,
+      "version": "2.0.0",
+      "description": "<h2>Dependencies changed</h2>\n<ul>\n<li><strong>WTT-ContentBackport 1.1.0 or newer</strong> (both halves, server and client)</li>\n<li><strong>WTT-CommonLib 2.0.22 or newer</strong> (both halves)</li>\n</ul>\n<p>Content Backport 1.1.0 backported the same live items Blackout was shipping: the MP7 ARS adapter and FX-KPOS stock, the SF3P flash hider, the ComTac VI, the EXFIL helmets and the Wedge cover, the LV-119, and Wedge’s face, clothing and voicelines. Two mods adding the same things meant duplicate items in the handbook and a stack of errors on every server start. Blackout now points at theirs, so there is one copy of everything and it stays in sync with whatever they ship.</p>\n<h2>Removed</h2>\n<ul>\n<li>Every asset bundle. The download went from about 61 MB to under 6 MB</li>\n<li>Wedge’s gear items, his clothing, his head and his voice, all of which Content Backport provides now</li>\n<li>The custom black Team Wendy helmet that only existed to hold the helmet cover. Content Backport adds the cover slot to the normal black one, so it earns its keep no more</li>\n</ul>\n<h2>Updating from 1.1.0 or older</h2>\n<p><strong>Delete both of these folders before you extract:</strong></p>\n<ul>\n<li><code>BepInEx/plugins/Blackout</code></li>\n<li><code>SPT/user/mods/Blackout</code></li>\n</ul>\n<p>Then drop the <code>BepInEx</code> and <code>SPT</code> folders into your SPT root as usual.</p>\n<p>This matters more than it normally would. 2.0.0 ships no bundles at all, so installing over the top leaves roughly 60 MB of old bundle files behind, and those now fight with Content Backport’s copies of the same assets. Deleting first is the whole fix.</p>\n<p>Fresh installs can ignore all of that and just extract.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/2.0.0",
+      "content_length": 6142661,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 2420,
+      "fika_compatibility": "incompatible",
+      "published_at": "2026-07-25T22:36:00.000000Z",
+      "created_at": "2026-07-25T22:37:05.000000Z",
+      "updated_at": "2026-07-28T06:02:08.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338295,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14222,
+              "hub_id": null,
+              "version": "2.0.22",
+              "description": "<ul>\n<li>FINALLY fixed salvage zones :prayge:</li>\n<li>salvage zone UI update + icon!</li>\n<li>add random craft result amount options</li>\n<li>initialized buyrestrictioncurrent for traderhelper barters (ty for the detailed bug report!)</li>\n<li>added client handling for random craft amounts</li>\n<li>added better validation warnings and a config for validation logging</li>\n<li>added fixplugintypesserialization patcher (thank you tarkin ❤️)</li>\n<li>added new quest service for making quest items</li>\n<li>removed dependency on spt customitemservice</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.22",
+              "content_length": 245907,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 2925,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-25T17:47:00.000000Z",
+              "created_at": "2026-07-25T17:47:29.000000Z",
+              "updated_at": "2026-07-28T09:55:31.000000Z"
+            },
+            {
+              "id": 14228,
+              "hub_id": null,
+              "version": "2.0.23",
+              "description": "<p>reduced the error logging to be behind config.\nMODDERS THAT USE COMMONLIB - ENABLE ITEM DEBUGGING IN THE CONFIG AND FIX YOUR SHIT</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.23",
+              "content_length": 245746,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 25424,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-26T04:25:00.000000Z",
+              "created_at": "2026-07-26T04:26:24.000000Z",
+              "updated_at": "2026-07-28T18:02:31.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        },
+        {
+          "id": 2426,
+          "hub_id": null,
+          "guid": "com.morebotsapi.tacticaltoaster",
+          "name": "MoreBotsAPI",
+          "slug": "morebotsapi",
+          "teaser": "API for making the implementation of custom bots easier",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/6Wb2mnMw9FZ5UICdern1nYkwGy7oyIWTtAouIN97.png",
+          "downloads": 90367,
+          "favourites_count": 271,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2426/morebotsapi",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2025-11-06T06:48:00.000000Z",
+          "created_at": "2025-11-06T06:36:01.000000Z",
+          "updated_at": "2026-08-01T17:03:13.000000Z",
+          "owner": {
+            "id": 7768,
+            "name": "TacticalToaster",
+            "profile_photo_url": "https://ui-avatars.com/api/?name=T&color=7F9CF5&background=EBF4FF",
+            "cover_photo_url": null,
+            "created_at": "2021-08-11T22:12:09.000000Z",
+            "updated_at": "2026-08-09T04:48:09.000000Z"
+          },
+          "additional_authors": [],
+          "versions": [
+            {
+              "id": 13531,
+              "hub_id": null,
+              "version": "2.0.1",
+              "description": "<p>Removed excessive client logging caused by hunt behaviors</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2426/morebotsapi/2.0.1",
+              "content_length": 44942,
+              "spt_version_constraint": "~4.0.0",
+              "downloads": 46918,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-05-01T22:44:00.000000Z",
+              "created_at": "2026-05-01T22:45:17.000000Z",
+              "updated_at": "2026-08-01T17:03:12.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        },
+        {
+          "id": 2512,
+          "hub_id": null,
+          "guid": "com.wtt.contentbackport",
+          "name": "WTT - Content Backport",
+          "slug": "wtt-content-backport",
+          "teaser": "The moment you've all been waiting for....",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/55TZW6CnHJHPtEYdFvuJWmHazdFuhlCiMLfsbagQ.jpg",
+          "downloads": 380559,
+          "favourites_count": 500,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2512/wtt-content-backport",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 2,
+          "published_at": "2025-12-26T03:52:00.000000Z",
+          "created_at": "2025-12-26T03:52:16.000000Z",
+          "updated_at": "2026-08-03T06:02:25.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            },
+            {
+              "id": 36153,
+              "name": "EpicRangeTime",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/80209a4aec54836a03e10eeabd944d2668084215_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/e92f6113cef81fe9a7ad58950e63d8fb25468163_1280w.webp",
+              "created_at": "2023-08-26T03:19:00.000000Z",
+              "updated_at": "2026-08-09T19:17:01.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14391,
+              "hub_id": null,
+              "version": "1.1.3",
+              "description": "<ul>\n<li>fixed airframe chops AGAIN</li>\n<li>fixed di optical fc1 sight mount</li>\n<li>removed wedge head from being available to players</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.1.3",
+              "content_length": 4147088902,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 16571,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-08-02T19:32:00.000000Z",
+              "created_at": "2026-08-02T19:32:03.000000Z",
+              "updated_at": "2026-08-03T06:02:25.000000Z"
+            },
+            {
+              "id": 14277,
+              "hub_id": null,
+              "version": "1.1.1",
+              "description": "<ul>\n<li>fixed 30al/45al modslot issue</li>\n<li>fixed placeholder handbook ids in some item configs</li>\n<li>fixed comtac helmet headphone modslots</li>\n<li>fixed several helmet presets not being added</li>\n<li>added missing bundles for a few bundles</li>\n<li>added new streamer items to streamer case</li>\n<li>added new streamer items to container loot</li>\n<li>blacklisted more bad items</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.1.1",
+              "content_length": 4148165412,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 3920,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-28T22:25:00.000000Z",
+              "created_at": "2026-07-28T22:25:21.000000Z",
+              "updated_at": "2026-07-29T06:02:09.000000Z"
+            },
+            {
+              "id": 14223,
+              "hub_id": null,
+              "version": "1.1.0",
+              "description": "<p>MAJOR UPDATE - REQUIRES LATEST COMMONLIB 2.0.22</p>\n<ul>\n<li>added all missing items and clothing up to 7/25/2026 (NOTE: SOME THINGS WERE OMITTED LIKE NOTES, TAPES, RECORDER, ETC). If these items were omitted their bundles are still present if someone needs them for a personal project.</li>\n<li>tons of bug fixes, too many to count</li>\n<li>added patch to fence plate randomization to fix the weird logic (will be removed in 4.1)</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.1.0",
+              "content_length": 4134244480,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 10889,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-25T20:13:00.000000Z",
+              "created_at": "2026-07-25T20:13:43.000000Z",
+              "updated_at": "2026-07-28T09:55:27.000000Z"
+            },
+            {
+              "id": 14284,
+              "hub_id": null,
+              "version": "1.1.2",
+              "description": "<ul>\n<li>fixed airframe chops missing texture bundle</li>\n<li>blacklisted new keycards and keys from pmc loot/rewards</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.1.2",
+              "content_length": 4148941929,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 18125,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-29T14:33:00.000000Z",
+              "created_at": "2026-07-29T14:33:43.000000Z",
+              "updated_at": "2026-07-29T18:02:19.000000Z"
+            }
+          ],
+          "category": {
+            "id": 2,
+            "hub_id": 79,
+            "title": "Overhauls",
+            "slug": "overhauls",
+            "description": "Large-scale mod packs that overhaul many game systems. Typically combines both client-side and server-side mods into one package."
+          }
+        }
+      ]
+    },
+    {
+      "id": 14225,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<h2>Added</h2>\n<ul>\n<li>The blackout is a per raid roll now instead of firing on every Labs run, so you never know which one goes dark until the lights cut. 25% by default. Set <code>blackoutChance</code> in <code>SPT/user/mods/Blackout/config.json</code> to change it, or put it to 100 if you want the old behaviour back</li>\n</ul>\n<h2>Changed</h2>\n<ul>\n<li>The LV-119’s soft armor inserts are built in and can no longer be left out, the same as every other armor in the game</li>\n</ul>\n<h2>Fixed</h2>\n<ul>\n<li>The Wedge’s armor was spawning with their plates but no soft armor, so he was taking full damage anywhere the plates didn’t cover. He gets his inserts now</li>\n<li>The vehicles at the hangar and parking gates were disappearing the moment the lights went out, collision and all, so you could walk straight through where a car was parked. They stay put now, and they still stop bullets</li>\n</ul>\n<h2>Updating</h2>\n<p>Extract and drop the <code>BepInEx</code> and <code>SPT</code> folders into your SPT root, straight over the top of 1.0.0. Nothing was renamed or moved, so there is nothing to delete first. The only new file is <code>config.json</code>.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/1.1.0",
+      "content_length": 63806249,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 322,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-07-25T20:35:00.000000Z",
+      "created_at": "2026-07-25T20:36:03.000000Z",
+      "updated_at": "2026-07-28T06:02:08.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338295,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14222,
+              "hub_id": null,
+              "version": "2.0.22",
+              "description": "<ul>\n<li>FINALLY fixed salvage zones :prayge:</li>\n<li>salvage zone UI update + icon!</li>\n<li>add random craft result amount options</li>\n<li>initialized buyrestrictioncurrent for traderhelper barters (ty for the detailed bug report!)</li>\n<li>added client handling for random craft amounts</li>\n<li>added better validation warnings and a config for validation logging</li>\n<li>added fixplugintypesserialization patcher (thank you tarkin ❤️)</li>\n<li>added new quest service for making quest items</li>\n<li>removed dependency on spt customitemservice</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.22",
+              "content_length": 245907,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 2925,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-25T17:47:00.000000Z",
+              "created_at": "2026-07-25T17:47:29.000000Z",
+              "updated_at": "2026-07-28T09:55:31.000000Z"
+            },
+            {
+              "id": 13486,
+              "hub_id": null,
+              "version": "2.0.20",
+              "description": "<p>Version so good it jumped a number!</p>\n<ul>\n<li>new hideout crafting expansion by pein, now supports multi-endproducts and endproducts with nested children</li>\n<li>reworked custom parent mapping into a server service + client attribute (also by pein)</li>\n<li>separated logic in the slothelper methods, added a new one</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.20",
+              "content_length": 167466,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 103728,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-04-25T04:15:00.000000Z",
+              "created_at": "2026-04-25T04:16:03.000000Z",
+              "updated_at": "2026-07-28T08:25:15.000000Z"
+            },
+            {
+              "id": 14228,
+              "hub_id": null,
+              "version": "2.0.23",
+              "description": "<p>reduced the error logging to be behind config.\nMODDERS THAT USE COMMONLIB - ENABLE ITEM DEBUGGING IN THE CONFIG AND FIX YOUR SHIT</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.23",
+              "content_length": 245746,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 25424,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-26T04:25:00.000000Z",
+              "created_at": "2026-07-26T04:26:24.000000Z",
+              "updated_at": "2026-07-28T18:02:31.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        },
+        {
+          "id": 2426,
+          "hub_id": null,
+          "guid": "com.morebotsapi.tacticaltoaster",
+          "name": "MoreBotsAPI",
+          "slug": "morebotsapi",
+          "teaser": "API for making the implementation of custom bots easier",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/6Wb2mnMw9FZ5UICdern1nYkwGy7oyIWTtAouIN97.png",
+          "downloads": 90367,
+          "favourites_count": 271,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2426/morebotsapi",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2025-11-06T06:48:00.000000Z",
+          "created_at": "2025-11-06T06:36:01.000000Z",
+          "updated_at": "2026-08-01T17:03:13.000000Z",
+          "owner": {
+            "id": 7768,
+            "name": "TacticalToaster",
+            "profile_photo_url": "https://ui-avatars.com/api/?name=T&color=7F9CF5&background=EBF4FF",
+            "cover_photo_url": null,
+            "created_at": "2021-08-11T22:12:09.000000Z",
+            "updated_at": "2026-08-09T04:48:09.000000Z"
+          },
+          "additional_authors": [],
+          "versions": [
+            {
+              "id": 13531,
+              "hub_id": null,
+              "version": "2.0.1",
+              "description": "<p>Removed excessive client logging caused by hunt behaviors</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2426/morebotsapi/2.0.1",
+              "content_length": 44942,
+              "spt_version_constraint": "~4.0.0",
+              "downloads": 46918,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-05-01T22:44:00.000000Z",
+              "created_at": "2026-05-01T22:45:17.000000Z",
+              "updated_at": "2026-08-01T17:03:12.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        },
+        {
+          "id": 2512,
+          "hub_id": null,
+          "guid": "com.wtt.contentbackport",
+          "name": "WTT - Content Backport",
+          "slug": "wtt-content-backport",
+          "teaser": "The moment you've all been waiting for....",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/55TZW6CnHJHPtEYdFvuJWmHazdFuhlCiMLfsbagQ.jpg",
+          "downloads": 380559,
+          "favourites_count": 500,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2512/wtt-content-backport",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 2,
+          "published_at": "2025-12-26T03:52:00.000000Z",
+          "created_at": "2025-12-26T03:52:16.000000Z",
+          "updated_at": "2026-08-03T06:02:25.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            },
+            {
+              "id": 36153,
+              "name": "EpicRangeTime",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/80209a4aec54836a03e10eeabd944d2668084215_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/e92f6113cef81fe9a7ad58950e63d8fb25468163_1280w.webp",
+              "created_at": "2023-08-26T03:19:00.000000Z",
+              "updated_at": "2026-08-09T19:17:01.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13487,
+              "hub_id": null,
+              "version": "1.0.7",
+              "description": "<p>HOTFIX</p>\n<ul>\n<li>changed slothelper methods to ensure the slot exists before pushing to it</li>\n<li>stopped overriding the twitch case entirely and safely added the new streamer items</li>\n<li>val 4 sounds have been updated to their new sounds</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.0.7",
+              "content_length": 3490550189,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 96159,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-04-25T12:14:00.000000Z",
+              "created_at": "2026-04-25T12:15:28.000000Z",
+              "updated_at": "2026-07-17T00:16:30.000000Z"
+            }
+          ],
+          "category": {
+            "id": 2,
+            "hub_id": 79,
+            "title": "Overhauls",
+            "slug": "overhauls",
+            "description": "Large-scale mod packs that overhaul many game systems. Typically combines both client-side and server-side mods into one package."
+          }
+        }
+      ]
+    },
+    {
+      "id": 14218,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>-Initial Release</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2843/blackout/1.0.0",
+      "content_length": 63804273,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 979,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-07-25T06:35:00.000000Z",
+      "created_at": "2026-07-25T06:35:17.000000Z",
+      "updated_at": "2026-07-28T06:02:08.000000Z",
+      "dependencies": [
+        {
+          "id": 2426,
+          "hub_id": null,
+          "guid": "com.morebotsapi.tacticaltoaster",
+          "name": "MoreBotsAPI",
+          "slug": "morebotsapi",
+          "teaser": "API for making the implementation of custom bots easier",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/6Wb2mnMw9FZ5UICdern1nYkwGy7oyIWTtAouIN97.png",
+          "downloads": 90367,
+          "favourites_count": 271,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2426/morebotsapi",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2025-11-06T06:48:00.000000Z",
+          "created_at": "2025-11-06T06:36:01.000000Z",
+          "updated_at": "2026-08-01T17:03:13.000000Z",
+          "owner": {
+            "id": 7768,
+            "name": "TacticalToaster",
+            "profile_photo_url": "https://ui-avatars.com/api/?name=T&color=7F9CF5&background=EBF4FF",
+            "cover_photo_url": null,
+            "created_at": "2021-08-11T22:12:09.000000Z",
+            "updated_at": "2026-08-09T04:48:09.000000Z"
+          },
+          "additional_authors": [],
+          "versions": [
+            {
+              "id": 13531,
+              "hub_id": null,
+              "version": "2.0.1",
+              "description": "<p>Removed excessive client logging caused by hunt behaviors</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2426/morebotsapi/2.0.1",
+              "content_length": 44942,
+              "spt_version_constraint": "~4.0.0",
+              "downloads": 46918,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-05-01T22:44:00.000000Z",
+              "created_at": "2026-05-01T22:45:17.000000Z",
+              "updated_at": "2026-08-01T17:03:12.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        },
+        {
+          "id": 2512,
+          "hub_id": null,
+          "guid": "com.wtt.contentbackport",
+          "name": "WTT - Content Backport",
+          "slug": "wtt-content-backport",
+          "teaser": "The moment you've all been waiting for....",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/55TZW6CnHJHPtEYdFvuJWmHazdFuhlCiMLfsbagQ.jpg",
+          "downloads": 380559,
+          "favourites_count": 500,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2512/wtt-content-backport",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 2,
+          "published_at": "2025-12-26T03:52:00.000000Z",
+          "created_at": "2025-12-26T03:52:16.000000Z",
+          "updated_at": "2026-08-03T06:02:25.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            },
+            {
+              "id": 36153,
+              "name": "EpicRangeTime",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/80209a4aec54836a03e10eeabd944d2668084215_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/e92f6113cef81fe9a7ad58950e63d8fb25468163_1280w.webp",
+              "created_at": "2023-08-26T03:19:00.000000Z",
+              "updated_at": "2026-08-09T19:17:01.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13487,
+              "hub_id": null,
+              "version": "1.0.7",
+              "description": "<p>HOTFIX</p>\n<ul>\n<li>changed slothelper methods to ensure the slot exists before pushing to it</li>\n<li>stopped overriding the twitch case entirely and safely added the new streamer items</li>\n<li>val 4 sounds have been updated to their new sounds</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2512/wtt-content-backport/1.0.7",
+              "content_length": 3490550189,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 96159,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-04-25T12:14:00.000000Z",
+              "created_at": "2026-04-25T12:15:28.000000Z",
+              "updated_at": "2026-07-17T00:16:30.000000Z"
+            }
+          ],
+          "category": {
+            "id": 2,
+            "hub_id": 79,
+            "title": "Overhauls",
+            "slug": "overhauls",
+            "description": "Large-scale mod packs that overhaul many game systems. Typically combines both client-side and server-side mods into one package."
+          }
+        },
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338295,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14228,
+              "hub_id": null,
+              "version": "2.0.23",
+              "description": "<p>reduced the error logging to be behind config.\nMODDERS THAT USE COMMONLIB - ENABLE ITEM DEBUGGING IN THE CONFIG AND FIX YOUR SHIT</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.23",
+              "content_length": 245746,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 25424,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-26T04:25:00.000000Z",
+              "created_at": "2026-07-26T04:26:24.000000Z",
+              "updated_at": "2026-07-28T18:02:31.000000Z"
+            },
+            {
+              "id": 14222,
+              "hub_id": null,
+              "version": "2.0.22",
+              "description": "<ul>\n<li>FINALLY fixed salvage zones :prayge:</li>\n<li>salvage zone UI update + icon!</li>\n<li>add random craft result amount options</li>\n<li>initialized buyrestrictioncurrent for traderhelper barters (ty for the detailed bug report!)</li>\n<li>added client handling for random craft amounts</li>\n<li>added better validation warnings and a config for validation logging</li>\n<li>added fixplugintypesserialization patcher (thank you tarkin ❤️)</li>\n<li>added new quest service for making quest items</li>\n<li>removed dependency on spt customitemservice</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.22",
+              "content_length": 245907,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 2925,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-25T17:47:00.000000Z",
+              "created_at": "2026-07-25T17:47:29.000000Z",
+              "updated_at": "2026-07-28T09:55:31.000000Z"
+            },
+            {
+              "id": 13486,
+              "hub_id": null,
+              "version": "2.0.20",
+              "description": "<p>Version so good it jumped a number!</p>\n<ul>\n<li>new hideout crafting expansion by pein, now supports multi-endproducts and endproducts with nested children</li>\n<li>reworked custom parent mapping into a server service + client attribute (also by pein)</li>\n<li>separated logic in the slothelper methods, added a new one</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.20",
+              "content_length": 167466,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 103728,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-04-25T04:15:00.000000Z",
+              "created_at": "2026-04-25T04:16:03.000000Z",
+              "updated_at": "2026-07-28T08:25:15.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2843/Blackout_4.0.0.zip",
+    "bytes_written": 6088057,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1306069981/01052d74-3279-4d1b-9076-d32152082317?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T11%3A12%3A45Z&rscd=attachment%3B+filename%3DBlackout_4.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T10%3A12%3A11Z&ske=2026-08-10T11%3A12%3A45Z&sks=b&skv=2018-11-09&sig=SBVvkZzjfzWIrBPRq%2BVRQm%2BQMo%2FWJaJCMur6lV7jA0E%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NzE5MCwibmJmIjoxNzg2MzU2ODkwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.pkxahse4HbP1u72JzwT3IO1RgZs0yBTmD1AHwnp3fL4&response-content-disposition=attachment%3B%20filename%3DBlackout_4.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2843/blackout-3.1.1-spt40.zip",
+    "bytes_written": 6086487,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1306069981/6db038b7-7ac8-4344-9701-c1f3bd9cde9d?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T12%3A59%3A44Z&rscd=attachment%3B+filename%3DBlackout_3.1.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T11%3A59%3A09Z&ske=2026-08-10T12%3A59%3A44Z&sks=b&skv=2018-11-09&sig=kO6JTfJ6SZPdp90H58R5GwhXOKenBwW2FqtMNTkkfxU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzY3MywibmJmIjoxNzg2MzYzMzczLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.4YOIBmymVEGWreQyx6MDHgvSrIjRjV7ZZCzIY8ho0X0&response-content-disposition=attachment%3B%20filename%3DBlackout_3.1.1.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "3.1.1",
+    "same_as_primary_download": false
+  }
+}

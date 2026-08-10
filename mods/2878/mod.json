@@ -1,0 +1,273 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2878,
+      "hub_id": null,
+      "guid": "jayoh99.painter.4.0",
+      "name": "Painter - All in one",
+      "slug": "painter-all-in-one",
+      "teaser": "Painter is a trader who sells unique weapon mods and gear. Also painted weapon parts (incl. whole weapons).",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/k4n40z5PSX28mp26ygjt1NlIgSDnhsqCEW1phMSg.png",
+      "downloads": 3465,
+      "favourites_count": 15,
+      "description": "<h1>Painter - All in One (SPT 4.0)</h1>\n\n<h2>Overview</h2>\n<p><strong>Ivan “Painter” Samoylov</strong> is a custom trader for SPT who specializes in supplying rare tactical components used throughout my custom mods.</p>\n<p><strong>Painter - All in One</strong> combines multiple standalone trader mods into a single package, making installation easier than ever.</p>\n<p>This release includes:</p>\n<ul>\n<li>Tactical Gear Components (TGC)</li>\n<li>BlackCore</li>\n<li>Mag Tape</li>\n</ul>\n<p>There is no longer a need to install these mods separately. Simply install <strong>Painter - All in One</strong> and you’ll have access to all of the above through a single trader.</p>\n<p>Painter unlocks at <strong>Player Level 1</strong> and features balanced progression designed to fit naturally into SPT.</p>\n<hr />\n<h2>What’s New</h2>\n<ul>\n<li>Merged <strong>Tactical Gear Components</strong>, <strong>BlackCore</strong>, and <strong>Mag Tape</strong> into a single mod.</li>\n<li>Only one installation is required.</li>\n<li>Updated for <strong>SPT 4.0</strong>.</li>\n<li>Painter’s questline is fully functional.</li>\n</ul>\n<hr />\n<h2>Features</h2>\n<ul>\n<li>Unlocks at <strong>Player Level 1</strong></li>\n<li>Includes:\n<ul>\n<li>Tactical Gear Components (TGC)</li>\n<li>BlackCore</li>\n<li>Mag Tape</li>\n</ul>\n</li>\n<li>Fully functional questline</li>\n<li>Balanced loyalty progression</li>\n<li>Compatible with <strong>SPT 4.0</strong></li>\n</ul>\n<hr />\n<h2>Loyalty Levels</h2>\n<table>\n<thead>\n<tr>\n<th>Loyalty Level</th>\n<th align=\"right\">Player Level</th>\n<th align=\"right\">Sales Sum</th>\n<th align=\"right\">Standing</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>LL1</td>\n<td align=\"right\">1</td>\n<td align=\"right\">0₽</td>\n<td align=\"right\">0.00</td>\n</tr>\n<tr>\n<td>LL2</td>\n<td align=\"right\">9</td>\n<td align=\"right\">500,000₽</td>\n<td align=\"right\">0.08</td>\n</tr>\n<tr>\n<td>LL3</td>\n<td align=\"right\">18</td>\n<td align=\"right\">1,300,000₽</td>\n<td align=\"right\">0.16</td>\n</tr>\n<tr>\n<td>LL4</td>\n<td align=\"right\">30</td>\n<td align=\"right\">3,000,000₽</td>\n<td align=\"right\">0.22</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h2>Installation</h2>\n<ol>\n<li>Download the latest release.</li>\n<li>Extract the archive.</li>\n<li>Place the <strong>Painter</strong> folder into your <strong>SPT/user/mods/</strong> directory.</li>\n<li>Launch the game.</li>\n</ol>\n<hr />\n<h2>Compatibility</h2>\n<ul>\n<li>✅ SPT 4.0</li>\n<li>Works as a standalone trader.</li>\n<li>Designed to support my MoxoPixel’s weapons, armor, and attachment mods.</li>\n</ul>\n<hr />\n<h2>FAQ</h2>\n<h3>What is Painter - All in One?</h3>\n<p>Painter - All in One combines the following mods into a single download:</p>\n<ul>\n<li>Tactical Gear Components (TGC)</li>\n<li>BlackCore</li>\n<li>Mag Tape</li>\n</ul>\n<p>This means you only need one installation instead of three separate trader mods.</p>\n<hr />\n<h1>Credits</h1>\n<p><strong>Original Creator:</strong> <strong>MoxoPixel</strong></p>\n<p>All credit for creating <strong>Painter</strong> goes to <strong>MoxoPixel</strong>.</p>\n<p>This SPT 4.0 release merges the component trader mods into a single package while updating Painter for compatibility with the latest version of SPT.</p>\n<hr />\n<h2>Known Issues</h2>\n<p>This is a large compatibility update, and with multiple mods being merged into a single package, some items may still have missing icons, incorrect models, textures, or other unexpected issues.</p>\n<p>If you encounter any problems, please report them on GitHub or the mod page. I’ll do my best to fix any major bugs and broken items <strong>as quickly as I can over the coming days</strong>.</p>\n<p>Thank you for your patience and support!</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2878/painter-all-in-one",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 16,
+      "published_at": "2026-08-02T20:08:00.000000Z",
+      "created_at": "2026-08-02T06:01:06.000000Z",
+      "updated_at": "2026-08-05T06:03:55.000000Z",
+      "owner": {
+        "id": 45001,
+        "name": "jayohh",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/GjZCpwCKWmyT5a2Eqog2bYDb5c2OLhgJas0376CE_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-02-04T20:06:29.000000Z",
+        "updated_at": "2026-08-10T07:25:12.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 29835,
+          "name": "MoxoPixel",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/464072aceb40281611921f5b148200b2fbf86664_128w.webp",
+          "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/96b6bc2954ac77a69d9ce6363d504454cad88e0d_1280w.webp",
+          "created_at": "2023-04-08T03:49:17.000000Z",
+          "updated_at": "2026-08-09T21:24:26.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 14469,
+          "hub_id": null,
+          "version": "2.0.1",
+          "description": "**Update v1.0.1**\n\n**Fixes**\n\nFixed an issue where raids could fail to load due to the error:\nItem template 'LOOTCONTAINER_SPORT_BAG' not found in ItemTpl class\nCorrected the invalid static loot container reference that was preventing raid generation.\n\n**Additions**\n\nAdded Ammo Pouch and First Aid Bag to Secure Containers.\nAdded world spawns for a selection of helmets, rigs, and backpacks sold by Painter, allowing them to be found naturally during raids.\n\nAs always, thanks to everyone who reported issues and provided feedback!",
+          "link": "https://forge.sp-tarkov.com/mod/download/2878/painter-all-in-one/2.0.1",
+          "content_length": 1083706419,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 2611,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-04T19:32:00.000000Z",
+          "created_at": "2026-08-04T19:34:10.000000Z",
+          "updated_at": "2026-08-05T06:03:55.000000Z"
+        },
+        {
+          "id": 14375,
+          "hub_id": null,
+          "version": "2.0.0",
+          "description": "# Painter - All in One (SPT 4.0)\n\n<p align=\"center\">\n  <img src=\"txN7rPo.png\" alt=\"Painter - All in One\" width=\"700\">\n</p>\n\n## Overview\n\n**Ivan \"Painter\" Samoylov** is a custom trader for SPT who specializes in supplying rare tactical components used throughout my custom mods.\n\n**Painter - All in One** combines multiple standalone trader mods into a single package, making installation easier than ever.\n\nThis release includes:\n\n- Tactical Gear Components (TGC)\n- BlackCore\n- Mag Tape\n\nThere is no longer a need to install these mods separately. Simply install **Painter - All in One** and you'll have access to all of the above through a single trader.\n\nPainter unlocks at **Player Level 1** and features balanced progression designed to fit naturally into SPT.\n\n---\n\n## What's New\n\n- Merged **Tactical Gear Components**, **BlackCore**, and **Mag Tape** into a single mod.\n- Only one installation is required.\n- Updated for **SPT 4.0**.\n- Painter's questline is fully functional.\n\n---\n\n## Features\n\n- Unlocks at **Player Level 1**\n- Includes:\n  - Tactical Gear Components (TGC)\n  - BlackCore\n  - Mag Tape\n- Fully functional questline\n- Balanced loyalty progression\n- Compatible with **SPT 4.0**\n- No additional dependencies required\n\n---\n\n## Loyalty Levels\n\n| Loyalty Level | Player Level | Sales Sum | Standing |\n|---------------|-------------:|----------:|----------:|\n| LL1 | 1 | 0₽ | 0.00 |\n| LL2 | 9 | 500,000₽ | 0.08 |\n| LL3 | 18 | 1,300,000₽ | 0.16 |\n| LL4 | 30 | 3,000,000₽ | 0.22 |\n\n---\n\n## Installation\n\n1. Download the latest release.\n2. Extract the archive.\n3. Place the **Painter** folder into your **SPT/user/mods/** directory.\n4. Launch the game.\n\n---\n\n## Compatibility\n\n- ✅ SPT 4.0\n- Works as a standalone trader.\n- Designed to support MoxoPixel's custom weapons, armor, and attachment mods.\n\n---\n\n## FAQ\n\n### What is Painter - All in One?\n\nPainter - All in One combines the following mods into a single download:\n\n- Tactical Gear Components (TGC)\n- BlackCore\n- Mag Tape\n\nThis means you only need one installation instead of three separate trader mods.\n\n### Do I need your other mods?\n\nNo. Painter works perfectly on its own, but many of the components it sells are intended for use with my other custom mods.\n\n---\n\n# Credits\n\n**Original Creator:** **MoxoPixel**\n\nAll credit for creating **Painter** goes to **MoxoPixel**.\n\nThis SPT 4.0 release merges the component trader mods into a single package while updating Painter for compatibility with the latest version of SPT.\n\n---\n\n## Future of the Mod\n\nThis update was released to keep **Painter - All in One** compatible with **SPT 4.0**.\n\nWhile I may continue updating the mod if time permits, **no future updates are promised**. Future compatibility updates, new content, or additional features are **not guaranteed**.\n\nThank you to everyone who has downloaded and supported Painter over the years, and thank you to **MoxoPixel** for creating this awesome trader.\n\n---\n\n## Known Issues\n\nThis is a large compatibility update, and with multiple mods being merged into a single package, some items may still have missing icons, incorrect models, textures, or other unexpected issues.\n\nIf you encounter any problems, please report them on GitHub or the mod page. I'll do my best to fix any major bugs and broken items **as quickly as I can over the coming days**.\n\nThank you for your patience and support!",
+          "link": "https://forge.sp-tarkov.com/mod/download/2878/painter-all-in-one/2.0.0",
+          "content_length": 1083706043,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 854,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-02T06:03:00.000000Z",
+          "created_at": "2026-08-02T06:17:31.000000Z",
+          "updated_at": "2026-08-03T06:12:15.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 16,
+        "hub_id": 29,
+        "title": "Traders",
+        "slug": "traders",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Jayoh99/painter-4.0",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14469,
+      "hub_id": null,
+      "version": "2.0.1",
+      "description": "<p><strong>Update v1.0.1</strong></p>\n<p><strong>Fixes</strong></p>\n<p>Fixed an issue where raids could fail to load due to the error:\nItem template ‘LOOTCONTAINER_SPORT_BAG’ not found in ItemTpl class\nCorrected the invalid static loot container reference that was preventing raid generation.</p>\n<p><strong>Additions</strong></p>\n<p>Added Ammo Pouch and First Aid Bag to Secure Containers.\nAdded world spawns for a selection of helmets, rigs, and backpacks sold by Painter, allowing them to be found naturally during raids.</p>\n<p>As always, thanks to everyone who reported issues and provided feedback!</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2878/painter-all-in-one/2.0.1",
+      "content_length": 1083706419,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 2611,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-04T19:32:00.000000Z",
+      "created_at": "2026-08-04T19:34:10.000000Z",
+      "updated_at": "2026-08-05T06:03:55.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338287,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14228,
+              "hub_id": null,
+              "version": "2.0.23",
+              "description": "<p>reduced the error logging to be behind config.\nMODDERS THAT USE COMMONLIB - ENABLE ITEM DEBUGGING IN THE CONFIG AND FIX YOUR SHIT</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.23",
+              "content_length": 245746,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 25420,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-26T04:25:00.000000Z",
+              "created_at": "2026-07-26T04:26:24.000000Z",
+              "updated_at": "2026-07-28T18:02:31.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 14375,
+      "hub_id": null,
+      "version": "2.0.0",
+      "description": "<h1>Painter - All in One (SPT 4.0)</h1>\n\n<h2>Overview</h2>\n<p><strong>Ivan “Painter” Samoylov</strong> is a custom trader for SPT who specializes in supplying rare tactical components used throughout my custom mods.</p>\n<p><strong>Painter - All in One</strong> combines multiple standalone trader mods into a single package, making installation easier than ever.</p>\n<p>This release includes:</p>\n<ul>\n<li>Tactical Gear Components (TGC)</li>\n<li>BlackCore</li>\n<li>Mag Tape</li>\n</ul>\n<p>There is no longer a need to install these mods separately. Simply install <strong>Painter - All in One</strong> and you’ll have access to all of the above through a single trader.</p>\n<p>Painter unlocks at <strong>Player Level 1</strong> and features balanced progression designed to fit naturally into SPT.</p>\n<hr />\n<h2>What’s New</h2>\n<ul>\n<li>Merged <strong>Tactical Gear Components</strong>, <strong>BlackCore</strong>, and <strong>Mag Tape</strong> into a single mod.</li>\n<li>Only one installation is required.</li>\n<li>Updated for <strong>SPT 4.0</strong>.</li>\n<li>Painter’s questline is fully functional.</li>\n</ul>\n<hr />\n<h2>Features</h2>\n<ul>\n<li>Unlocks at <strong>Player Level 1</strong></li>\n<li>Includes:\n<ul>\n<li>Tactical Gear Components (TGC)</li>\n<li>BlackCore</li>\n<li>Mag Tape</li>\n</ul>\n</li>\n<li>Fully functional questline</li>\n<li>Balanced loyalty progression</li>\n<li>Compatible with <strong>SPT 4.0</strong></li>\n<li>No additional dependencies required</li>\n</ul>\n<hr />\n<h2>Loyalty Levels</h2>\n<table>\n<thead>\n<tr>\n<th>Loyalty Level</th>\n<th align=\"right\">Player Level</th>\n<th align=\"right\">Sales Sum</th>\n<th align=\"right\">Standing</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>LL1</td>\n<td align=\"right\">1</td>\n<td align=\"right\">0₽</td>\n<td align=\"right\">0.00</td>\n</tr>\n<tr>\n<td>LL2</td>\n<td align=\"right\">9</td>\n<td align=\"right\">500,000₽</td>\n<td align=\"right\">0.08</td>\n</tr>\n<tr>\n<td>LL3</td>\n<td align=\"right\">18</td>\n<td align=\"right\">1,300,000₽</td>\n<td align=\"right\">0.16</td>\n</tr>\n<tr>\n<td>LL4</td>\n<td align=\"right\">30</td>\n<td align=\"right\">3,000,000₽</td>\n<td align=\"right\">0.22</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<h2>Installation</h2>\n<ol>\n<li>Download the latest release.</li>\n<li>Extract the archive.</li>\n<li>Place the <strong>Painter</strong> folder into your <strong>SPT/user/mods/</strong> directory.</li>\n<li>Launch the game.</li>\n</ol>\n<hr />\n<h2>Compatibility</h2>\n<ul>\n<li>✅ SPT 4.0</li>\n<li>Works as a standalone trader.</li>\n<li>Designed to support MoxoPixel’s custom weapons, armor, and attachment mods.</li>\n</ul>\n<hr />\n<h2>FAQ</h2>\n<h3>What is Painter - All in One?</h3>\n<p>Painter - All in One combines the following mods into a single download:</p>\n<ul>\n<li>Tactical Gear Components (TGC)</li>\n<li>BlackCore</li>\n<li>Mag Tape</li>\n</ul>\n<p>This means you only need one installation instead of three separate trader mods.</p>\n<h3>Do I need your other mods?</h3>\n<p>No. Painter works perfectly on its own, but many of the components it sells are intended for use with my other custom mods.</p>\n<hr />\n<h1>Credits</h1>\n<p><strong>Original Creator:</strong> <strong>MoxoPixel</strong></p>\n<p>All credit for creating <strong>Painter</strong> goes to <strong>MoxoPixel</strong>.</p>\n<p>This SPT 4.0 release merges the component trader mods into a single package while updating Painter for compatibility with the latest version of SPT.</p>\n<hr />\n<h2>Future of the Mod</h2>\n<p>This update was released to keep <strong>Painter - All in One</strong> compatible with <strong>SPT 4.0</strong>.</p>\n<p>While I may continue updating the mod if time permits, <strong>no future updates are promised</strong>. Future compatibility updates, new content, or additional features are <strong>not guaranteed</strong>.</p>\n<p>Thank you to everyone who has downloaded and supported Painter over the years, and thank you to <strong>MoxoPixel</strong> for creating this awesome trader.</p>\n<hr />\n<h2>Known Issues</h2>\n<p>This is a large compatibility update, and with multiple mods being merged into a single package, some items may still have missing icons, incorrect models, textures, or other unexpected issues.</p>\n<p>If you encounter any problems, please report them on GitHub or the mod page. I’ll do my best to fix any major bugs and broken items <strong>as quickly as I can over the coming days</strong>.</p>\n<p>Thank you for your patience and support!</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2878/painter-all-in-one/2.0.0",
+      "content_length": 1083706043,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 854,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-02T06:03:00.000000Z",
+      "created_at": "2026-08-02T06:17:31.000000Z",
+      "updated_at": "2026-08-03T06:12:15.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338287,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13486,
+              "hub_id": null,
+              "version": "2.0.20",
+              "description": "<p>Version so good it jumped a number!</p>\n<ul>\n<li>new hideout crafting expansion by pein, now supports multi-endproducts and endproducts with nested children</li>\n<li>reworked custom parent mapping into a server service + client attribute (also by pein)</li>\n<li>separated logic in the slothelper methods, added a new one</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.20",
+              "content_length": 167466,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 103728,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-04-25T04:15:00.000000Z",
+              "created_at": "2026-04-25T04:16:03.000000Z",
+              "updated_at": "2026-07-28T08:25:15.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2878/SPT.7z",
+    "bytes_written": 1083706419,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1264540749/ce3b9665-6550-4094-811c-183f5e1090c2?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A48%3A46Z&rscd=attachment%3B+filename%3DSPT.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A48%3A12Z&ske=2026-08-10T10%3A48%3A46Z&sks=b&skv=2018-11-09&sig=tzboue8FAzmAtX8eljBcfGuxYDDXadTs3DdvjIVyGkw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MDAzNiwibmJmIjoxNzg2MzU2NDM2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ._Xkoed3c3pTanY5p4yFJKQT9JSz0thdKQ-pavnp4sQs&response-content-disposition=attachment%3B%20filename%3DSPT.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "2.0.1",
+    "same_as_primary_download": true
+  }
+}

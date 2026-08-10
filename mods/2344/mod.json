@@ -1,0 +1,170 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2344,
+      "hub_id": null,
+      "guid": "de.tosox.dynamicitemweights",
+      "name": "Dynamic Item Weights",
+      "slug": "dynamic-item-weights",
+      "teaser": "Say bye to the empty 9kg jerry can! This simple mod adjusts the weight of items based on their current usage.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/PLjwUyUmevBYgQMwXLisG0tVuMgjDLR2xXjkoYTN.png",
+      "downloads": 10276,
+      "favourites_count": 31,
+      "description": "<h2>📜 Description</h2>\n<p><strong>Dynamic Item Weights</strong> is a mod for <em>Single Player Tarkov</em> that adjusts the weight of items based on their current usage.</p>\n<hr />\n<h2>📁 Installation</h2>\n<ul>\n<li>Download the latest release</li>\n<li>Copy the <code>BepInEx</code> folder into your SPT folder</li>\n<li>Start the game</li>\n</ul>\n<hr />\n<h2>📷 Preview</h2>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://github.com/Tosox/SPT-DynamicItemWeights/blob/master/readme-res/fuel_full.png?raw=true\" alt=\"\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://github.com/Tosox/SPT-DynamicItemWeights/blob/master/readme-res/fuel_used.png?raw=true\" alt=\"\" /></p>\n<hr />\n<h2>🛠️ Configuration</h2>\n<h3>In-game menu</h3>\n<ul>\n<li><strong>Enabled</strong>: Toggle dynamic item weights on/off</li>\n<li><strong>Default Tare Fraction</strong>: Fallback tare weight as a fraction of the full item weight</li>\n<li><strong>Verbose Logging</strong>: Log every single weight adjustment (troubleshooting only)</li>\n</ul>\n<h3>tareweights.jsonc</h3>\n<p>A JSONC file mapping the item template ID to the tare weight in kilograms, that is, what the\nitem still weighs once it is fully used up</p>\n<pre><code>{\n    \"57513f07245977207e26a311\": 0.030, // Pack of apple juice\n    \"5d1b36a186f7742523398433\": 2.500  // Metal fuel tank\n}\n</code></pre>\n<blockquote>\n<p>If an item is missing, the plugin uses <code>Default Tare Fraction</code> of the original weight</p>\n</blockquote>\n<hr />\n<h2>📄 License</h2>\n<p>Distributed under the MIT License. See <code>LICENSE</code> for more information.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2344/dynamic-item-weights",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 4,
+      "published_at": "2025-10-08T20:06:00.000000Z",
+      "created_at": "2025-10-08T19:20:55.000000Z",
+      "updated_at": "2026-08-10T09:09:16.000000Z",
+      "owner": {
+        "id": 79394,
+        "name": "Tosox",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/tAww2g8u6oEwIXCe2oIEv40ZD1KOqdY5JV03LVbl_256w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-05-24T17:22:53.000000Z",
+        "updated_at": "2026-08-10T09:24:30.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14625,
+          "hub_id": null,
+          "version": "1.2.0",
+          "description": "* Add SPT 4.1 support\n* Update player weight when item resources change\n* Rename empty weights to tare weights",
+          "link": "https://forge.sp-tarkov.com/mod/download/2344/dynamic-item-weights/1.2.0",
+          "content_length": 6977,
+          "spt_version_constraint": "~4.1.0",
+          "downloads": 32,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-10T09:05:00.000000Z",
+          "created_at": "2026-08-10T09:06:55.000000Z",
+          "updated_at": "2026-08-10T09:07:03.000000Z"
+        },
+        {
+          "id": 11847,
+          "hub_id": null,
+          "version": "1.1.0",
+          "description": "* Add SPT 4.0 support",
+          "link": "https://forge.sp-tarkov.com/mod/download/2344/dynamic-item-weights/1.1.0",
+          "content_length": 5807,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 9442,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-10-14T22:18:00.000000Z",
+          "created_at": "2025-10-14T22:18:58.000000Z",
+          "updated_at": "2026-08-10T09:06:30.000000Z"
+        },
+        {
+          "id": 11733,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "* Initial release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2344/dynamic-item-weights/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 802,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-10-08T20:01:00.000000Z",
+          "created_at": "2025-10-08T20:01:15.000000Z",
+          "updated_at": "2026-05-14T06:14:20.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 4,
+        "hub_id": 21,
+        "title": "Items",
+        "slug": "items",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Tosox/SPT-DynamicItemWeights",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14625,
+      "hub_id": null,
+      "version": "1.2.0",
+      "description": "<ul>\n<li>Add SPT 4.1 support</li>\n<li>Update player weight when item resources change</li>\n<li>Rename empty weights to tare weights</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2344/dynamic-item-weights/1.2.0",
+      "content_length": 6977,
+      "spt_version_constraint": "~4.1.0",
+      "downloads": 32,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-10T09:05:00.000000Z",
+      "created_at": "2026-08-10T09:06:55.000000Z",
+      "updated_at": "2026-08-10T09:07:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11847,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<ul>\n<li>Add SPT 4.0 support</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2344/dynamic-item-weights/1.1.0",
+      "content_length": 5807,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 9442,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-10-14T22:18:00.000000Z",
+      "created_at": "2025-10-14T22:18:58.000000Z",
+      "updated_at": "2026-08-10T09:06:30.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11733,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<ul>\n<li>Initial release</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2344/dynamic-item-weights/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 802,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-10-08T20:01:00.000000Z",
+      "created_at": "2025-10-08T20:01:15.000000Z",
+      "updated_at": "2026-05-14T06:14:20.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2344/Tosox.DynamicItemWeights-v1.2.0.zip",
+    "bytes_written": 6977,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1072363577/45579ae9-4aee-4c4c-8d2e-f40b9052bd3b?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A21%3A34Z&rscd=attachment%3B+filename%3DTosox.DynamicItemWeights-v1.2.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A21%3A23Z&ske=2026-08-10T10%3A21%3A34Z&sks=b&skv=2018-11-09&sig=dj0h1AlR7jKqtJppcJnybJAvIht9rhFgbv3DT6iKSQ0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTE1OSwibmJmIjoxNzg2MzU0ODU5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.WArutHiKpEX93wpPUOpkSPrXBv1AjnI8l-UW-l3VEt4&response-content-disposition=attachment%3B%20filename%3DTosox.DynamicItemWeights-v1.2.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2344/dynamic-item-weights-1.1.0-spt40.zip",
+    "bytes_written": 5807,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1072363577/7440fa4f-4d2e-414b-9bbc-7fb6a6689c5a?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T13%3A01%3A33Z&rscd=attachment%3B+filename%3DTosox.DynamicItemWeights-v1.1.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T12%3A01%3A11Z&ske=2026-08-10T13%3A01%3A33Z&sks=b&skv=2018-11-09&sig=NMsI1e14m4TapxiaqWUUjJB%2FnzTkX51GYWVORKv3H%2BY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzU5MiwibmJmIjoxNzg2MzYzMjkyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.ZdrOe9WGfzx62fdDUgMLzATRBB4RMqbn3x8ymCVFJWo&response-content-disposition=attachment%3B%20filename%3DTosox.DynamicItemWeights-v1.1.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.1.0",
+    "same_as_primary_download": false
+  }
+}

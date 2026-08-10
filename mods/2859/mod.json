@@ -1,0 +1,170 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2859,
+      "hub_id": null,
+      "guid": "com.awnova.compatibilityhighlighter",
+      "name": "Compatibility Highlighter",
+      "slug": "compatibility-highlighter",
+      "teaser": "Highlight compatible mags ammo and attachments.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/b0IsFUFb5uoAQlG65QbxzfGVy9m6SpHLajYTRkld.png",
+      "downloads": 4631,
+      "favourites_count": 35,
+      "description": "<h2>What it does:</h2>\n<ul>\n<li>Shows all items compatible with the hovered item in both directions</li>\n<li>Hover over ammo → compatible magazines and guns light up</li>\n<li>Hover over a magazine → compatible guns and ammo light up</li>\n<li>Hover over a gun → compatible attachments, ammo, and magazines light up</li>\n</ul>\n<h2>Key features:</h2>\n<ul>\n<li>Configurable highlight color (default: green)</li>\n<li>Adjustable hover delay before the highlight appears</li>\n<li>Can toggle container items (backpacks, rigs, cases) on or off</li>\n<li>Option to use vanilla highlighting when you’re actively dragging items</li>\n</ul>\n<h2>Credits</h2>\n<p>Inspired by <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2823/acs-attachment-compatibility-highlight\" rel=\"noreferrer noopener\">AC’s - Attachment Compatibility Highlight</a>.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2859/compatibility-highlighter",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>I use AI to help find things in eft decomp faster and use it to help write comments in code.</p>\n",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2026-07-31T13:52:00.000000Z",
+      "created_at": "2026-07-31T13:49:31.000000Z",
+      "updated_at": "2026-08-06T15:54:03.000000Z",
+      "owner": {
+        "id": 106828,
+        "name": "awnova",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/LoZ2SaIQ4ALsihYSyCka4lxasZApyJCHjSfFWL0k_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2026-03-07T18:31:57.000000Z",
+        "updated_at": "2026-08-10T02:09:04.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14378,
+          "hub_id": null,
+          "version": "1.2.0",
+          "description": "Updated to 4.1",
+          "link": "https://forge.sp-tarkov.com/mod/download/2859/compatibility-highlighter/1.2.0",
+          "content_length": 10052,
+          "spt_version_constraint": "~4.1.",
+          "downloads": 2928,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-02T12:16:00.000000Z",
+          "created_at": "2026-08-02T12:16:55.000000Z",
+          "updated_at": "2026-08-06T15:54:03.000000Z"
+        },
+        {
+          "id": 14314,
+          "hub_id": null,
+          "version": "1.1.0",
+          "description": "Feat: Added config option and UiFixes support\n\nAdded SlotOutlineColorPatch that recolors the game's equipment-slot outline to match Compatible Color during our hover-preview, with a config toggle to disable it.\n\nAdded two patches that hide synthetic hover-preview object from the engine's private drag-state field, so UIFixes hotkeys (and any other mod) don't get fooled into thinking an actual drag is happening.\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/2859/compatibility-highlighter/1.1.0",
+          "content_length": 10128,
+          "spt_version_constraint": "~4.0.13",
+          "downloads": 1340,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-01T00:49:00.000000Z",
+          "created_at": "2026-08-01T00:49:47.000000Z",
+          "updated_at": "2026-08-01T06:02:04.000000Z"
+        },
+        {
+          "id": 14305,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Initial release. ",
+          "link": "https://forge.sp-tarkov.com/mod/download/2859/compatibility-highlighter/1.0.0",
+          "content_length": 9079,
+          "spt_version_constraint": "~4.0.13",
+          "downloads": 363,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-31T13:50:00.000000Z",
+          "created_at": "2026-07-31T13:52:38.000000Z",
+          "updated_at": "2026-07-31T18:02:06.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/awnova/CompatibilityHighlighter",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14378,
+      "hub_id": null,
+      "version": "1.2.0",
+      "description": "<p>Updated to 4.1</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2859/compatibility-highlighter/1.2.0",
+      "content_length": 10052,
+      "spt_version_constraint": "~4.1.",
+      "downloads": 2928,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-02T12:16:00.000000Z",
+      "created_at": "2026-08-02T12:16:55.000000Z",
+      "updated_at": "2026-08-06T15:54:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14314,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<p>Feat: Added config option and UiFixes support</p>\n<p>Added SlotOutlineColorPatch that recolors the game’s equipment-slot outline to match Compatible Color during our hover-preview, with a config toggle to disable it.</p>\n<p>Added two patches that hide synthetic hover-preview object from the engine’s private drag-state field, so UIFixes hotkeys (and any other mod) don’t get fooled into thinking an actual drag is happening.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2859/compatibility-highlighter/1.1.0",
+      "content_length": 10128,
+      "spt_version_constraint": "~4.0.13",
+      "downloads": 1340,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-01T00:49:00.000000Z",
+      "created_at": "2026-08-01T00:49:47.000000Z",
+      "updated_at": "2026-08-01T06:02:04.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14305,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Initial release.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2859/compatibility-highlighter/1.0.0",
+      "content_length": 9079,
+      "spt_version_constraint": "~4.0.13",
+      "downloads": 363,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-31T13:50:00.000000Z",
+      "created_at": "2026-07-31T13:52:38.000000Z",
+      "updated_at": "2026-07-31T18:02:06.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2859/CompatibilityHightghter1.2.0.7z",
+    "bytes_written": 10052,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1317918474/3a5a4560-3b21-41dd-934e-284c2557bbee?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A23%3A33Z&rscd=attachment%3B+filename%3DCompatibilityHightghter1.2.0.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A22%3A54Z&ske=2026-08-10T10%3A23%3A33Z&sks=b&skv=2018-11-09&sig=yiXlin7cYhp1od8z9YMxFoQaMBaZWnbeq58XO9fTGys%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTQ0OCwibmJmIjoxNzg2MzU1MTQ4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.VCCLrJNpa4YlZQCHyC5e9zKccPBE7YBkxTTDDJHmIy8&response-content-disposition=attachment%3B%20filename%3DCompatibilityHightghter1.2.0.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2859/compatibility-highlighter-1.1.0-spt40.7z",
+    "bytes_written": 10128,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1317918474/5f133473-95b4-4f01-adca-129ba9f00c58?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T12%3A44%3A36Z&rscd=attachment%3B+filename%3DCompatibilityHighlighter1.1.0.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T11%3A44%3A31Z&ske=2026-08-10T12%3A44%3A36Z&sks=b&skv=2018-11-09&sig=cKfQXj8aUz1cc9lwSYkblfft33NXQBluMv7Z62zvIIY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzY3NiwibmJmIjoxNzg2MzYzMzc2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Qprc0QiWjIgLcYtxjgt8t8B1Tlkr_rnfDKDKV9Juf1I&response-content-disposition=attachment%3B%20filename%3DCompatibilityHighlighter1.1.0.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.1.0",
+    "same_as_primary_download": false
+  }
+}

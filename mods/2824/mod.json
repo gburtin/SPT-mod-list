@@ -1,0 +1,141 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2824,
+      "hub_id": null,
+      "guid": "com.maschine.tradersearch",
+      "name": "TraderSearch",
+      "slug": "tradersearch",
+      "teaser": "The search bar the trader window always lacked - filter trader stock live by item name",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/B9P1W7jbjyYD40bTkrDcvO7vpaZOmwmA9ROkkdSc.png",
+      "downloads": 2193,
+      "favourites_count": 19,
+      "description": "<p>A minimalist client-side mod that adds a search bar to the trader screen.</p>\n<p>Unzip to your SPT directory, no configuration options.</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://github.com/maschine34675/TraderSearch/blob/main/example.gif?raw=true\" alt=\"example\" /></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2824/tradersearch",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>AI was used to find the correct classes/methods to patch in the game’s source code. The thumbnail is AI generated.</p>\n",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 1,
+      "published_at": "2026-07-17T15:03:00.000000Z",
+      "created_at": "2026-07-17T14:41:33.000000Z",
+      "updated_at": "2026-08-08T18:02:21.000000Z",
+      "owner": {
+        "id": 109459,
+        "name": "maschine",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2xAHR3ttkN7Su6wHEefYq1aNQJLqsN3CqsMwuBpH_256w.webp",
+        "cover_photo_url": null,
+        "created_at": "2026-04-10T00:02:34.000000Z",
+        "updated_at": "2026-08-10T09:20:37.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14544,
+          "hub_id": null,
+          "version": "2.0.0",
+          "description": "Port to SPT 4.1, no functional changes",
+          "link": "https://forge.sp-tarkov.com/mod/download/2824/tradersearch/2.0.0",
+          "content_length": 8508,
+          "spt_version_constraint": "~4.1.0",
+          "downloads": 600,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-08T09:35:00.000000Z",
+          "created_at": "2026-08-08T09:35:45.000000Z",
+          "updated_at": "2026-08-08T18:02:21.000000Z"
+        },
+        {
+          "id": 14114,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Initial Release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2824/tradersearch/1.0.0",
+          "content_length": 8502,
+          "spt_version_constraint": "~4.0.4",
+          "downloads": 1593,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-17T14:42:00.000000Z",
+          "created_at": "2026-07-17T14:42:55.000000Z",
+          "updated_at": "2026-07-28T09:39:21.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 1,
+        "hub_id": 17,
+        "title": "Tools",
+        "slug": "tools",
+        "description": "Various standalone tools and programs that aren't installed like normal mods"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/maschine34675/TraderSearch",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14544,
+      "hub_id": null,
+      "version": "2.0.0",
+      "description": "<p>Port to SPT 4.1, no functional changes</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2824/tradersearch/2.0.0",
+      "content_length": 8508,
+      "spt_version_constraint": "~4.1.0",
+      "downloads": 600,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-08T09:35:00.000000Z",
+      "created_at": "2026-08-08T09:35:45.000000Z",
+      "updated_at": "2026-08-08T18:02:21.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14114,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Initial Release</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2824/tradersearch/1.0.0",
+      "content_length": 8502,
+      "spt_version_constraint": "~4.0.4",
+      "downloads": 1593,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-17T14:42:00.000000Z",
+      "created_at": "2026-07-17T14:42:55.000000Z",
+      "updated_at": "2026-07-28T09:39:21.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2824/maschine-TraderSearch-2.0.0.zip",
+    "bytes_written": 8508,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1304072547/b72db680-da92-4fe5-8061-34da3399df35?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A26%3A18Z&rscd=attachment%3B+filename%3Dmaschine-TraderSearch-2.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A26%3A09Z&ske=2026-08-10T10%3A26%3A18Z&sks=b&skv=2018-11-09&sig=qQ0vnWkQzhh6hgsh%2BISshQMkcufjd1yvcgJwCfkOyjU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTQyNiwibmJmIjoxNzg2MzU1MTI2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.hmxEKg2_ek9jGJmPxil-B8YQwKWJzLdt3VgXdIechkU&response-content-disposition=attachment%3B%20filename%3Dmaschine-TraderSearch-2.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2824/tradersearch-1.0.0-spt40.zip",
+    "bytes_written": 8502,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1304072547/1fe027de-d252-45c4-8a1d-95c2211c119e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T12%3A59%3A20Z&rscd=attachment%3B+filename%3Dmaschine-TraderSearch-1.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T11%3A59%3A20Z&ske=2026-08-10T12%3A59%3A20Z&sks=b&skv=2018-11-09&sig=bQNoX1f3FqDsJHptbpaiVBbbPBZQc4gGjjt9tgzBLtQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzY2MSwibmJmIjoxNzg2MzYzMzYxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.cxJvhCH_tpRJ_4cf4FiqkTVI9d0uazIPlGdo-ygNDX0&response-content-disposition=attachment%3B%20filename%3Dmaschine-TraderSearch-1.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.0.0",
+    "same_as_primary_download": false
+  }
+}

@@ -1,0 +1,170 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2686,
+      "hub_id": null,
+      "guid": "com.lacyway.qpd",
+      "name": "Quest Presence Detector",
+      "slug": "quest-presence-detector",
+      "teaser": "Detects when quest items are nearby by showing a progress bar with an optional arrow pointing towards it.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/eXrQGqv028qJCw4V5shPNLqXy5ijYGTROmPbZIap.png",
+      "downloads": 6372,
+      "favourites_count": 39,
+      "description": "<p>This mod lets you know when you are near a quest item by showing a progress bar that goes further the closer you are. An optional arrow can also be toggled (on by default) that points towards the objective. The size of the area where the mod triggers can be configured.</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/NJSwcdr.gif\" alt=\"Preview\" /></p>\n<p>You can support me on Ko-Fi</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/lacyway\" rel=\"noreferrer noopener\">Click</a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2686/quest-presence-detector",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 7,
+      "published_at": "2026-05-11T11:19:00.000000Z",
+      "created_at": "2026-05-11T11:21:07.000000Z",
+      "updated_at": "2026-08-07T18:02:18.000000Z",
+      "owner": {
+        "id": 47969,
+        "name": "Lacyway",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/95a5b3e7532938e8baff549cb4defc29e382f4ac_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/05b1bc6e2a3f74b8f41de186273e89430b36bb0a_1280w.webp",
+        "created_at": "2024-04-09T17:00:56.000000Z",
+        "updated_at": "2026-08-10T08:56:42.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14510,
+          "hub_id": null,
+          "version": "1.1.0",
+          "description": "- Updated for SPT 4.1",
+          "link": "https://forge.sp-tarkov.com/mod/download/2686/quest-presence-detector/1.1.0",
+          "content_length": 25617,
+          "spt_version_constraint": ">=4.1.0",
+          "downloads": 832,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-07T07:35:00.000000Z",
+          "created_at": "2026-08-07T07:36:11.000000Z",
+          "updated_at": "2026-08-07T18:02:18.000000Z"
+        },
+        {
+          "id": 13588,
+          "hub_id": null,
+          "version": "1.0.1",
+          "description": "- Added new option to toggle notification\n- Refactored and improved the code base\n- Fixed minor bugs",
+          "link": "https://forge.sp-tarkov.com/mod/download/2686/quest-presence-detector/1.0.1",
+          "content_length": 25605,
+          "spt_version_constraint": ">=4.0.13 <4.1.0",
+          "downloads": 4997,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-05-13T07:56:00.000000Z",
+          "created_at": "2026-05-13T07:57:07.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 13578,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "- Initial release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2686/quest-presence-detector/1.0.0",
+          "content_length": 25715,
+          "spt_version_constraint": ">=4.0.13 <4.1.0",
+          "downloads": 543,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-05-11T11:21:00.000000Z",
+          "created_at": "2026-05-11T11:21:41.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        }
+      ],
+      "license": {
+        "id": 17,
+        "hub_id": null,
+        "name": "Creative Commons BY-NC-SA 4.0",
+        "link": "http://creativecommons.org/licenses/by-nc-sa/4.0/legalcode",
+        "created_at": "2025-10-14T20:30:21.000000Z",
+        "updated_at": "2025-10-14T20:30:21.000000Z"
+      },
+      "category": {
+        "id": 7,
+        "hub_id": 24,
+        "title": "Quests",
+        "slug": "quests",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Lacyway/QuestPresenceDetector",
+          "label": "Client"
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14510,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<ul>\n<li>Updated for SPT 4.1</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2686/quest-presence-detector/1.1.0",
+      "content_length": 25617,
+      "spt_version_constraint": ">=4.1.0",
+      "downloads": 832,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-07T07:35:00.000000Z",
+      "created_at": "2026-08-07T07:36:11.000000Z",
+      "updated_at": "2026-08-07T18:02:18.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13588,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<ul>\n<li>Added new option to toggle notification</li>\n<li>Refactored and improved the code base</li>\n<li>Fixed minor bugs</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2686/quest-presence-detector/1.0.1",
+      "content_length": 25605,
+      "spt_version_constraint": ">=4.0.13 <4.1.0",
+      "downloads": 4997,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-05-13T07:56:00.000000Z",
+      "created_at": "2026-05-13T07:57:07.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13578,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<ul>\n<li>Initial release</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2686/quest-presence-detector/1.0.0",
+      "content_length": 25715,
+      "spt_version_constraint": ">=4.0.13 <4.1.0",
+      "downloads": 543,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-05-11T11:21:00.000000Z",
+      "created_at": "2026-05-11T11:21:41.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2686/QuestPresenceDetector.zip",
+    "bytes_written": 25617,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1235478456/4a6f8744-27db-402e-b2e4-c0c1d935f423?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A27%3A05Z&rscd=attachment%3B+filename%3DQuestPresenceDetector.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A26%3A36Z&ske=2026-08-10T10%3A27%3A05Z&sks=b&skv=2018-11-09&sig=NNux3B1nny%2Bfq0c5SZxoAEm9XOw7orDcE2ZC1hwHv9k%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTAxMiwibmJmIjoxNzg2MzU0NzEyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.T3s49NshDvxLtDbkKQAxbCgBZGIPaNZOBU5BdZes_Ys&response-content-disposition=attachment%3B%20filename%3DQuestPresenceDetector.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2686/quest-presence-detector-1.0.1-spt40.zip",
+    "bytes_written": 25605,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1235478456/21bbb1c7-04c4-44f9-9829-b22bfba520d3?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T13%3A00%3A10Z&rscd=attachment%3B+filename%3DQuestPresenceDetector.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T12%3A00%3A04Z&ske=2026-08-10T13%3A00%3A10Z&sks=b&skv=2018-11-09&sig=%2F4%2B5twJB4LI7u%2B0oc26aEFNva3vFher5yXfiCU%2BdE5U%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzYxOSwibmJmIjoxNzg2MzYzMzE5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.j9IRYpafkMfhkeV3cVBQe20SlXufSODCiCpiaosiajY&response-content-disposition=attachment%3B%20filename%3DQuestPresenceDetector.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.0.1",
+    "same_as_primary_download": false
+  }
+}

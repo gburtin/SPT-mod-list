@@ -1,0 +1,107 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2546,
+      "hub_id": null,
+      "guid": "com.earwaxking.softcorehideout",
+      "name": "Softcore Hideout",
+      "slug": "softcore-hideout",
+      "teaser": "Set FIR hideout requirments in line with live EFT",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/JM0RdBYkPvPhuGkuhlAEImN7TZAIRMgfFWuxQPHr.png",
+      "downloads": 5385,
+      "favourites_count": 17,
+      "description": "<p>Eliminates the FIR requirement for some of the more generic items in the hidout. This should follow the same requirements as live PVP tarkov.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2546/softcore-hideout",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 6,
+      "published_at": "2026-01-12T16:17:00.000000Z",
+      "created_at": "2026-01-12T16:23:32.000000Z",
+      "updated_at": "2026-07-28T07:51:14.000000Z",
+      "owner": {
+        "id": 101628,
+        "name": "earwaxking",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/nb8VN8WUB2YrYRtDyu6AZMOgytEyOSVEFcrEqxv9_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2026-01-12T15:54:46.000000Z",
+        "updated_at": "2026-07-10T04:54:26.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12839,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Initial Release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2546/softcore-hideout/1.0.0",
+          "content_length": 9597,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 5385,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-01-12T16:34:00.000000Z",
+          "created_at": "2026-01-12T16:34:49.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 6,
+        "hub_id": 23,
+        "title": "Hideout",
+        "slug": "hideout",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/DevonJerothe/SoftcoreHideout",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12839,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Initial Release</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2546/softcore-hideout/1.0.0",
+      "content_length": 9597,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 5385,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-01-12T16:34:00.000000Z",
+      "created_at": "2026-01-12T16:34:49.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2546/SoftcoreHideout-1.0.0.zip",
+    "bytes_written": 9597,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1132900053/269e47ff-c58a-48c6-96db-9aa86b28a065?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A49%3A25Z&rscd=attachment%3B+filename%3DSoftcoreHideout-1.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A49%3A17Z&ske=2026-08-10T10%3A49%3A25Z&sks=b&skv=2018-11-09&sig=GNM1LtxYIdrgox2PxKi8wM6dsoELSxksXqJqq5h25vI%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NjE2NCwibmJmIjoxNzg2MzU1ODY0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.DAs9qVi1XcJyHnhxlA8luw7zZmEuoMHEnpgdJAFWb20&response-content-disposition=attachment%3B%20filename%3DSoftcoreHideout-1.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

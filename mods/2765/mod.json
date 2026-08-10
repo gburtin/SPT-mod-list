@@ -1,0 +1,194 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2765,
+      "hub_id": null,
+      "guid": "com.vinarators.compasshud",
+      "name": "Compass HUD",
+      "slug": "compass-hud",
+      "teaser": "Adds a compass at the top of the screen during a raid, with customization options",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/gBFljRq8g1Pnb0R5MXzFKl3bzSd5ldp4Nixpndyx.png",
+      "downloads": 3434,
+      "favourites_count": 25,
+      "description": "<h3>A clean and optimized horizontal compass for your tactical overlay.</h3>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://imgup.uk/i/RmzHGsuw.png\" alt=\"Image\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://imgup.uk/i/t2lYKn5T.png\" alt=\"Image\" /></p>\n<h2>Video demonstration:</h2>\n<div class=\"youtube-lite\" data-video-id=\"jOnAY6bVqLc\" data-embed-url=\"https://www.youtube-nocookie.com/embed/jOnAY6bVqLc?autoplay=1\"><img src=\"https://i.ytimg.com/vi/jOnAY6bVqLc/hqdefault.jpg\" alt=\"YouTube video thumbnail\" loading=\"lazy\" decoding=\"async\" /></div>\n<h1>Features:</h1>\n<h5>Sleek Aesthetic: Just looks good</h5>\n<h5>Auto-Hide: Automatically vanishes when you open your inventory or start looting to keep your UI clear.</h5>\n<h5>Hotkey Toggle: Quickly hide or show the HUD mid-raid by pressing F8.</h5>\n<h5>Supports both English and Russian localization layouts.</h5>\n<h1>Configuration (F12):</h1>\n<h5>Tweak scale, opacity, and the side-fading look on the fly.</h5>\n<h5>Toggle ribbon numbers or letters independently.</h5>\n<h5>The ability to toggle the display of extracts, some missions, and transitions to the following locations</h5>\n<h5>Swich English and Russian localization layouts.</h5>\n<h5>And other settings…</h5>\n<p><em>Note: Not all quest markers are displayed yet.</em></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://imgup.uk/i/u1LlSytv.png\" alt=\"Image\" /></p>\n<p>If you find any bugs or have suggestions for new features, I’d be happy to hear your feedback.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2765/compass-hud",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 1,
+      "published_at": "2026-06-22T21:00:00.000000Z",
+      "created_at": "2026-06-22T22:56:13.000000Z",
+      "updated_at": "2026-07-28T09:24:21.000000Z",
+      "owner": {
+        "id": 115595,
+        "name": "Vinarator",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/73eae0X8LpbW2ww8uKdvQ7K0QXNp6CHoR2Lmbl0k_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/FbocQy6HwqZe2hkJtgmtQ5uiFvbzytRaNlwHnuTX_2560w.webp",
+        "created_at": "2026-06-14T14:25:45.000000Z",
+        "updated_at": "2026-08-08T20:08:19.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 13959,
+          "hub_id": null,
+          "version": "1.1.2",
+          "description": "Fixed the inverted compass direction",
+          "link": "https://forge.sp-tarkov.com/mod/download/2765/compass-hud/1.1.2",
+          "content_length": 29138,
+          "spt_version_constraint": "~4 <4.1.0",
+          "downloads": 2146,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-07-02T11:59:00.000000Z",
+          "created_at": "2026-07-02T12:00:31.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 13914,
+          "hub_id": null,
+          "version": "1.1.1",
+          "description": "Added the ability to change the compass's vertical position",
+          "link": "https://forge.sp-tarkov.com/mod/download/2765/compass-hud/1.1.1",
+          "content_length": 29138,
+          "spt_version_constraint": "~4 <4.1.0",
+          "downloads": 411,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-06-28T10:46:00.000000Z",
+          "created_at": "2026-06-28T10:48:18.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 13850,
+          "hub_id": null,
+          "version": "1.1.0",
+          "description": "In the new version, you can enable labels for, extracts missions, and for transitions to the next locations in the settings. If you don't like something about this version, you can revert to the old, simpler version. ",
+          "link": "https://forge.sp-tarkov.com/mod/download/2765/compass-hud/1.1.0",
+          "content_length": 28626,
+          "spt_version_constraint": "~4 <4.1.0",
+          "downloads": 671,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-06-23T15:21:00.000000Z",
+          "created_at": "2026-06-23T15:23:44.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 13847,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "release (Simple, with no extra direction icons—it's perfect for everyone. )",
+          "link": "https://forge.sp-tarkov.com/mod/download/2765/compass-hud/1.0.0",
+          "content_length": 12242,
+          "spt_version_constraint": "~4 <4.1.0",
+          "downloads": 206,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-06-22T23:16:00.000000Z",
+          "created_at": "2026-06-22T23:07:32.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 1,
+        "hub_id": 17,
+        "title": "Tools",
+        "slug": "tools",
+        "description": "Various standalone tools and programs that aren't installed like normal mods"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Vinarat0r/Compass-HUD",
+          "label": "Code"
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 13959,
+      "hub_id": null,
+      "version": "1.1.2",
+      "description": "<p>Fixed the inverted compass direction</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2765/compass-hud/1.1.2",
+      "content_length": 29138,
+      "spt_version_constraint": "~4 <4.1.0",
+      "downloads": 2146,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-07-02T11:59:00.000000Z",
+      "created_at": "2026-07-02T12:00:31.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13914,
+      "hub_id": null,
+      "version": "1.1.1",
+      "description": "<p>Added the ability to change the compass’s vertical position</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2765/compass-hud/1.1.1",
+      "content_length": 29138,
+      "spt_version_constraint": "~4 <4.1.0",
+      "downloads": 411,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-06-28T10:46:00.000000Z",
+      "created_at": "2026-06-28T10:48:18.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13850,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<p>In the new version, you can enable labels for, extracts missions, and for transitions to the next locations in the settings. If you don’t like something about this version, you can revert to the old, simpler version.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2765/compass-hud/1.1.0",
+      "content_length": 28626,
+      "spt_version_constraint": "~4 <4.1.0",
+      "downloads": 671,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-06-23T15:21:00.000000Z",
+      "created_at": "2026-06-23T15:23:44.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13847,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>release (Simple, with no extra direction icons—it’s perfect for everyone. )</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2765/compass-hud/1.0.0",
+      "content_length": 12242,
+      "spt_version_constraint": "~4 <4.1.0",
+      "downloads": 206,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-06-22T23:16:00.000000Z",
+      "created_at": "2026-06-22T23:07:32.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2765/CompassHUD-1.1.2.zip",
+    "bytes_written": 29138,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1277414491/27771390-9d53-4d9a-8124-31e70fb1fdad?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A49%3A27Z&rscd=attachment%3B+filename%3DCompassHUD-1.1.2.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A49%3A20Z&ske=2026-08-10T10%3A49%3A27Z&sks=b&skv=2018-11-09&sig=AslUNarnl5QjILhBjoMWFtrHMK6%2B0ptv0Xn6x8PxRlU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTg3NywibmJmIjoxNzg2MzU1NTc3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.puYrtKdiB3AdVFSHjmu1TA5E5cbx_879DlHWFqwix20&response-content-disposition=attachment%3B%20filename%3DCompassHUD-1.1.2.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.1.2",
+    "same_as_primary_download": true
+  }
+}

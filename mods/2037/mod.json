@@ -1,0 +1,624 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2037,
+      "hub_id": 2719,
+      "guid": "com.szonszczyk.coloredtracers",
+      "name": "Colored Tracers",
+      "slug": "colored-tracers",
+      "teaser": "Bullets now have tracers colored by their penetration value!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/6HlygqMjyIzEZEizPkbSOyzw9EJ0BR76NCRQVbEE.jpg",
+      "downloads": 11385,
+      "favourites_count": 11,
+      "description": "<p><em>In the heat of battle, quickly determine who poses the real threat. Red tracers from the right - just Scavs. Green tracers from the left - PMCs. But from the center, someone is firing violet tracers at you… It’s clearly Birdeye.</em></p>\n<p><em>You don’t even need to see your enemies - just a split second, and you already know everything. Now you can plan accordingly… This raid is yours to win!</em></p>\n<h2><strong>Features</strong></h2>\n<ul>\n<li>Coloring tracers:\n<ul>\n<li>Based on either bullet damage or penetration</li>\n<li>With linear rainbow color scale (red-worst, violet-best)</li>\n<li>With 7-steps color profile with rainbow or customizable colors</li>\n<li>Single color that can be added based on bullet category</li>\n</ul>\n</li>\n<li>Option to invert scales (violet-worst, red-best)</li>\n<li>Option to color bullet to random color</li>\n</ul>\n<p><strong>Choose your preferred mode in the config file</strong></p>\n<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Screenshots</div>\n<div class=\"tab-content\"><p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/1DIeiMf.png\" alt=\"1DIeiMf.png\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/cVsWen9.png\" alt=\"cVsWen9.png\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/C27Sgbu.png\" alt=\"C27Sgbu.png\" /></p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Rainbow Color Scale</div>\n<div class=\"tab-content\"><p>The mod uses a rainbow scale to represent bullet values:</p>\n<p>Red → lowest value</p>\n<p>Orange / Yellow / Green / Blue → average value</p>\n<p>Violet → strongest value</p>\n<p>This allows you to instantly judge ammo performance just by looking at tracer color!</p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Compatibility</div>\n<div class=\"tab-content\"><ul>\n<li>Compatible with all mods that add new bullets or calibers</li>\n<li>Realism compatibility is planned for a future update</li>\n</ul></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2037/colored-tracers",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>I was using ChatGPT to help me with some things:</p>\n<ul>\n<li>Thumbnail</li>\n<li>Function to generate linear color based on value and maxValue</li>\n<li>Mod description, changelog and config was checked for potential errors</li>\n</ul>\n",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 3,
+      "published_at": "2025-03-16T23:58:00.000000Z",
+      "created_at": "2025-03-16T23:58:08.000000Z",
+      "updated_at": "2026-08-09T18:02:46.000000Z",
+      "owner": {
+        "id": 51472,
+        "name": "Szonszczyk",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/17fdeb88404a598631a42329eecdeea4b737799b_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/02e2d36d391a69035df0b185dfa6749689212bf7_1280w.webp",
+        "created_at": "2024-05-10T21:35:56.000000Z",
+        "updated_at": "2026-08-10T07:35:22.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14589,
+          "hub_id": null,
+          "version": "3.0.1",
+          "description": "Initial release for SPT 4.1.2\nI checked Color Converter API and old version for SPT 4.0 is working on SPT 4.1, somehow...",
+          "link": "https://forge.sp-tarkov.com/mod/download/2037/colored-tracers/3.0.1",
+          "content_length": 14457,
+          "spt_version_constraint": "~4.1.2",
+          "downloads": 257,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-09T11:07:00.000000Z",
+          "created_at": "2026-08-09T11:08:25.000000Z",
+          "updated_at": "2026-08-09T18:02:46.000000Z"
+        },
+        {
+          "id": 13917,
+          "hub_id": null,
+          "version": "3.0.0",
+          "description": "New config is **REQUIRED**!\n\n- The mod has been completely rewritten\n- Changed the config file extension to .json\n- Removed bullet background coloring; please use [Ammo Stats](https://forge.sp-tarkov.com/mod/167/ammo-stats) instead\n- Removed tracer coloring based on bullet rating\n- Re-added the option to use a 7-step color scale\n- Added an option to assign a single color to specific ammunition types\n- Added the InvertScale option, allowing the use of an inverted rainbow scale\n- Changed mod load order to ``OnLoadOrder.PostSptModLoader + 3``",
+          "link": "https://forge.sp-tarkov.com/mod/download/2037/colored-tracers/3.0.0",
+          "content_length": 13081,
+          "spt_version_constraint": "~4.0.4",
+          "downloads": 1048,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-06-28T14:06:00.000000Z",
+          "created_at": "2026-06-28T14:07:16.000000Z",
+          "updated_at": "2026-07-28T09:22:18.000000Z"
+        },
+        {
+          "id": 12955,
+          "hub_id": null,
+          "version": "2.1.1",
+          "description": "### If you don't need to disable ColorConverterAPI check - no need to update\n- Added new line to config which can disable ColorConverterAPI check on server start",
+          "link": "https://forge.sp-tarkov.com/mod/download/2037/colored-tracers/2.1.1",
+          "content_length": 14188,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 2065,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-01-30T23:55:00.000000Z",
+          "created_at": "2026-01-30T23:56:51.000000Z",
+          "updated_at": "2026-07-28T07:58:23.000000Z"
+        },
+        {
+          "id": 12889,
+          "hub_id": null,
+          "version": "2.1.0",
+          "description": "- The entire mod has been rewritten\n- Added background coloring for bullets\n- Added tracer and background coloring based on a bullet’s rating within its caliber and category\n- Removed the 7-step color scale in favor of a continuous rainbow scale based on penetration value or bullet rating\n- Improved config loading to preserve the config file after mod updates\n- Combined SameColor and SarynMode into a single mode",
+          "link": "https://forge.sp-tarkov.com/mod/download/2037/colored-tracers/2.1.0",
+          "content_length": 14090,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 375,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-01-21T22:28:00.000000Z",
+          "created_at": "2026-01-21T22:28:28.000000Z",
+          "updated_at": "2026-07-28T07:56:04.000000Z"
+        },
+        {
+          "id": 11957,
+          "hub_id": null,
+          "version": "2.0.0",
+          "description": "- Updated to C# - SPT 4.0 compatible\n- Removed realism compatibility, for now at least",
+          "link": "https://forge.sp-tarkov.com/mod/download/2037/colored-tracers/2.0.0",
+          "content_length": 10796,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 2388,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-10-21T13:33:00.000000Z",
+          "created_at": "2025-10-21T13:33:42.000000Z",
+          "updated_at": "2026-07-28T06:06:31.000000Z"
+        },
+        {
+          "id": 66,
+          "hub_id": 14835,
+          "version": "1.1.1",
+          "description": "\\- Fixed some logic\n\n*If you changed something in config, just don't replace it when updating. Nothing changed in it*\n\nSorry!",
+          "link": "https://forge.sp-tarkov.com/mod/download/2037/colored-tracers/1.1.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1488,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-19T23:01:04.000000Z",
+          "created_at": "2025-08-19T23:01:04.000000Z",
+          "updated_at": "2026-05-14T01:38:13.000000Z"
+        },
+        {
+          "id": 67,
+          "hub_id": 14834,
+          "version": "1.1.0",
+          "description": "**SPT Version: 3.11**\n\n**Updating: Drag &amp; Replace**\n\n **Added**\n----------\n\n\\- Coloring tracers by bullet background (enabled by default)\n\n\\- Information to bullet description about added tracer (disabled by default)\n\n\\- Better error handling\n\n**No need to update if you are not using [RaiRaiTheRaichu-AmmoStats](https://hub.sp-tarkov.com/files/file/284-ammo-stats-in-description/)!**",
+          "link": "https://forge.sp-tarkov.com/mod/download/2037/colored-tracers/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 275,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-19T12:51:58.000000Z",
+          "created_at": "2025-08-19T12:51:58.000000Z",
+          "updated_at": "2026-05-14T01:38:15.000000Z"
+        },
+        {
+          "id": 1144,
+          "hub_id": 13633,
+          "version": "1.0.0",
+          "description": "Initial deploy\n\n[Github link](https://github.com/Szonszczyk/Colored-Tracers/releases/tag/v1.0.0)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2037/colored-tracers/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 3489,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-16T23:58:08.000000Z",
+          "created_at": "2025-03-16T23:58:08.000000Z",
+          "updated_at": "2026-05-14T02:04:36.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 3,
+        "hub_id": 19,
+        "title": "Scripting",
+        "slug": "scripting",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Szonszczyk/Colored-Tracers",
+          "label": "3.11"
+        },
+        {
+          "url": "https://github.com/Szonszczyk/ColoredTracers-csharp",
+          "label": "4.0"
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14589,
+      "hub_id": null,
+      "version": "3.0.1",
+      "description": "<p>Initial release for SPT 4.1.2\nI checked Color Converter API and old version for SPT 4.0 is working on SPT 4.1, somehow…</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2037/colored-tracers/3.0.1",
+      "content_length": 14457,
+      "spt_version_constraint": "~4.1.2",
+      "downloads": 257,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-09T11:07:00.000000Z",
+      "created_at": "2026-08-09T11:08:25.000000Z",
+      "updated_at": "2026-08-09T18:02:46.000000Z",
+      "dependencies": [
+        {
+          "id": 1090,
+          "hub_id": 1509,
+          "guid": "com.rairai.colorconverterapi.eft",
+          "name": "Color Converter API",
+          "slug": "color-converter-api",
+          "teaser": "Client-side mod to allow using hexcode colors for your items! Custom background colors for your items, or any color tracer you want!",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1509.jpg",
+          "downloads": 98601,
+          "favourites_count": 146,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1090/color-converter-api",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 1,
+          "published_at": "2023-10-08T22:06:00.000000Z",
+          "created_at": "2023-10-08T22:06:19.000000Z",
+          "updated_at": "2026-07-28T06:00:49.000000Z",
+          "owner": {
+            "id": 3576,
+            "name": "RaiRaiTheRaichu",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/b7b8eb01816280f8cac17bf8bcafd05c6ed66378_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2021-03-25T12:16:15.000000Z",
+            "updated_at": "2026-08-04T18:19:06.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 4843,
+              "name": "Terkoiz",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/8ac461c503955b1142399451ed9ea40a98b249c2_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/f8a971452d0197f3022defe4715119532fbca03c.jpg",
+              "created_at": "2021-05-11T08:06:10.000000Z",
+              "updated_at": "2026-08-09T23:01:16.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 3085,
+              "hub_id": 11331,
+              "version": "1.1.1",
+              "description": "<p><strong>Confirmed working on SPT 4.0.0+.</strong></p>\n<p>Changelog:</p>\n<p>Fixed case-sensitive string parsing for color enum.\n(Error “Failed to read JSON value for TaxonomyColor” for certain mods.)</p>\n<p>Hey! Thanks for downloading, if you’d like to support my work, you’re more than welcome to support me at the link below or follow along at my Ko-Fi page here:</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/rairaitheraichu\" rel=\"noreferrer noopener\">https://ko-fi.com/rairaitheraichu</a></p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1090/color-converter-api/1.1.1",
+              "content_length": 4836,
+              "spt_version_constraint": "~4.0.0",
+              "downloads": 81776,
+              "fika_compatibility": "compatible",
+              "published_at": "2024-08-13T23:31:00.000000Z",
+              "created_at": "2024-08-13T23:31:41.000000Z",
+              "updated_at": "2026-07-28T06:00:49.000000Z"
+            }
+          ],
+          "category": {
+            "id": 1,
+            "hub_id": 17,
+            "title": "Tools",
+            "slug": "tools",
+            "description": "Various standalone tools and programs that aren't installed like normal mods"
+          }
+        }
+      ]
+    },
+    {
+      "id": 13917,
+      "hub_id": null,
+      "version": "3.0.0",
+      "description": "<p>New config is <strong>REQUIRED</strong>!</p>\n<ul>\n<li>The mod has been completely rewritten</li>\n<li>Changed the config file extension to .json</li>\n<li>Removed bullet background coloring; please use <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/167/ammo-stats\" rel=\"noreferrer noopener\">Ammo Stats</a> instead</li>\n<li>Removed tracer coloring based on bullet rating</li>\n<li>Re-added the option to use a 7-step color scale</li>\n<li>Added an option to assign a single color to specific ammunition types</li>\n<li>Added the InvertScale option, allowing the use of an inverted rainbow scale</li>\n<li>Changed mod load order to <code>OnLoadOrder.PostSptModLoader + 3</code></li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2037/colored-tracers/3.0.0",
+      "content_length": 13081,
+      "spt_version_constraint": "~4.0.4",
+      "downloads": 1048,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-06-28T14:06:00.000000Z",
+      "created_at": "2026-06-28T14:07:16.000000Z",
+      "updated_at": "2026-07-28T09:22:18.000000Z",
+      "dependencies": [
+        {
+          "id": 1090,
+          "hub_id": 1509,
+          "guid": "com.rairai.colorconverterapi.eft",
+          "name": "Color Converter API",
+          "slug": "color-converter-api",
+          "teaser": "Client-side mod to allow using hexcode colors for your items! Custom background colors for your items, or any color tracer you want!",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1509.jpg",
+          "downloads": 98601,
+          "favourites_count": 146,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1090/color-converter-api",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 1,
+          "published_at": "2023-10-08T22:06:00.000000Z",
+          "created_at": "2023-10-08T22:06:19.000000Z",
+          "updated_at": "2026-07-28T06:00:49.000000Z",
+          "owner": {
+            "id": 3576,
+            "name": "RaiRaiTheRaichu",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/b7b8eb01816280f8cac17bf8bcafd05c6ed66378_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2021-03-25T12:16:15.000000Z",
+            "updated_at": "2026-08-04T18:19:06.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 4843,
+              "name": "Terkoiz",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/8ac461c503955b1142399451ed9ea40a98b249c2_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/f8a971452d0197f3022defe4715119532fbca03c.jpg",
+              "created_at": "2021-05-11T08:06:10.000000Z",
+              "updated_at": "2026-08-09T23:01:16.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 3085,
+              "hub_id": 11331,
+              "version": "1.1.1",
+              "description": "<p><strong>Confirmed working on SPT 4.0.0+.</strong></p>\n<p>Changelog:</p>\n<p>Fixed case-sensitive string parsing for color enum.\n(Error “Failed to read JSON value for TaxonomyColor” for certain mods.)</p>\n<p>Hey! Thanks for downloading, if you’d like to support my work, you’re more than welcome to support me at the link below or follow along at my Ko-Fi page here:</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/rairaitheraichu\" rel=\"noreferrer noopener\">https://ko-fi.com/rairaitheraichu</a></p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1090/color-converter-api/1.1.1",
+              "content_length": 4836,
+              "spt_version_constraint": "~4.0.0",
+              "downloads": 81776,
+              "fika_compatibility": "compatible",
+              "published_at": "2024-08-13T23:31:00.000000Z",
+              "created_at": "2024-08-13T23:31:41.000000Z",
+              "updated_at": "2026-07-28T06:00:49.000000Z"
+            }
+          ],
+          "category": {
+            "id": 1,
+            "hub_id": 17,
+            "title": "Tools",
+            "slug": "tools",
+            "description": "Various standalone tools and programs that aren't installed like normal mods"
+          }
+        }
+      ]
+    },
+    {
+      "id": 12955,
+      "hub_id": null,
+      "version": "2.1.1",
+      "description": "<h3>If you don’t need to disable ColorConverterAPI check - no need to update</h3>\n<ul>\n<li>Added new line to config which can disable ColorConverterAPI check on server start</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2037/colored-tracers/2.1.1",
+      "content_length": 14188,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 2065,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-01-30T23:55:00.000000Z",
+      "created_at": "2026-01-30T23:56:51.000000Z",
+      "updated_at": "2026-07-28T07:58:23.000000Z",
+      "dependencies": [
+        {
+          "id": 1090,
+          "hub_id": 1509,
+          "guid": "com.rairai.colorconverterapi.eft",
+          "name": "Color Converter API",
+          "slug": "color-converter-api",
+          "teaser": "Client-side mod to allow using hexcode colors for your items! Custom background colors for your items, or any color tracer you want!",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1509.jpg",
+          "downloads": 98601,
+          "favourites_count": 146,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1090/color-converter-api",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 1,
+          "published_at": "2023-10-08T22:06:00.000000Z",
+          "created_at": "2023-10-08T22:06:19.000000Z",
+          "updated_at": "2026-07-28T06:00:49.000000Z",
+          "owner": {
+            "id": 3576,
+            "name": "RaiRaiTheRaichu",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/b7b8eb01816280f8cac17bf8bcafd05c6ed66378_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2021-03-25T12:16:15.000000Z",
+            "updated_at": "2026-08-04T18:19:06.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 4843,
+              "name": "Terkoiz",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/8ac461c503955b1142399451ed9ea40a98b249c2_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/f8a971452d0197f3022defe4715119532fbca03c.jpg",
+              "created_at": "2021-05-11T08:06:10.000000Z",
+              "updated_at": "2026-08-09T23:01:16.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 3085,
+              "hub_id": 11331,
+              "version": "1.1.1",
+              "description": "<p><strong>Confirmed working on SPT 4.0.0+.</strong></p>\n<p>Changelog:</p>\n<p>Fixed case-sensitive string parsing for color enum.\n(Error “Failed to read JSON value for TaxonomyColor” for certain mods.)</p>\n<p>Hey! Thanks for downloading, if you’d like to support my work, you’re more than welcome to support me at the link below or follow along at my Ko-Fi page here:</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/rairaitheraichu\" rel=\"noreferrer noopener\">https://ko-fi.com/rairaitheraichu</a></p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1090/color-converter-api/1.1.1",
+              "content_length": 4836,
+              "spt_version_constraint": "~4.0.0",
+              "downloads": 81776,
+              "fika_compatibility": "compatible",
+              "published_at": "2024-08-13T23:31:00.000000Z",
+              "created_at": "2024-08-13T23:31:41.000000Z",
+              "updated_at": "2026-07-28T06:00:49.000000Z"
+            }
+          ],
+          "category": {
+            "id": 1,
+            "hub_id": 17,
+            "title": "Tools",
+            "slug": "tools",
+            "description": "Various standalone tools and programs that aren't installed like normal mods"
+          }
+        }
+      ]
+    },
+    {
+      "id": 12889,
+      "hub_id": null,
+      "version": "2.1.0",
+      "description": "<ul>\n<li>The entire mod has been rewritten</li>\n<li>Added background coloring for bullets</li>\n<li>Added tracer and background coloring based on a bullet’s rating within its caliber and category</li>\n<li>Removed the 7-step color scale in favor of a continuous rainbow scale based on penetration value or bullet rating</li>\n<li>Improved config loading to preserve the config file after mod updates</li>\n<li>Combined SameColor and SarynMode into a single mode</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2037/colored-tracers/2.1.0",
+      "content_length": 14090,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 375,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-01-21T22:28:00.000000Z",
+      "created_at": "2026-01-21T22:28:28.000000Z",
+      "updated_at": "2026-07-28T07:56:04.000000Z",
+      "dependencies": [
+        {
+          "id": 1090,
+          "hub_id": 1509,
+          "guid": "com.rairai.colorconverterapi.eft",
+          "name": "Color Converter API",
+          "slug": "color-converter-api",
+          "teaser": "Client-side mod to allow using hexcode colors for your items! Custom background colors for your items, or any color tracer you want!",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1509.jpg",
+          "downloads": 98601,
+          "favourites_count": 146,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1090/color-converter-api",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 1,
+          "published_at": "2023-10-08T22:06:00.000000Z",
+          "created_at": "2023-10-08T22:06:19.000000Z",
+          "updated_at": "2026-07-28T06:00:49.000000Z",
+          "owner": {
+            "id": 3576,
+            "name": "RaiRaiTheRaichu",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/b7b8eb01816280f8cac17bf8bcafd05c6ed66378_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2021-03-25T12:16:15.000000Z",
+            "updated_at": "2026-08-04T18:19:06.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 4843,
+              "name": "Terkoiz",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/8ac461c503955b1142399451ed9ea40a98b249c2_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/f8a971452d0197f3022defe4715119532fbca03c.jpg",
+              "created_at": "2021-05-11T08:06:10.000000Z",
+              "updated_at": "2026-08-09T23:01:16.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 3085,
+              "hub_id": 11331,
+              "version": "1.1.1",
+              "description": "<p><strong>Confirmed working on SPT 4.0.0+.</strong></p>\n<p>Changelog:</p>\n<p>Fixed case-sensitive string parsing for color enum.\n(Error “Failed to read JSON value for TaxonomyColor” for certain mods.)</p>\n<p>Hey! Thanks for downloading, if you’d like to support my work, you’re more than welcome to support me at the link below or follow along at my Ko-Fi page here:</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/rairaitheraichu\" rel=\"noreferrer noopener\">https://ko-fi.com/rairaitheraichu</a></p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1090/color-converter-api/1.1.1",
+              "content_length": 4836,
+              "spt_version_constraint": "~4.0.0",
+              "downloads": 81776,
+              "fika_compatibility": "compatible",
+              "published_at": "2024-08-13T23:31:00.000000Z",
+              "created_at": "2024-08-13T23:31:41.000000Z",
+              "updated_at": "2026-07-28T06:00:49.000000Z"
+            }
+          ],
+          "category": {
+            "id": 1,
+            "hub_id": 17,
+            "title": "Tools",
+            "slug": "tools",
+            "description": "Various standalone tools and programs that aren't installed like normal mods"
+          }
+        }
+      ]
+    },
+    {
+      "id": 11957,
+      "hub_id": null,
+      "version": "2.0.0",
+      "description": "<ul>\n<li>Updated to C# - SPT 4.0 compatible</li>\n<li>Removed realism compatibility, for now at least</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2037/colored-tracers/2.0.0",
+      "content_length": 10796,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 2388,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-10-21T13:33:00.000000Z",
+      "created_at": "2025-10-21T13:33:42.000000Z",
+      "updated_at": "2026-07-28T06:06:31.000000Z",
+      "dependencies": [
+        {
+          "id": 1090,
+          "hub_id": 1509,
+          "guid": "com.rairai.colorconverterapi.eft",
+          "name": "Color Converter API",
+          "slug": "color-converter-api",
+          "teaser": "Client-side mod to allow using hexcode colors for your items! Custom background colors for your items, or any color tracer you want!",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1509.jpg",
+          "downloads": 98601,
+          "favourites_count": 146,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1090/color-converter-api",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 1,
+          "published_at": "2023-10-08T22:06:00.000000Z",
+          "created_at": "2023-10-08T22:06:19.000000Z",
+          "updated_at": "2026-07-28T06:00:49.000000Z",
+          "owner": {
+            "id": 3576,
+            "name": "RaiRaiTheRaichu",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/b7b8eb01816280f8cac17bf8bcafd05c6ed66378_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2021-03-25T12:16:15.000000Z",
+            "updated_at": "2026-08-04T18:19:06.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 4843,
+              "name": "Terkoiz",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/8ac461c503955b1142399451ed9ea40a98b249c2_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/f8a971452d0197f3022defe4715119532fbca03c.jpg",
+              "created_at": "2021-05-11T08:06:10.000000Z",
+              "updated_at": "2026-08-09T23:01:16.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 3085,
+              "hub_id": 11331,
+              "version": "1.1.1",
+              "description": "<p><strong>Confirmed working on SPT 4.0.0+.</strong></p>\n<p>Changelog:</p>\n<p>Fixed case-sensitive string parsing for color enum.\n(Error “Failed to read JSON value for TaxonomyColor” for certain mods.)</p>\n<p>Hey! Thanks for downloading, if you’d like to support my work, you’re more than welcome to support me at the link below or follow along at my Ko-Fi page here:</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/rairaitheraichu\" rel=\"noreferrer noopener\">https://ko-fi.com/rairaitheraichu</a></p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1090/color-converter-api/1.1.1",
+              "content_length": 4836,
+              "spt_version_constraint": "~4.0.0",
+              "downloads": 81776,
+              "fika_compatibility": "compatible",
+              "published_at": "2024-08-13T23:31:00.000000Z",
+              "created_at": "2024-08-13T23:31:41.000000Z",
+              "updated_at": "2026-07-28T06:00:49.000000Z"
+            }
+          ],
+          "category": {
+            "id": 1,
+            "hub_id": 17,
+            "title": "Tools",
+            "slug": "tools",
+            "description": "Various standalone tools and programs that aren't installed like normal mods"
+          }
+        }
+      ]
+    },
+    {
+      "id": 66,
+      "hub_id": 14835,
+      "version": "1.1.1",
+      "description": "<p>- Fixed some logic</p>\n<p><em>If you changed something in config, just don’t replace it when updating. Nothing changed in it</em></p>\n<p>Sorry!</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2037/colored-tracers/1.1.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1488,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-08-19T23:01:04.000000Z",
+      "created_at": "2025-08-19T23:01:04.000000Z",
+      "updated_at": "2026-05-14T01:38:13.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 67,
+      "hub_id": 14834,
+      "version": "1.1.0",
+      "description": "<p><strong>SPT Version: 3.11</strong></p>\n<p><strong>Updating: Drag &amp; Replace</strong></p>\n<h2><strong>Added</strong></h2>\n<p>- Coloring tracers by bullet background (enabled by default)</p>\n<p>- Information to bullet description about added tracer (disabled by default)</p>\n<p>- Better error handling</p>\n<p><strong>No need to update if you are not using <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/284-ammo-stats-in-description/\" rel=\"noreferrer noopener\">RaiRaiTheRaichu-AmmoStats</a>!</strong></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2037/colored-tracers/1.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 275,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-08-19T12:51:58.000000Z",
+      "created_at": "2025-08-19T12:51:58.000000Z",
+      "updated_at": "2026-05-14T01:38:15.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2037/ColoredTracers.3.0.1.zip",
+    "bytes_written": 14457,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1080471427/4194c3a1-8ddf-4714-a8b8-18bbdd6f6b13?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A23%3A20Z&rscd=attachment%3B+filename%3DColoredTracers.3.0.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A22%3A52Z&ske=2026-08-10T10%3A23%3A20Z&sks=b&skv=2018-11-09&sig=LHA5SleXWYw5eSK2WpmbOvhIaOWeyadrMJIPTAvukrg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTI5NCwibmJmIjoxNzg2MzU0OTk0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.WueNmIekAm7GAaOwgwqvSffaanOCuijnzEjgHVktR4w&response-content-disposition=attachment%3B%20filename%3DColoredTracers.3.0.1.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2037/colored-tracers-3.0.0-spt40.zip",
+    "bytes_written": 13081,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1080471427/afb5afb8-31e5-4ee4-a905-1294ec180ff4?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T12%3A52%3A35Z&rscd=attachment%3B+filename%3DColoredTracers-csharp.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T11%3A51%3A41Z&ske=2026-08-10T12%3A52%3A35Z&sks=b&skv=2018-11-09&sig=elnJc0xK9n%2Fcs7uK5lgNqFcU1eFmlenAnOx7voS04Uw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzU3NSwibmJmIjoxNzg2MzYzMjc1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.7BiKfBVyEJ5EAcmgsi28FbuIYHQSGbOJ7LTd4G5Zo6Y&response-content-disposition=attachment%3B%20filename%3DColoredTracers-csharp.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "3.0.0",
+    "same_as_primary_download": false
+  }
+}

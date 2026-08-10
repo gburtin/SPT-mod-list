@@ -1,0 +1,296 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 164,
+      "hub_id": 279,
+      "guid": "com.terkoiz.freecam",
+      "name": "Freecam",
+      "slug": "freecam",
+      "teaser": "A flying free camera mode for EFT",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/279.png",
+      "downloads": 50398,
+      "favourites_count": 22,
+      "description": "<p><strong>Please do not expect any immediate support for this mod. I don’t have free time to diagnose and fix issues that might come up.</strong></p>\n<p>As the name implies, this mod allows you to detach the camera from your player body and fly around freely.</p>\n<p>While flying around, you can also choose to teleport your player to wherever the camera is currently. Also includes a dedicated button to (mostly) hide the UI - perfect for cinematic shots!</p>\n<p><strong>WARNING:</strong> I highly recommend you don’t disable the fall damage prevention features if you’re planning on using camera teleport - not only are some surfaces outside the play area not solid, it seems that flying to a lower part of the map and teleporting causes you to take fall damage as if you fell the entire distance! This mod is not intended to be used as a cheat in-raid, so don’t expect it to keep you safe/alive when misused.</p>\n<p><strong>How to install:</strong></p>\n<p>Extract the .zip file contents into your SPT root folder (same location where EscapeFromTarkov.exe is).</p>\n<p>Your BepInEx/plugins folder should now contain Terkoiz.Freecam.dll.</p>\n<p><strong>Default Controls:</strong></p>\n<p>Keypad Plus - toggle free camera mode<br />\nKeypad Enter - teleport player to camera position<br />\nKeypad Multiply - toggle UI<br />\nKeypad Dot - toggle player control during freecam</p>\n<p>You can rebind all the controls with the built-in configuration manager plugin (invoked with F12 by default).</p>\n<p><strong>Known issues:</strong></p>\n<ol>\n<li>When teleporting to camera position, the camera rotation gets copied exactly, potentially causing the player model to tilt</li>\n<li>Game version UI element is not hidden when toggling UI</li>\n<li>When flying to distant parts of the map in freecam mode, LODs are not triggered (these seem to follow the player)</li>\n</ol>\n<p><strong>Additional Credits:</strong></p>\n<p>Ashley Davis for the initial Freecam control script (<a target=\"_blank\" class=\"external-link\" href=\"https://gist.github.com/ashleydavis/f025c03a9221bc840a2b\" rel=\"noreferrer noopener\">link</a>)</p>\n<p>My good friend Kars 🇳🇱 for assisting with Unity engine specifics</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/14800-nexus4880/\" rel=\"noreferrer noopener\">nexus4880</a> for the code inspiration to allow a visible player body during freecam mode</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/7008-kobrakon/\" rel=\"noreferrer noopener\">Kobrakon</a> for fixing the mod for SPT 3.2.0 and later<br />\n<a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/12898-cwx/\" rel=\"noreferrer noopener\">CWX</a> for updating the mod and fixing some long-standing issues</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/29422-kaeno/\" rel=\"noreferrer noopener\">Kaeno</a> for continuing to update the mod for latest versions of SPT</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/164/freecam",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2021-06-02T20:29:00.000000Z",
+      "created_at": "2021-06-02T20:29:12.000000Z",
+      "updated_at": "2026-08-02T06:02:13.000000Z",
+      "owner": {
+        "id": 4843,
+        "name": "Terkoiz",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/8ac461c503955b1142399451ed9ea40a98b249c2_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/f8a971452d0197f3022defe4715119532fbca03c.jpg",
+        "created_at": "2021-05-11T08:06:10.000000Z",
+        "updated_at": "2026-08-09T23:01:16.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 48110,
+          "name": "acidphantasm",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/539f89fb275187ce761506de5f60c3a09690ee32_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2024-04-11T21:22:35.000000Z",
+          "updated_at": "2026-08-10T08:08:49.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 14362,
+          "hub_id": null,
+          "version": "1.4.8",
+          "description": "This version is maintained by acidphantasm - Thank Terkoiz for their work\n\nTested on SPT 4.1\n\nChangelog:\n- Updated for SPT 4.1\n\nVirusTotal scan: [link](https://www.virustotal.com/gui/file/cbbbf0484f6dc0f9b34e4854fbf5426b7790d80afff7551266760055a3f82af7?nocache=1)",
+          "link": "https://forge.sp-tarkov.com/mod/download/164/freecam/1.4.8",
+          "content_length": 6017,
+          "spt_version_constraint": "~4.1",
+          "downloads": 1009,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-01T23:43:00.000000Z",
+          "created_at": "2026-08-01T23:43:29.000000Z",
+          "updated_at": "2026-08-02T06:02:13.000000Z"
+        },
+        {
+          "id": 11980,
+          "hub_id": null,
+          "version": "1.4.7",
+          "description": "This version is maintained by acidphantasm - Thank Terkoiz for their work\n\nTested on SPT 4.0\n\nChangelog:\n- Updated for SPT 4.0\n\nVirusTotal scan: [link](https://www.virustotal.com/gui/file/939e3482893675da8197249222ecce26fcaee5cf8136c31eef4ae5fe3a2dc7a2?nocache=1)",
+          "link": "https://forge.sp-tarkov.com/mod/download/164/freecam/1.4.7",
+          "content_length": 6289,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 11006,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-22T22:45:00.000000Z",
+          "created_at": "2025-10-22T22:45:45.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 1124,
+          "hub_id": 13655,
+          "version": "1.4.6",
+          "description": "Tested on SPT 3.11\n\nThank you to [AcidPhantasm](https://hub.sp-tarkov.com/user/51352-acidphantasm/) and [7uzy](https://hub.sp-tarkov.com/user/55092-7uzy/) for helping me test this release.\n\nChangelog:\n\n- Updated for SPT 3.11\n\nVirusTotal scan: [link](https://www.virustotal.com/gui/file/1c835b2a8d0d529ee1fdb403cceb164753d1216a8df4fa1341c1522e9d5f16fb?nocache=1)",
+          "link": "https://forge.sp-tarkov.com/mod/download/164/freecam/1.4.6",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 7625,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-17T18:27:47.000000Z",
+          "created_at": "2025-03-17T18:27:47.000000Z",
+          "updated_at": "2026-05-14T02:04:23.000000Z"
+        },
+        {
+          "id": 2170,
+          "hub_id": 12464,
+          "version": "1.4.5",
+          "description": "Tested on SPT 3.10\n\nChangelog:\n\n- Recompiled for SPT 3.10\n\nVirusTotal scan: [link](https://www.virustotal.com/gui/file/73de104998a2c8922cb163794209865bffbc281981696cdb7388614ef6ed01d3?nocache=1)",
+          "link": "https://forge.sp-tarkov.com/mod/download/164/freecam/1.4.5",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 4682,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-03T10:38:13.000000Z",
+          "created_at": "2024-12-03T10:38:13.000000Z",
+          "updated_at": "2026-05-14T03:14:53.000000Z"
+        },
+        {
+          "id": 3640,
+          "hub_id": 10635,
+          "version": "1.4.4",
+          "description": "**Coldfix:** Adjusted folder casing to fix issue for Linux users.\n\nTested on SPT 3.9.0\n\nChangelog:\n\n- Recompiled for SPT 3.9.0\n\nVirusTotal scan: [link](https://www.virustotal.com/gui/file/665c4aa8dae25ac7044818a2ec32e18c33bce0c2e30b1b05ac2efd28de4b5099?nocache=1)",
+          "link": "https://forge.sp-tarkov.com/mod/download/164/freecam/1.4.4",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 5355,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-08T21:15:52.000000Z",
+          "created_at": "2024-07-08T21:15:52.000000Z",
+          "updated_at": "2024-07-08T21:15:52.000000Z"
+        },
+        {
+          "id": 4911,
+          "hub_id": 9086,
+          "version": "1.4.2",
+          "description": "Tested on SPT-AKI 3.8.0  \n  \nChangelog:\n\n- Recompiled for 3.8.0 support\n\nVirusTotal scan: [link](https://www.virustotal.com/gui/file/1d1879d50700d451cae54f64abeaf6b4c097e5b2b23873e556c2a17175fa7f77?nocache=1)",
+          "link": "https://forge.sp-tarkov.com/mod/download/164/freecam/1.4.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 4967,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-04-02T07:06:53.000000Z",
+          "created_at": "2024-04-02T07:06:53.000000Z",
+          "updated_at": "2024-04-02T07:06:53.000000Z"
+        },
+        {
+          "id": 5037,
+          "hub_id": 8907,
+          "version": "1.4.1",
+          "description": "Tested on SPT-AKI 3.7.2\n\n*Should* work on all SPT-AKI 3.7.X versions\n\nChangelog:\n\n- [GrooveypenguinX](https://hub.sp-tarkov.com/user/34125-grooveypenguinx/) added a feature to toggle Freecam controls, allowing for the player character to be controlled with a detached camera. Thank you, Groovey!\n\nVirusTotal scan: [link](https://www.virustotal.com/gui/file/773c285c0b8ea8c44aca66ddbb416350703c2db109ca5129a871eaa6fe191537?nocache=1)",
+          "link": "https://forge.sp-tarkov.com/mod/download/164/freecam/1.4.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 767,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-03-03T18:34:26.000000Z",
+          "created_at": "2024-03-03T18:34:26.000000Z",
+          "updated_at": "2024-03-03T18:34:26.000000Z"
+        },
+        {
+          "id": 5039,
+          "hub_id": 8904,
+          "version": "1.4.0",
+          "description": "Tested on SPT-AKI 3.7.2  \n*Should* work on all SPT-AKI 3.7.X versions\n\nChangelog:\n\n- Added back the fall damage prevention feature, now in two flavours: \n    - Global Fall Damage Removal - a lot more reliable this time around, hopefully!\n    - Smart Fall Damage Removal - an attempt at leaving fall damage enabled for regular gameplay, but disabling it right after teleporting. May not be as reliable.\n- Redone all setting labels for better readability. This will cause all the settings to reset to their default values - sorry!\n\nVirusTotal scan: [link](https://www.virustotal.com/gui/file/41b93725cf13583ff90893fee4a70490f019c736377751e806b722f1a12552b0?nocache=1)",
+          "link": "https://forge.sp-tarkov.com/mod/download/164/freecam/1.4.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 147,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-03-02T20:36:29.000000Z",
+          "created_at": "2024-03-02T20:36:29.000000Z",
+          "updated_at": "2024-03-02T20:36:29.000000Z"
+        },
+        {
+          "id": 5861,
+          "hub_id": 7860,
+          "version": "1.3.5",
+          "description": "[HiddenCirno](https://hub.sp-tarkov.com/user/24693-hiddencirno/) compiled an updated version of the .dll this time around. Huge thanks to them!\n\nChangelog:\n\n- Updated for SPT-AKI 3.7.1",
+          "link": "https://forge.sp-tarkov.com/mod/download/164/freecam/1.3.5",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 3047,
+          "fika_compatibility": "unknown",
+          "published_at": "2023-10-15T12:08:12.000000Z",
+          "created_at": "2023-10-15T12:08:12.000000Z",
+          "updated_at": "2023-10-15T12:08:12.000000Z"
+        },
+        {
+          "id": 6056,
+          "hub_id": 7619,
+          "version": "1.3.4",
+          "description": "[Kaeno](https://hub.sp-tarkov.com/user/29422-kaeno/) once again pulling through and updating Freecam. Show him some love!\n\nChangelog:\n\n- Updated for SPT-AKI 3.7.0",
+          "link": "https://forge.sp-tarkov.com/mod/download/164/freecam/1.3.4",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 605,
+          "fika_compatibility": "unknown",
+          "published_at": "2023-10-09T07:03:32.000000Z",
+          "created_at": "2023-10-09T07:03:32.000000Z",
+          "updated_at": "2023-10-09T07:03:32.000000Z"
+        }
+      ],
+      "license": {
+        "id": 14,
+        "hub_id": 17,
+        "name": "University of Illinois/NCSA Open Source License",
+        "link": "https://choosealicense.com/licenses/ncsa/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/acidphantasm/SPT-Freecam",
+          "label": "Current"
+        },
+        {
+          "url": "https://github.com/TerkoizLT/SPT-Freecam",
+          "label": "OG"
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14362,
+      "hub_id": null,
+      "version": "1.4.8",
+      "description": "<p>This version is maintained by acidphantasm - Thank Terkoiz for their work</p>\n<p>Tested on SPT 4.1</p>\n<p>Changelog:</p>\n<ul>\n<li>Updated for SPT 4.1</li>\n</ul>\n<p>VirusTotal scan: <a target=\"_blank\" class=\"external-link\" href=\"https://www.virustotal.com/gui/file/cbbbf0484f6dc0f9b34e4854fbf5426b7790d80afff7551266760055a3f82af7?nocache=1\" rel=\"noreferrer noopener\">link</a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/164/freecam/1.4.8",
+      "content_length": 6017,
+      "spt_version_constraint": "~4.1",
+      "downloads": 1009,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-01T23:43:00.000000Z",
+      "created_at": "2026-08-01T23:43:29.000000Z",
+      "updated_at": "2026-08-02T06:02:13.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11980,
+      "hub_id": null,
+      "version": "1.4.7",
+      "description": "<p>This version is maintained by acidphantasm - Thank Terkoiz for their work</p>\n<p>Tested on SPT 4.0</p>\n<p>Changelog:</p>\n<ul>\n<li>Updated for SPT 4.0</li>\n</ul>\n<p>VirusTotal scan: <a target=\"_blank\" class=\"external-link\" href=\"https://www.virustotal.com/gui/file/939e3482893675da8197249222ecce26fcaee5cf8136c31eef4ae5fe3a2dc7a2?nocache=1\" rel=\"noreferrer noopener\">link</a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/164/freecam/1.4.7",
+      "content_length": 6289,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 11006,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-22T22:45:00.000000Z",
+      "created_at": "2025-10-22T22:45:45.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1124,
+      "hub_id": 13655,
+      "version": "1.4.6",
+      "description": "<p>Tested on SPT 3.11</p>\n<p>Thank you to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/51352-acidphantasm/\" rel=\"noreferrer noopener\">AcidPhantasm</a> and <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/55092-7uzy/\" rel=\"noreferrer noopener\">7uzy</a> for helping me test this release.</p>\n<p>Changelog:</p>\n<ul>\n<li>Updated for SPT 3.11</li>\n</ul>\n<p>VirusTotal scan: <a target=\"_blank\" class=\"external-link\" href=\"https://www.virustotal.com/gui/file/1c835b2a8d0d529ee1fdb403cceb164753d1216a8df4fa1341c1522e9d5f16fb?nocache=1\" rel=\"noreferrer noopener\">link</a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/164/freecam/1.4.6",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 7625,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-17T18:27:47.000000Z",
+      "created_at": "2025-03-17T18:27:47.000000Z",
+      "updated_at": "2026-05-14T02:04:23.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2170,
+      "hub_id": 12464,
+      "version": "1.4.5",
+      "description": "<p>Tested on SPT 3.10</p>\n<p>Changelog:</p>\n<ul>\n<li>Recompiled for SPT 3.10</li>\n</ul>\n<p>VirusTotal scan: <a target=\"_blank\" class=\"external-link\" href=\"https://www.virustotal.com/gui/file/73de104998a2c8922cb163794209865bffbc281981696cdb7388614ef6ed01d3?nocache=1\" rel=\"noreferrer noopener\">link</a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/164/freecam/1.4.5",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 4682,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-12-03T10:38:13.000000Z",
+      "created_at": "2024-12-03T10:38:13.000000Z",
+      "updated_at": "2026-05-14T03:14:53.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/164/Terkoiz.Freecam.7z",
+    "bytes_written": 6017,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1078025672/53e44cd4-3888-4e12-b297-5288e46567f0?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A22%3A23Z&rscd=attachment%3B+filename%3DTerkoiz.Freecam.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A21%3A50Z&ske=2026-08-10T10%3A22%3A23Z&sks=b&skv=2018-11-09&sig=8e%2F%2FcM2rvMymDyCvbKPwHSuD%2Bs%2B8Mf0jjudYkZzx%2Fqw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTExMiwibmJmIjoxNzg2MzU0ODEyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ._VS_I6GwenIXakiSFA5Xxnd70xZuq53Nk4MsSy7r_ss&response-content-disposition=attachment%3B%20filename%3DTerkoiz.Freecam.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/164/freecam-1.4.7-spt40.7z",
+    "bytes_written": 6289,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1078025672/e1684dc3-d4a9-43bb-87fb-075f35d1e19a?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T12%3A40%3A28Z&rscd=attachment%3B+filename%3DTerkoiz-Freecam.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T11%3A39%3A47Z&ske=2026-08-10T12%3A40%3A28Z&sks=b&skv=2018-11-09&sig=mbgfQoYPM3Ni6kiLV2Rj63oKMdJljn4mTBL69sNCEXk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzUwNywibmJmIjoxNzg2MzYzMjA3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.GTDQk1Dxhk_vcaBkHYbveS37WwNCMWUDz1gm-vDXYCg&response-content-disposition=attachment%3B%20filename%3DTerkoiz-Freecam.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.4.7",
+    "same_as_primary_download": false
+  }
+}

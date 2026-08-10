@@ -1,0 +1,107 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2702,
+      "hub_id": null,
+      "guid": "butterfingers.j08044",
+      "name": "Butterfingers",
+      "slug": "butterfingers",
+      "teaser": "\"oh crap my gun jammed- wait why did it drop OH NO\"",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/brNsrJJrLvJ6UvlCOS3JftAJr9rxibSgl5E2LOQp.png",
+      "downloads": 220,
+      "favourites_count": 1,
+      "description": "<p>Adds a configurable (F12) % chance that your gun can drop upon ANY malfunction. I wish you good luck if you download this (why would you??)\nI do not know if this mod conflicts with anything (as far as I know it probably shouldn’t). Oh and this probably works on fika? but idk, if anyone dares download this and uses fika and it somehow works let me know and ill update the compatibility part</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2702/butterfingers",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2026-05-22T08:42:00.000000Z",
+      "created_at": "2026-05-22T09:05:51.000000Z",
+      "updated_at": "2026-07-28T09:02:35.000000Z",
+      "owner": {
+        "id": 113294,
+        "name": "Jakey08044",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/hIoZkoI8Im9pi7abBMD3e1ZxgFIX4u37FoQwWMMd_256w.webp",
+        "cover_photo_url": null,
+        "created_at": "2026-05-22T08:24:47.000000Z",
+        "updated_at": "2026-07-10T04:55:59.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 13634,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "first version",
+          "link": "https://forge.sp-tarkov.com/mod/download/2702/butterfingers/1.0.0",
+          "content_length": 4234,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 220,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-05-22T09:09:00.000000Z",
+          "created_at": "2026-05-22T09:10:15.000000Z",
+          "updated_at": "2026-07-28T09:02:35.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/jakey0804/Butterfingers",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 13634,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>first version</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2702/butterfingers/1.0.0",
+      "content_length": 4234,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 220,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-05-22T09:09:00.000000Z",
+      "created_at": "2026-05-22T09:10:15.000000Z",
+      "updated_at": "2026-07-28T09:02:35.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2702/Butterfingers.1.0.0.zip",
+    "bytes_written": 4234,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1246498600/f0e91c50-6c03-4a77-8d8e-e9d0df450c7d?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A50%3A35Z&rscd=attachment%3B+filename%3DButterfingers.1.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A49%3A54Z&ske=2026-08-10T10%3A50%3A35Z&sks=b&skv=2018-11-09&sig=vIiDZ0iiJerAZZhmwx2VuOoZ9Eo52uFA9a0fkDiYFQI%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTc4MywibmJmIjoxNzg2MzU1NDgzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.z0rKIZa_SPzYOw8mmrC_f2tOPkVJSOhuqUg1DiVxTnQ&response-content-disposition=attachment%3B%20filename%3DButterfingers.1.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

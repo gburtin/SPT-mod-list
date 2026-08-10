@@ -1,0 +1,136 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2371,
+      "hub_id": null,
+      "guid": "de.tosox.firfencepurchases",
+      "name": "FIR Fence Purchases",
+      "slug": "fir-fence-purchases",
+      "teaser": "Give Fence’s stock a boost! This simple mod ensures that every item you buy from Fence is marked as Found in Raid.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/TDO94P3WaJ2xSw8QudPZPYINLY1rkUQShE8LAIjk.png",
+      "downloads": 8557,
+      "favourites_count": 21,
+      "description": "<h2>📜 Description</h2>\n<p><strong>FIR Fence Purchases</strong> is a mod for <em>Single Player Tarkov</em> that marks every bought item from Fence as Found in Raid.</p>\n<hr />\n<h2>📁 Installation</h2>\n<ul>\n<li>Download the latest release</li>\n<li>Copy the <code>SPT</code> folder into your SPT installation folder</li>\n<li>Start the game</li>\n</ul>\n<hr />\n<h2>📷 Preview</h2>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://github.com/Tosox/SPT-FIRFencePurchases/blob/master/readme-res/fence_assort.png?raw=true\" alt=\"\" /></p>\n<hr />\n<h2>📄 License</h2>\n<p>Distributed under the MIT License. See <code>LICENSE</code> for more information.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2371/fir-fence-purchases",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 16,
+      "published_at": "2025-10-15T15:34:00.000000Z",
+      "created_at": "2025-10-15T09:47:51.000000Z",
+      "updated_at": "2026-08-04T15:06:12.000000Z",
+      "owner": {
+        "id": 79394,
+        "name": "Tosox",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/tAww2g8u6oEwIXCe2oIEv40ZD1KOqdY5JV03LVbl_256w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-05-24T17:22:53.000000Z",
+        "updated_at": "2026-08-10T10:15:42.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11854,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "* SPT4 support",
+          "link": "https://forge.sp-tarkov.com/mod/download/2371/fir-fence-purchases/1.0.0",
+          "content_length": 6037,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 8081,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-10-15T15:26:00.000000Z",
+          "created_at": "2025-10-15T15:26:58.000000Z",
+          "updated_at": "2026-08-01T17:09:07.000000Z"
+        },
+        {
+          "id": 11851,
+          "hub_id": null,
+          "version": "0.9.0",
+          "description": "* Initial release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2371/fir-fence-purchases/0.9.0",
+          "content_length": 972946,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 476,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-10-15T09:49:00.000000Z",
+          "created_at": "2025-10-15T09:49:18.000000Z",
+          "updated_at": "2026-08-01T17:08:43.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 16,
+        "hub_id": 29,
+        "title": "Traders",
+        "slug": "traders",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Tosox/SPT-FIRFencePurchases",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11854,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<ul>\n<li>SPT4 support</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2371/fir-fence-purchases/1.0.0",
+      "content_length": 6037,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 8081,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-10-15T15:26:00.000000Z",
+      "created_at": "2025-10-15T15:26:58.000000Z",
+      "updated_at": "2026-08-01T17:09:07.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11851,
+      "hub_id": null,
+      "version": "0.9.0",
+      "description": "<ul>\n<li>Initial release</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2371/fir-fence-purchases/0.9.0",
+      "content_length": 972946,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 476,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-10-15T09:49:00.000000Z",
+      "created_at": "2025-10-15T09:49:18.000000Z",
+      "updated_at": "2026-08-01T17:08:43.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2371/Tosox.FIRFencePurchases-v1.0.0.zip",
+    "bytes_written": 6037,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1076739335/5a1508cc-66d6-4c1c-916c-629fbd06dc10?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A50%3A03Z&rscd=attachment%3B+filename%3DTosox.FIRFencePurchases-v1.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A49%3A55Z&ske=2026-08-10T10%3A50%3A03Z&sks=b&skv=2018-11-09&sig=7hmId%2F6Xx%2Ff5q%2FJlQri9oE4q%2BWlXVjtAF6O2M48lU78%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NzI3MiwibmJmIjoxNzg2MzU2OTcyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.VqD2HVJn-rSboQyTPm0f9QTdWjmRKVVO2jC1fg-_9_Y&response-content-disposition=attachment%3B%20filename%3DTosox.FIRFencePurchases-v1.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

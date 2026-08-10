@@ -1,0 +1,254 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1343,
+      "hub_id": 1861,
+      "guid": "com.terkoiz.skipper",
+      "name": "Skipper",
+      "slug": "skipper",
+      "teaser": "A small client mod for conveniently skipping quests",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/1861.png",
+      "downloads": 307109,
+      "favourites_count": 244,
+      "description": "<p>Simply adds a “Skip” button next to quest conditions <strong>in the trader quest screens</strong>, letting you easily autocomplete any task.</p>\n<p>The default hotkey to make the Skip buttons appear is Left Control!<br />\n(you need to hold the button down)</p>\n<p>The binding can be changed in the F12 menu.</p>\n<p>Huge thanks to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/18717-amands2mello/\" rel=\"noreferrer noopener\">Amands2Mello</a> for the awesome mod icon</p>\n<p>Big thanks to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/24144-devraccoon/\" rel=\"noreferrer noopener\">Hazel</a> for compiling the 3.9 and 3.10 releases of this mod</p>\n<p><strong>Known issues:</strong></p>\n<ul>\n<li>Toggling the mod via configuration manager requires you to navigate away and back to the quest task screen for changes to apply</li>\n<li>Quest condition completion status isn’t saved to profile for now. Please only autocomplete conditions when you’re ready to actually complete the quest, otherwise the skipped conditions will reset to previous values after a raid or game restart!</li>\n</ul>\n<p><em>Self-control not included</em></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1343/skipper",
+      "fika_compatibility": false,
+      "featured": true,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2024-04-19T15:27:00.000000Z",
+      "created_at": "2024-04-19T15:27:58.000000Z",
+      "updated_at": "2026-08-09T22:57:03.000000Z",
+      "owner": {
+        "id": 4843,
+        "name": "Terkoiz",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/8ac461c503955b1142399451ed9ea40a98b249c2_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/f8a971452d0197f3022defe4715119532fbca03c.jpg",
+        "created_at": "2021-05-11T08:06:10.000000Z",
+        "updated_at": "2026-08-09T23:01:16.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 48110,
+          "name": "acidphantasm",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/539f89fb275187ce761506de5f60c3a09690ee32_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2024-04-11T21:22:35.000000Z",
+          "updated_at": "2026-08-10T08:08:49.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 14581,
+          "hub_id": null,
+          "version": "1.1.5",
+          "description": "For SPT 4.1\n\nThis version is maintained by acidphantasm - Thank Terkoiz for their work\n\nChangelog:\n- Updated for SPT 4.1\n- Reworked logic\n- Packaged dll into Terkoiz.Skipper folder\n\nVirusTotal scan: [link](https://www.virustotal.com/gui/file/10202133386759859db18337f4621912f2f2972391a0ed45b5cd9fed4512d452)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1343/skipper/1.1.5",
+          "content_length": 5511,
+          "spt_version_constraint": "~4.1",
+          "downloads": 2716,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-09T07:42:00.000000Z",
+          "created_at": "2026-08-09T07:45:17.000000Z",
+          "updated_at": "2026-08-09T22:57:03.000000Z"
+        },
+        {
+          "id": 11982,
+          "hub_id": null,
+          "version": "1.1.4",
+          "description": "For SPT 4.0\n\nThis version is maintained by acidphantasm - Thank Terkoiz for their work\n\nChangelog:\n- Updated for SPT 4.0\n\nVirusTotal scan: [link](https://www.virustotal.com/gui/file/c535112eff8fd6e52f4d1cf0cee1c515fc887c4a17065cbace05a6bae6eb045a?nocache=1)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1343/skipper/1.1.4",
+          "content_length": 5182,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 122809,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-23T00:08:00.000000Z",
+          "created_at": "2025-10-23T00:09:04.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 1125,
+          "hub_id": 13654,
+          "version": "1.1.3",
+          "description": "For SPT 3.11\n\nThank you to [AcidPhantasm](https://hub.sp-tarkov.com/user/51352-acidphantasm/) and [7uzy](https://hub.sp-tarkov.com/user/55092-7uzy/) for helping me test this release.\n\nChangelog:\n\n- Updated for SPT 3.11\n\nVirusTotal scan: [link](https://www.virustotal.com/gui/file/45b50f5b29d5506955994140193290168274af26220085ee08aaacf8bdbd69a5?nocache=1)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1343/skipper/1.1.3",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 71288,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-17T18:19:09.000000Z",
+          "created_at": "2025-03-17T18:19:09.000000Z",
+          "updated_at": "2026-05-14T02:04:24.000000Z"
+        },
+        {
+          "id": 2316,
+          "hub_id": 12291,
+          "version": "1.1.2",
+          "description": "For SPT 3.10\n\n**Big shoutout to [Hazel](https://hub.sp-tarkov.com/user/24144-devraccoon/) for compiling this release**\n\nChangelog:\n\n- Recompiled for SPT 3.10\n\nVirusTotal scan: [link](https://www.virustotal.com/gui/file/fd98f5475ca3108cb03eee3b1b0667402284d944d206762ef2e0313e711e2cdb?nocache=1)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1343/skipper/1.1.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 42144,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-26T20:15:45.000000Z",
+          "created_at": "2024-11-26T20:15:45.000000Z",
+          "updated_at": "2026-05-14T03:19:40.000000Z"
+        },
+        {
+          "id": 3710,
+          "hub_id": 10548,
+          "version": "1.1.1",
+          "description": "For SPT 3.9.0\n\n  \n**Big shoutout to [Hazel](https://hub.sp-tarkov.com/user/24144-devraccoon/) for compiling this release**\n\nChangelog:\n\n- Recompiled for SPT 3.9.0\n\nVirusTotal scan: [link](https://www.virustotal.com/gui/file-analysis/NWZkOWEzOGNhMDYwM2I2Y2Y2OGQ3Nzk3ZDZlMWU2MWE6MTcyMDM2MjY2OQ==)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1343/skipper/1.1.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 39543,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-07T14:33:20.000000Z",
+          "created_at": "2024-07-07T14:33:20.000000Z",
+          "updated_at": "2024-07-07T14:33:20.000000Z"
+        },
+        {
+          "id": 4523,
+          "hub_id": 9536,
+          "version": "1.1.0",
+          "description": "For SPT-AKI 3.8.0\n\nChangelog:\n\n- Added feature to display Skip buttons when a hotkey is held down\n\nVirusTotal scan: [link](https://www.virustotal.com/gui/file/e68f98f21c95bbe5342e47e1c71adb19d5fbfaaa3501a456f59e65a5d0762bb2?nocache=1)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1343/skipper/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 27999,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-04-19T18:07:30.000000Z",
+          "created_at": "2024-04-19T18:07:30.000000Z",
+          "updated_at": "2024-04-19T18:07:30.000000Z"
+        },
+        {
+          "id": 4525,
+          "hub_id": 9534,
+          "version": "1.0.0",
+          "description": "For SPT-AKI 3.8.0\n\nVirusTotal scan: [link](https://www.virustotal.com/gui/file/c832062a781a6ce631996ce42ead5f7e9d92ad38b4510a2dde8e955e73a5d51b?nocache=1)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1343/skipper/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 610,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-04-19T15:27:58.000000Z",
+          "created_at": "2024-04-19T15:27:58.000000Z",
+          "updated_at": "2024-04-19T15:27:58.000000Z"
+        }
+      ],
+      "license": {
+        "id": 14,
+        "hub_id": 17,
+        "name": "University of Illinois/NCSA Open Source License",
+        "link": "https://choosealicense.com/licenses/ncsa/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/TerkoizLT/SPT-Skipper",
+          "label": "3.11"
+        },
+        {
+          "url": "https://github.com/acidphantasm/SPT-Skipper",
+          "label": "4.0"
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14581,
+      "hub_id": null,
+      "version": "1.1.5",
+      "description": "<p>For SPT 4.1</p>\n<p>This version is maintained by acidphantasm - Thank Terkoiz for their work</p>\n<p>Changelog:</p>\n<ul>\n<li>Updated for SPT 4.1</li>\n<li>Reworked logic</li>\n<li>Packaged dll into Terkoiz.Skipper folder</li>\n</ul>\n<p>VirusTotal scan: <a target=\"_blank\" class=\"external-link\" href=\"https://www.virustotal.com/gui/file/10202133386759859db18337f4621912f2f2972391a0ed45b5cd9fed4512d452\" rel=\"noreferrer noopener\">link</a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1343/skipper/1.1.5",
+      "content_length": 5511,
+      "spt_version_constraint": "~4.1",
+      "downloads": 2716,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-09T07:42:00.000000Z",
+      "created_at": "2026-08-09T07:45:17.000000Z",
+      "updated_at": "2026-08-09T22:57:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11982,
+      "hub_id": null,
+      "version": "1.1.4",
+      "description": "<p>For SPT 4.0</p>\n<p>This version is maintained by acidphantasm - Thank Terkoiz for their work</p>\n<p>Changelog:</p>\n<ul>\n<li>Updated for SPT 4.0</li>\n</ul>\n<p>VirusTotal scan: <a target=\"_blank\" class=\"external-link\" href=\"https://www.virustotal.com/gui/file/c535112eff8fd6e52f4d1cf0cee1c515fc887c4a17065cbace05a6bae6eb045a?nocache=1\" rel=\"noreferrer noopener\">link</a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1343/skipper/1.1.4",
+      "content_length": 5182,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 122809,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-23T00:08:00.000000Z",
+      "created_at": "2025-10-23T00:09:04.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1125,
+      "hub_id": 13654,
+      "version": "1.1.3",
+      "description": "<p>For SPT 3.11</p>\n<p>Thank you to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/51352-acidphantasm/\" rel=\"noreferrer noopener\">AcidPhantasm</a> and <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/55092-7uzy/\" rel=\"noreferrer noopener\">7uzy</a> for helping me test this release.</p>\n<p>Changelog:</p>\n<ul>\n<li>Updated for SPT 3.11</li>\n</ul>\n<p>VirusTotal scan: <a target=\"_blank\" class=\"external-link\" href=\"https://www.virustotal.com/gui/file/45b50f5b29d5506955994140193290168274af26220085ee08aaacf8bdbd69a5?nocache=1\" rel=\"noreferrer noopener\">link</a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1343/skipper/1.1.3",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 71288,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-17T18:19:09.000000Z",
+      "created_at": "2025-03-17T18:19:09.000000Z",
+      "updated_at": "2026-05-14T02:04:24.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2316,
+      "hub_id": 12291,
+      "version": "1.1.2",
+      "description": "<p>For SPT 3.10</p>\n<p><strong>Big shoutout to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/24144-devraccoon/\" rel=\"noreferrer noopener\">Hazel</a> for compiling this release</strong></p>\n<p>Changelog:</p>\n<ul>\n<li>Recompiled for SPT 3.10</li>\n</ul>\n<p>VirusTotal scan: <a target=\"_blank\" class=\"external-link\" href=\"https://www.virustotal.com/gui/file/fd98f5475ca3108cb03eee3b1b0667402284d944d206762ef2e0313e711e2cdb?nocache=1\" rel=\"noreferrer noopener\">link</a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1343/skipper/1.1.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 42144,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-11-26T20:15:45.000000Z",
+      "created_at": "2024-11-26T20:15:45.000000Z",
+      "updated_at": "2026-05-14T03:19:40.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1343/Terkoiz.Skipper.zip",
+    "bytes_written": 5511,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1081520539/3586ee37-8db6-4c81-aca9-f8c527b29453?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A22%3A16Z&rscd=attachment%3B+filename%3DTerkoiz.Skipper.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A21%3A32Z&ske=2026-08-10T10%3A22%3A16Z&sks=b&skv=2018-11-09&sig=aAmgpPALxCbadZlJp9OxarL0MDNVymQAlZpaD9JhmzY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTM3NCwibmJmIjoxNzg2MzU1MDc0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Q5VgjwMolh5To8Ita2HDirU-4WHz6luq5K1p_9OshbI&response-content-disposition=attachment%3B%20filename%3DTerkoiz.Skipper.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1343/skipper-1.1.4-spt40.7z",
+    "bytes_written": 5182,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1081520539/76530353-ed06-4094-ad37-e15489e0f60f?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T12%3A50%3A38Z&rscd=attachment%3B+filename%3DTerkoiz-Skipper.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T11%3A50%3A37Z&ske=2026-08-10T12%3A50%3A38Z&sks=b&skv=2018-11-09&sig=apUCD84Cn%2BAbkfofRG2ne0CYRgkqgICzLdNZQhZUN9s%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzQ5MiwibmJmIjoxNzg2MzYzMTkyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.KTzTkdEOtrO7R6ooL3Z51D0HtJap2QesmnD_aykfSnc&response-content-disposition=attachment%3B%20filename%3DTerkoiz-Skipper.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.1.4",
+    "same_as_primary_download": false
+  }
+}

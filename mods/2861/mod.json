@@ -1,0 +1,170 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2861,
+      "hub_id": null,
+      "guid": "com.pein.tarkovredactor",
+      "name": "[REDACTED] Redactor",
+      "slug": "redacted-redactor",
+      "teaser": "when were u when spt was kil",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/HrTDsvbWOQC9MFootg87SDknbhX4XyVxXnFaXCsJ.png",
+      "downloads": 893,
+      "favourites_count": 5,
+      "description": "<h3>Introduction</h3>\n<p>This mod redacts all references to [REDACTED] due to the recent c&amp;d SP[R] received.</p>\n<h3>Preview</h3>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/peinwastaken/TarkovRedactor/refs/heads/master/Images/preview.webp\" alt=\"https://raw.githubusercontent.com/peinwastaken/TarkovRedactor/refs/heads/master/Images/preview.webp\" /></p>\n<div class=\"youtube-lite\" data-video-id=\"OiZeQ9PY6RQ\" data-embed-url=\"https://www.youtube-nocookie.com/embed/OiZeQ9PY6RQ?autoplay=1\"><img src=\"https://i.ytimg.com/vi/OiZeQ9PY6RQ/hqdefault.jpg\" alt=\"YouTube video thumbnail\" loading=\"lazy\" decoding=\"async\" /></div>\n<h3>Installation</h3>\n<p>Drag and drop.</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://i.imgur.com/wByb5Ln.gif\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/wByb5Ln.gif\" alt=\"wByb5Ln.gif\" /></a></p>\n<h3>Thanks</h3>\n<p>Massive thank you to:</p>\n<ul>\n<li>chatgpt</li>\n</ul>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2861/redacted-redactor",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2026-07-31T15:10:00.000000Z",
+      "created_at": "2026-07-31T15:09:43.000000Z",
+      "updated_at": "2026-08-02T13:56:04.000000Z",
+      "owner": {
+        "id": 12179,
+        "name": "pein",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=p&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/0nesldn7JSutui4nqPF0GyFFSoQKV6zImNcy5brD.jpg",
+        "created_at": "2021-12-14T17:06:03.000000Z",
+        "updated_at": "2026-08-10T07:44:57.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14332,
+          "hub_id": null,
+          "version": "1.0.2",
+          "description": "- Updated for SP[R] 4.1.0\n- Fixed an issue where the main menu logo would not be redacted",
+          "link": "https://forge.sp-tarkov.com/mod/download/2861/redacted-redactor/1.0.2",
+          "content_length": 134020,
+          "spt_version_constraint": "~4.1.0",
+          "downloads": 556,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-01T17:19:00.000000Z",
+          "created_at": "2026-08-01T17:19:29.000000Z",
+          "updated_at": "2026-08-01T18:02:17.000000Z"
+        },
+        {
+          "id": 14321,
+          "hub_id": null,
+          "version": "1.0.1",
+          "description": "- Added new strings for better compliancy with the c&d, the full list of which is below\n  - [REDACTED]\n  - [REDACTED]\n  - [REDACTED]\n  - [REDACTED]\n  - [REDACTED]\n  - [REDACTED]\n  - [REDACTED]\n- Added mod icon. oops",
+          "link": "https://forge.sp-tarkov.com/mod/download/2861/redacted-redactor/1.0.1",
+          "content_length": 133829,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 228,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-01T04:59:00.000000Z",
+          "created_at": "2026-08-01T04:58:44.000000Z",
+          "updated_at": "2026-08-01T16:25:11.000000Z"
+        },
+        {
+          "id": 14308,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "initial release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2861/redacted-redactor/1.0.0",
+          "content_length": 133094,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 109,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-31T15:09:00.000000Z",
+          "created_at": "2026-07-31T15:10:08.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/peinwastaken/TarkovRedactor",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14332,
+      "hub_id": null,
+      "version": "1.0.2",
+      "description": "<ul>\n<li>Updated for SP[R] 4.1.0</li>\n<li>Fixed an issue where the main menu logo would not be redacted</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2861/redacted-redactor/1.0.2",
+      "content_length": 134020,
+      "spt_version_constraint": "~4.1.0",
+      "downloads": 556,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-01T17:19:00.000000Z",
+      "created_at": "2026-08-01T17:19:29.000000Z",
+      "updated_at": "2026-08-01T18:02:17.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14321,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<ul>\n<li>Added new strings for better compliancy with the c&amp;d, the full list of which is below\n<ul>\n<li>[REDACTED]</li>\n<li>[REDACTED]</li>\n<li>[REDACTED]</li>\n<li>[REDACTED]</li>\n<li>[REDACTED]</li>\n<li>[REDACTED]</li>\n<li>[REDACTED]</li>\n</ul>\n</li>\n<li>Added mod icon. oops</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2861/redacted-redactor/1.0.1",
+      "content_length": 133829,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 228,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-01T04:59:00.000000Z",
+      "created_at": "2026-08-01T04:58:44.000000Z",
+      "updated_at": "2026-08-01T16:25:11.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14308,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>initial release</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2861/redacted-redactor/1.0.0",
+      "content_length": 133094,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 109,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-31T15:09:00.000000Z",
+      "created_at": "2026-07-31T15:10:08.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2861/redactor_mod.7z",
+    "bytes_written": 134020,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1318453712/7ffc93c6-f88a-4d29-a3e0-10b9e107e93a?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A22%3A48Z&rscd=attachment%3B+filename%3Dredactor_mod.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A21%3A51Z&ske=2026-08-10T10%3A22%3A48Z&sks=b&skv=2018-11-09&sig=C2D48HyoO6oy6JL6X%2BwRLn0rbd6NZIqxK30c%2F1BTMGo%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTUyMSwibmJmIjoxNzg2MzU1MjIxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.iwGbgraeD-jvbFQm0-EQy9kmZdELK-H_8s3fRr2wqos&response-content-disposition=attachment%3B%20filename%3Dredactor_mod.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2861/redacted-redactor-1.0.1-spt40.7z",
+    "bytes_written": 133829,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1318453712/a1618d0d-f927-4b91-b67a-b67601369fcb?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T12%3A47%3A31Z&rscd=attachment%3B+filename%3Dredactor_mod.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T11%3A47%3A31Z&ske=2026-08-10T12%3A47%3A31Z&sks=b&skv=2018-11-09&sig=Tis4xu7I9%2BlcKYxQ6yJ0ajEuJH9YEsumXGmmvbXJTMc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzY3NywibmJmIjoxNzg2MzYzMzc3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.rl9RYIRvqYRC01CoUAieNyufa3_HPZ4yChYwqurMw8M&response-content-disposition=attachment%3B%20filename%3Dredactor_mod.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.0.1",
+    "same_as_primary_download": false
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2796,
+      "hub_id": null,
+      "guid": "spark.hiddenhiragi.freedomtarkov",
+      "name": "FreedomTarkov",
+      "slug": "freedomtarkov",
+      "teaser": "Manual manage all danger zones by your self, enable or disable them.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/QcnyXFgMnQkzK2f0qxc0ZWjTmAjV6AdddJBo9G7N.png",
+      "downloads": 993,
+      "favourites_count": 10,
+      "description": "<p>This mod allows you manual manage danger zones in game, such as map sniper, mines or mon-50(claymore mines).</p>\n<p>And include all of Labyrinth’s puzzle trap, and air walls.</p>\n<p>every zones could be enable or disable real-time in configuration menu.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2796/freedomtarkov",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>for cover images</p>\n",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2026-07-04T09:03:00.000000Z",
+      "created_at": "2026-07-04T09:06:43.000000Z",
+      "updated_at": "2026-07-28T09:25:36.000000Z",
+      "owner": {
+        "id": 21463,
+        "name": "HiddenCirno",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/xXNkgFxfCKBqq3AAckNev9HvY3hZOFL5VEmTEPvC_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2022-08-07T06:48:02.000000Z",
+        "updated_at": "2026-08-10T06:31:16.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 13986,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2796/freedomtarkov/1.0.0",
+          "content_length": 19798,
+          "spt_version_constraint": "~4.0.13",
+          "downloads": 993,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-04T09:07:00.000000Z",
+          "created_at": "2026-07-04T09:09:08.000000Z",
+          "updated_at": "2026-07-28T09:25:36.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/HiddenCirno/FreedomTarkov",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 13986,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>release</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2796/freedomtarkov/1.0.0",
+      "content_length": 19798,
+      "spt_version_constraint": "~4.0.13",
+      "downloads": 993,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-04T09:07:00.000000Z",
+      "created_at": "2026-07-04T09:09:08.000000Z",
+      "updated_at": "2026-07-28T09:25:36.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2796/FreedomTarkov.zip",
+    "bytes_written": 19798,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1289030343/a524d28f-9812-4b08-978e-87e20dd4ef21?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A50%3A31Z&rscd=attachment%3B+filename%3DFreedomTarkov.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A50%3A03Z&ske=2026-08-10T10%3A50%3A31Z&sks=b&skv=2018-11-09&sig=xT1fbI%2BF12IXvH6XMtpFS8syxZAyM1giL8G9u5Cp72s%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTkyNiwibmJmIjoxNzg2MzU1NjI2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Dr8JvJ4E3FAKbg2DtPzhFTkIU1yZdhr9K5rXuNh_17w&response-content-disposition=attachment%3B%20filename%3DFreedomTarkov.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

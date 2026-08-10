@@ -1,0 +1,203 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2011,
+      "hub_id": 2691,
+      "guid": "com.rukiragaming.actuallyfir",
+      "name": "Actually Found In Raid (UPDATED)",
+      "slug": "actually-found-in-raid-updated",
+      "teaser": "Tired of killing a PMC and the loot isn't \"Found In Raid\", even though you literally just found it in the raid? Actually Found In Raid will make sure that AI PMCs spawn with all items as Found In Raid.",
+      "thumbnail": "",
+      "downloads": 24083,
+      "favourites_count": 47,
+      "description": "<p><strong>About</strong></p>\n<p>Actually Found In Raid is a simple client side mod that will ensure all AI PMCs items are spawned as Found In Raid. Now when you loot a PMC, the items will be Found In Raid, like they should be, at least in my opinion.</p>\n<p>The mod can be toggled on/off using Configuration Manager.</p>\n<p>Place the dll file in your BepInEx/plugins folder.</p>\n<blockquote>\n<p>DO NOT USE WITH FIKA, FIKA HAS IT’S OWN FIR SETTINGS</p>\n</blockquote>\n<p>original mod by <a target=\"_blank\" class=\"external-link\" href=\"http://hub.sp-tarkov.com/files/file/2340-actually-found-in-raid/\" rel=\"noreferrer noopener\">privateryan  </a>permission granted by the SPT Staff Team</p>\n<h2>Shameless Plug</h2>\n<p>[MOD] <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2520-gunsmith-tweaks/\" rel=\"noreferrer noopener\">Gunsmith Tweaks</a> - Ever wanted Mechanic to actually treat Gunsmith how it should be?</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2011/actually-found-in-raid-updated",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 5,
+      "published_at": "2025-02-16T18:16:00.000000Z",
+      "created_at": "2025-02-16T18:16:29.000000Z",
+      "updated_at": "2026-07-28T08:24:54.000000Z",
+      "owner": {
+        "id": 13632,
+        "name": "RuKira",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=R&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2022-01-18T06:31:54.000000Z",
+        "updated_at": "2026-08-10T01:29:17.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 56859,
+          "name": "MadBrother",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/MLPzNoODQnKitGvb6dw7WmDyE0BvpRrpFNGlR3Kk_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2024-07-10T14:22:15.000000Z",
+          "updated_at": "2026-08-03T17:43:44.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 13475,
+          "hub_id": null,
+          "version": "1.0.4",
+          "description": "I have finally updated this mod to ~4.0.0, thanks to Madbrother assistance.\n\n> Please do not use with Fika, Fika has it's own FIR settings for bots, this mod is only needed for those running without Fika!",
+          "link": "https://forge.sp-tarkov.com/mod/download/2011/actually-found-in-raid-updated/1.0.4",
+          "content_length": 4658,
+          "spt_version_constraint": "~4.0.5",
+          "downloads": 5555,
+          "fika_compatibility": "incompatible",
+          "published_at": "2026-04-23T23:37:00.000000Z",
+          "created_at": "2026-04-23T23:38:17.000000Z",
+          "updated_at": "2026-07-28T08:24:54.000000Z"
+        },
+        {
+          "id": 757,
+          "hub_id": 14061,
+          "version": "1.0.2",
+          "description": "Technically the changes between 1.0.0-3.11.X -&gt; 1.0.2 are not different, but this is a backend change, making my life a little easier.  \nWith some added code cleanup. You can download and use either version, they work exactly the same.\n\n  \nAdded Zip File for easier Installation!  \n  \nThank you flir for the recommended changes, I have finally added.\n\nVirusTotal: <https://www.virustotal.com/gui/url/694a87c6b28f04fcdcb7972140873d8f0e8bbd0d12a6cb9286426d571063886d?nocache=1>",
+          "link": "https://forge.sp-tarkov.com/mod/download/2011/actually-found-in-raid-updated/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 11845,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-21T16:08:37.000000Z",
+          "created_at": "2025-04-21T16:08:37.000000Z",
+          "updated_at": "2026-05-14T01:56:37.000000Z"
+        },
+        {
+          "id": 1368,
+          "hub_id": 13396,
+          "version": "1.0.0",
+          "description": "Loot... in raid is found in raid?\n\nIf this has any issues, please let me know - it's my first client mod, and I basically ported this over to 3.10.x\n\nFrom my own testing it all works\n\nI don't promise Fika Support.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2011/actually-found-in-raid-updated/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 6050,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-02-16T18:16:29.000000Z",
+          "created_at": "2025-02-16T18:16:29.000000Z",
+          "updated_at": "2026-05-14T02:21:07.000000Z"
+        },
+        {
+          "id": 764,
+          "hub_id": 14054,
+          "version": "1.0.0+311x",
+          "description": "Got a ton of request, decided it was time to get it done!  \nUpdated to 3.11.X  \n  \nVirusTotal: <https://www.virustotal.com/gui/url/eea4d39fa4a8eabcceffea895a842a975609ca87245222e773c4a0110c01fa5c?nocache=1>",
+          "link": "https://forge.sp-tarkov.com/mod/download/2011/actually-found-in-raid-updated/1.0.0+311x",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 633,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-20T20:35:37.000000Z",
+          "created_at": "2025-04-20T20:35:37.000000Z",
+          "updated_at": "2026-05-14T01:56:55.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 5,
+        "hub_id": 22,
+        "title": "Bots",
+        "slug": "bots",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/RuKira/actuallyfoundinraid",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 13475,
+      "hub_id": null,
+      "version": "1.0.4",
+      "description": "<p>I have finally updated this mod to ~4.0.0, thanks to Madbrother assistance.</p>\n<blockquote>\n<p>Please do not use with Fika, Fika has it’s own FIR settings for bots, this mod is only needed for those running without Fika!</p>\n</blockquote>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2011/actually-found-in-raid-updated/1.0.4",
+      "content_length": 4658,
+      "spt_version_constraint": "~4.0.5",
+      "downloads": 5555,
+      "fika_compatibility": "incompatible",
+      "published_at": "2026-04-23T23:37:00.000000Z",
+      "created_at": "2026-04-23T23:38:17.000000Z",
+      "updated_at": "2026-07-28T08:24:54.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 757,
+      "hub_id": 14061,
+      "version": "1.0.2",
+      "description": "<p>Technically the changes between 1.0.0-3.11.X -&gt; 1.0.2 are not different, but this is a backend change, making my life a little easier.<br />\nWith some added code cleanup. You can download and use either version, they work exactly the same.</p>\n<p>Added Zip File for easier Installation!</p>\n<p>Thank you flir for the recommended changes, I have finally added.</p>\n<p>VirusTotal: <a target=\"_blank\" class=\"external-link\" href=\"https://www.virustotal.com/gui/url/694a87c6b28f04fcdcb7972140873d8f0e8bbd0d12a6cb9286426d571063886d?nocache=1\" rel=\"noreferrer noopener\">https://www.virustotal.com/gui/url/694a87c6b28f04fcdcb7972140873d8f0e8bbd0d12a6cb9286426d571063886d?nocache=1</a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2011/actually-found-in-raid-updated/1.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 11845,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-04-21T16:08:37.000000Z",
+      "created_at": "2025-04-21T16:08:37.000000Z",
+      "updated_at": "2026-05-14T01:56:37.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1368,
+      "hub_id": 13396,
+      "version": "1.0.0",
+      "description": "<p>Loot… in raid is found in raid?</p>\n<p>If this has any issues, please let me know - it’s my first client mod, and I basically ported this over to 3.10.x</p>\n<p>From my own testing it all works</p>\n<p>I don’t promise Fika Support.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2011/actually-found-in-raid-updated/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 6050,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-02-16T18:16:29.000000Z",
+      "created_at": "2025-02-16T18:16:29.000000Z",
+      "updated_at": "2026-05-14T02:21:07.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 764,
+      "hub_id": 14054,
+      "version": "1.0.0+311x",
+      "description": "<p>Got a ton of request, decided it was time to get it done!<br />\nUpdated to 3.11.X</p>\n<p>VirusTotal: <a target=\"_blank\" class=\"external-link\" href=\"https://www.virustotal.com/gui/url/eea4d39fa4a8eabcceffea895a842a975609ca87245222e773c4a0110c01fa5c?nocache=1\" rel=\"noreferrer noopener\">https://www.virustotal.com/gui/url/eea4d39fa4a8eabcceffea895a842a975609ca87245222e773c4a0110c01fa5c?nocache=1</a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2011/actually-found-in-raid-updated/1.0.0+311x",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 633,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-04-20T20:35:37.000000Z",
+      "created_at": "2025-04-20T20:35:37.000000Z",
+      "updated_at": "2026-05-14T01:56:55.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2011/ActuallyFoundInRaid_RELEASE_v1.0.4-.7z",
+    "bytes_written": 4658,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/933793771/21cc6e3f-7d1d-4aa5-b8fe-b16a4fca91d4?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A50%3A29Z&rscd=attachment%3B+filename%3DActuallyFoundInRaid_RELEASE_v1.0.4-.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A49%3A42Z&ske=2026-08-10T10%3A50%3A29Z&sks=b&skv=2018-11-09&sig=gs2Uw%2Fr3bEtuHEoABpqlciUAZ9u1g9WIKRXjTgCD1D4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTk5MSwibmJmIjoxNzg2MzU1NjkxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.ZrDX0FdXOyfte5DFR9d1IsrQluB2DgtgoOwQR2vk6zM&response-content-disposition=attachment%3B%20filename%3DActuallyFoundInRaid_RELEASE_v1.0.4-.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.4",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,825 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2762,
+      "hub_id": null,
+      "guid": "com.redlaser42.ghostvoice",
+      "name": "Ghost Voice",
+      "slug": "ghost-voice",
+      "teaser": "Adds Ghost from MW2 2009",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/thUsbWCRNHfzDk2XLvtnUjZoYaNqh89Z8c6jgXni.jpg",
+      "downloads": 2753,
+      "favourites_count": 8,
+      "description": "<p>Work in progress voice mod.</p>\n<p>This mod adds a new voice, Ghost, voiced by Craig Fairbrass. Lines were taken from Modern Warfare 2 (2009) and Call of Duty 4 (Gaz). All lines are clean, genuine recordings. No AI.</p>\n<p>Currently up to 151 voice lines including line variations.\n<a target=\"_blank\" class=\"external-link\" href=\"https://youtu.be/f7bCuRnfccQ\" rel=\"noreferrer noopener\">https://youtu.be/f7bCuRnfccQ</a></p>\n<p>I recommend Smooth Talker, as one of my goals will be to give those voice lines as much variety as possible.\n<a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2635/smooth-talker\" rel=\"noreferrer noopener\">https://forge.sp-tarkov.com/mod/2635/smooth-talker</a></p>\n<p>You can edit the bot types this voice may be chosen for by editing the config in \\SPT\\user\\mods\\Ghost Voice\\db\\CustomVoices\\GhostVoice.json</p>\n<p>Here is a list of all the bots: <a target=\"_blank\" class=\"external-link\" href=\"https://wiki.sp-tarkov.com/en/modding/references/bot-types\" rel=\"noreferrer noopener\">https://wiki.sp-tarkov.com/en/modding/references/bot-types</a></p>\n<p>Check against voice weights for each bot type in \\SPT\\SPT_Data\\database\\bots\\types\\</p>\n<p>Appreciation and Acknowledgement:</p>\n<p>Please thank ConcreteMeshTank957 (Topham) for supplying the voice lines on YouTube.\n<a target=\"_blank\" class=\"external-link\" href=\"https://www.youtube.com/@american_renaissance\" rel=\"noreferrer noopener\">https://www.youtube.com/@american_renaissance</a></p>\n<p>Please thank the WTT developers for the custom Unity tools, and thank AvienReactor for their voice mod creation guide and template: <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/AvienReactor/JellyVoices/wiki/How-to-make-a-SPT-voice-mod\" rel=\"noreferrer noopener\">https://github.com/AvienReactor/JellyVoices/wiki/How-to-make-a-SPT-voice-mod</a>.</p>\n<p>Thank you to the author of the SPT modding resource.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2762/ghost-voice",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 12,
+      "published_at": "2026-06-22T05:26:00.000000Z",
+      "created_at": "2026-06-22T05:20:29.000000Z",
+      "updated_at": "2026-07-28T09:37:51.000000Z",
+      "owner": {
+        "id": 51899,
+        "name": "redlaser42",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/334fd164f2c5b4783f7d47cf4cf3fa3350de7da4_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/cfc15f6f6e631c159e27f82a1f2517a093990e13_1280w.webp",
+        "created_at": "2024-05-15T18:12:45.000000Z",
+        "updated_at": "2026-08-10T02:26:26.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14074,
+          "hub_id": null,
+          "version": "1.3.2",
+          "description": "- Lowered base volume of all lines.\n- Minor edits to tag banks.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2762/ghost-voice/1.3.2",
+          "content_length": 6510525,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 1004,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-13T20:36:00.000000Z",
+          "created_at": "2026-07-13T20:36:27.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 13965,
+          "hub_id": null,
+          "version": "1.3.1",
+          "description": "- Fixed config file",
+          "link": "https://forge.sp-tarkov.com/mod/download/2762/ghost-voice/1.3.1",
+          "content_length": 6510615,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 539,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-02T17:07:00.000000Z",
+          "created_at": "2026-07-02T17:09:39.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 13926,
+          "hub_id": null,
+          "version": "1.3.0",
+          "description": "- Added voice to USEC and Raiders.\n- Added 17 new voice lines.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2762/ghost-voice/1.3.0",
+          "content_length": 6510721,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 289,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-06-29T00:22:00.000000Z",
+          "created_at": "2026-06-29T00:23:17.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 13853,
+          "hub_id": null,
+          "version": "1.2.0",
+          "description": "Added 31 new lines. \nRe-edited a few lines.  ",
+          "link": "https://forge.sp-tarkov.com/mod/download/2762/ghost-voice/1.2.0",
+          "content_length": 4498764,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 437,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-06-24T02:02:00.000000Z",
+          "created_at": "2026-06-24T02:03:30.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 13845,
+          "hub_id": null,
+          "version": "1.1.0",
+          "description": "Added 32 new voice lines.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2762/ghost-voice/1.1.0",
+          "content_length": 3129404,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 251,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-06-22T20:05:00.000000Z",
+          "created_at": "2026-06-22T20:06:22.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 13839,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "First release, feedback welcome. ",
+          "link": "https://forge.sp-tarkov.com/mod/download/2762/ghost-voice/1.0.0",
+          "content_length": 2414102,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 233,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-06-22T05:25:00.000000Z",
+          "created_at": "2026-06-22T05:24:39.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 12,
+        "hub_id": 75,
+        "title": "Audio",
+        "slug": "audio",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/redlaser42/Ghost-Voice",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14074,
+      "hub_id": null,
+      "version": "1.3.2",
+      "description": "<ul>\n<li>Lowered base volume of all lines.</li>\n<li>Minor edits to tag banks.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2762/ghost-voice/1.3.2",
+      "content_length": 6510525,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 1004,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-13T20:36:00.000000Z",
+      "created_at": "2026-07-13T20:36:27.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": [
+        {
+          "id": 1277,
+          "hub_id": 1788,
+          "guid": "com.headvoiceselector.core",
+          "name": "WTT - Head and Voice Selector",
+          "slug": "wtt-head-and-voice-selector",
+          "teaser": "Customize your character's voice and head appearance post-creation using new dropdown boxes in the Overall panel.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1788.png",
+          "downloads": 79776,
+          "favourites_count": 103,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1277/wtt-head-and-voice-selector",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2024-04-04T18:09:00.000000Z",
+          "created_at": "2024-04-04T18:09:59.000000Z",
+          "updated_at": "2026-08-03T06:02:26.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 50076,
+              "name": "sgtlaggy",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/S7wTCtKyPp2VJq7EYaE6x5KjtGrn3DEwK1gmB5iu_256w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-04-30T05:20:41.000000Z",
+              "updated_at": "2026-08-10T08:08:17.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13692,
+              "hub_id": null,
+              "version": "1.0.7",
+              "description": "<p>Fixes an issue with the dropdowns not working if an unavailable head/voice is in use. This is usually encountered when using a profile editor to use a boss head/voice.</p>\n<p>With an unavailable head/voice equipped, it will appear at the top of the dropdown. If you change back to one normally available, it will disappear after a raid or game restart.</p>\n<p>Voice preview will not play when re-selecting an unavailable voice.</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1277/wtt-head-and-voice-selector/1.0.7",
+              "content_length": 22678,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 12803,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-06-03T02:55:00.000000Z",
+              "created_at": "2026-06-03T02:55:28.000000Z",
+              "updated_at": "2026-07-28T09:04:17.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        },
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338299,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13486,
+              "hub_id": null,
+              "version": "2.0.20",
+              "description": "<p>Version so good it jumped a number!</p>\n<ul>\n<li>new hideout crafting expansion by pein, now supports multi-endproducts and endproducts with nested children</li>\n<li>reworked custom parent mapping into a server service + client attribute (also by pein)</li>\n<li>separated logic in the slothelper methods, added a new one</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.20",
+              "content_length": 167466,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 103728,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-04-25T04:15:00.000000Z",
+              "created_at": "2026-04-25T04:16:03.000000Z",
+              "updated_at": "2026-07-28T08:25:15.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 13965,
+      "hub_id": null,
+      "version": "1.3.1",
+      "description": "<ul>\n<li>Fixed config file</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2762/ghost-voice/1.3.1",
+      "content_length": 6510615,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 539,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-02T17:07:00.000000Z",
+      "created_at": "2026-07-02T17:09:39.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": [
+        {
+          "id": 1277,
+          "hub_id": 1788,
+          "guid": "com.headvoiceselector.core",
+          "name": "WTT - Head and Voice Selector",
+          "slug": "wtt-head-and-voice-selector",
+          "teaser": "Customize your character's voice and head appearance post-creation using new dropdown boxes in the Overall panel.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1788.png",
+          "downloads": 79776,
+          "favourites_count": 103,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1277/wtt-head-and-voice-selector",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2024-04-04T18:09:00.000000Z",
+          "created_at": "2024-04-04T18:09:59.000000Z",
+          "updated_at": "2026-08-03T06:02:26.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 50076,
+              "name": "sgtlaggy",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/S7wTCtKyPp2VJq7EYaE6x5KjtGrn3DEwK1gmB5iu_256w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-04-30T05:20:41.000000Z",
+              "updated_at": "2026-08-10T08:08:17.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13692,
+              "hub_id": null,
+              "version": "1.0.7",
+              "description": "<p>Fixes an issue with the dropdowns not working if an unavailable head/voice is in use. This is usually encountered when using a profile editor to use a boss head/voice.</p>\n<p>With an unavailable head/voice equipped, it will appear at the top of the dropdown. If you change back to one normally available, it will disappear after a raid or game restart.</p>\n<p>Voice preview will not play when re-selecting an unavailable voice.</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1277/wtt-head-and-voice-selector/1.0.7",
+              "content_length": 22678,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 12803,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-06-03T02:55:00.000000Z",
+              "created_at": "2026-06-03T02:55:28.000000Z",
+              "updated_at": "2026-07-28T09:04:17.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        },
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338299,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13486,
+              "hub_id": null,
+              "version": "2.0.20",
+              "description": "<p>Version so good it jumped a number!</p>\n<ul>\n<li>new hideout crafting expansion by pein, now supports multi-endproducts and endproducts with nested children</li>\n<li>reworked custom parent mapping into a server service + client attribute (also by pein)</li>\n<li>separated logic in the slothelper methods, added a new one</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.20",
+              "content_length": 167466,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 103728,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-04-25T04:15:00.000000Z",
+              "created_at": "2026-04-25T04:16:03.000000Z",
+              "updated_at": "2026-07-28T08:25:15.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 13926,
+      "hub_id": null,
+      "version": "1.3.0",
+      "description": "<ul>\n<li>Added voice to USEC and Raiders.</li>\n<li>Added 17 new voice lines.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2762/ghost-voice/1.3.0",
+      "content_length": 6510721,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 289,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-06-29T00:22:00.000000Z",
+      "created_at": "2026-06-29T00:23:17.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338299,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13486,
+              "hub_id": null,
+              "version": "2.0.20",
+              "description": "<p>Version so good it jumped a number!</p>\n<ul>\n<li>new hideout crafting expansion by pein, now supports multi-endproducts and endproducts with nested children</li>\n<li>reworked custom parent mapping into a server service + client attribute (also by pein)</li>\n<li>separated logic in the slothelper methods, added a new one</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.20",
+              "content_length": 167466,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 103728,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-04-25T04:15:00.000000Z",
+              "created_at": "2026-04-25T04:16:03.000000Z",
+              "updated_at": "2026-07-28T08:25:15.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        },
+        {
+          "id": 1277,
+          "hub_id": 1788,
+          "guid": "com.headvoiceselector.core",
+          "name": "WTT - Head and Voice Selector",
+          "slug": "wtt-head-and-voice-selector",
+          "teaser": "Customize your character's voice and head appearance post-creation using new dropdown boxes in the Overall panel.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1788.png",
+          "downloads": 79776,
+          "favourites_count": 103,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1277/wtt-head-and-voice-selector",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2024-04-04T18:09:00.000000Z",
+          "created_at": "2024-04-04T18:09:59.000000Z",
+          "updated_at": "2026-08-03T06:02:26.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 50076,
+              "name": "sgtlaggy",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/S7wTCtKyPp2VJq7EYaE6x5KjtGrn3DEwK1gmB5iu_256w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-04-30T05:20:41.000000Z",
+              "updated_at": "2026-08-10T08:08:17.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13692,
+              "hub_id": null,
+              "version": "1.0.7",
+              "description": "<p>Fixes an issue with the dropdowns not working if an unavailable head/voice is in use. This is usually encountered when using a profile editor to use a boss head/voice.</p>\n<p>With an unavailable head/voice equipped, it will appear at the top of the dropdown. If you change back to one normally available, it will disappear after a raid or game restart.</p>\n<p>Voice preview will not play when re-selecting an unavailable voice.</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1277/wtt-head-and-voice-selector/1.0.7",
+              "content_length": 22678,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 12803,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-06-03T02:55:00.000000Z",
+              "created_at": "2026-06-03T02:55:28.000000Z",
+              "updated_at": "2026-07-28T09:04:17.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 13853,
+      "hub_id": null,
+      "version": "1.2.0",
+      "description": "<p>Added 31 new lines.\nRe-edited a few lines.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2762/ghost-voice/1.2.0",
+      "content_length": 4498764,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 437,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-06-24T02:02:00.000000Z",
+      "created_at": "2026-06-24T02:03:30.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338299,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13486,
+              "hub_id": null,
+              "version": "2.0.20",
+              "description": "<p>Version so good it jumped a number!</p>\n<ul>\n<li>new hideout crafting expansion by pein, now supports multi-endproducts and endproducts with nested children</li>\n<li>reworked custom parent mapping into a server service + client attribute (also by pein)</li>\n<li>separated logic in the slothelper methods, added a new one</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.20",
+              "content_length": 167466,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 103728,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-04-25T04:15:00.000000Z",
+              "created_at": "2026-04-25T04:16:03.000000Z",
+              "updated_at": "2026-07-28T08:25:15.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 13845,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<p>Added 32 new voice lines.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2762/ghost-voice/1.1.0",
+      "content_length": 3129404,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 251,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-06-22T20:05:00.000000Z",
+      "created_at": "2026-06-22T20:06:22.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338299,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13486,
+              "hub_id": null,
+              "version": "2.0.20",
+              "description": "<p>Version so good it jumped a number!</p>\n<ul>\n<li>new hideout crafting expansion by pein, now supports multi-endproducts and endproducts with nested children</li>\n<li>reworked custom parent mapping into a server service + client attribute (also by pein)</li>\n<li>separated logic in the slothelper methods, added a new one</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.20",
+              "content_length": 167466,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 103728,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-04-25T04:15:00.000000Z",
+              "created_at": "2026-04-25T04:16:03.000000Z",
+              "updated_at": "2026-07-28T08:25:15.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 13839,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>First release, feedback welcome.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2762/ghost-voice/1.0.0",
+      "content_length": 2414102,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 233,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-06-22T05:25:00.000000Z",
+      "created_at": "2026-06-22T05:24:39.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338299,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 13486,
+              "hub_id": null,
+              "version": "2.0.20",
+              "description": "<p>Version so good it jumped a number!</p>\n<ul>\n<li>new hideout crafting expansion by pein, now supports multi-endproducts and endproducts with nested children</li>\n<li>reworked custom parent mapping into a server service + client attribute (also by pein)</li>\n<li>separated logic in the slothelper methods, added a new one</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.20",
+              "content_length": 167466,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 103728,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-04-25T04:15:00.000000Z",
+              "created_at": "2026-04-25T04:16:03.000000Z",
+              "updated_at": "2026-07-28T08:25:15.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2762/Ghost.Voice.1.3.2.zip",
+    "bytes_written": 6510525,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1276556508/374b1e17-9221-4cc5-ba33-0cb7be9403ff?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A50%3A03Z&rscd=attachment%3B+filename%3DGhost.Voice.1.3.2.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A49%3A20Z&ske=2026-08-10T10%3A50%3A03Z&sks=b&skv=2018-11-09&sig=5fGw1rCmsj2m68DLh3mYa5hWBVcUBbiXAY9sjsfI1pU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NzI4MSwibmJmIjoxNzg2MzU2OTgxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.2YY2aN49V3y2kPUKvkjw7lQQtjBytAT0YFSHEojtEog&response-content-disposition=attachment%3B%20filename%3DGhost.Voice.1.3.2.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.3.2",
+    "same_as_primary_download": true
+  }
+}

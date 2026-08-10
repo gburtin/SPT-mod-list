@@ -1,0 +1,261 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1416,
+      "hub_id": 1962,
+      "guid": "com.acidphantasm.defaultfiremode",
+      "name": "Default Fire Mode Fixer",
+      "slug": "default-fire-mode-fixer",
+      "teaser": "Fixes weapons to default to full auto instead of single fire.\r\nShotguns default to double instead of single if available.\r\nSMGs default to Full Auto over Single / Burst",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/1962.png",
+      "downloads": 14264,
+      "favourites_count": 18,
+      "description": "<p>This mod was built to be extremely simple with as little impact as possible. It just sorts the weapFireType by key length, which makes for a much better sorting system for the fire types than default.</p>\n<p>If you want this to impact non-vanilla weapons, you will need to adjust your load order to put this mod below the custom weapon mods.</p>\n<p><strong>This only impacts weapons that you buy from traders and find in raid.</strong></p>\n<p><strong>SPT will still remember your previous FireMode selection on raid exit and set it accordingly on the weapon.</strong></p>\n<p><strong>Same with AI in raid, if they switch to Single Fire, it will be Single Fire until it’s changed in raid.</strong></p>\n<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">INSTALLATION</div>\n<div class=\"tab-content\"><ol>\n<li>Open the downloaded 7z file in 7-zip</li>\n<li>Select the SPT folder in the 7z file in 7-zip</li>\n<li>Drag the SPT folder from 7-zip into your root SPT folder</li>\n</ol>\n<p>Demonstration Video (yoink):</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/34vXXDj.gif\" alt=\"wMIskD3.gif\" /></p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">UNINSTALLATION</div>\n<div class=\"tab-content\"><ol>\n<li>Delete <code>/ROOTSPT/SPT/user/mods/acidphantasm-defaultfiremode</code></li>\n<li>Done</li>\n</ol></div></div></div>\n<p>If you enjoy my work - you can <a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/acidphantasm\" rel=\"noreferrer noopener\">buy me a coffee</a>~</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1416/default-fire-mode-fixer",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2024-05-17T19:34:00.000000Z",
+      "created_at": "2024-05-17T19:34:48.000000Z",
+      "updated_at": "2026-08-09T18:02:46.000000Z",
+      "owner": {
+        "id": 48110,
+        "name": "acidphantasm",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/539f89fb275187ce761506de5f60c3a09690ee32_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-04-11T21:22:35.000000Z",
+        "updated_at": "2026-08-10T08:08:49.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14580,
+          "hub_id": null,
+          "version": "2.1.0",
+          "description": "### **This version will only work for SPT 4.1.x**\n\n4.1 Update\n\nNew Features\n- Also fixes fire mode for all weapons in trader assorts that support full auto",
+          "link": "https://forge.sp-tarkov.com/mod/download/1416/default-fire-mode-fixer/2.1.0",
+          "content_length": 5796,
+          "spt_version_constraint": "~4.1",
+          "downloads": 278,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-09T07:02:00.000000Z",
+          "created_at": "2026-08-09T07:02:47.000000Z",
+          "updated_at": "2026-08-09T18:02:46.000000Z"
+        },
+        {
+          "id": 11787,
+          "hub_id": null,
+          "version": "2.0.0",
+          "description": "### **This version will only work for SPT 4.0.x**\n\nNo functionality change",
+          "link": "https://forge.sp-tarkov.com/mod/download/1416/default-fire-mode-fixer/2.0.0",
+          "content_length": 4561,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 7129,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-10-11T22:02:00.000000Z",
+          "created_at": "2025-10-11T22:03:50.000000Z",
+          "updated_at": "2026-07-28T06:02:43.000000Z"
+        },
+        {
+          "id": 1217,
+          "hub_id": 13559,
+          "version": "1.3.0",
+          "description": "### **This version will only work for SPT 3.11.x**\n\n3.11 Update\n\nChanges\n\n- Removed some logging",
+          "link": "https://forge.sp-tarkov.com/mod/download/1416/default-fire-mode-fixer/1.3.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 3231,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-15T20:26:10.000000Z",
+          "created_at": "2025-03-15T20:26:10.000000Z",
+          "updated_at": "2026-05-14T02:07:54.000000Z"
+        },
+        {
+          "id": 2372,
+          "hub_id": 12223,
+          "version": "1.2.0",
+          "description": "**This version will only work for SPT 3.10.x**\n\n3.10 Update",
+          "link": "https://forge.sp-tarkov.com/mod/download/1416/default-fire-mode-fixer/1.2.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 1441,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-26T15:05:46.000000Z",
+          "created_at": "2024-11-26T15:05:46.000000Z",
+          "updated_at": "2026-05-14T03:20:20.000000Z"
+        },
+        {
+          "id": 3750,
+          "hub_id": 10501,
+          "version": "1.1.0",
+          "description": "### **This version will only work for SPT 3.9.X**\n\nUpdated to 3.9.0",
+          "link": "https://forge.sp-tarkov.com/mod/download/1416/default-fire-mode-fixer/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "3.9.0",
+          "downloads": 1465,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-06T20:34:22.000000Z",
+          "created_at": "2024-07-06T20:34:22.000000Z",
+          "updated_at": "2026-05-14T03:56:01.000000Z"
+        },
+        {
+          "id": 4190,
+          "hub_id": 9948,
+          "version": "1.0.0",
+          "description": "**This version will only work for SPT 3.8.X**\n\nInitial Release",
+          "link": "https://forge.sp-tarkov.com/mod/download/1416/default-fire-mode-fixer/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.8.0",
+          "downloads": 720,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-05-17T19:34:48.000000Z",
+          "created_at": "2024-05-17T19:34:48.000000Z",
+          "updated_at": "2026-05-14T04:04:27.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/acidphantasm/acidphantasm-defaultfiremode",
+          "label": "3.11"
+        },
+        {
+          "url": "https://github.com/acidphantasm/defaultfiremode-csharp",
+          "label": "4.0"
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14580,
+      "hub_id": null,
+      "version": "2.1.0",
+      "description": "<h3><strong>This version will only work for SPT 4.1.x</strong></h3>\n<p>4.1 Update</p>\n<p>New Features</p>\n<ul>\n<li>Also fixes fire mode for all weapons in trader assorts that support full auto</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1416/default-fire-mode-fixer/2.1.0",
+      "content_length": 5796,
+      "spt_version_constraint": "~4.1",
+      "downloads": 278,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-09T07:02:00.000000Z",
+      "created_at": "2026-08-09T07:02:47.000000Z",
+      "updated_at": "2026-08-09T18:02:46.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11787,
+      "hub_id": null,
+      "version": "2.0.0",
+      "description": "<h3><strong>This version will only work for SPT 4.0.x</strong></h3>\n<p>No functionality change</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1416/default-fire-mode-fixer/2.0.0",
+      "content_length": 4561,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 7129,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-10-11T22:02:00.000000Z",
+      "created_at": "2025-10-11T22:03:50.000000Z",
+      "updated_at": "2026-07-28T06:02:43.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1217,
+      "hub_id": 13559,
+      "version": "1.3.0",
+      "description": "<h3><strong>This version will only work for SPT 3.11.x</strong></h3>\n<p>3.11 Update</p>\n<p>Changes</p>\n<ul>\n<li>Removed some logging</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1416/default-fire-mode-fixer/1.3.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 3231,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-15T20:26:10.000000Z",
+      "created_at": "2025-03-15T20:26:10.000000Z",
+      "updated_at": "2026-05-14T02:07:54.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2372,
+      "hub_id": 12223,
+      "version": "1.2.0",
+      "description": "<p><strong>This version will only work for SPT 3.10.x</strong></p>\n<p>3.10 Update</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1416/default-fire-mode-fixer/1.2.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 1441,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-11-26T15:05:46.000000Z",
+      "created_at": "2024-11-26T15:05:46.000000Z",
+      "updated_at": "2026-05-14T03:20:20.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 3750,
+      "hub_id": 10501,
+      "version": "1.1.0",
+      "description": "<h3><strong>This version will only work for SPT 3.9.X</strong></h3>\n<p>Updated to 3.9.0</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1416/default-fire-mode-fixer/1.1.0",
+      "content_length": null,
+      "spt_version_constraint": "3.9.0",
+      "downloads": 1465,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-07-06T20:34:22.000000Z",
+      "created_at": "2024-07-06T20:34:22.000000Z",
+      "updated_at": "2026-05-14T03:56:01.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 4190,
+      "hub_id": 9948,
+      "version": "1.0.0",
+      "description": "<p><strong>This version will only work for SPT 3.8.X</strong></p>\n<p>Initial Release</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1416/default-fire-mode-fixer/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.8.0",
+      "downloads": 720,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-05-17T19:34:48.000000Z",
+      "created_at": "2024-05-17T19:34:48.000000Z",
+      "updated_at": "2026-05-14T04:04:27.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1416/acidphantasm-defaultfiremode.7z",
+    "bytes_written": 5796,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1073927191/3ea5ea94-960e-41fe-bac0-fcbf8ab18ea3?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A29%3A59Z&rscd=attachment%3B+filename%3Dacidphantasm-defaultfiremode.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A29%3A15Z&ske=2026-08-10T10%3A29%3A59Z&sks=b&skv=2018-11-09&sig=4RaSeBYqG%2B%2FCqNn33nmihdx1cYxuIivkqhmpUM7Y0xM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTA1MiwibmJmIjoxNzg2MzU0NzUyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.MwlYuln-6_xfL8CxNCxWZaJ0vaECSgUBIbpfI0rpYOI&response-content-disposition=attachment%3B%20filename%3Dacidphantasm-defaultfiremode.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1416/default-fire-mode-fixer-2.0.0-spt40.7z",
+    "bytes_written": 4561,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1073927191/29e277a8-0f48-4645-8950-46eaeb87a688?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T13%3A00%3A03Z&rscd=attachment%3B+filename%3Dacidphantasm-defaultfiremode.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T11%3A59%3A06Z&ske=2026-08-10T13%3A00%3A03Z&sks=b&skv=2018-11-09&sig=8ERccjVb8VyGItjuOkO%2BjVawWG%2BSwnqkheZ8CJdX%2Fdw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzQ5NiwibmJmIjoxNzg2MzYzMTk2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.DYTP0QdJOA7WZTEcl5O5vNzBDt2hu3Mw9_iIjHyYS9w&response-content-disposition=attachment%3B%20filename%3Dacidphantasm-defaultfiremode.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "2.0.0",
+    "same_as_primary_download": false
+  }
+}

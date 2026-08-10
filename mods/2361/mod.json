@@ -1,0 +1,107 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2361,
+      "hub_id": null,
+      "guid": "com.kittehkun.welcomemessages",
+      "name": "Welcome Messages",
+      "slug": "welcome-messages",
+      "teaser": "Tired of  the boring beta warning? Welcome Messages replaces Tarkov's startup message with 50+ Tarkov-themed greetings! From \"Head, eyes. Always.\" to \"Nikita is watching you...\", get a random Tarkov themed message every server start!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/ws90irQQJXIYiECv6QMZjvCnAWExqyLUqNaaZwJm.png",
+      "downloads": 9663,
+      "favourites_count": 17,
+      "description": "<h1>Welcome Messages</h1>\n<p>This mod replaces the Beta warning message with a <strong>custom welcome message</strong> pulled from a collection of messages, each with a title and description. A new message is chosen at random every time the server starts, giving your SPT experience a little personality.</p>\n<h1>Features</h1>\n<ul>\n<li>Replaces the default Beta warning message on server start</li>\n<li>50+ messages (title + description pairs)</li>\n<li>Messages loaded from <code>appsettings.json</code></li>\n<li>Random message chosen each server launch</li>\n</ul>\n<h1>Installation</h1>\n<ol>\n<li>Download the mod and extract the folder.</li>\n<li>Move <code>kitteh-welcome-messages</code> into your mods directory: <code>&lt;YOUR SPT INSTALL&gt;/SPT/user/mods</code></li>\n<li>Start your SPTarkov server, your new welcome message will appear.</li>\n</ol>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://github.com/user-attachments/assets/52828fea-8880-4336-84b4-4457c1e790f7\" alt=\"Example startup message\" /></p>\n<h1>Customization</h1>\n<ol>\n<li>Open the <code>appsettings.json</code> file with a text editor located in <code>kitteh-welcome-messages/config</code></li>\n<li>You edit, add, or remove entries as you see fit.</li>\n</ol>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://github.com/user-attachments/assets/fabae0a0-0b22-45df-8f8d-5a0c0984d12f\" alt=\"Example editing messages\" /></p>\n<h1>Uninstallation</h1>\n<ol>\n<li>Stop the server if it’s running.</li>\n<li>Delete the <code>kitteh-welcome-messages</code> folder from the mods directory.</li>\n<li>Restart the server, the default Beta warning returns.</li>\n</ol>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2361/welcome-messages",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 9,
+      "published_at": "2025-10-12T23:23:00.000000Z",
+      "created_at": "2025-10-12T23:52:53.000000Z",
+      "updated_at": "2026-07-28T06:03:15.000000Z",
+      "owner": {
+        "id": 563,
+        "name": "KittehKun",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bHKTpp0FRdmxvUm6uek8RXghoumvozKn6SClhhO5_256w.webp",
+        "cover_photo_url": null,
+        "created_at": "2020-12-31T21:49:33.000000Z",
+        "updated_at": "2026-07-10T04:49:24.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11815,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "# Welcome Messages\nThis mod replaces the Beta warning message with a **custom welcome message** pulled from a collection of messages, each with a title and description. A new message is chosen at random every time the server starts, giving your SPT experience a little personality.\n\n# Features\n- Replaces the default Beta warning message on server start\n- 50+ messages (title + description pairs)\n- Messages loaded from `appsettings.json`\n- Random message chosen each server launch\n\n# Installation\n1. Download the mod and extract the folder.\n2. Move `kitteh-welcome-messages` into your mods directory: `<YOUR SPT INSTALL>/SPT/user/mods`\n3. Start your SPTarkov server, your new welcome message will appear.\n\n![Example startup message](https://github.com/user-attachments/assets/52828fea-8880-4336-84b4-4457c1e790f7)\n\n# Customization\n1. Open the `appsettings.json` file with a text editor located in `kitteh-welcome-messages/config`\n2. You edit, add, or remove entries as you see fit.\n\n![Example editing messages](https://github.com/user-attachments/assets/fabae0a0-0b22-45df-8f8d-5a0c0984d12f)\n\n# Uninstallation\n1. Stop the server if it's running.\n2. Delete the `kitteh-welcome-messages` folder from the mods directory.\n3. Restart the server, the default Beta warning returns.\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/2361/welcome-messages/1.0.0",
+          "content_length": 10228,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 9663,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-12T23:54:00.000000Z",
+          "created_at": "2025-10-12T23:54:46.000000Z",
+          "updated_at": "2026-07-28T06:03:15.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 9,
+        "hub_id": 20,
+        "title": "Locales",
+        "slug": "locales",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/KittehKun/spt-welcome-messages/releases/tag/1.0",
+          "label": "Welcome Messages 1.0"
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11815,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<h1>Welcome Messages</h1>\n<p>This mod replaces the Beta warning message with a <strong>custom welcome message</strong> pulled from a collection of messages, each with a title and description. A new message is chosen at random every time the server starts, giving your SPT experience a little personality.</p>\n<h1>Features</h1>\n<ul>\n<li>Replaces the default Beta warning message on server start</li>\n<li>50+ messages (title + description pairs)</li>\n<li>Messages loaded from <code>appsettings.json</code></li>\n<li>Random message chosen each server launch</li>\n</ul>\n<h1>Installation</h1>\n<ol>\n<li>Download the mod and extract the folder.</li>\n<li>Move <code>kitteh-welcome-messages</code> into your mods directory: <code>&lt;YOUR SPT INSTALL&gt;/SPT/user/mods</code></li>\n<li>Start your SPTarkov server, your new welcome message will appear.</li>\n</ol>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://github.com/user-attachments/assets/52828fea-8880-4336-84b4-4457c1e790f7\" alt=\"Example startup message\" /></p>\n<h1>Customization</h1>\n<ol>\n<li>Open the <code>appsettings.json</code> file with a text editor located in <code>kitteh-welcome-messages/config</code></li>\n<li>You edit, add, or remove entries as you see fit.</li>\n</ol>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://github.com/user-attachments/assets/fabae0a0-0b22-45df-8f8d-5a0c0984d12f\" alt=\"Example editing messages\" /></p>\n<h1>Uninstallation</h1>\n<ol>\n<li>Stop the server if it’s running.</li>\n<li>Delete the <code>kitteh-welcome-messages</code> folder from the mods directory.</li>\n<li>Restart the server, the default Beta warning returns.</li>\n</ol>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2361/welcome-messages/1.0.0",
+      "content_length": 10228,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 9663,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-12T23:54:00.000000Z",
+      "created_at": "2025-10-12T23:54:46.000000Z",
+      "updated_at": "2026-07-28T06:03:15.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2361/kitteh-weclome-messages.zip",
+    "bytes_written": 10228,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1075018242/7bbba520-dd7d-40ac-9049-69c2bc80113a?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A52%3A46Z&rscd=attachment%3B+filename%3Dkitteh-weclome-messages.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A52%3A33Z&ske=2026-08-10T10%3A52%3A46Z&sks=b&skv=2018-11-09&sig=95xK0sARn3eiPA28LO1AfeL6hQttigtrLqNAuP7Pet4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NjA4MCwibmJmIjoxNzg2MzU1NzgwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.ZXIyNj9vtEw3tNtY-NyOMR1Wv57vo0aOVqs7H9t1j_s&response-content-disposition=attachment%3B%20filename%3Dkitteh-weclome-messages.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

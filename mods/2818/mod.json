@@ -1,0 +1,194 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2818,
+      "hub_id": null,
+      "guid": "com.mekka.deadlygas",
+      "name": "Deadly Gas (realistic extract)",
+      "slug": "deadly-gas-realistic-extract",
+      "teaser": "More realistic end of raid - survive the gas after the timer runs out ! Use gas mask to stay longer !",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/R4CSyD6kraLTxXbdgi9YwbsTJpU7jYZOrIclI98E.png",
+      "downloads": 1575,
+      "favourites_count": 12,
+      "description": "<h1>Deadly Gas — realistic end-of-raid</h1>\n<p>Replaces the arbitrary end-of-timer MIA with a <strong>deadly gas</strong>: when the raid\ntimer expires, the zone slowly fills with gas (green haze + fog) and your\nhealth drains : about 3 minutes to die at full health (configurable). You can\nstill run for the extract: extracting during the gas counts as a normal\n<strong>Survived</strong>. Dying in the gas is a normal death. No more MIA screen at\n2 meters from the extract.</p>\n<p>Gas masks allow you to stay 3 times longer in the gas.\nRespirators allow you to stay 1.5 times longer in the gas.</p>\n<p><strong>Client-side</strong> BepInEx plugin. Nothing to install server-side.</p>\n<h2>Install</h2>\n<p>Extract it into your SPT folder (the one with\n<code>SPT.Launcher.exe</code>). The DLL lands in <code>BepInEx/plugins/MekkaDeadlyGas.dll</code>.</p>\n<h2>Configuration</h2>\n<p>In game via <strong>F12</strong> (Configuration Manager) or in\n<code>BepInEx/config/com.mekka.deadlygas.cfg</code>:</p>\n<table>\n<thead>\n<tr>\n<th>Setting</th>\n<th>Default</th>\n<th>Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>Enabled</td>\n<td>on</td>\n<td>Master switch</td>\n</tr>\n<tr>\n<td>Minutes before death</td>\n<td>3</td>\n<td>Survival time in the gas at full health (chest-based)</td>\n</tr>\n<tr>\n<td>Gas rise (seconds)</td>\n<td>20</td>\n<td>Grace period before damage starts</td>\n</tr>\n<tr>\n<td>Visual effects</td>\n<td>on</td>\n<td>Green tint + fog</td>\n</tr>\n<tr>\n<td>Tint intensity</td>\n<td>0.45</td>\n<td>Green overlay opacity (0.2 subtle → 0.7 pea soup)</td>\n</tr>\n<tr>\n<td>Fog density</td>\n<td>0.06</td>\n<td>Fog thickness at full ramp</td>\n</tr>\n<tr>\n<td>Probe mode</td>\n<td>off</td>\n<td>Diagnostic dumps for troubleshooting</td>\n</tr>\n</tbody>\n</table>\n<h2>Known quirks</h2>\n<ul>\n<li>After expiry the in-raid timer display shows ~24h instead of 00:00\n(cosmetic only, the gas is your real timer now).</li>\n<li>AI Scavs are unaffected.</li>\n<li>Works in PMC and player-Scav raids. Untested with Fika/coop.</li>\n</ul>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2818/deadly-gas-realistic-extract",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>AI was used as a coding assistant during the conception of this project. It helped with structure, debugging, cleanup work and some documentation wording.</p>\n<p>The actual mod direction, content, balancing, IDs, testing and final decisions are handled by myself.\nNothing was added blindly without review or testing. Coding is part of my job, I’m 46 and working in IT since 2005.</p>\n",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2026-07-14T23:03:00.000000Z",
+      "created_at": "2026-07-14T23:05:58.000000Z",
+      "updated_at": "2026-07-28T09:40:46.000000Z",
+      "owner": {
+        "id": 21297,
+        "name": "LaurentMEKKA",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=L&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2022-08-02T10:26:27.000000Z",
+        "updated_at": "2026-08-09T23:43:49.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14127,
+          "hub_id": null,
+          "version": "0.4.1",
+          "description": "Update\n\n- Dying to the gas now ends the raid as MIA: your PMC didn't die, he's lost in the gas (toggle in F12 to keep normal deaths).   \n- F12 and cfg file translated in English (was in french before, you must reapply your settings with F12 !)\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/2818/deadly-gas-realistic-extract/0.4.1",
+          "content_length": 13116,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 945,
+          "fika_compatibility": "incompatible",
+          "published_at": "2026-07-17T21:05:00.000000Z",
+          "created_at": "2026-07-17T21:06:42.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 14089,
+          "hub_id": null,
+          "version": "0.3.0",
+          "description": "New Features \n- GP-5 and GP-7 Gas masks allow to stay 3x longer in the gas\n- Respirator and DevTac Ronon allow to stay 1.5x longer in the gas\n\nFix\n- Time was calculated with thorax hp, but head kills you 40% sooner. Time is now calculated with head hp, so default is actually 3 minutes.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2818/deadly-gas-realistic-extract/0.3.0",
+          "content_length": 12092,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 326,
+          "fika_compatibility": "incompatible",
+          "published_at": "2026-07-15T16:05:00.000000Z",
+          "created_at": "2026-07-15T16:05:34.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 14087,
+          "hub_id": null,
+          "version": "0.2.1",
+          "description": "Fix - no more FPS drop",
+          "link": "https://forge.sp-tarkov.com/mod/download/2818/deadly-gas-realistic-extract/0.2.1",
+          "content_length": 10685,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 176,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-07-15T07:46:00.000000Z",
+          "created_at": "2026-07-15T07:46:46.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 14084,
+          "hub_id": null,
+          "version": "0.2.0",
+          "description": "First public version",
+          "link": "https://forge.sp-tarkov.com/mod/download/2818/deadly-gas-realistic-extract/0.2.0",
+          "content_length": 10464,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 128,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-07-14T23:08:00.000000Z",
+          "created_at": "2026-07-14T23:18:54.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/laurentmekka/DeadlyGas",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14127,
+      "hub_id": null,
+      "version": "0.4.1",
+      "description": "<p>Update</p>\n<ul>\n<li>Dying to the gas now ends the raid as MIA: your PMC didn’t die, he’s lost in the gas (toggle in F12 to keep normal deaths).</li>\n<li>F12 and cfg file translated in English (was in french before, you must reapply your settings with F12 !)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2818/deadly-gas-realistic-extract/0.4.1",
+      "content_length": 13116,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 945,
+      "fika_compatibility": "incompatible",
+      "published_at": "2026-07-17T21:05:00.000000Z",
+      "created_at": "2026-07-17T21:06:42.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14089,
+      "hub_id": null,
+      "version": "0.3.0",
+      "description": "<p>New Features</p>\n<ul>\n<li>GP-5 and GP-7 Gas masks allow to stay 3x longer in the gas</li>\n<li>Respirator and DevTac Ronon allow to stay 1.5x longer in the gas</li>\n</ul>\n<p>Fix</p>\n<ul>\n<li>Time was calculated with thorax hp, but head kills you 40% sooner. Time is now calculated with head hp, so default is actually 3 minutes.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2818/deadly-gas-realistic-extract/0.3.0",
+      "content_length": 12092,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 326,
+      "fika_compatibility": "incompatible",
+      "published_at": "2026-07-15T16:05:00.000000Z",
+      "created_at": "2026-07-15T16:05:34.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14087,
+      "hub_id": null,
+      "version": "0.2.1",
+      "description": "<p>Fix - no more FPS drop</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2818/deadly-gas-realistic-extract/0.2.1",
+      "content_length": 10685,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 176,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-07-15T07:46:00.000000Z",
+      "created_at": "2026-07-15T07:46:46.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14084,
+      "hub_id": null,
+      "version": "0.2.0",
+      "description": "<p>First public version</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2818/deadly-gas-realistic-extract/0.2.0",
+      "content_length": 10464,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 128,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-07-14T23:08:00.000000Z",
+      "created_at": "2026-07-14T23:18:54.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2818/DeadlyGas-0.4.1.zip",
+    "bytes_written": 13116,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1301001347/454d6da0-d2a5-47ae-83ca-4f4787c151db?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A49%3A53Z&rscd=attachment%3B+filename%3DDeadlyGas-0.4.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A49%3A07Z&ske=2026-08-10T10%3A49%3A53Z&sks=b&skv=2018-11-09&sig=SyVBANkmsDNxwRHpN0P151fHdV3Uh7kOTg9Jl7dgLQM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NjA2NiwibmJmIjoxNzg2MzU1NzY2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.C09SQLwE8r1pbEhy3hjyDXxcfb9Ya6K2wWp8UnZuNnQ&response-content-disposition=attachment%3B%20filename%3DDeadlyGas-0.4.1.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "0.4.1",
+    "same_as_primary_download": true
+  }
+}

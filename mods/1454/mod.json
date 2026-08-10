@@ -1,0 +1,302 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1454,
+      "hub_id": 2010,
+      "guid": "com.cwx.megamod",
+      "name": "CWX-MegaMod",
+      "slug": "cwx-megamod",
+      "teaser": "All my mods in one, BushWhacker, GrassCutter, EnvironmentEnjoyer, MasterKey, InventoryViewer, SpaceUser, TradingPlayerView, WeatherPatcher, PainkillerDesat, AlarmReplacer",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2010.png",
+      "downloads": 74986,
+      "favourites_count": 45,
+      "description": "<h4>This is my collection of mods, combined into one for easy use and development</h4>\n<p>Mod page is WIP, just wanted to get 4.0.0 version out the way.</p>\n<hr />\n<ul>\n<li>\n<h6>Main Mods</h6>\n</li>\n</ul>\n<ul>\n<li>BushWhacker - Lets you walk through bushes like the old days.</li>\n<li>GrassCutter - Removes grass for a 90’s viewing experience.</li>\n<li>MasterKey - Gives you the ability to use a Keycard for every door and lock in Tarkov.</li>\n<li>TradingPlayerView - (bad naming) this will remove the massive list from your view when hovering over a box trying to sell to a trader and it saying this cannot be sold.</li>\n<li>SpaceUser - This will give you the ability to buy from the flea by hitting space instead of (y) and will allow you to split ammo stacks aswell.</li>\n<li>EnvironmentEnjoyer - Takes GrassCutter to the extreme and removes tree’s and bushes.</li>\n<li>PainkillerDesat - Removes the visual effects of painkillers.</li>\n</ul>\n<hr />\n<ul>\n<li>\n<h6>Debug Mods (for debug use only)</h6>\n</li>\n</ul>\n<ul>\n<li>InstantSearch - Gives you the ability to instantly search all containers.</li>\n<li>FoodWater - Stops your PMC from loosing hydration and energy.</li>\n<li>LootLoss - Gets rid of loot locally for fast loading times.</li>\n<li>InventoryViewer - Gives you the ability to View secure containers.</li>\n<li>GodMode - Self explanatory.</li>\n<li>CameraShake - Removes the aimpunch from being shot.</li>\n<li>ThermalMode - Adds the ability to see in thermal.</li>\n<li>BetterThermalMode - Adds a less noisy version.</li>\n<li>NightVisionMode - Adds the ability to see in Night vision</li>\n</ul>\n<hr />\n<p>Any issues, please report them here <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/CWXDEV/MegaMod/issues\" rel=\"noreferrer noopener\">https://github.com/CWXDEV/MegaMod/issues</a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1454/cwx-megamod",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 3,
+      "published_at": "2024-06-02T08:51:00.000000Z",
+      "created_at": "2024-06-02T08:51:23.000000Z",
+      "updated_at": "2026-07-28T06:06:29.000000Z",
+      "owner": {
+        "id": 9668,
+        "name": "CWX",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/6c471bf012d488dbee6c4c67b5e81bbd404551f9_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2021-09-25T23:47:26.000000Z",
+        "updated_at": "2026-07-10T04:49:48.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 26188,
+          "name": "Kaeno",
+          "profile_photo_url": "https://ui-avatars.com/api/?name=K&color=7F9CF5&background=EBF4FF",
+          "cover_photo_url": null,
+          "created_at": "2023-01-28T16:18:10.000000Z",
+          "updated_at": "2026-07-29T20:59:34.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 11956,
+          "hub_id": null,
+          "version": "4.0.1",
+          "description": "Fix instant search from breaking when gaining EXP in the Attention skill,\nUnsub from events correctly.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1454/cwx-megamod/4.0.1",
+          "content_length": 8967615,
+          "spt_version_constraint": "4.0.*",
+          "downloads": 26862,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-21T12:26:00.000000Z",
+          "created_at": "2025-10-21T12:26:39.000000Z",
+          "updated_at": "2026-07-28T06:06:29.000000Z"
+        },
+        {
+          "id": 11807,
+          "hub_id": null,
+          "version": "4.0.0",
+          "description": "Updated to 4.0.0,\nRemoved BotMonitor as this is now in SPT\n(open console and type botmon 1)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1454/cwx-megamod/4.0.0",
+          "content_length": 8895803,
+          "spt_version_constraint": "4.0.*",
+          "downloads": 3677,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-12T15:01:00.000000Z",
+          "created_at": "2025-10-12T15:01:08.000000Z",
+          "updated_at": "2026-07-28T06:03:08.000000Z"
+        },
+        {
+          "id": 1111,
+          "hub_id": 13668,
+          "version": "1.5.0",
+          "description": "added instant search option\n\nadded option to disable energy/hydration drain\n\nadded all available keycards to masterkey\n\nadded debug option to disable loading loot\n\nAny issues report it on github\n\nThanks",
+          "link": "https://forge.sp-tarkov.com/mod/download/1454/cwx-megamod/1.5.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 16212,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-18T10:37:05.000000Z",
+          "created_at": "2025-03-18T10:37:05.000000Z",
+          "updated_at": "2026-05-14T02:04:16.000000Z"
+        },
+        {
+          "id": 1444,
+          "hub_id": 13317,
+          "version": "1.4.1",
+          "description": "Fix thermal spelling, disable things to do with MBOIT",
+          "link": "https://forge.sp-tarkov.com/mod/download/1454/cwx-megamod/1.4.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 2955,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-02-06T09:34:47.000000Z",
+          "created_at": "2025-02-06T09:34:47.000000Z",
+          "updated_at": "2026-05-14T02:23:43.000000Z"
+        },
+        {
+          "id": 1448,
+          "hub_id": 13313,
+          "version": "1.4.0",
+          "description": "Hopefully fixed NullRef Exceptions being caused\n\nCommented out changing MBOIT\\_scattering because of the above in world\n\nSorry for taking so long to look into this.  \n  \nany issues please report them here <https://github.com/CWXDEV/MegaMod/issues>",
+          "link": "https://forge.sp-tarkov.com/mod/download/1454/cwx-megamod/1.4.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 476,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-02-05T23:05:09.000000Z",
+          "created_at": "2025-02-05T23:05:09.000000Z",
+          "updated_at": "2026-05-14T02:23:50.000000Z"
+        },
+        {
+          "id": 2048,
+          "hub_id": 12618,
+          "version": "1.3.4",
+          "description": "Fix Falldamage bug in godmode script,\n\nadd thermal debug setting,\n\nadd nightvision debug setting,\n\nadd camera shake on hit setting\n\nUpcoming further debug scripts:  \ninf stamina,\n\ninf food/water,\n\ninf ammo.\n\netc   \n  \nthanks to Linvasor for the issue report on the godmode script",
+          "link": "https://forge.sp-tarkov.com/mod/download/1454/cwx-megamod/1.3.4",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 5461,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-12T00:16:27.000000Z",
+          "created_at": "2024-12-12T00:16:27.000000Z",
+          "updated_at": "2026-05-14T03:13:18.000000Z"
+        },
+        {
+          "id": 2051,
+          "hub_id": 12615,
+          "version": "1.3.3",
+          "description": "Fix EnvironmentEnjoyer - thanks bsg.  \nAdded Godmode - debug setting.  \n  \nThanks Marukao7 for the issue report on EnvironmentEnjoyer",
+          "link": "https://forge.sp-tarkov.com/mod/download/1454/cwx-megamod/1.3.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 447,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-11T16:42:10.000000Z",
+          "created_at": "2024-12-11T16:42:10.000000Z",
+          "updated_at": "2026-05-14T03:13:21.000000Z"
+        },
+        {
+          "id": 2076,
+          "hub_id": 12587,
+          "version": "1.3.2",
+          "description": "Added some more safety TryCatches  \nAdded BotMonitor  \nReorganized Debug Mods to their own section",
+          "link": "https://forge.sp-tarkov.com/mod/download/1454/cwx-megamod/1.3.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 991,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-10T00:35:08.000000Z",
+          "created_at": "2024-12-10T00:35:08.000000Z",
+          "updated_at": "2026-05-14T03:13:31.000000Z"
+        },
+        {
+          "id": 2081,
+          "hub_id": 12581,
+          "version": "1.3.1",
+          "description": "Updated for 3.10",
+          "link": "https://forge.sp-tarkov.com/mod/download/1454/cwx-megamod/1.3.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 655,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-09T21:15:18.000000Z",
+          "created_at": "2024-12-09T21:15:18.000000Z",
+          "updated_at": "2026-05-14T03:13:35.000000Z"
+        },
+        {
+          "id": 3749,
+          "hub_id": 10502,
+          "version": "1.3.0",
+          "description": "Updated to 3.9.0",
+          "link": "https://forge.sp-tarkov.com/mod/download/1454/cwx-megamod/1.3.0",
+          "content_length": null,
+          "spt_version_constraint": "3.9.0",
+          "downloads": 12232,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-06T20:56:02.000000Z",
+          "created_at": "2024-07-06T20:56:02.000000Z",
+          "updated_at": "2026-05-14T03:56:00.000000Z"
+        }
+      ],
+      "license": {
+        "id": 14,
+        "hub_id": 17,
+        "name": "University of Illinois/NCSA Open Source License",
+        "link": "https://choosealicense.com/licenses/ncsa/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 3,
+        "hub_id": 19,
+        "title": "Scripting",
+        "slug": "scripting",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/CWXDEV/MegaMod",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11956,
+      "hub_id": null,
+      "version": "4.0.1",
+      "description": "<p>Fix instant search from breaking when gaining EXP in the Attention skill,\nUnsub from events correctly.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1454/cwx-megamod/4.0.1",
+      "content_length": 8967615,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 26862,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-21T12:26:00.000000Z",
+      "created_at": "2025-10-21T12:26:39.000000Z",
+      "updated_at": "2026-07-28T06:06:29.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11807,
+      "hub_id": null,
+      "version": "4.0.0",
+      "description": "<p>Updated to 4.0.0,\nRemoved BotMonitor as this is now in SPT\n(open console and type botmon 1)</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1454/cwx-megamod/4.0.0",
+      "content_length": 8895803,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 3677,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-12T15:01:00.000000Z",
+      "created_at": "2025-10-12T15:01:08.000000Z",
+      "updated_at": "2026-07-28T06:03:08.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1111,
+      "hub_id": 13668,
+      "version": "1.5.0",
+      "description": "<p>added instant search option</p>\n<p>added option to disable energy/hydration drain</p>\n<p>added all available keycards to masterkey</p>\n<p>added debug option to disable loading loot</p>\n<p>Any issues report it on github</p>\n<p>Thanks</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1454/cwx-megamod/1.5.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 16212,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-18T10:37:05.000000Z",
+      "created_at": "2025-03-18T10:37:05.000000Z",
+      "updated_at": "2026-05-14T02:04:16.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2081,
+      "hub_id": 12581,
+      "version": "1.3.1",
+      "description": "<p>Updated for 3.10</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1454/cwx-megamod/1.3.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 655,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-12-09T21:15:18.000000Z",
+      "created_at": "2024-12-09T21:15:18.000000Z",
+      "updated_at": "2026-05-14T03:13:35.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 3749,
+      "hub_id": 10502,
+      "version": "1.3.0",
+      "description": "<p>Updated to 3.9.0</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1454/cwx-megamod/1.3.0",
+      "content_length": null,
+      "spt_version_constraint": "3.9.0",
+      "downloads": 12232,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-07-06T20:56:02.000000Z",
+      "created_at": "2024-07-06T20:56:02.000000Z",
+      "updated_at": "2026-05-14T03:56:00.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1454/CWX-MegaMod.zip",
+    "bytes_written": 8967615,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/785689874/b597b368-60b9-442a-918d-1a0a3e87b39b?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A50%3A54Z&rscd=attachment%3B+filename%3DCWX-MegaMod.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A49%3A58Z&ske=2026-08-10T10%3A50%3A54Z&sks=b&skv=2018-11-09&sig=7%2FRs9M%2BDRLhzwsz6VerEcrJYDh0mycy%2BykIN0JGJaSA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NjU1NCwibmJmIjoxNzg2MzU2MjU0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.5v4e4gCJ2LppNJxsfBwes4uIMy03PXZXMDuJp7dsURg&response-content-disposition=attachment%3B%20filename%3DCWX-MegaMod.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "4.0.1",
+    "same_as_primary_download": true
+  }
+}

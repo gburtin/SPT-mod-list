@@ -1,0 +1,107 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2368,
+      "hub_id": null,
+      "guid": "ca.bushtail.shelfblacklisteditor",
+      "name": "ShelfBlacklistEditor (formerly It's a Goddamn Shelf)",
+      "slug": "shelfblacklisteditor-formerly-its-a-goddamn-shelf",
+      "teaser": "Edit the Hall of Fame shelf's \"blacklist\". (It's actually a whitelist, I'm just dumb with naming)",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/togbkHzoS9pTneJP4FQOwpHhG52YpNRBoPFQilcw.png",
+      "downloads": 598,
+      "favourites_count": 1,
+      "description": "<p>bushtail here! I decided to switch up the names of my utility mods to be more indicative of what they do.</p>\n<p>This one allows you to edit the <strong>whitelist</strong> (accidental misnomer when I was writing it) of the shelves in the Hall of Fame (PlaceOfFame in BSG naming). Axes of items are not changed, so not everything will look as they should.</p>\n<p>The config file is generated with a set of default values at first start (all armbands in the small shelf slots, and the GPU in the large shelf slots’ whitelist). Please <a target=\"_blank\" class=\"external-link\" href=\"https://jsonlint.com/\" rel=\"noreferrer noopener\">lint</a> your config JSON before reporting any issues.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2368/shelfblacklisteditor-formerly-its-a-goddamn-shelf",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 6,
+      "published_at": "2025-10-14T17:38:00.000000Z",
+      "created_at": "2025-10-14T21:33:12.000000Z",
+      "updated_at": "2026-07-28T06:09:18.000000Z",
+      "owner": {
+        "id": 33775,
+        "name": "bushtail",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/TdWzpvy2rqkXMd0ZgmhFFK4drV4CyIIonC6CpuXT_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/9kPkXgrFjtLcjpFyR4bUGOAc6Rr8PaFIl5GMCjnt.png",
+        "created_at": "2023-07-09T21:22:21.000000Z",
+        "updated_at": "2026-08-09T21:19:05.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12046,
+          "hub_id": null,
+          "version": "1.0.1",
+          "description": "Update to the default config generated on first run.\n\nThis won't change anything for individuals who already have an installation of SBE unless you delete the `config.json` file before running the server after updating.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2368/shelfblacklisteditor-formerly-its-a-goddamn-shelf/1.0.1",
+          "content_length": 8097,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 598,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-10-27T00:31:00.000000Z",
+          "created_at": "2025-10-27T00:31:44.000000Z",
+          "updated_at": "2026-07-28T06:09:18.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 6,
+        "hub_id": 23,
+        "title": "Hideout",
+        "slug": "hideout",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/bushtail/shelfblacklisteditor",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12046,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<p>Update to the default config generated on first run.</p>\n<p>This won’t change anything for individuals who already have an installation of SBE unless you delete the <code>config.json</code> file before running the server after updating.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2368/shelfblacklisteditor-formerly-its-a-goddamn-shelf/1.0.1",
+      "content_length": 8097,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 598,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-10-27T00:31:00.000000Z",
+      "created_at": "2025-10-27T00:31:44.000000Z",
+      "updated_at": "2026-07-28T06:09:18.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2368/bushtail-ShelfBlacklistEditor_v1.0.1.zip",
+    "bytes_written": 8097,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1094652927/e3cdceff-45e6-473d-badc-fbd0adfe2d58?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A49%3A09Z&rscd=attachment%3B+filename%3Dbushtail-ShelfBlacklistEditor_v1.0.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A48%3A21Z&ske=2026-08-10T10%3A49%3A09Z&sks=b&skv=2018-11-09&sig=zECqQVLwWPFkh2HcxN9Z1QhJz%2BmqHy%2F30WUgrf5uJCg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NjQyNywibmJmIjoxNzg2MzU2MTI3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Ohwjn7bOxmKC7uByKhuoD7Y7Fw_R6zgVJstmXS8l1fw&response-content-disposition=attachment%3B%20filename%3Dbushtail-ShelfBlacklistEditor_v1.0.1.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

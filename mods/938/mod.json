@@ -1,0 +1,165 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 938,
+      "hub_id": 1278,
+      "guid": "com.icyclawz.custominteractions",
+      "name": "Custom Interactions",
+      "slug": "custom-interactions",
+      "teaser": "(Library)\r\nAdd custom context menu items to existing context menus, including adding custom submenus.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/1278.png",
+      "downloads": 46934,
+      "favourites_count": 39,
+      "description": "<p><strong>Installation:</strong></p>\n<p>Extract the ZIP to your SPT-AKI installation folder.</p>\n<p>Note: This mod doesn’t do anything on its own. It’s a library for other mods to depend on.</p>\n<p><strong>Description:</strong></p>\n<p>A client-side mod that allows mod developers to add their own custom item-related context menu items and custom submenus.<br />\nYou can also decide when your context menu items are added (inventory, handbook, modding screen, etc.).</p>\n<p>“Interactions” is the game’s term for context menu items, and this mod piggybacks on the game’s “Dynamic Interactions” that are used for dynamic menu items, such as the items in the Load Ammo submenu for magazines.</p>\n<p>You can use the source code of my “<a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/940/item-context-menu-extended\" rel=\"noreferrer noopener\">Item Context Menu Extended</a>” mod as an example of how to use this library.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/938/custom-interactions",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2023-06-23T14:24:00.000000Z",
+      "created_at": "2023-06-23T14:24:46.000000Z",
+      "updated_at": "2026-07-28T06:05:00.000000Z",
+      "owner": {
+        "id": 31543,
+        "name": "IcyClawz",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/6cbf3ac470387423baf33591cb102396de5cc3d0_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/54e97f2ed2ecaf7e15d24a13e2dadf69cde55488_1280w.webp",
+        "created_at": "2023-05-26T10:06:34.000000Z",
+        "updated_at": "2026-07-26T16:27:36.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11897,
+          "hub_id": null,
+          "version": "1.8.0",
+          "description": "Compiled for client version 0.16.9.0.40087",
+          "link": "https://forge.sp-tarkov.com/mod/download/938/custom-interactions/1.8.0",
+          "content_length": 10860,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 14163,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-18T17:41:00.000000Z",
+          "created_at": "2025-10-18T17:41:32.000000Z",
+          "updated_at": "2026-07-28T06:05:00.000000Z"
+        },
+        {
+          "id": 997,
+          "hub_id": 13792,
+          "version": "1.7.0",
+          "description": "Compiled for client version 0.16.1.3.35392",
+          "link": "https://forge.sp-tarkov.com/mod/download/938/custom-interactions/1.7.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 12314,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-25T07:33:00.000000Z",
+          "created_at": "2025-03-25T07:33:15.000000Z",
+          "updated_at": "2026-05-14T02:02:56.000000Z"
+        },
+        {
+          "id": 2178,
+          "hub_id": 12454,
+          "version": "1.6.0",
+          "description": "Note to mod developers: View source code to see the changes in usage.\n\nCompiled for client version 0.15.5.1.33420",
+          "link": "https://forge.sp-tarkov.com/mod/download/938/custom-interactions/1.6.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 20457,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-02T14:13:00.000000Z",
+          "created_at": "2024-12-02T14:13:14.000000Z",
+          "updated_at": "2026-05-14T03:14:58.000000Z"
+        }
+      ],
+      "license": {
+        "id": 14,
+        "hub_id": 17,
+        "name": "University of Illinois/NCSA Open Source License",
+        "link": "https://choosealicense.com/licenses/ncsa/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/IgorEisberg/SPT-ClientMods",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11897,
+      "hub_id": null,
+      "version": "1.8.0",
+      "description": "<p>Compiled for client version 0.16.9.0.40087</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/938/custom-interactions/1.8.0",
+      "content_length": 10860,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 14163,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-18T17:41:00.000000Z",
+      "created_at": "2025-10-18T17:41:32.000000Z",
+      "updated_at": "2026-07-28T06:05:00.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 997,
+      "hub_id": 13792,
+      "version": "1.7.0",
+      "description": "<p>Compiled for client version 0.16.1.3.35392</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/938/custom-interactions/1.7.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 12314,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-25T07:33:00.000000Z",
+      "created_at": "2025-03-25T07:33:15.000000Z",
+      "updated_at": "2026-05-14T02:02:56.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2178,
+      "hub_id": 12454,
+      "version": "1.6.0",
+      "description": "<p>Note to mod developers: View source code to see the changes in usage.</p>\n<p>Compiled for client version 0.15.5.1.33420</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/938/custom-interactions/1.6.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 20457,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-12-02T14:13:00.000000Z",
+      "created_at": "2024-12-02T14:13:14.000000Z",
+      "updated_at": "2026-05-14T03:14:58.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/938/CustomInteractions-1.8.0.zip",
+    "bytes_written": 10860,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1078818406/fa32b766-1d6e-4c58-bc73-c4eff0c0d447?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A21%3A53Z&rscd=attachment%3B+filename%3DCustomInteractions-1.8.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A21%3A09Z&ske=2026-08-10T10%3A21%3A53Z&sks=b&skv=2018-11-09&sig=KWW2%2FkJg3ydEjNJRcStO2NH7hx%2FvT2EQuuMNv748WgA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTU4MCwibmJmIjoxNzg2MzU1MjgwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.lSk6XUfqFPs57ur4ee707sQ1Tp2NbFc3Z1v-lubdjPM&response-content-disposition=attachment%3B%20filename%3DCustomInteractions-1.8.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.8.0",
+    "same_as_primary_download": true
+  }
+}

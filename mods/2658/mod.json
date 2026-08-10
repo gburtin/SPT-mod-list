@@ -1,0 +1,2474 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2658,
+      "hub_id": null,
+      "guid": "7bpencil.weaponcamoandstickers",
+      "name": "Camo And Stickers",
+      "slug": "camo-and-stickers",
+      "teaser": "New era of Drip",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/N0BlfVxbKixOJ4zdWgkksXG602dMNegT12HlUwnv.png",
+      "downloads": 38239,
+      "favourites_count": 130,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">PAINT GUNS</div>\n<div class=\"tab-content\"><p>One video speaks louder than thousand words: (also READ FAQ)</p>\n<div class=\"youtube-lite\" data-video-id=\"54NjlThfFv0\" data-embed-url=\"https://www.youtube-nocookie.com/embed/54NjlThfFv0?autoplay=1\"><img src=\"https://i.ytimg.com/vi/54NjlThfFv0/hqdefault.jpg\" alt=\"YouTube video thumbnail\" loading=\"lazy\" decoding=\"async\" /></div>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint/m700-edit.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint/m700-live.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint/ash-animated.gif\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint/mp7-live.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint/pkm-live.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint/fal.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint/mk18.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint/akmn.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint/g28.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint/mk47.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint/sr2m.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint/g36.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint/sks.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint/mpx.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint/ak50.png\" alt=\"\" /></p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">PAINT ITEMS</div>\n<div class=\"tab-content\"><p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint-items/helmet.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint-items/secure-container.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/paint-items/sword.png\" alt=\"\" /></p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">CHANGE MATERIAL</div>\n<div class=\"tab-content\"><div class=\"youtube-lite\" data-video-id=\"hJcIlx6UV9A\" data-embed-url=\"https://www.youtube-nocookie.com/embed/hJcIlx6UV9A?autoplay=1\"><img src=\"https://i.ytimg.com/vi/hJcIlx6UV9A/hqdefault.jpg\" alt=\"YouTube video thumbnail\" loading=\"lazy\" decoding=\"async\" /></div>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/material/equipment.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/material/deagle.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/material/spear.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/material/clothes.png\" alt=\"\" /></p></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">COMMUNITY SHOWCASE</div>\n<div class=\"tab-content\"><h3>Call_me_Chanka</h3>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/Call_me_Chanka/numbers.png\" alt=\"\" /></p>\n<h3><a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/addon/64/anime-larp-camo-presets\" rel=\"noreferrer noopener\">Bandoot</a></h3>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/Bandoot/Colt_M4A1_5.56x45_assault_rifle_2026-04-0822-27-27.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/Bandoot/summary.gif\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/Bandoot/dawn.gif\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/Bandoot/cyberpunk.png\" alt=\"\" /></p>\n<h3><a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/addon/90/docs-weapon-skin-collection\" rel=\"noreferrer noopener\">DocTahFrek</a></h3>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/DocTahFrek/Colt_M4A1_5.56x45_assault_rifle_SOPMOD_II_2026-04-1002-11-21.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/DocTahFrek/IMG-20260408-WA0015.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/DocTahFrek/TDI_KRISS_Vector_Gen.2_.45_ACP_submachine_gun_EXUSIAINEWCOVENANT_2026-06-0102-26-15.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/DocTahFrek/TDI_KRISS_Vector_Gen.2_9x19_submachine_gun_AgentVIVI_2026-05-2718-58-41.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/DocTahFrek/HK_UMP_.40_SW_submachine_gun_2026-07-1700-55-12.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/DocTahFrek/HK_UMP_.45_ACP_submachine_gun_Leva_2026-07-1500-27-46.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/DocTahFrek/HK_MP7A1_4.6x30_submachine_gun_Cheeta_2026-07-2102-21-51.png\" alt=\"\" /></p>\n<h3>Dandy</h3>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/Dandy/hemlock.png\" alt=\"\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/Dandy/zlr.png\" alt=\"\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/Dandy/vector.png\" alt=\"\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/Dandy/beta.png\" alt=\"\" /></p>\n<h3>letmedowneasy</h3>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/letmedowneasy/armors.png\" alt=\"\" /></p>\n<h3>Clacker</h3>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/Clacker/Screenshot_2026-06-02_191516.png\" alt=\"\" /></p>\n<h3>zovchernobyl</h3>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/zovchernobyl/Kalashnikov_PPK-20_9x19mm_2026-04-1210-57-57.png\" alt=\"\" /></p>\n<h3><a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/addon/47/spirits-embroidery\" rel=\"noreferrer noopener\">Spirit</a></h3>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/Spirit/RShG-2_72.5mm_rocket_launcher_2026-04-1408-39-57.png\" alt=\"\" /></p>\n<h3>Unknown</h3>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/community/Unknown/pUiZCFw.png\" alt=\"\" /></p></div></div>\n<div id=\"tabset-1-panel-5\" class=\"tab-panel\"><div class=\"tab-title\">FAQ</div>\n<div class=\"tab-content\"><ol>\n<li>Download Addon “Essential Texture Pack” (or all of them, really)</li>\n<li>But why are textures in the separate addon?\n<ul>\n<li>this way updating code won’t force you to redownload 100+ MB of textures</li>\n<li>this allows everyone to make their own texture packs and share them on Forge</li>\n</ul>\n</li>\n<li>How can I make my own texture pack?\n<ul>\n<li>Essential Texture Pack page describes it in detail</li>\n</ul>\n</li>\n<li>What formats are supported?\n<ul>\n<li>png, mp4 (H.264, H.265), webm (VP8), for more details check <a target=\"_blank\" class=\"external-link\" href=\"https://docs.unity3d.com/2022.3/Documentation/Manual/VideoSources-FileCompatibility.html\" rel=\"noreferrer noopener\">Unity docs</a></li>\n</ul>\n</li>\n<li>gif support?\n<ul>\n<li>Convert your gifs to videos. If you dont need transparent background, use mp4. Otherwise - webm, just dont forget to set codec to VP8 (VP9 is not supported by Unity). Also compare quality after conversion, some converter websites absolutely destroy gifs on their default settings, so set bitrate high, it will still come out smaller than original gif.</li>\n</ul>\n</li>\n<li>Videos don’t play audio?\n<ul>\n<li>Check Play Audio setting in F12/7Bpencil.WeaponCamoAndStickers menu, but it won’t work as you expect because of technical challenges</li>\n</ul>\n</li>\n<li>I don’t see camo editor\n<ul>\n<li>Click APPLY PAINT or CHANGE MATERIAL button in item interaction menu (they are located after DISCARD button and require Workbench Level 1)</li>\n</ul>\n</li>\n<li>I managed to paint left and right side, but how do I paint top?\n<ul>\n<li><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.WeaponCamoAndStickers/refs/heads/master/previews/faq/how-to-paint-top.png\" alt=\"\" /></li>\n<li>There are multiple tools to do it:\n<ol>\n<li>Try MaxAngle slider, get a feeling how it works, setting MaxAngle to 0 will cover everything at the expense of stretching (but it may look fine in your case)</li>\n<li>Select Move tool, look at green arrow, decal is projected in direction opposite to it. This means you can rotate decal to face any surface you want to paint. Left/Right is just handy shortcuts to set decal position/rotation/scale certain way</li>\n<li>Use Mask, it will break up pattern and make cutoff line less noticable</li>\n<li>Try Material Editor, in some cases it can give much better results</li>\n</ol>\n</li>\n</ul>\n</li>\n<li>Stickers on armor/backpack/rig/helmet?\n<ul>\n<li>Nope, equipment is entirely different, much more complicated beast, and I don’t want to torture myself any further.</li>\n</ul>\n</li>\n<li>Keep some weapon parts completely clean from paint?\n<ul>\n<li>Maybe in the future</li>\n</ul>\n</li>\n<li>Keep paint attached to moving weapon parts (magazine, pistol slide, folding stock, etc)? Apply paint on part-by-part basis?\n<ul>\n<li>Not happening. I have a working prototype, but it tanks fps and can break other mods, and sadly those issues can not be solved. If you really want it, you can compile part-by-part branch from source.</li>\n</ul>\n</li>\n<li>Any keybinds to speed up edit process?\n<ul>\n<li>Check F12/7Bpencil.WeaponCamoAndStickers</li>\n</ul>\n</li>\n<li>Undo system?\n<ul>\n<li>😭</li>\n</ul>\n</li>\n<li>I changed something and camo is now looking weird and its sliding across weapon surface\n<ul>\n<li>You made decal box too big. Try to scale it down (especially in green axis)</li>\n</ul>\n</li>\n<li>Editor UI is too small / too big\n<ul>\n<li>Check UI Scale setting in F12/7Bpencil.WeaponCamoAndStickers menu</li>\n</ul>\n</li>\n<li>Do items returned by insurance retain their paint/material changes?\n<ul>\n<li>Nope, they are technically copies with different ids. Haven’t worked on synchronizing it</li>\n</ul>\n</li>\n<li>Material changes on clothes are not visible in first person?\n<ul>\n<li>First person hands are technically completely different model with separate set of materials and meshes</li>\n</ul>\n</li>\n<li>I noticed some items cannot be edited with material editor, why?\n<ul>\n<li>Material Editor works only on standard BSG opaque materials, so transparent materials and some others are not supported, the same with modded items that use custom shaders (like some Epics guns). Reason: supporting even one material type is complicated enough</li>\n</ul>\n</li>\n<li>Fika Headless compatibility?\n<ul>\n<li>Headless client requires bundles folder and all dlls, but addons are not necessary. Keep in mind, camos on AI guns are randomly generated by host from available textures, which means if headless client has no textures, there won’t be camos on AI guns.</li>\n</ul>\n</li>\n<li>What mods have you used in the video?\n<ul>\n<li>Brighter Interiors</li>\n<li>CloudSix - Volumetric Clouds</li>\n<li>Smajlec’s Lights</li>\n</ul>\n</li>\n</ol></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2658/camo-and-stickers",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 13,
+      "published_at": "2026-04-08T00:45:00.000000Z",
+      "created_at": "2026-04-05T19:20:12.000000Z",
+      "updated_at": "2026-08-09T18:02:46.000000Z",
+      "owner": {
+        "id": 106491,
+        "name": "7Bpencil",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/ZOiXstwfTHX6H3KivVWEtlNz84ORSO7sWiWjj1bj_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/xJW384FLe1EsovNUVRsjqDoIZIsCGYCTUJk45JUb.png",
+        "created_at": "2026-03-03T10:57:21.000000Z",
+        "updated_at": "2026-08-10T08:22:48.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14591,
+          "hub_id": null,
+          "version": "1.18.0",
+          "description": "- Ported to SPT 4.1.*",
+          "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.18.0",
+          "content_length": 216497,
+          "spt_version_constraint": "4.1.*",
+          "downloads": 726,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-09T14:06:00.000000Z",
+          "created_at": "2026-08-09T14:07:31.000000Z",
+          "updated_at": "2026-08-09T18:02:46.000000Z"
+        },
+        {
+          "id": 14429,
+          "hub_id": null,
+          "version": "1.17.1",
+          "description": "- Fixed scrolling for users with non default UIScale",
+          "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.17.1",
+          "content_length": 216894,
+          "spt_version_constraint": "4.0.*",
+          "downloads": 1870,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-03T05:09:00.000000Z",
+          "created_at": "2026-08-03T05:10:26.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z"
+        },
+        {
+          "id": 14209,
+          "hub_id": null,
+          "version": "1.17.0",
+          "description": "- Added ability to put stickers on clothes, armors, rigs, backpacks",
+          "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.17.0",
+          "content_length": 216782,
+          "spt_version_constraint": "4.0.*",
+          "downloads": 3012,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-24T16:40:00.000000Z",
+          "created_at": "2026-07-24T16:41:39.000000Z",
+          "updated_at": "2026-07-28T09:48:04.000000Z"
+        },
+        {
+          "id": 13983,
+          "hub_id": null,
+          "version": "1.16.1",
+          "description": "- Fixed bots missing randomly painted guns\n- Fixed secure container not being counted as container",
+          "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.16.1",
+          "content_length": 194889,
+          "spt_version_constraint": "4.0.*",
+          "downloads": 4550,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-04T01:35:00.000000Z",
+          "created_at": "2026-07-04T01:35:52.000000Z",
+          "updated_at": "2026-07-28T09:25:21.000000Z"
+        },
+        {
+          "id": 13953,
+          "hub_id": null,
+          "version": "1.16.0",
+          "description": "- Added ability to put stickers on Knives, Helmets, Facemasks, Containers\n- Scrolling textures will no longer zoom item in/out for UIFixes users (thanks to pein)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.16.0",
+          "content_length": 194785,
+          "spt_version_constraint": "4.0.*",
+          "downloads": 1038,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-01T20:28:00.000000Z",
+          "created_at": "2026-07-01T20:29:39.000000Z",
+          "updated_at": "2026-07-28T09:24:08.000000Z"
+        },
+        {
+          "id": 13824,
+          "hub_id": null,
+          "version": "1.15.0",
+          "description": "- Improved lighting on items with changed textures\n- Added new preset system for Material Editor that saves all changed materials on item and subitems\n- Minor UI fixes",
+          "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.15.0",
+          "content_length": 192085,
+          "spt_version_constraint": "4.0.*",
+          "downloads": 3062,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-06-21T07:00:00.000000Z",
+          "created_at": "2026-06-21T07:01:31.000000Z",
+          "updated_at": "2026-07-28T09:18:28.000000Z"
+        },
+        {
+          "id": 13696,
+          "hub_id": null,
+          "version": "1.14.1",
+          "description": "- Fixed Fika support for Material Editor (thanks to @cranberryAmy for bug report)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.14.1",
+          "content_length": 187831,
+          "spt_version_constraint": "4.0.*",
+          "downloads": 3806,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-06-03T17:28:00.000000Z",
+          "created_at": "2026-06-03T17:32:57.000000Z",
+          "updated_at": "2026-07-28T09:04:22.000000Z"
+        },
+        {
+          "id": 13690,
+          "hub_id": null,
+          "version": "1.14.0",
+          "description": "- Added RGB hex code text fields to all color variables\n- Added option to spawn scavs with painted guns (default chance is 0)\n- Optimized editor UI, hopefully it will be less laggy\n- Removed excessive logging",
+          "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.14.0",
+          "content_length": 187697,
+          "spt_version_constraint": "4.0.*",
+          "downloads": 557,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-06-02T19:21:00.000000Z",
+          "created_at": "2026-06-02T19:23:52.000000Z",
+          "updated_at": "2026-07-28T09:04:21.000000Z"
+        },
+        {
+          "id": 13675,
+          "hub_id": null,
+          "version": "1.13.0",
+          "description": "- Fixed oily sheen which was very noticable on some items\n- Added \"Advanced Settings\" tab in Material Editor\n- Some minor UI fixes and improvements",
+          "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.13.0",
+          "content_length": 184644,
+          "spt_version_constraint": "4.0.*",
+          "downloads": 637,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-06-01T11:31:00.000000Z",
+          "created_at": "2026-06-01T11:47:16.000000Z",
+          "updated_at": "2026-07-28T09:03:49.000000Z"
+        },
+        {
+          "id": 13644,
+          "hub_id": null,
+          "version": "1.12.1",
+          "description": "- Fixed clothes editor breaking character creation screen (thanks to @Gleneth for finding it)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.12.1",
+          "content_length": 181237,
+          "spt_version_constraint": "4.0.*",
+          "downloads": 2133,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-05-24T05:15:00.000000Z",
+          "created_at": "2026-05-24T05:17:46.000000Z",
+          "updated_at": "2026-07-28T09:02:57.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 13,
+        "hub_id": 76,
+        "title": "Weapons",
+        "slug": "weapons",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/7Bpencil/SPT.WeaponCamoAndStickers",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14591,
+      "hub_id": null,
+      "version": "1.18.0",
+      "description": "<ul>\n<li>Ported to SPT 4.1.*</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.18.0",
+      "content_length": 216497,
+      "spt_version_constraint": "4.1.*",
+      "downloads": 726,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-09T14:06:00.000000Z",
+      "created_at": "2026-08-09T14:07:31.000000Z",
+      "updated_at": "2026-08-09T18:02:46.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14429,
+      "hub_id": null,
+      "version": "1.17.1",
+      "description": "<ul>\n<li>Fixed scrolling for users with non default UIScale</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.17.1",
+      "content_length": 216894,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 1870,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-03T05:09:00.000000Z",
+      "created_at": "2026-08-03T05:10:26.000000Z",
+      "updated_at": "2026-08-03T06:02:27.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14209,
+      "hub_id": null,
+      "version": "1.17.0",
+      "description": "<ul>\n<li>Added ability to put stickers on clothes, armors, rigs, backpacks</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.17.0",
+      "content_length": 216782,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 3012,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-24T16:40:00.000000Z",
+      "created_at": "2026-07-24T16:41:39.000000Z",
+      "updated_at": "2026-07-28T09:48:04.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13983,
+      "hub_id": null,
+      "version": "1.16.1",
+      "description": "<ul>\n<li>Fixed bots missing randomly painted guns</li>\n<li>Fixed secure container not being counted as container</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.16.1",
+      "content_length": 194889,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 4550,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-04T01:35:00.000000Z",
+      "created_at": "2026-07-04T01:35:52.000000Z",
+      "updated_at": "2026-07-28T09:25:21.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13953,
+      "hub_id": null,
+      "version": "1.16.0",
+      "description": "<ul>\n<li>Added ability to put stickers on Knives, Helmets, Facemasks, Containers</li>\n<li>Scrolling textures will no longer zoom item in/out for UIFixes users (thanks to pein)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.16.0",
+      "content_length": 194785,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 1038,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-01T20:28:00.000000Z",
+      "created_at": "2026-07-01T20:29:39.000000Z",
+      "updated_at": "2026-07-28T09:24:08.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13824,
+      "hub_id": null,
+      "version": "1.15.0",
+      "description": "<ul>\n<li>Improved lighting on items with changed textures</li>\n<li>Added new preset system for Material Editor that saves all changed materials on item and subitems</li>\n<li>Minor UI fixes</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.15.0",
+      "content_length": 192085,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 3062,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-06-21T07:00:00.000000Z",
+      "created_at": "2026-06-21T07:01:31.000000Z",
+      "updated_at": "2026-07-28T09:18:28.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13696,
+      "hub_id": null,
+      "version": "1.14.1",
+      "description": "<ul>\n<li>Fixed Fika support for Material Editor (thanks to @cranberryAmy for bug report)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.14.1",
+      "content_length": 187831,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 3806,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-06-03T17:28:00.000000Z",
+      "created_at": "2026-06-03T17:32:57.000000Z",
+      "updated_at": "2026-07-28T09:04:22.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13690,
+      "hub_id": null,
+      "version": "1.14.0",
+      "description": "<ul>\n<li>Added RGB hex code text fields to all color variables</li>\n<li>Added option to spawn scavs with painted guns (default chance is 0)</li>\n<li>Optimized editor UI, hopefully it will be less laggy</li>\n<li>Removed excessive logging</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.14.0",
+      "content_length": 187697,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 557,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-06-02T19:21:00.000000Z",
+      "created_at": "2026-06-02T19:23:52.000000Z",
+      "updated_at": "2026-07-28T09:04:21.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13675,
+      "hub_id": null,
+      "version": "1.13.0",
+      "description": "<ul>\n<li>Fixed oily sheen which was very noticable on some items</li>\n<li>Added “Advanced Settings” tab in Material Editor</li>\n<li>Some minor UI fixes and improvements</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.13.0",
+      "content_length": 184644,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 637,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-06-01T11:31:00.000000Z",
+      "created_at": "2026-06-01T11:47:16.000000Z",
+      "updated_at": "2026-07-28T09:03:49.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13644,
+      "hub_id": null,
+      "version": "1.12.1",
+      "description": "<ul>\n<li>Fixed clothes editor breaking character creation screen (thanks to @Gleneth for finding it)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.12.1",
+      "content_length": 181237,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 2133,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-05-24T05:15:00.000000Z",
+      "created_at": "2026-05-24T05:17:46.000000Z",
+      "updated_at": "2026-07-28T09:02:57.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13639,
+      "hub_id": null,
+      "version": "1.12.0",
+      "description": "<ul>\n<li>Added ability to change material on clothes (thanks to @letmedowneasy for the idea)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.12.0",
+      "content_length": 181158,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 360,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-05-23T18:13:00.000000Z",
+      "created_at": "2026-05-23T18:16:49.000000Z",
+      "updated_at": "2026-07-28T09:02:43.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13631,
+      "hub_id": null,
+      "version": "1.11.0",
+      "description": "<ul>\n<li>Added ability to link multiple materials to synchronize changes (thanks to @erti for the idea)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.11.0",
+      "content_length": 179742,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 711,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-05-21T23:05:00.000000Z",
+      "created_at": "2026-05-21T23:06:27.000000Z",
+      "updated_at": "2026-07-28T09:02:33.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13626,
+      "hub_id": null,
+      "version": "1.10.0",
+      "description": "<ul>\n<li>Material Editor now shows items from all slots (thanks to @TheAlexJ for the idea)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.10.0",
+      "content_length": 177039,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 537,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-05-21T00:25:00.000000Z",
+      "created_at": "2026-05-21T00:29:01.000000Z",
+      "updated_at": "2026-07-28T09:01:14.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13619,
+      "hub_id": null,
+      "version": "1.9.3",
+      "description": "<ul>\n<li>Fixed rain resetting material changes (again)</li>\n<li>Fixed some cases of material changes not visible on inventory icons (again)</li>\n<li>Please tell me if issues still persist</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.9.3",
+      "content_length": 176130,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 663,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-05-19T13:50:00.000000Z",
+      "created_at": "2026-05-19T13:54:15.000000Z",
+      "updated_at": "2026-07-28T09:00:00.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13614,
+      "hub_id": null,
+      "version": "1.9.2",
+      "description": "<ul>\n<li>Fixed rain resetting material changes</li>\n<li>Fixed some cases of material changes not visible on inventory icons</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.9.2",
+      "content_length": 176060,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 370,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-05-18T21:39:00.000000Z",
+      "created_at": "2026-05-18T21:40:48.000000Z",
+      "updated_at": "2026-07-28T08:59:45.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13606,
+      "hub_id": null,
+      "version": "1.9.1",
+      "description": "<ul>\n<li>Skip null materials</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.9.1",
+      "content_length": 175938,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 663,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-05-17T08:45:00.000000Z",
+      "created_at": "2026-05-17T08:47:52.000000Z",
+      "updated_at": "2026-07-28T08:59:27.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13604,
+      "hub_id": null,
+      "version": "1.9.0",
+      "description": "<ul>\n<li>Check new video in description</li>\n<li>Added material editor that works on every item (thanks to @erti for idea and first working prototype)</li>\n<li>Added separate “APPLY PAINT” and “CHANGE MATERIAL” buttons</li>\n<li>Added ability to mark textures as favourite (right-click)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.9.0",
+      "content_length": 175893,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 573,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-05-16T12:22:00.000000Z",
+      "created_at": "2026-05-16T12:23:42.000000Z",
+      "updated_at": "2026-07-28T08:59:25.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13564,
+      "hub_id": null,
+      "version": "1.8.0",
+      "description": "<ul>\n<li>Eraser can use mask now (thanks to @TacticalNekoYuki for convincing me)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.8.0",
+      "content_length": 136233,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 1682,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-05-08T14:40:00.000000Z",
+      "created_at": "2026-05-08T13:18:42.000000Z",
+      "updated_at": "2026-07-28T08:33:18.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13551,
+      "hub_id": null,
+      "version": "1.7.0",
+      "description": "<ul>\n<li>Added special “Eraser” type decal that hides decals above it (now you can keep your mags clean from paint)</li>\n<li>Inventory icons now properly display camo</li>\n<li>Fixed preset name field allowing special characters that led to invalid filenames</li>\n<li>Moving last decal down will make it first, moving first decal up will make it last</li>\n</ul>\n<p>Note to Fika users: Fika Support addon is now bundled together with Main mod, filenames are the same, no actions needed from your side (thanks to GrooveypenguinX for showing me better way to setup fika support). Forge page was removed, if for some reason you need older version, you can download it from github releases.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.7.0",
+      "content_length": 136479,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 803,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-05-06T09:58:00.000000Z",
+      "created_at": "2026-05-06T10:00:05.000000Z",
+      "updated_at": "2026-07-28T08:32:17.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13521,
+      "hub_id": null,
+      "version": "1.6.1",
+      "description": "<ul>\n<li>Reduced scope of copy/paste button</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.6.1",
+      "content_length": 124828,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 1352,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-04-30T08:51:00.000000Z",
+      "created_at": "2026-04-30T08:51:16.000000Z",
+      "updated_at": "2026-07-28T08:30:57.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13519,
+      "hub_id": null,
+      "version": "1.6.0",
+      "description": "<ul>\n<li>Added button to hide/show decal (thanks to @Bandoot for idea)</li>\n<li>Added button to mirror decal without creating separate duplicate decal (thanks to @Bandoot for reminding me)</li>\n<li>Added button to copy/paste decal texture data (thanks to @Bandoot for idea)</li>\n<li>Don’t forget to update Fika Support addon</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.6.0",
+      "content_length": 124880,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 99,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-04-30T07:00:00.000000Z",
+      "created_at": "2026-04-30T07:10:27.000000Z",
+      "updated_at": "2026-07-28T08:30:55.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13508,
+      "hub_id": null,
+      "version": "1.5.0",
+      "description": "<ul>\n<li>Bosses and AI PMC guns can now spawn with randomly generated camos (good time to download all addons for variety)</li>\n<li>Added button <code>Generate Random Camo</code> under <code>Show Presets</code></li>\n<li>Do not forget to update Fika Support addon</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.5.0",
+      "content_length": 110123,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 530,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-04-28T20:00:00.000000Z",
+      "created_at": "2026-04-28T20:45:11.000000Z",
+      "updated_at": "2026-07-28T08:25:57.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13497,
+      "hub_id": null,
+      "version": "1.4.3",
+      "description": "<ul>\n<li>Some videos on some systems get stuck loading infinitely, added load time limit to mark such videos broken before they create a problem</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.4.3",
+      "content_length": 108073,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 751,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-04-26T17:09:00.000000Z",
+      "created_at": "2026-04-26T17:10:51.000000Z",
+      "updated_at": "2026-07-28T08:25:31.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13474,
+      "hub_id": null,
+      "version": "1.4.2",
+      "description": "<ul>\n<li>Forgot that FileInfo constructor can throw exceptions too</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.4.2",
+      "content_length": 107909,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 933,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-04-23T16:00:00.000000Z",
+      "created_at": "2026-04-23T16:16:52.000000Z",
+      "updated_at": "2026-07-28T08:24:50.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13473,
+      "hub_id": null,
+      "version": "1.4.1",
+      "description": "<ul>\n<li>Gracefully handle file system access errors</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.4.1",
+      "content_length": 107961,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 138,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-04-23T13:00:00.000000Z",
+      "created_at": "2026-04-23T13:26:00.000000Z",
+      "updated_at": "2026-07-28T08:24:48.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13470,
+      "hub_id": null,
+      "version": "1.4.0",
+      "description": "<ul>\n<li>Fika support (thanks to @GetParanoid)</li>\n<li>Animated textures (.mp4 and .webm support)</li>\n<li>Added folders UI</li>\n<li>Fixed high RAM/VRAM consumption (thanks to @GetParanoid)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.4.0",
+      "content_length": 110278,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 802,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-04-21T19:00:00.000000Z",
+      "created_at": "2026-04-21T21:37:35.000000Z",
+      "updated_at": "2026-07-28T08:24:39.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13438,
+      "hub_id": null,
+      "version": "1.3.0",
+      "description": "<p>CHANGES:</p>\n<ul>\n<li>Added “UI Scale” setting (Check F12 menu)</li>\n<li>Fixed decals not being visible in optics</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.3.0",
+      "content_length": 102335,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 1653,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-04-15T01:33:00.000000Z",
+      "created_at": "2026-04-15T01:35:18.000000Z",
+      "updated_at": "2026-07-28T08:22:02.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13435,
+      "hub_id": null,
+      "version": "1.2.0",
+      "description": "<p>CHANGES:</p>\n<ul>\n<li>Added Move and Rotate UV</li>\n<li>Returned “mirror left/right” button (previously called “flip left/right”)</li>\n<li>Renamed “flip side” button to “flip dir”</li>\n<li>Fixed camo not visible on EDIT BUILD screen</li>\n<li>Fixed error when modifying weapon with opened preview window</li>\n<li>Fixed decal name being reset in some cases</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.2.0",
+      "content_length": 102005,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 333,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-04-14T15:02:00.000000Z",
+      "created_at": "2026-04-14T15:04:57.000000Z",
+      "updated_at": "2026-07-28T08:21:54.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13404,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<p>CHANGES:</p>\n<ul>\n<li>Added option to change decal name (thanks Razolak for the idea)</li>\n<li>Added buttons to flip decal horizontally and vertically (thanks Baconism for reminding me)</li>\n<li>Moving last decal down the list now makes it first. Moving first decal up the list makes it last</li>\n<li>Renamed Hotkeys to Keybinds</li>\n</ul>\n<p>HOW TO UPDATE FROM 1.0.1:</p>\n<ul>\n<li>Download new version and unzip as usual</li>\n<li>All addons should work fine</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.1.0",
+      "content_length": 90741,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 1988,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-04-09T15:37:00.000000Z",
+      "created_at": "2026-04-09T15:44:00.000000Z",
+      "updated_at": "2026-07-28T08:20:45.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13393,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<p>HOW TO UPDATE FROM 1.0.0:</p>\n<ol>\n<li>Move folder <strong>7Bpencil.WeaponCamoAndStickers</strong> from <strong>SPT/user/mods</strong> to <strong>BepInEx/plugins</strong></li>\n<li>Download new version and unzip as usual</li>\n<li>No need to update addons, you already moved all of them on step 1</li>\n<li>Sorry for the inconvenience</li>\n</ol>\n<p>CHANGES:</p>\n<ul>\n<li>Fixed warning “<em>No Assemblies found in path…</em>”</li>\n<li>Fixed error caused by Flexible Builds mod (please report if you still have issues)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.0.1",
+      "content_length": 90188,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 970,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-04-08T00:45:00.000000Z",
+      "created_at": "2026-04-08T01:11:57.000000Z",
+      "updated_at": "2026-07-28T08:20:04.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13388,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Initial release</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2658/camo-and-stickers/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 937,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-04-07T04:50:00.000000Z",
+      "created_at": "2026-04-07T04:46:10.000000Z",
+      "updated_at": "2026-04-07T04:51:02.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [
+    {
+      "id": 99,
+      "name": "Lielle's Anime Stickers and Presets",
+      "slug": "lielles-anime-stickers-and-presets",
+      "teaser": "Make Tarkov more Weeby.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/YHc1MAEpjUUdfBiKSuRJvVFIin17H4UpaJZ8m2EF.png",
+      "downloads": 462,
+      "detail_url": "https://forge.sp-tarkov.com/addon/99/lielles-anime-stickers-and-presets",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-08-02T01:42:00.000000Z",
+      "created_at": "2026-08-02T01:54:39.000000Z",
+      "updated_at": "2026-08-07T18:02:30.000000Z",
+      "owner": {
+        "id": 119285,
+        "name": "Lielle",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/XtRLxoIuiHYH5frK4LftNOSPlxaPyrEBbfLqLQjq_256w.webp",
+        "cover_photo_url": null,
+        "created_at": "2026-08-02T00:56:53.000000Z",
+        "updated_at": "2026-08-10T08:27:21.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/LielleGraves/LiellesAnimeStickersandPresets",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 211,
+          "version": "1.12.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/99/lielles-anime-stickers-and-presets/1.12.0",
+          "content_length": 28897357,
+          "mod_version_constraint": "1.17.1",
+          "downloads": 172,
+          "published_at": "2026-08-07T15:32:00.000000Z",
+          "created_at": "2026-08-07T15:35:03.000000Z",
+          "updated_at": "2026-08-07T18:02:26.000000Z"
+        },
+        {
+          "id": 201,
+          "version": "1.1.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/99/lielles-anime-stickers-and-presets/1.1.0",
+          "content_length": 26198474,
+          "mod_version_constraint": "1.17.1",
+          "downloads": 191,
+          "published_at": "2026-08-03T10:17:00.000000Z",
+          "created_at": "2026-08-03T10:17:17.000000Z",
+          "updated_at": "2026-08-03T18:02:35.000000Z"
+        },
+        {
+          "id": 196,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/99/lielles-anime-stickers-and-presets/1.0.0",
+          "content_length": 28897357,
+          "mod_version_constraint": "~1.17.0",
+          "downloads": 99,
+          "published_at": "2026-08-02T01:54:00.000000Z",
+          "created_at": "2026-08-02T02:01:29.000000Z",
+          "updated_at": "2026-08-07T18:02:30.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 96,
+      "name": "KriegsStickers",
+      "slug": "kriegsstickers",
+      "teaser": "Embroidered Uniform Patches for Umbrella Corporation, SCP Foundation, EFT Cultist symbols(WIP) and more.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/8PPOz5CCLvOmIlAQt09hAeZkEG53Lttv32yNUGjv.png",
+      "downloads": 574,
+      "detail_url": "https://forge.sp-tarkov.com/addon/96/kriegsstickers",
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-07-31T04:36:00.000000Z",
+      "created_at": "2026-07-30T17:25:24.000000Z",
+      "updated_at": "2026-07-31T06:02:20.000000Z",
+      "owner": {
+        "id": 8674,
+        "name": "Krieger01",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/e8f2548d800d09299b51d22b0408f86eae263581_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/1bd6e8202c0323fb0073fce6f46ff6133d42bdbd_1280w.webp",
+        "created_at": "2021-09-09T07:03:45.000000Z",
+        "updated_at": "2026-08-03T18:36:04.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 13,
+        "hub_id": 16,
+        "name": "The Unlicense",
+        "link": "https://choosealicense.com/licenses/unlicense/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Krieger1209/KriegersStickerAddon",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 189,
+          "version": "1.1.1",
+          "link": "https://forge.sp-tarkov.com/addon/download/96/kriegsstickers/1.1.1",
+          "content_length": 149300454,
+          "mod_version_constraint": "~1.0",
+          "downloads": 484,
+          "published_at": "2026-07-31T04:14:00.000000Z",
+          "created_at": "2026-07-31T04:14:44.000000Z",
+          "updated_at": "2026-07-31T06:02:04.000000Z"
+        },
+        {
+          "id": 188,
+          "version": "1.1.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/96/kriegsstickers/1.1.0",
+          "content_length": 149300454,
+          "mod_version_constraint": "4.0.13",
+          "downloads": 41,
+          "published_at": "2026-07-31T03:02:00.000000Z",
+          "created_at": "2026-07-31T03:02:09.000000Z",
+          "updated_at": "2026-07-31T06:02:20.000000Z"
+        },
+        {
+          "id": 185,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/96/kriegsstickers/1.0.0",
+          "content_length": 90331691,
+          "mod_version_constraint": "~4.0.0",
+          "downloads": 49,
+          "published_at": "2026-07-30T18:39:00.000000Z",
+          "created_at": "2026-07-30T18:34:17.000000Z",
+          "updated_at": "2026-07-31T06:02:04.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 90,
+      "name": "Doc's Weapon Skin Collection",
+      "slug": "docs-weapon-skin-collection",
+      "teaser": "My personal weapon skins bundled with extra stickers and build codes",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/pcummqK5pcDqQp81GVD4GLm1OKZ3UP21aiSKpv5D.png",
+      "downloads": 613,
+      "detail_url": "https://forge.sp-tarkov.com/addon/90/docs-weapon-skin-collection",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-07-24T09:42:00.000000Z",
+      "created_at": "2026-07-24T11:40:23.000000Z",
+      "updated_at": "2026-07-28T10:13:12.000000Z",
+      "owner": {
+        "id": 98410,
+        "name": "Doc Frek",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/rGPz4HIZS0LfKIWCgJTZCMBbVhLpsoYGEZI3Cn5u_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/WB18iwBNVc5sLGOgs4wu5vc17KsAOIvThIek12FY_2560w.webp",
+        "created_at": "2025-12-26T04:34:09.000000Z",
+        "updated_at": "2026-08-10T02:26:55.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/DocFrek/Doc-s-Weapon-Skin-Collection",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 173,
+          "version": "1.0.1",
+          "link": "https://forge.sp-tarkov.com/addon/download/90/docs-weapon-skin-collection/1.0.1",
+          "content_length": 192030657,
+          "mod_version_constraint": "~1.8",
+          "downloads": 547,
+          "published_at": "2026-07-24T19:36:00.000000Z",
+          "created_at": "2026-07-24T19:37:09.000000Z",
+          "updated_at": "2026-07-28T10:13:12.000000Z"
+        },
+        {
+          "id": 170,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/90/docs-weapon-skin-collection/1.0.0",
+          "content_length": 184833515,
+          "mod_version_constraint": "~1.8",
+          "downloads": 66,
+          "published_at": "2026-07-24T11:48:00.000000Z",
+          "created_at": "2026-07-24T11:50:58.000000Z",
+          "updated_at": "2026-07-28T10:12:52.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 76,
+      "name": "counter strike sticker pack",
+      "slug": "counter-strike-sticker-pack",
+      "teaser": "cs2 stickers",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/xOxteOD7YjpcTzbyt7uuUHQHtPwy6Gjw2L1S3M5U.png",
+      "downloads": 933,
+      "detail_url": "https://forge.sp-tarkov.com/addon/76/counter-strike-sticker-pack",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-06-07T16:20:00.000000Z",
+      "created_at": "2026-06-07T16:19:22.000000Z",
+      "updated_at": "2026-07-28T10:12:11.000000Z",
+      "owner": {
+        "id": 114773,
+        "name": "BayouBill",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/ZV6oZWojbKj1KXIeY2ud0curEXm7rVFvTDcxukyd_256w.webp",
+        "cover_photo_url": null,
+        "created_at": "2026-06-06T21:15:31.000000Z",
+        "updated_at": "2026-07-10T04:56:15.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Bill454545/csstickerpack",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 141,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/76/counter-strike-sticker-pack/1.0.0",
+          "content_length": 19069499,
+          "mod_version_constraint": "1.",
+          "downloads": 933,
+          "published_at": "2026-06-07T16:39:04.000000Z",
+          "created_at": "2026-06-07T16:38:26.000000Z",
+          "updated_at": "2026-07-28T10:12:11.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 75,
+      "name": "Rattle Can Camos",
+      "slug": "rattle-can-camos",
+      "teaser": "Rattle can paint jobs inspired by real world schemes.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/NewNt11L1t9eK1K4q90jcJqYZoR8ZQr5KNpmU6DD.png",
+      "downloads": 1992,
+      "detail_url": "https://forge.sp-tarkov.com/addon/75/rattle-can-camos",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-06-06T01:35:00.000000Z",
+      "created_at": "2026-06-06T01:36:02.000000Z",
+      "updated_at": "2026-08-03T06:02:35.000000Z",
+      "owner": {
+        "id": 60147,
+        "name": "SligarTheTiger",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/wenkc5QtYeBHolb14gEN9YJhOHIVfO3MuA4NOixi_256w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-08-01T02:50:30.000000Z",
+        "updated_at": "2026-08-09T03:21:47.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/SligarTheTiger/rattle-can-camos",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 200,
+          "version": "1.0.5",
+          "link": "https://forge.sp-tarkov.com/addon/download/75/rattle-can-camos/1.0.5",
+          "content_length": 38818400,
+          "mod_version_constraint": "~1.0",
+          "downloads": 365,
+          "published_at": "2026-08-03T02:53:00.000000Z",
+          "created_at": "2026-08-03T02:53:54.000000Z",
+          "updated_at": "2026-08-03T06:02:35.000000Z"
+        },
+        {
+          "id": 147,
+          "version": "1.0.4",
+          "link": "https://forge.sp-tarkov.com/addon/download/75/rattle-can-camos/1.0.4",
+          "content_length": 35730257,
+          "mod_version_constraint": "~1.0",
+          "downloads": 1326,
+          "published_at": "2026-06-11T17:18:00.000000Z",
+          "created_at": "2026-06-11T17:19:45.000000Z",
+          "updated_at": "2026-07-28T10:11:58.000000Z"
+        },
+        {
+          "id": 145,
+          "version": "1.0.3",
+          "link": "https://forge.sp-tarkov.com/addon/download/75/rattle-can-camos/1.0.3",
+          "content_length": 32677343,
+          "mod_version_constraint": "~1.0",
+          "downloads": 54,
+          "published_at": "2026-06-11T00:07:00.000000Z",
+          "created_at": "2026-06-11T00:08:19.000000Z",
+          "updated_at": "2026-07-28T10:12:08.000000Z"
+        },
+        {
+          "id": 142,
+          "version": "1.0.2",
+          "link": "https://forge.sp-tarkov.com/addon/download/75/rattle-can-camos/1.0.2",
+          "content_length": 27714993,
+          "mod_version_constraint": "~1.0",
+          "downloads": 103,
+          "published_at": "2026-06-07T18:35:00.000000Z",
+          "created_at": "2026-06-07T18:36:06.000000Z",
+          "updated_at": "2026-07-28T10:11:42.000000Z"
+        },
+        {
+          "id": 140,
+          "version": "1.0.1",
+          "link": "https://forge.sp-tarkov.com/addon/download/75/rattle-can-camos/1.0.1",
+          "content_length": 22650292,
+          "mod_version_constraint": "~1.0",
+          "downloads": 73,
+          "published_at": "2026-06-06T19:50:00.000000Z",
+          "created_at": "2026-06-06T19:52:07.000000Z",
+          "updated_at": "2026-07-28T10:11:50.000000Z"
+        },
+        {
+          "id": 139,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/75/rattle-can-camos/1.0.0",
+          "content_length": 18857150,
+          "mod_version_constraint": "~1.0",
+          "downloads": 71,
+          "published_at": "2026-06-06T01:47:00.000000Z",
+          "created_at": "2026-06-06T01:49:22.000000Z",
+          "updated_at": "2026-07-28T10:11:46.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 72,
+      "name": "CAG Scribbles!",
+      "slug": "cag-scribbles",
+      "teaser": "Hand-drawn markings for the high speed PMC!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/FLXegAIyZ1P4OohvtNlQT1ppzSYzf8HI1Xxb1wn2.png",
+      "downloads": 1829,
+      "detail_url": "https://forge.sp-tarkov.com/addon/72/cag-scribbles",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-06-04T04:46:00.000000Z",
+      "created_at": "2026-06-04T04:48:55.000000Z",
+      "updated_at": "2026-07-28T10:12:00.000000Z",
+      "owner": {
+        "id": 80738,
+        "name": "Clacker",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/gTzyE43wnF9rgrbDJ7UFylvM7k13ITwT8UMdd5kp_256w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-06-24T03:27:24.000000Z",
+        "updated_at": "2026-07-19T15:05:21.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/ClackerBarrel/CAG-Scribbles-and-Markings/releases/tag/v.1.0.0",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 148,
+          "version": "1.2.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/72/cag-scribbles/1.2.0",
+          "content_length": 306891,
+          "mod_version_constraint": "~1",
+          "downloads": 1544,
+          "published_at": "2026-06-13T04:53:00.000000Z",
+          "created_at": "2026-06-13T04:53:48.000000Z",
+          "updated_at": "2026-07-28T10:12:00.000000Z"
+        },
+        {
+          "id": 143,
+          "version": "1.1.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/72/cag-scribbles/1.1.0",
+          "content_length": 315376,
+          "mod_version_constraint": "~1",
+          "downloads": 126,
+          "published_at": "2026-06-08T00:28:00.000000Z",
+          "created_at": "2026-06-08T00:28:35.000000Z",
+          "updated_at": "2026-07-28T10:11:52.000000Z"
+        },
+        {
+          "id": 135,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/72/cag-scribbles/1.0.0",
+          "content_length": 198297,
+          "mod_version_constraint": "~1.",
+          "downloads": 159,
+          "published_at": "2026-06-04T04:50:00.000000Z",
+          "created_at": "2026-06-04T04:54:03.000000Z",
+          "updated_at": "2026-07-28T10:11:35.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 71,
+      "name": "Dead By Daylight Stickers",
+      "slug": "dead-by-daylight-stickers",
+      "teaser": "Stickers based on the iconic 1v4 asymmetrical horror game",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/ptzL2yHNEAZLUXiMrV1gJIpXYnSShVAfY0uIUHzu.png",
+      "downloads": 1029,
+      "detail_url": "https://forge.sp-tarkov.com/addon/71/dead-by-daylight-stickers",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-05-26T02:04:40.000000Z",
+      "created_at": "2026-05-26T01:59:56.000000Z",
+      "updated_at": "2026-07-28T10:11:08.000000Z",
+      "owner": {
+        "id": 15291,
+        "name": "Bandoot",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/qPErEOVaYLWZ4mXABsDyTP57btqqcqlPj1d30fZ2_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2022-03-01T19:48:24.000000Z",
+        "updated_at": "2026-08-09T18:17:36.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Bandoott/DBD-Sticker-Pack",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 133,
+          "version": "1.0.1",
+          "link": "https://forge.sp-tarkov.com/addon/download/71/dead-by-daylight-stickers/1.0.1",
+          "content_length": 38209520,
+          "mod_version_constraint": "~1",
+          "downloads": 904,
+          "published_at": "2026-06-02T16:37:05.000000Z",
+          "created_at": "2026-06-02T16:36:11.000000Z",
+          "updated_at": "2026-07-28T10:11:03.000000Z"
+        },
+        {
+          "id": 132,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/71/dead-by-daylight-stickers/1.0.0",
+          "content_length": 38195092,
+          "mod_version_constraint": "~1.0",
+          "downloads": 125,
+          "published_at": "2026-05-26T02:03:53.000000Z",
+          "created_at": "2026-05-26T02:02:06.000000Z",
+          "updated_at": "2026-07-28T10:11:08.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 68,
+      "name": "Pride Flag Sticker Pack",
+      "slug": "pride-flag-sticker-pack",
+      "teaser": "Representation stickers to slap on your boomsticks.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/KnEtu4DAFveqaEKxcvc31mW6svbWVGrtjjBYj3TP.png",
+      "downloads": 535,
+      "detail_url": "https://forge.sp-tarkov.com/addon/68/pride-flag-sticker-pack",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-05-23T17:00:00.000000Z",
+      "created_at": "2026-05-22T23:06:23.000000Z",
+      "updated_at": "2026-07-28T10:10:52.000000Z",
+      "owner": {
+        "id": 108549,
+        "name": "InstinctST",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/txs9MRbbN9yXk6Nha4TshqDKhDTKQHcjesv84cAV_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/v9FbtHBKBsAc6OYC1OkxXP3JyHT1x0EWlkYr7SOX.jpg",
+        "created_at": "2026-03-30T23:25:01.000000Z",
+        "updated_at": "2026-08-10T05:28:28.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 13,
+        "hub_id": 16,
+        "name": "The Unlicense",
+        "link": "https://choosealicense.com/licenses/unlicense/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/instincthr/SPT-CaC-PrideStickerPack",
+          "label": "Main Repo"
+        }
+      ],
+      "versions": [
+        {
+          "id": 130,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/68/pride-flag-sticker-pack/1.0.0",
+          "content_length": 5391771,
+          "mod_version_constraint": "1.12.1",
+          "downloads": 535,
+          "published_at": "2026-05-22T23:11:00.000000Z",
+          "created_at": "2026-05-22T23:11:51.000000Z",
+          "updated_at": "2026-07-28T10:10:52.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 67,
+      "name": "Black Ops 3 Base and Cut Camos",
+      "slug": "black-ops-3-base-and-cut-camos",
+      "teaser": "Base camos and cut camos found in game files",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/JadFRCzttk6g6Ms9mujQ2tXQsWWTaxlpn2MhqLhv.png",
+      "downloads": 2002,
+      "detail_url": "https://forge.sp-tarkov.com/addon/67/black-ops-3-base-and-cut-camos",
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-05-21T14:50:00.000000Z",
+      "created_at": "2026-05-21T15:44:20.000000Z",
+      "updated_at": "2026-07-28T10:10:49.000000Z",
+      "owner": {
+        "id": 61474,
+        "name": "nkstuf",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/6bpjAtlISEcOF5B3Or2Hh2AQ8fi3wP8Re8n84XbB_256w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-08-16T00:01:29.000000Z",
+        "updated_at": "2026-08-09T15:38:25.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Nkstuf/SPT-Stuff",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 129,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/67/black-ops-3-base-and-cut-camos/1.0.0",
+          "content_length": 832456815,
+          "mod_version_constraint": "1.17.0",
+          "downloads": 2002,
+          "published_at": "2026-05-21T15:45:00.000000Z",
+          "created_at": "2026-05-21T15:46:46.000000Z",
+          "updated_at": "2026-07-28T10:10:49.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 65,
+      "name": "Girls' Frontline Sticker",
+      "slug": "girls-frontline-sticker",
+      "teaser": "Sticker from Girls Frontline series!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/X3MRSWK9qakQzg4QZI2T036i3wthEpb4SaiWPuMj.png",
+      "downloads": 1997,
+      "detail_url": "https://forge.sp-tarkov.com/addon/65/girls-frontline-sticker",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-05-20T02:03:00.000000Z",
+      "created_at": "2026-05-19T02:30:09.000000Z",
+      "updated_at": "2026-07-28T10:09:39.000000Z",
+      "owner": {
+        "id": 105063,
+        "name": "Rein-K",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/BzfNFFymcr7yq8xUKQBtrnyg7qk2DkPLCHSQ7P2z_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2026-02-13T22:58:16.000000Z",
+        "updated_at": "2026-08-10T07:00:44.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/R-Klukai/GFL2-Stickers",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 128,
+          "version": "1.0.1",
+          "link": "https://forge.sp-tarkov.com/addon/download/65/girls-frontline-sticker/1.0.1",
+          "content_length": 83768780,
+          "mod_version_constraint": "~1.9",
+          "downloads": 1997,
+          "published_at": "2026-05-19T17:00:00.000000Z",
+          "created_at": "2026-05-20T01:08:22.000000Z",
+          "updated_at": "2026-07-28T10:09:39.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 64,
+      "name": "Anime & LARP Camo Presets",
+      "slug": "anime-larp-camo-presets",
+      "teaser": "☑️ 30 High quality MODULAR camo presets | Previews included!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/chTuKeDvNa4OSatrnuM8XsMiJB9yR4hDIi1UiHno.jpg",
+      "downloads": 4144,
+      "detail_url": "https://forge.sp-tarkov.com/addon/64/anime-larp-camo-presets",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-05-07T09:00:00.000000Z",
+      "created_at": "2026-05-07T02:16:58.000000Z",
+      "updated_at": "2026-07-28T10:11:30.000000Z",
+      "owner": {
+        "id": 15291,
+        "name": "Bandoot",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/qPErEOVaYLWZ4mXABsDyTP57btqqcqlPj1d30fZ2_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2022-03-01T19:48:24.000000Z",
+        "updated_at": "2026-08-09T18:17:36.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Bandoott/Anime-LARP-camo-presets",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 134,
+          "version": "1.3.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/64/anime-larp-camo-presets/1.3.0",
+          "content_length": 536028491,
+          "mod_version_constraint": "~1.7",
+          "downloads": 2972,
+          "published_at": "2026-06-02T16:51:46.000000Z",
+          "created_at": "2026-06-02T16:46:17.000000Z",
+          "updated_at": "2026-07-28T10:11:30.000000Z"
+        },
+        {
+          "id": 126,
+          "version": "1.2.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/64/anime-larp-camo-presets/1.2.0",
+          "content_length": 414809569,
+          "mod_version_constraint": "~1.7",
+          "downloads": 591,
+          "published_at": "2026-05-19T09:15:15.000000Z",
+          "created_at": "2026-05-19T09:13:51.000000Z",
+          "updated_at": "2026-07-28T10:09:03.000000Z"
+        },
+        {
+          "id": 122,
+          "version": "1.1.1",
+          "link": "https://forge.sp-tarkov.com/addon/download/64/anime-larp-camo-presets/1.1.1",
+          "content_length": 344671502,
+          "mod_version_constraint": "~1.7",
+          "downloads": 249,
+          "published_at": "2026-05-14T17:32:08.000000Z",
+          "created_at": "2026-05-14T17:29:45.000000Z",
+          "updated_at": "2026-07-28T10:07:33.000000Z"
+        },
+        {
+          "id": 121,
+          "version": "1.1.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/64/anime-larp-camo-presets/1.1.0",
+          "content_length": 540993743,
+          "mod_version_constraint": "~1.7",
+          "downloads": 75,
+          "published_at": "2026-05-14T03:12:00.000000Z",
+          "created_at": "2026-05-14T02:51:08.000000Z",
+          "updated_at": "2026-07-28T10:07:54.000000Z"
+        },
+        {
+          "id": 117,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/64/anime-larp-camo-presets/1.0.0",
+          "content_length": 944260249,
+          "mod_version_constraint": "~1.7",
+          "downloads": 257,
+          "published_at": "2026-05-07T08:04:00.000000Z",
+          "created_at": "2026-05-07T02:23:12.000000Z",
+          "updated_at": "2026-07-28T10:07:18.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 63,
+      "name": "Hired Ops Camouflage Paints Collection",
+      "slug": "hired-ops-camouflage-paints-collection",
+      "teaser": "Adds a set of camouflages from the little-known game BSG - Hired Ops. The set contains over 200 camouflages.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/pPuOeKCuqEkkQEUaRWMuMRMJxR4Qv4zgwHcPL0eA.png",
+      "downloads": 2123,
+      "detail_url": "https://forge.sp-tarkov.com/addon/63/hired-ops-camouflage-paints-collection",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-05-06T15:35:00.000000Z",
+      "created_at": "2026-05-06T14:35:39.000000Z",
+      "updated_at": "2026-07-28T10:10:59.000000Z",
+      "owner": {
+        "id": 111222,
+        "name": "Goodnigth",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/HqGvVUY5kzk23sSESwQmj9M2KQWDfmG8Htj5y3Yu_256w.webp",
+        "cover_photo_url": null,
+        "created_at": "2026-04-28T08:51:48.000000Z",
+        "updated_at": "2026-07-10T04:55:39.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://drive.google.com/file/d/1SUhZUgvjiXogIn_a48QWnZRyrIZm3sdh/view?usp=sharing",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 115,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/63/hired-ops-camouflage-paints-collection/1.0.0",
+          "content_length": 55309177,
+          "mod_version_constraint": "1.12.1",
+          "downloads": 2123,
+          "published_at": "2026-05-06T15:43:00.000000Z",
+          "created_at": "2026-05-06T15:40:34.000000Z",
+          "updated_at": "2026-07-28T10:10:59.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 60,
+      "name": "Daebom Stickers Addon",
+      "slug": "daebom-stickers-addon",
+      "teaser": "Stickers of artworks made by War Thunder Artist, Daebom",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/id9wLE2CNSS6FdDl8huClo6x9Ubp1PZIWG1wwSl4.jpg",
+      "downloads": 1807,
+      "detail_url": "https://forge.sp-tarkov.com/addon/60/daebom-stickers-addon",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-04-27T10:08:00.000000Z",
+      "created_at": "2026-04-27T10:01:47.000000Z",
+      "updated_at": "2026-07-28T10:05:52.000000Z",
+      "owner": {
+        "id": 98410,
+        "name": "Doc Frek",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/rGPz4HIZS0LfKIWCgJTZCMBbVhLpsoYGEZI3Cn5u_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/WB18iwBNVc5sLGOgs4wu5vc17KsAOIvThIek12FY_2560w.webp",
+        "created_at": "2025-12-26T04:34:09.000000Z",
+        "updated_at": "2026-08-10T02:26:55.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/DocFrek/Daebom-Sticker-for-SPT",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 107,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/60/daebom-stickers-addon/1.0.0",
+          "content_length": 56805780,
+          "mod_version_constraint": "~1",
+          "downloads": 1807,
+          "published_at": "2026-04-27T10:08:16.000000Z",
+          "created_at": "2026-04-27T10:04:57.000000Z",
+          "updated_at": "2026-07-28T10:05:52.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 59,
+      "name": "WT Camo and Stickers",
+      "slug": "wt-camo-and-stickers",
+      "teaser": "Camo and Stickers from War Thunder",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/7XPpOTpn7R6riULdz7RGFFdCO2YI0LfNi3VQrxoC.jpg",
+      "downloads": 2085,
+      "detail_url": "https://forge.sp-tarkov.com/addon/59/wt-camo-and-stickers",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-04-26T16:03:00.000000Z",
+      "created_at": "2026-04-26T16:13:49.000000Z",
+      "updated_at": "2026-07-28T10:05:43.000000Z",
+      "owner": {
+        "id": 26684,
+        "name": "Redmisty",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/0969644c937d9255244ef72b7dc21f0629fcd546_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2023-02-07T10:17:53.000000Z",
+        "updated_at": "2026-08-05T07:30:05.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Redmistyyy/eXe-CamoAndStickers",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 106,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/59/wt-camo-and-stickers/1.0.0",
+          "content_length": 276086509,
+          "mod_version_constraint": "~1.6",
+          "downloads": 2085,
+          "published_at": "2026-04-26T16:31:00.000000Z",
+          "created_at": "2026-04-26T16:30:46.000000Z",
+          "updated_at": "2026-07-28T10:05:43.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 57,
+      "name": "COD camos",
+      "slug": "cod-camos",
+      "teaser": "more camos for those MW2 fanboys like me",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/HtjmTlIGLV77xvWzNa6f3xkvQSVtsmQxoReeNlwi.png",
+      "downloads": 3204,
+      "detail_url": "https://forge.sp-tarkov.com/addon/57/cod-camos",
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-04-23T16:13:00.000000Z",
+      "created_at": "2026-04-23T16:15:39.000000Z",
+      "updated_at": "2026-07-28T10:05:14.000000Z",
+      "owner": {
+        "id": 8430,
+        "name": "papanoskill",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/54c2c874447c27e77af5375de3ef2d7eea66881a_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2021-09-03T17:22:03.000000Z",
+        "updated_at": "2026-08-09T21:32:28.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/noskillant/Cod-Camos-SPT/releases/tag/Main",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 102,
+          "version": "1.0.3",
+          "link": "https://forge.sp-tarkov.com/addon/download/57/cod-camos/1.0.3",
+          "content_length": 43208856,
+          "mod_version_constraint": "1.0.0",
+          "downloads": 3098,
+          "published_at": "2026-04-25T01:18:00.000000Z",
+          "created_at": "2026-04-25T01:20:15.000000Z",
+          "updated_at": "2026-07-28T10:05:14.000000Z"
+        },
+        {
+          "id": 94,
+          "version": "1.0.2",
+          "link": "https://forge.sp-tarkov.com/addon/download/57/cod-camos/1.0.2",
+          "content_length": 18177670,
+          "mod_version_constraint": "1.0.0",
+          "downloads": 65,
+          "published_at": "2026-04-23T21:20:00.000000Z",
+          "created_at": "2026-04-23T21:22:10.000000Z",
+          "updated_at": "2026-07-28T10:04:59.000000Z"
+        },
+        {
+          "id": 93,
+          "version": "1.0.1",
+          "link": "https://forge.sp-tarkov.com/addon/download/57/cod-camos/1.0.1",
+          "content_length": 12676357,
+          "mod_version_constraint": "1.0.0",
+          "downloads": 41,
+          "published_at": "2026-04-23T18:37:00.000000Z",
+          "created_at": "2026-04-23T18:40:43.000000Z",
+          "updated_at": "2026-07-28T10:05:02.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 52,
+      "name": "Azukata's Anime Assortment",
+      "slug": "azukatas-anime-assortment",
+      "teaser": "Making your weapon a little more expressive.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/dly4Hmo9pKPiNcy69Nhi1dG2BtGqbVDppYWwdaeL.png",
+      "downloads": 4736,
+      "detail_url": "https://forge.sp-tarkov.com/addon/52/azukatas-anime-assortment",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-04-13T16:46:00.000000Z",
+      "created_at": "2026-04-13T23:22:11.000000Z",
+      "updated_at": "2026-07-28T10:04:46.000000Z",
+      "owner": {
+        "id": 41584,
+        "name": "Azukata",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/LtuE3tSumBS6oZkMv3BIOQRvNTT5lUiDibjE89No_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2023-12-03T10:02:07.000000Z",
+        "updated_at": "2026-07-15T07:23:53.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Azukata/Anime-Assortment/tree/main",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 89,
+          "version": "1.1.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/52/azukatas-anime-assortment/1.1.0",
+          "content_length": 6067682,
+          "mod_version_constraint": "~1",
+          "downloads": 4577,
+          "published_at": "2026-04-16T04:47:46.000000Z",
+          "created_at": "2026-04-16T04:47:39.000000Z",
+          "updated_at": "2026-07-28T10:04:46.000000Z"
+        },
+        {
+          "id": 85,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/52/azukatas-anime-assortment/1.0.0",
+          "content_length": 4120668,
+          "mod_version_constraint": "~1.0",
+          "downloads": 159,
+          "published_at": "2026-04-13T23:46:00.000000Z",
+          "created_at": "2026-04-13T23:34:33.000000Z",
+          "updated_at": "2026-07-28T10:04:30.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 51,
+      "name": "military ranks",
+      "slug": "military-ranks",
+      "teaser": "us military ranks",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/kHObZaGmA8wseI4XxiHtFfwRAoCHguR6fR50UDVS.png",
+      "downloads": 785,
+      "detail_url": "https://forge.sp-tarkov.com/addon/51/military-ranks",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-04-12T15:24:00.000000Z",
+      "created_at": "2026-04-12T15:24:36.000000Z",
+      "updated_at": "2026-07-28T10:03:31.000000Z",
+      "owner": {
+        "id": 32626,
+        "name": "CMDR_Tank",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/Pws2Yf16Nw3IsniwgRsoKlIJMngmDK1dbxFdimvr_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/7d23c15a690638f8d729085beaf99a533d588a86_1280w.webp",
+        "created_at": "2023-06-19T19:18:27.000000Z",
+        "updated_at": "2026-08-08T11:53:59.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/CmdrTank/military-ranks.git",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 83,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/51/military-ranks/1.0.0",
+          "content_length": 16276682,
+          "mod_version_constraint": "1.0.0",
+          "downloads": 785,
+          "published_at": "2026-04-11T15:27:00.000000Z",
+          "created_at": "2026-04-12T15:27:19.000000Z",
+          "updated_at": "2026-07-28T10:03:31.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 49,
+      "name": "S.T.A.L.K.E.R Factions patch",
+      "slug": "stalker-factions-patch",
+      "teaser": "all Factions patch is here",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/d1Ie3GRGd8h7KvXXXoxFnl5cqBu81LlygsN8LPrl.png",
+      "downloads": 1724,
+      "detail_url": "https://forge.sp-tarkov.com/addon/49/stalker-factions-patch",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-04-10T11:05:00.000000Z",
+      "created_at": "2026-04-10T11:05:59.000000Z",
+      "updated_at": "2026-07-28T10:02:52.000000Z",
+      "owner": {
+        "id": 32626,
+        "name": "CMDR_Tank",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/Pws2Yf16Nw3IsniwgRsoKlIJMngmDK1dbxFdimvr_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/7d23c15a690638f8d729085beaf99a533d588a86_1280w.webp",
+        "created_at": "2023-06-19T19:18:27.000000Z",
+        "updated_at": "2026-08-08T11:53:59.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/CmdrTank/Factions_Patch.git",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 79,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/49/stalker-factions-patch/1.0.0",
+          "content_length": 2211854,
+          "mod_version_constraint": "1.0.0",
+          "downloads": 1724,
+          "published_at": "2026-03-10T20:13:00.000000Z",
+          "created_at": "2026-04-10T11:13:34.000000Z",
+          "updated_at": "2026-07-28T10:02:52.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 48,
+      "name": "Champions Of Light ancient runes and other stuff",
+      "slug": "champions-of-light-ancient-runes-and-other-stuff",
+      "teaser": "Adds 13 stickers based on nordic runes and symbols, 5 new masks and new camos",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/OSWHWD594pIMXiYvKkGo0GQvLLnO2QQkKAO2tjPI.png",
+      "downloads": 3164,
+      "detail_url": "https://forge.sp-tarkov.com/addon/48/champions-of-light-ancient-runes-and-other-stuff",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-04-10T10:29:00.000000Z",
+      "created_at": "2026-04-10T08:26:15.000000Z",
+      "updated_at": "2026-07-28T10:05:46.000000Z",
+      "owner": {
+        "id": 99432,
+        "name": "WitchBlade",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=W&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2025-12-30T16:14:06.000000Z",
+        "updated_at": "2026-08-09T11:33:48.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Opeshek/ChampionsOfLight-Bunch-of-Runes",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 105,
+          "version": "1.2.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/48/champions-of-light-ancient-runes-and-other-stuff/1.2.0",
+          "content_length": 10018658,
+          "mod_version_constraint": "~1.",
+          "downloads": 2617,
+          "published_at": "2026-04-25T19:27:00.000000Z",
+          "created_at": "2026-04-25T19:41:28.000000Z",
+          "updated_at": "2026-07-28T10:05:46.000000Z"
+        },
+        {
+          "id": 78,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/48/champions-of-light-ancient-runes-and-other-stuff/1.0.0",
+          "content_length": 7865489,
+          "mod_version_constraint": "~1.",
+          "downloads": 547,
+          "published_at": "2026-04-10T08:26:00.000000Z",
+          "created_at": "2026-04-10T08:31:51.000000Z",
+          "updated_at": "2026-07-28T10:02:48.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 47,
+      "name": "Spirit's Embroidery",
+      "slug": "spirits-embroidery",
+      "teaser": "For when people thought guns couldn't get any more cag.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/o8rwKIWNPj8BOEjgyqNVoPeNEJk25WovIW1FAZot.png",
+      "downloads": 5927,
+      "detail_url": "https://forge.sp-tarkov.com/addon/47/spirits-embroidery",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-04-09T19:15:00.000000Z",
+      "created_at": "2026-04-09T19:24:42.000000Z",
+      "updated_at": "2026-07-28T10:09:29.000000Z",
+      "owner": {
+        "id": 72200,
+        "name": "spiritsthroughyou",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/VJcsIf4Od9Dxx0BxsgrqTIZGJHb5F2zdOUnFJdWO_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/qkt6UT6kOdjdeJ3teabYW8Ft5Ho5j1ctEFgf5eB8.jpg",
+        "created_at": "2025-01-24T22:10:49.000000Z",
+        "updated_at": "2026-08-10T00:53:06.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/spiritsthroughyou/SPT-Shit/releases",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 127,
+          "version": "1.0.6",
+          "link": "https://forge.sp-tarkov.com/addon/download/47/spirits-embroidery/1.0.6",
+          "content_length": 140861443,
+          "mod_version_constraint": "~1.0",
+          "downloads": 3843,
+          "published_at": "2026-05-19T23:45:00.000000Z",
+          "created_at": "2026-05-20T00:46:59.000000Z",
+          "updated_at": "2026-07-28T10:09:29.000000Z"
+        },
+        {
+          "id": 112,
+          "version": "1.0.5",
+          "link": "https://forge.sp-tarkov.com/addon/download/47/spirits-embroidery/1.0.5",
+          "content_length": 94292196,
+          "mod_version_constraint": "~1.0",
+          "downloads": 657,
+          "published_at": "2026-05-05T02:20:00.000000Z",
+          "created_at": "2026-05-05T02:20:39.000000Z",
+          "updated_at": "2026-07-28T10:06:19.000000Z"
+        },
+        {
+          "id": 103,
+          "version": "1.0.4",
+          "link": "https://forge.sp-tarkov.com/addon/download/47/spirits-embroidery/1.0.4",
+          "content_length": 65491536,
+          "mod_version_constraint": "~1.0",
+          "downloads": 417,
+          "published_at": "2026-04-25T11:53:00.000000Z",
+          "created_at": "2026-04-25T11:59:17.000000Z",
+          "updated_at": "2026-07-28T10:05:28.000000Z"
+        },
+        {
+          "id": 90,
+          "version": "1.0.3",
+          "link": "https://forge.sp-tarkov.com/addon/download/47/spirits-embroidery/1.0.3",
+          "content_length": 54907557,
+          "mod_version_constraint": "~1.0",
+          "downloads": 378,
+          "published_at": "2026-04-16T21:03:00.000000Z",
+          "created_at": "2026-04-16T21:16:35.000000Z",
+          "updated_at": "2026-07-28T10:04:44.000000Z"
+        },
+        {
+          "id": 86,
+          "version": "1.0.2",
+          "link": "https://forge.sp-tarkov.com/addon/download/47/spirits-embroidery/1.0.2",
+          "content_length": 43242257,
+          "mod_version_constraint": "~1.0",
+          "downloads": 161,
+          "published_at": "2026-04-14T00:33:00.000000Z",
+          "created_at": "2026-04-14T00:33:09.000000Z",
+          "updated_at": "2026-07-28T10:04:27.000000Z"
+        },
+        {
+          "id": 82,
+          "version": "1.0.1",
+          "link": "https://forge.sp-tarkov.com/addon/download/47/spirits-embroidery/1.0.1",
+          "content_length": 32655510,
+          "mod_version_constraint": "~1.1.0",
+          "downloads": 197,
+          "published_at": "2026-04-11T16:55:00.000000Z",
+          "created_at": "2026-04-11T16:55:59.000000Z",
+          "updated_at": "2026-07-28T10:03:26.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 46,
+      "name": "Arabic stickers ",
+      "slug": "arabic-stickers",
+      "teaser": "stickers that writing in arabic",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/2zbPYwQwmLvXwz8nCzVwNS3UVJcwdNavqJPAMPtY.png",
+      "downloads": 642,
+      "detail_url": "https://forge.sp-tarkov.com/addon/46/arabic-stickers",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-04-07T02:10:00.000000Z",
+      "created_at": "2026-04-08T17:42:57.000000Z",
+      "updated_at": "2026-07-28T10:01:59.000000Z",
+      "owner": {
+        "id": 32626,
+        "name": "CMDR_Tank",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/Pws2Yf16Nw3IsniwgRsoKlIJMngmDK1dbxFdimvr_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/7d23c15a690638f8d729085beaf99a533d588a86_1280w.webp",
+        "created_at": "2023-06-19T19:18:27.000000Z",
+        "updated_at": "2026-08-08T11:53:59.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/CmdrTank/Arabic-stickers-.git",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 74,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/46/arabic-stickers/1.0.0",
+          "content_length": 609217,
+          "mod_version_constraint": "1.0.0",
+          "downloads": 642,
+          "published_at": "2026-04-08T18:31:00.000000Z",
+          "created_at": "2026-04-08T19:21:00.000000Z",
+          "updated_at": "2026-07-28T10:01:59.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 44,
+      "name": "Simple Stickers Addon",
+      "slug": "simple-stickers-addon",
+      "teaser": "Stickers",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/MsKyQ7DA1mhU43WHFwJXE8XsYduv2WD17oBJgXut.png",
+      "downloads": 3051,
+      "detail_url": "https://forge.sp-tarkov.com/addon/44/simple-stickers-addon",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-04-08T08:25:00.000000Z",
+      "created_at": "2026-04-08T08:02:11.000000Z",
+      "updated_at": "2026-07-28T10:02:50.000000Z",
+      "owner": {
+        "id": 37290,
+        "name": "The_Kniper",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/eec7691c684f74b11057ce94d8ad934f7b235a3c_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2023-09-20T11:50:15.000000Z",
+        "updated_at": "2026-08-04T19:57:49.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/TheKniper/SPT-STUFF/releases/tag/first",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 72,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/44/simple-stickers-addon/1.0.0",
+          "content_length": 3726575,
+          "mod_version_constraint": "1.0.1",
+          "downloads": 3051,
+          "published_at": "2026-04-08T08:25:23.000000Z",
+          "created_at": "2026-04-08T08:17:24.000000Z",
+          "updated_at": "2026-07-28T10:02:50.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 43,
+      "name": "Camos, Misc & Markers",
+      "slug": "camos-misc-markers",
+      "teaser": "180+ Camouflages, Sharpie writings, armory markers, dust, modular camouflage layers",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/gAz4dVMc7M4K13OPu34pN2zpbLWjIanIsFX5cDcs.png",
+      "downloads": 6939,
+      "detail_url": "https://forge.sp-tarkov.com/addon/43/camos-misc-markers",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-04-08T06:07:00.000000Z",
+      "created_at": "2026-04-08T06:14:12.000000Z",
+      "updated_at": "2026-07-28T10:02:07.000000Z",
+      "owner": {
+        "id": 83032,
+        "name": "bugs",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/7d0d0165d23426a94017831f2c70d552b91f2e55_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/OT5jOD3wcoeCYHxO1ESmPrjBmmuMg3ooE9hPXpk0_1280w.webp",
+        "created_at": "2025-08-08T21:43:51.000000Z",
+        "updated_at": "2026-07-10T04:57:09.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/3k4orin/misc-and-markers/",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 76,
+          "version": "1.1.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/43/camos-misc-markers/1.1.0",
+          "content_length": 81816306,
+          "mod_version_constraint": "~1.0.0",
+          "downloads": 6601,
+          "published_at": "2026-04-09T15:08:00.000000Z",
+          "created_at": "2026-04-09T15:14:47.000000Z",
+          "updated_at": "2026-07-28T10:02:07.000000Z"
+        },
+        {
+          "id": 71,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/43/camos-misc-markers/1.0.0",
+          "content_length": 8835427,
+          "mod_version_constraint": "~1.0.0",
+          "downloads": 338,
+          "published_at": "2026-04-08T06:18:00.000000Z",
+          "created_at": "2026-04-08T06:21:03.000000Z",
+          "updated_at": "2026-07-28T10:01:57.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 42,
+      "name": "Utanu's Tarkov Texture Pack",
+      "slug": "utanus-tarkov-texture-pack",
+      "teaser": "✔️ 515 New Textures | 🎭Themed Textures | 💎 Skins from other games  Enjoy!!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/i8yAEkfhP9KecQsQEg7J6lll8hdwzBXcFmGPrF51.png",
+      "downloads": 8339,
+      "detail_url": "https://forge.sp-tarkov.com/addon/42/utanus-tarkov-texture-pack",
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-04-07T20:00:00.000000Z",
+      "created_at": "2026-04-07T22:20:31.000000Z",
+      "updated_at": "2026-07-28T10:08:44.000000Z",
+      "owner": {
+        "id": 100184,
+        "name": "utanumaner",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/MN3Vemqb2Gl9Fz2STnUtKhNb4pd9HWSU7dnLEYtQ_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2026-01-03T17:08:59.000000Z",
+        "updated_at": "2026-08-06T01:55:30.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/UtanuManer/00---Utanu-s-Texture-Pack",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 123,
+          "version": "0.5.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/42/utanus-tarkov-texture-pack/0.5.0",
+          "content_length": 1292806619,
+          "mod_version_constraint": "~1.0",
+          "downloads": 4948,
+          "published_at": "2026-05-19T01:44:00.000000Z",
+          "created_at": "2026-05-19T01:50:25.000000Z",
+          "updated_at": "2026-07-28T10:08:44.000000Z"
+        },
+        {
+          "id": 84,
+          "version": "0.4.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/42/utanus-tarkov-texture-pack/0.4.0",
+          "content_length": 981940472,
+          "mod_version_constraint": "~1.0",
+          "downloads": 2126,
+          "published_at": "2026-04-13T14:58:00.000000Z",
+          "created_at": "2026-04-13T14:58:09.000000Z",
+          "updated_at": "2026-07-28T10:04:14.000000Z"
+        },
+        {
+          "id": 80,
+          "version": "0.3.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/42/utanus-tarkov-texture-pack/0.3.0",
+          "content_length": 606517374,
+          "mod_version_constraint": "~1.0",
+          "downloads": 406,
+          "published_at": "2026-04-10T20:53:00.000000Z",
+          "created_at": "2026-04-10T20:53:18.000000Z",
+          "updated_at": "2026-07-28T10:03:17.000000Z"
+        },
+        {
+          "id": 75,
+          "version": "0.2.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/42/utanus-tarkov-texture-pack/0.2.0",
+          "content_length": 571256517,
+          "mod_version_constraint": "~1.0",
+          "downloads": 439,
+          "published_at": "2026-04-08T23:40:00.000000Z",
+          "created_at": "2026-04-08T23:37:00.000000Z",
+          "updated_at": "2026-07-28T10:02:44.000000Z"
+        },
+        {
+          "id": 70,
+          "version": "0.1.1",
+          "link": "https://forge.sp-tarkov.com/addon/download/42/utanus-tarkov-texture-pack/0.1.1",
+          "content_length": 292071777,
+          "mod_version_constraint": "~1.0",
+          "downloads": 335,
+          "published_at": "2026-04-08T02:01:00.000000Z",
+          "created_at": "2026-04-08T02:02:39.000000Z",
+          "updated_at": "2026-07-28T10:01:55.000000Z"
+        },
+        {
+          "id": 67,
+          "version": "0.1.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/42/utanus-tarkov-texture-pack/0.1.0",
+          "content_length": 292071495,
+          "mod_version_constraint": "~1.0.0",
+          "downloads": 85,
+          "published_at": "2026-04-07T22:40:00.000000Z",
+          "created_at": "2026-04-07T22:39:46.000000Z",
+          "updated_at": "2026-07-28T10:01:22.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 41,
+      "name": "EMR Texture Pack",
+      "slug": "emr-texture-pack",
+      "teaser": "Adds EMR camouflage for Weapon Camo And Stickers mod",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/HZKhE958N3GpC6a2AguxFmNw18lgIODxJzKlRm55.png",
+      "downloads": 4577,
+      "detail_url": "https://forge.sp-tarkov.com/addon/41/emr-texture-pack",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-04-07T18:31:00.000000Z",
+      "created_at": "2026-04-07T18:27:56.000000Z",
+      "updated_at": "2026-07-28T10:02:01.000000Z",
+      "owner": {
+        "id": 35354,
+        "name": "FiveF",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/4PrspaotF8zlBMUzGrNc2gOemhVCdj9OXjmJBbFX_256w.webp",
+        "cover_photo_url": null,
+        "created_at": "2023-08-12T02:23:04.000000Z",
+        "updated_at": "2026-08-10T09:00:09.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/FiveFme/SPT.Addon-EMR-Camouflage",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 73,
+          "version": "1.0.2",
+          "link": "https://forge.sp-tarkov.com/addon/download/41/emr-texture-pack/1.0.2",
+          "content_length": 147776,
+          "mod_version_constraint": ">= 1.0.1, < 2.0.0",
+          "downloads": 4183,
+          "published_at": "2026-04-08T19:20:00.000000Z",
+          "created_at": "2026-04-08T19:12:37.000000Z",
+          "updated_at": "2026-07-28T10:02:01.000000Z"
+        },
+        {
+          "id": 69,
+          "version": "1.0.1",
+          "link": "https://forge.sp-tarkov.com/addon/download/41/emr-texture-pack/1.0.1",
+          "content_length": 148850,
+          "mod_version_constraint": "~1.0.1",
+          "downloads": 248,
+          "published_at": "2026-04-08T01:59:09.000000Z",
+          "created_at": "2026-04-08T01:59:03.000000Z",
+          "updated_at": "2026-07-28T10:01:35.000000Z"
+        },
+        {
+          "id": 66,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/41/emr-texture-pack/1.0.0",
+          "content_length": 148916,
+          "mod_version_constraint": "1.0.0",
+          "downloads": 146,
+          "published_at": "2026-04-07T18:31:00.000000Z",
+          "created_at": "2026-04-07T18:31:16.000000Z",
+          "updated_at": "2026-07-28T10:01:03.000000Z"
+        }
+      ]
+    },
+    {
+      "id": 40,
+      "name": "Essential Texture Pack",
+      "slug": "essential-texture-pack",
+      "teaser": "Basic collection of textures that can be used with Camo And Stickers",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/ICStp8Rjf3UH539OZTr98Ab4CwnfLtIFgYUs0ULN.png",
+      "downloads": 13612,
+      "detail_url": "https://forge.sp-tarkov.com/addon/40/essential-texture-pack",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2658,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-04-07T04:51:00.000000Z",
+      "created_at": "2026-04-05T21:52:34.000000Z",
+      "updated_at": "2026-08-09T18:02:55.000000Z",
+      "owner": {
+        "id": 106491,
+        "name": "7Bpencil",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/ZOiXstwfTHX6H3KivVWEtlNz84ORSO7sWiWjj1bj_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/xJW384FLe1EsovNUVRsjqDoIZIsCGYCTUJk45JUb.png",
+        "created_at": "2026-03-03T10:57:21.000000Z",
+        "updated_at": "2026-08-10T08:22:48.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 13,
+        "hub_id": 16,
+        "name": "The Unlicense",
+        "link": "https://choosealicense.com/licenses/unlicense/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/7Bpencil/SPT.WeaponCamoAndStickers.EssentialTexturePack",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 218,
+          "version": "1.1.1",
+          "link": "https://forge.sp-tarkov.com/addon/download/40/essential-texture-pack/1.1.1",
+          "content_length": 70375213,
+          "mod_version_constraint": "~1.17",
+          "downloads": 354,
+          "published_at": "2026-08-09T13:20:00.000000Z",
+          "created_at": "2026-08-09T13:21:24.000000Z",
+          "updated_at": "2026-08-09T18:02:55.000000Z"
+        },
+        {
+          "id": 91,
+          "version": "1.1.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/40/essential-texture-pack/1.1.0",
+          "content_length": 70374334,
+          "mod_version_constraint": "^1.4.0",
+          "downloads": 10390,
+          "published_at": "2026-04-21T19:00:00.000000Z",
+          "created_at": "2026-04-21T21:43:52.000000Z",
+          "updated_at": "2026-07-28T10:04:51.000000Z"
+        },
+        {
+          "id": 68,
+          "version": "1.0.1",
+          "link": "https://forge.sp-tarkov.com/addon/download/40/essential-texture-pack/1.0.1",
+          "content_length": 69599680,
+          "mod_version_constraint": "1.*",
+          "downloads": 2209,
+          "published_at": "2026-04-08T00:45:00.000000Z",
+          "created_at": "2026-04-08T01:25:55.000000Z",
+          "updated_at": "2026-07-28T10:01:30.000000Z"
+        },
+        {
+          "id": 65,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/40/essential-texture-pack/1.0.0",
+          "content_length": null,
+          "mod_version_constraint": "~1",
+          "downloads": 659,
+          "published_at": "2026-04-07T04:51:00.000000Z",
+          "created_at": "2026-04-07T04:03:10.000000Z",
+          "updated_at": "2026-04-07T04:52:02.000000Z"
+        }
+      ]
+    }
+  ],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2658/7Bpencil.WeaponCamoAndStickers.1.18.0.zip",
+    "bytes_written": 216497,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1202231647/4478bd51-78cb-41c8-ab58-ebe0be0cb6c7?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A23%3A52Z&rscd=attachment%3B+filename%3D7Bpencil.WeaponCamoAndStickers.1.18.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A23%3A22Z&ske=2026-08-10T10%3A23%3A52Z&sks=b&skv=2018-11-09&sig=E%2FkOdF4A%2FFk%2F0gJNvYZzJzpFnCmkjTeXYDPgsvMiFTg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTEyNSwibmJmIjoxNzg2MzU0ODI1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.bvNatIeS8R7oBnMFcmYtolrwU6yB5Ga0wl9sZt31pTk&response-content-disposition=attachment%3B%20filename%3D7Bpencil.WeaponCamoAndStickers.1.18.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2658/camo-and-stickers-1.17.1-spt40.zip",
+    "bytes_written": 216894,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1202231647/4a3da577-7af4-46b1-a519-cb6652dbe2a4?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T12%3A35%3A15Z&rscd=attachment%3B+filename%3D7Bpencil.WeaponCamoAndStickers.1.17.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T11%3A34%3A29Z&ske=2026-08-10T12%3A35%3A15Z&sks=b&skv=2018-11-09&sig=7O6WkV40PgT%2FblEnqyKbs53FvQ%2FRNQxokr2R4HgGN90%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzYxNywibmJmIjoxNzg2MzYzMzE3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.1NMRokG-gJ86jUwY9oct-An0zL1vETTVoLT0TfIO8lU&response-content-disposition=attachment%3B%20filename%3D7Bpencil.WeaponCamoAndStickers.1.17.1.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.17.1",
+    "same_as_primary_download": false
+  }
+}

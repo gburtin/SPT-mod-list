@@ -1,0 +1,107 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2530,
+      "hub_id": null,
+      "guid": "com.tarkin.huir",
+      "name": "Vertical Hideout",
+      "slug": "vertical-hideout",
+      "teaser": "Replace the horizontal carousel with a sane vertical list",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/gjcap917z9lackUaqg0C57HzpPU2QeJTzL2HWhso.png",
+      "downloads": 24813,
+      "favourites_count": 115,
+      "description": "<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.ibb.co/5hdp9fyP/Screenshot-2026-01-03-102156.png\" alt=\"screenshot\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.ibb.co/tpp2rPNp/Screenshot-2026-01-05-042150.png\" alt=\"screenshot\" /></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2530/vertical-hideout",
+      "fika_compatibility": true,
+      "featured": true,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 6,
+      "published_at": "2026-01-03T08:08:00.000000Z",
+      "created_at": "2026-01-03T08:08:35.000000Z",
+      "updated_at": "2026-07-28T07:26:27.000000Z",
+      "owner": {
+        "id": 65264,
+        "name": "tarkin",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/3458fcb0a0ba6b7402a1b797878ac6613f59c0e0_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-10-11T13:28:38.000000Z",
+        "updated_at": "2026-08-10T09:20:43.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12755,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2530/vertical-hideout/1.0.0",
+          "content_length": 9190,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 24813,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-01-03T08:11:00.000000Z",
+          "created_at": "2026-01-03T08:11:32.000000Z",
+          "updated_at": "2026-07-28T07:26:27.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 6,
+        "hub_id": 23,
+        "title": "Hideout",
+        "slug": "hideout",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/bmpq/spt-hideoutuirevamp",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12755,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>release</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2530/vertical-hideout/1.0.0",
+      "content_length": 9190,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 24813,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-01-03T08:11:00.000000Z",
+      "created_at": "2026-01-03T08:11:32.000000Z",
+      "updated_at": "2026-07-28T07:26:27.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2530/huir_v1.0.0.zip",
+    "bytes_written": 9190,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1126469196/869854f3-dbf7-43de-bf4f-f1db7d29d680?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A52%3A43Z&rscd=attachment%3B+filename%3Dhuir_v1.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A52%3A37Z&ske=2026-08-10T10%3A52%3A43Z&sks=b&skv=2018-11-09&sig=SIqf081nWXOo4ZQlDNNvEYvKeXgMibpm%2F44zmwk%2FBwU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1Njg1OSwibmJmIjoxNzg2MzU2NTU5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.FkNarRW5deCjbaocLVAF3s3edKG9tt02R48bvhZ1AF0&response-content-disposition=attachment%3B%20filename%3Dhuir_v1.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

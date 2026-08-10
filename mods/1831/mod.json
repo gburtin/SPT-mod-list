@@ -1,0 +1,221 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1831,
+      "hub_id": 2478,
+      "guid": "com.inory.agonysfx",
+      "name": "Agony SFX",
+      "slug": "agony-sfx",
+      "teaser": "Client mod that allows bots to play additional voice lines upon dying.",
+      "thumbnail": "",
+      "downloads": 30873,
+      "favourites_count": 39,
+      "description": "<p><strong>Overview</strong></p>\n<p>This mod adds a chance for characters to play OnAgony sound effects when they die.</p>\n<p><strong>Background</strong></p>\n<p>Currently live EFT, characters play either OnAgony or OnDeath sound effects upon dying, regardless of the type of damage received. However, in SPT, OnAgony effects only trigger from specific damage types like grenade or bleedout. This mod adjusts that behavior, giving OnAgony a configurable chance (Default at 50%) to play upon death, regardless of damage type, to better mimic live EFT.</p>\n<p><strong>Specifics</strong> For weapon-induced damage types like bullets and melee, the mod will roll a chance to decide whether to play OnDeath or OnAgony sounds. The chance is adjustable via the in-game F12 menu.</p>\n<p>For non-weapon-induced damage types, status effects such as light/heavy bleeding, exhaustion, or explosion will cause OnAgony to always play.</p>\n<p><strong>Install</strong></p>\n<p>Extract directly into SPT folder.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1831/agony-sfx",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 12,
+      "published_at": "2024-11-09T16:58:00.000000Z",
+      "created_at": "2024-11-09T16:58:32.000000Z",
+      "updated_at": "2026-07-28T06:12:03.000000Z",
+      "owner": {
+        "id": 67028,
+        "name": "inory",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/5407cc95b3e4237efbe7b7abfa1ec891482e0f92_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/1136505f2f5e7f7b3786e724fa9639690029d2aa.jpg",
+        "created_at": "2024-11-09T15:14:08.000000Z",
+        "updated_at": "2026-07-10T04:57:05.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12098,
+          "hub_id": null,
+          "version": "1.1.5",
+          "description": "Changelogs\n==========\n\n- Updated for SPT 4.0.2",
+          "link": "https://forge.sp-tarkov.com/mod/download/1831/agony-sfx/1.1.5",
+          "content_length": 3503,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 13583,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-31T18:44:52.000000Z",
+          "created_at": "2025-10-31T18:43:45.000000Z",
+          "updated_at": "2026-07-28T06:12:03.000000Z"
+        },
+        {
+          "id": 949,
+          "hub_id": 13842,
+          "version": "1.1.4",
+          "description": "Changelogs\n==========\n\n- Updated for SPT 3.11.1",
+          "link": "https://forge.sp-tarkov.com/mod/download/1831/agony-sfx/1.1.4",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 8377,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-28T10:00:33.000000Z",
+          "created_at": "2025-03-28T10:00:33.000000Z",
+          "updated_at": "2026-05-14T02:02:28.000000Z"
+        },
+        {
+          "id": 2011,
+          "hub_id": 12660,
+          "version": "1.1.3",
+          "description": "Changelogs\n==========\n\n- Fika is now compatible by default, patches no longer required.\n- All Fika related patches have been removed.\n\nNote\n====\n\nAs of update 0.15, BSG has decided to cut some death sounds short.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1831/agony-sfx/1.1.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 4182,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-15T02:15:11.000000Z",
+          "created_at": "2024-12-15T02:15:11.000000Z",
+          "updated_at": "2026-05-14T02:52:46.000000Z"
+        },
+        {
+          "id": 2257,
+          "hub_id": 12362,
+          "version": "1.1.2",
+          "description": "Changelogs\n==========\n\n- Updated for SPT 3.10\n- Debug logging have been disabled by default to avoid flooding the output logs. If you encounter issues or need to troubleshoot, you can enable them through the advanced options in the BepInEx menu.\n\nFika Compatibility\n==================\n\n- For Fika users, you still need to enable the optional patches to ensure compatibility if you're using this mod with Fika.\n- I will update the mod to remove the optional patches once they are no longer needed. Until then, please keep them enabled as they are necessary.\n\nNote:\n=====\n\nI've come to notice that in 3.10 the bot voice lines, particularly death sounds, have become **significantly quieter** compared to previous versions. Unfortunately, this is not something I have the ability to modify. As the cause could potentially be due to BSG's audio rework in patch 0.15.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1831/agony-sfx/1.1.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 2134,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-28T12:08:02.000000Z",
+          "created_at": "2024-11-28T12:08:02.000000Z",
+          "updated_at": "2026-05-14T03:18:44.000000Z"
+        },
+        {
+          "id": 2410,
+          "hub_id": 12173,
+          "version": "1.1.1",
+          "description": "Fika Compatibility Update:\n==========================\n\nFor Fika Release 0.9.9015.15435\n\nThis update is only needed for **Fika users**. Introduced two optional patches designed to address issues with death sound effects when using Fika.\n\n**IMPORTANT:**\n==============\n\nThese issues are likely to be resolved in the next upcoming Fika update. Once Fika is updated and the issues are resolved, it is **strongly recommended to disable** these patches.\n\nPatches:\n========\n\n- **Optional Patch for Death Sound Cutoff:** Implemented a temporary fix for death sound effects being cut off prematurely.\n- **Optional Toggle for Headshot Death Sounds:** Implemented an optional toggle for users to disable death sound effects still playing after a bot dies from a headshot when using Fika.\n\nHow to Enable:\n==============\n\n- These patches are **disabled by default.**\n- To enable, go to the F12 menu and toggle the patches on.\n- Restart the game/client for the patches to take effect.\n- Make sure the patches are enabled by all **clients** in your server.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1831/agony-sfx/1.1.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 955,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-15T15:19:39.000000Z",
+          "created_at": "2024-11-15T15:19:39.000000Z",
+          "updated_at": "2026-05-14T03:22:08.000000Z"
+        },
+        {
+          "id": 2437,
+          "hub_id": 12143,
+          "version": "1.1.0",
+          "description": "- Added BepInEx (F12) config menu to adjust the OnAgony chance\n- Fixed conditional checks for weapon-induced damage types that previously caused OnAgony to always play",
+          "link": "https://forge.sp-tarkov.com/mod/download/1831/agony-sfx/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1035,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-10T12:11:03.000000Z",
+          "created_at": "2024-11-10T12:11:03.000000Z",
+          "updated_at": "2026-05-14T03:22:24.000000Z"
+        },
+        {
+          "id": 2445,
+          "hub_id": 12135,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1831/agony-sfx/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 607,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-09T16:58:32.000000Z",
+          "created_at": "2024-11-09T16:58:32.000000Z",
+          "updated_at": "2026-05-14T03:22:28.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 12,
+        "hub_id": 75,
+        "title": "Audio",
+        "slug": "audio",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/ppowa/agonysfx",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12098,
+      "hub_id": null,
+      "version": "1.1.5",
+      "description": "<h1>Changelogs</h1>\n<ul>\n<li>Updated for SPT 4.0.2</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1831/agony-sfx/1.1.5",
+      "content_length": 3503,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 13583,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-31T18:44:52.000000Z",
+      "created_at": "2025-10-31T18:43:45.000000Z",
+      "updated_at": "2026-07-28T06:12:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 949,
+      "hub_id": 13842,
+      "version": "1.1.4",
+      "description": "<h1>Changelogs</h1>\n<ul>\n<li>Updated for SPT 3.11.1</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1831/agony-sfx/1.1.4",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 8377,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-28T10:00:33.000000Z",
+      "created_at": "2025-03-28T10:00:33.000000Z",
+      "updated_at": "2026-05-14T02:02:28.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2257,
+      "hub_id": 12362,
+      "version": "1.1.2",
+      "description": "<h1>Changelogs</h1>\n<ul>\n<li>Updated for SPT 3.10</li>\n<li>Debug logging have been disabled by default to avoid flooding the output logs. If you encounter issues or need to troubleshoot, you can enable them through the advanced options in the BepInEx menu.</li>\n</ul>\n<h1>Fika Compatibility</h1>\n<ul>\n<li>For Fika users, you still need to enable the optional patches to ensure compatibility if you’re using this mod with Fika.</li>\n<li>I will update the mod to remove the optional patches once they are no longer needed. Until then, please keep them enabled as they are necessary.</li>\n</ul>\n<h1>Note:</h1>\n<p>I’ve come to notice that in 3.10 the bot voice lines, particularly death sounds, have become <strong>significantly quieter</strong> compared to previous versions. Unfortunately, this is not something I have the ability to modify. As the cause could potentially be due to BSG’s audio rework in patch 0.15.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1831/agony-sfx/1.1.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 2134,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-11-28T12:08:02.000000Z",
+      "created_at": "2024-11-28T12:08:02.000000Z",
+      "updated_at": "2026-05-14T03:18:44.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1831/inory-agonysfx-1.1.5.7z",
+    "bytes_written": 3503,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/885863238/f3b5a666-d4cc-4be1-9ab3-96c6941ac166?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A23%3A40Z&rscd=attachment%3B+filename%3Dinory-agonysfx-1.1.5.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A22%3A43Z&ske=2026-08-10T10%3A23%3A40Z&sks=b&skv=2018-11-09&sig=euPE5rXqPGNl1YzHTFlNKmpQPxIjUSJYzA6AwIlW%2FiQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTYzNCwibmJmIjoxNzg2MzU1MzM0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.JolUdQiwtYO4CjSJ6lbvZkXnS9A5DM1id3Df_9Fq2Jk&response-content-disposition=attachment%3B%20filename%3Dinory-agonysfx-1.1.5.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.1.5",
+    "same_as_primary_download": true
+  }
+}

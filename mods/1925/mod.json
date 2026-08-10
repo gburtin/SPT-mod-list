@@ -1,0 +1,184 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1925,
+      "hub_id": 2596,
+      "guid": "com.lacyway.nbg",
+      "name": "NerfBotGrenades",
+      "slug": "nerfbotgrenades",
+      "teaser": "Allows you to multiply bot inaccuracy with grenades.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2596.png",
+      "downloads": 36546,
+      "favourites_count": 50,
+      "description": "<p>Tired of bots with insane grenade accuracy? This mod allows you to multiply their inaccuracy when throwing grenades. Each bot by default has a very small inaccuracy offset when throwing a grenade, however it is so minor that it is barely noticeable. This mod lets you tweak this value up to 10x.</p>\n<p>I <em><strong>will not</strong></em> read any bug reports unless proper logs are given.</p>\n<p>You can support me on Ko-Fi</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/lacyway\" rel=\"noreferrer noopener\">Click</a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1925/nerfbotgrenades",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 5,
+      "published_at": "2024-12-30T07:40:00.000000Z",
+      "created_at": "2024-12-30T07:40:16.000000Z",
+      "updated_at": "2026-08-08T18:02:21.000000Z",
+      "owner": {
+        "id": 47969,
+        "name": "Lacyway",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/95a5b3e7532938e8baff549cb4defc29e382f4ac_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/05b1bc6e2a3f74b8f41de186273e89430b36bb0a_1280w.webp",
+        "created_at": "2024-04-09T17:00:56.000000Z",
+        "updated_at": "2026-08-10T08:56:42.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14534,
+          "hub_id": null,
+          "version": "1.3.0",
+          "description": "- Updated for SPT 4.1",
+          "link": "https://forge.sp-tarkov.com/mod/download/1925/nerfbotgrenades/1.3.0",
+          "content_length": 3577,
+          "spt_version_constraint": ">=4.1.0",
+          "downloads": 878,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-08T07:21:00.000000Z",
+          "created_at": "2026-08-08T07:21:46.000000Z",
+          "updated_at": "2026-08-08T18:02:21.000000Z"
+        },
+        {
+          "id": 11757,
+          "hub_id": null,
+          "version": "1.2.0",
+          "description": "Updated for `4.0`",
+          "link": "https://forge.sp-tarkov.com/mod/download/1925/nerfbotgrenades/1.2.0",
+          "content_length": 3581,
+          "spt_version_constraint": ">=4.0 <4.1.0",
+          "downloads": 21386,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-10-11T19:30:00.000000Z",
+          "created_at": "2025-10-11T16:46:34.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 1244,
+          "hub_id": 13526,
+          "version": "1.1.0",
+          "description": "\\- Updated for 3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/1925/nerfbotgrenades/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 10295,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-15T19:35:09.000000Z",
+          "created_at": "2025-03-15T19:35:09.000000Z",
+          "updated_at": "2026-05-14T02:08:13.000000Z"
+        },
+        {
+          "id": 1837,
+          "hub_id": 12872,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1925/nerfbotgrenades/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 3987,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-30T07:40:16.000000Z",
+          "created_at": "2024-12-30T07:40:16.000000Z",
+          "updated_at": "2026-05-14T02:38:03.000000Z"
+        }
+      ],
+      "license": {
+        "id": 16,
+        "hub_id": 19,
+        "name": "Creative Commons BY-NC-ND 4.0",
+        "link": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 5,
+        "hub_id": 22,
+        "title": "Bots",
+        "slug": "bots",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Lacyway/NerfBotGrenades",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14534,
+      "hub_id": null,
+      "version": "1.3.0",
+      "description": "<ul>\n<li>Updated for SPT 4.1</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1925/nerfbotgrenades/1.3.0",
+      "content_length": 3577,
+      "spt_version_constraint": ">=4.1.0",
+      "downloads": 878,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-08T07:21:00.000000Z",
+      "created_at": "2026-08-08T07:21:46.000000Z",
+      "updated_at": "2026-08-08T18:02:21.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11757,
+      "hub_id": null,
+      "version": "1.2.0",
+      "description": "<p>Updated for <code>4.0</code></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1925/nerfbotgrenades/1.2.0",
+      "content_length": 3581,
+      "spt_version_constraint": ">=4.0 <4.1.0",
+      "downloads": 21386,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-10-11T19:30:00.000000Z",
+      "created_at": "2025-10-11T16:46:34.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1244,
+      "hub_id": 13526,
+      "version": "1.1.0",
+      "description": "<p>- Updated for 3.11</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1925/nerfbotgrenades/1.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 10295,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-15T19:35:09.000000Z",
+      "created_at": "2025-03-15T19:35:09.000000Z",
+      "updated_at": "2026-05-14T02:08:13.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1925/NerfBotGrenades.zip",
+    "bytes_written": 3577,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/909975080/c24e01d3-a7ec-4e24-96f4-25250c6f7ef0?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A21%3A20Z&rscd=attachment%3B+filename%3DNerfBotGrenades.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A20%3A52Z&ske=2026-08-10T10%3A21%3A20Z&sks=b&skv=2018-11-09&sig=tWqnb7opHCFJwmMLuop7pTIOVj0R8FNKp7y14Znp3K0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTQ5NSwibmJmIjoxNzg2MzU1MTk1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.GaagRC6Qy3bo06UNSOTrBiWIv57YpSO3-XXGmW5FoHs&response-content-disposition=attachment%3B%20filename%3DNerfBotGrenades.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1925/nerfbotgrenades-1.2.0-spt40.zip",
+    "bytes_written": 3581,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/909975080/fb85cb78-f2e0-49bd-8565-abac8b830cde?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T12%3A58%3A25Z&rscd=attachment%3B+filename%3DNerfBotGrenades.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T11%3A58%3A19Z&ske=2026-08-10T12%3A58%3A25Z&sks=b&skv=2018-11-09&sig=M7LQkSEK6yhfV29jH0y5QMld3wV6oYrqOg0bCi8FicE%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzU1NiwibmJmIjoxNzg2MzYzMjU2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.8GefTh5clcGRjM2xCwNBtFkLO9nL5V4v7YT-5i1yJKA&response-content-disposition=attachment%3B%20filename%3DNerfBotGrenades.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.2.0",
+    "same_as_primary_download": false
+  }
+}

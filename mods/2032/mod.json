@@ -1,0 +1,188 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2032,
+      "hub_id": 2714,
+      "guid": "xyz.drakia.nocheese",
+      "name": "NoCheese",
+      "slug": "nocheese",
+      "teaser": "I'm lactose intolerant, get that cheese away from me!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2714.png",
+      "downloads": 2652,
+      "favourites_count": 1,
+      "description": "<p>Can you not help but rage Alt+F4 any time you get smacked in the face by Tagilla? Hate yourself for all the cheese you consume any time you die?</p>\n<p>Well cheese no more, with NoCheese, the simple and effective solution to your cheesing problems.</p>\n<h2><strong>What’s it do?</strong></h2>\n<p>NoCheese catches you any time you Alt+F4 and tells the server “Hey, this guys a big fat phony” like you just died. This means if you alt+f4, you no longer complete the raid, and your character loses all of their equipped items.</p>\n<p>In dire situations (Such as those caused by consuming cheese while lactose intolerant), you <em>can</em> still alt+f4 and then restore a backup of your profile from the <code>SPT/user/profiles/backups/</code> folder, so you can then go suffer the consequences of your cheese ingestion</p>\n<h3>Installation</h3>\n<p>1) Open the downloaded zip file in <a target=\"_blank\" class=\"external-link\" href=\"https://www.7-zip.org/\" rel=\"noreferrer noopener\">7-zip</a></p>\n<p>2) Select the folder in the zip file in <a target=\"_blank\" class=\"external-link\" href=\"https://www.7-zip.org/\" rel=\"noreferrer noopener\">7-zip</a></p>\n<p>3) Drag the selected folder from <a target=\"_blank\" class=\"external-link\" href=\"https://www.7-zip.org/\" rel=\"noreferrer noopener\">7-zip</a> into your SPT folder</p>\n<p>Demonstration Video (Yes, it’s Live Flea Prices, but the same concept applies to all of my mods, I’m not making mod-specific extraction example videos):</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/34vXXDj.gif\" alt=\"Install Gif\" /></p>\n<p>If you enjoy my work, you can <a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/drakiaxyz\" rel=\"noreferrer noopener\">feed my caffeine addiction</a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2032/nocheese",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2025-03-15T20:16:00.000000Z",
+      "created_at": "2025-03-15T20:16:29.000000Z",
+      "updated_at": "2026-08-08T04:14:49.000000Z",
+      "owner": {
+        "id": 27605,
+        "name": "DrakiaXYZ",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/M9qMWlknCITEk33QXO07mJG0j8qP4xhz1QOsHUHD_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2023-02-26T18:51:50.000000Z",
+        "updated_at": "2026-08-10T04:45:59.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14424,
+          "hub_id": null,
+          "version": "3.0.0",
+          "description": "Update for SPT 4.1.0\n- Switched back to a client mod, it is more reliable",
+          "link": "https://forge.sp-tarkov.com/mod/download/2032/nocheese/3.0.0",
+          "content_length": 3297,
+          "spt_version_constraint": "~4.1.0",
+          "downloads": 306,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-03T04:23:00.000000Z",
+          "created_at": "2026-08-03T04:29:30.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z"
+        },
+        {
+          "id": 12484,
+          "hub_id": null,
+          "version": "2.0.0",
+          "description": "Update for SPT 4.0\nSwitched to a server mod that toggles on SPTs built in no keep item functionality",
+          "link": "https://forge.sp-tarkov.com/mod/download/2032/nocheese/2.0.0",
+          "content_length": 3726,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 846,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-30T04:11:00.000000Z",
+          "created_at": "2025-11-30T04:11:17.000000Z",
+          "updated_at": "2026-07-28T06:58:55.000000Z"
+        },
+        {
+          "id": 1074,
+          "hub_id": 13709,
+          "version": "1.0.1",
+          "description": "### This version will only work with SPT 3.11.x\n\n- Resolve issue where armbands would be yeeted on Alt+F4\n- Fix compatibility with Fika (Only solo headless has been tested)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2032/nocheese/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1129,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-21T04:06:42.000000Z",
+          "created_at": "2025-03-21T04:06:42.000000Z",
+          "updated_at": "2026-05-14T02:03:52.000000Z"
+        },
+        {
+          "id": 1224,
+          "hub_id": 13550,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2032/nocheese/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 371,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-15T20:16:29.000000Z",
+          "created_at": "2025-03-15T20:16:29.000000Z",
+          "updated_at": "2026-05-14T02:07:57.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/DrakiaXYZ/SPT-NoCheese-CSharp",
+          "label": "4.0.x"
+        },
+        {
+          "url": "https://github.com/DrakiaXYZ/SPT-NoCheese",
+          "label": "4.1.x"
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14424,
+      "hub_id": null,
+      "version": "3.0.0",
+      "description": "<p>Update for SPT 4.1.0</p>\n<ul>\n<li>Switched back to a client mod, it is more reliable</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2032/nocheese/3.0.0",
+      "content_length": 3297,
+      "spt_version_constraint": "~4.1.0",
+      "downloads": 306,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-03T04:23:00.000000Z",
+      "created_at": "2026-08-03T04:29:30.000000Z",
+      "updated_at": "2026-08-03T06:02:27.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12484,
+      "hub_id": null,
+      "version": "2.0.0",
+      "description": "<p>Update for SPT 4.0\nSwitched to a server mod that toggles on SPTs built in no keep item functionality</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2032/nocheese/2.0.0",
+      "content_length": 3726,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 846,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-30T04:11:00.000000Z",
+      "created_at": "2025-11-30T04:11:17.000000Z",
+      "updated_at": "2026-07-28T06:58:55.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1074,
+      "hub_id": 13709,
+      "version": "1.0.1",
+      "description": "<h3>This version will only work with SPT 3.11.x</h3>\n<ul>\n<li>Resolve issue where armbands would be yeeted on Alt+F4</li>\n<li>Fix compatibility with Fika (Only solo headless has been tested)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2032/nocheese/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1129,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-21T04:06:42.000000Z",
+      "created_at": "2025-03-21T04:06:42.000000Z",
+      "updated_at": "2026-05-14T02:03:52.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2032/DrakiaXYZ-NoCheese-3.0.0.7z",
+    "bytes_written": 3297,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/949123158/85abc808-53e3-48fa-abec-0ea33c352462?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A21%3A36Z&rscd=attachment%3B+filename%3DDrakiaXYZ-NoCheese-3.0.0.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A20%3A41Z&ske=2026-08-10T10%3A21%3A36Z&sks=b&skv=2018-11-09&sig=WE8AOAmZ3DEYzlldrCqQIiHeg60BAPctkE1bmZO1GbE%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTM0NywibmJmIjoxNzg2MzU1MDQ3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.2RtgoAZYOlgb1V3T72hJE4Ur-dOZEfjlLBURgVQYikg&response-content-disposition=attachment%3B%20filename%3DDrakiaXYZ-NoCheese-3.0.0.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2032/nocheese-2.0.0-spt40.7z",
+    "bytes_written": 3726,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1106848331/80e32d49-e1e7-4e1d-9e8b-a9a29fdbd954?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T12%3A59%3A52Z&rscd=attachment%3B+filename%3DDrakiaXYZ-NoCheese-2.0.0.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T11%3A59%3A47Z&ske=2026-08-10T12%3A59%3A52Z&sks=b&skv=2018-11-09&sig=fP8ECR69l5T010v82q9Mq6RiungLGqgMk8aFGI9biMo%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzU3NCwibmJmIjoxNzg2MzYzMjc0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.taojZeBv-dWmHottvJJC2zHq7CiEzr-JXQqvlM-8fPs&response-content-disposition=attachment%3B%20filename%3DDrakiaXYZ-NoCheese-2.0.0.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "2.0.0",
+    "same_as_primary_download": false
+  }
+}

@@ -1,0 +1,228 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2774,
+      "hub_id": null,
+      "guid": "7bpencil.transparentsights",
+      "name": "Transparent Sights",
+      "slug": "transparent-sights",
+      "teaser": "Keep both eyes open",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2cZFxd7dGveu0n7npBmFqMappskwdUz0R6U5gf9g.png",
+      "downloads": 3236,
+      "favourites_count": 32,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">ABOUT</div>\n<div class=\"tab-content\"><p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.TransparentSights/refs/heads/master/previews/eotech.png\" alt=\"\" />\n<img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/7Bpencil/SPT.TransparentSights/refs/heads/master/previews/swampfox.png\" alt=\"\" /></p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">FAQ</div>\n<div class=\"tab-content\"><ol>\n<li>How do I make entire weapon transparent?\n<ul>\n<li>Open F12 menu and enable <code>General/Make entire weapon transparent</code></li>\n</ul>\n</li>\n<li>I dislike transparent housings on optic scopes\n<ul>\n<li>Open F12 menu and enable <code>General/Disable transparency in optics</code></li>\n</ul>\n</li>\n<li>I dislike blur, how can I disable it?\n<ul>\n<li>Open F12 menu and disable <code>General/Blur transparent sights</code></li>\n</ul>\n</li>\n<li>I like blur, how can I make it more blurry?\n<ul>\n<li>Open F12 menu and set <code>Depth of Field/Blur Size</code> to higher value</li>\n</ul>\n</li>\n<li>I dislike transparency on some scopes\n<ul>\n<li>Double click on scope inventory icon and switch <code>TRANSP: ON</code> to <code>TRANSP: OFF</code></li>\n</ul>\n</li>\n<li>Some scope has beefy mount, can I make it transparent too?\n<ul>\n<li>Double click on scope inventory icon and switch <code>TRANSP: ON</code> to <code>TRANSP. ON + MOUNT</code></li>\n</ul>\n</li>\n</ol></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2774/transparent-sights",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 13,
+      "published_at": "2026-06-25T11:46:00.000000Z",
+      "created_at": "2026-06-25T11:36:53.000000Z",
+      "updated_at": "2026-08-08T06:02:11.000000Z",
+      "owner": {
+        "id": 106491,
+        "name": "7Bpencil",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/ZOiXstwfTHX6H3KivVWEtlNz84ORSO7sWiWjj1bj_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/xJW384FLe1EsovNUVRsjqDoIZIsCGYCTUJk45JUb.png",
+        "created_at": "2026-03-03T10:57:21.000000Z",
+        "updated_at": "2026-08-10T08:22:48.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14526,
+          "hub_id": null,
+          "version": "0.2.1",
+          "description": "- Some micro-optimizations",
+          "link": "https://forge.sp-tarkov.com/mod/download/2774/transparent-sights/0.2.1",
+          "content_length": 16658,
+          "spt_version_constraint": "4.1.*",
+          "downloads": 502,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-07T23:32:00.000000Z",
+          "created_at": "2026-08-07T23:37:42.000000Z",
+          "updated_at": "2026-08-08T06:02:11.000000Z"
+        },
+        {
+          "id": 14525,
+          "hub_id": null,
+          "version": "0.2.0",
+          "description": "- Ported to SPT 4.1.*\n- Added option to make optic housings transparent (enabled by default)\n- All sights are now transparent by default with option to turn transparency off\n- Fixed rare error when Depth of Field component on camera was null\n- Fixed some vanilla items not being transparent (280mm SA58 barrel for example)\n- Fixed subitems of scopes not turning transparent (rubber eyecups for example)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2774/transparent-sights/0.2.0",
+          "content_length": 16710,
+          "spt_version_constraint": "4.1.*",
+          "downloads": 88,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-07T21:34:00.000000Z",
+          "created_at": "2026-08-07T21:34:48.000000Z",
+          "updated_at": "2026-08-08T06:02:11.000000Z"
+        },
+        {
+          "id": 13924,
+          "hub_id": null,
+          "version": "0.1.1",
+          "description": "- Fixed lights of tactical devices shining through transparent weapons",
+          "link": "https://forge.sp-tarkov.com/mod/download/2774/transparent-sights/0.1.1",
+          "content_length": 17990,
+          "spt_version_constraint": "4.0.*",
+          "downloads": 1904,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-06-28T22:18:00.000000Z",
+          "created_at": "2026-06-28T22:19:19.000000Z",
+          "updated_at": "2026-07-28T09:22:25.000000Z"
+        },
+        {
+          "id": 13921,
+          "hub_id": null,
+          "version": "0.1.0",
+          "description": "- Added option to make entire weapon transparent (F12/Make entire weapon transparent)\n- Improved compatibility with modded sights",
+          "link": "https://forge.sp-tarkov.com/mod/download/2774/transparent-sights/0.1.0",
+          "content_length": 17969,
+          "spt_version_constraint": "4.0.*",
+          "downloads": 135,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-06-28T18:10:00.000000Z",
+          "created_at": "2026-06-28T18:08:32.000000Z",
+          "updated_at": "2026-07-28T09:22:23.000000Z"
+        },
+        {
+          "id": 13871,
+          "hub_id": null,
+          "version": "0.0.1",
+          "description": "Initial release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2774/transparent-sights/0.0.1",
+          "content_length": 13055,
+          "spt_version_constraint": "4.0.*",
+          "downloads": 607,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-06-25T11:45:00.000000Z",
+          "created_at": "2026-06-25T11:46:05.000000Z",
+          "updated_at": "2026-07-28T09:19:47.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 13,
+        "hub_id": 76,
+        "title": "Weapons",
+        "slug": "weapons",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/7Bpencil/SPT.TransparentSights",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14526,
+      "hub_id": null,
+      "version": "0.2.1",
+      "description": "<ul>\n<li>Some micro-optimizations</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2774/transparent-sights/0.2.1",
+      "content_length": 16658,
+      "spt_version_constraint": "4.1.*",
+      "downloads": 502,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-07T23:32:00.000000Z",
+      "created_at": "2026-08-07T23:37:42.000000Z",
+      "updated_at": "2026-08-08T06:02:11.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14525,
+      "hub_id": null,
+      "version": "0.2.0",
+      "description": "<ul>\n<li>Ported to SPT 4.1.*</li>\n<li>Added option to make optic housings transparent (enabled by default)</li>\n<li>All sights are now transparent by default with option to turn transparency off</li>\n<li>Fixed rare error when Depth of Field component on camera was null</li>\n<li>Fixed some vanilla items not being transparent (280mm SA58 barrel for example)</li>\n<li>Fixed subitems of scopes not turning transparent (rubber eyecups for example)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2774/transparent-sights/0.2.0",
+      "content_length": 16710,
+      "spt_version_constraint": "4.1.*",
+      "downloads": 88,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-07T21:34:00.000000Z",
+      "created_at": "2026-08-07T21:34:48.000000Z",
+      "updated_at": "2026-08-08T06:02:11.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13924,
+      "hub_id": null,
+      "version": "0.1.1",
+      "description": "<ul>\n<li>Fixed lights of tactical devices shining through transparent weapons</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2774/transparent-sights/0.1.1",
+      "content_length": 17990,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 1904,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-06-28T22:18:00.000000Z",
+      "created_at": "2026-06-28T22:19:19.000000Z",
+      "updated_at": "2026-07-28T09:22:25.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13921,
+      "hub_id": null,
+      "version": "0.1.0",
+      "description": "<ul>\n<li>Added option to make entire weapon transparent (F12/Make entire weapon transparent)</li>\n<li>Improved compatibility with modded sights</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2774/transparent-sights/0.1.0",
+      "content_length": 17969,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 135,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-06-28T18:10:00.000000Z",
+      "created_at": "2026-06-28T18:08:32.000000Z",
+      "updated_at": "2026-07-28T09:22:23.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13871,
+      "hub_id": null,
+      "version": "0.0.1",
+      "description": "<p>Initial release</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2774/transparent-sights/0.0.1",
+      "content_length": 13055,
+      "spt_version_constraint": "4.0.*",
+      "downloads": 607,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-06-25T11:45:00.000000Z",
+      "created_at": "2026-06-25T11:46:05.000000Z",
+      "updated_at": "2026-07-28T09:19:47.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2774/7Bpencil.TransparentSights.0.2.1.zip",
+    "bytes_written": 16658,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1280132270/ced4e598-c0e2-4f06-ab73-f8f477346243?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A21%3A58Z&rscd=attachment%3B+filename%3D7Bpencil.TransparentSights.0.2.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A21%3A58Z&ske=2026-08-10T10%3A21%3A58Z&sks=b&skv=2018-11-09&sig=ECTdJzNYrGjH062Z99PRrn423zXh3%2FM11GBsgpysN9s%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTEwMywibmJmIjoxNzg2MzU0ODAzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.H_qaGeOFG5NrZAjj5qBE0zAKkT20LUOoYgwemSkyDQ4&response-content-disposition=attachment%3B%20filename%3D7Bpencil.TransparentSights.0.2.1.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2774/transparent-sights-0.1.1-spt40.zip",
+    "bytes_written": 17990,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1280132270/7e85c743-7fa5-41d5-a2d8-b5dadef34702?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T12%3A59%3A50Z&rscd=attachment%3B+filename%3D7Bpencil.TransparentSights.0.1.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T11%3A59%3A31Z&ske=2026-08-10T12%3A59%3A50Z&sks=b&skv=2018-11-09&sig=Pnk4CPiqxrb2WMoHHfgfAh%2F2bXmc78sfTZf45WSS%2FLA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzYzOSwibmJmIjoxNzg2MzYzMzM5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.uUlj6mgLQg8tjcknJGRu3fwAsBPPrNXz-8GLdf0ZFIA&response-content-disposition=attachment%3B%20filename%3D7Bpencil.TransparentSights.0.1.1.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "0.1.1",
+    "same_as_primary_download": false
+  }
+}

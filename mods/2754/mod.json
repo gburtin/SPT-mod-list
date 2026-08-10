@@ -1,0 +1,145 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2754,
+      "hub_id": null,
+      "guid": "com.tkmaida.postraidresources",
+      "name": "Post-Raid Healing Tweaks",
+      "slug": "post-raid-healing-tweaks",
+      "teaser": "Adds unused energy / hydration replenish mechanic back to Therapist's post-raid heal screen.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/7UgepEsrDdD2juMLkctprZMYkGBzRBGLwTPRGO8u.jpg",
+      "downloads": 1892,
+      "favourites_count": 10,
+      "description": "<h1>What is this?</h1>\n<p>This is a small mod that adds back an unused mechanic that allows you to refill energy / hydration in the post-raid health screen.</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/PjtFS7z.png\" alt=\"Post-raid health screen\" /></p>\n<h4>Huge thank you to <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/user/21463/hiddencirno\" rel=\"noreferrer noopener\">HiddenCirno</a>, I wouldn’t have figured this out without their help!</h4>\n<h1>Installation</h1>\n<ol>\n<li>Download the latest release</li>\n<li>Drag and drop the “SPT” and “BepInEx” folders into your SPT root directory</li>\n</ol>\n<p><em>(NOTE: For 3.11.x users, one folder will be named “user” instead of “SPT,” but the process is the same.)</em>\n<img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/3N6gTe2.gif\" alt=\"Installation\" /></p>\n<h1>I want to change the prices!</h1>\n<p>The cost of health/energy/hydration points can be configured via a JSON file located within the server mod directory (<em>SPT/user/mods/TKMaida-PostRaidResources/config.json</em>).</p>\n<h4>By default, the values of each point are as follows:</h4>\n<p>-<strong>Health</strong>: 30</p>\n<p>-<strong>Energy</strong>: 15</p>\n<p>-<strong>Hydration</strong>: 15</p>\n<h1>Compatibility</h1>\n<p>This mod may conflict with other mods that modify therapist’s post-raid heal prices, such as Server Value Modifier, or Realism mod. Nothing major, you can run all of these mods (I do in my install) but it’s possible that SVM or Realism could overwrite the healing prices set by this mod, and vice versa (depending on load order).</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2754/post-raid-healing-tweaks",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2026-06-19T07:14:00.000000Z",
+      "created_at": "2026-06-19T06:05:10.000000Z",
+      "updated_at": "2026-07-28T09:19:16.000000Z",
+      "owner": {
+        "id": 115519,
+        "name": "TKMaida",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/RsEJ1j675YZWSzV5koTvdCejuoxkNuDPuBi5a5CP_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/DCokjpaKAMiUfXyebZZl9A0Vxo7skYsxSabr3kq8_1280w.webp",
+        "created_at": "2026-06-14T01:52:04.000000Z",
+        "updated_at": "2026-08-02T04:05:26.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 21463,
+          "name": "HiddenCirno",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/xXNkgFxfCKBqq3AAckNev9HvY3hZOFL5VEmTEPvC_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2022-08-07T06:48:02.000000Z",
+          "updated_at": "2026-08-10T10:00:42.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 13854,
+          "hub_id": null,
+          "version": "2.0.0",
+          "description": "Release 2.0.0 for SPT 4.0.x",
+          "link": "https://forge.sp-tarkov.com/mod/download/2754/post-raid-healing-tweaks/2.0.0",
+          "content_length": 10553,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 1743,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-06-24T04:33:00.000000Z",
+          "created_at": "2026-06-24T04:35:30.000000Z",
+          "updated_at": "2026-07-28T09:19:16.000000Z"
+        },
+        {
+          "id": 13806,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Initial release 1.0.0 for SPT 3.11.x",
+          "link": "https://forge.sp-tarkov.com/mod/download/2754/post-raid-healing-tweaks/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11",
+          "downloads": 149,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-06-19T07:15:00.000000Z",
+          "created_at": "2026-06-19T06:50:25.000000Z",
+          "updated_at": "2026-06-19T18:15:50.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/TKMaida/PostRaidResources",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 13854,
+      "hub_id": null,
+      "version": "2.0.0",
+      "description": "<p>Release 2.0.0 for SPT 4.0.x</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2754/post-raid-healing-tweaks/2.0.0",
+      "content_length": 10553,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 1743,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-06-24T04:33:00.000000Z",
+      "created_at": "2026-06-24T04:35:30.000000Z",
+      "updated_at": "2026-07-28T09:19:16.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13806,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Initial release 1.0.0 for SPT 3.11.x</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2754/post-raid-healing-tweaks/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11",
+      "downloads": 149,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-06-19T07:15:00.000000Z",
+      "created_at": "2026-06-19T06:50:25.000000Z",
+      "updated_at": "2026-06-19T18:15:50.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2754/TKMaida-PostRaidResources.zip",
+    "bytes_written": 10553,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1274001570/88d2c77a-ce8c-4d98-84c5-dbd607893cd4?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A49%3A05Z&rscd=attachment%3B+filename%3DTKMaida-PostRaidResources.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A48%3A41Z&ske=2026-08-10T10%3A49%3A05Z&sks=b&skv=2018-11-09&sig=yf7Fc3FrLF0%2B2sqNX9XCk0z322XYeBXR9noebqaLY98%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NjM1MiwibmJmIjoxNzg2MzU2MDUyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.QBa_Gk_1Atg57dCOa_zaaNf3rCYOvQmXTh0D_5TUpZ8&response-content-disposition=attachment%3B%20filename%3DTKMaida-PostRaidResources.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "2.0.0",
+    "same_as_primary_download": true
+  }
+}

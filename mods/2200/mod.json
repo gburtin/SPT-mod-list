@@ -1,0 +1,165 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2200,
+      "hub_id": 2903,
+      "guid": "com.shibatsu.dynamicexternalresolution",
+      "name": "Dynamic External Resolution Patch (DERP)",
+      "slug": "dynamic-external-resolution-patch-derp",
+      "teaser": "Dynamically change the resolution of the external image rendering when we enter the optical sight, which gives us an increase in frame rate",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2903.png",
+      "downloads": 21604,
+      "favourites_count": 42,
+      "description": "<h1>What this mod does</h1>\n<p>Escape from Tarkov uses “picture in picture” (PiP) to render weapon scopes. This means the game’s engine has to render the entire scene twice. Once for your main screen and a second time inside the scope’s view. This is very demanding on system performance and often causes significant FPS drops. This mod changes rendering resolution of main screen when using scopes which can boost performance.</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/RFxqk1H.jpeg\" alt=\"\" /></p>\n<h1>Installation</h1>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/afNPjAw.gif\" alt=\"\" /></p>\n<h1>How to change settings</h1>\n<p>Press F12 in game and find this mod in mode menu.</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/t6m2G5E.jpeg\" alt=\"\" /></p>\n<p>Here you can change settings</p>\n<p>Sampling downgrade changes resolution with TAA enabled(no FSR/DLSS).</p>\n<p>0 - no change\n25 - 75% of default resolution\n50 - 50% of default resolution\n75 - 25% of default resolution\n100 - 0% of default resolution (dont use it)</p>\n<p>50% TAA example</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/t6m2G5E.jpeg\" alt=\"\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/b9gfjfV.jpeg\" alt=\"\" /></p>\n<p>80% TAA example</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/eqoqoBO.png\" alt=\"\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/6ClwZzK.jpeg\" alt=\"\" /></p>\n<p>FSR/DLSS settings changes FSR/DLSS preset of external image when scoped. Preset in game settings sets for image in scope.</p>\n<p><strong>Setting this same as your game settings does nothing(this is why black flickers disappear)</strong></p>\n<h1>Known bugs</h1>\n<ol>\n<li>\n<p>Black flickering when ADSing with FSR/DLSS enabled. Dont know how to fix this. Only solution is to use TAA instead of FSR/DLSS. On my PC setup it changes nothing because of CPU bottleneck.</p>\n</li>\n<li>\n<p>Black strips/flickering black screen using TAA. Not so often but can happen. Try changing settings in game and mod menu and it go away.</p>\n</li>\n</ol>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2200/dynamic-external-resolution-patch-derp",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2025-06-24T13:14:00.000000Z",
+      "created_at": "2025-06-24T13:14:41.000000Z",
+      "updated_at": "2026-07-28T08:09:23.000000Z",
+      "owner": {
+        "id": 80746,
+        "name": "Sh1ba",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=S&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2025-06-24T12:19:48.000000Z",
+        "updated_at": "2026-03-12T03:05:22.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 13244,
+          "hub_id": null,
+          "version": "1.1.1",
+          "description": "Fixed typo preventing FSR 3 from working with certain mod settings.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2200/dynamic-external-resolution-patch-derp/1.1.1",
+          "content_length": 6798,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 7162,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-03-12T02:13:00.000000Z",
+          "created_at": "2026-03-12T02:14:47.000000Z",
+          "updated_at": "2026-07-28T08:09:23.000000Z"
+        },
+        {
+          "id": 12296,
+          "hub_id": null,
+          "version": "1.1.0",
+          "description": "Seems to work unchanged on 4.0.4. Probably works on any 4.X.X",
+          "link": "https://forge.sp-tarkov.com/mod/download/2200/dynamic-external-resolution-patch-derp/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 7663,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-12T18:58:00.000000Z",
+          "created_at": "2025-11-12T18:59:34.000000Z",
+          "updated_at": "2025-11-12T19:00:03.000000Z"
+        },
+        {
+          "id": 361,
+          "hub_id": 14511,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2200/dynamic-external-resolution-patch-derp/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 6779,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-24T13:14:41.000000Z",
+          "created_at": "2025-06-24T13:14:41.000000Z",
+          "updated_at": "2026-07-13T18:00:44.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Shibatsui/SPT-Dynamic-External-Resolution/releases/tag/3.11",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 13244,
+      "hub_id": null,
+      "version": "1.1.1",
+      "description": "<p>Fixed typo preventing FSR 3 from working with certain mod settings.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2200/dynamic-external-resolution-patch-derp/1.1.1",
+      "content_length": 6798,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 7162,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-03-12T02:13:00.000000Z",
+      "created_at": "2026-03-12T02:14:47.000000Z",
+      "updated_at": "2026-07-28T08:09:23.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12296,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<p>Seems to work unchanged on 4.0.4. Probably works on any 4.X.X</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2200/dynamic-external-resolution-patch-derp/1.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 7663,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-12T18:58:00.000000Z",
+      "created_at": "2025-11-12T18:59:34.000000Z",
+      "updated_at": "2025-11-12T19:00:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 361,
+      "hub_id": 14511,
+      "version": "1.0.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2200/dynamic-external-resolution-patch-derp/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 6779,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-06-24T13:14:41.000000Z",
+      "created_at": "2025-06-24T13:14:41.000000Z",
+      "updated_at": "2026-07-13T18:00:44.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2200/Dynamic-External-Resolution-1.1.1.zip",
+    "bytes_written": 6798,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1007720366/aff27256-5c93-4e55-9173-67c1396f0e88?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A48%3A18Z&rscd=attachment%3B+filename%3DDynamic-External-Resolution-1.1.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A47%3A52Z&ske=2026-08-10T10%3A48%3A18Z&sks=b&skv=2018-11-09&sig=mTqmGRmGeT%2Fwsho6g7XYQokzjHtlcvRlIkZhyZF1m7w%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTkyOCwibmJmIjoxNzg2MzU1NjI4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.fKKginYrMtMxJZyYzNZMEwTh3PhiIRACSzCe_yts-Ys&response-content-disposition=attachment%3B%20filename%3DDynamic-External-Resolution-1.1.1.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.1.1",
+    "same_as_primary_download": true
+  }
+}

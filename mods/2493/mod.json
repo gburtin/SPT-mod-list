@@ -1,0 +1,257 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2493,
+      "hub_id": null,
+      "guid": "hiop.dynamic.flea.price",
+      "name": "Dynamic Flea Price",
+      "slug": "dynamic-flea-price",
+      "teaser": "Dynamically changes the price of items on the flea market depending on how often players buy/sell the item",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/C65mE1tBHpZ7yaUQSF7e6PypwIyGVnwDiPGYTbGV.png",
+      "downloads": 3338,
+      "favourites_count": 5,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">How it work?</div>\n<div class=\"tab-content\"><p>Every time a player buys or sells an item on the flea market, the mod counts the number of those items and increases or decreases the price multiplier for those items and their categories.</p>\n<p>The multiplier values ​​are configured through the configuration file.</p>\n<hr />\n<p><strong>When does the price up/down?</strong></p>\n<p>The new price for items will appear when new offers are generated on the flea market.</p>\n<hr />\n<p><strong>When does the multiplier change?</strong></p>\n<p>The multiplier of items reduced when players buy items from the flea market if the item/category is configured</p>\n<p>OR</p>\n<p>The multiplier is reduced every specified period of time and by a specific amount. The “time” values ​​and the “reduction percentage” are configurable.</p>\n<hr />\n<p><strong>How is the price calculated?</strong></p>\n<p>If multiplier values ​​are configured for an item, then the multiplier will be applied to the default flea price.\nThe price of an item can increase indefinitely.\nThe price of an item cannot be lower than the minimum price for which traders are willing to buy it.</p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Install</div>\n<div class=\"tab-content\"><ol>\n<li>unzip archive content to SPT root folder</li>\n<li>copy and rename DynamicFleaPriceConfig_example.json5 -&gt; to DynamicFleaPriceConfig.json5</li>\n<li>change the settings in the configuration file, as the DEFAULT settings do not change anything.</li>\n</ol></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Configuration</div>\n<div class=\"tab-content\"><p>An example of the settings and their detailed description is in the file DynamicFleaPriceConfig_example.json5</p></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">FAQ</div>\n<div class=\"tab-content\"><p><strong>Compatibility with other mods:</strong></p>\n<ul>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/1131/live-flea-prices\" rel=\"noreferrer noopener\">https://forge.sp-tarkov.com/mod/1131/live-flea-prices</a> should work, but not tested.</li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2207/fast-sell-in-flea\" rel=\"noreferrer noopener\">https://forge.sp-tarkov.com/mod/2207/fast-sell-in-flea</a> yeap</li>\n<li>other ???</li>\n</ul>\n<hr />\n<p><strong>Where can I find item and category IDs?</strong></p>\n<ul>\n<li>here <a target=\"_blank\" class=\"external-link\" href=\"https://db.sp-tarkov.com/search/\" rel=\"noreferrer noopener\">https://db.sp-tarkov.com/search/</a></li>\n<li>huge pack of items and category from price.json<br />\n<a target=\"_blank\" class=\"external-link\" href=\"https://github.com/hiop/SPT-DynamicFleaPrice/blob/master/Config/SPT-407-CategoryAndItem-En.txt\" rel=\"noreferrer noopener\">https://github.com/hiop/SPT-DynamicFleaPrice/blob/master/Config/SPT-407-CategoryAndItem-En.txt</a><br />\n<a target=\"_blank\" class=\"external-link\" href=\"https://github.com/hiop/SPT-DynamicFleaPrice/blob/master/Config/SPT-407-CategoryAndItem-Ru.txt\" rel=\"noreferrer noopener\">https://github.com/hiop/SPT-DynamicFleaPrice/blob/master/Config/SPT-407-CategoryAndItem-Ru.txt</a></li>\n</ul>\n<hr />\n<p><strong>I can buy an item at the flea market and then sell it later. What’s the point of a mod? It breaks the economy.</strong></p>\n<p>To avoid disrupting the economy, install the SVM mod.\n<a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm\" rel=\"noreferrer noopener\">https://forge.sp-tarkov.com/mod/236/server-value-modifier-svm</a>\nIt has a setting:</p>\n<ul>\n<li>Flea Marker -&gt; Can only sell items with ‘Found in Raid’ tag</li>\n</ul></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2493/dynamic-flea-price",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2025-12-10T12:35:00.000000Z",
+      "created_at": "2025-12-10T12:35:53.000000Z",
+      "updated_at": "2026-07-28T07:13:23.000000Z",
+      "owner": {
+        "id": 72091,
+        "name": "hiop90",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bYEK8yV9CwoRtfCoteXoj1uQiWwa7VsrQVssZzVk_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-01-23T05:43:23.000000Z",
+        "updated_at": "2026-08-10T08:54:45.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12686,
+          "hub_id": null,
+          "version": "2.1.1",
+          "description": "Changelog:\n- \"FIR only\" option has returned (If not in the configuration file, it will be disabled by default)\n- fixed os linux issue: path definition has been corrected (ty darkarchon)\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/2493/dynamic-flea-price/2.1.1",
+          "content_length": 20478,
+          "spt_version_constraint": ">=4.0.7 <4.1.0",
+          "downloads": 2097,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-12-27T15:34:00.000000Z",
+          "created_at": "2025-12-27T15:36:50.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 12636,
+          "hub_id": null,
+          "version": "2.0.0",
+          "description": "\n### Warning: If you are upgrading from version 1.0.0\n- Configuration files 1.0.0 are not compatible with 2.0.0, so be careful when reconfiguring\n- Data file 1.0.0 are not compatible with 2.0.0, just delete \"./DynamicFleaPrice/Data/DynamicFleaPriceData.json\"\n\nThe main improvement is that the data file will now store the multiplier (previously, it only stored the purchase/sales counter).\n\nWhat does this mean? It allows for a smooth decrease/regeneration of the multiplier with each update. It also allows for a clearer view of the item/category multiplier.\n\nI apologize for changing the parameters again. I hope this is the last time :)\nI also tried to create a soft migration to reduce file manipulation, but the more I wrote the migration code, the more difficult it became to avoid errors.\n\n### Changelog\n- removed only FIR option (use SVM only fir option)\n- item counter -> pure multiplier\n- renamed updateCountersPeriod -> updatePeriod\n- renamed increaseCounterBuyMultiplier -> moreMultiplierPerBuying\n- renamed decreaseCounterSellMultiplier -> moreMultiplierPerSelling\n- renamed itemPurchased -> itemMultiplier\n- renamed itemCategoryPurchased -> itemCategoryMultiplier\n- renamed decreaseCountersPercentage -> decreaseMultiplierPercentage\n- renamed regenerateCountersPercentage -> regenerateMultiplierPercentage\n- renamed increaseCounterBuyMultiplier -> moreMultiplierPerBuying\n- renamed decreaseCounterSellMultiplier -> moreMultiplierPerSelling",
+          "link": "https://forge.sp-tarkov.com/mod/download/2493/dynamic-flea-price/2.0.0",
+          "content_length": 18345,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 496,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-12-19T17:37:00.000000Z",
+          "created_at": "2025-12-19T17:38:44.000000Z",
+          "updated_at": "2026-07-28T07:06:42.000000Z"
+        },
+        {
+          "id": 12580,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "### Changelog\n\n- Now, when purchasing items from the flea market, the item counter can go below 0, which means the price \nof the item can now decrease, but not below the minimum price allowed for the trader to buy it.\n- Added example category IDs to simplify setup\n- New configuration options have been added and some old ones have been renamed.\n\n### Warning: If you are upgrading from version 0.0.2\nConfiguration files 0.0.2 are not compatible with 1.0.0, so be careful when reconfiguring\n\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/2493/dynamic-flea-price/1.0.0",
+          "content_length": 20150,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 476,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-12-12T09:31:00.000000Z",
+          "created_at": "2025-12-12T09:31:16.000000Z",
+          "updated_at": "2026-07-28T07:05:03.000000Z"
+        },
+        {
+          "id": 12567,
+          "hub_id": null,
+          "version": "0.0.2",
+          "description": "The testing wasn't thorough enough, so there may be issues. %)\n\nI also plan to make additional improvements to the item sales process and, if necessary, refine the counter reduction mechanism for more precise customization.\n\nThere shouldn't be any problems with FIKA since the mod is purely server-side.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2493/dynamic-flea-price/0.0.2",
+          "content_length": 13142,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 269,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-12-10T12:45:00.000000Z",
+          "created_at": "2025-12-10T12:45:19.000000Z",
+          "updated_at": "2026-07-28T07:04:23.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/hiop/SPT-DynamicFleaPrice",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12686,
+      "hub_id": null,
+      "version": "2.1.1",
+      "description": "<p>Changelog:</p>\n<ul>\n<li>“FIR only” option has returned (If not in the configuration file, it will be disabled by default)</li>\n<li>fixed os linux issue: path definition has been corrected (ty darkarchon)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2493/dynamic-flea-price/2.1.1",
+      "content_length": 20478,
+      "spt_version_constraint": ">=4.0.7 <4.1.0",
+      "downloads": 2097,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-12-27T15:34:00.000000Z",
+      "created_at": "2025-12-27T15:36:50.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12636,
+      "hub_id": null,
+      "version": "2.0.0",
+      "description": "<h3>Warning: If you are upgrading from version 1.0.0</h3>\n<ul>\n<li>Configuration files 1.0.0 are not compatible with 2.0.0, so be careful when reconfiguring</li>\n<li>Data file 1.0.0 are not compatible with 2.0.0, just delete “./DynamicFleaPrice/Data/DynamicFleaPriceData.json”</li>\n</ul>\n<p>The main improvement is that the data file will now store the multiplier (previously, it only stored the purchase/sales counter).</p>\n<p>What does this mean? It allows for a smooth decrease/regeneration of the multiplier with each update. It also allows for a clearer view of the item/category multiplier.</p>\n<p>I apologize for changing the parameters again. I hope this is the last time :)\nI also tried to create a soft migration to reduce file manipulation, but the more I wrote the migration code, the more difficult it became to avoid errors.</p>\n<h3>Changelog</h3>\n<ul>\n<li>removed only FIR option (use SVM only fir option)</li>\n<li>item counter -&gt; pure multiplier</li>\n<li>renamed updateCountersPeriod -&gt; updatePeriod</li>\n<li>renamed increaseCounterBuyMultiplier -&gt; moreMultiplierPerBuying</li>\n<li>renamed decreaseCounterSellMultiplier -&gt; moreMultiplierPerSelling</li>\n<li>renamed itemPurchased -&gt; itemMultiplier</li>\n<li>renamed itemCategoryPurchased -&gt; itemCategoryMultiplier</li>\n<li>renamed decreaseCountersPercentage -&gt; decreaseMultiplierPercentage</li>\n<li>renamed regenerateCountersPercentage -&gt; regenerateMultiplierPercentage</li>\n<li>renamed increaseCounterBuyMultiplier -&gt; moreMultiplierPerBuying</li>\n<li>renamed decreaseCounterSellMultiplier -&gt; moreMultiplierPerSelling</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2493/dynamic-flea-price/2.0.0",
+      "content_length": 18345,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 496,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-12-19T17:37:00.000000Z",
+      "created_at": "2025-12-19T17:38:44.000000Z",
+      "updated_at": "2026-07-28T07:06:42.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12580,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<h3>Changelog</h3>\n<ul>\n<li>Now, when purchasing items from the flea market, the item counter can go below 0, which means the price\nof the item can now decrease, but not below the minimum price allowed for the trader to buy it.</li>\n<li>Added example category IDs to simplify setup</li>\n<li>New configuration options have been added and some old ones have been renamed.</li>\n</ul>\n<h3>Warning: If you are upgrading from version 0.0.2</h3>\n<p>Configuration files 0.0.2 are not compatible with 1.0.0, so be careful when reconfiguring</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2493/dynamic-flea-price/1.0.0",
+      "content_length": 20150,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 476,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-12-12T09:31:00.000000Z",
+      "created_at": "2025-12-12T09:31:16.000000Z",
+      "updated_at": "2026-07-28T07:05:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12567,
+      "hub_id": null,
+      "version": "0.0.2",
+      "description": "<p>The testing wasn’t thorough enough, so there may be issues. %)</p>\n<p>I also plan to make additional improvements to the item sales process and, if necessary, refine the counter reduction mechanism for more precise customization.</p>\n<p>There shouldn’t be any problems with FIKA since the mod is purely server-side.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2493/dynamic-flea-price/0.0.2",
+      "content_length": 13142,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 269,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-12-10T12:45:00.000000Z",
+      "created_at": "2025-12-10T12:45:19.000000Z",
+      "updated_at": "2026-07-28T07:04:23.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [
+    {
+      "id": 15,
+      "name": "Global Flea Dynamics (DFP Addon)",
+      "slug": "global-flea-dynamics-dfp-addon",
+      "teaser": "Takes ALL ITEMS from base SPT and applies the DYNAMIC FLEA to them.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/kpJbfdzAGt8wNV15XC4p7EgRigQVoxwvPqRKMz0q.png",
+      "downloads": 347,
+      "detail_url": "https://forge.sp-tarkov.com/addon/15/global-flea-dynamics-dfp-addon",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2493,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2025-12-27T15:27:00.000000Z",
+      "created_at": "2025-12-27T20:32:39.000000Z",
+      "updated_at": "2026-07-07T16:59:23.000000Z",
+      "owner": {
+        "id": 96092,
+        "name": "pandize",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/GAXHdvltK1NfMGRk5jJpkxZPzeLJ2brl8LoCZAVM_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-12-12T06:23:53.000000Z",
+        "updated_at": "2026-08-02T18:34:51.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 72091,
+          "name": "hiop90",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bYEK8yV9CwoRtfCoteXoj1uQiWwa7VsrQVssZzVk_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2025-01-23T05:43:23.000000Z",
+          "updated_at": "2026-08-10T08:54:45.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/hiop/SPT-DynamicFleaPrice",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 19,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/15/global-flea-dynamics-dfp-addon/1.0.0",
+          "content_length": null,
+          "mod_version_constraint": "~2.0.0",
+          "downloads": 347,
+          "published_at": "2025-12-27T15:37:00.000000Z",
+          "created_at": "2025-12-27T20:40:38.000000Z",
+          "updated_at": "2025-12-27T20:47:27.000000Z"
+        }
+      ]
+    }
+  ],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2493/DynamicFleaPrice_211.zip",
+    "bytes_written": 20478,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1113642862/54ece738-4506-44d5-8f9a-f83eaaa0bd6f?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A49%3A34Z&rscd=attachment%3B+filename%3DDynamicFleaPrice_211.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A48%3A42Z&ske=2026-08-10T10%3A49%3A34Z&sks=b&skv=2018-11-09&sig=uhOHVFUplDw5K5RQyv35m9CLwQH7JXU%2BjrDY7Oi1t98%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1Njk4MywibmJmIjoxNzg2MzU2NjgzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.V-e-j9BZkIzbO_GK0E5P33Y6X_0TDVvpVOibupI4KT4&response-content-disposition=attachment%3B%20filename%3DDynamicFleaPrice_211.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "2.1.1",
+    "same_as_primary_download": true
+  }
+}

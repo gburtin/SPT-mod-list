@@ -1,0 +1,165 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2373,
+      "hub_id": null,
+      "guid": "ca.bushtail.slimmermagazines",
+      "name": "Slimmer Magazines",
+      "slug": "slimmer-magazines",
+      "teaser": "All your 2x2 magazines are now a 1x2.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/XFdrvOkzHYlLt3tEMylJHgKP6nnni6amMHG3W1SS.jpg",
+      "downloads": 7252,
+      "favourites_count": 17,
+      "description": "<p>Slims down your magazines to fit in your nice little pockets. 2x2 are now 1x2, 1x3 are now 1x2, and guns no longer get an extra size down penalty from magazines.</p>\n<p>NOTE: EFT caches your item icons. If something looks off, press the “Clean Temp Files” button in your SPT launcher to fix it.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2373/slimmer-magazines",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 13,
+      "published_at": "2025-10-16T03:29:00.000000Z",
+      "created_at": "2025-10-16T03:29:16.000000Z",
+      "updated_at": "2026-07-28T07:19:13.000000Z",
+      "owner": {
+        "id": 33775,
+        "name": "bushtail",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/TdWzpvy2rqkXMd0ZgmhFFK4drV4CyIIonC6CpuXT_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/9kPkXgrFjtLcjpFyR4bUGOAc6Rr8PaFIl5GMCjnt.png",
+        "created_at": "2023-07-09T21:22:21.000000Z",
+        "updated_at": "2026-08-09T21:19:05.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12709,
+          "hub_id": null,
+          "version": "1.0.8",
+          "description": "ensure compat with all WTT mods",
+          "link": "https://forge.sp-tarkov.com/mod/download/2373/slimmer-magazines/1.0.8",
+          "content_length": 6047,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 4783,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-12-29T20:50:00.000000Z",
+          "created_at": "2025-12-29T20:51:36.000000Z",
+          "updated_at": "2026-07-28T07:19:13.000000Z"
+        },
+        {
+          "id": 12358,
+          "hub_id": null,
+          "version": "1.0.7",
+          "description": "Fixes deployment scripts to provide seamless installation.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2373/slimmer-magazines/1.0.7",
+          "content_length": 6047,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 1634,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-11-17T23:43:32.000000Z",
+          "created_at": "2025-11-17T23:43:26.000000Z",
+          "updated_at": "2026-07-28T06:34:21.000000Z"
+        },
+        {
+          "id": 12144,
+          "hub_id": null,
+          "version": "1.0.6",
+          "description": "Futureproof WTT armory compatibility\n\ndoes nothing else",
+          "link": "https://forge.sp-tarkov.com/mod/download/2373/slimmer-magazines/1.0.6",
+          "content_length": 6249,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 835,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-02T22:02:00.000000Z",
+          "created_at": "2025-11-02T22:02:07.000000Z",
+          "updated_at": "2026-07-28T06:14:06.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 13,
+        "hub_id": 76,
+        "title": "Weapons",
+        "slug": "weapons",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/bushtail/slimmermagazines",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12709,
+      "hub_id": null,
+      "version": "1.0.8",
+      "description": "<p>ensure compat with all WTT mods</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2373/slimmer-magazines/1.0.8",
+      "content_length": 6047,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 4783,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-12-29T20:50:00.000000Z",
+      "created_at": "2025-12-29T20:51:36.000000Z",
+      "updated_at": "2026-07-28T07:19:13.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12358,
+      "hub_id": null,
+      "version": "1.0.7",
+      "description": "<p>Fixes deployment scripts to provide seamless installation.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2373/slimmer-magazines/1.0.7",
+      "content_length": 6047,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 1634,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-11-17T23:43:32.000000Z",
+      "created_at": "2025-11-17T23:43:26.000000Z",
+      "updated_at": "2026-07-28T06:34:21.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12144,
+      "hub_id": null,
+      "version": "1.0.6",
+      "description": "<p>Futureproof WTT armory compatibility</p>\n<p>does nothing else</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2373/slimmer-magazines/1.0.6",
+      "content_length": 6249,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 835,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-02T22:02:00.000000Z",
+      "created_at": "2025-11-02T22:02:07.000000Z",
+      "updated_at": "2026-07-28T06:14:06.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2373/bushtail-SlimmerMagazines_v1.0.8.zip",
+    "bytes_written": 6047,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1094651747/c785db7f-7391-4eee-873c-e79efc9a4874?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A50%3A23Z&rscd=attachment%3B+filename%3Dbushtail-SlimmerMagazines_v1.0.8.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A49%3A45Z&ske=2026-08-10T10%3A50%3A23Z&sks=b&skv=2018-11-09&sig=GuUA%2Fl6%2B3JIXJo6MUAuRxCO25t7dDZso7T39F0jo6Yg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NzEyOCwibmJmIjoxNzg2MzU2ODI4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.UiYWBHCuePrCIFeMZu7Fynuh0T9p6V9qhvsX7eWHbVM&response-content-disposition=attachment%3B%20filename%3Dbushtail-SlimmerMagazines_v1.0.8.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.8",
+    "same_as_primary_download": true
+  }
+}

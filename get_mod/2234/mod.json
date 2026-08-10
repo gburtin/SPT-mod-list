@@ -1,0 +1,124 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2234,
+      "hub_id": 2937,
+      "guid": null,
+      "name": "Trap's Path to Tarkov - 3.11 Update",
+      "slug": "traps-path-to-tarkov-311-update",
+      "teaser": "Trap's Path to Tarkov finally updated for 3.11.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2937.jpg",
+      "downloads": 4296,
+      "favourites_count": 3,
+      "description": "<h3><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2286-interactable-exfils-api\" rel=\"noreferrer noopener\">Interactable Exfils API</a> 2.0.0 (or higher) is required!</h3>\n<p>Huge thanks to Trap for allowing us to update his legendary Path to Tarkov mod.</p>\n<p>Works with <strong>Fika</strong>.</p>\n<p>For all info about the mod check out the old page here: <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/569-path-to-tarkov/\" rel=\"noreferrer noopener\">Path To Tarkov</a></p>\n<p>Changes with this version:</p>\n<p>- Fixed the health, hydration, &amp; energy regen. Now correctly follows selected preset.</p>\n<p>- Added functionality for locational flea.</p>\n<p>Can be set to locational, everywhere, or disabled.</p>\n<p>If set to locational you will need to set it up in the preset that you wish to use.<br />\nIt’s just like setting up a trader but the name for it is “Ragfair”</p>\n<p>See default preset for example usage.</p>\n<p>Troubleshooting :</p>\n<p>Make sure SVM is loaded <strong>BEFORE</strong> Path to Tarkov.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2234/traps-path-to-tarkov-311-update",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-07-29T02:34:20.000000Z",
+      "created_at": "2025-07-29T02:34:20.000000Z",
+      "updated_at": "2026-07-07T16:59:09.000000Z",
+      "owner": {
+        "id": 29540,
+        "name": "Slum_K1ng",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/zkMUWDUfpDx0N8Tdhtbuey9HOyCy85meO9WkN9ds_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/JDDu6BoaPAwBFx7fca95UKtr36KUeu0qfEOzMiGh.jpg",
+        "created_at": "2023-04-02T03:20:59.000000Z",
+        "updated_at": "2026-08-10T02:26:22.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11679,
+          "hub_id": null,
+          "version": "6.1.1",
+          "description": "- Added optional car extract functionality\n- Can also adjust price of car extracts\n- Made Debug logging optional, and now disabled by default.\n\nPrevious presets are compatible, but the UserConfig has changed with a couple of new fields. Just make sure to copy your settings over to it when updating.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2234/traps-path-to-tarkov-311-update/6.1.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1949,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-27T21:48:00.000000Z",
+          "created_at": "2025-09-27T21:49:15.000000Z",
+          "updated_at": "2026-05-14T06:01:19.000000Z"
+        },
+        {
+          "id": 188,
+          "hub_id": 14690,
+          "version": "6.1.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2234/traps-path-to-tarkov-311-update/6.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2347,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-29T02:34:20.000000Z",
+          "created_at": "2025-07-29T02:34:20.000000Z",
+          "updated_at": "2026-05-14T01:40:27.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/SlumK1ng/PathToTarkov/tree/3.11-Update",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11679,
+      "hub_id": null,
+      "version": "6.1.1",
+      "description": "<ul>\n<li>Added optional car extract functionality</li>\n<li>Can also adjust price of car extracts</li>\n<li>Made Debug logging optional, and now disabled by default.</li>\n</ul>\n<p>Previous presets are compatible, but the UserConfig has changed with a couple of new fields. Just make sure to copy your settings over to it when updating.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2234/traps-path-to-tarkov-311-update/6.1.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1949,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-27T21:48:00.000000Z",
+      "created_at": "2025-09-27T21:49:15.000000Z",
+      "updated_at": "2026-05-14T06:01:19.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 188,
+      "hub_id": 14690,
+      "version": "6.1.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2234/traps-path-to-tarkov-311-update/6.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2347,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-29T02:34:20.000000Z",
+      "created_at": "2025-07-29T02:34:20.000000Z",
+      "updated_at": "2026-05-14T01:40:27.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/get_mod/2234/Trap-PathToTarkov.7z",
+    "bytes_written": 98510,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1024974482/39c59423-928f-4fb9-bc43-6f8bb060b489?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T11%3A38%3A55Z&rscd=attachment%3B+filename%3DTrap-PathToTarkov.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T10%3A38%3A34Z&ske=2026-08-10T11%3A38%3A55Z&sks=b&skv=2018-11-09&sig=nY%2FcrXcwA4CO5qKv3pvJlULACM8KkrvYPlSwaKIs2tI%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1OTM2MiwibmJmIjoxNzg2MzU5MDYyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.YPMY8uMPYCEQkL4Afsj86JqJfbpxdV3In4CXAvFc_us&response-content-disposition=attachment%3B%20filename%3DTrap-PathToTarkov.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  }
+}

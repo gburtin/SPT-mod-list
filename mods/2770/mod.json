@@ -1,0 +1,165 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2770,
+      "hub_id": null,
+      "guid": "com.vinarator.sprintsensitivity",
+      "name": "Sprint Sensitivity Fixer",
+      "slug": "sprint-sensitivity-fixer",
+      "teaser": "A client-side mod that removes the rotation speed clamp and sensitivity slowdown while sprinting.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/3MuMJC4YJmpaNUoQlwZU8gochW7jtokcYSLdzw7Q.png",
+      "downloads": 2589,
+      "favourites_count": 19,
+      "description": "<h1>No Change Sensitivity While Sprinting</h1>\n<ul>\n<li><strong>Clean Input:</strong> Your mouse movement matches your normal walking sensitivity at all times, making aiming transitions after sprinting feel more predictable.</li>\n</ul>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2770/sprint-sensitivity-fixer",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 1,
+      "published_at": "2026-06-24T16:43:00.000000Z",
+      "created_at": "2026-06-24T16:43:36.000000Z",
+      "updated_at": "2026-07-28T09:24:59.000000Z",
+      "owner": {
+        "id": 115595,
+        "name": "Vinarator",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/73eae0X8LpbW2ww8uKdvQ7K0QXNp6CHoR2Lmbl0k_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/FbocQy6HwqZe2hkJtgmtQ5uiFvbzytRaNlwHnuTX_2560w.webp",
+        "created_at": "2026-06-14T14:25:45.000000Z",
+        "updated_at": "2026-08-08T20:08:19.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 13975,
+          "hub_id": null,
+          "version": "1.0.2",
+          "description": "Improved accuracy",
+          "link": "https://forge.sp-tarkov.com/mod/download/2770/sprint-sensitivity-fixer/1.0.2",
+          "content_length": 6634,
+          "spt_version_constraint": "~4 <4.1.0",
+          "downloads": 1717,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-07-03T09:11:00.000000Z",
+          "created_at": "2026-07-03T09:13:31.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 13869,
+          "hub_id": null,
+          "version": "1.0.1",
+          "description": "Fixed: Sprint sensitivity now correctly uses your custom menu settings instead of falling back to the default.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2770/sprint-sensitivity-fixer/1.0.1",
+          "content_length": 6122,
+          "spt_version_constraint": "~4 <4.1.0",
+          "downloads": 619,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-06-25T08:42:00.000000Z",
+          "created_at": "2026-06-25T08:46:31.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 13860,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2770/sprint-sensitivity-fixer/1.0.0",
+          "content_length": 5610,
+          "spt_version_constraint": "~4 <4.1.0",
+          "downloads": 253,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-06-24T16:48:00.000000Z",
+          "created_at": "2026-06-24T16:48:15.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 1,
+        "hub_id": 17,
+        "title": "Tools",
+        "slug": "tools",
+        "description": "Various standalone tools and programs that aren't installed like normal mods"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Vinarat0r/Sprint-Sensitivity-Fixer",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 13975,
+      "hub_id": null,
+      "version": "1.0.2",
+      "description": "<p>Improved accuracy</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2770/sprint-sensitivity-fixer/1.0.2",
+      "content_length": 6634,
+      "spt_version_constraint": "~4 <4.1.0",
+      "downloads": 1717,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-07-03T09:11:00.000000Z",
+      "created_at": "2026-07-03T09:13:31.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13869,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<p>Fixed: Sprint sensitivity now correctly uses your custom menu settings instead of falling back to the default.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2770/sprint-sensitivity-fixer/1.0.1",
+      "content_length": 6122,
+      "spt_version_constraint": "~4 <4.1.0",
+      "downloads": 619,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-06-25T08:42:00.000000Z",
+      "created_at": "2026-06-25T08:46:31.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13860,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>release</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2770/sprint-sensitivity-fixer/1.0.0",
+      "content_length": 5610,
+      "spt_version_constraint": "~4 <4.1.0",
+      "downloads": 253,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-06-24T16:48:00.000000Z",
+      "created_at": "2026-06-24T16:48:15.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2770/Sprint-Sensitivity-fixer-1.0.2.zip",
+    "bytes_written": 6634,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1279373566/684723c5-55e3-4320-9fbe-56c2a6689483?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A48%3A53Z&rscd=attachment%3B+filename%3DSprint-Sensitivity-fixer-1.0.2.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A48%3A11Z&ske=2026-08-10T10%3A48%3A53Z&sks=b&skv=2018-11-09&sig=%2B25x2mgMgpxSU2HFY2JXWgRdNL3RN45XOCnXF2pxYFk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTk1MCwibmJmIjoxNzg2MzU1NjUwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.OJyg2IK1JcLxzKtJsJr27r3oRwKEwW6wOw1FL2naXDQ&response-content-disposition=attachment%3B%20filename%3DSprint-Sensitivity-fixer-1.0.2.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.2",
+    "same_as_primary_download": true
+  }
+}

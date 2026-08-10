@@ -1,0 +1,136 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2549,
+      "hub_id": null,
+      "guid": "com.ajdj100.notallmounts",
+      "name": "No Tall Mounts",
+      "slug": "no-tall-mounts",
+      "teaser": "No more 3 tall guns from using the wrong scope mount. Finally use something other than the Geissele!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/QBwRv73UVqOPvvLTG4D6XPKulvmnnE8tXiSb4MZ0.png",
+      "downloads": 5691,
+      "favourites_count": 24,
+      "description": "<h1>NoTallMounts</h1>\n<p>Stops scope mounts from causing your gun to grow vertically.\nWorks on all vanilla mounts. You can add more in config.json if you want.</p>\n<h1>Installation</h1>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/34vXXDj.gif\" alt=\"\" /></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2549/no-tall-mounts",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 15,
+      "published_at": "2026-01-14T03:46:00.000000Z",
+      "created_at": "2026-01-14T03:40:29.000000Z",
+      "updated_at": "2026-07-28T07:55:47.000000Z",
+      "owner": {
+        "id": 101386,
+        "name": "ajdj100",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/5AyjMUiKpI3VcaIfQ2jMKA2kaH5linviBtSbOWcc_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2026-01-11T06:30:47.000000Z",
+        "updated_at": "2026-07-10T04:54:24.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12881,
+          "hub_id": null,
+          "version": "1.0.1",
+          "description": "Fixed mod incompatibility",
+          "link": "https://forge.sp-tarkov.com/mod/download/2549/no-tall-mounts/1.0.1",
+          "content_length": 5077,
+          "spt_version_constraint": "~4.0.11",
+          "downloads": 4913,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-01-20T00:57:00.000000Z",
+          "created_at": "2026-01-20T00:57:36.000000Z",
+          "updated_at": "2026-07-28T07:55:47.000000Z"
+        },
+        {
+          "id": 12849,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Initial release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2549/no-tall-mounts/1.0.0",
+          "content_length": 5076,
+          "spt_version_constraint": "~4.0.11",
+          "downloads": 778,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-01-14T03:46:00.000000Z",
+          "created_at": "2026-01-14T03:42:24.000000Z",
+          "updated_at": "2026-07-28T07:51:33.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 15,
+        "hub_id": 78,
+        "title": "Equipment",
+        "slug": "equipment",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Ajdj100/NoTallMounts",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12881,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<p>Fixed mod incompatibility</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2549/no-tall-mounts/1.0.1",
+      "content_length": 5077,
+      "spt_version_constraint": "~4.0.11",
+      "downloads": 4913,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-01-20T00:57:00.000000Z",
+      "created_at": "2026-01-20T00:57:36.000000Z",
+      "updated_at": "2026-07-28T07:55:47.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12849,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Initial release</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2549/no-tall-mounts/1.0.0",
+      "content_length": 5076,
+      "spt_version_constraint": "~4.0.11",
+      "downloads": 778,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-01-14T03:46:00.000000Z",
+      "created_at": "2026-01-14T03:42:24.000000Z",
+      "updated_at": "2026-07-28T07:51:33.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2549/NoTallMounts1.0.1.7z",
+    "bytes_written": 5077,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1133857326/7eafd04d-ee87-4f13-bfd1-8410f7f498b6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A49%3A07Z&rscd=attachment%3B+filename%3DNoTallMounts1.0.1.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A48%3A24Z&ske=2026-08-10T10%3A49%3A07Z&sks=b&skv=2018-11-09&sig=VfyZsSso1vkNLcL4H1g6iPPsmE2tBVt%2F3UO97%2Bj08UU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1Njk2MCwibmJmIjoxNzg2MzU2NjYwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.cNXGdD9TPb3SwZnHzY6SVb2pkpI9zO5qhu4v9-fYBOg&response-content-disposition=attachment%3B%20filename%3DNoTallMounts1.0.1.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

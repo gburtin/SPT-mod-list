@@ -1,0 +1,199 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2424,
+      "hub_id": null,
+      "guid": "com.lumurkfox.pulse",
+      "name": "Pulse",
+      "slug": "pulse",
+      "teaser": "Lightweight customizable bot wave generator",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/EtBjZ1KciMew0dGUjAh3HGqqaBdj77Yf7e4udvuo.png",
+      "downloads": 6716,
+      "favourites_count": 3,
+      "description": "<p>Pulse is a simple bot wave generator for SPT that lets you customize bot spawning behavior through an easy-to-edit\nconfig file.</p>\n<p>Features</p>\n<ul>\n<li>Adjust PMC and Scav group sizes</li>\n<li>Scale bot populations with min/max multipliers</li>\n<li>Control assault wave counts</li>\n<li>Set PMC difficulty levels</li>\n<li>Debug logging option</li>\n</ul>\n<p>Configuration</p>\n<p>Edit config/config.json to adjust settings:</p>\n<ul>\n<li>MaxPmcGroupSize: PMCs per group (default: 3)</li>\n<li>MaxScavGroupSize: Scavs per group (default: 3)</li>\n<li>BotCountMultiplierMin/Max: Bot population scaling (default: 1.5 - 2.0)</li>\n<li>AssaultWaveCount: Number of assault waves (default: 3)</li>\n<li>PmcBotDifficulty: Choose easy, normal, hard, or impossible (default: normal)</li>\n<li>Debug: Enable debug logging (default: false)</li>\n<li>BossSpawnChancePercent: Spawning percent chance of bosses in raid</li>\n<li>GlobalBotLimit: Overrides the multiplier value. set to 0 to disable</li>\n</ul>\n<p>About</p>\n<p>Pulse is a customized fork of <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/barlog-m/spt-unda\" rel=\"noreferrer noopener\">https://github.com/barlog-m/spt-unda</a> by Barlog_M, modified for personal preferences  and made available for others who might want similar customization options.\n<em>DISCLAIMER</em> I did get permission to post as a separate mod from Barlog_M</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2424/pulse",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 5,
+      "published_at": "2025-11-05T19:51:00.000000Z",
+      "created_at": "2025-11-05T19:52:32.000000Z",
+      "updated_at": "2026-07-28T07:03:02.000000Z",
+      "owner": {
+        "id": 42947,
+        "name": "lumurkfox",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=l&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2023-12-31T18:42:06.000000Z",
+        "updated_at": "2026-04-13T23:48:02.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12560,
+          "hub_id": null,
+          "version": "1.0.3",
+          "description": "Updated to have a per map bot limit",
+          "link": "https://forge.sp-tarkov.com/mod/download/2424/pulse/1.0.3",
+          "content_length": 16365,
+          "spt_version_constraint": "4.0.7",
+          "downloads": 4188,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-12-09T16:19:00.000000Z",
+          "created_at": "2025-12-09T16:19:37.000000Z",
+          "updated_at": "2026-07-28T07:03:02.000000Z"
+        },
+        {
+          "id": 12528,
+          "hub_id": null,
+          "version": "1.0.2",
+          "description": "Added PMC/Scav percentage",
+          "link": "https://forge.sp-tarkov.com/mod/download/2424/pulse/1.0.2",
+          "content_length": 15398,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 700,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-12-05T21:04:00.000000Z",
+          "created_at": "2025-12-05T21:04:41.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 12186,
+          "hub_id": null,
+          "version": "1.0.1",
+          "description": "v1.0.1 - Add Global Bot Limit and Boss Spawn Control (#1)\n\nNew Features:\n- Added GlobalBotLimit config option to set hard cap on bot counts\n- Added BossSpawnChancePercent config to adjust boss spawn rates\n- Boss spawn control only affects actual bosses (Tagilla, Killa, etc.)\n\nChanges:\n- GlobalBotLimit: Set to 0 to disable, or specify max bot count to override multipliers\n- BossSpawnChancePercent: Default 100% (normal), supports 0-200+ for custom spawn rates",
+          "link": "https://forge.sp-tarkov.com/mod/download/2424/pulse/1.0.1",
+          "content_length": 18969,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 1674,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-05T21:04:00.000000Z",
+          "created_at": "2025-11-05T21:04:34.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 12182,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Pulse is a simple bot wave generator for SPT that lets you customize bot spawning behavior through an easy-to-edit\n   config file.\n\n  Features\n\n  - Adjust PMC and Scav group sizes\n  - Scale bot populations with min/max multipliers\n  - Control assault wave counts\n  - Set PMC difficulty levels\n  - Debug logging option\n\n  Configuration\n\n  Edit config/config.json to adjust settings:\n  - MaxPmcGroupSize: PMCs per group (default: 3)\n  - MaxScavGroupSize: Scavs per group (default: 3)\n  - BotCountMultiplierMin/Max: Bot population scaling (default: 1.5 - 2.0)\n  - AssaultWaveCount: Number of assault waves (default: 3)\n  - PmcBotDifficulty: Choose easy, normal, hard, or impossible (default: normal)\n  - Debug: Enable debug logging (default: false)\n\n  About\n\n  Pulse is a customized fork of https://github.com/barlog-m/spt-unda by Barlog_M, modified for personal preferences and made available for others who might want similar customization options.\n*DISCLAIMER - I did get permission from Barlog_M to upload as a separate mod.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2424/pulse/1.0.0",
+          "content_length": 17552,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 154,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-05T19:54:00.000000Z",
+          "created_at": "2025-11-05T19:58:03.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 5,
+        "hub_id": 22,
+        "title": "Bots",
+        "slug": "bots",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/lumurkfox/spt-pulse",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12560,
+      "hub_id": null,
+      "version": "1.0.3",
+      "description": "<p>Updated to have a per map bot limit</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2424/pulse/1.0.3",
+      "content_length": 16365,
+      "spt_version_constraint": "4.0.7",
+      "downloads": 4188,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-12-09T16:19:00.000000Z",
+      "created_at": "2025-12-09T16:19:37.000000Z",
+      "updated_at": "2026-07-28T07:03:02.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12528,
+      "hub_id": null,
+      "version": "1.0.2",
+      "description": "<p>Added PMC/Scav percentage</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2424/pulse/1.0.2",
+      "content_length": 15398,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 700,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-12-05T21:04:00.000000Z",
+      "created_at": "2025-12-05T21:04:41.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12186,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<p>v1.0.1 - Add Global Bot Limit and Boss Spawn Control (#1)</p>\n<p>New Features:</p>\n<ul>\n<li>Added GlobalBotLimit config option to set hard cap on bot counts</li>\n<li>Added BossSpawnChancePercent config to adjust boss spawn rates</li>\n<li>Boss spawn control only affects actual bosses (Tagilla, Killa, etc.)</li>\n</ul>\n<p>Changes:</p>\n<ul>\n<li>GlobalBotLimit: Set to 0 to disable, or specify max bot count to override multipliers</li>\n<li>BossSpawnChancePercent: Default 100% (normal), supports 0-200+ for custom spawn rates</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2424/pulse/1.0.1",
+      "content_length": 18969,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 1674,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-05T21:04:00.000000Z",
+      "created_at": "2025-11-05T21:04:34.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12182,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Pulse is a simple bot wave generator for SPT that lets you customize bot spawning behavior through an easy-to-edit\nconfig file.</p>\n<p>Features</p>\n<ul>\n<li>Adjust PMC and Scav group sizes</li>\n<li>Scale bot populations with min/max multipliers</li>\n<li>Control assault wave counts</li>\n<li>Set PMC difficulty levels</li>\n<li>Debug logging option</li>\n</ul>\n<p>Configuration</p>\n<p>Edit config/config.json to adjust settings:</p>\n<ul>\n<li>MaxPmcGroupSize: PMCs per group (default: 3)</li>\n<li>MaxScavGroupSize: Scavs per group (default: 3)</li>\n<li>BotCountMultiplierMin/Max: Bot population scaling (default: 1.5 - 2.0)</li>\n<li>AssaultWaveCount: Number of assault waves (default: 3)</li>\n<li>PmcBotDifficulty: Choose easy, normal, hard, or impossible (default: normal)</li>\n<li>Debug: Enable debug logging (default: false)</li>\n</ul>\n<p>About</p>\n<p>Pulse is a customized fork of <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/barlog-m/spt-unda\" rel=\"noreferrer noopener\">https://github.com/barlog-m/spt-unda</a> by Barlog_M, modified for personal preferences and made available for others who might want similar customization options.\n*DISCLAIMER - I did get permission from Barlog_M to upload as a separate mod.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2424/pulse/1.0.0",
+      "content_length": 17552,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 154,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-05T19:54:00.000000Z",
+      "created_at": "2025-11-05T19:58:03.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2424/Pulse-LumurkFox.7z",
+    "bytes_written": 16365,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1090518867/ccd03b1d-ab73-4db1-8ca4-296b2ca6d9bc?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A48%3A50Z&rscd=attachment%3B+filename%3DPulse-LumurkFox.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A48%3A50Z&ske=2026-08-10T10%3A48%3A50Z&sks=b&skv=2018-11-09&sig=h52GU8ruyXinqQfuaegak%2F3VyzRhfNx7b%2BJj2%2FnqbVQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NjkzMSwibmJmIjoxNzg2MzU2NjMxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.8VUalxVJrNlEPsAzFZRgb7pxN1EJpCoNCMbOzMTQr00&response-content-disposition=attachment%3B%20filename%3DPulse-LumurkFox.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2424/pulse-1.0.2-spt40.7z",
+    "bytes_written": 15398,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1090518867/75c92ac4-849a-4d2e-9185-c8c82a0c85f6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T12%3A36%3A01Z&rscd=attachment%3B+filename%3DPulse-LumurkFox.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T11%3A35%3A08Z&ske=2026-08-10T12%3A36%3A01Z&sks=b&skv=2018-11-09&sig=XUt%2BG1q5z%2F5J3s%2FwN0i7utIvDivvwrsgTS0cSk5Fw%2Bs%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzYwMCwibmJmIjoxNzg2MzYzMzAwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.H1QECZzr5knUBbTb0q9yeCWWFKlSCuJMH89CXAwADN0&response-content-disposition=attachment%3B%20filename%3DPulse-LumurkFox.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.0.2",
+    "same_as_primary_download": false
+  }
+}

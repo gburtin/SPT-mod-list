@@ -1,0 +1,192 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1979,
+      "hub_id": 2658,
+      "guid": "com.vinihns.tarkovcraft",
+      "name": "Tarkov Craft",
+      "slug": "tarkov-craft",
+      "teaser": "A web-based tool for creating custom hideout craft recipes.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/u20vAptr0ZmsPY0eool8ZsmVFkAiCs6yfvrOjnVI.png",
+      "downloads": 4667,
+      "favourites_count": 3,
+      "description": "<blockquote>\n<h1>Mods on Hiatus / Support Paused</h1>\n<ul>\n<li><strong>Status:</strong> No updates planned due to focus on other projects.</li>\n<li><strong>Open Invitation:</strong> The community has full permission to update, modify, and redistribute these mods. Feel free to fork the repository and build your own version.</li>\n</ul>\n</blockquote>\n<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Basics</div>\n<div class=\"tab-content\"><h3>Try the tool <a target=\"_blank\" class=\"external-link\" href=\"https://vinihns.github.io/TarkovCraft/\" rel=\"noreferrer noopener\">HERE</a></h3>\n<p>Tarkov Craft is a web-based tool to create and customize crafting recipes and barter trades. With an intuitive interface, you can experiment with ingredients, tools, and crafting times while generating JSONs for easy integration into your projects.</p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">JSON Structure</div>\n<div class=\"tab-content\"><p>Each craft is exported as a JSON object following SPT’s hideout recipe format:</p>\n<pre><code>{\n  \"_id\": \"507f1f77bcf86cd799439011\",\n  \"areaType\": 10,\n  \"requirements\": [\n    {\n      \"areaType\": 10,\n      \"requiredLevel\": 2,\n      \"type\": \"Area\"\n    },\n    {\n      \"templateId\": \"5c0e874186f7745dc7616606\",\n      \"count\": 2,\n      \"isFunctional\": false,\n      \"isEncoded\": false,\n      \"type\": \"Item\"\n    }\n  ],\n  \"productionTime\": 7200,\n  \"needFuelForAllProductionTime\": false,\n  \"locked\": false,\n  \"endProduct\": \"5c0e874186f7745dc7616606\",\n  \"continuous\": false,\n  \"count\": 1,\n  \"productionLimitCount\": 0,\n  \"isEncoded\": false,\n  \"isCodeProduction\": false\n}\n</code></pre>\n<hr /></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Usage</div>\n<div class=\"tab-content\"><h3>Option 1 — Use with TarkovCraft Loader (no coding required)</h3>\n<p>If you don’t want to write a mod from scratch, use <strong><a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2628/tarkov-craft-loader\" rel=\"noreferrer noopener\">TarkovCraft Loader</a></strong> — drop your exported JSON file into the mod’s folder and it will inject your custom crafts into the SPT server automatically.</p>\n<h3>Option 2 — Use the JSON in your own mod</h3>\n<p>If you’re building your own mod, copy the exported JSON and push the recipes into SPT</p></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">Known Issues</div>\n<div class=\"tab-content\"><ul>\n<li>If you find any bugs, please report them</li>\n</ul></div></div></div>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/Q5Q116JYQN\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://ko-fi.com/img/githubbutton_sm.svg\" alt=\"ko-fi\" /></a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1979/tarkov-craft",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": true,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 1,
+      "published_at": "2025-01-23T22:51:00.000000Z",
+      "created_at": "2025-01-23T22:51:13.000000Z",
+      "updated_at": "2026-07-28T08:09:59.000000Z",
+      "owner": {
+        "id": 24845,
+        "name": "viniHNS",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/84101c224775f3cd8ee04dcdc31158d6280cc336_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/fd12e19d8bfff462fbccc46bfeb6bb2eebf04094_1280w.webp",
+        "created_at": "2023-01-05T00:28:21.000000Z",
+        "updated_at": "2026-08-08T19:22:00.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 13258,
+          "hub_id": null,
+          "version": "2.0.0",
+          "description": "## Tarkov Craft v2.0.0 — Full Rewrite\n\nComplete rewrite from the ground up. Same purpose, entirely new codebase.\n\n**What changed**\n- New UI built from scratch with an EFT-inspired design \n- Item search rebuilt as a virtual-scroll combobox with keyboard navigation\n\n**What was dropped**\n- Quest creation\n- Barter creation\n\nThese may return in future releases as separate modules.\n\n### Try the tool [HERE](https://vinihns.github.io/TarkovCraft/)\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/1979/tarkov-craft/2.0.0",
+          "content_length": 486063,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 502,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-03-14T18:59:00.000000Z",
+          "created_at": "2026-03-14T19:09:22.000000Z",
+          "updated_at": "2026-07-28T08:09:59.000000Z"
+        },
+        {
+          "id": 261,
+          "hub_id": 14616,
+          "version": "1.0.4",
+          "description": "\\- Updated to 3.11.x\n\n\\- The quest creation feature has been removed due to technical issues and to better align the mod with its core purpose.\n\n\\- I've tested the mod with 5 new crafts and barters on a clean SPT installation, and it loaded normally for me. If you encounter any issues, please let me know!",
+          "link": "https://forge.sp-tarkov.com/mod/download/1979/tarkov-craft/1.0.4",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1505,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-14T18:54:31.000000Z",
+          "created_at": "2025-07-14T18:54:31.000000Z",
+          "updated_at": "2026-05-14T01:42:09.000000Z"
+        },
+        {
+          "id": 1497,
+          "hub_id": 13259,
+          "version": "1.0.3",
+          "description": "\\- Add barter trade tab\n\nIf you find any bugs, please report them\n\nThis tool simply generates a JSON file, so you need to use it with a MOD. Do not place it directly in your SPT installation!!!!!!\n\nFor now, the Quest Creator is not fully functional (only the Kill condition is ready to use), so use it at your own risk.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1979/tarkov-craft/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1481,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-30T23:37:51.000000Z",
+          "created_at": "2025-01-30T23:37:51.000000Z",
+          "updated_at": "2026-05-14T02:26:53.000000Z"
+        },
+        {
+          "id": 1543,
+          "hub_id": 13209,
+          "version": "1.0.2",
+          "description": "\\- Add link to the server mod\n\n\\- Add possibility to create multiple crafts.\n\nIf you find any bugs, please report them\n\nFor now, only the Recipe Creator tab is working",
+          "link": "https://forge.sp-tarkov.com/mod/download/1979/tarkov-craft/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 646,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-24T14:23:00.000000Z",
+          "created_at": "2025-01-24T14:23:00.000000Z",
+          "updated_at": "2026-05-14T02:30:46.000000Z"
+        },
+        {
+          "id": 1544,
+          "hub_id": 13208,
+          "version": "1.0.1",
+          "description": "\\- Add MongoID Generator Button\n\n\\- Updated the HIDEOUT area input to the correct areas.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1979/tarkov-craft/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 180,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-24T11:52:25.000000Z",
+          "created_at": "2025-01-24T11:52:25.000000Z",
+          "updated_at": "2026-05-14T02:30:46.000000Z"
+        },
+        {
+          "id": 1548,
+          "hub_id": 13203,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1979/tarkov-craft/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 353,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-23T22:51:13.000000Z",
+          "created_at": "2025-01-23T22:51:13.000000Z",
+          "updated_at": "2026-05-14T02:30:47.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 1,
+        "hub_id": 17,
+        "title": "Tools",
+        "slug": "tools",
+        "description": "Various standalone tools and programs that aren't installed like normal mods"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/viniHNS/TarkovCraft",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 13258,
+      "hub_id": null,
+      "version": "2.0.0",
+      "description": "<h2>Tarkov Craft v2.0.0 — Full Rewrite</h2>\n<p>Complete rewrite from the ground up. Same purpose, entirely new codebase.</p>\n<p><strong>What changed</strong></p>\n<ul>\n<li>New UI built from scratch with an EFT-inspired design</li>\n<li>Item search rebuilt as a virtual-scroll combobox with keyboard navigation</li>\n</ul>\n<p><strong>What was dropped</strong></p>\n<ul>\n<li>Quest creation</li>\n<li>Barter creation</li>\n</ul>\n<p>These may return in future releases as separate modules.</p>\n<h3>Try the tool <a target=\"_blank\" class=\"external-link\" href=\"https://vinihns.github.io/TarkovCraft/\" rel=\"noreferrer noopener\">HERE</a></h3>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1979/tarkov-craft/2.0.0",
+      "content_length": 486063,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 502,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-03-14T18:59:00.000000Z",
+      "created_at": "2026-03-14T19:09:22.000000Z",
+      "updated_at": "2026-07-28T08:09:59.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 261,
+      "hub_id": 14616,
+      "version": "1.0.4",
+      "description": "<p>- Updated to 3.11.x</p>\n<p>- The quest creation feature has been removed due to technical issues and to better align the mod with its core purpose.</p>\n<p>- I’ve tested the mod with 5 new crafts and barters on a clean SPT installation, and it loaded normally for me. If you encounter any issues, please let me know!</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1979/tarkov-craft/1.0.4",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1505,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-14T18:54:31.000000Z",
+      "created_at": "2025-07-14T18:54:31.000000Z",
+      "updated_at": "2026-05-14T01:42:09.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1979/TarkovCraft-page.zip",
+    "bytes_written": 486063,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/920038075/7642004a-7163-4409-ac0a-2ee03d74af11?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A53%3A15Z&rscd=attachment%3B+filename%3DTarkovCraft-page.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A52%3A17Z&ske=2026-08-10T10%3A53%3A15Z&sks=b&skv=2018-11-09&sig=sY6yHscnhACNU4G6pIu9KOeXhXhJxcQ0d%2Bifbh2ZxV0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTkzNywibmJmIjoxNzg2MzU1NjM3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.1vusKeLZhX_CuyyORhzO6dlvhnx2Ijll6uNxos5_xtU&response-content-disposition=attachment%3B%20filename%3DTarkovCraft-page.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "2.0.0",
+    "same_as_primary_download": true
+  }
+}

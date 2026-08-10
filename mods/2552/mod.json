@@ -1,0 +1,105 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2552,
+      "hub_id": null,
+      "guid": "com.acksberg.disableversionlabelinraid",
+      "name": "No Version Label in Raid",
+      "slug": "no-version-label-in-raid",
+      "teaser": "Disables the version label in raid. It is enabled when in the menu.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/j4N7BgKaKicEZSS1twroFXUaaSlC06KOMh4SVFqd.png",
+      "downloads": 4144,
+      "favourites_count": 12,
+      "description": "<p>Like the name says, when in raid, the version label disappears and reappears when you return to the menu. It was created to minimize the chance of burn-in with OLED monitors.</p>\n<p>Installation:\nDrag and drop 7z contents in your root directory of SPT game.\nOnly install on player clients (not on headless)</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2552/no-version-label-in-raid",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2026-01-14T17:01:00.000000Z",
+      "created_at": "2026-01-14T17:16:24.000000Z",
+      "updated_at": "2026-08-07T15:45:50.000000Z",
+      "owner": {
+        "id": 63573,
+        "name": "AcksBerg",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=A&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2024-09-10T17:24:10.000000Z",
+        "updated_at": "2026-08-10T09:16:43.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12854,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Initial release\nTested with 4.1.2 and 4.0.13",
+          "link": "https://forge.sp-tarkov.com/mod/download/2552/no-version-label-in-raid/1.0.0",
+          "content_length": 2560,
+          "spt_version_constraint": "~4.",
+          "downloads": 4144,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-01-14T17:18:00.000000Z",
+          "created_at": "2026-01-14T17:19:41.000000Z",
+          "updated_at": "2026-08-07T15:45:49.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/AcksBerg/DisableVersionLabelInRaid",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12854,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Initial release\nTested with 4.1.2 and 4.0.13</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2552/no-version-label-in-raid/1.0.0",
+      "content_length": 2560,
+      "spt_version_constraint": "~4.",
+      "downloads": 4144,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-01-14T17:18:00.000000Z",
+      "created_at": "2026-01-14T17:19:41.000000Z",
+      "updated_at": "2026-08-07T15:45:49.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2552/DisableVersionLabelInRaid.7z",
+    "bytes_written": 2560,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1134397184/330cded9-f503-407c-84bc-d7b3244132da?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A27%3A22Z&rscd=attachment%3B+filename%3DDisableVersionLabelInRaid.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A27%3A02Z&ske=2026-08-10T10%3A27%3A22Z&sks=b&skv=2018-11-09&sig=CJmnX9ZQ%2FL7vnS0HR6OzrVKmuiLQ3SvGRk0ymtO9Uys%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTE1MCwibmJmIjoxNzg2MzU0ODUwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.-ZaoBpW1O4YvDHfYyyYc38MX54QNkXvWyIQ0Cczucfo&response-content-disposition=attachment%3B%20filename%3DDisableVersionLabelInRaid.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": false
+  }
+}

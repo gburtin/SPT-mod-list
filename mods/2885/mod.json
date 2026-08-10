@@ -1,0 +1,136 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2885,
+      "hub_id": null,
+      "guid": "moon11yy.healingspeed",
+      "name": "Healing Speed",
+      "slug": "healing-speed",
+      "teaser": "A lightweight QoL mod that lets you configure healing and surgery use speed without changing game balance.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/rwDl4rMEvHqqc68D0kV0C0e0lB5Jej6VLCEBmytN.png",
+      "downloads": 663,
+      "favourites_count": 7,
+      "description": "<h1>Healing Speed</h1>\n<p>A lightweight and configurable medical QoL mod for <strong>SPT 4.0.13</strong>.</p>\n<p>Healing Speed gives you control over treatment speed, medical animations and healing delays while preserving EFT’s original health, wound and resource mechanics.</p>\n<hr />\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/AAWuluU.gif\" alt=\"Healing Speed Demo\" /></p>\n<hr />\n<h2>Features</h2>\n<ul>\n<li>Independent speed control for medkits:\n<ul>\n<li>AI-2</li>\n<li>Car First Aid Kit</li>\n<li>Salewa</li>\n<li>IFAK</li>\n<li>AFAK</li>\n<li>Grizzly</li>\n<li>Compatible modded medkits</li>\n</ul>\n</li>\n<li>Independent surgery speed for CMS, Surv12 and compatible modded surgery kits.</li>\n<li>Independent treatment speed for regular, aluminum, Tigzresq and compatible fracture splints.</li>\n<li>Additional speed multiplier for treating light and heavy bleeding.</li>\n<li>Configurable medical animation speed.</li>\n<li>Configurable delay before treatment begins.</li>\n<li>Continuous Healing across multiple body parts.</li>\n<li>Continuous CMS/Surv12 surgery and reusable-splint treatment.</li>\n<li>Optional removal of the vanilla HP-per-use limit.</li>\n<li>Optional protection of the final charge or resource point.</li>\n<li>Advanced support for medical items added by other mods.</li>\n<li>Full configuration through the <code>F12</code> Configuration Manager.</li>\n<li>Client-side only - no server mod or profile conversion required.</li>\n<li>Open source under the MIT license.</li>\n</ul>\n<h2>Default Configuration</h2>\n<table>\n<thead>\n<tr>\n<th>Setting</th>\n<th align=\"right\">Default</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td><code>HealingSpeedMultiplier</code></td>\n<td align=\"right\"><code>1.0</code></td>\n</tr>\n<tr>\n<td><code>BleedingTreatmentSpeedMultiplier</code></td>\n<td align=\"right\"><code>2.0</code></td>\n</tr>\n<tr>\n<td><code>SurgerySpeedMultiplier</code></td>\n<td align=\"right\"><code>3.0</code></td>\n</tr>\n<tr>\n<td><code>SplintSpeedMultiplier</code></td>\n<td align=\"right\"><code>1.0</code></td>\n</tr>\n<tr>\n<td><code>StartDelayMultiplier</code></td>\n<td align=\"right\"><code>0.5</code></td>\n</tr>\n<tr>\n<td><code>AnimationSpeedMultiplier</code></td>\n<td align=\"right\"><code>1.5</code></td>\n</tr>\n<tr>\n<td><code>Continuous Healing</code></td>\n<td align=\"right\">Enabled</td>\n</tr>\n<tr>\n<td><code>Continuous Healing Transition Delay</code></td>\n<td align=\"right\"><code>0.5 seconds</code></td>\n</tr>\n<tr>\n<td><code>Remove HP Per Use Limit</code></td>\n<td align=\"right\">Enabled</td>\n</tr>\n<tr>\n<td><code>Keep Last Use</code></td>\n<td align=\"right\">Disabled</td>\n</tr>\n</tbody>\n</table>\n<p><code>1.0</code> represents vanilla speed. <code>2.0</code> is twice as fast, while <code>0.5</code> is twice as slow.</p>\n<h2>Continuous Healing</h2>\n<p>When enabled, the same medical item automatically continues to the next applicable body part.</p>\n<p>Treatment continues until:</p>\n<ul>\n<li>There are no applicable injuries remaining.</li>\n<li>The medical item runs out of usable resources.</li>\n<li><code>Keep Last Use</code> reaches the protected final charge.</li>\n<li>The item is removed.</li>\n<li>The player manually cancels the action.</li>\n</ul>\n<p>Healing Speed uses EFT’s native health controller to select the next body part, preserving vanilla treatment priority and cancellation behavior.</p>\n<p>The transition between body parts can be configured separately. By default, the maximum transition delay is approximately <code>0.5</code> seconds.</p>\n<h2>Bleeding Treatment</h2>\n<p><code>BleedingTreatmentSpeedMultiplier</code> is applied only when the current medical item can remove an active light or heavy bleeding effect.</p>\n<p>The default value is <code>2.0</code>, making compatible bleeding treatment twice as fast.</p>\n<p>This multiplier stacks with <code>HealingSpeedMultiplier</code>, but does not modify bleeding effects, wound costs or medical item resource consumption.</p>\n<h2>Remove HP Per Use Limit</h2>\n<p>Vanilla medkits have a maximum amount of HP they can restore during one application. For example, an AI-2 normally restores no more than 50 HP per use.</p>\n<p>When <code>Remove HP Per Use Limit</code> is enabled, one application can continue until:</p>\n<ul>\n<li>The selected body part is fully healed; or</li>\n<li>The medkit runs out of resources.</li>\n</ul>\n<p>This does not create free HP. Every restored HP point is still deducted from the medical item’s real resource.</p>\n<h2>Keep Last Use</h2>\n<p>When enabled, <code>Keep Last Use</code> preserves exactly one resource point or charge in supported reusable medical items.</p>\n<p>This is useful for valuable medkits, surgery kits and reusable splints that the player may want to keep instead of consuming completely.</p>\n<p>Disable the option through F12 when you deliberately want to use the final charge.</p>\n<h2>Modded Medical Items</h2>\n<p>Template IDs for medical items added by other mods can be configured in:</p>\n<pre><code>BepInEx/config/HealingSpeed/item-ids.json\n</code></pre>\n<p>The file is created automatically after the first launch.</p>\n<pre><code>{\n  \"healingItemIds\": [],\n  \"surgeryItemIds\": [],\n  \"splintItemIds\": []\n}\n</code></pre>\n<p>Add the template ID to the appropriate list and restart the game.</p>\n<p>Item IDs are intentionally stored outside the F12 menu to keep advanced configuration separate from normal user settings.</p>\n<h2>Installation</h2>\n<ol>\n<li>Download the release ZIP.</li>\n<li>Extract the <code>BepInEx</code> folder into your SPT installation directory.</li>\n<li>Confirm that the DLL is located at:</li>\n</ol>\n<pre><code>BepInEx/plugins/moon11yy.HealingSpeed.dll\n</code></pre>\n<ol start=\"4\">\n<li>Start SPT.</li>\n<li>Press <code>F12</code> to configure the mod.</li>\n</ol>\n<h2>Compatibility</h2>\n<ul>\n<li><strong>SPT 4.0.13</strong></li>\n<li><strong>EFT client build 40087</strong></li>\n<li>Client-side only</li>\n<li>Compatible with existing profiles</li>\n<li>No profile conversion required</li>\n</ul>\n<h2>Design Goals</h2>\n<ul>\n<li>Small and focused QoL functionality.</li>\n<li>Clean Harmony patches with minimal compatibility impact.</li>\n<li>Vanilla-friendly health and wound mechanics.</li>\n<li>No profile modifications.</li>\n<li>No automatic cancellation hacks.</li>\n<li>Open-source and easy to audit.</li>\n</ul>\n<p><em>Designed for SPT 4.0.13.</em></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2885/healing-speed",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>AI was used as a development assistant to help generate boilerplate code, improve code structure, write documentation, and assist with refactoring.</p>\n<p>All functionality, testing, debugging, validation, and final implementation were manually reviewed and verified before release.</p>\n",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 3,
+      "published_at": "2026-08-05T16:23:00.000000Z",
+      "created_at": "2026-08-05T16:30:18.000000Z",
+      "updated_at": "2026-08-10T06:50:42.000000Z",
+      "owner": {
+        "id": 46544,
+        "name": "moon11yy",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2157143dd5d6bc2a02a1ed0499676cf0806c368c_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-03-14T13:58:20.000000Z",
+        "updated_at": "2026-08-10T06:50:43.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14593,
+          "hub_id": null,
+          "version": "1.4.6",
+          "description": "### **What’s New in Healing Speed 1.4.6**\n\n**Fixed**\n\n- Removed the unnecessary 1–2 second delay between body-part treatments during Continuous Healing.\n- Medical effects now finish as soon as the current body part receives all required HP.\n- Continuous Healing proceeds to the next body part smoothly, using the configured transition delay.\n\n**Preserved**\n\n- Original HP regeneration rate and medical resource consumption.\n- 2x bleeding treatment speed introduced in version 1.4.5.\n- Vanilla fracture treatment and CMS/Surv12 surgery behavior.\n- Vanilla cancellation, wound removal and item consumption rules.\n\n_Designed for SPT 4.0.13._",
+          "link": "https://forge.sp-tarkov.com/mod/download/2885/healing-speed/1.4.6",
+          "content_length": 16898,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 138,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-09T14:49:00.000000Z",
+          "created_at": "2026-08-09T14:49:37.000000Z",
+          "updated_at": "2026-08-09T18:02:46.000000Z"
+        },
+        {
+          "id": 14484,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "# Healing Speed v1.0.0\n\nInitial public release of Healing Speed for SPT 4.0.13.\n\n## Features\n\n- Adjustable healing speed multiplier\n- Adjustable surgery speed multiplier\n- Separate multipliers for:\n  - Medical kits (AI-2, Salewa, IFAK, AFAK, Grizzly)\n  - Surgery kits (CMS, Surv12)\n- F12 Configuration Manager support\n- Harmony-based patches\n- Client-side only\n- Vanilla-friendly implementation\n\n## Notes\n\n- Only the item use duration is modified.\n- Does not change healing amount, HP restoration, bleeding, fractures, pain effects, or any other gameplay mechanics.\n- Designed to maximize compatibility with other mods.\n\n## Compatibility\n\n- SPT 4.0.13\n- BepInEx\n- .NET Framework 4.7.2\n\n## License\n\nMIT License.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2885/healing-speed/1.0.0",
+          "content_length": 5296,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 525,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-05T16:30:00.000000Z",
+          "created_at": "2026-08-05T16:31:38.000000Z",
+          "updated_at": "2026-08-05T18:02:52.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 3,
+        "hub_id": 19,
+        "title": "Scripting",
+        "slug": "scripting",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/moon11yy/HealingSpeed",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14593,
+      "hub_id": null,
+      "version": "1.4.6",
+      "description": "<h3><strong>What’s New in Healing Speed 1.4.6</strong></h3>\n<p><strong>Fixed</strong></p>\n<ul>\n<li>Removed the unnecessary 1–2 second delay between body-part treatments during Continuous Healing.</li>\n<li>Medical effects now finish as soon as the current body part receives all required HP.</li>\n<li>Continuous Healing proceeds to the next body part smoothly, using the configured transition delay.</li>\n</ul>\n<p><strong>Preserved</strong></p>\n<ul>\n<li>Original HP regeneration rate and medical resource consumption.</li>\n<li>2x bleeding treatment speed introduced in version 1.4.5.</li>\n<li>Vanilla fracture treatment and CMS/Surv12 surgery behavior.</li>\n<li>Vanilla cancellation, wound removal and item consumption rules.</li>\n</ul>\n<p><em>Designed for SPT 4.0.13.</em></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2885/healing-speed/1.4.6",
+      "content_length": 16898,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 138,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-09T14:49:00.000000Z",
+      "created_at": "2026-08-09T14:49:37.000000Z",
+      "updated_at": "2026-08-09T18:02:46.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14484,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<h1>Healing Speed v1.0.0</h1>\n<p>Initial public release of Healing Speed for SPT 4.0.13.</p>\n<h2>Features</h2>\n<ul>\n<li>Adjustable healing speed multiplier</li>\n<li>Adjustable surgery speed multiplier</li>\n<li>Separate multipliers for:\n<ul>\n<li>Medical kits (AI-2, Salewa, IFAK, AFAK, Grizzly)</li>\n<li>Surgery kits (CMS, Surv12)</li>\n</ul>\n</li>\n<li>F12 Configuration Manager support</li>\n<li>Harmony-based patches</li>\n<li>Client-side only</li>\n<li>Vanilla-friendly implementation</li>\n</ul>\n<h2>Notes</h2>\n<ul>\n<li>Only the item use duration is modified.</li>\n<li>Does not change healing amount, HP restoration, bleeding, fractures, pain effects, or any other gameplay mechanics.</li>\n<li>Designed to maximize compatibility with other mods.</li>\n</ul>\n<h2>Compatibility</h2>\n<ul>\n<li>SPT 4.0.13</li>\n<li>BepInEx</li>\n<li>.NET Framework 4.7.2</li>\n</ul>\n<h2>License</h2>\n<p>MIT License.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2885/healing-speed/1.0.0",
+      "content_length": 5296,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 525,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-05T16:30:00.000000Z",
+      "created_at": "2026-08-05T16:31:38.000000Z",
+      "updated_at": "2026-08-05T18:02:52.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2885/moon11yy.HealingSpeed-v1.4.6.zip",
+    "bytes_written": 16898,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1324239072/20da5310-394f-4e8c-a9f0-cb2f7b22164b?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T11%3A18%3A03Z&rscd=attachment%3B+filename%3Dmoon11yy.HealingSpeed-v1.4.6.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T10%3A17%3A17Z&ske=2026-08-10T11%3A18%3A03Z&sks=b&skv=2018-11-09&sig=eM4ENBnsZ6BcW%2Fe7bqh1j%2F59BEckd2RuISoOiOQnUoM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NzQ4NCwibmJmIjoxNzg2MzU3MTg0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.8Ossiu_Li9wiuL_HgsyGvXb12sHnBwtUHufENtrn1W4&response-content-disposition=attachment%3B%20filename%3Dmoon11yy.HealingSpeed-v1.4.6.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.4.6",
+    "same_as_primary_download": true
+  }
+}

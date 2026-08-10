@@ -1,0 +1,141 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2789,
+      "hub_id": null,
+      "guid": "com.vultify.nvgsightdimmer",
+      "name": "NVG Sight Dimmer",
+      "slug": "nvg-sight-dimmer",
+      "teaser": "Automatically dims sight and scope brightness when your NVGs are on — no more blinding reticles.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/DamNKeh0omvDbcgIFfY3Ho9Kf8FuK5dJWM5WG9sV.jpg",
+      "downloads": 7161,
+      "favourites_count": 53,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Description</div>\n<div class=\"tab-content\"><p>Automatically dims sight and scope reticle brightness when night vision goggles (NVGs) are active, preventing the reticle from blooming/washing out your view.</p>\n<h3>Features</h3>\n<ul>\n<li>Automatically detects when NVGs are turned on and dims sight brightness</li>\n<li>Two independent F12 config sliders — one for holo/red-dot sights, one for magnified scope reticles</li>\n<li>Toggle to enable/disable auto-dimming entirely</li>\n<li>Brightness automatically restores to normal when NVGs are turned off</li>\n</ul></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Install Instructions</div>\n<div class=\"tab-content\"><ol>\n<li>Extract the archive</li>\n<li>Drop the <code>BepInEx</code> folder into your SPT root directory</li>\n<li>Press <strong>F12</strong> in-game to adjust brightness sliders if needed</li>\n</ol></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Known Limitations / Bugs</div>\n<div class=\"tab-content\"><ul>\n<li>ACOG-style prisms and scopes (e.g. Monstrum Compact Prism 2x32, TAC30) have their reticle baked into the lens as static art rather than a separate adjustable element, so their brightness cannot currently be adjusted by this mod.</li>\n<li>The HHS-1 hybrid sight’s flip-up magnifier has no reticle of its own — it magnifies the existing holographic dot, which is dimmed correctly by the holo slider, but doesn’t reflect properly.</li>\n</ul></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">Support</div>\n<div class=\"tab-content\"><p>Found a bug or have a question? Leave a comment on this mod’s page, or reach out in my thread on the SPT Discord: <a target=\"_blank\" class=\"external-link\" href=\"https://discord.com/channels/875684761291599922/1521972310595338260\" rel=\"noreferrer noopener\">https://discord.com/channels/875684761291599922/1521972310595338260</a></p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2789/nvg-sight-dimmer",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>AI was used to make the mod profile picture.</p>\n",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 3,
+      "published_at": "2026-06-30T02:13:00.000000Z",
+      "created_at": "2026-06-30T02:11:28.000000Z",
+      "updated_at": "2026-08-02T18:02:21.000000Z",
+      "owner": {
+        "id": 52241,
+        "name": "Vultify",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/4457233962ecb2b7d1e522ec0ad81c03210096ee_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-05-20T01:39:49.000000Z",
+        "updated_at": "2026-08-10T06:50:11.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14383,
+          "hub_id": null,
+          "version": "2.0.0",
+          "description": "**Requires SPT 4.1.x.** This build will not load on 4.0.x — stay on 1.0.0 if you are still on 4.0.\n\n### Changed\n- Rebuilt against the deobfuscated SPT 4.1 client assemblies\n\n### Install\nExtract into your SPT root folder. Lands as `BepInEx/plugins/NVGSightDimmer/`.\n\nUpgrading from 1.0.0 is a straight overwrite, no need to delete anything first.\n\n### Note\nACOGs, prism scopes and most LPVOs still do not dim. That is unchanged from 1.0.0 and is not something this mod can reach — those optics bake the reticle into the lens texture itself, so there is no brightness or colour value to turn down. Red dots, holographic sights and scopes that draw their reticle through the optic camera all dim as before. Still working on a way to get it done though. It works on Vudu and the Tango which is most popular :)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2789/nvg-sight-dimmer/2.0.0",
+          "content_length": 4240,
+          "spt_version_constraint": "4.1.0",
+          "downloads": 2313,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-02T15:28:00.000000Z",
+          "created_at": "2026-08-02T15:29:29.000000Z",
+          "updated_at": "2026-08-02T18:02:21.000000Z"
+        },
+        {
+          "id": 13940,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "- Initial release\n- Automatic NVG detection dims sight and scope brightness in real time\n- Separate F12 sliders for holo/red dot sights and magnified scopes\n- Toggle to enable/disable auto-dimming",
+          "link": "https://forge.sp-tarkov.com/mod/download/2789/nvg-sight-dimmer/1.0.0",
+          "content_length": 4263,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 4848,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-06-30T02:11:00.000000Z",
+          "created_at": "2026-06-30T02:13:18.000000Z",
+          "updated_at": "2026-07-28T06:01:55.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 3,
+        "hub_id": 19,
+        "title": "Scripting",
+        "slug": "scripting",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Vultify/NVGSightDimmer",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14383,
+      "hub_id": null,
+      "version": "2.0.0",
+      "description": "<p><strong>Requires SPT 4.1.x.</strong> This build will not load on 4.0.x — stay on 1.0.0 if you are still on 4.0.</p>\n<h3>Changed</h3>\n<ul>\n<li>Rebuilt against the deobfuscated SPT 4.1 client assemblies</li>\n</ul>\n<h3>Install</h3>\n<p>Extract into your SPT root folder. Lands as <code>BepInEx/plugins/NVGSightDimmer/</code>.</p>\n<p>Upgrading from 1.0.0 is a straight overwrite, no need to delete anything first.</p>\n<h3>Note</h3>\n<p>ACOGs, prism scopes and most LPVOs still do not dim. That is unchanged from 1.0.0 and is not something this mod can reach — those optics bake the reticle into the lens texture itself, so there is no brightness or colour value to turn down. Red dots, holographic sights and scopes that draw their reticle through the optic camera all dim as before. Still working on a way to get it done though. It works on Vudu and the Tango which is most popular :)</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2789/nvg-sight-dimmer/2.0.0",
+      "content_length": 4240,
+      "spt_version_constraint": "4.1.0",
+      "downloads": 2313,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-02T15:28:00.000000Z",
+      "created_at": "2026-08-02T15:29:29.000000Z",
+      "updated_at": "2026-08-02T18:02:21.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13940,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<ul>\n<li>Initial release</li>\n<li>Automatic NVG detection dims sight and scope brightness in real time</li>\n<li>Separate F12 sliders for holo/red dot sights and magnified scopes</li>\n<li>Toggle to enable/disable auto-dimming</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2789/nvg-sight-dimmer/1.0.0",
+      "content_length": 4263,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 4848,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-06-30T02:11:00.000000Z",
+      "created_at": "2026-06-30T02:13:18.000000Z",
+      "updated_at": "2026-07-28T06:01:55.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2789/NVGSightDimmer-v2.0.0.zip",
+    "bytes_written": 4240,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1284562278/418332b4-05cd-4e6b-bdfa-10f831507b56?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A50%3A31Z&rscd=attachment%3B+filename%3DNVGSightDimmer-v2.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A49%3A40Z&ske=2026-08-10T10%3A50%3A31Z&sks=b&skv=2018-11-09&sig=Hgksh3lBrbK00cyJ%2FE09zDjESfaAuFKgFV8Qg0ecVM8%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NzAwNywibmJmIjoxNzg2MzU2NzA3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.WK5pOh8KrnF-WbKdwSfHr-D7nC-SUISWh9091JaWhCU&response-content-disposition=attachment%3B%20filename%3DNVGSightDimmer-v2.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2789/nvg-sight-dimmer-1.0.0-spt40.zip",
+    "bytes_written": 4263,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1284562278/de7bc3d6-9e96-42c9-ba5a-cd2ccf392c02?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T12%3A48%3A21Z&rscd=attachment%3B+filename%3DNVGSightDimmer-v1.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T11%3A48%3A21Z&ske=2026-08-10T12%3A48%3A21Z&sks=b&skv=2018-11-09&sig=LKRnFog2u32EarrduOpuGw%2BAq3DB6hUcvxY%2BTKWqD%2FA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzY0NiwibmJmIjoxNzg2MzYzMzQ2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.rfmVW9wp337qnRo9Uw8J5FfCs8GCn4uhfc0YNRPyZZg&response-content-disposition=attachment%3B%20filename%3DNVGSightDimmer-v1.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.0.0",
+    "same_as_primary_download": false
+  }
+}

@@ -1,0 +1,326 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1582,
+      "hub_id": 2164,
+      "guid": "com.pein.headshotdarkness",
+      "name": "Headshot Darkness",
+      "slug": "headshot-darkness",
+      "teaser": "Instant feedback for when you get head, eyes'd.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2164.png",
+      "downloads": 48816,
+      "favourites_count": 43,
+      "description": "<h3>What does this mod do?</h3>\n<p>This mod makes getting headshot more… headshotty, by instantly fading your screen to black when you get killed with a headshot.</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://i.imgur.com/Tbd060N.gif\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/Tbd060N.gif\" alt=\"Tbd060N.gif\" /></a></p>\n<h3>INSTALLATION</h3>\n<p>Like any other mod, just drag and drop the BepInEx folder into your SPT folder.</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://i.imgur.com/wByb5Ln.gif\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/wByb5Ln.gif\" alt=\"wByb5Ln.gif\" /></a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1582/headshot-darkness",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-07-22T15:08:26.000000Z",
+      "created_at": "2024-07-22T15:08:26.000000Z",
+      "updated_at": "2026-07-28T06:34:11.000000Z",
+      "owner": {
+        "id": 12179,
+        "name": "pein",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=p&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/0nesldn7JSutui4nqPF0GyFFSoQKV6zImNcy5brD.jpg",
+        "created_at": "2021-12-14T17:06:03.000000Z",
+        "updated_at": "2026-08-10T07:44:57.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12350,
+          "hub_id": null,
+          "version": "1.2.4",
+          "description": "- Fixed mod",
+          "link": "https://forge.sp-tarkov.com/mod/download/1582/headshot-darkness/1.2.4",
+          "content_length": 9571,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 16199,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-17T12:56:00.000000Z",
+          "created_at": "2025-11-17T12:57:08.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 12138,
+          "hub_id": null,
+          "version": "1.2.3",
+          "description": "- Recompiled for SPT 4.0.0",
+          "link": "https://forge.sp-tarkov.com/mod/download/1582/headshot-darkness/1.2.3",
+          "content_length": 9574,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 1354,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-02T22:27:00.000000Z",
+          "created_at": "2025-11-02T20:20:32.000000Z",
+          "updated_at": "2026-07-28T06:13:54.000000Z"
+        },
+        {
+          "id": 1160,
+          "hub_id": 13617,
+          "version": "1.2.2",
+          "description": "- Updated for SPT 3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/1582/headshot-darkness/1.2.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 13026,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-16T16:11:33.000000Z",
+          "created_at": "2025-03-16T16:11:33.000000Z",
+          "updated_at": "2026-05-14T02:06:16.000000Z"
+        },
+        {
+          "id": 1783,
+          "hub_id": 12931,
+          "version": "1.2.1",
+          "description": "- Fixed audio not being re-enabled when entering spectator mode with Fika. Oops.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1582/headshot-darkness/1.2.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 4883,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-02T06:11:23.000000Z",
+          "created_at": "2025-01-02T06:11:23.000000Z",
+          "updated_at": "2026-05-14T02:35:33.000000Z"
+        },
+        {
+          "id": 1793,
+          "hub_id": 12921,
+          "version": "1.2.0",
+          "description": "- Substantial refactor\n- Fixed an issue where the headshot effect wouldn't occur properly\n\nHappy new year!",
+          "link": "https://forge.sp-tarkov.com/mod/download/1582/headshot-darkness/1.2.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 392,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-01T21:19:58.000000Z",
+          "created_at": "2025-01-01T21:19:58.000000Z",
+          "updated_at": "2026-05-14T02:35:43.000000Z"
+        },
+        {
+          "id": 2334,
+          "hub_id": 12273,
+          "version": "1.1.1",
+          "description": "- Updated to 3.10\n- Hopefully fixed an issue where the screen flash would happen when extracting with Fika (untested lol)\n- Audio should now fade back properly when switching to Spectator Cam with Fika (untested lol)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1582/headshot-darkness/1.1.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 3142,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-26T18:55:08.000000Z",
+          "created_at": "2024-11-26T18:55:08.000000Z",
+          "updated_at": "2026-07-13T18:02:59.000000Z"
+        },
+        {
+          "id": 2968,
+          "hub_id": 11494,
+          "version": "1.1.0",
+          "description": "Better late than never, right? Also, thank you for all the support!\n\n- Refactored some code\n- Added config options to change darkness type per death type\n- Removed ScreenFadeTime because I could not get it to work the way I wanted to (thanks bsg)\n- Surely fixed the Fika screen fade bug this time around\n- Fixed an error when skipping the UI death sound",
+          "link": "https://forge.sp-tarkov.com/mod/download/1582/headshot-darkness/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 4643,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-08-25T03:09:58.000000Z",
+          "created_at": "2024-08-25T03:09:58.000000Z",
+          "updated_at": "2026-07-13T18:03:47.000000Z"
+        },
+        {
+          "id": 3157,
+          "hub_id": 11237,
+          "version": "1.0.5",
+          "description": "- Added config option DisableUIDeathSound which disables the UI death sound for all deaths\n- <del>Fixed an issue with screen fading when using Fika</del>",
+          "link": "https://forge.sp-tarkov.com/mod/download/1582/headshot-darkness/1.0.5",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1723,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-08-07T13:46:36.000000Z",
+          "created_at": "2024-08-07T13:46:36.000000Z",
+          "updated_at": "2026-07-13T18:04:00.000000Z"
+        },
+        {
+          "id": 3267,
+          "hub_id": 11099,
+          "version": "1.0.4",
+          "description": "- Fixed an issue where the [UI death sound](https://www.youtube.com/watch?v=NNEL78kmpvE) would play when it shouldn't",
+          "link": "https://forge.sp-tarkov.com/mod/download/1582/headshot-darkness/1.0.4",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1356,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-28T13:03:49.000000Z",
+          "created_at": "2024-07-28T13:03:49.000000Z",
+          "updated_at": "2026-07-13T18:04:08.000000Z"
+        },
+        {
+          "id": 3313,
+          "hub_id": 11042,
+          "version": "1.0.3",
+          "description": "### IF UPDATING DELETE OLD HeadshotDarkness.dll\n\nadded config option ExplosionsDoDarkness\n\nadded config option DeathTextContextual (gets random death string from deathstrings.json based on death type)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1582/headshot-darkness/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 647,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-25T14:13:35.000000Z",
+          "created_at": "2024-07-25T14:13:35.000000Z",
+          "updated_at": "2026-07-13T18:04:12.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/peinwastaken/headshotdarkness",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12350,
+      "hub_id": null,
+      "version": "1.2.4",
+      "description": "<ul>\n<li>Fixed mod</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1582/headshot-darkness/1.2.4",
+      "content_length": 9571,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 16199,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-17T12:56:00.000000Z",
+      "created_at": "2025-11-17T12:57:08.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12138,
+      "hub_id": null,
+      "version": "1.2.3",
+      "description": "<ul>\n<li>Recompiled for SPT 4.0.0</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1582/headshot-darkness/1.2.3",
+      "content_length": 9574,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 1354,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-02T22:27:00.000000Z",
+      "created_at": "2025-11-02T20:20:32.000000Z",
+      "updated_at": "2026-07-28T06:13:54.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1160,
+      "hub_id": 13617,
+      "version": "1.2.2",
+      "description": "<ul>\n<li>Updated for SPT 3.11</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1582/headshot-darkness/1.2.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 13026,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-16T16:11:33.000000Z",
+      "created_at": "2025-03-16T16:11:33.000000Z",
+      "updated_at": "2026-05-14T02:06:16.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2334,
+      "hub_id": 12273,
+      "version": "1.1.1",
+      "description": "<ul>\n<li>Updated to 3.10</li>\n<li>Hopefully fixed an issue where the screen flash would happen when extracting with Fika (untested lol)</li>\n<li>Audio should now fade back properly when switching to Spectator Cam with Fika (untested lol)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1582/headshot-darkness/1.1.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 3142,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-11-26T18:55:08.000000Z",
+      "created_at": "2024-11-26T18:55:08.000000Z",
+      "updated_at": "2026-07-13T18:02:59.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [
+    {
+      "id": 53,
+      "name": "Call Of Duty Quotes",
+      "slug": "call-of-duty-quotes",
+      "teaser": "Call Of Duty Quotes that shows up everytime you die.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/okRedVBnMMaILXTidNFfNxFg84imMisNCDauMM96.jpg",
+      "downloads": 158,
+      "detail_url": "https://forge.sp-tarkov.com/addon/53/call-of-duty-quotes",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 1582,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2026-04-14T02:02:00.000000Z",
+      "created_at": "2026-04-14T02:03:11.000000Z",
+      "updated_at": "2026-07-28T10:04:18.000000Z",
+      "owner": {
+        "id": 32626,
+        "name": "CMDR_Tank",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/Pws2Yf16Nw3IsniwgRsoKlIJMngmDK1dbxFdimvr_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/7d23c15a690638f8d729085beaf99a533d588a86_1280w.webp",
+        "created_at": "2023-06-19T19:18:27.000000Z",
+        "updated_at": "2026-08-08T11:53:59.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/CmdrTank/call-of-duty-Quotes.git",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 87,
+          "version": "1.0.1",
+          "link": "https://forge.sp-tarkov.com/addon/download/53/call-of-duty-quotes/1.0.1",
+          "content_length": 7588,
+          "mod_version_constraint": "1.0.0",
+          "downloads": 158,
+          "published_at": "2026-04-13T02:11:00.000000Z",
+          "created_at": "2026-04-14T02:11:36.000000Z",
+          "updated_at": "2026-07-28T10:04:18.000000Z"
+        }
+      ]
+    }
+  ],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1582/headshotdarkness.7z",
+    "bytes_written": 9571,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/832200699/f0d8f4ae-09d7-42d7-a757-6117992a7734?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A49%3A40Z&rscd=attachment%3B+filename%3Dheadshotdarkness.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A48%3A48Z&ske=2026-08-10T10%3A49%3A40Z&sks=b&skv=2018-11-09&sig=zAN3WElKP9OK9RMHDp60PmqajYK4XaZtEKBuvkGj%2FIY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NzExMSwibmJmIjoxNzg2MzU2ODExLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Hi1g6vEb6t52f24O3oW2hcqvLzAX7xIP-HuH7-DDl9E&response-content-disposition=attachment%3B%20filename%3Dheadshotdarkness.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.2.4",
+    "same_as_primary_download": true
+  }
+}

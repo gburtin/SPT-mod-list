@@ -1,0 +1,295 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2857,
+      "hub_id": null,
+      "guid": "com.awnova.raidsettingsskipper",
+      "name": "Raid Settings Skipper",
+      "slug": "raid-settings-skipper",
+      "teaser": "Skips the raid settings screen when fika server settings are disabled.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/v49epH1pydb3Wyw5IeqlTvbrU6dQbmg2YbAETROJ.png",
+      "downloads": 747,
+      "favourites_count": 8,
+      "description": "<p>Skips the raid settings screen when fika server settings are disabled. No config needed It only skips if fika is configured to disabled letting users change raid settings.</p>\n<p>Approach inspired by no-insurance <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2690/no-insurance\" rel=\"noreferrer noopener\">https://forge.sp-tarkov.com/mod/2690/no-insurance</a>, which showed me that these menu steps are best removed at the MainMenuControllerClass transition rather than papered over in the UI like my first attempt.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2857/raid-settings-skipper",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>I use AI to help find things in eft decomp faster and use it to help write comments in code. I’m really bad with English and attention span. It helps keep me on track.</p>\n",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2026-07-29T23:05:00.000000Z",
+      "created_at": "2026-07-29T04:16:57.000000Z",
+      "updated_at": "2026-07-30T06:02:05.000000Z",
+      "owner": {
+        "id": 106828,
+        "name": "awnova",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/LoZ2SaIQ4ALsihYSyCka4lxasZApyJCHjSfFWL0k_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2026-03-07T18:31:57.000000Z",
+        "updated_at": "2026-08-10T02:09:04.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14286,
+          "hub_id": null,
+          "version": "1.1.0",
+          "description": "Renamed mod and added support for base SPT",
+          "link": "https://forge.sp-tarkov.com/mod/download/2857/raid-settings-skipper/1.1.0",
+          "content_length": 3857,
+          "spt_version_constraint": "~4.0.13",
+          "downloads": 515,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-29T23:19:00.000000Z",
+          "created_at": "2026-07-29T23:19:26.000000Z",
+          "updated_at": "2026-07-30T06:02:05.000000Z"
+        },
+        {
+          "id": 14282,
+          "hub_id": null,
+          "version": "1.0.1",
+          "description": "Hotfix to add support for Noinsurance mod.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2857/raid-settings-skipper/1.0.1",
+          "content_length": 3644,
+          "spt_version_constraint": "~4.0.13",
+          "downloads": 129,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-29T10:03:00.000000Z",
+          "created_at": "2026-07-29T09:37:12.000000Z",
+          "updated_at": "2026-07-29T18:02:19.000000Z"
+        },
+        {
+          "id": 14280,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Version 1.0.0",
+          "link": "https://forge.sp-tarkov.com/mod/download/2857/raid-settings-skipper/1.0.0",
+          "content_length": 3639,
+          "spt_version_constraint": "~4.0.13",
+          "downloads": 103,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-29T04:32:00.000000Z",
+          "created_at": "2026-07-29T04:32:37.000000Z",
+          "updated_at": "2026-07-29T06:02:08.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/awnova/FikaRaidSettingsSkipper",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14286,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<p>Renamed mod and added support for base SPT</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2857/raid-settings-skipper/1.1.0",
+      "content_length": 3857,
+      "spt_version_constraint": "~4.0.13",
+      "downloads": 515,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-29T23:19:00.000000Z",
+      "created_at": "2026-07-29T23:19:26.000000Z",
+      "updated_at": "2026-07-30T06:02:05.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14282,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<p>Hotfix to add support for Noinsurance mod.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2857/raid-settings-skipper/1.0.1",
+      "content_length": 3644,
+      "spt_version_constraint": "~4.0.13",
+      "downloads": 129,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-29T10:03:00.000000Z",
+      "created_at": "2026-07-29T09:37:12.000000Z",
+      "updated_at": "2026-07-29T18:02:19.000000Z",
+      "dependencies": [
+        {
+          "id": 2326,
+          "hub_id": null,
+          "guid": "com.fika.core",
+          "name": "Project Fika",
+          "slug": "project-fika",
+          "teaser": "Project Fika is a mod designed to enable co-op multiplayer game play with your friends in SPT. You can progress through quests, share items and quest progression, fight AI bots (PMCs, SCAVs, and bosses) together and much more.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/RhGQs4svMQ3MWGiEwn8WUQXxP3GUdVhLorptQcXA.png",
+          "downloads": 81995,
+          "favourites_count": 114,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2326/project-fika",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 2,
+          "published_at": "2025-09-26T20:43:00.000000Z",
+          "created_at": "2025-09-26T20:14:55.000000Z",
+          "updated_at": "2026-08-07T18:02:18.000000Z",
+          "owner": {
+            "id": 47969,
+            "name": "Lacyway",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/95a5b3e7532938e8baff549cb4defc29e382f4ac_128w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/05b1bc6e2a3f74b8f41de186273e89430b36bb0a_1280w.webp",
+            "created_at": "2024-04-09T17:00:56.000000Z",
+            "updated_at": "2026-08-10T08:56:42.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 52282,
+              "name": "ArchangelWTF",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bc678ae6a663d65b719827be994414a484a8e356_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-05-20T14:55:34.000000Z",
+              "updated_at": "2026-08-09T21:39:13.000000Z"
+            },
+            {
+              "id": 85060,
+              "name": "trippyone",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/gloYnvKsCxIr4hzbMtfeGisaXi1jgGOJp8ifmVpj_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2025-09-26T20:56:18.000000Z",
+              "updated_at": "2026-07-24T12:54:51.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14270,
+              "hub_id": null,
+              "version": "2.3.9",
+              "description": "<ul>\n<li>Fixed a bug where bots couldn’t operate stationary weapons</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2326/project-fika/2.3.9",
+              "content_length": 1181936,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 4110,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-28T08:20:00.000000Z",
+              "created_at": "2026-07-28T08:20:29.000000Z",
+              "updated_at": "2026-08-01T16:38:27.000000Z"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": 14280,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Version 1.0.0</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2857/raid-settings-skipper/1.0.0",
+      "content_length": 3639,
+      "spt_version_constraint": "~4.0.13",
+      "downloads": 103,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-29T04:32:00.000000Z",
+      "created_at": "2026-07-29T04:32:37.000000Z",
+      "updated_at": "2026-07-29T06:02:08.000000Z",
+      "dependencies": [
+        {
+          "id": 2326,
+          "hub_id": null,
+          "guid": "com.fika.core",
+          "name": "Project Fika",
+          "slug": "project-fika",
+          "teaser": "Project Fika is a mod designed to enable co-op multiplayer game play with your friends in SPT. You can progress through quests, share items and quest progression, fight AI bots (PMCs, SCAVs, and bosses) together and much more.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/RhGQs4svMQ3MWGiEwn8WUQXxP3GUdVhLorptQcXA.png",
+          "downloads": 81995,
+          "favourites_count": 114,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2326/project-fika",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 2,
+          "published_at": "2025-09-26T20:43:00.000000Z",
+          "created_at": "2025-09-26T20:14:55.000000Z",
+          "updated_at": "2026-08-07T18:02:18.000000Z",
+          "owner": {
+            "id": 47969,
+            "name": "Lacyway",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/95a5b3e7532938e8baff549cb4defc29e382f4ac_128w.webp",
+            "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/05b1bc6e2a3f74b8f41de186273e89430b36bb0a_1280w.webp",
+            "created_at": "2024-04-09T17:00:56.000000Z",
+            "updated_at": "2026-08-10T08:56:42.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 52282,
+              "name": "ArchangelWTF",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bc678ae6a663d65b719827be994414a484a8e356_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-05-20T14:55:34.000000Z",
+              "updated_at": "2026-08-09T21:39:13.000000Z"
+            },
+            {
+              "id": 85060,
+              "name": "trippyone",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/gloYnvKsCxIr4hzbMtfeGisaXi1jgGOJp8ifmVpj_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2025-09-26T20:56:18.000000Z",
+              "updated_at": "2026-07-24T12:54:51.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14270,
+              "hub_id": null,
+              "version": "2.3.9",
+              "description": "<ul>\n<li>Fixed a bug where bots couldn’t operate stationary weapons</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2326/project-fika/2.3.9",
+              "content_length": 1181936,
+              "spt_version_constraint": "~4.0.13",
+              "downloads": 4110,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-07-28T08:20:00.000000Z",
+              "created_at": "2026-07-28T08:20:29.000000Z",
+              "updated_at": "2026-08-01T16:38:27.000000Z"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2857/RSS.7z",
+    "bytes_written": 3857,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1187864200/197a80be-21c7-4f32-a096-d5c1f84ddc74?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A50%3A14Z&rscd=attachment%3B+filename%3DRSS.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A49%3A31Z&ske=2026-08-10T10%3A50%3A14Z&sks=b&skv=2018-11-09&sig=LaZQuDseB4z0EKtwXH4ZN730qO74ZqqoYtNtNzxP1Pc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTk3MywibmJmIjoxNzg2MzU1NjczLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.niWh2R13kA81LH8Q_etvbogBx4_g4UwMtddXNwcwK5I&response-content-disposition=attachment%3B%20filename%3DRSS.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.1.0",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,240 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2207,
+      "hub_id": 2910,
+      "guid": "katrin0522.fastsellinflea",
+      "name": "Fast Sell In Flea",
+      "slug": "fast-sell-in-flea",
+      "teaser": "Quickly add items on the flea market with automatic fitting of the current price",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2910.png",
+      "downloads": 63720,
+      "favourites_count": 92,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Description</div>\n<div class=\"tab-content\"><h3>Mod for those who are tired of every time to enter the price offer to sell an item.</h3></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Specially when there are many items….</div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">How it works:</div>\n<div class=\"tab-content\"><ul>\n<li>In the context menu of item, a price is added to the <strong>Add Offer</strong> button if you hold <em>LeftShift</em> (default keybind).</li>\n<li>If you press the button with the keybind held down(price show), the offer is added instantly, without going to the add offer screen.</li>\n<li>The price is automatically setup from the current prices of the flea market.</li>\n<li>You can select a preset target price(Min, Arg, Max) on the market, as well as set an amount to subtract Value OR Percent from that base price(Configurable)</li>\n<li>Supports multi-selection from UIFixes</li>\n</ul>\n<p>If Shift is not held, the button works as a normal add-offer action.</p>\n<div class=\"youtube-lite\" data-video-id=\"Mh53jclPIgQ\" data-embed-url=\"https://www.youtube-nocookie.com/embed/Mh53jclPIgQ?autoplay=1\"><img src=\"https://i.ytimg.com/vi/Mh53jclPIgQ/hqdefault.jpg\" alt=\"YouTube video thumbnail\" loading=\"lazy\" decoding=\"async\" /></div>\n<hr /></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">Installation</div></div>\n<div id=\"tabset-1-panel-5\" class=\"tab-panel\"><div class=\"tab-title\">Extract the BepInEx folder from the 7z a</div></div>\n<div id=\"tabset-1-panel-6\" class=\"tab-panel\"><div class=\"tab-title\">Credits</div></div>\n<div id=\"tabset-1-panel-7\" class=\"tab-panel\"><div class=\"tab-title\">Special Thanks to Translators:</div>\n<div class=\"tab-content\"><p>- French translation by Diadara</p>\n<p>- Japanese correction translation by 秋 (Ak1zm)</p>\n<p>- Spanish correction translation by VΛRIΛͶT</p>\n<p><em>If you want to correct the translation of the notifications, write in the comments</em></p>\n<p><em>Other languages translated by DeepL Translator</em></p>\n<p><em>It’s just two lines, but even these small texts feel nicer in YOUR own language.</em></p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2207/fast-sell-in-flea",
+      "fika_compatibility": true,
+      "featured": true,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 1,
+      "published_at": "2025-06-29T22:55:00.000000Z",
+      "created_at": "2025-06-29T22:55:16.000000Z",
+      "updated_at": "2026-08-02T06:02:12.000000Z",
+      "owner": {
+        "id": 80313,
+        "name": "Katrin0522",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/b74b866bad43739616963992bc7d8187ea01f5c2_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/4aeb3bda77bd76170f24227d63d761ea8871defe.jpg",
+        "created_at": "2025-06-13T13:44:23.000000Z",
+        "updated_at": "2026-08-09T12:44:56.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14333,
+          "hub_id": null,
+          "version": "1.3.0",
+          "description": "### ✨ Migration to 4.1 & fixes!!!\n- Migrate: SP[R] 4.1\n- Fixed accidental selling while typing.\n- Blocked selling items on the post-raid Scav screen.\n- Restricted selling to items from the player’s main inventory.\n- Prevented selling the wrong item after delayed server responses.\n- Added safe handling for Value cannot be null and price request errors.\n- Fixed FIR, item ownership, and multi-select validation.\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/2207/fast-sell-in-flea/1.3.0",
+          "content_length": 12740,
+          "spt_version_constraint": "~4.1",
+          "downloads": 4296,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-01T18:05:00.000000Z",
+          "created_at": "2026-08-01T18:07:13.000000Z",
+          "updated_at": "2026-08-02T06:02:12.000000Z"
+        },
+        {
+          "id": 11792,
+          "hub_id": null,
+          "version": "1.2.0",
+          "description": "### ✨ Migration to 4.0\n\nTHIS VERSION IS ONLY COMPATIBLE IN SPT 4.0 !\nFor 3.11, see past versions",
+          "link": "https://forge.sp-tarkov.com/mod/download/2207/fast-sell-in-flea/1.2.0",
+          "content_length": 11338,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 48953,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-10-11T23:16:00.000000Z",
+          "created_at": "2025-10-11T23:17:36.000000Z",
+          "updated_at": "2026-08-01T17:12:44.000000Z"
+        },
+        {
+          "id": 231,
+          "hub_id": 14646,
+          "version": "1.1.1",
+          "description": "### ✨ Added feature\n\n- **Added support for grouped selling of similar items when using multi-select (UIFixes), contributed by [@T-Rumibul ](https://github.com/Katrin0522/SPT-FastInFleaSell/pull/1)**",
+          "link": "https://forge.sp-tarkov.com/mod/download/2207/fast-sell-in-flea/1.1.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 6057,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-07-21T22:33:00.000000Z",
+          "created_at": "2025-07-21T22:33:30.000000Z",
+          "updated_at": "2026-05-14T01:41:43.000000Z"
+        },
+        {
+          "id": 276,
+          "hub_id": 14599,
+          "version": "1.1.0",
+          "description": "### ✨ Added\n\n- Support for **UIFixes** mod when using **MultiSelect** to sell items via flea market.\n\n### **🛠️ Fixed**\n\n- Selling a **non-empty container** is now correctly blocked.\n- Fixed issue where **pinned containers** could be sold unintentionally.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2207/fast-sell-in-flea/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1863,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-10T19:48:42.000000Z",
+          "created_at": "2025-07-10T19:48:42.000000Z",
+          "updated_at": "2026-05-14T01:42:17.000000Z"
+        },
+        {
+          "id": 293,
+          "hub_id": 14580,
+          "version": "1.0.3",
+          "description": "Fix: Create offer when there price on the flea == 0",
+          "link": "https://forge.sp-tarkov.com/mod/download/2207/fast-sell-in-flea/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 565,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-07T18:52:19.000000Z",
+          "created_at": "2025-07-07T18:52:19.000000Z",
+          "updated_at": "2026-05-14T01:42:31.000000Z"
+        },
+        {
+          "id": 308,
+          "hub_id": 14564,
+          "version": "1.0.2",
+          "description": "**Added localization for notifications mod**  \n  \nIt’s just two lines, but even these small texts feel nicer in YOUR own language",
+          "link": "https://forge.sp-tarkov.com/mod/download/2207/fast-sell-in-flea/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 815,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-03T21:25:15.000000Z",
+          "created_at": "2025-07-03T21:25:15.000000Z",
+          "updated_at": "2026-05-14T01:42:54.000000Z"
+        },
+        {
+          "id": 320,
+          "hub_id": 14552,
+          "version": "1.0.1",
+          "description": "Added features:\n\n- Quick add offer when hover on item(New keybind when hover)\n- Add type adjust price by subtracting a percentage(Price Subtract Percent %)\n- Add abulity change type adjust price -&gt; Value OR Percent",
+          "link": "https://forge.sp-tarkov.com/mod/download/2207/fast-sell-in-flea/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 732,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-30T20:07:25.000000Z",
+          "created_at": "2025-06-30T20:07:25.000000Z",
+          "updated_at": "2026-05-14T01:43:19.000000Z"
+        },
+        {
+          "id": 326,
+          "hub_id": 14546,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2207/fast-sell-in-flea/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 439,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-29T22:55:16.000000Z",
+          "created_at": "2025-06-29T22:55:16.000000Z",
+          "updated_at": "2026-05-14T01:43:23.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 1,
+        "hub_id": 17,
+        "title": "Tools",
+        "slug": "tools",
+        "description": "Various standalone tools and programs that aren't installed like normal mods"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Katrin0522/SPT-FastInFleaSell",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14333,
+      "hub_id": null,
+      "version": "1.3.0",
+      "description": "<h3>✨ Migration to 4.1 &amp; fixes!!!</h3>\n<ul>\n<li>Migrate: SP[R] 4.1</li>\n<li>Fixed accidental selling while typing.</li>\n<li>Blocked selling items on the post-raid Scav screen.</li>\n<li>Restricted selling to items from the player’s main inventory.</li>\n<li>Prevented selling the wrong item after delayed server responses.</li>\n<li>Added safe handling for Value cannot be null and price request errors.</li>\n<li>Fixed FIR, item ownership, and multi-select validation.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2207/fast-sell-in-flea/1.3.0",
+      "content_length": 12740,
+      "spt_version_constraint": "~4.1",
+      "downloads": 4296,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-01T18:05:00.000000Z",
+      "created_at": "2026-08-01T18:07:13.000000Z",
+      "updated_at": "2026-08-02T06:02:12.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11792,
+      "hub_id": null,
+      "version": "1.2.0",
+      "description": "<h3>✨ Migration to 4.0</h3>\n<p>THIS VERSION IS ONLY COMPATIBLE IN SPT 4.0 !\nFor 3.11, see past versions</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2207/fast-sell-in-flea/1.2.0",
+      "content_length": 11338,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 48953,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-10-11T23:16:00.000000Z",
+      "created_at": "2025-10-11T23:17:36.000000Z",
+      "updated_at": "2026-08-01T17:12:44.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 231,
+      "hub_id": 14646,
+      "version": "1.1.1",
+      "description": "<h3>✨ Added feature</h3>\n<ul>\n<li><strong>Added support for grouped selling of similar items when using multi-select (UIFixes), contributed by <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/Katrin0522/SPT-FastInFleaSell/pull/1\" rel=\"noreferrer noopener\">@T-Rumibul </a></strong></li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2207/fast-sell-in-flea/1.1.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 6057,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-07-21T22:33:00.000000Z",
+      "created_at": "2025-07-21T22:33:30.000000Z",
+      "updated_at": "2026-05-14T01:41:43.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2207/Kat-FastSellInFlea-1.3.0.7z",
+    "bytes_written": 12740,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1010362810/99f1953f-9d5c-4860-936c-8e2c3c8ecaa7?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A20%3A59Z&rscd=attachment%3B+filename%3DKat-FastSellInFlea-1.3.0.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A20%3A32Z&ske=2026-08-10T10%3A20%3A59Z&sks=b&skv=2018-11-09&sig=GJ%2FNWJFE7BtiVQW5VIu2IDdENGLIfaA1xPTw3j1wG7Y%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTU2OSwibmJmIjoxNzg2MzU1MjY5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.oJHUsFhVF-vKQcm6Iox-knJLEihh-7VlgaE77GXYhUk&response-content-disposition=attachment%3B%20filename%3DKat-FastSellInFlea-1.3.0.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2207/fast-sell-in-flea-1.2.0-spt40.7z",
+    "bytes_written": 11338,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1010362810/1bbfaf4b-f629-41a6-92bb-1002199849a8?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T13%3A00%3A31Z&rscd=attachment%3B+filename%3DKat-FastSellInFlea-1.2.0.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T12%3A00%3A10Z&ske=2026-08-10T13%3A00%3A31Z&sks=b&skv=2018-11-09&sig=pon05rTwx07CZZ88M4qFXbn6dtHqyNsqV%2BM79sc2kXw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzU3OSwibmJmIjoxNzg2MzYzMjc5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.tAjgrUamK-jrpkppJsbaNWv4sMQ9K6TYovun26-ZrOQ&response-content-disposition=attachment%3B%20filename%3DKat-FastSellInFlea-1.2.0.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.2.0",
+    "same_as_primary_download": false
+  }
+}

@@ -1,0 +1,190 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2518,
+      "hub_id": null,
+      "guid": "com.tarkin.tradermod",
+      "name": "Animated Traders",
+      "slug": "animated-traders",
+      "teaser": "3D traders",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/o68NCwSLKlMhhOSNYehQRhxOgGVvjjaKcg2PPgvN.png",
+      "downloads": 29626,
+      "favourites_count": 64,
+      "description": "<p>Animated traders integrated into the stash UI. Should load almost instantly.\nThis mod has no gameplay changes, and mainly intended for immersion type beat.</p>\n<p>Known issues:</p>\n<ul>\n<li>Peacekeeper and Ref are missing because BSG never made models for them.</li>\n<li>Breaks when starting a raid on a headless FIKA instance</li>\n</ul>\n<hr />\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.ibb.co/8gSqjk0p/Screenshot-2025-12-28-233027.png\" alt=\"image\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.ibb.co/fG15rXmN/Screenshot-2025-12-28-233115.png\" alt=\"image\" /></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2518/animated-traders",
+      "fika_compatibility": true,
+      "featured": true,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 16,
+      "published_at": "2025-12-28T21:12:00.000000Z",
+      "created_at": "2025-12-28T20:57:09.000000Z",
+      "updated_at": "2026-07-28T07:24:45.000000Z",
+      "owner": {
+        "id": 65264,
+        "name": "tarkin",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/3458fcb0a0ba6b7402a1b797878ac6613f59c0e0_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-10-11T13:28:38.000000Z",
+        "updated_at": "2026-08-10T09:20:43.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12724,
+          "hub_id": null,
+          "version": "1.0.1",
+          "description": "- fixed broken weapon build edit screen when hideout is open\n- fixed ugly edges on ultrawide monitors\n- fixed floating props when interrupted\n\nNote: If you’ve already downloaded the previous version and don’t want to redownload the full archive (~1.0GB), you can download just the updated `.dll` file from the [GitHub Releases](https://github.com/bmpq/spt-tradermod/releases/tag/v1.0.1) page.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2518/animated-traders/1.0.1",
+          "content_length": 1119282715,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 27831,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-12-31T03:05:00.000000Z",
+          "created_at": "2025-12-31T03:05:11.000000Z",
+          "updated_at": "2026-07-28T07:24:45.000000Z"
+        },
+        {
+          "id": 12699,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "yo",
+          "link": "https://forge.sp-tarkov.com/mod/download/2518/animated-traders/1.0.0",
+          "content_length": 1119279137,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 1795,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-12-28T21:11:00.000000Z",
+          "created_at": "2025-12-28T21:11:35.000000Z",
+          "updated_at": "2026-07-28T07:18:51.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 16,
+        "hub_id": 29,
+        "title": "Traders",
+        "slug": "traders",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/bmpq/spt-tradermod/",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12724,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<ul>\n<li>fixed broken weapon build edit screen when hideout is open</li>\n<li>fixed ugly edges on ultrawide monitors</li>\n<li>fixed floating props when interrupted</li>\n</ul>\n<p>Note: If you’ve already downloaded the previous version and don’t want to redownload the full archive (~1.0GB), you can download just the updated <code>.dll</code> file from the <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/bmpq/spt-tradermod/releases/tag/v1.0.1\" rel=\"noreferrer noopener\">GitHub Releases</a> page.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2518/animated-traders/1.0.1",
+      "content_length": 1119282715,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 27831,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-12-31T03:05:00.000000Z",
+      "created_at": "2025-12-31T03:05:11.000000Z",
+      "updated_at": "2026-07-28T07:24:45.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12699,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>yo</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2518/animated-traders/1.0.0",
+      "content_length": 1119279137,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 1795,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-12-28T21:11:00.000000Z",
+      "created_at": "2025-12-28T21:11:35.000000Z",
+      "updated_at": "2026-07-28T07:18:51.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [
+    {
+      "id": 17,
+      "name": "Sidorovich as Prapor",
+      "slug": "sidorovich-as-prapor",
+      "teaser": "Replace Prapor's model with Sidorovich",
+      "thumbnail": "https://forge-static.sp-tarkov.com/addons/qgvYDgKGSQL6ip4Y29rxNZQ8bWIHKgDO6zRNEt6c.png",
+      "downloads": 363,
+      "detail_url": "https://forge.sp-tarkov.com/addon/17/sidorovich-as-prapor",
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "mod_id": 2518,
+      "is_detached": false,
+      "detached_at": null,
+      "published_at": "2025-12-30T22:28:00.000000Z",
+      "created_at": "2025-12-30T22:30:31.000000Z",
+      "updated_at": "2026-07-28T09:58:30.000000Z",
+      "owner": {
+        "id": 65264,
+        "name": "tarkin",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/3458fcb0a0ba6b7402a1b797878ac6613f59c0e0_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-10-11T13:28:38.000000Z",
+        "updated_at": "2026-08-10T09:20:43.000000Z"
+      },
+      "additional_authors": [],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/bmpq/spt-tradermod-sidorovich",
+          "label": ""
+        }
+      ],
+      "versions": [
+        {
+          "id": 21,
+          "version": "1.0.0",
+          "link": "https://forge.sp-tarkov.com/addon/download/17/sidorovich-as-prapor/1.0.0",
+          "content_length": 13460034,
+          "mod_version_constraint": "~1.0.0",
+          "downloads": 363,
+          "published_at": "2025-12-30T22:36:00.000000Z",
+          "created_at": "2025-12-30T22:36:47.000000Z",
+          "updated_at": "2026-07-28T09:58:30.000000Z"
+        }
+      ]
+    }
+  ],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2518/tradermod-v1.0.1.zip",
+    "bytes_written": 1119282715,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1107340485/deeaab3f-15d9-4a33-be41-8c2e3daba159?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A48%3A43Z&rscd=attachment%3B+filename%3Dtradermod-v1.0.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A48%3A24Z&ske=2026-08-10T10%3A48%3A43Z&sks=b&skv=2018-11-09&sig=DBUGu%2FivQYJs1wy%2BU8GSnWSgfdRMeCBDIKswjRXp7eA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1OTk2OSwibmJmIjoxNzg2MzU2MzY5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.zM5h2RyAabVaejDERGTSS8RQrVdfPicv5NW-RBTHVKs&response-content-disposition=attachment%3B%20filename%3Dtradermod-v1.0.1.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

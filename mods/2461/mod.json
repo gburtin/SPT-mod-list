@@ -1,0 +1,600 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2461,
+      "hub_id": null,
+      "guid": "com.s3til.pcont",
+      "name": "craftable containers",
+      "slug": "craftable-containers",
+      "teaser": "adds container progression through hideout crafts",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2LFUg9slZO1VSkDB6j4bUxqMyBaa9cIy3ag2KZYE.png",
+      "downloads": 8921,
+      "favourites_count": 14,
+      "description": "<p>one of my favorite mods has always been Leaves’ Progressive Container</p>\n<p>that doesn’t work with 4.0, so i made my own without any coding experience. welcome s3til’s craftable containers. it’s the same concept, but with my own code and recipes using the WTT library</p>\n<hr />\n<p>features:</p>\n<p>-craft containers (wow)</p>\n<p>-fully customizable in db/CustomHideoutCrafts/[[Containername]].jsonc</p>\n<p>recipes are as follows by default (without listing specific items bc im lazy)</p>\n<ol>\n<li>waist bag -&gt; alpha @ lavatory 1</li>\n<li>alpha -&gt; beta @ workbench 2</li>\n<li>beta -&gt; epsi @ workbench 2</li>\n<li>epsi -&gt; theta @ intel 1</li>\n<li>theta -&gt; gamma @ medstation 3</li>\n<li>gamma -&gt; gamma+ @ workbench 3</li>\n</ol>\n<p>6b. get the kappa from collector</p>\n<ol start=\"7\">\n<li>kappa -&gt; kappa+ @ intel 3</li>\n</ol>\n<p>-trade in your starting container at Ragman 1 for a waist bag!</p>\n<p>config in config/barter.jsonc</p>\n<p>change “ContainerForTrade” string to the container your edition starts with (alpha, beta, gamma, unheard gamma) and Ragman will trade that starting container for a waistbag at LL1</p>\n<hr />\n<p>recommended mod pairings (aka also what i play with):</p>\n<p>SVM to change containers to be different (gamma and gamma eod, kappa and kappa desecrated, etc)</p>\n<p>profile modifier to give yourself a waistbag at the start</p>\n<p>profile modifier to give yourself The Collector at the start</p>\n<hr />\n<p>any problems and i guess lmk and ill try to fix it ive literally never coded anything before so this was all taken in chunks from WTT and SPT documentation</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2461/craftable-containers",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 6,
+      "published_at": "2025-11-23T09:14:00.000000Z",
+      "created_at": "2025-11-23T09:15:55.000000Z",
+      "updated_at": "2026-07-28T07:05:47.000000Z",
+      "owner": {
+        "id": 20671,
+        "name": "s3til",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/1Lk00e7ZCtuHGdzvyed7meBhrjLQEcrFaxCurL9V_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2022-07-16T00:13:07.000000Z",
+        "updated_at": "2026-08-06T03:51:24.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12599,
+          "hub_id": null,
+          "version": "1.2.0",
+          "description": "removes dependency on WTT--mod is now entirely self contained. no major changes otherwise",
+          "link": "https://forge.sp-tarkov.com/mod/download/2461/craftable-containers/1.2.0",
+          "content_length": 27430,
+          "spt_version_constraint": "~4.0.8",
+          "downloads": 5771,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-12-14T23:23:00.000000Z",
+          "created_at": "2025-12-14T23:23:45.000000Z",
+          "updated_at": "2026-07-28T07:05:47.000000Z"
+        },
+        {
+          "id": 12535,
+          "hub_id": null,
+          "version": "1.1.2",
+          "description": "maybe fix for commonlib problems? i didn't have time to debug--locking in on finals",
+          "link": "https://forge.sp-tarkov.com/mod/download/2461/craftable-containers/1.1.2",
+          "content_length": 26383,
+          "spt_version_constraint": "~4.0.7",
+          "downloads": 735,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-12-07T02:07:00.000000Z",
+          "created_at": "2025-12-07T02:07:26.000000Z",
+          "updated_at": "2026-07-28T07:02:05.000000Z"
+        },
+        {
+          "id": 12487,
+          "hub_id": null,
+          "version": "1.1.1",
+          "description": "I PROMISE IM DONE WITH UPDATES!\n\nfix: version places updated so future spt versions that dont drastically impact mods don't affect this mod. dont even bother updating to this version unless youre on spt > 4.0.7 it is the Exact Same with one addition \"~\"",
+          "link": "https://forge.sp-tarkov.com/mod/download/2461/craftable-containers/1.1.1",
+          "content_length": 26376,
+          "spt_version_constraint": "~4.0.7",
+          "downloads": 864,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-30T08:34:00.000000Z",
+          "created_at": "2025-11-30T08:34:50.000000Z",
+          "updated_at": "2026-07-28T06:58:57.000000Z"
+        },
+        {
+          "id": 12486,
+          "hub_id": null,
+          "version": "1.1.0",
+          "description": "alright! barter (starting container -> waist bag) added as a normal part of the mod! no more SVM needed!\n\nbase config file provided, if anyone wants more customization lmk and ill try my best",
+          "link": "https://forge.sp-tarkov.com/mod/download/2461/craftable-containers/1.1.0",
+          "content_length": 26374,
+          "spt_version_constraint": "4.0.7",
+          "downloads": 113,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-30T07:58:00.000000Z",
+          "created_at": "2025-11-30T07:58:21.000000Z",
+          "updated_at": "2026-07-28T06:58:53.000000Z"
+        },
+        {
+          "id": 12483,
+          "hub_id": null,
+          "version": "1.0.1",
+          "description": "fixed for spt 4.0.7\n\nfuture plans:\ntry to move away from wtt and be self contained\nadd slingbag trade/barter",
+          "link": "https://forge.sp-tarkov.com/mod/download/2461/craftable-containers/1.0.1",
+          "content_length": 23942,
+          "spt_version_constraint": "4.0.7",
+          "downloads": 180,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-29T22:52:00.000000Z",
+          "created_at": "2025-11-29T22:52:33.000000Z",
+          "updated_at": "2026-07-28T06:58:50.000000Z"
+        },
+        {
+          "id": 12412,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "version 1",
+          "link": "https://forge.sp-tarkov.com/mod/download/2461/craftable-containers/1.0.0",
+          "content_length": 23934,
+          "spt_version_constraint": "4.0.6",
+          "downloads": 1258,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-23T09:17:00.000000Z",
+          "created_at": "2025-11-23T09:18:32.000000Z",
+          "updated_at": "2026-07-28T06:44:41.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 6,
+        "hub_id": 23,
+        "title": "Hideout",
+        "slug": "hideout",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/s3til/craftable-containers-pcont",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12599,
+      "hub_id": null,
+      "version": "1.2.0",
+      "description": "<p>removes dependency on WTT–mod is now entirely self contained. no major changes otherwise</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2461/craftable-containers/1.2.0",
+      "content_length": 27430,
+      "spt_version_constraint": "~4.0.8",
+      "downloads": 5771,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-12-14T23:23:00.000000Z",
+      "created_at": "2025-12-14T23:23:45.000000Z",
+      "updated_at": "2026-07-28T07:05:47.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12535,
+      "hub_id": null,
+      "version": "1.1.2",
+      "description": "<p>maybe fix for commonlib problems? i didn’t have time to debug–locking in on finals</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2461/craftable-containers/1.1.2",
+      "content_length": 26383,
+      "spt_version_constraint": "~4.0.7",
+      "downloads": 735,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-12-07T02:07:00.000000Z",
+      "created_at": "2025-12-07T02:07:26.000000Z",
+      "updated_at": "2026-07-28T07:02:05.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338288,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 12519,
+              "hub_id": null,
+              "version": "2.0.6",
+              "description": "<ul>\n<li>Changed bundle loading methods for Static Spawn Service and Audio Service to load using SPT’s BundleManager, should alleviate any fika issues. <strong>THIS WILL REQUIRE ANYONE WHO USES THESE SERVICES TO REGISTER THEIR BUNDLE IN THE BUNDLES.JSON PROPERLY, PLEASE CONSULT THE README</strong></li>\n<li>Implemented new Custom Customization Service, with support for Hideout Customizations such as floors, ceilings, walls, and shooting range marks, as well as normal customization items like dogtags and such.</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.6",
+              "content_length": 139755,
+              "spt_version_constraint": "~4.0.1",
+              "downloads": 4238,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-12-04T21:03:00.000000Z",
+              "created_at": "2025-12-04T21:04:25.000000Z",
+              "updated_at": "2026-07-28T07:00:35.000000Z"
+            },
+            {
+              "id": 12421,
+              "hub_id": null,
+              "version": "2.0.5",
+              "description": "<ul>\n<li>added support for nested folders for quest locales</li>\n<li>added support for multiple crafts per file</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.5",
+              "content_length": 124624,
+              "spt_version_constraint": "~4.0.1",
+              "downloads": 12240,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-11-24T00:22:00.000000Z",
+              "created_at": "2025-11-24T00:25:08.000000Z",
+              "updated_at": "2026-07-28T06:44:46.000000Z"
+            },
+            {
+              "id": 12546,
+              "hub_id": null,
+              "version": "2.0.7",
+              "description": "<p>What’s Changed:</p>\n<ul>\n<li>Fixed AddGeneratorFuel by @kittycat2002</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.7",
+              "content_length": 139712,
+              "spt_version_constraint": "~4.0.1",
+              "downloads": 16216,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-12-07T20:51:00.000000Z",
+              "created_at": "2025-12-07T20:51:55.000000Z",
+              "updated_at": "2026-07-28T07:02:23.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 12487,
+      "hub_id": null,
+      "version": "1.1.1",
+      "description": "<p>I PROMISE IM DONE WITH UPDATES!</p>\n<p>fix: version places updated so future spt versions that dont drastically impact mods don’t affect this mod. dont even bother updating to this version unless youre on spt &gt; 4.0.7 it is the Exact Same with one addition “~”</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2461/craftable-containers/1.1.1",
+      "content_length": 26376,
+      "spt_version_constraint": "~4.0.7",
+      "downloads": 864,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-30T08:34:00.000000Z",
+      "created_at": "2025-11-30T08:34:50.000000Z",
+      "updated_at": "2026-07-28T06:58:57.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338288,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 12421,
+              "hub_id": null,
+              "version": "2.0.5",
+              "description": "<ul>\n<li>added support for nested folders for quest locales</li>\n<li>added support for multiple crafts per file</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.5",
+              "content_length": 124624,
+              "spt_version_constraint": "~4.0.1",
+              "downloads": 12240,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-11-24T00:22:00.000000Z",
+              "created_at": "2025-11-24T00:25:08.000000Z",
+              "updated_at": "2026-07-28T06:44:46.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 12486,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<p>alright! barter (starting container -&gt; waist bag) added as a normal part of the mod! no more SVM needed!</p>\n<p>base config file provided, if anyone wants more customization lmk and ill try my best</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2461/craftable-containers/1.1.0",
+      "content_length": 26374,
+      "spt_version_constraint": "4.0.7",
+      "downloads": 113,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-30T07:58:00.000000Z",
+      "created_at": "2025-11-30T07:58:21.000000Z",
+      "updated_at": "2026-07-28T06:58:53.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338288,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 12421,
+              "hub_id": null,
+              "version": "2.0.5",
+              "description": "<ul>\n<li>added support for nested folders for quest locales</li>\n<li>added support for multiple crafts per file</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.5",
+              "content_length": 124624,
+              "spt_version_constraint": "~4.0.1",
+              "downloads": 12240,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-11-24T00:22:00.000000Z",
+              "created_at": "2025-11-24T00:25:08.000000Z",
+              "updated_at": "2026-07-28T06:44:46.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 12483,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<p>fixed for spt 4.0.7</p>\n<p>future plans:\ntry to move away from wtt and be self contained\nadd slingbag trade/barter</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2461/craftable-containers/1.0.1",
+      "content_length": 23942,
+      "spt_version_constraint": "4.0.7",
+      "downloads": 180,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-29T22:52:00.000000Z",
+      "created_at": "2025-11-29T22:52:33.000000Z",
+      "updated_at": "2026-07-28T06:58:50.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338288,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 12421,
+              "hub_id": null,
+              "version": "2.0.5",
+              "description": "<ul>\n<li>added support for nested folders for quest locales</li>\n<li>added support for multiple crafts per file</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.5",
+              "content_length": 124624,
+              "spt_version_constraint": "~4.0.1",
+              "downloads": 12240,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-11-24T00:22:00.000000Z",
+              "created_at": "2025-11-24T00:25:08.000000Z",
+              "updated_at": "2026-07-28T06:44:46.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 12412,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>version 1</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2461/craftable-containers/1.0.0",
+      "content_length": 23934,
+      "spt_version_constraint": "4.0.6",
+      "downloads": 1258,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-23T09:17:00.000000Z",
+      "created_at": "2025-11-23T09:18:32.000000Z",
+      "updated_at": "2026-07-28T06:44:41.000000Z",
+      "dependencies": [
+        {
+          "id": 2310,
+          "hub_id": 3025,
+          "guid": "com.wtt.commonlib",
+          "name": "WTT - CommonLib",
+          "slug": "wtt-commonlib",
+          "teaser": "A modding utility library that eliminates boilerplate when adding custom items, quests, characters, and more to SPT",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/FVbVeBHaQuaij0cbN9akYctRp36WNPNU6FYzarMw.png",
+          "downloads": 338288,
+          "favourites_count": 663,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2310/wtt-commonlib",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": true,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 17,
+          "published_at": "2025-09-15T02:44:00.000000Z",
+          "created_at": "2025-09-15T02:44:54.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z",
+          "owner": {
+            "id": 30890,
+            "name": "GrooveypenguinX",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-07T19:55:52.000000Z",
+            "updated_at": "2026-08-09T14:03:01.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 22121,
+              "name": "Tron",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+              "created_at": "2022-08-31T05:49:04.000000Z",
+              "updated_at": "2026-08-10T09:32:43.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 12292,
+              "hub_id": null,
+              "version": "2.0.4",
+              "description": "<p>Fixed more gameworld.mainplayer references for fika headless compatibility\nAdded packet delivery system for static spawns for fika compatibility</p>\n<p>This version works for fika and spt, it only loads the fika helper assembly if fika is present. This should hopefully fix the last issues for headless crashing on raid start, but if there are still issues let me know!</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2310/wtt-commonlib/2.0.4",
+              "content_length": 124266,
+              "spt_version_constraint": "~4.0.1",
+              "downloads": 11922,
+              "fika_compatibility": "compatible",
+              "published_at": "2025-11-12T15:56:00.000000Z",
+              "created_at": "2025-11-12T15:57:23.000000Z",
+              "updated_at": "2026-07-28T06:21:13.000000Z"
+            }
+          ],
+          "category": {
+            "id": 17,
+            "hub_id": 28,
+            "title": "Other",
+            "slug": "other",
+            "description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2461/craftablecontainers120.zip",
+    "bytes_written": 27430,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1101111913/99e5544b-e859-4a5f-8083-00c32cdfe024?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A53%3A59Z&rscd=attachment%3B+filename%3Dcraftablecontainers120.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A53%3A34Z&ske=2026-08-10T10%3A53%3A59Z&sks=b&skv=2018-11-09&sig=7xVScoedOBUHAE2EtEreBBGsMEbl17pIBClMJNe%2Bvh0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1Njg0NSwibmJmIjoxNzg2MzU2NTQ1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.jcCRUVQRFfECQOL5PB8_uOnOSLOocnWN68TWMXKRNJI&response-content-disposition=attachment%3B%20filename%3Dcraftablecontainers120.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.2.0",
+    "same_as_primary_download": true
+  }
+}

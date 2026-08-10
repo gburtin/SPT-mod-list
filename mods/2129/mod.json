@@ -1,0 +1,136 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2129,
+      "hub_id": 2820,
+      "guid": "com.zgfuedkx.airfilterwarning",
+      "name": "Air Filter Warning",
+      "slug": "air-filter-warning",
+      "teaser": "Tired of forgetting about air filter when you exit the game? Maybe this mod will help you save your precious FP-100 filters.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2820.png",
+      "downloads": 2649,
+      "favourites_count": 10,
+      "description": "<h3>Air Filter Warning</h3>\n<p>A simple mod that adds warning message before exiting the game when air filter is still working in your hideout.</p>\n<p>SPT 3.10.5 version is available on <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/danx91/AirFilterWarning/releases/tag/v1.0.0-3.10.5\" rel=\"noreferrer noopener\">GitHub</a></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/danx91/AirFilterWarning/refs/heads/main/images/showcase.png\" alt=\"showcase.png\" /></p>\n<h3>Installation</h3>\n<ol>\n<li>Make sure that SPT Client is not running</li>\n<li>Press download button on top of this page or head to <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/danx91/AirFilterWarning/releases\" rel=\"noreferrer noopener\">releases page</a> on GitHub</li>\n<li>Download correct version for your SPT</li>\n<li>Open zip file</li>\n<li>Drag and drop BepInEx directory to your SPT directory</li>\n<li>Start game and make sure that mod is working</li>\n</ol>\n<h3>Old Versions</h3>\n<p>You can download other versions of this mod (3.10.5, 3.11) on <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/danx91/AirFilterWarning/releases/\" rel=\"noreferrer noopener\">GitHub</a></p>\n<h3>License</h3>\n<p><strong>Copyright © 2025 danx91 (aka ZGFueDkx)</strong>\nThis software is distributed under GNU GPLv3 license</p>\n<p><em>If you believe that this software infringes yours or someone else’s copyrights, please contact me via Discord to resolve this issue: <strong>danx91</strong></em></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2129/air-filter-warning",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 6,
+      "published_at": "2025-05-07T19:54:00.000000Z",
+      "created_at": "2025-05-07T19:54:39.000000Z",
+      "updated_at": "2026-07-28T06:59:24.000000Z",
+      "owner": {
+        "id": 73890,
+        "name": "ZGFueDkx",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/352c8281e470cbedd79fc9c25ddd2fc08ad5b0f3_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-02-23T03:54:03.000000Z",
+        "updated_at": "2026-07-21T11:59:48.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12504,
+          "hub_id": null,
+          "version": "1.1.0",
+          "description": "Updated for SPT 4.0",
+          "link": "https://forge.sp-tarkov.com/mod/download/2129/air-filter-warning/1.1.0",
+          "content_length": 3927,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 1259,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-12-02T22:56:47.000000Z",
+          "created_at": "2025-12-02T22:52:13.000000Z",
+          "updated_at": "2026-07-28T06:59:24.000000Z"
+        },
+        {
+          "id": 642,
+          "hub_id": 14195,
+          "version": "1.0.0",
+          "description": "Initial version",
+          "link": "https://forge.sp-tarkov.com/mod/download/2129/air-filter-warning/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1390,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-05-07T19:54:00.000000Z",
+          "created_at": "2025-05-07T19:54:39.000000Z",
+          "updated_at": "2026-05-14T01:53:34.000000Z"
+        }
+      ],
+      "license": {
+        "id": 15,
+        "hub_id": 18,
+        "name": "GNU GPLv3",
+        "link": "https://choosealicense.com/licenses/gpl-3.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 6,
+        "hub_id": 23,
+        "title": "Hideout",
+        "slug": "hideout",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/danx91/AirFilterWarning",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12504,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<p>Updated for SPT 4.0</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2129/air-filter-warning/1.1.0",
+      "content_length": 3927,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 1259,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-12-02T22:56:47.000000Z",
+      "created_at": "2025-12-02T22:52:13.000000Z",
+      "updated_at": "2026-07-28T06:59:24.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 642,
+      "hub_id": 14195,
+      "version": "1.0.0",
+      "description": "<p>Initial version</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2129/air-filter-warning/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1390,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-05-07T19:54:00.000000Z",
+      "created_at": "2025-05-07T19:54:39.000000Z",
+      "updated_at": "2026-05-14T01:53:34.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2129/airfilterwarning-1.1.0-spt-4.0.zip",
+    "bytes_written": 3927,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/979609027/78efbd56-8420-458a-ad19-d9f8c7fcafa3?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A49%3A08Z&rscd=attachment%3B+filename%3Dairfilterwarning-1.1.0-spt-4.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A48%3A32Z&ske=2026-08-10T10%3A49%3A08Z&sks=b&skv=2018-11-09&sig=xD93i61w7FzaCT8ogXDP3BivZR7vC6%2F05C8ulP4NQGQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1Njg3MywibmJmIjoxNzg2MzU2NTczLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.3B7mD-hB8hV0mDKV8sN2lgyIv8fk7CQxgAlFU9f1Oxo&response-content-disposition=attachment%3B%20filename%3Dairfilterwarning-1.1.0-spt-4.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.1.0",
+    "same_as_primary_download": true
+  }
+}

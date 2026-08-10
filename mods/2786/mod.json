@@ -1,0 +1,141 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2786,
+      "hub_id": null,
+      "guid": "com.vultify.autoranging",
+      "name": "Auto Ranging ",
+      "slug": "auto-ranging",
+      "teaser": "Your scope zeroes itself to whatever you're aiming at. Aim, and the sight snaps to the closest zeroing distance — no clicking through steps mid-fight. Now also zeroes for the ammo actually in your gun, not the weapon's default round.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/lWNBEuze9MZIa9a5IZ6VEEV7WQwajEUaxBzqqODp.jpg",
+      "downloads": 6262,
+      "favourites_count": 36,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Description</div>\n<div class=\"tab-content\"><p>Your scope zeroes itself to whatever you’re aiming at, and now accounts for the ammo you actually loaded.</p>\n<h3>Ranging</h3>\n<ul>\n<li><strong>Auto</strong> — while ADS, the mod checks the distance ahead every 0.3s and keeps the zero matched to your target</li>\n<li><strong>Manual</strong> — flip Auto Range off and range on demand with Alt+R (rebindable)</li>\n</ul>\n<h3>Ammo aware zeroing</h3>\n<p>Tarkov calibrates your scope against the weapon’s <strong>default</strong> ammo no matter what you loaded. An AK-74 is always zeroed for PS gs at 890 m/s — load 5.45 US gs at 303 m/s and your rounds land well under the reticle, visibly so from about 100 m.</p>\n<ul>\n<li>Zeroing is recalculated from the cartridge actually chambered, using the game’s own trajectory solver</li>\n<li>Re-solves when you switch ammo mid-raid</li>\n<li>Does nothing when the loaded round is already the weapon’s default</li>\n<li>Toggleable, on by default</li>\n</ul></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Install Instructions</div>\n<div class=\"tab-content\"><ol>\n<li>Extract the archive</li>\n<li>Drop the <code>BepInEx</code> folder into your SPT root directory</li>\n<li>Optionally set your preferences in the F12 menu</li>\n</ol>\n<p>Requires SPT 4.1.x. Upgrading from 1.0.0 is a straight overwrite. Still on SPT 4.0? Stay on v1.0.0.</p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Known Limitations / Bugs</div>\n<div class=\"tab-content\"><p>None currently known. If you find one, please report it (see Support tab).</p></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">Support</div>\n<div class=\"tab-content\"><p>Found a bug or have a question? Leave a comment on this mod’s page, or reach out in my thread on the SPT Discord: <a target=\"_blank\" class=\"external-link\" href=\"https://discord.com/channels/875684761291599922/1521972310595338260\" rel=\"noreferrer noopener\">https://discord.com/channels/875684761291599922/1521972310595338260</a></p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2786/auto-ranging",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>AI was used to create mod profile picture.</p>\n",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 3,
+      "published_at": "2026-06-28T22:48:00.000000Z",
+      "created_at": "2026-06-28T22:45:53.000000Z",
+      "updated_at": "2026-08-02T06:02:13.000000Z",
+      "owner": {
+        "id": 52241,
+        "name": "Vultify",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/4457233962ecb2b7d1e522ec0ad81c03210096ee_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-05-20T01:39:49.000000Z",
+        "updated_at": "2026-08-10T06:50:11.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14341,
+          "hub_id": null,
+          "version": "2.0.0",
+          "description": "**Requires SPT 4.1.x.** This build will not load on 4.0.x — stay on [v1.0.0](https://github.com/Vultify/AutoRanging/releases/tag/v1.0.0) if you are still on 4.0.x\n\n### Added\n**Ammo aware zeroing.** Tarkov calibrates a scope's zeroing against the weapon's *default* ammo no matter what you actually loaded — an AK-74 is always zeroed for PS gs at 890 m/s. Load 5.45 US gs at 303 m/s and your rounds land well under the reticle, visibly so from about 100 m out.\n\nZeroing is now recalculated from the cartridge actually chambered, using the game's own trajectory solver, so drop matches the velocity of what you are firing. It re-solves when you switch ammo mid-raid, and does nothing at all when the loaded round is already the weapon's default.\n\nToggleable in F12 under `2. Ranging` → `Ammo Aware Zeroing`, on by default.\n\n### Changed\n- Rebuilt against the deobfuscated SPT 4.1 client assemblies\n\n### Install\nExtract into your SPT root folder. Lands as `BepInEx/plugins/AutoRanging/AutoRanging.dll`.\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/2786/auto-ranging/2.0.0",
+          "content_length": 4837,
+          "spt_version_constraint": "4.1.0",
+          "downloads": 2311,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-01T21:57:00.000000Z",
+          "created_at": "2026-08-01T21:57:42.000000Z",
+          "updated_at": "2026-08-02T06:02:12.000000Z"
+        },
+        {
+          "id": 13925,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Initial release — Auto-ranging scope mod that automatically adjusts zeroing based on distance while ADS. Includes auto and manual ranging modes with F12 configuration.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2786/auto-ranging/1.0.0",
+          "content_length": 3830,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 3951,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-06-28T22:47:00.000000Z",
+          "created_at": "2026-06-28T22:48:18.000000Z",
+          "updated_at": "2026-07-28T09:22:31.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 3,
+        "hub_id": 19,
+        "title": "Scripting",
+        "slug": "scripting",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Vultify/AutoRanging",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14341,
+      "hub_id": null,
+      "version": "2.0.0",
+      "description": "<p><strong>Requires SPT 4.1.x.</strong> This build will not load on 4.0.x — stay on <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/Vultify/AutoRanging/releases/tag/v1.0.0\" rel=\"noreferrer noopener\">v1.0.0</a> if you are still on 4.0.x</p>\n<h3>Added</h3>\n<p><strong>Ammo aware zeroing.</strong> Tarkov calibrates a scope’s zeroing against the weapon’s <em>default</em> ammo no matter what you actually loaded — an AK-74 is always zeroed for PS gs at 890 m/s. Load 5.45 US gs at 303 m/s and your rounds land well under the reticle, visibly so from about 100 m out.</p>\n<p>Zeroing is now recalculated from the cartridge actually chambered, using the game’s own trajectory solver, so drop matches the velocity of what you are firing. It re-solves when you switch ammo mid-raid, and does nothing at all when the loaded round is already the weapon’s default.</p>\n<p>Toggleable in F12 under <code>2. Ranging</code> → <code>Ammo Aware Zeroing</code>, on by default.</p>\n<h3>Changed</h3>\n<ul>\n<li>Rebuilt against the deobfuscated SPT 4.1 client assemblies</li>\n</ul>\n<h3>Install</h3>\n<p>Extract into your SPT root folder. Lands as <code>BepInEx/plugins/AutoRanging/AutoRanging.dll</code>.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2786/auto-ranging/2.0.0",
+      "content_length": 4837,
+      "spt_version_constraint": "4.1.0",
+      "downloads": 2311,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-01T21:57:00.000000Z",
+      "created_at": "2026-08-01T21:57:42.000000Z",
+      "updated_at": "2026-08-02T06:02:12.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13925,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Initial release — Auto-ranging scope mod that automatically adjusts zeroing based on distance while ADS. Includes auto and manual ranging modes with F12 configuration.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2786/auto-ranging/1.0.0",
+      "content_length": 3830,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 3951,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-06-28T22:47:00.000000Z",
+      "created_at": "2026-06-28T22:48:18.000000Z",
+      "updated_at": "2026-07-28T09:22:31.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2786/AutoRanging-v2.0.0.zip",
+    "bytes_written": 4837,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1283404023/2ce4f301-9660-47e9-b08d-bb532acc77d7?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A48%3A31Z&rscd=attachment%3B+filename%3DAutoRanging-v2.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A48%3A19Z&ske=2026-08-10T10%3A48%3A31Z&sks=b&skv=2018-11-09&sig=o6pPhqMZpOcLb60joKtLkm6o1z5KKnhu8FUkG8oGWA8%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NzA3MywibmJmIjoxNzg2MzU2NzczLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.a6ZkXhTM55T3d1xEamz3rpRpQdhBxZqWC8fvLe5SW0I&response-content-disposition=attachment%3B%20filename%3DAutoRanging-v2.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2786/auto-ranging-1.0.0-spt40.zip",
+    "bytes_written": 3830,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1283404023/3c8e5130-d70b-4e7b-8426-4309e2e324ba?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T12%3A41%3A41Z&rscd=attachment%3B+filename%3DAutoRanging-v1.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T11%3A40%3A55Z&ske=2026-08-10T12%3A41%3A41Z&sks=b&skv=2018-11-09&sig=YSKH7RzFg9eYON4nJcBuFEJcORRSvntzfvpWdc%2F7yUk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzY0NSwibmJmIjoxNzg2MzYzMzQ1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.mEb9-axGt08LNYVAkZwQABQsePnCyComIvAqOkrjE-A&response-content-disposition=attachment%3B%20filename%3DAutoRanging-v1.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.0.0",
+    "same_as_primary_download": false
+  }
+}

@@ -1,0 +1,252 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1960,
+      "hub_id": 2635,
+      "guid": "com.darzhar.vrhandsultimate",
+      "name": "VrHands Ultimate",
+      "slug": "vrhands-ultimate",
+      "teaser": "Armless hands for every skin!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/mMmPS0j6fMChfR1PgILQAv6l2Aw9PYsr5S8H9BjP.png",
+      "downloads": 2269,
+      "favourites_count": 2,
+      "description": "<p>Mod recommended: [<a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2419-spt-vr/\" rel=\"noreferrer noopener\">SPT-VR</a>]</p>\n<p>I remade all first person model assets for your pleasure! all 70 skins :)<br />\nThis replaces all first person assets with their arm-less equivalents.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1960/vrhands-ultimate",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 14,
+      "published_at": "2025-01-11T22:37:00.000000Z",
+      "created_at": "2025-01-11T22:37:34.000000Z",
+      "updated_at": "2026-07-28T07:04:19.000000Z",
+      "owner": {
+        "id": 64077,
+        "name": "Dar'Zhar",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/45cc11694b00da319066979ce0265e50f63d4a5a_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/d680c8e5fe4432c6574e227f15a11f529cc071b6_1280w.webp",
+        "created_at": "2024-09-18T05:59:04.000000Z",
+        "updated_at": "2026-08-04T05:27:44.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12556,
+          "hub_id": null,
+          "version": "1.3.6",
+          "description": "Fixed Rendering issues in snow and over certain terrain.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1960/vrhands-ultimate/1.3.6",
+          "content_length": 373017486,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 831,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-12-09T00:16:00.000000Z",
+          "created_at": "2025-12-09T00:16:25.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 12381,
+          "hub_id": null,
+          "version": "1.3.5",
+          "description": "Converted mod to BepInEx, now fully client-sided for FIKA compatibility.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1960/vrhands-ultimate/1.3.5",
+          "content_length": 373027512,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 210,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-11-20T06:46:00.000000Z",
+          "created_at": "2025-11-20T06:46:43.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 12102,
+          "hub_id": null,
+          "version": "1.2.1",
+          "description": "Added missing scav hands",
+          "link": "https://forge.sp-tarkov.com/mod/download/1960/vrhands-ultimate/1.2.1",
+          "content_length": 518388297,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 257,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-31T19:25:00.000000Z",
+          "created_at": "2025-10-31T19:25:49.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 12070,
+          "hub_id": null,
+          "version": "1.2.0",
+          "description": "Added  \n -USEC Day Off  \n -Range Specialist  \n -USEC Dead Vektor  \n -USEC Troubleshooter  ",
+          "link": "https://forge.sp-tarkov.com/mod/download/1960/vrhands-ultimate/1.2.0",
+          "content_length": 482000603,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 144,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-29T06:49:00.000000Z",
+          "created_at": "2025-10-29T06:48:48.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 12066,
+          "hub_id": null,
+          "version": "1.1.0",
+          "description": "VrHands Ultimate! Now with all skins!\nThis mod replaces every first person view-model with a vrhands replica!\n\nModels added:  \n- BEAR Standard  \n- BEAR Classic  \n- BEAR Black Lynx  \n- Snowman  \n- White Collar  \n- BEAR Polo  \n- BEAR Gladiator  \n- BEAR Boreas  \n- FSB Fast Response  \n- BEAR G99  \n- BEAR Ghost Marksman  \n- BEAR Instructor  \n- BEAR NORD  \n- BEAR OPS MGS  \n- BEAR OPS MGS BLACK  \n- BEAR Phoenix  \n- BEAR Summer Field  \n- BEAR SPN  \n- BEAR Sumrak  \n- BEAR VOLK  \n- BEAR Telnik  \n- BEAR Grizzly  \n- BEAR TIGR  \n- BEAR Rash Guard  \n- BEAR Winter  \n- BEAR Zaslon  \n- USEC Predator  \n- Cultist Jacket  \n- BEAR Contractor  \n- USEC Adaptive Combat  \n- USEC Agressor TAC  \n- USEC Sandstone  \n- USEC Mission  \n- USEC Cereum  \n- USEC Chameleon  \n- USEC Legionnaire  \n- USEC Woodland Infiltrator  \n- USEC Commando  \n- USEC Deadly Frog  \n- USEC Urban Responder  \n- USEC Night Patrol  \n- USEC PCU Ironsight  \n- USEC PCS MultiCam  \n- USEC Softshell Flexion  \n- USEC Special Ops  \n- USEC TIER2  \n- USEC VEKTOR  \n- USEC BOSS Delta  \n- USEC BOSS Delta MC  \n- USEC Winter  \n- USEC Standard  \n- USEC AC Ranger Green  \n- wild_bomber  \n- wild_feldparka  \n- wild_hoody_victory  \n- wild_meteor  \n- wild_motocross  \n- wild_rainparka  \n- wild_russia  \n- wild_underarmour  \n- wild_yellowcoat  \n- Adik tracksuit  ",
+          "link": "https://forge.sp-tarkov.com/mod/download/1960/vrhands-ultimate/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.4",
+          "downloads": 212,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-28T17:37:00.000000Z",
+          "created_at": "2025-10-28T22:12:55.000000Z",
+          "updated_at": "2026-05-14T06:51:51.000000Z"
+        },
+        {
+          "id": 1657,
+          "hub_id": 13073,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1960/vrhands-ultimate/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 615,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-11T22:37:34.000000Z",
+          "created_at": "2025-01-11T22:37:34.000000Z",
+          "updated_at": "2026-05-14T02:32:02.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 14,
+        "hub_id": 77,
+        "title": "Clothing",
+        "slug": "clothing",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/logarbLord/SPT-VrHandsUltimate",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12556,
+      "hub_id": null,
+      "version": "1.3.6",
+      "description": "<p>Fixed Rendering issues in snow and over certain terrain.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1960/vrhands-ultimate/1.3.6",
+      "content_length": 373017486,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 831,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-12-09T00:16:00.000000Z",
+      "created_at": "2025-12-09T00:16:25.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12381,
+      "hub_id": null,
+      "version": "1.3.5",
+      "description": "<p>Converted mod to BepInEx, now fully client-sided for FIKA compatibility.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1960/vrhands-ultimate/1.3.5",
+      "content_length": 373027512,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 210,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-11-20T06:46:00.000000Z",
+      "created_at": "2025-11-20T06:46:43.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12102,
+      "hub_id": null,
+      "version": "1.2.1",
+      "description": "<p>Added missing scav hands</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1960/vrhands-ultimate/1.2.1",
+      "content_length": 518388297,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 257,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-31T19:25:00.000000Z",
+      "created_at": "2025-10-31T19:25:49.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12070,
+      "hub_id": null,
+      "version": "1.2.0",
+      "description": "<p>Added<br />\n-USEC Day Off<br />\n-Range Specialist<br />\n-USEC Dead Vektor<br />\n-USEC Troubleshooter</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1960/vrhands-ultimate/1.2.0",
+      "content_length": 482000603,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 144,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-29T06:49:00.000000Z",
+      "created_at": "2025-10-29T06:48:48.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12066,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<p>VrHands Ultimate! Now with all skins!\nThis mod replaces every first person view-model with a vrhands replica!</p>\n<p>Models added:</p>\n<ul>\n<li>BEAR Standard</li>\n<li>BEAR Classic</li>\n<li>BEAR Black Lynx</li>\n<li>Snowman</li>\n<li>White Collar</li>\n<li>BEAR Polo</li>\n<li>BEAR Gladiator</li>\n<li>BEAR Boreas</li>\n<li>FSB Fast Response</li>\n<li>BEAR G99</li>\n<li>BEAR Ghost Marksman</li>\n<li>BEAR Instructor</li>\n<li>BEAR NORD</li>\n<li>BEAR OPS MGS</li>\n<li>BEAR OPS MGS BLACK</li>\n<li>BEAR Phoenix</li>\n<li>BEAR Summer Field</li>\n<li>BEAR SPN</li>\n<li>BEAR Sumrak</li>\n<li>BEAR VOLK</li>\n<li>BEAR Telnik</li>\n<li>BEAR Grizzly</li>\n<li>BEAR TIGR</li>\n<li>BEAR Rash Guard</li>\n<li>BEAR Winter</li>\n<li>BEAR Zaslon</li>\n<li>USEC Predator</li>\n<li>Cultist Jacket</li>\n<li>BEAR Contractor</li>\n<li>USEC Adaptive Combat</li>\n<li>USEC Agressor TAC</li>\n<li>USEC Sandstone</li>\n<li>USEC Mission</li>\n<li>USEC Cereum</li>\n<li>USEC Chameleon</li>\n<li>USEC Legionnaire</li>\n<li>USEC Woodland Infiltrator</li>\n<li>USEC Commando</li>\n<li>USEC Deadly Frog</li>\n<li>USEC Urban Responder</li>\n<li>USEC Night Patrol</li>\n<li>USEC PCU Ironsight</li>\n<li>USEC PCS MultiCam</li>\n<li>USEC Softshell Flexion</li>\n<li>USEC Special Ops</li>\n<li>USEC TIER2</li>\n<li>USEC VEKTOR</li>\n<li>USEC BOSS Delta</li>\n<li>USEC BOSS Delta MC</li>\n<li>USEC Winter</li>\n<li>USEC Standard</li>\n<li>USEC AC Ranger Green</li>\n<li>wild_bomber</li>\n<li>wild_feldparka</li>\n<li>wild_hoody_victory</li>\n<li>wild_meteor</li>\n<li>wild_motocross</li>\n<li>wild_rainparka</li>\n<li>wild_russia</li>\n<li>wild_underarmour</li>\n<li>wild_yellowcoat</li>\n<li>Adik tracksuit</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1960/vrhands-ultimate/1.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.4",
+      "downloads": 212,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-28T17:37:00.000000Z",
+      "created_at": "2025-10-28T22:12:55.000000Z",
+      "updated_at": "2026-05-14T06:51:51.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1657,
+      "hub_id": 13073,
+      "version": "1.0.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/1960/vrhands-ultimate/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 615,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-01-11T22:37:34.000000Z",
+      "created_at": "2025-01-11T22:37:34.000000Z",
+      "updated_at": "2026-05-14T02:32:02.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1960/VrHandsUltimate1.3.6.7z",
+    "bytes_written": 373017486,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1085293582/8b977bdc-0a2f-4c3d-9a7c-83dc1b3e6016?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T11%3A17%3A01Z&rscd=attachment%3B+filename%3DVrHandsUltimate1.3.6.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T10%3A16%3A56Z&ske=2026-08-10T11%3A17%3A01Z&sks=b&skv=2018-11-09&sig=SgjT1diNcf5infqDjxwYXaphC59WUz%2BjN73yQL3CFvU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MDY2MCwibmJmIjoxNzg2MzU3MDYwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.kbfeW5g47CkVg1FtBSV93u3TWiSDSqdUXt96tdR_Qqk&response-content-disposition=attachment%3B%20filename%3DVrHandsUltimate1.3.6.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.3.6",
+    "same_as_primary_download": true
+  }
+}

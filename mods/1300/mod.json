@@ -1,0 +1,246 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1300,
+      "hub_id": 1814,
+      "guid": "com.moddingstatshelper.spt",
+      "name": "Modding Stats Helper - by wara",
+      "slug": "modding-stats-helper-by-wara",
+      "teaser": "Adds a tooltip when hovering parts in the weapon building screen that shows a quick overview of relevant stats and comparisons.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/1814.png",
+      "downloads": 64597,
+      "favourites_count": 75,
+      "description": "<p><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1442-modding-stats-helper/\" rel=\"noreferrer noopener\">ORIGINAL MOD</a></p>\n<p>ALL CREDIT GOES TO <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/25757-wara/\" rel=\"noreferrer noopener\">wara</a></p>\n<p>I just recompiled the mod for SPT 4.0.X.</p>\n<p>People were right to ask me if my <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1795-trader-modding-and-improved-weapon-building/\" rel=\"noreferrer noopener\">Improved Weapon Building Mod</a> would get some stat tooltips.</p>\n<p>But wara already created this amazing mod, so just use this one</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1300/modding-stats-helper-by-wara",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 13,
+      "published_at": "2024-04-10T23:48:00.000000Z",
+      "created_at": "2024-04-10T23:48:46.000000Z",
+      "updated_at": "2026-07-28T06:14:08.000000Z",
+      "owner": {
+        "id": 47646,
+        "name": "ChooChoo",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/319ec236ca25f48645b6698950be7d636cd6b12f_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/5d33f3c4ef095ffacd23d543d01376fda0e3cf9b_1280w.webp",
+        "created_at": "2024-04-05T19:27:45.000000Z",
+        "updated_at": "2026-08-07T19:44:50.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 22526,
+          "name": "wara",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/ecf9812cb20e2bcebc5a43d4c852be998efc1601_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2022-09-17T19:33:00.000000Z",
+          "updated_at": "2026-07-10T04:50:13.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 12143,
+          "hub_id": null,
+          "version": "1.1.1",
+          "description": "- Fixed mod item name missing from tooltip",
+          "link": "https://forge.sp-tarkov.com/mod/download/1300/modding-stats-helper-by-wara/1.1.1",
+          "content_length": 6334,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 23183,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-02T21:09:00.000000Z",
+          "created_at": "2025-11-02T21:09:59.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 12040,
+          "hub_id": null,
+          "version": "1.1.0",
+          "description": "Update for 4.0.X",
+          "link": "https://forge.sp-tarkov.com/mod/download/1300/modding-stats-helper-by-wara/1.1.0",
+          "content_length": 6531,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 1341,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-26T18:25:00.000000Z",
+          "created_at": "2025-10-26T18:25:24.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 1057,
+          "hub_id": 13727,
+          "version": "1.0.6",
+          "description": "Update for SPT 3.11.X\n\nall credit goes to [wara](https://hub.sp-tarkov.com/user/25757-wara/), I just recompiled it.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1300/modding-stats-helper-by-wara/1.0.6",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 16402,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-21T22:15:31.000000Z",
+          "created_at": "2025-03-21T22:15:31.000000Z",
+          "updated_at": "2026-05-14T02:03:38.000000Z"
+        },
+        {
+          "id": 1762,
+          "hub_id": 12953,
+          "version": "1.0.5",
+          "description": "Update for SPT 3.10.X\n\nall credit goes to [wara](https://hub.sp-tarkov.com/user/25757-wara/), I just recompiled it.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1300/modding-stats-helper-by-wara/1.0.5",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 7654,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-03T21:11:13.000000Z",
+          "created_at": "2025-01-03T21:11:13.000000Z",
+          "updated_at": "2026-05-14T02:35:14.000000Z"
+        },
+        {
+          "id": 3206,
+          "hub_id": 11174,
+          "version": "1.0.4",
+          "description": "Update for SPT 3.9.X\n\nall credit goes to [wara](https://hub.sp-tarkov.com/user/25757-wara/), I just recompiled it.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1300/modding-stats-helper-by-wara/1.0.4",
+          "content_length": null,
+          "spt_version_constraint": "~3.9.0",
+          "downloads": 8208,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-08-01T20:11:01.000000Z",
+          "created_at": "2024-08-01T20:11:01.000000Z",
+          "updated_at": "2026-05-14T03:45:56.000000Z"
+        },
+        {
+          "id": 4685,
+          "hub_id": 9362,
+          "version": "1.0.3",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1300/modding-stats-helper-by-wara/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 7809,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-04-10T23:48:46.000000Z",
+          "created_at": "2024-04-10T23:48:46.000000Z",
+          "updated_at": "2026-05-14T04:13:53.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 13,
+        "hub_id": 76,
+        "title": "Weapons",
+        "slug": "weapons",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Soulztorm/Wara-ModdingStatsHelper",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12143,
+      "hub_id": null,
+      "version": "1.1.1",
+      "description": "<ul>\n<li>Fixed mod item name missing from tooltip</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1300/modding-stats-helper-by-wara/1.1.1",
+      "content_length": 6334,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 23183,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-02T21:09:00.000000Z",
+      "created_at": "2025-11-02T21:09:59.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12040,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<p>Update for 4.0.X</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1300/modding-stats-helper-by-wara/1.1.0",
+      "content_length": 6531,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 1341,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-26T18:25:00.000000Z",
+      "created_at": "2025-10-26T18:25:24.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1057,
+      "hub_id": 13727,
+      "version": "1.0.6",
+      "description": "<p>Update for SPT 3.11.X</p>\n<p>all credit goes to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/25757-wara/\" rel=\"noreferrer noopener\">wara</a>, I just recompiled it.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1300/modding-stats-helper-by-wara/1.0.6",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 16402,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-21T22:15:31.000000Z",
+      "created_at": "2025-03-21T22:15:31.000000Z",
+      "updated_at": "2026-05-14T02:03:38.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1762,
+      "hub_id": 12953,
+      "version": "1.0.5",
+      "description": "<p>Update for SPT 3.10.X</p>\n<p>all credit goes to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/25757-wara/\" rel=\"noreferrer noopener\">wara</a>, I just recompiled it.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1300/modding-stats-helper-by-wara/1.0.5",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 7654,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-01-03T21:11:13.000000Z",
+      "created_at": "2025-01-03T21:11:13.000000Z",
+      "updated_at": "2026-05-14T02:35:14.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 3206,
+      "hub_id": 11174,
+      "version": "1.0.4",
+      "description": "<p>Update for SPT 3.9.X</p>\n<p>all credit goes to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/25757-wara/\" rel=\"noreferrer noopener\">wara</a>, I just recompiled it.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1300/modding-stats-helper-by-wara/1.0.4",
+      "content_length": null,
+      "spt_version_constraint": "~3.9.0",
+      "downloads": 8208,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-08-01T20:11:01.000000Z",
+      "created_at": "2024-08-01T20:11:01.000000Z",
+      "updated_at": "2026-05-14T03:45:56.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1300/Wara-ModdingStatsHelper-1.1.1.zip",
+    "bytes_written": 6334,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/784970213/71792346-8fca-4b5f-8c89-5bd3dc797ef6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A21%3A28Z&rscd=attachment%3B+filename%3DWara-ModdingStatsHelper-1.1.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A20%3A54Z&ske=2026-08-10T10%3A21%3A28Z&sks=b&skv=2018-11-09&sig=Bb9XCF1amDF0eJ92eAqaDk8GwcPrvt4am2F%2FOqu3J0M%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTU4NiwibmJmIjoxNzg2MzU1Mjg2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.qFL7phrwPpjfvGpnvz_WWJNGCZrAc8mXv7uK1Wpj--I&response-content-disposition=attachment%3B%20filename%3DWara-ModdingStatsHelper-1.1.1.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.1.1",
+    "same_as_primary_download": true
+  }
+}

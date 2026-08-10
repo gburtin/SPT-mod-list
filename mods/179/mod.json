@@ -1,0 +1,238 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 179,
+      "hub_id": 303,
+      "guid": "com.deadwolf.spt.balancedmeds",
+      "name": "BALANCED MEDS",
+      "slug": "balanced-meds",
+      "teaser": "All the meds item are changed. Increased uses and better healing.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/303.png",
+      "downloads": 31984,
+      "favourites_count": 19,
+      "description": "<h1>BALANCED MEDS</h1>\n<p>Feel Free to edit/update or re-rerelease this mod. I am busy and not able to maintain this mod.</p>\n<p><strong>UPDATED the External Link LATEST Version v4.0.6..</strong></p>\n<p>Updated the mod to v4.0.6</p>\n<p><em>installation</em></p>\n<p>copy the “SPT” folder into your “SP-TARKOV Root Folder”</p>\n<p><em>Updated meds max resource amount and usability without making it too OP</em></p>\n<p><strong>Changes:</strong></p>\n<ul>\n<li>All the meds found in Tarkov wiki Tarkov Wiki Medical Items is changed.</li>\n<li>Increased painkillers/morphine max uses and durations</li>\n<li>Increased Health Items’ max resource value.</li>\n<li>CMS and Survival kits have more uses and CMS can heal damaged limbs more than 50%</li>\n<li>Each Med Item properties can be modified in the <strong>./config/</strong> folder, <strong>Drugs.json</strong>, <strong>Medicals.json</strong>, <strong>Medkits.json</strong> and <strong>Stimulators.json</strong></li>\n<li>Everything is configurable. Please refer the config files inside config folder. If you need clarification reach me in the comment section.</li>\n</ul>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/179/balanced-meds",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 4,
+      "published_at": "2021-07-03T13:28:00.000000Z",
+      "created_at": "2021-07-03T13:28:42.000000Z",
+      "updated_at": "2026-07-31T17:58:01.000000Z",
+      "owner": {
+        "id": 5571,
+        "name": "DeadW0Lf",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/8cd99d706c98328dc5354eb7e5b798660ebd84e2_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2021-06-11T06:40:13.000000Z",
+        "updated_at": "2026-08-09T14:56:11.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12450,
+          "hub_id": null,
+          "version": "4.0.61",
+          "description": "Stimulator Changes added config for:\n\n- SJ12_TGLabs\n- Trimadol\n- Perfotoran\n- 2A2-(b-TG)\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/179/balanced-meds/4.0.61",
+          "content_length": 27009,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 10350,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-27T08:04:00.000000Z",
+          "created_at": "2025-11-27T08:05:07.000000Z",
+          "updated_at": "2026-07-31T17:58:01.000000Z"
+        },
+        {
+          "id": 12436,
+          "hub_id": null,
+          "version": "4.0.6",
+          "description": "Upgraded to SPT 4.0.6",
+          "link": "https://forge.sp-tarkov.com/mod/download/179/balanced-meds/4.0.6",
+          "content_length": 25710,
+          "spt_version_constraint": "4.0.6",
+          "downloads": 434,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-25T23:48:00.000000Z",
+          "created_at": "2025-11-25T19:37:51.000000Z",
+          "updated_at": "2026-07-28T06:48:40.000000Z"
+        },
+        {
+          "id": 1798,
+          "hub_id": 12915,
+          "version": "3.10.0",
+          "description": "Updated to SPT Version 3.10.0",
+          "link": "https://forge.sp-tarkov.com/mod/download/179/balanced-meds/3.10.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 3224,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-01T10:41:44.000000Z",
+          "created_at": "2025-01-01T10:41:44.000000Z",
+          "updated_at": "2026-05-14T02:35:44.000000Z"
+        },
+        {
+          "id": 8976,
+          "hub_id": 3678,
+          "version": "3.2.1",
+          "description": "**No changes specific for SPT-AKI 3.2.1**\n\n- All configs *should* be fully configurable now. The readme doesn't explain everything right now though, so up to the user to figure some of it out.\n- Personalized configs from 3.2.0 should be compatible with this release.\n\nPlease report back if you get any issues with this release!\n\nFeel free to provide feedback/suggestions as well, but do note that I (aleves ) will most likely only focus on maintaining DeadW0Lf's mods while they're on hiatus.",
+          "link": "https://forge.sp-tarkov.com/mod/download/179/balanced-meds/3.2.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 10206,
+          "fika_compatibility": "unknown",
+          "published_at": "2022-08-17T01:13:25.000000Z",
+          "created_at": "2022-08-17T01:13:25.000000Z",
+          "updated_at": "2026-05-14T01:48:53.000000Z"
+        },
+        {
+          "id": 9076,
+          "hub_id": 3553,
+          "version": "3.2.0",
+          "description": "**Updated for SPT-AKI 3.2.\\***\n\n- Some stuff has been changed, e.g. configs are now structured differently. **Again...**\n- All Injectors/Stimulators *should* be modifiable now, **./config/Stimulators.json**. I haven't touched those, so all values are vanilla for now.\n\nPlease report back if you get any issues with this release!\n\nFeel free to provide feedback/suggestions as well, but do note that I (aleves ) will most likely only focus on maintaining DeadW0lf's mods while they're on hiatus.",
+          "link": "https://forge.sp-tarkov.com/mod/download/179/balanced-meds/3.2.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 778,
+          "fika_compatibility": "unknown",
+          "published_at": "2022-08-08T05:14:57.000000Z",
+          "created_at": "2022-08-08T05:14:57.000000Z",
+          "updated_at": "2026-05-14T01:49:00.000000Z"
+        },
+        {
+          "id": 9274,
+          "hub_id": 3306,
+          "version": "3.1.0",
+          "description": "**Updated for SPT-AKI 3.1.\\***\n\nSome stuff has been changed, e.g. configs are now structured differently.\n\nPlease report back if you get any issues with this release!\n\nFeel free to provide feedback/suggestions as well, but do note that I (aleves ) will most likely only focus on maintaining DeadW0lf's mods while they're on hiatus.",
+          "link": "https://forge.sp-tarkov.com/mod/download/179/balanced-meds/3.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1583,
+          "fika_compatibility": "unknown",
+          "published_at": "2022-07-25T03:39:26.000000Z",
+          "created_at": "2022-07-25T03:39:26.000000Z",
+          "updated_at": "2026-05-14T01:49:18.000000Z"
+        },
+        {
+          "id": 9439,
+          "hub_id": 3105,
+          "version": "3.0.0",
+          "description": "Thanks to [aleves](https://hub.sp-tarkov.com/user/13916-aleves/) for upgrading the mod to v3.0.0",
+          "link": "https://forge.sp-tarkov.com/mod/download/179/balanced-meds/3.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1151,
+          "fika_compatibility": "unknown",
+          "published_at": "2022-06-29T07:14:59.000000Z",
+          "created_at": "2022-06-29T07:14:59.000000Z",
+          "updated_at": "2026-05-14T05:19:17.000000Z"
+        },
+        {
+          "id": 10407,
+          "hub_id": 1888,
+          "version": "1.1.1",
+          "description": "experimental version upgrade..  \nnot fully tested.",
+          "link": "https://forge.sp-tarkov.com/mod/download/179/balanced-meds/1.1.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1391,
+          "fika_compatibility": "unknown",
+          "published_at": "2022-01-09T05:22:13.000000Z",
+          "created_at": "2022-01-09T05:22:13.000000Z",
+          "updated_at": "2026-05-14T05:33:00.000000Z"
+        },
+        {
+          "id": 11010,
+          "hub_id": 962,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/179/balanced-meds/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 2867,
+          "fika_compatibility": "unknown",
+          "published_at": "2021-07-03T13:28:42.000000Z",
+          "created_at": "2021-07-03T13:28:42.000000Z",
+          "updated_at": "2021-07-03T13:28:42.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 4,
+        "hub_id": 21,
+        "title": "Items",
+        "slug": "items",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Niharkanta1/TarkovMods",
+          "label": "3.11"
+        },
+        {
+          "url": "https://github.com/Niharkanta1/TarkovMods4.0",
+          "label": "4.0"
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12450,
+      "hub_id": null,
+      "version": "4.0.61",
+      "description": "<p>Stimulator Changes added config for:</p>\n<ul>\n<li>SJ12_TGLabs</li>\n<li>Trimadol</li>\n<li>Perfotoran</li>\n<li>2A2-(b-TG)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/179/balanced-meds/4.0.61",
+      "content_length": 27009,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 10350,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-27T08:04:00.000000Z",
+      "created_at": "2025-11-27T08:05:07.000000Z",
+      "updated_at": "2026-07-31T17:58:01.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12436,
+      "hub_id": null,
+      "version": "4.0.6",
+      "description": "<p>Upgraded to SPT 4.0.6</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/179/balanced-meds/4.0.6",
+      "content_length": 25710,
+      "spt_version_constraint": "4.0.6",
+      "downloads": 434,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-25T23:48:00.000000Z",
+      "created_at": "2025-11-25T19:37:51.000000Z",
+      "updated_at": "2026-07-28T06:48:40.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/179/DeadW0lf-BalancedMeds_v406.1.0.1.zip",
+    "bytes_written": 27009,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1104118730/a75d4d52-814f-4775-b35a-a73088dfb233?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A48%3A24Z&rscd=attachment%3B+filename%3DDeadW0lf-BalancedMeds_v406.1.0.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A48%3A17Z&ske=2026-08-10T10%3A48%3A24Z&sks=b&skv=2018-11-09&sig=voRmvRdNSI8L3FRetOB4NPJS4MA0C191DOdjagyl4RQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NjkyMCwibmJmIjoxNzg2MzU2NjIwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.TqCK1ezfaz64MSjVHX03tfnJd0_YgoUt4jIVDwyJdHs&response-content-disposition=attachment%3B%20filename%3DDeadW0lf-BalancedMeds_v406.1.0.1.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "4.0.61",
+    "same_as_primary_download": true
+  }
+}

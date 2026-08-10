@@ -1,0 +1,165 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 910,
+      "hub_id": 1232,
+      "guid": "com.icyclawz.itemattributefix",
+      "name": "Item Attribute Fix",
+      "slug": "item-attribute-fix",
+      "teaser": "A universal fix for item attribute tooltip not being updated when the attribute has changed while the inspection window is open.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/1232.png",
+      "downloads": 21828,
+      "favourites_count": 31,
+      "description": "<p><strong>Installation:</strong></p>\n<p>Extract the ZIP to your SPT-AKI installation folder.</p>\n<p><strong>Description:</strong></p>\n<p>The tooltip shown when hovering over an attribute in the item inspection window is static by default.</p>\n<p>In order to update it after an item has been changed (e.g. ammo added to a magazine, mods attached/detached to/from gear, etc.), the inspection window has to be closed and reopened.</p>\n<p>This simple client-side mod updates the tooltip’s text the moment the attribute is being updated.</p>\n<p>This fix can be used with any mod that utilizes the attribute tooltips (“FullStringValue” field of “ItemAttributeClass”).</p>\n<p>This fix was initially made as a companion to my “<a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/909/item-sell-price\" rel=\"noreferrer noopener\">Item Sell Price</a>” and “<a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/914/magazine-inspector\" rel=\"noreferrer noopener\">Magazine Inspector</a>” mods.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/910/item-attribute-fix",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2023-06-08T18:33:00.000000Z",
+      "created_at": "2023-06-08T18:33:03.000000Z",
+      "updated_at": "2026-07-28T06:05:09.000000Z",
+      "owner": {
+        "id": 31543,
+        "name": "IcyClawz",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/6cbf3ac470387423baf33591cb102396de5cc3d0_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/54e97f2ed2ecaf7e15d24a13e2dadf69cde55488_1280w.webp",
+        "created_at": "2023-05-26T10:06:34.000000Z",
+        "updated_at": "2026-07-26T16:27:36.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11899,
+          "hub_id": null,
+          "version": "1.7.0",
+          "description": "Compiled for client version 0.16.9.0.40087",
+          "link": "https://forge.sp-tarkov.com/mod/download/910/item-attribute-fix/1.7.0",
+          "content_length": 2736,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 9921,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-18T17:43:00.000000Z",
+          "created_at": "2025-10-18T17:43:46.000000Z",
+          "updated_at": "2026-07-28T06:05:09.000000Z"
+        },
+        {
+          "id": 999,
+          "hub_id": 13790,
+          "version": "1.6.0",
+          "description": "Compiled for client version 0.16.1.3.35392",
+          "link": "https://forge.sp-tarkov.com/mod/download/910/item-attribute-fix/1.6.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 7073,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-25T07:31:00.000000Z",
+          "created_at": "2025-03-25T07:31:02.000000Z",
+          "updated_at": "2026-05-14T02:02:59.000000Z"
+        },
+        {
+          "id": 2176,
+          "hub_id": 12456,
+          "version": "1.5.0",
+          "description": "Compiled for client version 0.15.5.1.33420",
+          "link": "https://forge.sp-tarkov.com/mod/download/910/item-attribute-fix/1.5.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 4834,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-02T14:16:00.000000Z",
+          "created_at": "2024-12-02T14:16:53.000000Z",
+          "updated_at": "2026-05-14T03:14:57.000000Z"
+        }
+      ],
+      "license": {
+        "id": 14,
+        "hub_id": 17,
+        "name": "University of Illinois/NCSA Open Source License",
+        "link": "https://choosealicense.com/licenses/ncsa/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/IgorEisberg/SPT-ClientMods",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11899,
+      "hub_id": null,
+      "version": "1.7.0",
+      "description": "<p>Compiled for client version 0.16.9.0.40087</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/910/item-attribute-fix/1.7.0",
+      "content_length": 2736,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 9921,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-18T17:43:00.000000Z",
+      "created_at": "2025-10-18T17:43:46.000000Z",
+      "updated_at": "2026-07-28T06:05:09.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 999,
+      "hub_id": 13790,
+      "version": "1.6.0",
+      "description": "<p>Compiled for client version 0.16.1.3.35392</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/910/item-attribute-fix/1.6.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 7073,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-25T07:31:00.000000Z",
+      "created_at": "2025-03-25T07:31:02.000000Z",
+      "updated_at": "2026-05-14T02:02:59.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2176,
+      "hub_id": 12456,
+      "version": "1.5.0",
+      "description": "<p>Compiled for client version 0.15.5.1.33420</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/910/item-attribute-fix/1.5.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 4834,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-12-02T14:16:00.000000Z",
+      "created_at": "2024-12-02T14:16:53.000000Z",
+      "updated_at": "2026-05-14T03:14:57.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/910/ItemAttributeFix-1.7.0.zip",
+    "bytes_written": 2736,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1078818406/e52b6d55-12e8-4567-bc99-a1129ce1df67?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A49%3A24Z&rscd=attachment%3B+filename%3DItemAttributeFix-1.7.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A48%3A42Z&ske=2026-08-10T10%3A49%3A24Z&sks=b&skv=2018-11-09&sig=3ifwrgdCutYZ6mTdGjAw4NfHiyhbwGwj9dNRgud%2BIBA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NjcyMiwibmJmIjoxNzg2MzU2NDIyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.5-EsayG8FJVjdmly-feShxsUEMvGMvnRm41I2ro_KcI&response-content-disposition=attachment%3B%20filename%3DItemAttributeFix-1.7.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.7.0",
+    "same_as_primary_download": true
+  }
+}

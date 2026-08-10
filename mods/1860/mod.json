@@ -1,0 +1,282 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1860,
+      "hub_id": 2512,
+      "guid": "com.boogle.oldtarkovmovement",
+      "name": "Old Tarkov Movement (No Inertia)",
+      "slug": "old-tarkov-movement-no-inertia",
+      "teaser": "Completely removes any inertia and slowed down movement, and replaces it with the official much faster movement from Tarkov 12.10 3.9 Version in comments",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2512.png",
+      "downloads": 125327,
+      "favourites_count": 102,
+      "description": "<h1>Old Tarkov Movement</h1>\n<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Info</div>\n<div class=\"tab-content\"><blockquote>\n<p>This mod restores the movement from Tarkov in <strong>2021</strong>. It <strong>completely removes</strong> the modern movement that has <strong>inertia</strong>, and other hidden values <strong>that made the game way slower</strong>.</p>\n</blockquote>\n<div class=\"youtube-lite\" data-video-id=\"WuX0DidY3aA\" data-embed-url=\"https://www.youtube-nocookie.com/embed/WuX0DidY3aA?autoplay=1\"><img src=\"https://i.ytimg.com/vi/WuX0DidY3aA/hqdefault.jpg\" alt=\"YouTube video thumbnail\" loading=\"lazy\" decoding=\"async\" /></div></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Installation</div>\n<div class=\"tab-content\"><p><em>It will only ask you to replace if you are reinstalling the mod.</em></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://github.com/TheBoogle/OldTarkovMovement/blob/main/installation23.gif?raw=true\" alt=\"installation\" /></p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1860/old-tarkov-movement-no-inertia",
+      "fika_compatibility": true,
+      "featured": true,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 2,
+      "published_at": "2024-11-29T20:02:00.000000Z",
+      "created_at": "2024-11-29T20:02:03.000000Z",
+      "updated_at": "2026-07-28T08:30:32.000000Z",
+      "owner": {
+        "id": 26862,
+        "name": "Boogle",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/Q8DqhVD6tCUxzB7KA9eCQSdfTwMxk57AKnSwQ0XI_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/7020a362cf8799dbbe5ee5a3a9bed0083a6dfb9a_1280w.webp",
+        "created_at": "2023-02-12T21:19:29.000000Z",
+        "updated_at": "2026-08-02T06:37:19.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 13514,
+          "hub_id": null,
+          "version": "1.1.2",
+          "description": "Identical to the previous version\n\nPurely to update the server GUID to `com.boogle.oldtarkovmovement`",
+          "link": "https://forge.sp-tarkov.com/mod/download/1860/old-tarkov-movement-no-inertia/1.1.2",
+          "content_length": 61085,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 21003,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-04-29T16:41:00.000000Z",
+          "created_at": "2026-04-29T16:42:45.000000Z",
+          "updated_at": "2026-07-28T08:30:32.000000Z"
+        },
+        {
+          "id": 11963,
+          "hub_id": null,
+          "version": "1.1.1",
+          "description": "Just updated the mod to 4.0.0, removed nostalgia mode.\n\nIf you run into any problems, suggestions, complaints whatsoever, just reach out to me on Discord: @LeBoogle",
+          "link": "https://forge.sp-tarkov.com/mod/download/1860/old-tarkov-movement-no-inertia/1.1.1",
+          "content_length": 61278,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 29303,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-10-21T17:07:00.000000Z",
+          "created_at": "2025-10-21T17:10:20.000000Z",
+          "updated_at": "2026-07-28T06:06:38.000000Z"
+        },
+        {
+          "id": 699,
+          "hub_id": 14124,
+          "version": "1.1.0",
+          "description": "- Added: NoInertia config option, setting to false will **enable** inertia. This allows for setups with things like quick leaning but still regular inertia, if you want to do that I guess.\n- Fixed: Bushes will no longer slow you down.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1860/old-tarkov-movement-no-inertia/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 30036,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-04-29T17:33:00.000000Z",
+          "created_at": "2025-04-29T17:33:38.000000Z",
+          "updated_at": "2026-05-14T01:55:22.000000Z"
+        },
+        {
+          "id": 933,
+          "hub_id": 13859,
+          "version": "1.0.9",
+          "description": "Added RemoveJitteryRotation option to the config, makes looking around much smoother, removes the \"jittering\" or \"fidgeting\" animations, basically added for new Tarkov players who find it annoying.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1860/old-tarkov-movement-no-inertia/1.0.9",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 6723,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-29T23:35:47.000000Z",
+          "created_at": "2025-03-29T23:35:47.000000Z",
+          "updated_at": "2026-05-14T02:02:18.000000Z"
+        },
+        {
+          "id": 1203,
+          "hub_id": 13573,
+          "version": "1.0.8",
+          "description": "### **SPT 3.11 ONLY**\n\nUpdated to SPT 3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/1860/old-tarkov-movement-no-inertia/1.0.8",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 4470,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-15T20:31:37.000000Z",
+          "created_at": "2025-03-15T20:31:37.000000Z",
+          "updated_at": "2026-05-14T02:07:43.000000Z"
+        },
+        {
+          "id": 1316,
+          "hub_id": 13448,
+          "version": "1.0.7",
+          "description": "- Simplified the installation process, old animations are now enabled by changing the config file in the server mod and enabling NostalgiaMode\n- Added various config options\n    - NostalgiaMode\n    - QuickTilting\n    - DoesAimingSlowYouDown\n    - BotsUseOldMovement\n    - DoBushesSlowYouDown\n\nIf you were previously using the old animations variant, please delete the server mod you had previously. If you wish to continue, enable NostalgiaMode",
+          "link": "https://forge.sp-tarkov.com/mod/download/1860/old-tarkov-movement-no-inertia/1.0.7",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 4969,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-02-25T04:54:05.000000Z",
+          "created_at": "2025-02-25T04:54:05.000000Z",
+          "updated_at": "2026-07-13T18:01:54.000000Z"
+        },
+        {
+          "id": 2077,
+          "hub_id": 12586,
+          "version": "1.0.6",
+          "description": "- Fixed an issue with stationary weapons breaking\n- Made the movement states a descendant of the original ones, should improve compatibility with other mods that utilize movement states.\n\nIf you get any issues with this update specifically, let me know.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1860/old-tarkov-movement-no-inertia/1.0.6",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 20223,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-10T00:27:35.000000Z",
+          "created_at": "2024-12-10T00:27:35.000000Z",
+          "updated_at": "2026-07-13T18:02:49.000000Z"
+        },
+        {
+          "id": 2157,
+          "hub_id": 12484,
+          "version": "1.0.5",
+          "description": "Fixed a small tiny bug.  \n  \nIf you have any issues, report them right away.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1860/old-tarkov-movement-no-inertia/1.0.5",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 2807,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-04T21:57:40.000000Z",
+          "created_at": "2024-12-04T21:57:40.000000Z",
+          "updated_at": "2026-07-13T18:02:53.000000Z"
+        },
+        {
+          "id": 2203,
+          "hub_id": 12427,
+          "version": "1.0.3",
+          "description": "- Fixed an issue where you would start blindfiring when trying to check mag or other things that used ALT when walking.\n- Fixed an issue where when using the modern variant you would not keeping running after jumping\n- Other general cleanup",
+          "link": "https://forge.sp-tarkov.com/mod/download/1860/old-tarkov-movement-no-inertia/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 2326,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-01T21:52:16.000000Z",
+          "created_at": "2024-12-01T21:52:16.000000Z",
+          "updated_at": "2026-07-13T18:02:54.000000Z"
+        },
+        {
+          "id": 2219,
+          "hub_id": 12409,
+          "version": "1.0.2",
+          "description": "- Fixed car extract not working\n- Fixed planting beacons not working\n- Fixed planting quest items not working",
+          "link": "https://forge.sp-tarkov.com/mod/download/1860/old-tarkov-movement-no-inertia/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1502,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-30T19:28:32.000000Z",
+          "created_at": "2024-11-30T19:28:32.000000Z",
+          "updated_at": "2026-07-13T18:02:54.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 2,
+        "hub_id": 79,
+        "title": "Overhauls",
+        "slug": "overhauls",
+        "description": "Large-scale mod packs that overhaul many game systems. Typically combines both client-side and server-side mods into one package."
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/TheBoogle/OldTarkovMovement",
+          "label": "Client"
+        },
+        {
+          "url": "https://github.com/TheBoogle/OldTarkovMovementServer",
+          "label": "Server"
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 13514,
+      "hub_id": null,
+      "version": "1.1.2",
+      "description": "<p>Identical to the previous version</p>\n<p>Purely to update the server GUID to <code>com.boogle.oldtarkovmovement</code></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1860/old-tarkov-movement-no-inertia/1.1.2",
+      "content_length": 61085,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 21003,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-04-29T16:41:00.000000Z",
+      "created_at": "2026-04-29T16:42:45.000000Z",
+      "updated_at": "2026-07-28T08:30:32.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11963,
+      "hub_id": null,
+      "version": "1.1.1",
+      "description": "<p>Just updated the mod to 4.0.0, removed nostalgia mode.</p>\n<p>If you run into any problems, suggestions, complaints whatsoever, just reach out to me on Discord: @LeBoogle</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1860/old-tarkov-movement-no-inertia/1.1.1",
+      "content_length": 61278,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 29303,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-10-21T17:07:00.000000Z",
+      "created_at": "2025-10-21T17:10:20.000000Z",
+      "updated_at": "2026-07-28T06:06:38.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 699,
+      "hub_id": 14124,
+      "version": "1.1.0",
+      "description": "<ul>\n<li>Added: NoInertia config option, setting to false will <strong>enable</strong> inertia. This allows for setups with things like quick leaning but still regular inertia, if you want to do that I guess.</li>\n<li>Fixed: Bushes will no longer slow you down.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1860/old-tarkov-movement-no-inertia/1.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 30036,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-04-29T17:33:00.000000Z",
+      "created_at": "2025-04-29T17:33:38.000000Z",
+      "updated_at": "2026-05-14T01:55:22.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1203,
+      "hub_id": 13573,
+      "version": "1.0.8",
+      "description": "<h3><strong>SPT 3.11 ONLY</strong></h3>\n<p>Updated to SPT 3.11</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1860/old-tarkov-movement-no-inertia/1.0.8",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 4470,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-15T20:31:37.000000Z",
+      "created_at": "2025-03-15T20:31:37.000000Z",
+      "updated_at": "2026-05-14T02:07:43.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1860/OldTarkovMovement112.zip",
+    "bytes_written": 61085,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/891144925/ea5ffdf2-f572-4cba-a250-7570edc3ce5e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A47%3A53Z&rscd=attachment%3B+filename%3DOldTarkovMovement112.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A47%3A48Z&ske=2026-08-10T10%3A47%3A53Z&sks=b&skv=2018-11-09&sig=LijZ8bleN9teLs6zD%2FF6QeO78GgSYf2tBcptYL%2FM6%2Fg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NjU3MywibmJmIjoxNzg2MzU2MjczLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.SSxlQrWQ3mi1Fp8HAjzEyd9L77GPSPep6wbnXYv8oC8&response-content-disposition=attachment%3B%20filename%3DOldTarkovMovement112.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.1.2",
+    "same_as_primary_download": true
+  }
+}

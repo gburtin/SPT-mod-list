@@ -1,0 +1,569 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2860,
+      "hub_id": null,
+      "guid": "com.maschine.craftqueue",
+      "name": "CraftQueue",
+      "slug": "craftqueue",
+      "teaser": "Queue hideout crafts across all stations and manage them from a web UI - even while you raid",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/E0BAYJELRrur5LAXzMBwlhtRApxywieOMmxoHWWn.png",
+      "downloads": 1443,
+      "favourites_count": 12,
+      "description": "<p><strong>CraftQueue</strong> moves hideout crafting into one local web page. Queue as many crafts as you like per station - each station works through its list on its own, all stations in parallel.</p>\n<h2>What it does</h2>\n<ul>\n<li><strong>Auto-chains your crafts:</strong> finished items are collected automatically and the next craft starts by itself - even <strong>during raids</strong>, where the server takes over the queue and hands everything back cleanly when you extract.</li>\n<li><strong>One live overview</strong> of every running craft: names, icons, remaining time, and a <em>paused</em> marker when your generator is off. Works while EFT is loading, in a menu, or closed.</li>\n<li><strong>Full recipe browser</strong> with search by product, ingredient, category or station - only showing what your profile has actually unlocked, with material availability at a glance and collapsible groups.</li>\n<li><strong>In-game overlay:</strong> with the <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/maschine34675/WebOverlay\" rel=\"noreferrer noopener\">Anvil-WebOverlay</a> library installed, F9 (or the CRAFT QUEUE button in the bottom menu bar) opens the interface as a window over the game - movable, resizable, with a dark game-toned title bar (or frameless). Without the library everything simply opens in your external browser.</li>\n<li><strong>Safe cancelling:</strong> aborting a craft returns its tools to your stash (vanilla would destroy them). Ingredients stay consumed, like in vanilla.</li>\n<li><strong>Nothing starts “for free”:</strong> entries are validated against your real stash (FIR, tools, pinned items, consumables already reserved by the queue) and simply wait if materials go missing.</li>\n<li>Queue survives server restarts; anything ambiguous becomes a visible <em>Needs Review</em> entry instead of a silent duplicate or loss.</li>\n</ul>\n<h2>Usage</h2>\n<ol>\n<li>Install both parts from the archive (<code>BepInEx</code> + <code>SPT</code> folders into your SPT installation). For the in-game overlay, also install <strong>Anvil-WebOverlay</strong> (optional dependency; from the Forge or GitHub).</li>\n<li>Start the server and EFT, then press <strong>F9</strong> in game or click the <strong>CRAFT QUEUE</strong> menu bar button - your personal page opens over the game, or in the browser (left Shift+F9 forces the browser; all keys and the buttons are configurable).</li>\n</ol>\n<p>Runs on the server machine, reachable over LAN by default (port 38473, can be changed) - handy when EFT and the server are separate machines. Every player gets a <strong>personal link that only sees their own profile</strong>; the host link in the server console manages all profiles.</p>\n<h2>Why not fully server-side?</h2>\n<p>Outside a raid EFT works on an interactive cached copy of your stash - if the server consumed items behind its back, client and profile would drift apart: “item not found” errors, in the worst case a corrupted profile. Hard-reserving materials would be the same kind of invented transaction, stranding items whenever it gets interrupted. So CraftQueue only uses the game’s real transactions: outside raids your own client starts and collects crafts, and the server takes over exactly while EFT has unloaded the stash during a raid. Materials are reserved logically - queued crafts count against your stash, and if something goes missing the entry simply waits and retries.</p>\n<h2>Notes</h2>\n<ul>\n<li><strong>Fika-compatible</strong>: each player manages only their own queue via their personal link.</li>\n<li><strong>Compatible with Hideout In Progress (hip)</strong> - completely separate domains.</li>\n<li><strong>Not compatible with Hideout Automation’s production stacking</strong>: that is a second craft-queue system fighting over the same starts and collections; at minimum disable its production stacking, better run only one of the two.</li>\n<li>Continuous productions (water collector, bitcoin farm), scav case and cultist circle are not queued.</li>\n<li>Outside raids the queue advances while EFT is running; crafts finishing with EFT closed are collected at the next start.</li>\n</ul>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/maschine34675/CraftQueue/refs/heads/main/example.png\" alt=\"example\" /></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2860/craftqueue",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>AI was used to find the correct classes/methods to patch in the game’s source code. The thumbnail is AI generated.</p>\n",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 1,
+      "published_at": "2026-07-31T14:48:00.000000Z",
+      "created_at": "2026-07-31T14:10:53.000000Z",
+      "updated_at": "2026-08-09T18:02:46.000000Z",
+      "owner": {
+        "id": 109459,
+        "name": "maschine",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2xAHR3ttkN7Su6wHEefYq1aNQJLqsN3CqsMwuBpH_256w.webp",
+        "cover_photo_url": null,
+        "created_at": "2026-04-10T00:02:34.000000Z",
+        "updated_at": "2026-08-10T09:20:37.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14584,
+          "hub_id": null,
+          "version": "2.0.0",
+          "description": "Port to SPT 4.1, no functional changes",
+          "link": "https://forge.sp-tarkov.com/mod/download/2860/craftqueue/2.0.0",
+          "content_length": 118211,
+          "spt_version_constraint": "~4.1.0",
+          "downloads": 295,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-09T09:05:00.000000Z",
+          "created_at": "2026-08-09T09:05:32.000000Z",
+          "updated_at": "2026-08-09T18:02:46.000000Z"
+        },
+        {
+          "id": 14501,
+          "hub_id": null,
+          "version": "1.2.2",
+          "description": "- Fixed: you can now queue several crafts that need the same tool (a Leatherman, for example) even while the first one is already running. The tool comes back when that craft finishes, so the queue no longer treats it as missing.\n- Fixed a rare conflict with mods built on WTT-ClientCommonLib: if Anvil-WebOverlay was not installed, item stack sizes could display as 1 (magazines showing a single round). Purely visual, nothing was lost.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2860/craftqueue/1.2.2",
+          "content_length": 124817,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 269,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-06T15:42:00.000000Z",
+          "created_at": "2026-08-06T15:41:32.000000Z",
+          "updated_at": "2026-08-06T18:02:19.000000Z"
+        },
+        {
+          "id": 14487,
+          "hub_id": null,
+          "version": "1.2.1",
+          "description": "- Fixed: Eliminated the CPU spikes on heavily modded installs: the server no longer freezes for a moment whenever a craft starts or finishes. The web interface feels noticeably snappier, especially with a big stash.\n- Added: The port can be changed now (\"webPort\" in config/config.json) if you prefer something else than 38473.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2860/craftqueue/1.2.1",
+          "content_length": 124708,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 154,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-05T18:56:00.000000Z",
+          "created_at": "2026-08-05T18:52:40.000000Z",
+          "updated_at": "2026-08-06T06:05:41.000000Z"
+        },
+        {
+          "id": 14381,
+          "hub_id": null,
+          "version": "1.2.0",
+          "description": "- Added: In-game overlay: the web UI opens as a window over the game (optional dependency: Anvil-WebOverlay).\n- Added: New CRAFT QUEUE button in the bottom menu bar next to HIDEOUT.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2860/craftqueue/1.2.0",
+          "content_length": 117978,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 294,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-02T13:24:00.000000Z",
+          "created_at": "2026-08-02T13:21:09.000000Z",
+          "updated_at": "2026-08-02T18:02:24.000000Z"
+        },
+        {
+          "id": 14330,
+          "hub_id": null,
+          "version": "1.1.0",
+          "description": "- Added: Collapsible groups\n- Added: Alternative grouping by station\n- Added: Real-time material availability check\n- Added: Command dismissal",
+          "link": "https://forge.sp-tarkov.com/mod/download/2860/craftqueue/1.1.0",
+          "content_length": 108151,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 187,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-08-01T13:05:00.000000Z",
+          "created_at": "2026-08-01T13:05:02.000000Z",
+          "updated_at": "2026-08-01T18:03:47.000000Z"
+        },
+        {
+          "id": 14306,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Initial Release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2860/craftqueue/1.0.0",
+          "content_length": 103891,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 244,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-07-31T14:11:00.000000Z",
+          "created_at": "2026-07-31T14:13:02.000000Z",
+          "updated_at": "2026-07-31T18:02:06.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 1,
+        "hub_id": 17,
+        "title": "Tools",
+        "slug": "tools",
+        "description": "Various standalone tools and programs that aren't installed like normal mods"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/maschine34675/CraftQueue",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14584,
+      "hub_id": null,
+      "version": "2.0.0",
+      "description": "<p>Port to SPT 4.1, no functional changes</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2860/craftqueue/2.0.0",
+      "content_length": 118211,
+      "spt_version_constraint": "~4.1.0",
+      "downloads": 295,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-09T09:05:00.000000Z",
+      "created_at": "2026-08-09T09:05:32.000000Z",
+      "updated_at": "2026-08-09T18:02:46.000000Z",
+      "dependencies": [
+        {
+          "id": 2879,
+          "hub_id": null,
+          "guid": "com.anvil.weboverlay",
+          "name": "WebOverlay",
+          "slug": "weboverlay",
+          "teaser": "Lets mods show HTML panels and click-through HUDs over the game",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/km76RfiQDmlPoFjuOjMwaS4ZTe5u8NZDDOz8OAlp.png",
+          "downloads": 899,
+          "favourites_count": 7,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2879/weboverlay",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": true,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 1,
+          "published_at": "2026-08-02T13:23:00.000000Z",
+          "created_at": "2026-08-02T12:52:42.000000Z",
+          "updated_at": "2026-08-07T06:44:15.000000Z",
+          "owner": {
+            "id": 119256,
+            "name": "Anvil",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/BrtXN9TXb3F1hLedGGeheIITlDBqRh9U1ShNlR9S_256w.webp",
+            "cover_photo_url": null,
+            "created_at": "2026-08-01T18:07:45.000000Z",
+            "updated_at": "2026-08-02T13:24:17.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 109459,
+              "name": "maschine",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2xAHR3ttkN7Su6wHEefYq1aNQJLqsN3CqsMwuBpH_256w.webp",
+              "cover_photo_url": null,
+              "created_at": "2026-04-10T00:02:34.000000Z",
+              "updated_at": "2026-08-10T09:20:37.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14379,
+              "hub_id": null,
+              "version": "1.0.1",
+              "description": "<h3>1.0.1</h3>\n<ul>\n<li>Packaging and logging polish, no functional changes.</li>\n</ul>\n<h3>1.0.0</h3>\n<ul>\n<li>Initial release.</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2879/weboverlay/1.0.1",
+              "content_length": 112275,
+              "spt_version_constraint": "^4.0.0",
+              "downloads": 219,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-08-02T12:57:00.000000Z",
+              "created_at": "2026-08-02T12:58:07.000000Z",
+              "updated_at": "2026-08-06T15:15:21.000000Z"
+            },
+            {
+              "id": 14440,
+              "hub_id": null,
+              "version": "1.1.0",
+              "description": "<p>NOTE: WebOverlay works with <strong>any</strong> version of SPT, including 4.0.x and 4.1.x</p>\n<ul>\n<li>Windows now remember their position and size: toggling no longer recenters, and the spot survives restarts. A spot that ends up off-screen (monitor changes) falls back to the centered default. Mods can opt out or set their own storage key (RememberBounds / PersistenceKey).</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2879/weboverlay/1.1.0",
+              "content_length": 114660,
+              "spt_version_constraint": "^4.0.0",
+              "downloads": 680,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-08-03T18:46:00.000000Z",
+              "created_at": "2026-08-03T18:47:54.000000Z",
+              "updated_at": "2026-08-07T06:44:15.000000Z"
+            }
+          ],
+          "category": {
+            "id": 1,
+            "hub_id": 17,
+            "title": "Tools",
+            "slug": "tools",
+            "description": "Various standalone tools and programs that aren't installed like normal mods"
+          }
+        }
+      ]
+    },
+    {
+      "id": 14501,
+      "hub_id": null,
+      "version": "1.2.2",
+      "description": "<ul>\n<li>Fixed: you can now queue several crafts that need the same tool (a Leatherman, for example) even while the first one is already running. The tool comes back when that craft finishes, so the queue no longer treats it as missing.</li>\n<li>Fixed a rare conflict with mods built on WTT-ClientCommonLib: if Anvil-WebOverlay was not installed, item stack sizes could display as 1 (magazines showing a single round). Purely visual, nothing was lost.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2860/craftqueue/1.2.2",
+      "content_length": 124817,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 269,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-06T15:42:00.000000Z",
+      "created_at": "2026-08-06T15:41:32.000000Z",
+      "updated_at": "2026-08-06T18:02:19.000000Z",
+      "dependencies": [
+        {
+          "id": 2879,
+          "hub_id": null,
+          "guid": "com.anvil.weboverlay",
+          "name": "WebOverlay",
+          "slug": "weboverlay",
+          "teaser": "Lets mods show HTML panels and click-through HUDs over the game",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/km76RfiQDmlPoFjuOjMwaS4ZTe5u8NZDDOz8OAlp.png",
+          "downloads": 899,
+          "favourites_count": 7,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2879/weboverlay",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": true,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 1,
+          "published_at": "2026-08-02T13:23:00.000000Z",
+          "created_at": "2026-08-02T12:52:42.000000Z",
+          "updated_at": "2026-08-07T06:44:15.000000Z",
+          "owner": {
+            "id": 119256,
+            "name": "Anvil",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/BrtXN9TXb3F1hLedGGeheIITlDBqRh9U1ShNlR9S_256w.webp",
+            "cover_photo_url": null,
+            "created_at": "2026-08-01T18:07:45.000000Z",
+            "updated_at": "2026-08-02T13:24:17.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 109459,
+              "name": "maschine",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2xAHR3ttkN7Su6wHEefYq1aNQJLqsN3CqsMwuBpH_256w.webp",
+              "cover_photo_url": null,
+              "created_at": "2026-04-10T00:02:34.000000Z",
+              "updated_at": "2026-08-10T09:20:37.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14440,
+              "hub_id": null,
+              "version": "1.1.0",
+              "description": "<p>NOTE: WebOverlay works with <strong>any</strong> version of SPT, including 4.0.x and 4.1.x</p>\n<ul>\n<li>Windows now remember their position and size: toggling no longer recenters, and the spot survives restarts. A spot that ends up off-screen (monitor changes) falls back to the centered default. Mods can opt out or set their own storage key (RememberBounds / PersistenceKey).</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2879/weboverlay/1.1.0",
+              "content_length": 114660,
+              "spt_version_constraint": "^4.0.0",
+              "downloads": 680,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-08-03T18:46:00.000000Z",
+              "created_at": "2026-08-03T18:47:54.000000Z",
+              "updated_at": "2026-08-07T06:44:15.000000Z"
+            },
+            {
+              "id": 14379,
+              "hub_id": null,
+              "version": "1.0.1",
+              "description": "<h3>1.0.1</h3>\n<ul>\n<li>Packaging and logging polish, no functional changes.</li>\n</ul>\n<h3>1.0.0</h3>\n<ul>\n<li>Initial release.</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2879/weboverlay/1.0.1",
+              "content_length": 112275,
+              "spt_version_constraint": "^4.0.0",
+              "downloads": 219,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-08-02T12:57:00.000000Z",
+              "created_at": "2026-08-02T12:58:07.000000Z",
+              "updated_at": "2026-08-06T15:15:21.000000Z"
+            }
+          ],
+          "category": {
+            "id": 1,
+            "hub_id": 17,
+            "title": "Tools",
+            "slug": "tools",
+            "description": "Various standalone tools and programs that aren't installed like normal mods"
+          }
+        }
+      ]
+    },
+    {
+      "id": 14487,
+      "hub_id": null,
+      "version": "1.2.1",
+      "description": "<ul>\n<li>Fixed: Eliminated the CPU spikes on heavily modded installs: the server no longer freezes for a moment whenever a craft starts or finishes. The web interface feels noticeably snappier, especially with a big stash.</li>\n<li>Added: The port can be changed now (“webPort” in config/config.json) if you prefer something else than 38473.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2860/craftqueue/1.2.1",
+      "content_length": 124708,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 154,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-05T18:56:00.000000Z",
+      "created_at": "2026-08-05T18:52:40.000000Z",
+      "updated_at": "2026-08-06T06:05:41.000000Z",
+      "dependencies": [
+        {
+          "id": 2879,
+          "hub_id": null,
+          "guid": "com.anvil.weboverlay",
+          "name": "WebOverlay",
+          "slug": "weboverlay",
+          "teaser": "Lets mods show HTML panels and click-through HUDs over the game",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/km76RfiQDmlPoFjuOjMwaS4ZTe5u8NZDDOz8OAlp.png",
+          "downloads": 899,
+          "favourites_count": 7,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2879/weboverlay",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": true,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 1,
+          "published_at": "2026-08-02T13:23:00.000000Z",
+          "created_at": "2026-08-02T12:52:42.000000Z",
+          "updated_at": "2026-08-07T06:44:15.000000Z",
+          "owner": {
+            "id": 119256,
+            "name": "Anvil",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/BrtXN9TXb3F1hLedGGeheIITlDBqRh9U1ShNlR9S_256w.webp",
+            "cover_photo_url": null,
+            "created_at": "2026-08-01T18:07:45.000000Z",
+            "updated_at": "2026-08-02T13:24:17.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 109459,
+              "name": "maschine",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2xAHR3ttkN7Su6wHEefYq1aNQJLqsN3CqsMwuBpH_256w.webp",
+              "cover_photo_url": null,
+              "created_at": "2026-04-10T00:02:34.000000Z",
+              "updated_at": "2026-08-10T09:20:37.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14440,
+              "hub_id": null,
+              "version": "1.1.0",
+              "description": "<p>NOTE: WebOverlay works with <strong>any</strong> version of SPT, including 4.0.x and 4.1.x</p>\n<ul>\n<li>Windows now remember their position and size: toggling no longer recenters, and the spot survives restarts. A spot that ends up off-screen (monitor changes) falls back to the centered default. Mods can opt out or set their own storage key (RememberBounds / PersistenceKey).</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2879/weboverlay/1.1.0",
+              "content_length": 114660,
+              "spt_version_constraint": "^4.0.0",
+              "downloads": 680,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-08-03T18:46:00.000000Z",
+              "created_at": "2026-08-03T18:47:54.000000Z",
+              "updated_at": "2026-08-07T06:44:15.000000Z"
+            },
+            {
+              "id": 14379,
+              "hub_id": null,
+              "version": "1.0.1",
+              "description": "<h3>1.0.1</h3>\n<ul>\n<li>Packaging and logging polish, no functional changes.</li>\n</ul>\n<h3>1.0.0</h3>\n<ul>\n<li>Initial release.</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2879/weboverlay/1.0.1",
+              "content_length": 112275,
+              "spt_version_constraint": "^4.0.0",
+              "downloads": 219,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-08-02T12:57:00.000000Z",
+              "created_at": "2026-08-02T12:58:07.000000Z",
+              "updated_at": "2026-08-06T15:15:21.000000Z"
+            }
+          ],
+          "category": {
+            "id": 1,
+            "hub_id": 17,
+            "title": "Tools",
+            "slug": "tools",
+            "description": "Various standalone tools and programs that aren't installed like normal mods"
+          }
+        }
+      ]
+    },
+    {
+      "id": 14381,
+      "hub_id": null,
+      "version": "1.2.0",
+      "description": "<ul>\n<li>Added: In-game overlay: the web UI opens as a window over the game (optional dependency: Anvil-WebOverlay).</li>\n<li>Added: New CRAFT QUEUE button in the bottom menu bar next to HIDEOUT.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2860/craftqueue/1.2.0",
+      "content_length": 117978,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 294,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-02T13:24:00.000000Z",
+      "created_at": "2026-08-02T13:21:09.000000Z",
+      "updated_at": "2026-08-02T18:02:24.000000Z",
+      "dependencies": [
+        {
+          "id": 2879,
+          "hub_id": null,
+          "guid": "com.anvil.weboverlay",
+          "name": "WebOverlay",
+          "slug": "weboverlay",
+          "teaser": "Lets mods show HTML panels and click-through HUDs over the game",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/km76RfiQDmlPoFjuOjMwaS4ZTe5u8NZDDOz8OAlp.png",
+          "downloads": 899,
+          "favourites_count": 7,
+          "detail_url": "https://forge.sp-tarkov.com/mod/2879/weboverlay",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": true,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 1,
+          "published_at": "2026-08-02T13:23:00.000000Z",
+          "created_at": "2026-08-02T12:52:42.000000Z",
+          "updated_at": "2026-08-07T06:44:15.000000Z",
+          "owner": {
+            "id": 119256,
+            "name": "Anvil",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/BrtXN9TXb3F1hLedGGeheIITlDBqRh9U1ShNlR9S_256w.webp",
+            "cover_photo_url": null,
+            "created_at": "2026-08-01T18:07:45.000000Z",
+            "updated_at": "2026-08-02T13:24:17.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 109459,
+              "name": "maschine",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2xAHR3ttkN7Su6wHEefYq1aNQJLqsN3CqsMwuBpH_256w.webp",
+              "cover_photo_url": null,
+              "created_at": "2026-04-10T00:02:34.000000Z",
+              "updated_at": "2026-08-10T09:20:37.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 14379,
+              "hub_id": null,
+              "version": "1.0.1",
+              "description": "<h3>1.0.1</h3>\n<ul>\n<li>Packaging and logging polish, no functional changes.</li>\n</ul>\n<h3>1.0.0</h3>\n<ul>\n<li>Initial release.</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2879/weboverlay/1.0.1",
+              "content_length": 112275,
+              "spt_version_constraint": "^4.0.0",
+              "downloads": 219,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-08-02T12:57:00.000000Z",
+              "created_at": "2026-08-02T12:58:07.000000Z",
+              "updated_at": "2026-08-06T15:15:21.000000Z"
+            },
+            {
+              "id": 14440,
+              "hub_id": null,
+              "version": "1.1.0",
+              "description": "<p>NOTE: WebOverlay works with <strong>any</strong> version of SPT, including 4.0.x and 4.1.x</p>\n<ul>\n<li>Windows now remember their position and size: toggling no longer recenters, and the spot survives restarts. A spot that ends up off-screen (monitor changes) falls back to the centered default. Mods can opt out or set their own storage key (RememberBounds / PersistenceKey).</li>\n</ul>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/2879/weboverlay/1.1.0",
+              "content_length": 114660,
+              "spt_version_constraint": "^4.0.0",
+              "downloads": 680,
+              "fika_compatibility": "compatible",
+              "published_at": "2026-08-03T18:46:00.000000Z",
+              "created_at": "2026-08-03T18:47:54.000000Z",
+              "updated_at": "2026-08-07T06:44:15.000000Z"
+            }
+          ],
+          "category": {
+            "id": 1,
+            "hub_id": 17,
+            "title": "Tools",
+            "slug": "tools",
+            "description": "Various standalone tools and programs that aren't installed like normal mods"
+          }
+        }
+      ]
+    },
+    {
+      "id": 14330,
+      "hub_id": null,
+      "version": "1.1.0",
+      "description": "<ul>\n<li>Added: Collapsible groups</li>\n<li>Added: Alternative grouping by station</li>\n<li>Added: Real-time material availability check</li>\n<li>Added: Command dismissal</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2860/craftqueue/1.1.0",
+      "content_length": 108151,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 187,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-08-01T13:05:00.000000Z",
+      "created_at": "2026-08-01T13:05:02.000000Z",
+      "updated_at": "2026-08-01T18:03:47.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 14306,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Initial Release</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2860/craftqueue/1.0.0",
+      "content_length": 103891,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 244,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-07-31T14:11:00.000000Z",
+      "created_at": "2026-07-31T14:13:02.000000Z",
+      "updated_at": "2026-07-31T18:02:06.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2860/maschine-CraftQueue-2.0.0.zip",
+    "bytes_written": 118211,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1318390388/b045843d-661f-47e1-80a9-13d2e5a76766?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A22%3A47Z&rscd=attachment%3B+filename%3Dmaschine-CraftQueue-2.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A22%3A25Z&ske=2026-08-10T10%3A22%3A47Z&sks=b&skv=2018-11-09&sig=rcZ0TkwbeHB1erExQ8r8ibFi9yaNK0AxIdE5p%2F5yFRQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTQ1NywibmJmIjoxNzg2MzU1MTU3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.lMzVlkJ-MMrKTPnYY-Tf7NF01N3FgVMXN0yIVof36YA&response-content-disposition=attachment%3B%20filename%3Dmaschine-CraftQueue-2.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2860/craftqueue-1.2.2-spt40.zip",
+    "bytes_written": 124817,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1318390388/31f94aac-4cf3-43cc-b827-a0230ea12a3e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T13%3A01%3A06Z&rscd=attachment%3B+filename%3Dmaschine-CraftQueue-1.2.2.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T12%3A00%3A08Z&ske=2026-08-10T13%3A01%3A06Z&sks=b&skv=2018-11-09&sig=011KXUzzEzDU%2FEIbRnt6PRuj2%2B99LCaYJKScn15Ll84%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzY3NiwibmJmIjoxNzg2MzYzMzc2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Qprc0QiWjIgLcYtxjgt8t8B1Tlkr_rnfDKDKV9Juf1I&response-content-disposition=attachment%3B%20filename%3Dmaschine-CraftQueue-1.2.2.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.2.2",
+    "same_as_primary_download": false
+  }
+}

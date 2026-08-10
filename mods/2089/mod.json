@@ -1,0 +1,187 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2089,
+      "hub_id": 2774,
+      "guid": "com.lightoftheworld.lightsautomaticidentifier",
+      "name": "Light (and maschine!)'s Automatic Identifier",
+      "slug": "light-and-maschines-automatic-identifier",
+      "teaser": "Some people shoot second.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2774.png",
+      "downloads": 9143,
+      "favourites_count": 12,
+      "description": "<p>NOTE: maschine is now taking over this mod and will expand it with AutoIFF’s content. Please give him many thanks for this!!!</p>\n<p>Extremely lightweight mod that checks if a bot is friendly or hostile. The identification process takes a short amount of time, and takes longer if the bot is far away. Once a bot is identified, it will remain identified for roughly a minute; lose it for too long, and you’ll have to re-identify.</p>\n<p>Due to the jank of how Tarkov builds its levels, you might be able to identify bots though certain small structures, details, etc. that would theoretically block your LOS. This was preferable to the identifier not working in places with a perfectly clear LOS due to a horribly constructed LowPolyCollider.</p>\n<p>Example video: <a target=\"_blank\" class=\"external-link\" href=\"https://youtu.be/dS32CJ4UaQ4?feature=shared\" rel=\"noreferrer noopener\">https://youtu.be/dS32CJ4UaQ4?feature=shared</a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2089/light-and-maschines-automatic-identifier",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>I used AI to create examples and learn about basics of unity editing. All content in this mod has been edited by me, but some of it might have started of as AI generated code.</p>\n",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2025-04-08T21:33:00.000000Z",
+      "created_at": "2025-04-08T21:33:57.000000Z",
+      "updated_at": "2026-08-01T16:02:59.000000Z",
+      "owner": {
+        "id": 21928,
+        "name": "LightoftheWorld",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/3f57316eb57284f8f2c42b487889d3d09b7237bc_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2022-08-22T23:09:32.000000Z",
+        "updated_at": "2026-08-10T06:57:49.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 109459,
+          "name": "maschine",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2xAHR3ttkN7Su6wHEefYq1aNQJLqsN3CqsMwuBpH_256w.webp",
+          "cover_photo_url": null,
+          "created_at": "2026-04-10T00:02:34.000000Z",
+          "updated_at": "2026-08-10T09:20:37.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 12266,
+          "hub_id": null,
+          "version": "2.0.0",
+          "description": "Updated to 4.0!",
+          "link": "https://forge.sp-tarkov.com/mod/download/2089/light-and-maschines-automatic-identifier/2.0.0",
+          "content_length": 6382,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 3860,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-10T08:20:00.000000Z",
+          "created_at": "2025-11-10T08:21:52.000000Z",
+          "updated_at": "2026-08-01T16:02:58.000000Z"
+        },
+        {
+          "id": 71,
+          "hub_id": 14830,
+          "version": "1.2.0",
+          "description": "Fixed many things.\n\nRealigned the raycast, it should be almost perfectly in the center of your screen now. DOES NOT ACCOUNT FOR SCOPE SWAY! Someone much more knowledgeable is welcome to make a better Raycast sender on the Github\n\nAdded some text displays:\n\n-If the target is further than your identification range (This might be why some of you believe the mod wasn't working... previously, the raycast would just stop entirely if the target was too far away. This shouldn't happen anymore.)\n\n-If foliage is blocking your ability to detect enemies",
+          "link": "https://forge.sp-tarkov.com/mod/download/2089/light-and-maschines-automatic-identifier/1.2.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1031,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-19T02:45:36.000000Z",
+          "created_at": "2025-08-19T02:45:36.000000Z",
+          "updated_at": "2026-05-14T01:38:17.000000Z"
+        },
+        {
+          "id": 646,
+          "hub_id": 14186,
+          "version": "1.1.2",
+          "description": "We skipped 1.1.1 for some reason. Oh well.\n\n-Possibly fixed some issues with the plugin, especially related to the hideout",
+          "link": "https://forge.sp-tarkov.com/mod/download/2089/light-and-maschines-automatic-identifier/1.1.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 2138,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-06T21:56:11.000000Z",
+          "created_at": "2025-05-06T21:56:11.000000Z",
+          "updated_at": "2026-05-14T01:53:36.000000Z"
+        },
+        {
+          "id": 805,
+          "hub_id": 14002,
+          "version": "1.1.0",
+          "description": "A few significant changes in this version based off feedback. Please read carefully so as not to be confused:\n\n1: Your character's Attention, Perception, and Search skills now affect the identification in various ways:\n\n-Attention lowers the base time it takes for identification to be completed (0.7 - (Attention / 100), so a level 30 attention skill sets the base timer to 0.4 seconds)\n\n-Perception lowers the distance penalty (bots that are far away take more time to identify, by default each meter adds roughly .015 seconds. A higher Perception skill lowers this factor)\n\n-Search increases the max range of the identifier (100 + (Search \\*2), so at level 30 search the range is set to 160 meters)\n\n-At max attention, identification within 15 meters is instantaneous.\n\n-At max perception, the penalty for distance is halved on top of the level bonuses (Long distance is basically ignored at this point).\n\n-At max search, the range is multiplied by 1.5 (making max range 304 meters at level 51, which is elite. Thank you BSG for making the level caps 51.)\n\n2: To accompany these changes, the base (\"level 0\") times have generally been increased. Base time is now .7 seconds instead of .5, though distance is slightly less taxing. However...\n\n2.1: Within 15 meters, identification time is halved\n\n3: Refined the Raycast and Layermasking. While still not perfect, identification should generally be more reliable. (Currently as well as previously, the ray is based off the center of your screen. Due to how Tarkov simulates weapon movement, the exact middle of your sight is rarely the exact middle of your screen. Generally speaking, in my limited testing, this isn't that big of a deal... just know that if you can only see a tiny bit of an enemy or if you're being shot, identification will probably be difficult.)\n\n4: Added a \"Losing Target...\" when the ray falls off a bot, to make it much more clear when you are or are not actually identifying a bot or not.\n\nPlease provide ideas or changes for the next update! This is a fun mod for me, I enjoy working on it",
+          "link": "https://forge.sp-tarkov.com/mod/download/2089/light-and-maschines-automatic-identifier/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1412,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-13T06:06:28.000000Z",
+          "created_at": "2025-04-13T06:06:28.000000Z",
+          "updated_at": "2026-07-13T18:01:17.000000Z"
+        },
+        {
+          "id": 838,
+          "hub_id": 13966,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2089/light-and-maschines-automatic-identifier/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 702,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-08T21:33:57.000000Z",
+          "created_at": "2025-04-08T21:33:57.000000Z",
+          "updated_at": "2026-07-13T18:01:18.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Light-of-the-World/LightsAutomaticIdentifier",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12266,
+      "hub_id": null,
+      "version": "2.0.0",
+      "description": "<p>Updated to 4.0!</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2089/light-and-maschines-automatic-identifier/2.0.0",
+      "content_length": 6382,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 3860,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-10T08:20:00.000000Z",
+      "created_at": "2025-11-10T08:21:52.000000Z",
+      "updated_at": "2026-08-01T16:02:58.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 71,
+      "hub_id": 14830,
+      "version": "1.2.0",
+      "description": "<p>Fixed many things.</p>\n<p>Realigned the raycast, it should be almost perfectly in the center of your screen now. DOES NOT ACCOUNT FOR SCOPE SWAY! Someone much more knowledgeable is welcome to make a better Raycast sender on the Github</p>\n<p>Added some text displays:</p>\n<p>-If the target is further than your identification range (This might be why some of you believe the mod wasn’t working… previously, the raycast would just stop entirely if the target was too far away. This shouldn’t happen anymore.)</p>\n<p>-If foliage is blocking your ability to detect enemies</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2089/light-and-maschines-automatic-identifier/1.2.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1031,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-08-19T02:45:36.000000Z",
+      "created_at": "2025-08-19T02:45:36.000000Z",
+      "updated_at": "2026-05-14T01:38:17.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2089/LightsAutomaticIdentifier200.zip",
+    "bytes_written": 6382,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/962905786/a6d1f585-a0de-4878-baf6-8ec6cbce5d0c?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A49%3A32Z&rscd=attachment%3B+filename%3DLightsAutomaticIdentifier200.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A49%3A24Z&ske=2026-08-10T10%3A49%3A32Z&sks=b&skv=2018-11-09&sig=kxOcTbe9zD%2BmwrX6nsEPVkZOkhAmQaC89RMtRdH4NGM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1Njc4NCwibmJmIjoxNzg2MzU2NDg0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.0ynh02rJGWRrpdkBWiqAzre0ZFkZxLGM_yofwjVJ_KU&response-content-disposition=attachment%3B%20filename%3DLightsAutomaticIdentifier200.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "2.0.0",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,227 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1797,
+      "hub_id": 2438,
+      "guid": "xyz.drakia.hazardifier",
+      "name": "Hazardifier",
+      "slug": "hazardifier",
+      "teaser": "Make your time in Tarkov a living hell",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2438.png",
+      "downloads": 5464,
+      "favourites_count": 8,
+      "description": "<h3>This mod only adds/modifies <strong>claymores</strong>. For minefields check out <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2441-visible-minefields/\" rel=\"noreferrer noopener\">Visible Minefields</a> by <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/15409-pein/\" rel=\"noreferrer noopener\">pein</a></h3>\n<p>Have you ever thought DeHazardifier was unfair, and made the game too easy? Now you can balance things out by making your game damn near impossible. Randomly spawn claymores all around the map, with or without laser tripwire indicators, to make your time in Tarkov a living hell.</p>\n<div class=\"youtube-lite\" data-video-id=\"HnvE5PBKEO8\" data-embed-url=\"https://www.youtube-nocookie.com/embed/HnvE5PBKEO8?autoplay=1\"><img src=\"https://i.ytimg.com/vi/HnvE5PBKEO8/hqdefault.jpg\" alt=\"YouTube video thumbnail\" loading=\"lazy\" decoding=\"async\" /></div>\n<h3><strong>Configuration (Accessible via F12 menu, take effect on next raid)</strong></h3>\n<p><strong>Enable New Claymores (Default: true):</strong></p>\n<p>Whether to enable randomized claymores</p>\n<p><strong>Claymore Disarm Timer (Default: 5):</strong></p>\n<p>The amount of time (in seconds) it takes to disarm a claymore</p>\n<p><strong>Allow Arming Claymores (Default: true):</strong></p>\n<p>Whether to allow re-arming a claymore after you’ve disarmed it</p>\n<p><strong>Convert BSG Claymores (Default: false):</strong></p>\n<p>Whether to convert BSG claymores to new custom claymore implementation with laser indicators</p>\n<p><strong>Make BSG Claymores Shootable (Default: true):</strong></p>\n<p>Whether to make BSG claymores explode when shot. Ignored if Convert BSG Claymores is enabled</p>\n<p><strong>Disable Lasers (Default: false):</strong></p>\n<p>Disable the visibility of the trip lasers on claymores, giving no external indication where claymores are or whether they’re active</p>\n<p><strong>April Fools Mode (Default: false):</strong></p>\n<p>Whether to make the random claymores harmless, but still give a concussion/blinding effect. This is the mode used in the SPT 2024 April Fools release</p>\n<p><strong>Map Claymore Settings:</strong></p>\n<p>The amount of new claymores to place on each map. Set to 0 to disable claymores on that map. Higher = higher performance hit</p>\n<p>Note: A modified version of this mod was used for the SPT 2024 April Fools day prank, and I’ve finally gotten around to cleaning it up and packaging it as a mod to ship.</p>\n<h3>Installation</h3>\n<p>1) Open the downloaded zip file in <a target=\"_blank\" class=\"external-link\" href=\"https://www.7-zip.org/\" rel=\"noreferrer noopener\">7-zip</a></p>\n<p>2) Select the folder in the zip file in <a target=\"_blank\" class=\"external-link\" href=\"https://www.7-zip.org/\" rel=\"noreferrer noopener\">7-zip</a></p>\n<p>3) Drag the selected folder from <a target=\"_blank\" class=\"external-link\" href=\"https://www.7-zip.org/\" rel=\"noreferrer noopener\">7-zip</a> into your SPT folder</p>\n<p>Demonstration Video (Yes, it’s Quest Tracker, but the same concept applies to all of my mods, I’m not making mod-specific extraction example videos):</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/afNPjAw.gif\" alt=\"Install Gif\" /></p>\n<h3><strong>Compatibility</strong></h3>\n<ul>\n<li>There are no known conflicts</li>\n</ul>\n<p>If you enjoy my work, you can <a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/drakiaxyz\" rel=\"noreferrer noopener\">feed my caffeine addiction</a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1797/hazardifier",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2024-10-27T06:01:00.000000Z",
+      "created_at": "2024-10-27T06:01:56.000000Z",
+      "updated_at": "2026-08-03T06:02:27.000000Z",
+      "owner": {
+        "id": 27605,
+        "name": "DrakiaXYZ",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/M9qMWlknCITEk33QXO07mJG0j8qP4xhz1QOsHUHD_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2023-02-26T18:51:50.000000Z",
+        "updated_at": "2026-08-10T04:45:59.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14414,
+          "hub_id": null,
+          "version": "1.4.0",
+          "description": "Update for SPT 4.1.0",
+          "link": "https://forge.sp-tarkov.com/mod/download/1797/hazardifier/1.4.0",
+          "content_length": 1772355,
+          "spt_version_constraint": "~4.1.0",
+          "downloads": 344,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-03T04:23:00.000000Z",
+          "created_at": "2026-08-03T04:25:57.000000Z",
+          "updated_at": "2026-08-03T06:02:27.000000Z"
+        },
+        {
+          "id": 11765,
+          "hub_id": null,
+          "version": "1.3.0",
+          "description": "- Update for SPT 4.0.0",
+          "link": "https://forge.sp-tarkov.com/mod/download/1797/hazardifier/1.3.0",
+          "content_length": 1772654,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 1443,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-11T19:30:03.000000Z",
+          "created_at": "2025-10-11T17:41:38.000000Z",
+          "updated_at": "2026-07-28T06:02:19.000000Z"
+        },
+        {
+          "id": 1226,
+          "hub_id": 13546,
+          "version": "1.2.0",
+          "description": "### This version will only work with SPT 3.11.x\n\nUpdate for SPT 3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/1797/hazardifier/1.2.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1261,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-15T20:01:12.000000Z",
+          "created_at": "2025-03-15T20:01:12.000000Z",
+          "updated_at": "2026-05-14T02:07:58.000000Z"
+        },
+        {
+          "id": 2295,
+          "hub_id": 12313,
+          "version": "1.1.0",
+          "description": "### This version will only work with SPT 3.10.x\n\n- Update for SPT 3.10.0",
+          "link": "https://forge.sp-tarkov.com/mod/download/1797/hazardifier/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "3.10.0",
+          "downloads": 1205,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-27T05:15:14.000000Z",
+          "created_at": "2024-11-27T05:15:14.000000Z",
+          "updated_at": "2026-05-14T03:19:19.000000Z"
+        },
+        {
+          "id": 2528,
+          "hub_id": 12042,
+          "version": "1.0.1",
+          "description": "- Move claymore count settings to per-map, and make them absolute values\n- Fix potential out of bounds exception if claymore count ends up higher than ambush point count\n- You can now disable claymores on a per-map basis by setting that maps claymore count to 0",
+          "link": "https://forge.sp-tarkov.com/mod/download/1797/hazardifier/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 844,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-10-27T19:29:25.000000Z",
+          "created_at": "2024-10-27T19:29:25.000000Z",
+          "updated_at": "2026-05-14T03:24:17.000000Z"
+        },
+        {
+          "id": 2533,
+          "hub_id": 12037,
+          "version": "1.0.0",
+          "description": "Initial Release",
+          "link": "https://forge.sp-tarkov.com/mod/download/1797/hazardifier/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 367,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-10-27T06:01:56.000000Z",
+          "created_at": "2024-10-27T06:01:56.000000Z",
+          "updated_at": "2026-05-14T03:24:26.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/DrakiaXYZ/SPT-Hazardifier/",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14414,
+      "hub_id": null,
+      "version": "1.4.0",
+      "description": "<p>Update for SPT 4.1.0</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1797/hazardifier/1.4.0",
+      "content_length": 1772355,
+      "spt_version_constraint": "~4.1.0",
+      "downloads": 344,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-03T04:23:00.000000Z",
+      "created_at": "2026-08-03T04:25:57.000000Z",
+      "updated_at": "2026-08-03T06:02:27.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11765,
+      "hub_id": null,
+      "version": "1.3.0",
+      "description": "<ul>\n<li>Update for SPT 4.0.0</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1797/hazardifier/1.3.0",
+      "content_length": 1772654,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 1443,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-11T19:30:03.000000Z",
+      "created_at": "2025-10-11T17:41:38.000000Z",
+      "updated_at": "2026-07-28T06:02:19.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1226,
+      "hub_id": 13546,
+      "version": "1.2.0",
+      "description": "<h3>This version will only work with SPT 3.11.x</h3>\n<p>Update for SPT 3.11</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1797/hazardifier/1.2.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1261,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-15T20:01:12.000000Z",
+      "created_at": "2025-03-15T20:01:12.000000Z",
+      "updated_at": "2026-05-14T02:07:58.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2295,
+      "hub_id": 12313,
+      "version": "1.1.0",
+      "description": "<h3>This version will only work with SPT 3.10.x</h3>\n<ul>\n<li>Update for SPT 3.10.0</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1797/hazardifier/1.1.0",
+      "content_length": null,
+      "spt_version_constraint": "3.10.0",
+      "downloads": 1205,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-11-27T05:15:14.000000Z",
+      "created_at": "2024-11-27T05:15:14.000000Z",
+      "updated_at": "2026-05-14T03:19:19.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1797/DrakiaXYZ-Hazardifier-1.4.0.7z",
+    "bytes_written": 1772355,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/772863566/5c6d8689-5acd-4e05-bcad-d149b807e68f?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A25%3A53Z&rscd=attachment%3B+filename%3DDrakiaXYZ-Hazardifier-1.4.0.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A25%3A19Z&ske=2026-08-10T10%3A25%3A53Z&sks=b&skv=2018-11-09&sig=X%2FAt2S9439Wxal9EFPcGBe4gT%2FLiXDOw1EYhOAOddxA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTI5MSwibmJmIjoxNzg2MzU0OTkxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.cpZwVJ1EUlW-ZVk2ab_yd63XL4O4IFepAL_SZCSrysk&response-content-disposition=attachment%3B%20filename%3DDrakiaXYZ-Hazardifier-1.4.0.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1797/hazardifier-1.3.0-spt40.7z",
+    "bytes_written": 1772654,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/772863566/32065f8a-6462-407b-bbb2-104a8bbf5f85?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T12%3A46%3A05Z&rscd=attachment%3B+filename%3DDrakiaXYZ-Hazardifier-1.3.0.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T11%3A45%3A44Z&ske=2026-08-10T12%3A46%3A05Z&sks=b&skv=2018-11-09&sig=jZgzeZe4RSa8PAQJ%2FirYiCi%2BQumYwV6mOz4yiMtL9co%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzU1MSwibmJmIjoxNzg2MzYzMjUxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.d4psrIc-wt_UM2K84GXQMtjdElzKQVTp6ICqFu9GG3k&response-content-disposition=attachment%3B%20filename%3DDrakiaXYZ-Hazardifier-1.3.0.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.3.0",
+    "same_as_primary_download": false
+  }
+}

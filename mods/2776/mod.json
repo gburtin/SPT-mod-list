@@ -1,0 +1,141 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2776,
+      "hub_id": null,
+      "guid": "com.20fpsguy.parmesan",
+      "name": "Parmesan - Partizan Rework",
+      "slug": "parmesan-partizan-rework",
+      "teaser": "fixes partizan by huting AI pmcs instead of you all the time",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/4NUVzTC282nQjFKfZl4OBMvKYIYI2NXhTUIbNqYf.jpg",
+      "downloads": 3628,
+      "favourites_count": 34,
+      "description": "<p>ever got annoyed partizan killing you every raid? well with this mod he has a chance to annoy someone else by making him hunt AI pmcs</p>\n<p>there is some customizing in the F12 menu</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2776/parmesan-partizan-rework",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "<p>AI was used to decompile Assembly methods</p>\n",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 5,
+      "published_at": "2026-06-26T12:42:00.000000Z",
+      "created_at": "2026-06-26T12:34:53.000000Z",
+      "updated_at": "2026-08-10T06:02:25.000000Z",
+      "owner": {
+        "id": 43600,
+        "name": "20fpsguy",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/xrcDHoVQVT6rtxh0ks0DyrvwYDrD0OBnhPMUytms_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/3XeLpx2NFpiWfauZEuOtSrIUrCPbzkOe7SFJwDFp_1280w.webp",
+        "created_at": "2024-01-11T12:46:02.000000Z",
+        "updated_at": "2026-08-10T09:07:12.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 14602,
+          "hub_id": null,
+          "version": "1.0.1",
+          "description": "updated to 4.1\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/2776/parmesan-partizan-rework/1.0.1",
+          "content_length": 5884,
+          "spt_version_constraint": "4.1.2",
+          "downloads": 469,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-08-09T20:08:00.000000Z",
+          "created_at": "2026-08-09T20:10:39.000000Z",
+          "updated_at": "2026-08-10T06:02:25.000000Z"
+        },
+        {
+          "id": 13888,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "release!",
+          "link": "https://forge.sp-tarkov.com/mod/download/2776/parmesan-partizan-rework/1.0.0",
+          "content_length": 5755,
+          "spt_version_constraint": "4.0.13",
+          "downloads": 3159,
+          "fika_compatibility": "unknown",
+          "published_at": "2026-06-26T12:41:00.000000Z",
+          "created_at": "2026-06-26T12:42:03.000000Z",
+          "updated_at": "2026-07-31T22:39:57.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 5,
+        "hub_id": 22,
+        "title": "Bots",
+        "slug": "bots",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/diemitze/Parmesan---Partizan-Rework",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 14602,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<p>updated to 4.1</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2776/parmesan-partizan-rework/1.0.1",
+      "content_length": 5884,
+      "spt_version_constraint": "4.1.2",
+      "downloads": 469,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-08-09T20:08:00.000000Z",
+      "created_at": "2026-08-09T20:10:39.000000Z",
+      "updated_at": "2026-08-10T06:02:25.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 13888,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>release!</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2776/parmesan-partizan-rework/1.0.0",
+      "content_length": 5755,
+      "spt_version_constraint": "4.0.13",
+      "downloads": 3159,
+      "fika_compatibility": "unknown",
+      "published_at": "2026-06-26T12:41:00.000000Z",
+      "created_at": "2026-06-26T12:42:03.000000Z",
+      "updated_at": "2026-07-31T22:39:57.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2776/Parmesan.zip",
+    "bytes_written": 5884,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1281294750/cf4e8dd2-760b-4c8e-a7d3-760a1a6fcc69?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A22%3A10Z&rscd=attachment%3B+filename%3DParmesan.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A21%3A28Z&ske=2026-08-10T10%3A22%3A10Z&sks=b&skv=2018-11-09&sig=q8DUnKCdrPBLdy0H4YMjRmUlZtnCGk%2BX6FybJ%2FA9%2Bj4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NTQ1MSwibmJmIjoxNzg2MzU1MTUxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.LFA75uFlqlXVDB-XT4f2QHdBwhOvTc0fWiB2XLMIWyw&response-content-disposition=attachment%3B%20filename%3DParmesan.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2776/parmesan-partizan-rework-1.0.0-spt40.zip",
+    "bytes_written": 5755,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1281294750/38ffe2ad-4f13-4898-9e7e-f71406ad73cb?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T13%3A00%3A59Z&rscd=attachment%3B+filename%3DParmesan.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T12%3A00%3A45Z&ske=2026-08-10T13%3A00%3A59Z&sks=b&skv=2018-11-09&sig=W2WK3VVMGc5OAR289n0CMAdKtHSYFjJicmRgyj9HysQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM2MzYzOSwibmJmIjoxNzg2MzYzMzM5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.uUlj6mgLQg8tjcknJGRu3fwAsBPPrNXz-8GLdf0ZFIA&response-content-disposition=attachment%3B%20filename%3DParmesan.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "4.0.13",
+    "version": "1.0.0",
+    "same_as_primary_download": false
+  }
+}

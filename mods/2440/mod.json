@@ -1,0 +1,136 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2440,
+      "hub_id": null,
+      "guid": "net.skydust.sptarkovspeedloader",
+      "name": "SPTarkovSpeedLoader",
+      "slug": "sptarkovspeedloader",
+      "teaser": "magazine speed-loader for SPTarkov",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/ObjaUCPCdkRnAbixVqlsItD2PHewf3YIQkNoDULy.jpg",
+      "downloads": 16213,
+      "favourites_count": 27,
+      "description": "<h1>SPTarkovSpeedLoader</h1>\n<p>magazine speed-loader for SPTarkov</p>\n<p>will increase magazine’s ammo load speed when your <strong>special slot</strong> have any <strong>Leatherman Multitool</strong></p>\n<p>the initial idea was to add a new item, but i didn’t have the necessary skills that to made a new 3D model</p>\n<h3>coefficient</h3>\n<p>when:</p>\n<ul>\n<li>default server settings (0.85 second)</li>\n<li>Mag Drills Lv.9 (-5.4% modify)</li>\n<li>the magazine is 6L31 (60 round 5.45x39 that with +85% modify)</li>\n</ul>\n<p>the base coefficient is <code>0.85 * (1.0 - 0.054 + 0.85)</code> =&gt; <code>1.5266</code></p>\n<p>each tool provides <strong>50%</strong> speed coefficient, use multiplication instead of addition</p>\n<table>\n<thead>\n<tr>\n<th>tool count</th>\n<th>final speed</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>0</td>\n<td>1.52 second</td>\n</tr>\n<tr>\n<td>1</td>\n<td>0.76 second</td>\n</tr>\n<tr>\n<td>2</td>\n<td>0.38 second</td>\n</tr>\n<tr>\n<td>3</td>\n<td>0.19 second</td>\n</tr>\n</tbody>\n</table>\n<h3>limit</h3>\n<p>min load speed is 0.025, too fast will cause load action exception that make you can not load ammo in the raid any more</p>\n<h3>source of idea</h3>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://github.com/ragnaroks/SPTarkovSpeedLoader/raw/master/Assets/idea.jpg\" alt=\"idea\" /></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2440/sptarkovspeedloader",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 3,
+      "published_at": "2025-11-12T17:00:00.000000Z",
+      "created_at": "2025-11-12T17:43:42.000000Z",
+      "updated_at": "2026-07-28T08:59:38.000000Z",
+      "owner": {
+        "id": 74405,
+        "name": "ragnaroks",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=r&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2025-03-06T09:22:28.000000Z",
+        "updated_at": "2026-08-07T04:52:47.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 13607,
+          "hub_id": null,
+          "version": "1.0.3",
+          "description": "### SPTarkov version\n- 4.0.*\n\n### changes\n- add speed limit to avoid exceptions in ammo loading\n- change coef from 0.75 to 0.5",
+          "link": "https://forge.sp-tarkov.com/mod/download/2440/sptarkovspeedloader/1.0.3",
+          "content_length": 11896,
+          "spt_version_constraint": "~4.0 <4.1.0",
+          "downloads": 4262,
+          "fika_compatibility": "incompatible",
+          "published_at": "2026-05-17T17:06:00.000000Z",
+          "created_at": "2026-05-17T17:07:49.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 12294,
+          "hub_id": null,
+          "version": "1.0.1",
+          "description": "### SPTarkov version\n- 4.0.*",
+          "link": "https://forge.sp-tarkov.com/mod/download/2440/sptarkovspeedloader/1.0.1",
+          "content_length": 11326,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 11951,
+          "fika_compatibility": "incompatible",
+          "published_at": "2025-11-12T17:44:00.000000Z",
+          "created_at": "2025-11-12T17:44:54.000000Z",
+          "updated_at": "2026-07-28T06:21:16.000000Z"
+        }
+      ],
+      "license": {
+        "id": 7,
+        "hub_id": 9,
+        "name": "GNU AGPLv3",
+        "link": "https://choosealicense.com/licenses/agpl-3.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 3,
+        "hub_id": 19,
+        "title": "Scripting",
+        "slug": "scripting",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/ragnaroks/SPTarkovSpeedLoader",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 13607,
+      "hub_id": null,
+      "version": "1.0.3",
+      "description": "<h3>SPTarkov version</h3>\n<ul>\n<li>4.0.*</li>\n</ul>\n<h3>changes</h3>\n<ul>\n<li>add speed limit to avoid exceptions in ammo loading</li>\n<li>change coef from 0.75 to 0.5</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2440/sptarkovspeedloader/1.0.3",
+      "content_length": 11896,
+      "spt_version_constraint": "~4.0 <4.1.0",
+      "downloads": 4262,
+      "fika_compatibility": "incompatible",
+      "published_at": "2026-05-17T17:06:00.000000Z",
+      "created_at": "2026-05-17T17:07:49.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12294,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<h3>SPTarkov version</h3>\n<ul>\n<li>4.0.*</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2440/sptarkovspeedloader/1.0.1",
+      "content_length": 11326,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 11951,
+      "fika_compatibility": "incompatible",
+      "published_at": "2025-11-12T17:44:00.000000Z",
+      "created_at": "2025-11-12T17:44:54.000000Z",
+      "updated_at": "2026-07-28T06:21:16.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2440/net.skydust.sptarkovspeedloader.zip",
+    "bytes_written": 11896,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1095046541/a4fd443b-26e1-48d5-9f89-e2f9eb87179d?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A49%3A19Z&rscd=attachment%3B+filename%3Dnet.skydust.sptarkovspeedloader.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A48%3A59Z&ske=2026-08-10T10%3A49%3A19Z&sks=b&skv=2018-11-09&sig=txvl%2BpPN3BgIIrkTL2EzSWG76AaKXgIx8ud7rSlePOU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1Njg3NiwibmJmIjoxNzg2MzU2NTc2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.q08O2j6zef_golOQtOMQ27QY6qOH_NKDLfLhOLImggE&response-content-disposition=attachment%3B%20filename%3Dnet.skydust.sptarkovspeedloader.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.3",
+    "same_as_primary_download": true
+  }
+}

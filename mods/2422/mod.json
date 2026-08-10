@@ -1,0 +1,165 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2422,
+      "hub_id": null,
+      "guid": "com.ozen.foldables",
+      "name": "Foldables",
+      "slug": "foldables",
+      "teaser": "You can now fold backpacks and vests!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/pSj6ZQVoi3V3aZ8fVtZ8LDcvkw6OFiF6sMHfTMD2.png",
+      "downloads": 34726,
+      "favourites_count": 92,
+      "description": "<p><strong>Foldables</strong> introduces the ability to fold your gear, <em>collapsing</em> into smaller grid sizes. This way you can save space in your stash, or keep valuable backpacks/vests you find in-raid.</p>\n<hr />\n<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Features</div>\n<div class=\"tab-content\"><h4>Features</h4>\n<ul>\n<li>Every compatible gear now has a folded state: Fold like you would a gun by using <code>middle mouse click</code> or by using the context menu</li>\n<li>Compatible gear includes: Backpacks, Unarmored Vests, Headphones</li>\n<li>Realism and balancing: Folded gear cannot be opened and cannot contain any items. Folding in-raid takes time, scaled based on the size of the gear</li>\n<li>Seamless experience: Unfold gear on equip. Unfold gear when trying to open it. Ask to spill the contents when folding a container that is not empty. Ability to fold/unfold items on the ground in-raid, by holding the interaction button (<code>F</code>)</li>\n<li>Configurable: Configuration is available server side and client side</li>\n</ul></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Installation</div>\n<div class=\"tab-content\"><h4>Installation</h4>\n<ul>\n<li>Extract the contents of the .zip archive into your SPT folder.</li>\n</ul>\n<h4>Note to Fika users:</h4>\n<ul>\n<li>Must also be installed in the headless client</li>\n</ul>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/3N6gTe2.gif\" alt=\"Installation\" />\nThank you <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/user/27605/drakiaxyz\" rel=\"noreferrer noopener\">DrakiaXYZ</a> for the gif</p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Configuration</div>\n<div class=\"tab-content\"><h4>Configuration</h4>\n<h4>Server Side</h4>\n<p>In the <code>config.json</code> file:</p>\n<ul>\n<li><code>MinFoldingTime</code> - Minimum folding time in-raid for the smallest gear. Default is <code>1</code> second</li>\n<li><code>MaxFoldingTime</code> - Maximum folding time in-raid for the largest gear. Default is <code>5</code> seconds. Setting both to <code>0</code> effectively removes the delay in-raid</li>\n</ul>\n<p>For a more tailored experience:</p>\n<ul>\n<li><code>Overrides</code> - Override foldable properties for certain gear. See <code>config.json</code> for an example</li>\n<li><code>BackpackFoldedCellSizes</code> and <code>VestFoldedCellSizes</code> - Folded sizes are calculated based on this, for example (using default values) all backpacks with a grid count of &lt;= <code>15</code> will have a folded size of <code>1x2</code></li>\n</ul>\n<h4>Client Side</h4>\n<p>In the BepInEx configuration manager (<code>F12</code>)</p>\n<ul>\n<li><code>Fold While Equipped</code> - Allow folding while gear is equipped. Default is <code>true</code></li>\n<li><code>Spill Confirmation</code> - Show a confirmation dialogue before spilling contents, if possible. If disabled, always spill without asking. Default is <code>true</code></li>\n</ul></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">Compatibility</div>\n<div class=\"tab-content\"><h4>Compatibility</h4>\n<ul>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/1342/ui-fixes\" rel=\"noreferrer noopener\">UIFixes</a> by <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/user/46005/tyfon\" rel=\"noreferrer noopener\">Tyfon</a> MultiSelect interoperability: Fold/unfold multiple gear if it allows</li>\n<li>Fika: Must also be installed in the headless client. Players interacting with the same item is untested</li>\n<li>This should work with mods that add custom gear</li>\n</ul></div></div>\n<div id=\"tabset-1-panel-5\" class=\"tab-panel\"><div class=\"tab-title\">Support</div>\n<div class=\"tab-content\"><h4>Support</h4>\n<p>If you find bugs, or have feature suggestions, feel free to post them on the comment section, or open an issue on GitHub, or most preferably through the <a target=\"_blank\" class=\"external-link\" href=\"https://discord.com/channels/875684761291599922/1374428464999829555\" rel=\"noreferrer noopener\">SPT Discord, <code>ozen</code></a></p>\n<h4>Contributing</h4>\n<ul>\n<li>I would appreciate it if you could help translate this mod into your language. Locale files are inside <code>config/locales/</code>, with your language <code>__.json</code></li>\n</ul>\n<h4>Future Plans</h4>\n<ul>\n<li>Folded static loot</li>\n<li>Custom folded models (okay, maybe not)</li>\n</ul></div></div>\n<div id=\"tabset-1-panel-6\" class=\"tab-panel\"><div class=\"tab-title\">Credits</div>\n<div class=\"tab-content\"><h4>Credits</h4>\n<ul>\n<li>Thanks to <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/user/46005/tyfon\" rel=\"noreferrer noopener\">Tyfon</a> for entertaining my questions, and for his work on UIFixes which showed what else can be possible</li>\n<li>Thanks to <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/user/86388/bloodrain13\" rel=\"noreferrer noopener\">BloodRain13</a> for helping test this mod extensively</li>\n<li>Thanks to <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/user/26904/gleneth\" rel=\"noreferrer noopener\">Gleneth</a> for his help on initial testing</li>\n<li>FlatIcon - <a target=\"_blank\" class=\"external-link\" href=\"https://www.flaticon.com/free-icon/military_3856880\" rel=\"noreferrer noopener\">1</a>, <a target=\"_blank\" class=\"external-link\" href=\"https://www.flaticon.com/free-icon/clean-clothes_9619571\" rel=\"noreferrer noopener\">2</a></li>\n</ul></div></div></div>\n<hr />\n<p>If you enjoy my work, you can <a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/ozenm\" rel=\"noreferrer noopener\">buy me a coffee</a> ☕</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2422/foldables",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 15,
+      "published_at": "2025-11-07T18:57:00.000000Z",
+      "created_at": "2025-11-05T13:59:02.000000Z",
+      "updated_at": "2026-07-28T07:13:28.000000Z",
+      "owner": {
+        "id": 77756,
+        "name": "ozen",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/1aglmhPJvrzyi93w0EuTd1OMEZeGAtUt15niHWWU_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-04-23T14:40:25.000000Z",
+        "updated_at": "2026-08-10T09:29:41.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12688,
+          "hub_id": null,
+          "version": "1.0.3",
+          "description": "Added:\n- Russian language localization (Thanks [@DragonX86-dev](https://forge.sp-tarkov.com/user/78370/dragonx86)!)\n\nFixed:\n- Out of bounds issue\n- Mod compatibility load order\n\nModified:\n- Fallback locale languages to English",
+          "link": "https://forge.sp-tarkov.com/mod/download/2422/foldables/1.0.3",
+          "content_length": 37549,
+          "spt_version_constraint": "~4.0.4",
+          "downloads": 24777,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-12-27T17:15:00.000000Z",
+          "created_at": "2025-12-27T17:15:28.000000Z",
+          "updated_at": "2026-07-28T07:13:28.000000Z"
+        },
+        {
+          "id": 12283,
+          "hub_id": null,
+          "version": "1.0.1",
+          "description": "Added:\n- Foldable headsets\n\nFixed:\n- Foldable items ending up on top when sorting\n- Image scale when folded item is rotated\n- Some cases of null ref exceptions\n\nModified:\n- Smaller default folding sizes to encourage folding\n- Try optimize mod's server start\n- Use SPT patch manager\n\n**Note**: This update changes the config's default values, it is recommended to make a backup of your current config then _migrate_ your changes",
+          "link": "https://forge.sp-tarkov.com/mod/download/2422/foldables/1.0.1",
+          "content_length": 35382,
+          "spt_version_constraint": "~4.0.4",
+          "downloads": 8048,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-11-11T18:11:00.000000Z",
+          "created_at": "2025-11-11T18:11:07.000000Z",
+          "updated_at": "2026-07-28T06:20:53.000000Z"
+        },
+        {
+          "id": 12229,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Initial release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2422/foldables/1.0.0",
+          "content_length": 33437,
+          "spt_version_constraint": "~4.0.3",
+          "downloads": 1901,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-11-07T18:39:00.000000Z",
+          "created_at": "2025-11-07T18:39:52.000000Z",
+          "updated_at": "2026-07-28T06:17:49.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 15,
+        "hub_id": 78,
+        "title": "Equipment",
+        "slug": "equipment",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/ozen-m/SPT-Foldables",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12688,
+      "hub_id": null,
+      "version": "1.0.3",
+      "description": "<p>Added:</p>\n<ul>\n<li>Russian language localization (Thanks <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/user/78370/dragonx86\" rel=\"noreferrer noopener\">@DragonX86-dev</a>!)</li>\n</ul>\n<p>Fixed:</p>\n<ul>\n<li>Out of bounds issue</li>\n<li>Mod compatibility load order</li>\n</ul>\n<p>Modified:</p>\n<ul>\n<li>Fallback locale languages to English</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2422/foldables/1.0.3",
+      "content_length": 37549,
+      "spt_version_constraint": "~4.0.4",
+      "downloads": 24777,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-12-27T17:15:00.000000Z",
+      "created_at": "2025-12-27T17:15:28.000000Z",
+      "updated_at": "2026-07-28T07:13:28.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12283,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<p>Added:</p>\n<ul>\n<li>Foldable headsets</li>\n</ul>\n<p>Fixed:</p>\n<ul>\n<li>Foldable items ending up on top when sorting</li>\n<li>Image scale when folded item is rotated</li>\n<li>Some cases of null ref exceptions</li>\n</ul>\n<p>Modified:</p>\n<ul>\n<li>Smaller default folding sizes to encourage folding</li>\n<li>Try optimize mod’s server start</li>\n<li>Use SPT patch manager</li>\n</ul>\n<p><strong>Note</strong>: This update changes the config’s default values, it is recommended to make a backup of your current config then <em>migrate</em> your changes</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2422/foldables/1.0.1",
+      "content_length": 35382,
+      "spt_version_constraint": "~4.0.4",
+      "downloads": 8048,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-11-11T18:11:00.000000Z",
+      "created_at": "2025-11-11T18:11:07.000000Z",
+      "updated_at": "2026-07-28T06:20:53.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12229,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Initial release</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2422/foldables/1.0.0",
+      "content_length": 33437,
+      "spt_version_constraint": "~4.0.3",
+      "downloads": 1901,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-11-07T18:39:00.000000Z",
+      "created_at": "2025-11-07T18:39:52.000000Z",
+      "updated_at": "2026-07-28T06:17:49.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2422/ozen-Foldables-1.0.3.zip",
+    "bytes_written": 37549,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1086612617/eb967415-8241-4efc-a292-b795f531688d?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T11%3A16%3A24Z&rscd=attachment%3B+filename%3Dozen-Foldables-1.0.3.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T10%3A15%3A33Z&ske=2026-08-10T11%3A16%3A24Z&sks=b&skv=2018-11-09&sig=UYnj5PCwX%2FZZwuhqTEUSAWuSMr7C3pQ09A7shYjtzCg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1NzI2NywibmJmIjoxNzg2MzU2OTY3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.hg4PLIxjxInIc2jH1yJ2ahvtLar12Q_ET2sxifnVs0Y&response-content-disposition=attachment%3B%20filename%3Dozen-Foldables-1.0.3.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.3",
+    "same_as_primary_download": true
+  }
+}

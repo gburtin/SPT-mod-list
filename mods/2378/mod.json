@@ -1,0 +1,223 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2378,
+      "hub_id": null,
+      "guid": "spt.mod.tracker",
+      "name": "SPT Mod Tracker",
+      "slug": "spt-mod-tracker",
+      "teaser": "Allows you to track mods change (mod version, compatibility SPT version).",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/ENgHbCyNyfJcYZnH08960CsM2pE6odnWqBuZbw0h.png",
+      "downloads": 3088,
+      "favourites_count": 6,
+      "description": "<h1>THIS IS NOT MOD INSTALLER/UPDATER</h1>\n<h2>THIS IS NOT MOD INSTALLER/UPDATER</h2>\n<h3>THIS IS NOT MOD INSTALLER/UPDATER</h3>\n<p>Allows you to create a mod list and visually display the version status of these mods relative to the selected SPT version.</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/hiop/spt_mod_tracker/refs/heads/main/asserts/img.png\" alt=\"preview\" /></p>\n<hr />\n<h1>How to use?</h1>\n<ol>\n<li>Simply unzip the archive anywhere and run the .exe file</li>\n<li>After running it, you’ll need to obtain an API TOKEN (read-only permissions are required). here <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/user/api-tokens\" rel=\"noreferrer noopener\">https://forge.sp-tarkov.com/user/api-tokens</a>\nAfter logging in, the main interface will appear.</li>\n<li>Next, copy the link to the mod you want from SPT-FORGE (example <a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement\" rel=\"noreferrer noopener\">https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement</a>), paste it into the “mod url” text field, and click the “Add” button.</li>\n<li>???</li>\n<li>PROFIT!!!</li>\n</ol>\n<hr />\n<h1>Where is the data stored?</h1>\n<p><code>%appdata%\\sptModTracker</code></p>\n<hr />\n<h1>SPT Discord thread</h1>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://discord.com/channels/875684761291599922/1439852757212201080\" rel=\"noreferrer noopener\">https://discord.com/channels/875684761291599922/1439852757212201080</a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2378/spt-mod-tracker",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 1,
+      "published_at": "2025-10-18T16:36:00.000000Z",
+      "created_at": "2025-10-18T15:56:46.000000Z",
+      "updated_at": "2026-07-28T06:34:10.000000Z",
+      "owner": {
+        "id": 72091,
+        "name": "hiop90",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bYEK8yV9CwoRtfCoteXoj1uQiWwa7VsrQVssZzVk_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-01-23T05:43:23.000000Z",
+        "updated_at": "2026-08-10T08:54:45.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12352,
+          "hub_id": null,
+          "version": "1.0.10",
+          "description": "- new algorithm of version comparison\n- added tray menu option \"Show DevTools\"",
+          "link": "https://forge.sp-tarkov.com/mod/download/2378/spt-mod-tracker/1.0.10",
+          "content_length": 81714077,
+          "spt_version_constraint": "~4 <4.1.0",
+          "downloads": 1409,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-11-17T16:18:00.000000Z",
+          "created_at": "2025-11-17T16:18:17.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 12016,
+          "hub_id": null,
+          "version": "1.0.9",
+          "description": "* added settings option \"Enable update all mods on app start\"\n* added protection against calling the update process if it has already been started\n* improved error logging\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/2378/spt-mod-tracker/1.0.9",
+          "content_length": 81713200,
+          "spt_version_constraint": "~4 <4.1.0",
+          "downloads": 622,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-25T07:21:00.000000Z",
+          "created_at": "2025-10-25T07:21:26.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 11938,
+          "hub_id": null,
+          "version": "1.0.8",
+          "description": "Virustotal detect *McAfee Scanner Ti!0804CA0D80E8*\nI still don't understand what the reason could be, but I suspect the problem is that I added the app's permissions to send system notifications.\n\n---\nFeature:\n\n- added settings menu option\n- added auto-tracking by delay\n- added system notification\n- minimizing the application now hides the application (expand via tray)\n- new app icon\n\n![auto-tracking](https://raw.githubusercontent.com/hiop/spt_mod_tracker/refs/heads/main/asserts/auto-tracking.png)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2378/spt-mod-tracker/1.0.8",
+          "content_length": 81713826,
+          "spt_version_constraint": "~4 <4.1.0",
+          "downloads": 447,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-20T11:42:00.000000Z",
+          "created_at": "2025-10-20T11:42:22.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 11921,
+          "hub_id": null,
+          "version": "1.0.7",
+          "description": "- added a notification dialog (information about mod updates)\n- notification history is not saved and will be lost after restarting/reload the application.\n\n---\n![notification](https://raw.githubusercontent.com/hiop/spt_mod_tracker/refs/heads/main/asserts/smt_notification.png)\n\n![notification_dialog](https://raw.githubusercontent.com/hiop/spt_mod_tracker/refs/heads/main/asserts/smt_notification_dialog.png)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2378/spt-mod-tracker/1.0.7",
+          "content_length": 81698832,
+          "spt_version_constraint": "~4 <4.1.0",
+          "downloads": 310,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-19T13:25:00.000000Z",
+          "created_at": "2025-10-19T13:25:24.000000Z",
+          "updated_at": "2026-08-01T20:39:03.000000Z"
+        },
+        {
+          "id": 11893,
+          "hub_id": null,
+          "version": "1.0.5",
+          "description": "The tool was not intended for open source release, so the current interface may seem unfamiliar.\n\nThe current build is only for Windows x64. The app can be built for Mac or Linux if needed. Let me know in the comments here or on GitHub, and I'll try to build it.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2378/spt-mod-tracker/1.0.5",
+          "content_length": 81696939,
+          "spt_version_constraint": "~4.0.0",
+          "downloads": 300,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-18T21:43:00.000000Z",
+          "created_at": "2025-10-18T16:08:59.000000Z",
+          "updated_at": "2026-07-28T06:04:55.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 1,
+        "hub_id": 17,
+        "title": "Tools",
+        "slug": "tools",
+        "description": "Various standalone tools and programs that aren't installed like normal mods"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/hiop/spt_mod_tracker",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12352,
+      "hub_id": null,
+      "version": "1.0.10",
+      "description": "<ul>\n<li>new algorithm of version comparison</li>\n<li>added tray menu option “Show DevTools”</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2378/spt-mod-tracker/1.0.10",
+      "content_length": 81714077,
+      "spt_version_constraint": "~4 <4.1.0",
+      "downloads": 1409,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-11-17T16:18:00.000000Z",
+      "created_at": "2025-11-17T16:18:17.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 12016,
+      "hub_id": null,
+      "version": "1.0.9",
+      "description": "<ul>\n<li>added settings option “Enable update all mods on app start”</li>\n<li>added protection against calling the update process if it has already been started</li>\n<li>improved error logging</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2378/spt-mod-tracker/1.0.9",
+      "content_length": 81713200,
+      "spt_version_constraint": "~4 <4.1.0",
+      "downloads": 622,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-25T07:21:00.000000Z",
+      "created_at": "2025-10-25T07:21:26.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11938,
+      "hub_id": null,
+      "version": "1.0.8",
+      "description": "<p>Virustotal detect <em>McAfee Scanner Ti!0804CA0D80E8</em>\nI still don’t understand what the reason could be, but I suspect the problem is that I added the app’s permissions to send system notifications.</p>\n<hr />\n<p>Feature:</p>\n<ul>\n<li>added settings menu option</li>\n<li>added auto-tracking by delay</li>\n<li>added system notification</li>\n<li>minimizing the application now hides the application (expand via tray)</li>\n<li>new app icon</li>\n</ul>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/hiop/spt_mod_tracker/refs/heads/main/asserts/auto-tracking.png\" alt=\"auto-tracking\" /></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2378/spt-mod-tracker/1.0.8",
+      "content_length": 81713826,
+      "spt_version_constraint": "~4 <4.1.0",
+      "downloads": 447,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-20T11:42:00.000000Z",
+      "created_at": "2025-10-20T11:42:22.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11921,
+      "hub_id": null,
+      "version": "1.0.7",
+      "description": "<ul>\n<li>added a notification dialog (information about mod updates)</li>\n<li>notification history is not saved and will be lost after restarting/reload the application.</li>\n</ul>\n<hr />\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/hiop/spt_mod_tracker/refs/heads/main/asserts/smt_notification.png\" alt=\"notification\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://raw.githubusercontent.com/hiop/spt_mod_tracker/refs/heads/main/asserts/smt_notification_dialog.png\" alt=\"notification_dialog\" /></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2378/spt-mod-tracker/1.0.7",
+      "content_length": 81698832,
+      "spt_version_constraint": "~4 <4.1.0",
+      "downloads": 310,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-19T13:25:00.000000Z",
+      "created_at": "2025-10-19T13:25:24.000000Z",
+      "updated_at": "2026-08-01T20:39:03.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11893,
+      "hub_id": null,
+      "version": "1.0.5",
+      "description": "<p>The tool was not intended for open source release, so the current interface may seem unfamiliar.</p>\n<p>The current build is only for Windows x64. The app can be built for Mac or Linux if needed. Let me know in the comments here or on GitHub, and I’ll try to build it.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2378/spt-mod-tracker/1.0.5",
+      "content_length": 81696939,
+      "spt_version_constraint": "~4.0.0",
+      "downloads": 300,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-18T21:43:00.000000Z",
+      "created_at": "2025-10-18T16:08:59.000000Z",
+      "updated_at": "2026-07-28T06:04:55.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2378/sptModTracker.1.0.10_x64.Portable.zip",
+    "bytes_written": 81714077,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1078435944/4dc16de0-c4e5-4919-8730-69503b8634b5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T10%3A53%3A30Z&rscd=attachment%3B+filename%3DsptModTracker.1.0.10_x64.Portable.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T09%3A53%3A18Z&ske=2026-08-10T10%3A53%3A30Z&sks=b&skv=2018-11-09&sig=8QwBMh5hqUBNl6PW9NeXpPgmDX8M7Mp5LEXfqe9gsjU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM1Nzc4MCwibmJmIjoxNzg2MzU1OTgwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.fEWsutkLZGbpdL8FKaLO0ny0LJvz3hH59FzsEzJmvP4&response-content-disposition=attachment%3B%20filename%3DsptModTracker.1.0.10_x64.Portable.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_40": {
+    "target_version": "4.0.13",
+    "found": true,
+    "version": "1.0.10",
+    "same_as_primary_download": true
+  }
+}
