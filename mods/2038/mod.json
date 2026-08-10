@@ -1,0 +1,114 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2038,
+      "hub_id": 2720,
+      "guid": null,
+      "name": "Hideout Cat",
+      "slug": "hideout-cat",
+      "teaser": "The only thing in Tarkov that actually loves you.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2720.png",
+      "downloads": 41845,
+      "favourites_count": 5,
+      "description": "<p>Hideout cat. He wanders and sits around the place. You can pet him.<br />\nTo unlock the cat Nutrition Unit 1 needs to be built.</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.postimg.cc/PrqWhSmz/banner3.webp\" alt=\"banner3.webp\" /></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://rimgo.vern.cc/vKRw58b.gif\" alt=\"vKRw58b.gif\" /></p>\n<p><em>The mesh model and animations are from <a target=\"_blank\" class=\"external-link\" href=\"https://www.fab.com/listings/4fa9591d-945e-41be-b37b-b39e4539602a\" rel=\"noreferrer noopener\">fab</a> with a custom coat texture colored after my childhood cat.<br />\nConsider supporting my work by joining paid membership on my <a target=\"_blank\" class=\"external-link\" href=\"https://www.youtube.com/@bigtarkin\" rel=\"noreferrer noopener\">yt channel</a>.</em></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2038/hideout-cat",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-03-17T03:58:56.000000Z",
+      "created_at": "2025-03-17T03:58:56.000000Z",
+      "updated_at": "2026-07-13T18:01:43.000000Z",
+      "owner": {
+        "id": 65264,
+        "name": "tarkin",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/3458fcb0a0ba6b7402a1b797878ac6613f59c0e0_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-10-11T13:28:38.000000Z",
+        "updated_at": "2026-08-10T13:58:20.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 1114,
+          "hub_id": 13665,
+          "version": "1.0.1",
+          "description": "\\- fixed not spawning after hideout reload  \n\\- added 5 coat textures to choose from in BepInEx config (F12)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2038/hideout-cat/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 40481,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-18T03:10:33.000000Z",
+          "created_at": "2025-03-18T03:10:33.000000Z",
+          "updated_at": "2026-07-13T18:01:41.000000Z"
+        },
+        {
+          "id": 1140,
+          "hub_id": 13637,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2038/hideout-cat/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1364,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-17T03:58:56.000000Z",
+          "created_at": "2025-03-17T03:58:56.000000Z",
+          "updated_at": "2026-07-13T18:01:43.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/bmpq/spt-hideoutcat",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 1114,
+      "hub_id": 13665,
+      "version": "1.0.1",
+      "description": "<p>- fixed not spawning after hideout reload<br />\n- added 5 coat textures to choose from in BepInEx config (F12)</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2038/hideout-cat/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 40481,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-18T03:10:33.000000Z",
+      "created_at": "2025-03-18T03:10:33.000000Z",
+      "updated_at": "2026-07-13T18:01:41.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/file/d/1wpn4FaqXc1_18xDr_0NF8X_8dkhAOjeG/view?usp=sharing"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

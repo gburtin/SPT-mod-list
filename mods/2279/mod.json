@@ -1,0 +1,125 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2279,
+      "hub_id": 2992,
+      "guid": null,
+      "name": "Trader Assort Extender",
+      "slug": "trader-assort-extender",
+      "teaser": "Add and remove items from traders",
+      "thumbnail": "",
+      "downloads": 622,
+      "favourites_count": 0,
+      "description": "<p>This mod allows you to add and remove items from traders, including custom traders, I recommend using <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2112-debug-tooltip/#overview\" rel=\"noreferrer noopener\">Debug Tooltip</a> by Tyfon to easily copy and paste the TPL’s when removing items from traders, make sure to do so from within the trader’s inventory itself.</p>\n<p><strong>Mod’s current features:</strong></p>\n<p>- Add items to a trader’s stock<br />\n- Remove items from a trader’s stock<br />\n- You can have multiple assort/remove files as long as the file name ends in assort.json or remove.json ex. custom_assort.json<br />\n- The mod loads the remove.json files FIRST and then the assort.json files secondly, meaning you can remove an item from a trader, using remove.json<br />\nand add it back using assort.json if you want an item at a different price or trader tier<br />\n- This mod <em>*SHOULD*</em> work with adding/removing modded items from a trader’s stock, I haven’t tested this enough though</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2279/trader-assort-extender",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-09-03T03:32:43.000000Z",
+      "created_at": "2025-09-03T03:32:43.000000Z",
+      "updated_at": "2026-07-13T18:00:08.000000Z",
+      "owner": {
+        "id": 9529,
+        "name": "GoatBoy",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/74861bf3bfe7c272167d0970d61b10db5985b4e3_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/60aW4vyZjJ8MiDeIvK6QlHRZD8PwzBGFcirQFGwa.png",
+        "created_at": "2021-09-24T04:21:11.000000Z",
+        "updated_at": "2026-08-10T06:34:24.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11832,
+          "hub_id": null,
+          "version": "1.0.1",
+          "description": "Added:\n- You can set items as quest rewards, however the item does not display as a reward when viewing the quest in game, haven't found a work around\n\nChanged:\n- When removing an item from the trader, it now uses the ID instead of the TPL, this means if a trader has multiple listings of the same item, you can pick and choose what to remove\n\nAny issues please let me know, I'm not 100% I will update to 4.0.0",
+          "link": "https://forge.sp-tarkov.com/mod/download/2279/trader-assort-extender/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 214,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-13T20:31:34.000000Z",
+          "created_at": "2025-10-13T20:25:16.000000Z",
+          "updated_at": "2026-05-14T06:39:41.000000Z"
+        },
+        {
+          "id": 1,
+          "hub_id": 14911,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2279/trader-assort-extender/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 408,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-03T03:32:43.000000Z",
+          "created_at": "2025-09-03T03:32:43.000000Z",
+          "updated_at": "2026-07-13T18:00:08.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11832,
+      "hub_id": null,
+      "version": "1.0.1",
+      "description": "<p>Added:</p>\n<ul>\n<li>You can set items as quest rewards, however the item does not display as a reward when viewing the quest in game, haven’t found a work around</li>\n</ul>\n<p>Changed:</p>\n<ul>\n<li>When removing an item from the trader, it now uses the ID instead of the TPL, this means if a trader has multiple listings of the same item, you can pick and choose what to remove</li>\n</ul>\n<p>Any issues please let me know, I’m not 100% I will update to 4.0.0</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2279/trader-assort-extender/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 214,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-13T20:31:34.000000Z",
+      "created_at": "2025-10-13T20:25:16.000000Z",
+      "updated_at": "2026-05-14T06:39:41.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1,
+      "hub_id": 14911,
+      "version": "1.0.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2279/trader-assort-extender/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 408,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-03T03:32:43.000000Z",
+      "created_at": "2025-09-03T03:32:43.000000Z",
+      "updated_at": "2026-07-13T18:00:08.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2279/TraderAssortExtender1.0.1.zip",
+    "bytes_written": 13854,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1075664243/90d93ab1-bc14-4de2-8bd3-bd2837170a46?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A43%3A17Z&rscd=attachment%3B+filename%3DTraderAssortExtender1.0.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A42%3A41Z&ske=2026-08-10T16%3A43%3A17Z&sks=b&skv=2018-11-09&sig=hbZSTGSp6uzx33HkH8A%2B%2FRGUKOwHyKjBDCBpzhlUxOc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzM1MSwibmJmIjoxNzg2Mzc3MDUxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.OSpPcxZ_XHxGl2L_How-jTvbZSwTyxrsJiVKiXwHMfM&response-content-disposition=attachment%3B%20filename%3DTraderAssortExtender1.0.1.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

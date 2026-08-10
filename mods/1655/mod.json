@@ -1,0 +1,124 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1655,
+      "hub_id": 2255,
+      "guid": null,
+      "name": "Custom Kill Messages",
+      "slug": "custom-kill-messages",
+      "teaser": "Ever wanted the AI to trashtalk you (or your friends) harder after a raid? Now they can! Fully, 100% customizable!",
+      "thumbnail": "",
+      "downloads": 3824,
+      "favourites_count": 0,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Mod Info</div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Custom Kill Messages</div>\n<div class=\"tab-content\"><p>**Find out more about what EFT mods I’m working on here!</p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">https://trello.com/b/CONaHPTn/…i-mods-by</div>\n<div class=\"tab-content\"><p>Want to support my work? Consider clicking the link below!</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/rairaitheraichu\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://storage.ko-fi.com/cdn/kofi4.png?v=3\" alt=\"kofi4.png?v=3\" /></a></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/mgjvtlx.png\" alt=\"mgjvtlx.png\" /></p>\n<p>This mod allows server hosts to add custom messages that an AI PMC might send a player after being killed by them or if the player was killed by the AI. By default, the mod will not do anything unless custom messages are added to the list in the config.jsonc file. You can add messages to the pool of possible messages to send, or only allow your custom messages to be sent (disable all of the original messages).</p>\n<p>As a side function, you can also add PMC names to the name pool, which will allow PMC AI to possibly generate with that name (on the kill screen and dogtags, for example). Flea market listings may also have these names show.</p>\n<p>Be mindful of the messages you add, as it can possibly be seen by any player on the server.</p>\n<p>Please do not share images of any harmful, derogatory, or hateful messages.</p>\n<p>The config.jsonc has extensive documentation on how to add messages, along with plenty of options to tweak with examples.</p>\n<p>Currently, you can only add these messages to one language key. In the future, I may refactor it to add certain messages to specific languages, but for now, you can set the language in the config (english by default).</p>\n<p>This mod also overrides the default SPT method “chooseMessage()” in PmcChatResponseService. It’s *highly* unlikely any other mod touches this method, but just as a notice for other modders regarding compatibility.</p>\n<p>This mod should be compatible with any other mod, however, the ability to add PMC AI names may be overwritten *or* overwrite other mods. When in doubt, use a Load Order Editor and allow this mod to load last, so the changes within this mod are sure to stick.</p>\n<p>A quick note on Realism, disable “Real PMC Names” in the Bots tab of the mod config tool, otherwise it will overwrite the changes from any PMC names you add from this mod.</p></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">Changelog</div>\n<div class=\"tab-content\"><ul>\n<li>March 28th, 2025:\n<ul>\n<li>Small update to PmcChatResponseService method.</li>\n<li>Minor refactoring.</li>\n<li>Minor change to the version in the package.json, compatible with version 3.11.0+ of SPT.</li>\n</ul>\n</li>\n</ul></div></div>\n<div id=\"tabset-1-panel-5\" class=\"tab-panel\"><div class=\"tab-title\">Bug Reports</div>\n<div class=\"tab-content\"><p>If you encounter any issues, please feel free to contact me on Discord (RaiRaiTheRaichu) (This includes incompatibilities you may find with other mods!)</p>\n<p>You can leave a comment here, as well, but response time may be significantly longer as I do not usually check my inbox here often.</p>\n<p><strong>Please include any logs generated from the console as well to help me narrow down the issue.</strong></p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1655/custom-kill-messages",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-08-15T02:42:26.000000Z",
+      "created_at": "2024-08-15T02:42:26.000000Z",
+      "updated_at": "2026-07-13T18:01:24.000000Z",
+      "owner": {
+        "id": 3576,
+        "name": "RaiRaiTheRaichu",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/b7b8eb01816280f8cac17bf8bcafd05c6ed66378_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2021-03-25T12:16:15.000000Z",
+        "updated_at": "2026-08-04T18:19:06.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 943,
+          "hub_id": 13848,
+          "version": "1.0.1",
+          "description": "Changelog:\n\nSmall update to PmcChatResponseService method.\n\nMinor refactoring.\n\nMinor change to the version in the package.json, compatible with version 3.11.0+ of SPT.\n\nHey! Thanks for downloading, if you'd like to support my work, you're more than welcome to support me at the link below or follow along at my Ko-Fi page here:\n\n<https://ko-fi.com/rairaitheraichu>",
+          "link": "https://forge.sp-tarkov.com/mod/download/1655/custom-kill-messages/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2114,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-29T00:23:33.000000Z",
+          "created_at": "2025-03-29T00:23:33.000000Z",
+          "updated_at": "2026-07-13T18:01:24.000000Z"
+        },
+        {
+          "id": 3072,
+          "hub_id": 11346,
+          "version": "1.0.0",
+          "description": "Built for SPT 3.9.X.\n\nHey! Thanks for downloading, if you'd like to support my work, you're more than welcome to support me at the link below or follow along at my Ko-Fi page here:\n\n<https://ko-fi.com/rairaitheraichu>",
+          "link": "https://forge.sp-tarkov.com/mod/download/1655/custom-kill-messages/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.9.0",
+          "downloads": 1710,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-08-15T02:42:26.000000Z",
+          "created_at": "2024-08-15T02:42:26.000000Z",
+          "updated_at": "2026-07-03T18:03:51.000000Z"
+        }
+      ],
+      "license": {
+        "id": 10,
+        "hub_id": 13,
+        "name": "Apache License 2.0",
+        "link": "https://choosealicense.com/licenses/apache-2.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 943,
+      "hub_id": 13848,
+      "version": "1.0.1",
+      "description": "<p>Changelog:</p>\n<p>Small update to PmcChatResponseService method.</p>\n<p>Minor refactoring.</p>\n<p>Minor change to the version in the package.json, compatible with version 3.11.0+ of SPT.</p>\n<p>Hey! Thanks for downloading, if you’d like to support my work, you’re more than welcome to support me at the link below or follow along at my Ko-Fi page here:</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/rairaitheraichu\" rel=\"noreferrer noopener\">https://ko-fi.com/rairaitheraichu</a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1655/custom-kill-messages/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2114,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-29T00:23:33.000000Z",
+      "created_at": "2025-03-29T00:23:33.000000Z",
+      "updated_at": "2026-07-13T18:01:24.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 3072,
+      "hub_id": 11346,
+      "version": "1.0.0",
+      "description": "<p>Built for SPT 3.9.X.</p>\n<p>Hey! Thanks for downloading, if you’d like to support my work, you’re more than welcome to support me at the link below or follow along at my Ko-Fi page here:</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/rairaitheraichu\" rel=\"noreferrer noopener\">https://ko-fi.com/rairaitheraichu</a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1655/custom-kill-messages/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.9.0",
+      "downloads": 1710,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-08-15T02:42:26.000000Z",
+      "created_at": "2024-08-15T02:42:26.000000Z",
+      "updated_at": "2026-07-03T18:03:51.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/file/d/1G2GWafpLz_KTpgXBwOkzUlRMO_NvjuEh/view?usp=sharing"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

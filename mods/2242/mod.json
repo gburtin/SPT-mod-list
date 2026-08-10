@@ -1,0 +1,132 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2242,
+      "hub_id": 2946,
+      "guid": null,
+      "name": "Live Bitcoin PVE Prices",
+      "slug": "live-bitcoin-pve-prices",
+      "teaser": "Adjust SPT Bitcoin prices to match PVE Live!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2946.webp",
+      "downloads": 3167,
+      "favourites_count": 0,
+      "description": "<p>This mod dynamically updates the in-game price of Bitcoin in SPT to match its current value in live Tarkov for the PVE gamemode.</p>\n<p>This mod is just an additional update to the first mod from Shardbyte and Amightytank’s update to that mod.</p>\n<p>- Supports SPT 3.11.0–3.11.x</p>\n<p>Bitcoin price data is fetched live from <a target=\"_blank\" class=\"external-link\" href=\"https://tarkov.dev/\" rel=\"noreferrer noopener\">Tarkov Dev</a></p>\n<p>Stay updated with the current PVE price for <a target=\"_blank\" class=\"external-link\" href=\"https://tarkov.dev/item/physical-bitcoin\" rel=\"noreferrer noopener\">Bitcoin</a></p>\n<p>Only mess with config if you understand what you are doing/changing.</p>\n<p>Config Features:</p>\n<p>updateInterval: 2700 seconds to allow 45 minutes between updates</p>\n<p>enableLogging - on by default, this just shows you the price updating in the server console, feel free to disable this.</p>\n<p>enableperiodicUpdates - enable or disable the 45 minute timer</p>\n<p>enablePriceCaching - Now functioning, this is allows the mod to fallback on the last price taken from API incase of api failing or no internet.</p>\n<p>Feel free to leave feedback, this is my first mod uploaded.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2242/live-bitcoin-pve-prices",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-08-04T14:57:36.000000Z",
+      "created_at": "2025-08-04T14:57:36.000000Z",
+      "updated_at": "2026-07-07T16:59:09.000000Z",
+      "owner": {
+        "id": 82547,
+        "name": "AzraelM",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=A&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2025-07-31T00:22:09.000000Z",
+        "updated_at": "2026-07-04T08:59:13.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 59593,
+          "name": "Shardbyte",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/77bdfa183274cb70e11752230e6e2c9a6a0ede07_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2024-07-26T17:38:38.000000Z",
+          "updated_at": "2026-07-10T04:51:27.000000Z"
+        },
+        {
+          "id": 59864,
+          "name": "AmightyTank",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/ca455d7c3c3a7a3a5f0c349de15469a9aedb1443_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2024-07-29T05:47:41.000000Z",
+          "updated_at": "2026-08-10T12:37:38.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 127,
+          "hub_id": 14758,
+          "version": "1.0.2",
+          "description": "Added price caching functionality, it falls back on last price cached in case of api failure or no internet connection.\n\nI did not get to fully test this, please leave a comment if it fails in anyway.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2242/live-bitcoin-pve-prices/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2566,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-07T18:06:03.000000Z",
+          "created_at": "2025-08-07T18:06:03.000000Z",
+          "updated_at": "2026-05-14T01:38:41.000000Z"
+        },
+        {
+          "id": 146,
+          "hub_id": 14737,
+          "version": "1.0.1",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2242/live-bitcoin-pve-prices/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 601,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-04T14:57:36.000000Z",
+          "created_at": "2025-08-04T14:57:36.000000Z",
+          "updated_at": "2026-05-14T01:38:49.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/uobody/PVEBTC_Live",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 127,
+      "hub_id": 14758,
+      "version": "1.0.2",
+      "description": "<p>Added price caching functionality, it falls back on last price cached in case of api failure or no internet connection.</p>\n<p>I did not get to fully test this, please leave a comment if it fails in anyway.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2242/live-bitcoin-pve-prices/1.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2566,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-08-07T18:06:03.000000Z",
+      "created_at": "2025-08-07T18:06:03.000000Z",
+      "updated_at": "2026-05-14T01:38:41.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2242/PVEBTC_Live.zip",
+    "bytes_written": 8451,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1031916522/e543361b-a698-41a7-9a23-010397e33558?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A45%3A09Z&rscd=attachment%3B+filename%3DPVEBTC_Live.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A45%3A01Z&ske=2026-08-10T16%3A45%3A09Z&sks=b&skv=2018-11-09&sig=%2Fuq1SnxP87Cy3r7OrfI1PzvaaQ86unqTCzJYPHXBWoU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzU4NiwibmJmIjoxNzg2Mzc3Mjg2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.5fZSqMAnkp0Zd8cy-hy_W14xkK57mSwfmbNKZyLBrpE&response-content-disposition=attachment%3B%20filename%3DPVEBTC_Live.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.2",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2095,
+      "hub_id": 2780,
+      "guid": "xyz.drakia.nobosspmcs",
+      "name": "No Boss PMCs",
+      "slug": "no-boss-pmcs",
+      "teaser": "Simply removes boss brains from the PMC brain pool",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/IJl7wZpbwvRvLNGk76HeDlgvNkMVP7kTk2Sr5oKB.png",
+      "downloads": 14392,
+      "favourites_count": 0,
+      "description": "<h1>This mod is no longer necessary for SPT 4.0+, do not bug me about updating it</h1>\n<hr />\n<p><strong>THIS MOD IS NOT COMPATIBLE WITH SAIN</strong></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://media1.tenor.com/m/qgH6DP_T99oAAAAd/reading-sign.gif\" alt=\"reading-sign.gif\" /></p>\n<h3>Instructions this way</h3>\n<h3>↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</h3>\n<h3>↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</h3>\n<h3>↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</h3>\n<h3>↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</h3>\n<h3>↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓↓</h3>\n<p>This is a very simple mod that removes all boss brains from PMCs, and makes them only utilize BSGs PMC AI. This should help reduce the amount of times you get shot from extreme distances, and other strange behaviour generally only associated with bosses.</p>\n<ul>\n<li>All PMCs now only have a single brain choice (pmcBEAR for bear, pmcUSEC for usec)</li>\n<li>Player scavs choose randomly between pmcBEAR, pmcUSEC, or assault</li>\n</ul>\n<p>But why does SPT include boss brains in PMCs?</p>\n<p>Prior to BSG adding PvE, there was no PMC AI in Tarkov. This meant that for variety and difficulty, SPT needed to use boss brains to “fill in the gaps”.</p>\n<p>Modern versions of SPT still utilize boss brains to give variety, and a sense of running into more challenging opponents. However some users find these encounters frustrating, which is why I’ve made this mod.</p>\n<h3>Installation</h3>\n<p>1) Open the downloaded zip file in <a target=\"_blank\" class=\"external-link\" href=\"https://www.7-zip.org/\" rel=\"noreferrer noopener\">7-zip</a></p>\n<p>2) Select the folder in the zip file in <a target=\"_blank\" class=\"external-link\" href=\"https://www.7-zip.org/\" rel=\"noreferrer noopener\">7-zip</a></p>\n<p>3) Drag the selected folder from <a target=\"_blank\" class=\"external-link\" href=\"https://www.7-zip.org/\" rel=\"noreferrer noopener\">7-zip</a> into your SPT folder</p>\n<p>Demonstration Video (Yes this video is for Live Flea Prices, I’m not making unique install videos per mod. No you don’t need to drop it onto the Launcher license file, just drop it in your SPT folder. Yes, the SPT server/launcher are named different, this is an old install gif, it doesn’t matter):</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://i.imgur.com/wMIskD3.gif\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/wMIskD3.gif\" alt=\"wMIskD3.gif\" /></a></p>\n<p>If you enjoy my work, you can <a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/drakiaxyz\" rel=\"noreferrer noopener\">feed my caffeine addiction</a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2095/no-boss-pmcs",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 5,
+      "published_at": "2025-04-12T17:05:00.000000Z",
+      "created_at": "2025-04-12T17:05:38.000000Z",
+      "updated_at": "2026-07-13T21:04:07.000000Z",
+      "owner": {
+        "id": 27605,
+        "name": "DrakiaXYZ",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/M9qMWlknCITEk33QXO07mJG0j8qP4xhz1QOsHUHD_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2023-02-26T18:51:50.000000Z",
+        "updated_at": "2026-08-10T15:00:42.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 808,
+          "hub_id": 13999,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2095/no-boss-pmcs/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 14392,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-12T17:05:38.000000Z",
+          "created_at": "2025-04-12T17:05:38.000000Z",
+          "updated_at": "2026-05-14T01:58:40.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 5,
+        "hub_id": 22,
+        "title": "Bots",
+        "slug": "bots",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/DrakiaXYZ/SPT-NoBossPMCs",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 808,
+      "hub_id": 13999,
+      "version": "1.0.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2095/no-boss-pmcs/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 14392,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-04-12T17:05:38.000000Z",
+      "created_at": "2025-04-12T17:05:38.000000Z",
+      "updated_at": "2026-05-14T01:58:40.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2095/DrakiaXYZ-NoBossPMCs-1.0.0.zip",
+    "bytes_written": 1410,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/961686143/9a9f193d-f9d4-4c51-b45d-3246b2642c49?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A21%3A19Z&rscd=attachment%3B+filename%3DDrakiaXYZ-NoBossPMCs-1.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A20%3A48Z&ske=2026-08-10T16%3A21%3A19Z&sks=b&skv=2018-11-09&sig=z0RvFFjD8%2FRjTgngqO5kyOm6JUo6oZkjnKwPxdKAvP0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzE1NiwibmJmIjoxNzg2Mzc2ODU2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.zUC5H0ydeCbkuzERxi3PWUlSN2l-80iLHdnbi7amMuI&response-content-disposition=attachment%3B%20filename%3DDrakiaXYZ-NoBossPMCs-1.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,158 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1829,
+      "hub_id": 2475,
+      "guid": null,
+      "name": "Configurable Stim Uses",
+      "slug": "configurable-stim-uses",
+      "teaser": "Configure the amount of uses of stims. That's it.",
+      "thumbnail": "",
+      "downloads": 2982,
+      "favourites_count": 0,
+      "description": "<p><strong>Configure the amount of uses stims have with a config file.</strong></p>\n<p><em><strong>Without editing the config this mod will change nothing</strong></em></p>\n<p><strong>Usage</strong></p>\n<p>To change stim uses:</p>\n<ol>\n<li>Open SPT\\user\\mods\\ConfigurableStimUses\\config\\config.json</li>\n<li>Edit <em><strong>“uses”</strong></em> to desire amount</li>\n<li>Save the file</li>\n</ol>\n<p><strong>Installation</strong></p>\n<ol>\n<li>Download</li>\n<li>Extract zip to SPT root</li>\n<li>Probably put at bottom of load order</li>\n</ol>\n<p>s/o to Chomp for mod examples</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1829/configurable-stim-uses",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-11-08T15:22:16.000000Z",
+      "created_at": "2024-11-08T15:22:16.000000Z",
+      "updated_at": "2026-05-14T03:22:33.000000Z",
+      "owner": {
+        "id": 59721,
+        "name": "GeneralGoon",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=G&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2024-07-27T20:15:55.000000Z",
+        "updated_at": "2025-10-05T01:01:53.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 615,
+          "hub_id": 14225,
+          "version": "1.0.3",
+          "description": "Updated for SPT 3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/1829/configurable-stim-uses/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1169,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-11T21:25:59.000000Z",
+          "created_at": "2025-05-11T21:25:59.000000Z",
+          "updated_at": "2026-05-14T01:52:45.000000Z"
+        },
+        {
+          "id": 2274,
+          "hub_id": 12336,
+          "version": "1.0.2",
+          "description": "Updated for SPT 3.10",
+          "link": "https://forge.sp-tarkov.com/mod/download/1829/configurable-stim-uses/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 1169,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-27T14:59:57.000000Z",
+          "created_at": "2024-11-27T14:59:57.000000Z",
+          "updated_at": "2026-05-14T03:18:57.000000Z"
+        },
+        {
+          "id": 2451,
+          "hub_id": 12128,
+          "version": "1.0.1",
+          "description": "Fixed an oopsie.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1829/configurable-stim-uses/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 504,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-08T15:28:38.000000Z",
+          "created_at": "2024-11-08T15:28:38.000000Z",
+          "updated_at": "2026-05-14T03:22:32.000000Z"
+        },
+        {
+          "id": 2453,
+          "hub_id": 12126,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1829/configurable-stim-uses/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 140,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-08T15:22:16.000000Z",
+          "created_at": "2024-11-08T15:22:16.000000Z",
+          "updated_at": "2026-05-14T03:22:33.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/GeneralGoon/ConfigurableStimUses",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 615,
+      "hub_id": 14225,
+      "version": "1.0.3",
+      "description": "<p>Updated for SPT 3.11</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1829/configurable-stim-uses/1.0.3",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1169,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-11T21:25:59.000000Z",
+      "created_at": "2025-05-11T21:25:59.000000Z",
+      "updated_at": "2026-05-14T01:52:45.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2274,
+      "hub_id": 12336,
+      "version": "1.0.2",
+      "description": "<p>Updated for SPT 3.10</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1829/configurable-stim-uses/1.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 1169,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-11-27T14:59:57.000000Z",
+      "created_at": "2024-11-27T14:59:57.000000Z",
+      "updated_at": "2026-05-14T03:18:57.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1829/generalgoon-configurablestimuses.zip",
+    "bytes_written": 3749,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/885432850/125087fe-5563-4924-bea0-c53a89d36f58?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A20%3A48Z&rscd=attachment%3B+filename%3Dgeneralgoon-configurablestimuses.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A20%3A06Z&ske=2026-08-10T16%3A20%3A48Z&sks=b&skv=2018-11-09&sig=cMGA3j6M2OZubqYz0Lal7LjBKDiscCEp5tGjof1l3iI%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NjY3NywibmJmIjoxNzg2Mzc2Mzc3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.QoGIR4lc5qJBh0s7uc58mHzBTL1lsBU1DGNP6aZVOgw&response-content-disposition=attachment%3B%20filename%3Dgeneralgoon-configurablestimuses.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.3",
+    "same_as_primary_download": true
+  }
+}

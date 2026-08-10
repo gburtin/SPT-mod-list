@@ -1,0 +1,124 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2039,
+      "hub_id": 2721,
+      "guid": null,
+      "name": "Discord Bot Names",
+      "slug": "discord-bot-names",
+      "teaser": "Changes the names of your PMC bots to be the names of the regulars in the SPT community.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2721.png",
+      "downloads": 4412,
+      "favourites_count": 0,
+      "description": "<p>Simple mod with ~485 names of regulars in the SPT (and adjacent) Discord or community. These are people that I’ve interacted with over the past few days that I can think of off the top of my head, if you’re not in here don’t worry, I have ADHD and can’t remember what I’m doing half the time, it’s nothing personal. I’ll probably make some updates, just let me know on discord and I’ll make a note of it and add you in next update!</p>\n<p>UPDATE: V1.0.1 Adds back in the original bot names from SPT, making sure all those people are properly represented and thanked. This will remove all the default BSG names from PMCs. Every PMC you encounter will have the name of someone who is a member of the SPT community in some way.</p>\n<p>Thanks to all the Discord people for being a fun community. I can’t wait to shoot you in the face and put your Dogtag in my trophy collection.</p>\n<p>Thanks to PenOkOh whose code I heavily stole from to make this work.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2039/discord-bot-names",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-03-17T21:34:53.000000Z",
+      "created_at": "2025-03-17T21:34:53.000000Z",
+      "updated_at": "2026-07-13T18:01:42.000000Z",
+      "owner": {
+        "id": 72782,
+        "name": "Saryn",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/decb57144148d82bfa7361c336810ee6157bfa7b_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-02-02T18:36:01.000000Z",
+        "updated_at": "2026-07-10T04:51:50.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 1080,
+          "hub_id": 13703,
+          "version": "1.0.2",
+          "description": "changed file structure to support drag and drop install\n\nadded a few names",
+          "link": "https://forge.sp-tarkov.com/mod/download/2039/discord-bot-names/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 3808,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-20T13:08:28.000000Z",
+          "created_at": "2025-03-20T13:08:28.000000Z",
+          "updated_at": "2026-05-14T02:03:57.000000Z"
+        },
+        {
+          "id": 1116,
+          "hub_id": 13663,
+          "version": "1.0.1",
+          "description": "Added a ton of names and added back in the original SPT list. This will add all the Discord names I added, add back in the original contributor names, and remove the BSG names, everyone in this list should be part of the SPT community somehow.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2039/discord-bot-names/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 442,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-18T00:21:46.000000Z",
+          "created_at": "2025-03-18T00:21:46.000000Z",
+          "updated_at": "2026-05-14T02:04:18.000000Z"
+        },
+        {
+          "id": 1119,
+          "hub_id": 13660,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2039/discord-bot-names/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 162,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-17T21:34:53.000000Z",
+          "created_at": "2025-03-17T21:34:53.000000Z",
+          "updated_at": "2026-07-13T18:01:42.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 1080,
+      "hub_id": 13703,
+      "version": "1.0.2",
+      "description": "<p>changed file structure to support drag and drop install</p>\n<p>added a few names</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2039/discord-bot-names/1.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 3808,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-20T13:08:28.000000Z",
+      "created_at": "2025-03-20T13:08:28.000000Z",
+      "updated_at": "2026-05-14T02:03:57.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2039/saryn-DiscordBotNames.7z",
+    "bytes_written": 5552,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/950243935/f21b3579-2806-4b2d-baa3-1671f1e07c73?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A47%3A39Z&rscd=attachment%3B+filename%3Dsaryn-DiscordBotNames.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A47%3A03Z&ske=2026-08-10T16%3A47%3A39Z&sks=b&skv=2018-11-09&sig=gRUStNXLa%2F59JIi6DbQWxaRHoUfR87hPx9sD668zAEg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3Nzc0OSwibmJmIjoxNzg2Mzc3NDQ5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.fL1pZso3uIl_eLjaBvGAWIP7xQicc5ahIu4DeiTh1-M&response-content-disposition=attachment%3B%20filename%3Dsaryn-DiscordBotNames.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.2",
+    "same_as_primary_download": true
+  }
+}

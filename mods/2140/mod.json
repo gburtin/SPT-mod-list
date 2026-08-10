@@ -1,0 +1,107 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2140,
+      "hub_id": 2839,
+      "guid": "com.solethia.questbarters",
+      "name": "Quest Barters",
+      "slug": "quest-barters",
+      "teaser": "Non-gunsmith quest barters primarily for hardcore runs.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2839.png",
+      "downloads": 779,
+      "favourites_count": 0,
+      "description": "<h1>Solethia’s Quest Barters</h1>\n<p>The purpose of Quest Barters is to add guns and attachments required for quests, primarily to make quests easier to do on hardcore runs. As I’ve already made Gunsmith Barters for the gunsmith quests this mod does not cover items for those quests. If you in general just want more barters this mod will also fill that niche. This mod works well with mods that remove non-barters like the Hardcore Rules mod. In an attempt to maintain the spirit of hardcore an attempt to make the barter cost balanced was made. Feel free to give feedback on incorrect, missing or unbalanced entries. Only items normally provided by traders for money will be added using the same trader level and quest requirements as the money trade.</p>\n<p>Pairs well with the <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1054-hardcore-rules/\" rel=\"noreferrer noopener\">hardcore rules</a> mod by DanW and my other mod <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2640-gunsmith-barters/\" rel=\"noreferrer noopener\">Gunsmith Barters</a>.</p>\n<h3>Quests</h3>\n<p>Below you can see what quests the mod covers and what barter items was added for those quests.</p>\n<h2>Quests</h2>\n<p>Below you can see what quests the mod covers and what barter items was added for those quests.</p>\n<h3>Hell on Earth Part 1</h3>\n<table>\n<thead>\n<tr>\n<th>Added Item</th>\n<th>Barter Cost</th>\n<th>Trader</th>\n<th>Quest Restriction</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>MP-43-1C 12ga double-barrel shotgun</td>\n<td>2x Shustrilo sealing foam</td>\n<td>Jaeger LVL1</td>\n<td>None</td>\n</tr>\n<tr>\n<td>MP-43-1C 12ga 510mm barrel</td>\n<td>3x Silicone Tube</td>\n<td>Jaeger LVL1</td>\n<td>None</td>\n</tr>\n</tbody>\n</table>\n<h3>Test Drive Part 4</h3>\n<table>\n<thead>\n<tr>\n<th>Added Item</th>\n<th>Barter Cost</th>\n<th>Trader</th>\n<th>Quest Restriction</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>NPZ 1P78-1 dovetail mount</td>\n<td>1x Rechargeable battery 1x Ortodontox toothpaste</td>\n<td>Prapor LVL2</td>\n<td>None</td>\n</tr>\n<tr>\n<td>NPZ 1P78-1 2.8x scope</td>\n<td>1x Rechargeable battery 1x Cyclon rechargeable battery</td>\n<td>Prapor LVL2</td>\n<td>None</td>\n</tr>\n</tbody>\n</table>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2140/quest-barters",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 16,
+      "published_at": "2025-05-18T20:53:00.000000Z",
+      "created_at": "2025-05-18T20:53:22.000000Z",
+      "updated_at": "2026-07-07T16:59:07.000000Z",
+      "owner": {
+        "id": 71484,
+        "name": "Solethia",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=S&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2025-01-13T17:31:52.000000Z",
+        "updated_at": "2026-07-31T17:28:18.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 570,
+          "hub_id": 14284,
+          "version": "1.1.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2140/quest-barters/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 779,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-18T20:53:22.000000Z",
+          "created_at": "2025-05-18T20:53:22.000000Z",
+          "updated_at": "2026-05-14T01:50:41.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 16,
+        "hub_id": 29,
+        "title": "Traders",
+        "slug": "traders",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Solethia/Kipperworks.QuestBarters",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 570,
+      "hub_id": 14284,
+      "version": "1.1.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2140/quest-barters/1.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 779,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-18T20:53:22.000000Z",
+      "created_at": "2025-05-18T20:53:22.000000Z",
+      "updated_at": "2026-05-14T01:50:41.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2140/solethia-questbarters-1.1.0.zip",
+    "bytes_written": 10758,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/985712242/7f55532e-8bc5-46bd-abda-1933b4917fce?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A14%3A44Z&rscd=attachment%3B+filename%3Dsolethia-questbarters-1.1.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A14%3A17Z&ske=2026-08-10T16%3A14%3A44Z&sks=b&skv=2018-11-09&sig=0Zxqc632L8YMfyFLL1l9ljncvb1mxGkYnOB1%2F3bizlc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3Njc0OSwibmJmIjoxNzg2Mzc2NDQ5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.NoiQFD9zPrYhyczGeQDpd9G9PhzO0A1wwjXQp2v36x8&response-content-disposition=attachment%3B%20filename%3Dsolethia-questbarters-1.1.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.1.0",
+    "same_as_primary_download": true
+  }
+}

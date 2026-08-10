@@ -1,0 +1,107 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1146,
+      "hub_id": 1581,
+      "guid": null,
+      "name": "Unity Bundle CAB-ID Changer",
+      "slug": "unity-bundle-cab-id-changer",
+      "teaser": "Quickly generate new CAB-IDs for all your new, modified bundles. Drag-and-drop support, batch file support.",
+      "thumbnail": "",
+      "downloads": 558,
+      "favourites_count": 0,
+      "description": "<p><strong>Unity Bundle CAB-ID Changer</strong></p>\n<p>This is a modding tool for Unity bundles. The CAB-ID is an MD5 hash of the bundle, stored in the header.</p>\n<p>If you use a program like UABE, you can replace textures, swap models, and so on within Unity bundles. If you are modding a Unity game that can load these new bundles, the CAB-ID needs to be unique as well or else Unity will crash. The CAB-ID will not automatically change when you replace the contents of a Unity bundle, therefore changing the ID manually is required. This tool automates that process.</p>\n<p>This script supports drag-and-drop file support as well as batch file support.</p>\n<p>Currently, changing bundle dependencies is not supported. This may change in the future.</p>\n<p>Why use this over the <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/183-tarkov-bundle-helper/\" rel=\"noreferrer noopener\">TarkovBundleHelper</a>? This allows multiple bundle files to be changed all in one action, very quickly, with drag and drop support. If you need the extended capabilities of the Bundle Helper, definitely use that instead. The source code is currently unavailable for the Bundle Helper so I made this from scratch.</p>\n<p><strong>Requirements</strong></p>\n<p>* Python 3.12.0</p>\n<p>You only need Python if you are not downloading the compiled binary. The binary is created using pyinstaller.</p>\n<p><strong>How To Use</strong></p>\n<p>- Extract ‘CAB_ID_Changer.exe’ to an unprotected folder (NOT within Program Files, etc)</p>\n<p>- Copy your Unity bundle(s) to the folder containing the ‘CAB_ID_Changer.exe’.</p>\n<p>- Drag and drop your bundle(s) onto the executable file and it will process all of them.</p>\n<p>Alternatively, you can run the script through the command line interface with the following format:</p>\n<p>- `CAB_ID_Changer.exe ‘someunitybundle.bundle’ ‘someotherunitybundle’ …</p>\n<p><strong>Contact</strong></p>\n<p>RaiRaiTheRaichu on Discord.</p>\n<p><strong>License</strong></p>\n<p>Do not reupload or redistribute anywhere <em>without explicit permission.</em> Share the link to either this page <em>or</em> the GitHub repository.</p>\n<p><strong>Additional Information</strong></p>\n<p><strong>Re: VirusTotal</strong></p>\n<p>The program is a short Python script compiled into an .exe via <em>pyinstaller</em> which bypasses the need for users to have the dependencies installed (Python 3.12). Many virus programs use Python scripts compiled into .exes to hide malware, thus, the executable matches some signatures of existing malware.</p>\n<p>Included in the repo is the source code. You <em>do not</em> need to run the .exe file at all - you can open up the .py file in notepad if you’d like and see exactly what the code is doing. If you install Python 3.12.0, you can drag and drop your bundles directly onto the .py script and it will function exactly the same. You are free to compile the code into an .exe yourself using pyinstaller and compare.</p>\n<p>If you aren’t aware of how Github releases work and don’t trust the .exe hosted there, <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/RaiRaiTheRaichu/Unity-Bundle-CAB-ID-Changer/actions/\" rel=\"noreferrer noopener\">please check out the Actions tab in the repo</a> and familiarize yourself with the build script - it’s fairly simple to understand. You can see the exact commands being run <em>by Github</em> to create the executable from the source code. The executable comes from those actions performed by Github - not uploaded from anyone else’s machine.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1146/unity-bundle-cab-id-changer",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 1,
+      "published_at": "2023-11-04T17:20:00.000000Z",
+      "created_at": "2023-11-04T17:20:15.000000Z",
+      "updated_at": "2026-06-05T06:06:40.000000Z",
+      "owner": {
+        "id": 3576,
+        "name": "RaiRaiTheRaichu",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/b7b8eb01816280f8cac17bf8bcafd05c6ed66378_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2021-03-25T12:16:15.000000Z",
+        "updated_at": "2026-08-04T18:19:06.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 5636,
+          "hub_id": 8144,
+          "version": "1.0.0",
+          "description": "Initial release.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1146/unity-bundle-cab-id-changer/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3",
+          "downloads": 558,
+          "fika_compatibility": "compatible",
+          "published_at": "2023-11-04T17:20:00.000000Z",
+          "created_at": "2023-11-04T17:20:15.000000Z",
+          "updated_at": "2026-06-05T06:06:40.000000Z"
+        }
+      ],
+      "license": {
+        "id": 15,
+        "hub_id": 18,
+        "name": "GNU GPLv3",
+        "link": "https://choosealicense.com/licenses/gpl-3.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 1,
+        "hub_id": 17,
+        "title": "Tools",
+        "slug": "tools",
+        "description": "Various standalone tools and programs that aren't installed like normal mods"
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/RaiRaiTheRaichu/Unity-Bundle-CAB-ID-Changer/",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 5636,
+      "hub_id": 8144,
+      "version": "1.0.0",
+      "description": "<p>Initial release.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1146/unity-bundle-cab-id-changer/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3",
+      "downloads": 558,
+      "fika_compatibility": "compatible",
+      "published_at": "2023-11-04T17:20:00.000000Z",
+      "created_at": "2023-11-04T17:20:15.000000Z",
+      "updated_at": "2026-06-05T06:06:40.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1146/Unity-Bundle-CAB-ID-Changer.zip",
+    "bytes_written": 7840588,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/714347587/fa97eb75-4c92-4d1d-ad21-04b22e37aec1?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A43%3A03Z&rscd=attachment%3B+filename%3DUnity-Bundle-CAB-ID-Changer.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A42%3A55Z&ske=2026-08-10T16%3A43%3A03Z&sks=b&skv=2018-11-09&sig=WToYloBOqW9SyiQP%2FDXg%2B1tvsClRRnjmT0vAHlWfeto%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzExNSwibmJmIjoxNzg2Mzc2ODE1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.A59ERKY8SBw1mJBA41PzfLyfbnqgy2Ya2QASv-t4xFA&response-content-disposition=attachment%3B%20filename%3DUnity-Bundle-CAB-ID-Changer.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

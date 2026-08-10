@@ -1,0 +1,138 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1648,
+      "hub_id": 2248,
+      "guid": null,
+      "name": "Old PK-06 Restoration",
+      "slug": "old-pk-06-restoration",
+      "teaser": "Restores the PK-06 sight to it's original look in 12.10;",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2248.png",
+      "downloads": 10307,
+      "favourites_count": 1,
+      "description": "<h2>Old PK-06</h2>\n<p>Returns the PK-06 to it’s original look in 12.10, I made this mod as replacement to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/801-betterpk06-reboot/\" rel=\"noreferrer noopener\">BetterPK06-Reboot</a>, I was given permission by <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/15342-teoa/\" rel=\"noreferrer noopener\">TEOA</a> to upload this mod as it’s replacement/alternative.</p>\n<p>It has a setting in the config for adjusting the price</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://media.discordapp.net/attachments/1267534548254589031/1272649245123416185/EscapeFromTarkov_Hd5fH5DEJ8.png?ex=66bbbe78&amp;is=66ba6cf8&amp;hm=1fddab9dae19a7bbe7b9ce4d8ef1b89193e0d10c2f819aea0062c5c84be87454&amp;=&amp;format=webp&amp;quality=lossless&amp;width=1193&amp;height=671\" alt=\"EscapeFromTarkov_Hd5fH5DEJ8.png?ex=66bbbe78&amp;is=66ba6cf8&amp;hm=1fddab9dae19a7bbe7b9ce4d8ef1b89193e0d10c2f819aea0062c5c84be87454&amp;=&amp;format=webp&amp;quality=lossless&amp;width=1193&amp;height=671\" /></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1648/old-pk-06-restoration",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2026-06-18T03:11:00.000000Z",
+      "created_at": "2024-08-12T20:09:47.000000Z",
+      "updated_at": "2026-07-13T18:02:59.000000Z",
+      "owner": {
+        "id": 26862,
+        "name": "Boogle",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/Q8DqhVD6tCUxzB7KA9eCQSdfTwMxk57AKnSwQ0XI_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/7020a362cf8799dbbe5ee5a3a9bed0083a6dfb9a_1280w.webp",
+        "created_at": "2023-02-12T21:19:29.000000Z",
+        "updated_at": "2026-08-02T06:37:19.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 671,
+          "hub_id": 14155,
+          "version": "1.0.2",
+          "description": "Updated to 3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/1648/old-pk-06-restoration/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 3917,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-03T18:48:32.000000Z",
+          "created_at": "2025-05-03T18:48:32.000000Z",
+          "updated_at": "2026-07-13T18:01:11.000000Z"
+        },
+        {
+          "id": 2333,
+          "hub_id": 12274,
+          "version": "1.0.1",
+          "description": "SPT 3.10  \n  \nGot rid of the flea multiplier, and just added a straight value for flea price.  \nAdded a config setting for Jaeger's price for it. Changed it from 8400 to 38000",
+          "link": "https://forge.sp-tarkov.com/mod/download/1648/old-pk-06-restoration/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 3362,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-26T18:55:39.000000Z",
+          "created_at": "2024-11-26T18:55:39.000000Z",
+          "updated_at": "2026-07-13T18:02:59.000000Z"
+        },
+        {
+          "id": 3099,
+          "hub_id": 11312,
+          "version": "1.0.0",
+          "description": "(realized too late I forgot to finish the readme file)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1648/old-pk-06-restoration/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 3028,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-08-12T20:09:47.000000Z",
+          "created_at": "2024-08-12T20:09:47.000000Z",
+          "updated_at": "2026-07-03T18:03:55.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 671,
+      "hub_id": 14155,
+      "version": "1.0.2",
+      "description": "<p>Updated to 3.11</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1648/old-pk-06-restoration/1.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 3917,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-03T18:48:32.000000Z",
+      "created_at": "2025-05-03T18:48:32.000000Z",
+      "updated_at": "2026-07-13T18:01:11.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2333,
+      "hub_id": 12274,
+      "version": "1.0.1",
+      "description": "<p>SPT 3.10</p>\n<p>Got rid of the flea multiplier, and just added a straight value for flea price.<br />\nAdded a config setting for Jaeger’s price for it. Changed it from 8400 to 38000</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1648/old-pk-06-restoration/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 3362,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-11-26T18:55:39.000000Z",
+      "created_at": "2024-11-26T18:55:39.000000Z",
+      "updated_at": "2026-07-13T18:02:59.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/file/d/1RxKB5bZwWJY729XK8svv6jPLZXaBE8OA/view?usp=sharing"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.2",
+    "same_as_primary_download": true
+  }
+}

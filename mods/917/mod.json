@@ -1,0 +1,216 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 917,
+      "hub_id": 1241,
+      "guid": null,
+      "name": "Two Slot Extended Mags",
+      "slug": "two-slot-extended-mags",
+      "teaser": "Makes 40-45 round extended mags only take 2 slots in the inventory instead of 3!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/1241.png",
+      "downloads": 52196,
+      "favourites_count": 0,
+      "description": "<p>Finally making them a more viable option before getting quad stack 60 rounders.</p>\n<p>Also prevents the base gun from being an extra row taller in the inventory when an extended mag is inserted.</p>\n<p>If you want the 100 round STANAG to also be 2 slots tall, set config.json -&gt; maxMagazineCapacityToBeIncluded to 100.</p>\n<p><strong>Installation:</strong></p>\n<p>Copy contents of zip file to &lt;spt-dir&gt;/user/mods.</p>\n<p><strong>Also clean Temp files using the Aki.Launcher settings in the top right to get updated icons for the new slot size!</strong></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/917/two-slot-extended-mags",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2023-06-11T07:14:15.000000Z",
+      "created_at": "2023-06-11T07:14:15.000000Z",
+      "updated_at": "2026-07-13T18:08:29.000000Z",
+      "owner": {
+        "id": 24114,
+        "name": "Platinum",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/4MlciHHHllHCzejbvjQcb9aOAgN7tDS49WVdG0ey_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2022-12-13T07:53:54.000000Z",
+        "updated_at": "2026-07-10T04:50:17.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 1069,
+          "hub_id": 13714,
+          "version": "1.0.5+b",
+          "description": "Updated for SPT 3.11. Beta/Untested.",
+          "link": "https://forge.sp-tarkov.com/mod/download/917/two-slot-extended-mags/1.0.5+b",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 17722,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-21T10:17:09.000000Z",
+          "created_at": "2025-03-21T10:17:09.000000Z",
+          "updated_at": "2026-05-14T02:03:48.000000Z"
+        },
+        {
+          "id": 3179,
+          "hub_id": 11209,
+          "version": "1.0.4",
+          "description": "Updated for 3.9.X",
+          "link": "https://forge.sp-tarkov.com/mod/download/917/two-slot-extended-mags/1.0.4",
+          "content_length": null,
+          "spt_version_constraint": "~3.9.0",
+          "downloads": 13034,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-08-05T10:46:36.000000Z",
+          "created_at": "2024-08-05T10:46:36.000000Z",
+          "updated_at": "2026-07-13T18:04:01.000000Z"
+        },
+        {
+          "id": 4859,
+          "hub_id": 9148,
+          "version": "1.0.3",
+          "description": "Updated for SPT 3.8.0",
+          "link": "https://forge.sp-tarkov.com/mod/download/917/two-slot-extended-mags/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "3.8.0",
+          "downloads": 9530,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-04-03T09:23:02.000000Z",
+          "created_at": "2024-04-03T09:23:02.000000Z",
+          "updated_at": "2026-07-13T18:05:55.000000Z"
+        },
+        {
+          "id": 6052,
+          "hub_id": 7624,
+          "version": "1.0.2",
+          "description": "Updated for SPT-AKI 3.7.\\*",
+          "link": "https://forge.sp-tarkov.com/mod/download/917/two-slot-extended-mags/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.7.0",
+          "downloads": 6589,
+          "fika_compatibility": "unknown",
+          "published_at": "2023-10-09T09:25:38.000000Z",
+          "created_at": "2023-10-09T09:25:38.000000Z",
+          "updated_at": "2026-07-13T18:07:25.000000Z"
+        },
+        {
+          "id": 6886,
+          "hub_id": 6468,
+          "version": "1.0.1",
+          "description": "For SPT-AKI 3.5.\\*, SPT-AKI 3.6.\\*\n\nChanges:\n\n\\- Reduced config.json minMagazineCapacityToBeIncluded to 10 to include Saiga 10 round ext mag.\n\n\\- Updated code to only look at existing extended mags that are over 2 slots tall (and 1 slot wide) so only 8 items are touched.",
+          "link": "https://forge.sp-tarkov.com/mod/download/917/two-slot-extended-mags/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 4777,
+          "fika_compatibility": "unknown",
+          "published_at": "2023-06-11T21:57:27.000000Z",
+          "created_at": "2023-06-11T21:57:27.000000Z",
+          "updated_at": "2026-07-13T18:08:29.000000Z"
+        },
+        {
+          "id": 6893,
+          "hub_id": 6461,
+          "version": "1.0.0",
+          "description": "For SPT-AKI 3.5.\\*",
+          "link": "https://forge.sp-tarkov.com/mod/download/917/two-slot-extended-mags/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 544,
+          "fika_compatibility": "unknown",
+          "published_at": "2023-06-11T07:14:15.000000Z",
+          "created_at": "2023-06-11T07:14:15.000000Z",
+          "updated_at": "2026-07-13T18:08:29.000000Z"
+        }
+      ],
+      "license": {
+        "id": 15,
+        "hub_id": 18,
+        "name": "GNU GPLv3",
+        "link": "https://choosealicense.com/licenses/gpl-3.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/gndworks/spt-2-slot-mags",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 1069,
+      "hub_id": 13714,
+      "version": "1.0.5+b",
+      "description": "<p>Updated for SPT 3.11. Beta/Untested.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/917/two-slot-extended-mags/1.0.5+b",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 17722,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-21T10:17:09.000000Z",
+      "created_at": "2025-03-21T10:17:09.000000Z",
+      "updated_at": "2026-05-14T02:03:48.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 3179,
+      "hub_id": 11209,
+      "version": "1.0.4",
+      "description": "<p>Updated for 3.9.X</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/917/two-slot-extended-mags/1.0.4",
+      "content_length": null,
+      "spt_version_constraint": "~3.9.0",
+      "downloads": 13034,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-08-05T10:46:36.000000Z",
+      "created_at": "2024-08-05T10:46:36.000000Z",
+      "updated_at": "2026-07-13T18:04:01.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 4859,
+      "hub_id": 9148,
+      "version": "1.0.3",
+      "description": "<p>Updated for SPT 3.8.0</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/917/two-slot-extended-mags/1.0.3",
+      "content_length": null,
+      "spt_version_constraint": "3.8.0",
+      "downloads": 9530,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-04-03T09:23:02.000000Z",
+      "created_at": "2024-04-03T09:23:02.000000Z",
+      "updated_at": "2026-07-13T18:05:55.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 6052,
+      "hub_id": 7624,
+      "version": "1.0.2",
+      "description": "<p>Updated for SPT-AKI 3.7.*</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/917/two-slot-extended-mags/1.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.7.0",
+      "downloads": 6589,
+      "fika_compatibility": "unknown",
+      "published_at": "2023-10-09T09:25:38.000000Z",
+      "created_at": "2023-10-09T09:25:38.000000Z",
+      "updated_at": "2026-07-13T18:07:25.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/917/platinum-twoslotextendedmags.zip",
+    "bytes_written": 2456,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/952430840/7c82a4a5-e110-4cd9-b10b-65a1f88e3855?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A49%3A01Z&rscd=attachment%3B+filename%3Dplatinum-twoslotextendedmags.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A48%3A13Z&ske=2026-08-10T16%3A49%3A01Z&sks=b&skv=2018-11-09&sig=kgTNoQA66QN5N8prYxXzHkyYPvzXx6KGU1kFMBZITQs%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzU4MywibmJmIjoxNzg2Mzc3MjgzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.tYdbiiTC-wXjn5f-ymCqg80ttj43JkSwOlcHCatTa_4&response-content-disposition=attachment%3B%20filename%3Dplatinum-twoslotextendedmags.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.5+b",
+    "same_as_primary_download": true
+  }
+}

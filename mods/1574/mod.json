@@ -1,0 +1,200 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1574,
+      "hub_id": 2153,
+      "guid": null,
+      "name": "Configurable Keys",
+      "slug": "configurable-keys",
+      "teaser": "Define how SPT keys & keycards work for you! (Starting with Unlimited uses)",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2153.png",
+      "downloads": 8194,
+      "favourites_count": 0,
+      "description": "<p>First of all, credits to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/49426-toha3673/\" rel=\"noreferrer noopener\">Toha3673</a> for the original mod idea .</p>\n<p><strong>HOW IT WORKS:</strong></p>\n<ul>\n<li>Gives keys &amp; cards unlimited uses alongside removing their weight.</li>\n<li>Adds custom “Master keys” for every map (Keys that can open any door for that map).</li>\n</ul>\n<p><strong>You can enable/disable the custom keys and unlimited uses / no weight using the config file:</strong></p>\n<p>{ “custom_keys”: true, &lt;- enables/disables the Master Keys “weightless_keys”: true, &lt;- removes the weight from keys “unbreakable_keys”: true, &lt;- enables/disables unlimited uses “weightless_keycards”: true, &lt;- removes the weight from keycards “unbreakable_keycards”: true, &lt;- enables/disables unlimited uses “enable_blacklist”: false, &lt;- enables/disables the blacklist “blacklisted_keys”: [] &lt;- the mod ignores keys/cards inside this list (must be ids) } <strong>EXISTING KEYS:</strong></p>\n<p><strong>Currently the only way to get them is from the flea market (The base price for all the keys is 14M).</strong></p>\n<ul>\n<li>Factory Master Key</li>\n<li>Reserve Master Key</li>\n<li>Shoreline Master Key</li>\n<li>Customs Master Key</li>\n<li>Woods Master Key</li>\n<li>Interchange Master Key</li>\n<li>Lighthouse Master Key</li>\n<li>Streets Master Key</li>\n<li>Ground-zero Master Key</li>\n<li>Labs Master Key</li>\n</ul>\n<p>Thanks <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/37201-dirtbikercj/\" rel=\"noreferrer noopener\">Dirtbikercj</a> for the help getting the keys working .</p>\n<p>FUTURE ADDITIONS:</p>\n<ul>\n<li>Add possibility to edit keys/cards attributes individually (From background color and number of uses.. to weight and value).</li>\n<li>Add possibility to open shturmans stash with the woods master key.</li>\n</ul>\n<p>Big thanks to everyone, hope you guys enjoy and remember to report any bug/suggestion in the comments!</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1574/configurable-keys",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-07-19T01:19:02.000000Z",
+      "created_at": "2024-07-19T01:19:02.000000Z",
+      "updated_at": "2026-07-07T16:58:58.000000Z",
+      "owner": {
+        "id": 57864,
+        "name": "Super",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/6e821a4d1087a74c771df14736fff24b31e4a0fd_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/5a9198cd7a66075f4bf99bae13b1df2bbcfd832f.png",
+        "created_at": "2024-07-14T19:28:48.000000Z",
+        "updated_at": "2026-07-10T04:57:04.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 956,
+          "hub_id": 13835,
+          "version": "2.2.0",
+          "description": "### Updating to 3.11.X\n\n**In this release**\n\n- Updated to SPT 3.11\n- Fixed broken dependencies\n\nBig thanks to everyone, hope you guys enjoy and remember to report any bug/suggestion in the comments!",
+          "link": "https://forge.sp-tarkov.com/mod/download/1574/configurable-keys/2.2.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2649,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-28T02:37:35.000000Z",
+          "created_at": "2025-03-28T02:37:35.000000Z",
+          "updated_at": "2026-05-14T02:02:30.000000Z"
+        },
+        {
+          "id": 1516,
+          "hub_id": 13237,
+          "version": "2.1.2",
+          "description": "### Hotfix (Mod breaking on GZ lvl 21+)\n\nThe mod was breaking on Ground zero when you got past lvl 21+, the bug was caused by an incorrect letter in the Ground Zero map ID.\n\n**In this release**\n\n- Fixed game breaking bug happening on Ground Zero lvl 21+\n\n**Big thanks to these folks for reporting the bug:**\n\n**Shizuwu\\_Izawa, Echo Congo, sosqqwe**\n\nBig thanks to everyone, hope you guys enjoy and remember to report any bug/suggestion in the comments!",
+          "link": "https://forge.sp-tarkov.com/mod/download/1574/configurable-keys/2.1.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 850,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-26T20:10:36.000000Z",
+          "created_at": "2025-01-26T20:10:36.000000Z",
+          "updated_at": "2026-05-14T02:29:41.000000Z"
+        },
+        {
+          "id": 2075,
+          "hub_id": 12588,
+          "version": "2.1.1",
+          "description": "### Simple Hotfix\n\nIf you're not bothered by the keys being insurable, this update is totally optional.\n\n**In this release**\n\n- Removed the ability to insure keys (I fixed this problem with keycards but forgot about the keys)\n\n  \nBig thanks to everyone, hope you guys enjoy and remember to report any bug/suggestion in the comments!",
+          "link": "https://forge.sp-tarkov.com/mod/download/1574/configurable-keys/2.1.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1053,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-10T04:23:38.000000Z",
+          "created_at": "2024-12-10T04:23:38.000000Z",
+          "updated_at": "2026-05-14T03:13:32.000000Z"
+        },
+        {
+          "id": 2091,
+          "hub_id": 12569,
+          "version": "2.1.0",
+          "description": "**New Update (bug fixes)**\n--------------------------\n\n**In this release**\n\n- Updated to **SPT 3.10**\n- Fixed Labs colored keycards not working.\n- Changed the base price of all keys to make it more \"balanced\".\n- Removed the ability to insure Keycards.\n\n**Big thanks to these folks for reporting the bugs:**\n\n**Maru, atrlee, SBEU\\_San, lucifer3d, Pandas14**\n\nI plan on making the woods key open the Shturman's stash as well on a future update. (Thanks **WhoLetHimKook** for the suggestion)\n\nBig thanks to everyone, hope you guys enjoy and remember to report any bug/suggestion in the comments!",
+          "link": "https://forge.sp-tarkov.com/mod/download/1574/configurable-keys/2.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 333,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-08T22:25:19.000000Z",
+          "created_at": "2024-12-08T22:25:19.000000Z",
+          "updated_at": "2026-05-14T03:13:39.000000Z"
+        },
+        {
+          "id": 3319,
+          "hub_id": 11034,
+          "version": "2.0.0",
+          "description": "Added Custom keys for every map (They open all the doors for the given map):\n\n- Factory Master Key\n- Reserve Master Key\n- Shoreline Master Key\n- Customs Master Key\n- Woods Master Key\n- Interchange Master Key\n- Lighthouse Master Key\n- Streets Master Key\n- Ground-zero Master Key\n- Labs Master Key\n\nYou can enable/disable the custom keys using the config file:\n\nconfig/config.jsonc -&gt; \"custom\\_keys\": true/false\n\nCurrently the only way to get them is from the flea market.\n\nThanks Dirtbikercjfor the help getting the keys working! appreciate it!",
+          "link": "https://forge.sp-tarkov.com/mod/download/1574/configurable-keys/2.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 2494,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-25T05:03:15.000000Z",
+          "created_at": "2024-07-25T05:03:15.000000Z",
+          "updated_at": "2026-05-14T03:48:29.000000Z"
+        },
+        {
+          "id": 3384,
+          "hub_id": 10958,
+          "version": "1.0.1",
+          "description": "Hotfix\n\nUpdated the references for BaseClasses and LogTextColor. Old references were causing some users to have problems when loading the mod.\n\nThanks for reporting it TheTripOut",
+          "link": "https://forge.sp-tarkov.com/mod/download/1574/configurable-keys/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 572,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-19T23:33:17.000000Z",
+          "created_at": "2024-07-19T23:33:17.000000Z",
+          "updated_at": "2026-05-14T03:49:23.000000Z"
+        },
+        {
+          "id": 3397,
+          "hub_id": 10935,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1574/configurable-keys/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 243,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-19T01:19:02.000000Z",
+          "created_at": "2024-07-19T01:19:02.000000Z",
+          "updated_at": "2026-05-14T03:49:29.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/SuperNov4DZN/configurable-keys",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 956,
+      "hub_id": 13835,
+      "version": "2.2.0",
+      "description": "<h3>Updating to 3.11.X</h3>\n<p><strong>In this release</strong></p>\n<ul>\n<li>Updated to SPT 3.11</li>\n<li>Fixed broken dependencies</li>\n</ul>\n<p>Big thanks to everyone, hope you guys enjoy and remember to report any bug/suggestion in the comments!</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1574/configurable-keys/2.2.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2649,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-28T02:37:35.000000Z",
+      "created_at": "2025-03-28T02:37:35.000000Z",
+      "updated_at": "2026-05-14T02:02:30.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2091,
+      "hub_id": 12569,
+      "version": "2.1.0",
+      "description": "<h2><strong>New Update (bug fixes)</strong></h2>\n<p><strong>In this release</strong></p>\n<ul>\n<li>Updated to <strong>SPT 3.10</strong></li>\n<li>Fixed Labs colored keycards not working.</li>\n<li>Changed the base price of all keys to make it more “balanced”.</li>\n<li>Removed the ability to insure Keycards.</li>\n</ul>\n<p><strong>Big thanks to these folks for reporting the bugs:</strong></p>\n<p><strong>Maru, atrlee, SBEU_San, lucifer3d, Pandas14</strong></p>\n<p>I plan on making the woods key open the Shturman’s stash as well on a future update. (Thanks <strong>WhoLetHimKook</strong> for the suggestion)</p>\n<p>Big thanks to everyone, hope you guys enjoy and remember to report any bug/suggestion in the comments!</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1574/configurable-keys/2.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 333,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-12-08T22:25:19.000000Z",
+      "created_at": "2024-12-08T22:25:19.000000Z",
+      "updated_at": "2026-05-14T03:13:39.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1574/super-configurablekeys.zip",
+    "bytes_written": 69170,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/830760872/dbc8e335-ec5c-4714-bfce-aeb5311a9126?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A42%3A17Z&rscd=attachment%3B+filename%3Dsuper-configurablekeys.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A41%3A53Z&ske=2026-08-10T16%3A42%3A17Z&sks=b&skv=2018-11-09&sig=Sne75JOosX0RQdVqW0UMmSSjfKrK1qFlxYFtMYOje0A%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzE0OCwibmJmIjoxNzg2Mzc2ODQ4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.5rEkp8_xPg55etqsDuYYnZmjPTCtlf7kyMUG4VTpIeU&response-content-disposition=attachment%3B%20filename%3Dsuper-configurablekeys.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "2.2.0",
+    "same_as_primary_download": true
+  }
+}

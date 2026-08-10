@@ -1,0 +1,132 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2149,
+      "hub_id": 2849,
+      "guid": null,
+      "name": "Wolfik's Heavy Trooper Masks - Reupload",
+      "slug": "wolfiks-heavy-trooper-masks-reupload",
+      "teaser": "Adds 5 new heavy trooper masks (Black, Tan, Black/Coyote, Wolf, and Cult ) that actually provide protection",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2849.webp",
+      "downloads": 11106,
+      "favourites_count": 0,
+      "description": "<p><strong>README</strong></p>\n<p><strong>This is a re-upload of an older mod that I really liked, so I rewrote an updated version of the mod that now works on SPT 3.11.x. I DO NOT own any of this material as this mod was originally created by SerWolfik.</strong></p>\n<p><strong>Original mod:</strong> <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/212-wolfik-s-heavy-trooper/#overview\" rel=\"noreferrer noopener\"><strong>SerWolfik’s Heavy Trooper</strong></a></p>\n<p>Adds 5 new Heavy trooper masks (Black, Tan, Black/Coyote, custom designed black and Cult variants)</p>\n<p><strong>Available Trooper Masks</strong></p>\n<p>Black and TAN- Class 4 armor with max durability 50. Available at level 3 Peacekeeper for 1500 dollars.</p>\n<p>Black+Coyote - Class 4 armor with max durability 80. Available at level 3 Peacekeeper for 1700 dollars.</p>\n<p>WOLF- Class 5 armor, with max durability 80. Available at level 4 Peacekeeper for 4000 dollars</p>\n<p>CULT - Class 5 armor, with max durability 90. Available only at flea.</p>\n<p>All Masks can also be found in raid in loot containers</p>\n<p>(Huge thanks to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/955-justnu/\" rel=\"noreferrer noopener\">JustNU</a> for helping with the code in past versions, I would’ve never figured it out without him )</p>\n<p><strong>How To Install</strong></p>\n<p>Open the downloaded zip file then drag and drop the ‘user’ folder into your SPT directory</p>\n<p><strong>Compatibility Issues:</strong></p>\n<p><strong>Mods that aren’t listed below that add helmets and nvgs are not compatible with this mod.</strong></p>\n<p><strong>(I have to manually add compatibility and doing this for all mods is a rough time)</strong></p>\n<p><strong>So far I’ve added compatibility to these mod:</strong></p>\n<p>Tactical Gear Component (helmets)</p>\n<p>Artem (helmets and nvgs)</p>\n<p>Atlas Custom Weapons &amp; Equipment (nvgs)</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/attachment/8527-og-jpg/\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://hub.sp-tarkov.com/attachment/8527-og-jpg/\" alt=\"8527-og-jpg\" /></a></p>\n<p><strong><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/attachment/8528-wlf-jpg/\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://hub.sp-tarkov.com/attachment/8528-wlf-jpg/\" alt=\"8528-wlf-jpg\" /></a></strong></p>\n<p><strong><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/attachment/8529-coyote-jpg/\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://hub.sp-tarkov.com/attachment/8529-coyote-jpg/\" alt=\"8529-coyote-jpg\" /></a></strong></p>\n<p><strong><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/attachment/8530-blk-jpg/\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://hub.sp-tarkov.com/attachment/8530-blk-jpg/\" alt=\"8530-blk-jpg\" /></a></strong></p>\n<p><strong><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/attachment/8531-cult-jpg/\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://hub.sp-tarkov.com/attachment/8531-cult-jpg/\" alt=\"8531-cult-jpg\" /></a></strong></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2149/wolfiks-heavy-trooper-masks-reupload",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-05-24T14:14:06.000000Z",
+      "created_at": "2025-05-24T14:14:06.000000Z",
+      "updated_at": "2026-07-07T16:59:07.000000Z",
+      "owner": {
+        "id": 59864,
+        "name": "AmightyTank",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/ca455d7c3c3a7a3a5f0c349de15469a9aedb1443_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-07-29T05:47:41.000000Z",
+        "updated_at": "2026-08-10T12:37:38.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 3259,
+          "name": "SerWolfik",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/0d969eb63d870f7d0f1de41925ab6fade36263c9_128w.webp",
+          "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/d51f043b510e749538bc006cf605d3eba529fbb6_1280w.webp",
+          "created_at": "2021-03-07T06:40:42.000000Z",
+          "updated_at": "2026-07-10T04:56:44.000000Z"
+        },
+        {
+          "id": 52386,
+          "name": "Hood",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/9ApXnt8RHneQzgXZ5F36TSIqUAn6ZeVebkT6Q0br_256w.webp",
+          "cover_photo_url": null,
+          "created_at": "2024-05-21T21:49:53.000000Z",
+          "updated_at": "2026-08-10T10:39:18.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 534,
+          "hub_id": 14323,
+          "version": "1.0.9",
+          "description": "Fix the file name and made it easier to install",
+          "link": "https://forge.sp-tarkov.com/mod/download/2149/wolfiks-heavy-trooper-masks-reupload/1.0.9",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 10805,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-24T16:05:58.000000Z",
+          "created_at": "2025-05-24T16:05:58.000000Z",
+          "updated_at": "2026-05-14T01:50:17.000000Z"
+        },
+        {
+          "id": 535,
+          "hub_id": 14322,
+          "version": "1.0.8",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2149/wolfiks-heavy-trooper-masks-reupload/1.0.8",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 301,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-24T14:14:06.000000Z",
+          "created_at": "2025-05-24T14:14:06.000000Z",
+          "updated_at": "2026-05-14T01:50:14.000000Z"
+        }
+      ],
+      "license": {
+        "id": 5,
+        "hub_id": 7,
+        "name": "Creative Commons BY-NC-SA 3.0",
+        "link": "http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/AlmightyTank/zSerWolfik-Heavy-Troopers",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 534,
+      "hub_id": 14323,
+      "version": "1.0.9",
+      "description": "<p>Fix the file name and made it easier to install</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2149/wolfiks-heavy-trooper-masks-reupload/1.0.9",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 10805,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-24T16:05:58.000000Z",
+      "created_at": "2025-05-24T16:05:58.000000Z",
+      "updated_at": "2026-05-14T01:50:17.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2149/zSerWolfik-Heavy-Troopers-3.11-1.0.9.zip",
+    "bytes_written": 19341119,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/989636629/bc4b0c9e-8509-4238-94b8-db82b27b8810?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A21%3A10Z&rscd=attachment%3B+filename%3DzSerWolfik-Heavy-Troopers-3.11-1.0.9.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A21%3A03Z&ske=2026-08-10T16%3A21%3A10Z&sks=b&skv=2018-11-09&sig=sMGQSgZEJINyx0sujwk1ZOLwDxG49MNL6BgwtcGeqNI%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODUxMywibmJmIjoxNzg2Mzc2NzEzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.sWX_cBwWOy0U5VVFjh7g0TP7XSTse6k2o_A8M3L4--Q&response-content-disposition=attachment%3B%20filename%3DzSerWolfik-Heavy-Troopers-3.11-1.0.9.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.9",
+    "same_as_primary_download": true
+  }
+}

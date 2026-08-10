@@ -947,24 +947,29 @@ async function showDetail(id) {
     downloadBlock += '<div class="dl-note">Aucun fichier local sauvegardé pour ce mod.</div>';
   }
 
-  // Fallback SPT 4.0, si fetch_40_fallback.py a été lancé pour ce mod.
-  const d40 = payload.download_40;
-  if (d40) {
-    if (d40.found === false) {
-      downloadBlock += `<div class="dl-note">Pas de version compatible SPT 4.0 trouvée dans l'historique de ce mod.</div>`;
-    } else if (d40.same_as_primary_download) {
-      downloadBlock += `<div class="dl-note">Le fichier principal ci-dessus est déjà la version SPT 4.0 (v${escapeHtml(d40.version || '')}) — pas de fichier séparé nécessaire.</div>`;
-    } else if (d40.needs_manual) {
-      downloadBlock += `<div class="warn-box">Version SPT 4.0 (v${escapeHtml(d40.version || '')}) — téléchargement manuel requis.<br>
-        <a href="${d40.external_url}" target="_blank" rel="noopener">${d40.external_url}</a></div>`;
-    } else if (d40.success && d40.path) {
-      const filename40 = d40.path.split(/[\\/]/).pop();
+  // Fallbacks de version (fetch_version_fallback.py / fetch_40_fallback.py) — on parcourt
+  // TOUTES les clés download_40 / download_fallback_* trouvées, peu importe combien de
+  // versions cibles ont été traitées pour ce mod (3.11, 4.0, 4.1, futures versions...).
+  const fallbackKeys = Object.keys(payload).filter(k => k === 'download_40' || k.startsWith('download_fallback_'));
+  for (const key of fallbackKeys) {
+    const fb = payload[key];
+    const label = fb.target_version ? `SPT ${fb.target_version}` : 'version cible';
+
+    if (fb.found === false) {
+      downloadBlock += `<div class="dl-note">Pas de version compatible ${label} trouvée dans l'historique de ce mod.</div>`;
+    } else if (fb.same_as_primary_download) {
+      downloadBlock += `<div class="dl-note">Le fichier principal ci-dessus est déjà la version ${label} (v${escapeHtml(fb.version || '')}) — pas de fichier séparé nécessaire.</div>`;
+    } else if (fb.needs_manual) {
+      downloadBlock += `<div class="warn-box">Version ${label} (v${escapeHtml(fb.version || '')}) — téléchargement manuel requis.<br>
+        <a href="${fb.external_url}" target="_blank" rel="noopener">${fb.external_url}</a></div>`;
+    } else if (fb.success && fb.path) {
+      const fbFilename = fb.path.split(/[\\/]/).pop();
       downloadBlock += `<div class="dl-row">
-        <span class="dl-label">Fichier SPT 4.0 — v${escapeHtml(d40.version || '')}</span>
-        <a class="download-btn" href="../mods/${id}/${encodeURIComponent(filename40)}" download>&#8595; ${filename40}</a>
+        <span class="dl-label">Fichier ${label} — v${escapeHtml(fb.version || '')}</span>
+        <a class="download-btn" href="../mods/${id}/${encodeURIComponent(fbFilename)}" download>&#8595; ${fbFilename}</a>
       </div>`;
     } else {
-      downloadBlock += `<div class="dl-note">Échec du téléchargement de la version 4.0 (${escapeHtml(d40.error || 'raison inconnue')}).</div>`;
+      downloadBlock += `<div class="dl-note">Échec du téléchargement de la version ${label} (${escapeHtml(fb.error || 'raison inconnue')}).</div>`;
     }
   }
 

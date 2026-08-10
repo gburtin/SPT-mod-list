@@ -1,0 +1,115 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1647,
+      "hub_id": 2247,
+      "guid": null,
+      "name": "Eft Music Extended",
+      "slug": "eft-music-extended",
+      "teaser": "Ever wanted more main menu music that resemble Escape From Tarkov music genre? Search no more!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2247.jpg",
+      "downloads": 3239,
+      "favourites_count": 0,
+      "description": "<p><strong>Require <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/41072-bobby-renzobbi/\" rel=\"noreferrer noopener\">Bobby Renzobbi</a>’s <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2250-dynamic-soundtrack-custom-menu-music-bobby-s-music-player/#tab_704e32d7b189fb40b70c8286b0b5ed814480c138\" rel=\"noreferrer noopener\">Bobby’s Music Player</a>.</strong></p>\n<p>This pack include all the vanilla main menu music + some additional made by Nikita for game’s Trailers or that does not appear in Live tarkov but that could fit in the game.</p>\n<p><strong>New music included:</strong><br />\n<a target=\"_blank\" class=\"external-link\" href=\"https://soundcloud.com/geneburn\" rel=\"noreferrer noopener\">geneburn</a> <a target=\"_blank\" class=\"external-link\" href=\"https://soundcloud.com/geneburn/follow-the-leader\" rel=\"noreferrer noopener\">Follow the Leader</a></p>\n<p>geneburn <a target=\"_blank\" class=\"external-link\" href=\"https://soundcloud.com/geneburn/concrete-whispers\" rel=\"noreferrer noopener\">Concrete Whispers</a><br />\ngeneburn <a target=\"_blank\" class=\"external-link\" href=\"https://soundcloud.com/geneburn/intermezzo\" rel=\"noreferrer noopener\">Intermezzo</a></p>\n<p>geneburn <a target=\"_blank\" class=\"external-link\" href=\"https://soundcloud.com/geneburn/left-behind\" rel=\"noreferrer noopener\">Left Behind</a></p>\n<p>geneburn <a target=\"_blank\" class=\"external-link\" href=\"https://soundcloud.com/geneburn/exfiltration\" rel=\"noreferrer noopener\">Exfiltration</a></p>\n<p>geneburn <a target=\"_blank\" class=\"external-link\" href=\"https://soundcloud.com/geneburn/countdown\" rel=\"noreferrer noopener\">Countdown</a></p>\n<p>geneburn <a target=\"_blank\" class=\"external-link\" href=\"https://www.youtube.com/watch?v=QqMTHKdJcqM\" rel=\"noreferrer noopener\">0.15 Trailer Music</a></p>\n<p><strong>Optional:</strong></p>\n<p>geneburn <a target=\"_blank\" class=\"external-link\" href=\"https://soundcloud.com/geneburn/edge-of-darkness\" rel=\"noreferrer noopener\">Edge Of Darkness</a></p>\n<p>geneburn <a target=\"_blank\" class=\"external-link\" href=\"https://soundcloud.com/geneburn/war-goes-hot-raw-edit\" rel=\"noreferrer noopener\">War goes hot (raw edit)</a><br />\ngeneburn <a target=\"_blank\" class=\"external-link\" href=\"https://soundcloud.com/geneburn/wings\" rel=\"noreferrer noopener\">Wings (2005 raw edit)</a> (Hideout Song)</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1647/eft-music-extended",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-08-12T19:25:25.000000Z",
+      "created_at": "2024-08-12T19:25:25.000000Z",
+      "updated_at": "2026-07-07T16:59:00.000000Z",
+      "owner": {
+        "id": 45873,
+        "name": "MrBox15",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/7ebcfdcfe5ed55e645f877126513c0c904066503_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/106fc621e578fa68c5dc11f9896ef99ec0f07d53.jpg",
+        "created_at": "2024-02-24T04:09:11.000000Z",
+        "updated_at": "2026-08-10T05:49:20.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 2526,
+          "hub_id": 12045,
+          "version": "1.1.0",
+          "description": "-New music added: 0.15 Trailer Song Extended by [Bad Robot](https://www.youtube.com/@badrobot93/videos) and [geneburn](https://soundcloud.com/geneburn)\n\n  \n-Changed folder order",
+          "link": "https://forge.sp-tarkov.com/mod/download/1647/eft-music-extended/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1992,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-10-28T00:45:16.000000Z",
+          "created_at": "2024-10-28T00:45:16.000000Z",
+          "updated_at": "2026-05-14T03:24:16.000000Z"
+        },
+        {
+          "id": 3100,
+          "hub_id": 11311,
+          "version": "1.0.1",
+          "description": "Added Wings",
+          "link": "https://forge.sp-tarkov.com/mod/download/1647/eft-music-extended/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1247,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-08-12T19:37:14.000000Z",
+          "created_at": "2024-08-12T19:37:14.000000Z",
+          "updated_at": "2026-05-14T03:45:16.000000Z"
+        }
+      ],
+      "license": {
+        "id": 13,
+        "hub_id": 16,
+        "name": "The Unlicense",
+        "link": "https://choosealicense.com/licenses/unlicense/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/MrBox15/Eft-Music-Expanded",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 2526,
+      "hub_id": 12045,
+      "version": "1.1.0",
+      "description": "<p>-New music added: 0.15 Trailer Song Extended by <a target=\"_blank\" class=\"external-link\" href=\"https://www.youtube.com/@badrobot93/videos\" rel=\"noreferrer noopener\">Bad Robot</a> and <a target=\"_blank\" class=\"external-link\" href=\"https://soundcloud.com/geneburn\" rel=\"noreferrer noopener\">geneburn</a></p>\n<p>-Changed folder order</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1647/eft-music-extended/1.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1992,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-10-28T00:45:16.000000Z",
+      "created_at": "2024-10-28T00:45:16.000000Z",
+      "updated_at": "2026-05-14T03:24:16.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1647/EftMusicExpanded.rar",
+    "bytes_written": 191738112,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/841624822/42762558-57f0-4db1-b2b0-3954376823bb?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A44%3A26Z&rscd=attachment%3B+filename%3DEftMusicExpanded.rar&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A44%3A05Z&ske=2026-08-10T16%3A44%3A26Z&sks=b&skv=2018-11-09&sig=UKOg09NlpJeyn7Q9C6PkyQ3Er7qmOCgt8rYUXdunvg0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM4MDU4MSwibmJmIjoxNzg2Mzc2OTgxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.HvGTbnr2Z98fxx-x0hi_58QiRq-Z-p9pD1rHeyld1-A&response-content-disposition=attachment%3B%20filename%3DEftMusicExpanded.rar&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.1.0",
+    "same_as_primary_download": true
+  }
+}

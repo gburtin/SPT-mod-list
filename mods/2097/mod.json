@@ -608,5 +608,16 @@
     "found": true,
     "version": "2.0.19",
     "same_as_primary_download": true
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2097/abps-acids-bot-placement-system-1.1.4-spt3114.7z",
+    "bytes_written": 3004134,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/955060004/ba5f93b2-e532-407f-a2e0-86283b46b467?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A46%3A27Z&rscd=attachment%3B+filename%3Dacidphantasm-botplacementsystem.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A45%3A41Z&ske=2026-08-10T16%3A46%3A27Z&sks=b&skv=2018-11-09&sig=jJCVkGcc6AY1zet%2Fapm0zTEGan7bKvy2XLXUf%2FDBwHI%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODI4MCwibmJmIjoxNzg2Mzc3OTgwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.T3n8yPJjaByBTX9A9M7XRRDrkPUKPnmpkx_KLwgZ3gk&response-content-disposition=attachment%3B%20filename%3Dacidphantasm-botplacementsystem.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "1.1.4",
+    "same_as_primary_download": false
   }
 }

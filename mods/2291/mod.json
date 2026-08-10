@@ -1,0 +1,109 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2291,
+      "hub_id": 3005,
+      "guid": null,
+      "name": "Penguin's COD Collectables",
+      "slug": "penguins-cod-collectables",
+      "teaser": "A Ever-growing collectable mod that features items from the COD games! \r\n- Current # of items 13",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/3005.webp",
+      "downloads": 1211,
+      "favourites_count": 0,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Mod Description</div>\n<div class=\"tab-content\"><p><strong>~ Intro ~</strong></p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://images.cgames.de/images/gamestar/290/cod-warzone-operator_6150308.jpg\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://images.cgames.de/images/gamestar/290/cod-warzone-operator_6150308.jpg\" alt=\"cod-warzone-operator_6150308.jpg\" /></a></p>\n<p><strong>﻿~ ﻿Included in this mod ~</strong></p>\n<p>13 Replica’s To Collect<br />\nNo Bang Bang Sadly</p>\n<p>Found Via</p>\n<p>Scavs / Players</p>\n<p>Dead Scav Bodies</p>\n<p>Duffle Bags</p>\n<p>Jackets</p>\n<p>Drawers</p>\n<p>Toolboxes</p>\n<p>Safes</p>\n<p><em>~ Recommend Mod ~</em></p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2768-allthelootredux\" rel=\"noreferrer noopener\">ALL THE LOOT REDUX</a></p>\n<p><em><strong>~ Known Issues ~</strong></em></p>\n<p>None</p>\n<p><em>~ WIP ~</em></p>\n<p>Hall Of Fame Placements</p>\n<p>New Items<br />\nFix COD Normals (Gey)</p>\n<p><strong>~ Screenies ~</strong></p>\n<p><strong><a target=\"_blank\" class=\"external-link\" href=\"https://i.ibb.co/5XFPQ6kr/Screenshot-2025-09-06-143115.png\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.ibb.co/5XFPQ6kr/Screenshot-2025-09-06-143115.png\" alt=\"Screenshot-2025-09-06-143115.png\" /></a></strong></p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">How To Support Me</div>\n<div class=\"tab-content\"><p><a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/mrpenguin5292\" rel=\"noreferrer noopener\">https://ko-fi.com/mrpenguin5292</a></p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://www.patreon.com/MrPenguin5292\" rel=\"noreferrer noopener\">https://www.patreon.com/MrPenguin5292</a></p>\n<p>(This is not needed, but it helps keep the train going!)</p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Credits</div>\n<div class=\"tab-content\"><p><a target=\"_blank\" class=\"external-link\" href=\"https://img.wattpad.com/f93ffc10270c1438c0035f2f3a13d1b00a161cff/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f647038763734706e61474b5075513d3d2d313131393533343731372e313735303166643537373338383062653939393932303336313836322e676966\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://img.wattpad.com/f93ffc10270c1438c0035f2f3a13d1b00a161cff/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f647038763734706e61474b5075513d3d2d313131393533343731372e313735303166643537373338383062653939393932303336313836322e676966\" alt=\"68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f647038763734706e61474b5075513d3d2d313131393533343731372e313735303166643537373338383062653939393932303336313836322e676966\" /></a></p>\n<p>SSH - Framework and tons of help<br />\nCOD - Assets<br />\n{.endtabset}</p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2291/penguins-cod-collectables",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-09-06T02:11:12.000000Z",
+      "created_at": "2025-09-06T02:11:12.000000Z",
+      "updated_at": "2026-07-07T16:59:09.000000Z",
+      "owner": {
+        "id": 49193,
+        "name": "MrPenguin5292",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/0298a33474707d968f55c261128a683e6d294198_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/65313152416f3d85cd51ce4600119c42ed2b1e11.jpg",
+        "created_at": "2024-04-27T04:38:23.000000Z",
+        "updated_at": "2026-07-10T04:57:01.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11533,
+          "hub_id": 14942,
+          "version": "1.0.1",
+          "description": "4 New replicas added  \n1 - Luger  \n1 - X12  \n2 - AK47's  \n[![Screenshot-2025-09-06-143059.png](https://i.ibb.co/sdLmSmRq/Screenshot-2025-09-06-143059.png)](https://i.ibb.co/sdLmSmRq/Screenshot-2025-09-06-143059.png)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2291/penguins-cod-collectables/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1015,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-06T18:34:26.000000Z",
+          "created_at": "2025-09-06T18:34:26.000000Z",
+          "updated_at": "2025-09-06T18:34:26.000000Z"
+        },
+        {
+          "id": 11540,
+          "hub_id": 14935,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2291/penguins-cod-collectables/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 196,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-06T02:11:12.000000Z",
+          "created_at": "2025-09-06T02:11:12.000000Z",
+          "updated_at": "2025-09-06T02:11:12.000000Z"
+        }
+      ],
+      "license": {
+        "id": 16,
+        "hub_id": 19,
+        "name": "Creative Commons BY-NC-ND 4.0",
+        "link": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11533,
+      "hub_id": 14942,
+      "version": "1.0.1",
+      "description": "<p>4 New replicas added<br />\n1 - Luger<br />\n1 - X12<br />\n2 - AK47’s<br />\n<a target=\"_blank\" class=\"external-link\" href=\"https://i.ibb.co/sdLmSmRq/Screenshot-2025-09-06-143059.png\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.ibb.co/sdLmSmRq/Screenshot-2025-09-06-143059.png\" alt=\"Screenshot-2025-09-06-143059.png\" /></a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2291/penguins-cod-collectables/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1015,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-06T18:34:26.000000Z",
+      "created_at": "2025-09-06T18:34:26.000000Z",
+      "updated_at": "2025-09-06T18:34:26.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/file/d/14Zpi6JgDxOwSA3ypMbj9BXfYYllHPPQZ/view?usp=sharing"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

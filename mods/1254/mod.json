@@ -1,0 +1,231 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1254,
+      "hub_id": 1749,
+      "guid": null,
+      "name": "Touhou Trader Icons",
+      "slug": "touhou-trader-icons",
+      "teaser": "Gensokyo residents from touhou are now your traders in Tarkov",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/1749.png",
+      "downloads": 1980,
+      "favourites_count": 0,
+      "description": "<h3><strong>Your favorite characters from Touhou Project are now your trades you can trade with!</strong></h3>\n<p>Me and my friends came up with this idea when we saw a drawing with Touhou characters as traders, so I decided to do this in the game. We tried to use some logic on where we should put [this] character. So, here’s the list:</p>\n<ul>\n<li><strong>Yukari Yakumo -</strong> she is as Prapor now. We came up with an idea that she would use Ran and Chen to get lost insurance</li>\n<li><strong>Eirin Yakogoro -</strong> she is as Therapist by obvious reason - affordable healthcare from the moon</li>\n<li><strong>Marisa Kirisame -</strong> she is as Fence because of her hobby of collecting various things lol</li>\n<li><strong>Seija Kijin -</strong> our idea ended on that Skier and Seija are both not very good people</li>\n<li><strong>Aya Shameimaru -</strong> Words to my friend, I forgot the real reason we chose her</li>\n<li><strong>Nitori Kawashiro -</strong> she is an engineer and knows how to use (I believe so) technology from the outside world, so, Mechanic is the right place for her</li>\n<li><strong>Chimata Tenkyuu -</strong> honestly, we had no idea who we should put as Ragman at first, so, later one of our friend told that Chimata should be as Ragman mainly because she is the God of Marketplaces (I may be not right because I don’t know lore of touhou 18)</li>\n<li><strong>Reimu Hakurei -</strong> she was choosen because of Jaeger’s quests with exterminating of any occupation, so, here’s your favorite youkai exterminator in Tarkov</li>\n<li><strong>Rinnosuke Morichika (not shown on the picture above) -</strong> he is Lightkeeper now. Because Kourindoustore i guess???</li>\n<li><strong>Sukuna Shinmyoumaru</strong> - She’s Ref now. Honestly, we didn’t have any ideas who to put there, so, we can with <a target=\"_blank\" class=\"external-link\" href=\"https://imgur.com/bKYVVJ7\" rel=\"noreferrer noopener\">this idea</a> (imgur link)</li>\n<li><strong>Nazrin (with a small addition)</strong> - Nazrin is BTR-82A driver because funny picture friend found. Go find it out by yourself</li>\n</ul>\n<p>This list ends here.</p>\n<h3><strong>Installation:</strong></h3>\n<p>Download mod and extract its contents into your tarkov folder <strong>OR</strong> find “TouhouTraderIcons” in ZIP file and drop it into [tarkov folder]&gt;user&gt;mods folder (use that way only if I did something wrong with file and first method doesn’t work)</p>\n<h3><strong>Sourse mod:</strong></h3>\n<p>This mod was made using <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/163-alternative-trader-pics/?highlight=alt#tab_bc1e7d5ce1153b6170bbe5a4a576c0d363a7d9f7\" rel=\"noreferrer noopener\">Alternative Trader Pics</a> made by <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/3298-jbs4bmx/\" rel=\"noreferrer noopener\">jbs4bmx</a>, thank him for making that mod</p>\n<p><strong>As migrating to other mod and using it as a base, credits to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/53318-sgtlaggy/\" rel=\"noreferrer noopener\">Sgtlaggy</a> for <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2093-trader-namer/\" rel=\"noreferrer noopener\">Trader Namer</a>, thanks for making the mod and making this funny idea continue its existing</strong></p>\n<h3><strong>Also:</strong></h3>\n<ul>\n<li>\n<p>Please don’t tell me to change quest’s posters and etc outside of images of traders - I don’t know how to do that or I’m just lazy sry</p>\n</li>\n<li>\n<p>I don’t guarantee that I’ll update the mod as soon as a new SPT version comes out - I have really big spaces between playing sessions (like very big)</p>\n</li>\n<li>\n<p>I haven’t touched any of the modded traders in original mod’s file, so, If you have any idea about a trader from a mod having a touhou character on its icon, you can tell me in the comments or via <em>the_scarlet_devil_</em> user on discord (for faster response since I’m online everyday (GMT +5 timezone)), or do it by yourself.</p>\n</li>\n<li>\n<p>All pictures for trades were found on touhou wiki which were taken from touhou games itself. Some may be from Dairi on pixiv</p>\n</li>\n<li>\n<p>If you want to add a touhou character on someone’s icon, make sure the photo you’re using is PNG file (only if you’re adding picture to THIS mod, not original, original mode has JPG file format for pictures by default)</p>\n</li>\n<li>\n<p>Clear the temp files before launching, or you will have vanilla icons for traders still until there’s would be temp files clearing by the game.</p>\n</li>\n<li>\n<p><strong>If you play Live (original) Tarkov, you may have custom icons for traders still. In order to fix that, clear the temp files and it should return back to normal. I currently don’t know if it is bannable or not, so if you want to keep it - do it on your own risk</strong></p>\n</li>\n</ul>\n<p>Have fun</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1254/touhou-trader-icons",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 16,
+      "published_at": "2024-03-02T15:21:46.000000Z",
+      "created_at": "2024-03-02T15:21:46.000000Z",
+      "updated_at": "2026-07-07T16:58:53.000000Z",
+      "owner": {
+        "id": 34575,
+        "name": "sefsgsdfwwwrq",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/5d20dbf068767b95a33c27accad06997ff51e367_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/577f4a195abaa7732f5ec0570f3f0b361816edbb.png",
+        "created_at": "2023-07-28T19:00:38.000000Z",
+        "updated_at": "2026-08-03T16:04:55.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 38856,
+          "name": "Chebupela",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/a47dcbb482b7449325510cdcb76af7689086538c_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2023-10-15T01:52:39.000000Z",
+          "updated_at": "2026-07-10T04:50:49.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 18,
+          "hub_id": 14893,
+          "version": "6.0.0",
+          "description": "Hello.\n\nThe mod now uses other mod as the base called [Trader Namer](https://hub.sp-tarkov.com/files/file/2093-trader-namer/) by [Sgtlaggy](https://hub.sp-tarkov.com/user/53318-sgtlaggy/). So it means if you have previous version of THIS mod (by some reason????), you have to delete it before updating.\n\nIf something doesn't work - message me on discord (the\\_scarlet\\_devil\\_). So...\n\n- Moved onto other mod as the base\n    - Not sure If BTR Driver's icon would change.\n- Spt 3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/1254/touhou-trader-icons/6.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 317,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-30T11:33:00.000000Z",
+          "created_at": "2025-08-30T11:33:10.000000Z",
+          "updated_at": "2026-05-14T01:37:30.000000Z"
+        },
+        {
+          "id": 2704,
+          "hub_id": 11827,
+          "version": "5.0.0",
+          "description": "I'm alive. Moved download to github so people won't have to go on google disk and download it (I found it annoying for me honestly)\n\n- Ref is now Sukuna\n- BTR-82A driver is Nazrin now (go find it out by yourself why teeheeehe)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1254/touhou-trader-icons/5.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 524,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-09-27T06:11:00.000000Z",
+          "created_at": "2024-09-27T06:11:34.000000Z",
+          "updated_at": "2026-05-14T03:29:24.000000Z"
+        },
+        {
+          "id": 4240,
+          "hub_id": 9875,
+          "version": "3.8.10",
+          "description": "Updated to original mod's version (which is spt 3.8.1 I believe)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1254/touhou-trader-icons/3.8.10",
+          "content_length": null,
+          "spt_version_constraint": "3.8.1",
+          "downloads": 344,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-05-12T09:52:25.000000Z",
+          "created_at": "2024-05-12T09:52:25.000000Z",
+          "updated_at": "2024-05-12T09:52:25.000000Z"
+        },
+        {
+          "id": 4829,
+          "hub_id": 9189,
+          "version": "3.8.1",
+          "description": "Works on SPT 3.8.0 (now)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1254/touhou-trader-icons/3.8.1",
+          "content_length": null,
+          "spt_version_constraint": "3.8.0",
+          "downloads": 337,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-04-04T15:47:16.000000Z",
+          "created_at": "2024-04-04T15:47:16.000000Z",
+          "updated_at": "2024-04-04T15:47:16.000000Z"
+        },
+        {
+          "id": 5042,
+          "hub_id": 8900,
+          "version": "3.7.6",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1254/touhou-trader-icons/3.7.6",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 208,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-03-02T15:21:46.000000Z",
+          "created_at": "2024-03-02T15:21:46.000000Z",
+          "updated_at": "2024-03-02T15:21:46.000000Z"
+        },
+        {
+          "id": 5024,
+          "hub_id": 8920,
+          "version": "3.7.6+1",
+          "description": "Got hands and time (like I never had it) to delete unnecessary PNG files in mod's resourses and change its config a bit, so it won't change any custom trader's avatar. That's it I guess, maybe I'll add avatars for custom traders too in the future.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1254/touhou-trader-icons/3.7.6+1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 250,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-03-08T15:26:51.000000Z",
+          "created_at": "2024-03-08T15:26:51.000000Z",
+          "updated_at": "2024-03-08T15:26:51.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 16,
+        "hub_id": 29,
+        "title": "Traders",
+        "slug": "traders",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/sgtlaggy/spt-trader-namer",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 18,
+      "hub_id": 14893,
+      "version": "6.0.0",
+      "description": "<p>Hello.</p>\n<p>The mod now uses other mod as the base called <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2093-trader-namer/\" rel=\"noreferrer noopener\">Trader Namer</a> by <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/53318-sgtlaggy/\" rel=\"noreferrer noopener\">Sgtlaggy</a>. So it means if you have previous version of THIS mod (by some reason????), you have to delete it before updating.</p>\n<p>If something doesn’t work - message me on discord (the_scarlet_devil_). So…</p>\n<ul>\n<li>Moved onto other mod as the base\n<ul>\n<li>Not sure If BTR Driver’s icon would change.</li>\n</ul>\n</li>\n<li>Spt 3.11</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1254/touhou-trader-icons/6.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 317,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-08-30T11:33:00.000000Z",
+      "created_at": "2025-08-30T11:33:10.000000Z",
+      "updated_at": "2026-05-14T01:37:30.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2704,
+      "hub_id": 11827,
+      "version": "5.0.0",
+      "description": "<p>I’m alive. Moved download to github so people won’t have to go on google disk and download it (I found it annoying for me honestly)</p>\n<ul>\n<li>Ref is now Sukuna</li>\n<li>BTR-82A driver is Nazrin now (go find it out by yourself why teeheeehe)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1254/touhou-trader-icons/5.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 524,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-09-27T06:11:00.000000Z",
+      "created_at": "2024-09-27T06:11:34.000000Z",
+      "updated_at": "2026-05-14T03:29:24.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 4240,
+      "hub_id": 9875,
+      "version": "3.8.10",
+      "description": "<p>Updated to original mod’s version (which is spt 3.8.1 I believe)</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1254/touhou-trader-icons/3.8.10",
+      "content_length": null,
+      "spt_version_constraint": "3.8.1",
+      "downloads": 344,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-05-12T09:52:25.000000Z",
+      "created_at": "2024-05-12T09:52:25.000000Z",
+      "updated_at": "2024-05-12T09:52:25.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 4829,
+      "hub_id": 9189,
+      "version": "3.8.1",
+      "description": "<p>Works on SPT 3.8.0 (now)</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1254/touhou-trader-icons/3.8.1",
+      "content_length": null,
+      "spt_version_constraint": "3.8.0",
+      "downloads": 337,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-04-04T15:47:16.000000Z",
+      "created_at": "2024-04-04T15:47:16.000000Z",
+      "updated_at": "2024-04-04T15:47:16.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1254/TouhouTraderIcons_IDK.zip",
+    "bytes_written": 994135,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/863502412/173fb1b7-de70-4d9e-b508-4077afd1bfa1?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A44%3A16Z&rscd=attachment%3B+filename%3DTouhouTraderIcons_IDK.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A43%3A25Z&ske=2026-08-10T16%3A44%3A16Z&sks=b&skv=2018-11-09&sig=qv2FYPw0HPbk06dsbyWEgZuNBAlyF5U%2BZyNO1oryyLc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzEwMiwibmJmIjoxNzg2Mzc2ODAyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.WHlPLChZL9jXP1-Bkdje0MOeIOr77rPR5uNlcJbriKY&response-content-disposition=attachment%3B%20filename%3DTouhouTraderIcons_IDK.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "6.0.0",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,115 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2071,
+      "hub_id": 2755,
+      "guid": null,
+      "name": "Mouse Escape Tarkov",
+      "slug": "mouse-escape-tarkov",
+      "teaser": "A simple plugin that lets you press a configurable key (default F11) to temporarily disable the mouse cursor locking so you can move you mouse out of the main Tarkov window. This is useful for multi-monitor setups.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2755.png",
+      "downloads": 966,
+      "favourites_count": 0,
+      "description": "<p>A simple plugin that lets you press a configurable key (default F11) to temporarily disable the mouse cursor locking so you can move you mouse out of the main Tarkov window. This is useful for multi-monitor setups.</p>\n<p>This was created expressly to make playing on linux less unbearable. There are other tweaks to make things more stable in conjunction with this (I know I was getting some crashing before made some changes.) Check out the Github for a more detailed guide on some additional tweaks that may help stablaize Tarkov on Linux especially when using this plugin.</p>\n<p>Warning. I wanted this quickly and was lazy because while I’ve worked with Harmony I’ve never done a BepInEx mod so I threw the request to ChatGPT and let it generate the actual code.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2071/mouse-escape-tarkov",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-03-30T12:43:08.000000Z",
+      "created_at": "2025-03-30T12:43:08.000000Z",
+      "updated_at": "2026-07-13T18:01:24.000000Z",
+      "owner": {
+        "id": 75723,
+        "name": "techy",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=t&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2025-03-30T12:22:30.000000Z",
+        "updated_at": "2025-09-26T15:41:05.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 927,
+          "hub_id": 13866,
+          "version": "1.0.1",
+          "description": "Added a release to github",
+          "link": "https://forge.sp-tarkov.com/mod/download/2071/mouse-escape-tarkov/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 861,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-30T12:47:14.000000Z",
+          "created_at": "2025-03-30T12:47:14.000000Z",
+          "updated_at": "2026-05-14T02:02:12.000000Z"
+        },
+        {
+          "id": 928,
+          "hub_id": 13865,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2071/mouse-escape-tarkov/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 105,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-30T12:43:08.000000Z",
+          "created_at": "2025-03-30T12:43:08.000000Z",
+          "updated_at": "2026-07-13T18:01:24.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/techy2493/MouseEscape/tree/main",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 927,
+      "hub_id": 13866,
+      "version": "1.0.1",
+      "description": "<p>Added a release to github</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2071/mouse-escape-tarkov/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 861,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-30T12:47:14.000000Z",
+      "created_at": "2025-03-30T12:47:14.000000Z",
+      "updated_at": "2026-05-14T02:02:12.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2071/MouseEscape.zip",
+    "bytes_written": 3434,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/957460040/cbc69f93-0177-4ffc-a80b-f9c28ad50bf1?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A15%3A40Z&rscd=attachment%3B+filename%3DMouseEscape.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A14%3A47Z&ske=2026-08-10T16%3A15%3A40Z&sks=b&skv=2018-11-09&sig=CuvvcKhUmFOrXkiUIli1KsaFLFm5o%2FQAzE0JRJxR0Pg%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NjY4MywibmJmIjoxNzg2Mzc2MzgzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.55DUPo-gK5azXOWEinkJdOREODvuQsaHkBZQeewyfvI&response-content-disposition=attachment%3B%20filename%3DMouseEscape.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

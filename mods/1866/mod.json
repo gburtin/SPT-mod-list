@@ -223,5 +223,16 @@
     "target_version": "4.0.13",
     "version": "4.0.0",
     "same_as_primary_download": false
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1866/gunsmith-tweaks-3.0.1-spt3114.zip",
+    "bytes_written": 21286,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/898023749/79d9379f-ff02-4794-801d-055f8934db72?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A47%3A31Z&rscd=attachment%3B+filename%3Drukira-gunsmithtweaks.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A46%3A51Z&ske=2026-08-10T16%3A47%3A31Z&sks=b&skv=2018-11-09&sig=w8jmq32sVqRjskXhzEvLoOacRXEUF1qIHKgQmmezvkw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODIwOSwibmJmIjoxNzg2Mzc3OTA5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.p1U5NfFhBSKRIqFTpLd-aLu-gsdQTCWWDI9_ytjHmSI&response-content-disposition=attachment%3B%20filename%3Drukira-gunsmithtweaks.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "3.0.1",
+    "same_as_primary_download": false
   }
 }

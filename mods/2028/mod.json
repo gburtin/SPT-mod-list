@@ -1,0 +1,115 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2028,
+      "hub_id": 2708,
+      "guid": null,
+      "name": "MaSsIvE MaYo: MAYO MOD",
+      "slug": "massive-mayo-mayo-mod",
+      "teaser": "Ever wanted to recreate the endless mayo chug glitch? Here's your chance! This changes the max size of mayo and also increases the amount of time it takes to chug it. Have fun.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2708.jpg",
+      "downloads": 511,
+      "favourites_count": 0,
+      "description": "<p>Ever wanted to recreate the endless mayo chug glitch? Here’s your chance! This changes the max size of mayo and also increases the amount of time it takes to chug it. Have fun.</p>\n<p>Video for reference:</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://youtube.com/shorts/DQC23DOgJqE?si=QvkOh5G8D9nVmagG\" rel=\"noreferrer noopener\">https://youtube.com/shorts/DQC23DOgJqE?si=QvkOh5G8D9nVmagG</a></p>\n<p>Are you still drinkin’ the mayo?</p>\n<p>I can’t stop drinkin’ the mayo.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2028/massive-mayo-mayo-mod",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-03-09T02:13:04.000000Z",
+      "created_at": "2025-03-09T02:13:04.000000Z",
+      "updated_at": "2026-07-07T16:59:05.000000Z",
+      "owner": {
+        "id": 72782,
+        "name": "Saryn",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/decb57144148d82bfa7361c336810ee6157bfa7b_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-02-02T18:36:01.000000Z",
+        "updated_at": "2026-07-10T04:51:50.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 1147,
+          "hub_id": 13630,
+          "version": "1.1.0",
+          "description": "Updated for 3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/2028/massive-mayo-mayo-mod/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 343,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-16T20:54:22.000000Z",
+          "created_at": "2025-03-16T20:54:22.000000Z",
+          "updated_at": "2026-05-14T02:04:46.000000Z"
+        },
+        {
+          "id": 1275,
+          "hub_id": 13492,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2028/massive-mayo-mayo-mod/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 168,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-09T02:13:04.000000Z",
+          "created_at": "2025-03-09T02:13:04.000000Z",
+          "updated_at": "2026-05-14T02:08:51.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/Sarynas/MassiveMayo/archive/refs/tags/release.zip",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 1147,
+      "hub_id": 13630,
+      "version": "1.1.0",
+      "description": "<p>Updated for 3.11</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2028/massive-mayo-mayo-mod/1.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 343,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-16T20:54:22.000000Z",
+      "created_at": "2025-03-16T20:54:22.000000Z",
+      "updated_at": "2026-05-14T02:04:46.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2028/saryn-massivemayo.zip",
+    "bytes_written": 1495,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/945248086/2f014a9d-0e55-4314-a41e-65c9612d9e27?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A32%3A31Z&rscd=attachment%3B+filename%3Dsaryn-massivemayo.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A31%3A34Z&ske=2026-08-10T16%3A32%3A31Z&sks=b&skv=2018-11-09&sig=e2JPd5gj7wpzccsH8m0Fj4o6Dnyj58snHgf9Tdlf27g%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NjcxMiwibmJmIjoxNzg2Mzc2NDEyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.anNTwksEE4yYZstecfdcqW8AdsxTNeShjpYyR1HZhRQ&response-content-disposition=attachment%3B%20filename%3Dsaryn-massivemayo.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.1.0",
+    "same_as_primary_download": true
+  }
+}

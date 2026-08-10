@@ -1,0 +1,180 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1990,
+      "hub_id": 2670,
+      "guid": null,
+      "name": "Walther WA 2000 Sniper Rifle",
+      "slug": "walther-wa-2000-sniper-rifle",
+      "teaser": "Introduces WA 2000 to Tarkov",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2670.png",
+      "downloads": 20576,
+      "favourites_count": 0,
+      "description": "<p><em><strong>BUILT LIKE A BRICK, HITS LIKE A TRUCK</strong></em></p>\n<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Description</div>\n<div class=\"tab-content\"><p>Its big, its chunky and most importantly it can kill while blocking like 90% of your right view. The Walther WA 2000 is a very big and powerful sniper rifle made especially for sharpshooter, although apparently you can carry this chunk of metal brick around.</p>\n<p>Can be obtained from PMC and BOSS (Birdeye and Shturman)</p>\n<p>Can be bought from Peacekeeper and Jaeger (Most of the attachment is available at Peacekeeper LL2 &amp; LL3, you can do a barter from Jaeger at LL1 and he has some stuff in LL2)</p>\n<p>Requested by RaiRaiTheRaichu</p>\n<p>&lt;iframe width=“560” height=“315” src=“https://www.youtube.com/embed/qZo5-9UTjiQ?si=tkVJATheaepQYc7H” title=“YouTube video player” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen&gt;&lt;/iframe&gt;<br />\nAnimation by me</p>\n<p>Extra Texturing by RaiRaiTheRaichu</p>\n<p>Model from Call of Duty/WarZone By Activission Obtained from Acer’s Awesome Weapon Rigs</p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Install Instruction</div>\n<div class=\"tab-content\"><p>1. Download the Zip from the Gdrive</p>\n<p>2. Open the Zip</p>\n<p>3. Copy the content of the Zip your SPT folder</p>\n<p>4. Enjoy</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://i.imgur.com/wMIskD3.gif\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/wMIskD3.gif\" alt=\"wMIskD3.gif\" /></a></p></div></div></div>\n<p><em>P.S Why is this thing built like a 2x4 huge ahh plank. Also I threw in some black S&amp;B scopes cause aesthetic and authenticity</em></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1990/walther-wa-2000-sniper-rifle",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": true,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-01-30T13:48:25.000000Z",
+      "created_at": "2025-01-30T13:48:25.000000Z",
+      "updated_at": "2026-07-13T18:02:15.000000Z",
+      "owner": {
+        "id": 44,
+        "name": "Choccy Milk",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/385222d64fa85020e601547d6e3f90cd761236d0_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2020-07-03T04:06:15.000000Z",
+        "updated_at": "2026-07-10T04:49:17.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 631,
+          "hub_id": 14207,
+          "version": "1.0.5",
+          "description": "~Fixed PMC's not spawning with ammo (Again)\n\nPlease delete older version of the mod before installing this version",
+          "link": "https://forge.sp-tarkov.com/mod/download/1990/walther-wa-2000-sniper-rifle/1.0.5",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 7550,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-09T12:21:49.000000Z",
+          "created_at": "2025-05-09T12:21:49.000000Z",
+          "updated_at": "2026-07-13T18:01:07.000000Z"
+        },
+        {
+          "id": 969,
+          "hub_id": 13821,
+          "version": "1.0.4",
+          "description": "Updated to SPT 3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/1990/walther-wa-2000-sniper-rifle/1.0.4",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 3675,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-27T13:53:44.000000Z",
+          "created_at": "2025-03-27T13:53:44.000000Z",
+          "updated_at": "2026-07-13T18:01:30.000000Z"
+        },
+        {
+          "id": 1313,
+          "hub_id": 13451,
+          "version": "1.0.3",
+          "description": "~Fixed issue on AI PMC not having ammo when spawning with the WA 2k",
+          "link": "https://forge.sp-tarkov.com/mod/download/1990/walther-wa-2000-sniper-rifle/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 2310,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-02-25T09:19:22.000000Z",
+          "created_at": "2025-02-25T09:19:22.000000Z",
+          "updated_at": "2026-07-13T18:01:53.000000Z"
+        },
+        {
+          "id": 1490,
+          "hub_id": 13268,
+          "version": "1.0.2",
+          "description": "~Lowered Prices for all item sold by PK  \n~Fixed Integral Suppressor not having MOA",
+          "link": "https://forge.sp-tarkov.com/mod/download/1990/walther-wa-2000-sniper-rifle/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 5338,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-02-01T13:09:55.000000Z",
+          "created_at": "2025-02-01T13:09:55.000000Z",
+          "updated_at": "2026-07-13T18:02:13.000000Z"
+        },
+        {
+          "id": 1500,
+          "hub_id": 13255,
+          "version": "1.0.1",
+          "description": "~Quick hotfix for bleed chance typo",
+          "link": "https://forge.sp-tarkov.com/mod/download/1990/walther-wa-2000-sniper-rifle/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1453,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-30T15:03:00.000000Z",
+          "created_at": "2025-01-30T15:03:00.000000Z",
+          "updated_at": "2026-07-13T18:02:15.000000Z"
+        },
+        {
+          "id": 1501,
+          "hub_id": 13254,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1990/walther-wa-2000-sniper-rifle/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 250,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-30T13:48:25.000000Z",
+          "created_at": "2025-01-30T13:48:25.000000Z",
+          "updated_at": "2026-07-13T18:02:14.000000Z"
+        }
+      ],
+      "license": {
+        "id": 1,
+        "hub_id": 3,
+        "name": "Creative Commons BY 3.0",
+        "link": "http://creativecommons.org/licenses/by/3.0/legalcode",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 631,
+      "hub_id": 14207,
+      "version": "1.0.5",
+      "description": "<p>~Fixed PMC’s not spawning with ammo (Again)</p>\n<p>Please delete older version of the mod before installing this version</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1990/walther-wa-2000-sniper-rifle/1.0.5",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 7550,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-09T12:21:49.000000Z",
+      "created_at": "2025-05-09T12:21:49.000000Z",
+      "updated_at": "2026-07-13T18:01:07.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 969,
+      "hub_id": 13821,
+      "version": "1.0.4",
+      "description": "<p>Updated to SPT 3.11</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1990/walther-wa-2000-sniper-rifle/1.0.4",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 3675,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-27T13:53:44.000000Z",
+      "created_at": "2025-03-27T13:53:44.000000Z",
+      "updated_at": "2026-07-13T18:01:30.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/file/d/1YBkf1W9mFIMi7TLAuhmJG1XAQf168AUC/view?usp=drive_link"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.5",
+    "same_as_primary_download": true
+  }
+}

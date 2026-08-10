@@ -418,5 +418,16 @@
     "target_version": "4.0.13",
     "version": "3.0.0",
     "same_as_primary_download": false
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1303/harryhideout-2.2.1-spt3114.zip",
+    "bytes_written": 21240,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/785022790/5a620138-8119-4c8d-94f2-92d83c10edd5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A45%3A32Z&rscd=attachment%3B+filename%3Dacidphantasm-harryhideout.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A45%3A04Z&ske=2026-08-10T16%3A45%3A32Z&sks=b&skv=2018-11-09&sig=DCVIhSJXo4fCY84J2O8EP2yX2IMNBvovOnaVy3SgzBU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODEwMSwibmJmIjoxNzg2Mzc3ODAxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.1mR87Xa2pA9LdlkaYC-nUycPd17WjTRYD4Tfx7hZf60&response-content-disposition=attachment%3B%20filename%3Dacidphantasm-harryhideout.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "2.2.1",
+    "same_as_primary_download": false
   }
 }

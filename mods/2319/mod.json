@@ -1,0 +1,136 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2319,
+      "hub_id": 3035,
+      "guid": null,
+      "name": "SPTRealism Giga Patch Pack",
+      "slug": "sptrealism-giga-patch-pack",
+      "teaser": "WTT Armory update",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/3035.jpg",
+      "downloads": 5963,
+      "favourites_count": 2,
+      "description": "<p>Made for myself first when Realism was getting worked on. Tried to add unique values that make sense and real weights to items. All guns have working masteries. I tweaked vanilla sights - LPVO’s have a ADS boost across the board and are less sluggish. Optic risers have a slight sight picture speed boost at the cost of accuracy as they do IRL.</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/33947-devilflippy/\" rel=\"noreferrer noopener\">DevilFlippy</a> and <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/52449-therkelsen/\" rel=\"noreferrer noopener\">Therkelsen</a> ‘s stats from their old patches are included (Epic’s, Massivesoft, WTT)</p>\n<p>It’s not finished, let me know of unbalanced or bugged items. Right now the belts don’t have stats and new ammo is underpowered.</p>\n<p><strong>To do:</strong> Balancing, fix new calibers, LotsOfAmmo support, fix item conflicts and clipping parts.</p>\n<h3><strong>Mods Supported:</strong></h3>\n<ul>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2952-wtt-armory/\" rel=\"noreferrer noopener\">WTT- Armory 1.2.1</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"http://hub.sp-tarkov.com/files/file/2898-ecot-eukyre-s-consortium-of-things/#tab_b0baa820999ad40ec09b5ba454ef01e566027df5\" rel=\"noreferrer noopener\">ECOT - Eukyre’s Consortium of Things 1.1.0</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1764-epic-s-all-in-one/\" rel=\"noreferrer noopener\">Epic’s All in One 3.1.4</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1555-tactical-gear-component/\" rel=\"noreferrer noopener\">Tactical Gear Component 1.2.5</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2943-couturier-gear-and-clothing-pack/\" rel=\"noreferrer noopener\">Couturier - gear and clothing pack 1.2.0</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1410-artem/#versions\" rel=\"noreferrer noopener\">Artem 2.1.2</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/3002-eco-s-attachment-emporium/#comments\" rel=\"noreferrer noopener\">Eco’s Attachment Emporium 1.0.0  </a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2867-massivesoft-guns/#overview\" rel=\"noreferrer noopener\">Massivesoft Guns 0.2.0  </a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1160-kriss-vector-308-assault-rifle/\" rel=\"noreferrer noopener\">Massivesoft Vector .308</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/3006-superi-46-4-6x30-smg/\" rel=\"noreferrer noopener\">Massivesoft Superi 46</a> (causing malfunctions currently)</li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2340/bal-27-57x28-assualt-rifle\" rel=\"noreferrer noopener\">Massivesoft BAL-27 </a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2317/usenko-tr-76-geist-assualt-rifle\" rel=\"noreferrer noopener\">Massivesoft TR-76</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1345-blackcore/\" rel=\"noreferrer noopener\">BlackCore 1.1.8  </a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2842-echoes-of-tarkov-requisitions/\" rel=\"noreferrer noopener\">Echoes of Tarkov - Requisitions 1.0.4  </a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2175-wtt-taste-the-rainbow/#versions\" rel=\"noreferrer noopener\">WTT - Taste the Rainbow 2.0.0  </a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1790-wtt-pack-n-strap/\" rel=\"noreferrer noopener\">WTT - Pack ‘n’ Strap 1.1.12</a></li>\n</ul>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://i.imgur.com/Z9bU8kG.jpeg\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/Z9bU8kG.jpeg\" alt=\"Z9bU8kG.jpeg\" /></a></p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://i.imgur.com/vtwSJjx.jpeg\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/vtwSJjx.jpeg\" alt=\"vtwSJjx.jpeg\" /></a></p>\n<p><strong>Install:</strong> drag user folder into main SPT folder, replace</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2319/sptrealism-giga-patch-pack",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2025-09-21T08:19:00.000000Z",
+      "created_at": "2025-09-21T08:19:59.000000Z",
+      "updated_at": "2026-07-07T16:59:09.000000Z",
+      "owner": {
+        "id": 77629,
+        "name": "Kojimbo0_0",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/1Z8A2FUPWUiGNHZXfnTi4lbN3mfmegyJaNkG8std_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/ZBpdduK9iP9vypwCDkR7E1CDjTFBgRAg3gomJrug_2560w.webp",
+        "created_at": "2025-04-22T10:25:27.000000Z",
+        "updated_at": "2026-08-07T23:51:58.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11841,
+          "hub_id": null,
+          "version": "1.0.4",
+          "description": "[Eco's Attatchment Emporium 1.2.1](https://forge.sp-tarkov.com/mod/2288/ecos-attachment-emporium#comments) Highly recommend this mod! The Kalashnikov SR-1 should have almost zero recoil as IRL. \n\n-Mod gun .300 barrel muzzle velocity reworked by Chocolate on the SPT Discord. No more airsoft guns.\n\n-Massivesoft TR-76 (5.56 and 5.45) variants. \n\n-Some balancing and fixes\n\n",
+          "link": "https://forge.sp-tarkov.com/mod/download/2319/sptrealism-giga-patch-pack/1.0.4",
+          "content_length": null,
+          "spt_version_constraint": "3.11.4",
+          "downloads": 2906,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-14T19:41:00.000000Z",
+          "created_at": "2025-10-14T19:41:33.000000Z",
+          "updated_at": "2026-05-14T06:39:52.000000Z"
+        },
+        {
+          "id": 11642,
+          "hub_id": 15045,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2319/sptrealism-giga-patch-pack/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 840,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-21T08:19:59.000000Z",
+          "created_at": "2025-09-21T08:19:59.000000Z",
+          "updated_at": "2025-09-21T08:19:59.000000Z"
+        }
+      ],
+      "license": {
+        "id": 9,
+        "hub_id": 12,
+        "name": "Mozilla Public License 2.0",
+        "link": "https://choosealicense.com/licenses/mpl-2.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/danielojaaru/SPT-Realism-Compatability-Patches/tree/main",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11841,
+      "hub_id": null,
+      "version": "1.0.4",
+      "description": "<p><a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/2288/ecos-attachment-emporium#comments\" rel=\"noreferrer noopener\">Eco’s Attatchment Emporium 1.2.1</a> Highly recommend this mod! The Kalashnikov SR-1 should have almost zero recoil as IRL.</p>\n<p>-Mod gun .300 barrel muzzle velocity reworked by Chocolate on the SPT Discord. No more airsoft guns.</p>\n<p>-Massivesoft TR-76 (5.56 and 5.45) variants.</p>\n<p>-Some balancing and fixes</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2319/sptrealism-giga-patch-pack/1.0.4",
+      "content_length": null,
+      "spt_version_constraint": "3.11.4",
+      "downloads": 2906,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-14T19:41:00.000000Z",
+      "created_at": "2025-10-14T19:41:33.000000Z",
+      "updated_at": "2026-05-14T06:39:52.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11642,
+      "hub_id": 15045,
+      "version": "1.0.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2319/sptrealism-giga-patch-pack/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 840,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-21T08:19:59.000000Z",
+      "created_at": "2025-09-21T08:19:59.000000Z",
+      "updated_at": "2025-09-21T08:19:59.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2319/sptrealism-giga-patch-pack-1.0.4",
+    "bytes_written": 197981,
+    "final_url": "https://raw.githubusercontent.com/danielojaaru/SPT-Realism-Compatability-Patches/refs/heads/main/SPT%20Realism%20Patches.zip",
+    "content_type": "application/zip"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.4",
+    "same_as_primary_download": true
+  }
+}

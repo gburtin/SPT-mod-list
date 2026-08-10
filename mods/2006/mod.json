@@ -1,0 +1,158 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2006,
+      "hub_id": 2686,
+      "guid": null,
+      "name": "Animator Updater",
+      "slug": "animator-updater",
+      "teaser": "Updates weapon animator on Mag Insert",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2686.png",
+      "downloads": 5008,
+      "favourites_count": 0,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Description</div>\n<div class=\"tab-content\"><p>Have you noticed that the AA-12 magazine is sometimes animated? Well, it is animated. However, because of BSG wisdom they forgot that attachment with animation won’t get updated if they’re not a Belt Magazine. With this BepinEx mod, the issue of mags not being animated (even though they are animated) is fixed so you can enjoy that rotating cylinder on a gun that no one use. <em>Or you are planning to have transparent mag with functioning spring</em></p>\n<p>Special thanks to CWX for helping me out, this is the only time where I managed to complete a client mod project.</p>\n<p><strong>Before:</strong></p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://imgur.com/YQwW4Df.gif\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://imgur.com/YQwW4Df.gif\" alt=\"YQwW4Df.gif\" /></a></p>\n<p><strong>After:</strong></p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://imgur.com/hwKyz5x.gif\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://imgur.com/hwKyz5x.gif\" alt=\"hwKyz5x.gif\" /></a></p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Install Instruction</div>\n<div class=\"tab-content\"><p>1. Download the Zip</p>\n<p>2. Open the Zip</p>\n<p>3. Copy the content of the Zip your SPT folder</p>\n<p>4. Enjoy</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://i.imgur.com/mZ1aLrW.gif\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/mZ1aLrW.gif\" alt=\"mZ1aLrW.gif\" /></a></p></div></div></div>\n<p><em>P.S Why did BSG not do this, I am astonished, amazed and questioning</em></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2006/animator-updater",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-02-08T20:39:16.000000Z",
+      "created_at": "2025-02-08T20:39:16.000000Z",
+      "updated_at": "2026-07-13T18:02:08.000000Z",
+      "owner": {
+        "id": 44,
+        "name": "Choccy Milk",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/385222d64fa85020e601547d6e3f90cd761236d0_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2020-07-03T04:06:15.000000Z",
+        "updated_at": "2026-07-10T04:49:17.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 834,
+          "hub_id": 13970,
+          "version": "1.0.3",
+          "description": "Added Exclusion list for certain weapon that gets offsetted when performing reload or attaching mods.  \nUser can add or remove specific weapons from the list by adding or removing the IDs from ExclusionList.json\n\nCurrently Known weapon that gets offset:\n\nMP7A1\n\nAK-74M\n\nVPO-215 Bolt Action Rifle\n\nIf you saw another weapon having the same issue as the above weapon you can report it [here](https://github.com/Choccymiruku/AnimatorUpdater/issues/1)\n\nThank you to Arys and CJ for helping out on the issue.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2006/animator-updater/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2299,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-09T11:08:22.000000Z",
+          "created_at": "2025-04-09T11:08:22.000000Z",
+          "updated_at": "2026-07-13T18:01:18.000000Z"
+        },
+        {
+          "id": 1146,
+          "hub_id": 13631,
+          "version": "1.0.2",
+          "description": "Updated for 3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/2006/animator-updater/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1040,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-16T21:13:46.000000Z",
+          "created_at": "2025-03-16T21:13:46.000000Z",
+          "updated_at": "2026-07-13T18:01:44.000000Z"
+        },
+        {
+          "id": 1419,
+          "hub_id": 13342,
+          "version": "1.0.1",
+          "description": "~Mod Setup will now trigger animator update\n\n**Before:**\n\n[![vfxUCcd.gif](https://imgur.com/vfxUCcd.gif)](https://imgur.com/vfxUCcd.gif)\n\n**After:**\n\n**[![nkUVN6a.gif](https://imgur.com/nkUVN6a.gif)](https://imgur.com/nkUVN6a.gif)**",
+          "link": "https://forge.sp-tarkov.com/mod/download/2006/animator-updater/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1427,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-02-09T05:11:17.000000Z",
+          "created_at": "2025-02-09T05:11:17.000000Z",
+          "updated_at": "2026-07-13T18:02:07.000000Z"
+        },
+        {
+          "id": 1423,
+          "hub_id": 13338,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2006/animator-updater/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 242,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-02-08T20:39:16.000000Z",
+          "created_at": "2025-02-08T20:39:16.000000Z",
+          "updated_at": "2026-07-13T18:02:08.000000Z"
+        }
+      ],
+      "license": {
+        "id": 16,
+        "hub_id": 19,
+        "name": "Creative Commons BY-NC-ND 4.0",
+        "link": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/Choccymiruku/AnimatorUpdater/tree/main",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 834,
+      "hub_id": 13970,
+      "version": "1.0.3",
+      "description": "<p>Added Exclusion list for certain weapon that gets offsetted when performing reload or attaching mods.<br />\nUser can add or remove specific weapons from the list by adding or removing the IDs from ExclusionList.json</p>\n<p>Currently Known weapon that gets offset:</p>\n<p>MP7A1</p>\n<p>AK-74M</p>\n<p>VPO-215 Bolt Action Rifle</p>\n<p>If you saw another weapon having the same issue as the above weapon you can report it <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/Choccymiruku/AnimatorUpdater/issues/1\" rel=\"noreferrer noopener\">here</a></p>\n<p>Thank you to Arys and CJ for helping out on the issue.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2006/animator-updater/1.0.3",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2299,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-04-09T11:08:22.000000Z",
+      "created_at": "2025-04-09T11:08:22.000000Z",
+      "updated_at": "2026-07-13T18:01:18.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1146,
+      "hub_id": 13631,
+      "version": "1.0.2",
+      "description": "<p>Updated for 3.11</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2006/animator-updater/1.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1040,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-16T21:13:46.000000Z",
+      "created_at": "2025-03-16T21:13:46.000000Z",
+      "updated_at": "2026-07-13T18:01:44.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2006/animator-updater-1.0.3",
+    "bytes_written": 496,
+    "final_url": "https://github.com/Choccymiruku/AnimatorUpdater/releases/tag/Release-v1.0.3",
+    "content_type": "application/json; charset=utf-8"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.3",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1268,
+      "hub_id": 1773,
+      "guid": null,
+      "name": "Treasure Box",
+      "slug": "treasure-box",
+      "teaser": "Has a ton of small mods I personally made for myself. Everything is toggleable in the config.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/1773.png",
+      "downloads": 4067,
+      "favourites_count": 0,
+      "description": "<p>{<br />\n/*<br />\nThe GLUCK mod makes most if not all Glock 17 mods work on the glock 18c<br />\n*/<br />\n“GLUCK”: true,</p>\n<p>/*<br />\nThe M14 mod makes the M1A have the fire rate of the M14, and turns it select fire.<br />\n*/<br />\n“M14”: true,</p>\n<p>/*<br />\nThe Grenade launcher ergo mod adjusts grenade launcher ergo<br />\nIt the GLs will be SET to the new value<br />\n*/<br />\n“GrenadeLauncherErgo”: true,<br />\n“GrenadeLauncherErgoValue”: -10,</p>\n<p>/*<br />\nThe pistol scopes mod currently adds<br />\nM700 extended multi-slot Weaver rail base to the USP45<br />\nUM Tactical UM3 pistol sight mount to the Rhino 357<br />\nFN Five-seveN MK2 RMR mount to the Rhino 357<br />\n*/<br />\n“PistolScopes”: true,</p>\n<p>/*<br />\nThe UMP drum adds a new .45 ACP drum mag to the game.<br />\nIf other mods copy settings the UMP or Vector, you want to run this mod first to ensure that any<br />\ncopies get the new mags.<br />\nIf desired, it will be added it to the vector too.<br />\nIf desired, it will be added to mechanic and peacekeeper level 3.</p>\n<p>*/<br />\n“UMPDrum”: true,<br />\n“UMPDrumVector”: true,<br />\n“UMPDrumAddToTraders”: true,</p>\n<p>/*<br />\nThe key durability mod makes all non-marked (and similiar) keys infinite uses, while leaving marked (and similar) keys at their original uses.<br />\n*/<br />\n“keyDurability”: true,</p>\n<p>/*<br />\nAdds names to the namelist of PMCs<br />\n*/<br />\n“namelister”: true,<br />\n“IAmAScumAndWantToRemoveSupporterNames”: false, //Removes the default supporer names from the namepool.<br />\n“namesToAdd”: //You can add more, just add more lines. Remember to follow json standard. Don’t have a trailing comma etc.<br />\n[<br />\n“Name1”,<br />\n“Name2”,<br />\n“Name3”,<br />\n“Name4”<br />\n],</p>\n<p>/*<br />\nzeroToHeroPouch replaces the alpha container with the waist pouch<br />\n*/<br />\n“zeroToHeroPouch”: true,</p>\n<p>/*<br />\nOverride the minimum level to access the ragfair<br />\n*/<br />\n“ragfairLevelOverride”: true,<br />\n“ragFairMinUserLevel”: 99,</p>\n<p>/*<br />\nAdds the AK-105 compatible muzzles to the AK-12<br />\n*/<br />\n“AK12Muzzles”: true,</p>\n<p>/*<br />\nChanges name and description of the fake-ass vodka added by some stupid ass event. Can you tell I’m upset? I Can.<br />\n*/<br />\n“fuckfakevodka”: true,</p>\n<p>/*<br />\nBot tier level adjustments<br />\n*/<br />\n“botRangeAdjustment”: true,<br />\n“levelRanges”: //Yes the 31-40 range is missing, this is intentional because of how the data is structured.<br />\n//Basically leaving an empty range puts in the default values. You want a non-existing range for this.<br />\n[<br />\n{<br />\n“min”: 1,<br />\n“max”: 17<br />\n},<br />\n{<br />\n“min”: 18,<br />\n“max”: 30<br />\n},<br />\n{<br />\n“min”: 41,<br />\n“max”: 50<br />\n},<br />\n{<br />\n“min”: 51,<br />\n“max”: 100<br />\n}<br />\n],</p>\n<p>/*<br />\nAdds handguards from other AKs to the RPD, and allows muzzles from the AK103 on the RPD barrel<br />\n*/<br />\n“rpdmods”: true,</p>\n<p>/*<br />\nDont touch this. or you will die.<br />\n*/<br />\n“debug”: false<br />\n}</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1268/treasure-box",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-04-02T04:56:37.000000Z",
+      "created_at": "2024-04-02T04:56:37.000000Z",
+      "updated_at": "2026-07-13T18:05:59.000000Z",
+      "owner": {
+        "id": 9836,
+        "name": "DeadLeaves",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/205f2557487b1fb0b1de9b1bf202b712eeece2ce_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2021-09-28T18:40:41.000000Z",
+        "updated_at": "2026-08-10T13:52:48.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 1088,
+          "hub_id": 13695,
+          "version": "1.2.2",
+          "description": "Update for 3.11 (still works on 3.10)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1268/treasure-box/1.2.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1185,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-19T20:20:00.000000Z",
+          "created_at": "2025-03-19T20:20:00.000000Z",
+          "updated_at": "2026-05-14T02:04:01.000000Z"
+        },
+        {
+          "id": 2405,
+          "hub_id": 12179,
+          "version": "1.2.1",
+          "description": "Update to 3.9.x\n\nDont enable UMP mag thing, itll break the game.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1268/treasure-box/1.2.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.9.0",
+          "downloads": 406,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-16T13:57:46.000000Z",
+          "created_at": "2024-11-16T13:57:46.000000Z",
+          "updated_at": "2026-05-14T03:22:06.000000Z"
+        },
+        {
+          "id": 1814,
+          "hub_id": 12897,
+          "version": "1.2.1+2",
+          "description": "- 3.10 update\n- Removed some outdated stuff\n- Added new options.\n\nREQUIRES 3.10.4+",
+          "link": "https://forge.sp-tarkov.com/mod/download/1268/treasure-box/1.2.1+2",
+          "content_length": null,
+          "spt_version_constraint": "3.10.4",
+          "downloads": 597,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-31T10:30:08.000000Z",
+          "created_at": "2024-12-31T10:30:08.000000Z",
+          "updated_at": "2026-05-14T02:36:50.000000Z"
+        },
+        {
+          "id": 4227,
+          "hub_id": 9891,
+          "version": "1.1.0",
+          "description": "Added the following options\n\n- Nerf the spawn rate of gingy key-chains from scavs\n- Removes the rusted bloody key from fence.\n- Adds the m203 to the usp. Deal with it.\n- Reduce the trader refresh time.\n- Reduce ergonomics penalty on suppressors\n- Adds shorter barrels to the M700\n- Allow the flare-gun to be added to special slots.\n- Buff shturman's key chance.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1268/treasure-box/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 775,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-05-13T08:07:07.000000Z",
+          "created_at": "2024-05-13T08:07:07.000000Z",
+          "updated_at": "2026-07-13T18:05:23.000000Z"
+        },
+        {
+          "id": 4916,
+          "hub_id": 9080,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1268/treasure-box/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1104,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-04-02T04:56:37.000000Z",
+          "created_at": "2024-04-02T04:56:37.000000Z",
+          "updated_at": "2026-07-13T18:05:59.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 1088,
+      "hub_id": 13695,
+      "version": "1.2.2",
+      "description": "<p>Update for 3.11 (still works on 3.10)</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1268/treasure-box/1.2.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1185,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-19T20:20:00.000000Z",
+      "created_at": "2025-03-19T20:20:00.000000Z",
+      "updated_at": "2026-05-14T02:04:01.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2405,
+      "hub_id": 12179,
+      "version": "1.2.1",
+      "description": "<p>Update to 3.9.x</p>\n<p>Dont enable UMP mag thing, itll break the game.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1268/treasure-box/1.2.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.9.0",
+      "downloads": 406,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-11-16T13:57:46.000000Z",
+      "created_at": "2024-11-16T13:57:46.000000Z",
+      "updated_at": "2026-05-14T03:22:06.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1814,
+      "hub_id": 12897,
+      "version": "1.2.1+2",
+      "description": "<ul>\n<li>3.10 update</li>\n<li>Removed some outdated stuff</li>\n<li>Added new options.</li>\n</ul>\n<p>REQUIRES 3.10.4+</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1268/treasure-box/1.2.1+2",
+      "content_length": null,
+      "spt_version_constraint": "3.10.4",
+      "downloads": 597,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-12-31T10:30:08.000000Z",
+      "created_at": "2024-12-31T10:30:08.000000Z",
+      "updated_at": "2026-05-14T02:36:50.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1268/leaves-treasure_box1.2.2.zip",
+    "bytes_written": 17134,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/799845810/6cc95ca1-98b2-45ac-b428-05976fd42660?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A14%3A52Z&rscd=attachment%3B+filename%3Dleaves-treasure_box1.2.2.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A14%3A39Z&ske=2026-08-10T16%3A14%3A52Z&sks=b&skv=2018-11-09&sig=71%2BONYAqk2SYoDHe5t2pj0c4rt%2BNV%2FxfuLbcVFl0Nqk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NjYxOCwibmJmIjoxNzg2Mzc2MzE4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.syHHPsyfz3ONylf7gT-BXwe5Pm8uLpaoGHigXjc3W4o&response-content-disposition=attachment%3B%20filename%3Dleaves-treasure_box1.2.2.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.2.2",
+    "same_as_primary_download": true
+  }
+}

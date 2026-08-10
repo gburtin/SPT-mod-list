@@ -1,0 +1,109 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2263,
+      "hub_id": 2971,
+      "guid": null,
+      "name": "RX-01 Sight",
+      "slug": "rx-01-sight",
+      "teaser": "Battlefield 4 Reflex Sight now in Tarkov for all the Battlefield 4 enjoyers",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2971.png",
+      "downloads": 1536,
+      "favourites_count": 0,
+      "description": "<p>I believe in Battlefield 4 Reflex Sight supremacy… so I ported it to Tarkov!</p>\n<p>The RX-01 Reflex Sight can be found on level 2 Mechanic.</p>\n<p><strong>INSTALLATION</strong></p>\n<p>- Drag and drop the <em>user</em> folder into your SPT root folder</p>\n<p><strong>CREDITS</strong></p>\n<p>- Models and textures from Battlefield 4.</p>\n<p>- Many thanks to GrooveypenguinX for the codebase and teaching me all I know about item creation.</p>\n<p>- Thank you to EpicRangeTime for teaching me how to make custom attachments and helping me fix the hierarchy.</p>\n<p>- And a huge thanks to all of the devs of SPT and WTT community for helping me get into modding.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2263/rx-01-sight",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-08-23T09:43:47.000000Z",
+      "created_at": "2025-08-23T09:43:47.000000Z",
+      "updated_at": "2026-07-13T18:00:13.000000Z",
+      "owner": {
+        "id": 24264,
+        "name": "ShashaCZ",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/QiO2fwC3rO7MT3cDZG67bL0ecyVF9sG8SGor9Aaq_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2022-12-20T08:18:40.000000Z",
+        "updated_at": "2026-08-10T13:00:26.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 45,
+          "hub_id": 14858,
+          "version": "1.0.1",
+          "description": "**PATCH NOTES**\n\n\\- Reduced the spawn rate of the sight by a half\n\n**INSTALLATION**\n\n\\- **If updating from an older version:** drag and drop the *user* folder into your SPT root folder and choose *replace  \n-* Otherwise follow the usual installation in the mod description",
+          "link": "https://forge.sp-tarkov.com/mod/download/2263/rx-01-sight/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1194,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-24T11:13:15.000000Z",
+          "created_at": "2025-08-24T11:13:15.000000Z",
+          "updated_at": "2026-07-13T18:00:13.000000Z"
+        },
+        {
+          "id": 49,
+          "hub_id": 14852,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2263/rx-01-sight/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 342,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-23T09:43:47.000000Z",
+          "created_at": "2025-08-23T09:43:47.000000Z",
+          "updated_at": "2026-07-13T18:00:13.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 45,
+      "hub_id": 14858,
+      "version": "1.0.1",
+      "description": "<p><strong>PATCH NOTES</strong></p>\n<p>- Reduced the spawn rate of the sight by a half</p>\n<p><strong>INSTALLATION</strong></p>\n<p>- <strong>If updating from an older version:</strong> drag and drop the <em>user</em> folder into your SPT root folder and choose <em>replace<br />\n-</em> Otherwise follow the usual installation in the mod description</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2263/rx-01-sight/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1194,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-08-24T11:13:15.000000Z",
+      "created_at": "2025-08-24T11:13:15.000000Z",
+      "updated_at": "2026-07-13T18:00:13.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/file/d/1Ojdi6C2i0Cm5tpY_SbIi4Qn1FQCfrNiG/view?usp=sharing"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

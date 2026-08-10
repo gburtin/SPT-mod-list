@@ -1,0 +1,353 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1365,
+      "hub_id": 1889,
+      "guid": null,
+      "name": "Realistic Stims (3.11 UPDATE)",
+      "slug": "realistic-stims-311-update",
+      "teaser": "CURRENTLY ONLY 3 NEW STIMS WITH NEWEST 3.11 UPDATE",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/1889.png",
+      "downloads": 5927,
+      "favourites_count": 0,
+      "description": "<p><strong>*3 new stims!* *and 2 new “blood kits”*</strong></p>\n<p><em>They are mean’t to be used with SPT Realism for a way to heal easier while in raid, obviously though the side effects are terrible.</em></p>\n<p><em>THIS MOD WAS MADE USING <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1725-stims-galore/\" rel=\"noreferrer noopener\">Stims Galore</a> and you MUST DOWNLOAD IT FOR THESE STIMS TO WORK!</em></p>\n<p><em><strong>*NEWEST UPDATE DOES NOT WORK WITH ANY STIMS FROM CONSUMABLES GALORE*</strong></em></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1365/realistic-stims-311-update",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 4,
+      "published_at": "2024-04-28T18:32:28.000000Z",
+      "created_at": "2024-04-28T18:32:28.000000Z",
+      "updated_at": "2026-07-07T16:58:55.000000Z",
+      "owner": {
+        "id": 43263,
+        "name": "Rj3507",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/63b055aceb3a3f335c2e637d9875a1b096f3fd87_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-01-05T23:40:53.000000Z",
+        "updated_at": "2026-08-10T03:56:00.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 13308,
+          "hub_id": null,
+          "version": "2.2.0",
+          "description": "THIS SHOULD FIX PROBLEMS!!!\nalso next version ill ever do will be spt 5 if it drops",
+          "link": "https://forge.sp-tarkov.com/mod/download/1365/realistic-stims-311-update/2.2.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11",
+          "downloads": 110,
+          "fika_compatibility": "compatible",
+          "published_at": "2026-03-25T20:54:55.000000Z",
+          "created_at": "2026-03-25T20:54:20.000000Z",
+          "updated_at": "2026-05-14T09:14:59.000000Z"
+        },
+        {
+          "id": 11666,
+          "hub_id": 15068,
+          "version": "2.1.0",
+          "description": "ADDED 2 NEW \"BLOOD KITS\" AS A WAY FOR SLOWER BUT MORE EFFICENT OPTIONS TO RESTORE HEALTH DURING A RAID (BUT THEY COST ALOT)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1365/realistic-stims-311-update/2.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 383,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-25T08:55:31.000000Z",
+          "created_at": "2025-09-25T08:55:31.000000Z",
+          "updated_at": "2026-05-14T06:01:17.000000Z"
+        },
+        {
+          "id": 11641,
+          "hub_id": 15042,
+          "version": "2.0.0",
+          "description": "NEWEST 3.11 SPT WORKING\n\n(DOES NOT WORK WITH ANY STIMS FROM CONSUMABLES GALORE CURRENTLY!!!)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1365/realistic-stims-311-update/2.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 242,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-21T04:29:34.000000Z",
+          "created_at": "2025-09-21T04:29:34.000000Z",
+          "updated_at": "2026-05-14T06:01:04.000000Z"
+        },
+        {
+          "id": 2059,
+          "hub_id": 12605,
+          "version": "1.9.1",
+          "description": "nothing new in this update just compatibility with spt 3.10",
+          "link": "https://forge.sp-tarkov.com/mod/download/1365/realistic-stims-311-update/1.9.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 1037,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-11T05:54:22.000000Z",
+          "created_at": "2024-12-11T05:54:22.000000Z",
+          "updated_at": "2026-05-14T03:13:25.000000Z"
+        },
+        {
+          "id": 3828,
+          "hub_id": 10403,
+          "version": "1.9.0",
+          "description": "TEST UPDATE!\n\nAdded temperatures to some stims to be more realistic as blood regeneration can give fevers, and to balance caffeine injector now cools body temp by some.\n\nSoon to add...\n\nNew Stims\n\nFully functioning blood transfusion kits\n\nMore ways to relief fever\n\nAnd fully functioning radioactive stim???",
+          "link": "https://forge.sp-tarkov.com/mod/download/1365/realistic-stims-311-update/1.9.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1295,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-06-28T21:36:48.000000Z",
+          "created_at": "2024-06-28T21:36:48.000000Z",
+          "updated_at": "2026-05-14T03:56:36.000000Z"
+        },
+        {
+          "id": 4124,
+          "hub_id": 10021,
+          "version": "1.8.2",
+          "description": "FIXED BRO OMG",
+          "link": "https://forge.sp-tarkov.com/mod/download/1365/realistic-stims-311-update/1.8.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 778,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-05-22T19:18:19.000000Z",
+          "created_at": "2024-05-22T19:18:19.000000Z",
+          "updated_at": "2026-05-14T04:03:17.000000Z"
+        },
+        {
+          "id": 4125,
+          "hub_id": 10020,
+          "version": "1.8.1",
+          "description": "fixed coding being wrong with hideout crafts (should work just didnt get time to test as im leaving to go to work soon).",
+          "link": "https://forge.sp-tarkov.com/mod/download/1365/realistic-stims-311-update/1.8.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 189,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-05-22T18:41:50.000000Z",
+          "created_at": "2024-05-22T18:41:50.000000Z",
+          "updated_at": "2026-05-14T04:03:22.000000Z"
+        },
+        {
+          "id": 4131,
+          "hub_id": 10014,
+          "version": "1.8.0",
+          "description": "\\*MOST\\* Stims are now craftable at the med station",
+          "link": "https://forge.sp-tarkov.com/mod/download/1365/realistic-stims-311-update/1.8.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 212,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-05-22T07:27:44.000000Z",
+          "created_at": "2024-05-22T07:27:44.000000Z",
+          "updated_at": "2026-05-14T04:03:23.000000Z"
+        },
+        {
+          "id": 4133,
+          "hub_id": 10012,
+          "version": "1.7.1",
+          "description": "fixed the nic stim having too much strength multiplier",
+          "link": "https://forge.sp-tarkov.com/mod/download/1365/realistic-stims-311-update/1.7.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 170,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-05-22T03:14:41.000000Z",
+          "created_at": "2024-05-22T03:14:41.000000Z",
+          "updated_at": "2026-05-14T04:03:24.000000Z"
+        },
+        {
+          "id": 4135,
+          "hub_id": 10010,
+          "version": "1.7.0",
+          "description": "BRAND NEW STIM ADDED (nic stim price adjusted and also effects changed)\n\nThese changes and additions are temporary for right now because i uploaded these on break from work lmao.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1365/realistic-stims-311-update/1.7.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 156,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-05-22T01:19:44.000000Z",
+          "created_at": "2024-05-22T01:19:44.000000Z",
+          "updated_at": "2026-05-14T04:03:25.000000Z"
+        }
+      ],
+      "license": {
+        "id": 1,
+        "hub_id": 3,
+        "name": "Creative Commons BY 3.0",
+        "link": "http://creativecommons.org/licenses/by/3.0/legalcode",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 4,
+        "hub_id": 21,
+        "title": "Items",
+        "slug": "items",
+        "description": ""
+      },
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 13308,
+      "hub_id": null,
+      "version": "2.2.0",
+      "description": "<p>THIS SHOULD FIX PROBLEMS!!!\nalso next version ill ever do will be spt 5 if it drops</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1365/realistic-stims-311-update/2.2.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11",
+      "downloads": 110,
+      "fika_compatibility": "compatible",
+      "published_at": "2026-03-25T20:54:55.000000Z",
+      "created_at": "2026-03-25T20:54:20.000000Z",
+      "updated_at": "2026-05-14T09:14:59.000000Z",
+      "dependencies": [
+        {
+          "id": 1237,
+          "hub_id": 1725,
+          "guid": "com.musicmaniac.consumablesgalore",
+          "name": "Consumables Galore",
+          "slug": "consumables-galore",
+          "teaser": "Easily create your stims and foods in-game. Tool that comes pre-packed with some new and old stims and foods.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1725.png",
+          "downloads": 11344,
+          "favourites_count": 7,
+          "detail_url": "https://forge.sp-tarkov.com/mod/1237/consumables-galore",
+          "fika_compatibility": true,
+          "featured": false,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": true,
+          "cheat_notice": false,
+          "category_id": 4,
+          "published_at": "2024-01-23T21:46:00.000000Z",
+          "created_at": "2024-01-23T21:46:16.000000Z",
+          "updated_at": "2026-08-03T06:02:26.000000Z",
+          "owner": {
+            "id": 31382,
+            "name": "MusicManiac",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/ca9efbb42b4e3190891e87b23f064c0faf5d31aa_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-05-22T00:57:24.000000Z",
+            "updated_at": "2026-08-02T12:40:35.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 48626,
+              "name": "Awoo",
+              "profile_photo_url": "https://ui-avatars.com/api/?name=A&color=7F9CF5&background=EBF4FF",
+              "cover_photo_url": null,
+              "created_at": "2024-04-19T22:13:08.000000Z",
+              "updated_at": "2025-09-26T15:37:26.000000Z"
+            },
+            {
+              "id": 59864,
+              "name": "AmightyTank",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/ca455d7c3c3a7a3a5f0c349de15469a9aedb1443_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-07-29T05:47:41.000000Z",
+              "updated_at": "2026-08-10T12:37:38.000000Z"
+            },
+            {
+              "id": 82969,
+              "name": "Rana Hamza",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/K6kms49Pw8i6rqx2shGYWf28KCsQR7D8mUTDsAI4_256w.webp",
+              "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/j4M8y3E7lTn8Il0eqjUDN8B7wRjzD2MYZQxVX3qg.jpg",
+              "created_at": "2025-08-07T21:05:24.000000Z",
+              "updated_at": "2026-08-09T20:06:41.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 524,
+              "hub_id": 14333,
+              "version": "1.4.3",
+              "description": "<p>Fixes:</p>\n<p>Updated PropitalPlus and Added Update Checking Feature</p>\n<p>Added a config</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/1237/consumables-galore/1.4.3",
+              "content_length": null,
+              "spt_version_constraint": "~3.11.0",
+              "downloads": 3688,
+              "fika_compatibility": "unknown",
+              "published_at": "2025-05-25T21:07:55.000000Z",
+              "created_at": "2025-05-25T21:07:55.000000Z",
+              "updated_at": "2026-05-14T01:50:05.000000Z"
+            }
+          ],
+          "category": {
+            "id": 4,
+            "hub_id": 21,
+            "title": "Items",
+            "slug": "items",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 11666,
+      "hub_id": 15068,
+      "version": "2.1.0",
+      "description": "<p>ADDED 2 NEW “BLOOD KITS” AS A WAY FOR SLOWER BUT MORE EFFICENT OPTIONS TO RESTORE HEALTH DURING A RAID (BUT THEY COST ALOT)</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1365/realistic-stims-311-update/2.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 383,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-25T08:55:31.000000Z",
+      "created_at": "2025-09-25T08:55:31.000000Z",
+      "updated_at": "2026-05-14T06:01:17.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11641,
+      "hub_id": 15042,
+      "version": "2.0.0",
+      "description": "<p>NEWEST 3.11 SPT WORKING</p>\n<p>(DOES NOT WORK WITH ANY STIMS FROM CONSUMABLES GALORE CURRENTLY!!!)</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1365/realistic-stims-311-update/2.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 242,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-21T04:29:34.000000Z",
+      "created_at": "2025-09-21T04:29:34.000000Z",
+      "updated_at": "2026-05-14T06:01:04.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2059,
+      "hub_id": 12605,
+      "version": "1.9.1",
+      "description": "<p>nothing new in this update just compatibility with spt 3.10</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1365/realistic-stims-311-update/1.9.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 1037,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-12-11T05:54:22.000000Z",
+      "created_at": "2024-12-11T05:54:22.000000Z",
+      "updated_at": "2026-05-14T03:13:25.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1365/realistic.stims.zip",
+    "bytes_written": 7368,
+    "final_url": "https://objects.githubusercontent.com/github-production-repository-file-5c1aeb/1192044690/26254415?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=AKIAVCODYLSA53PQK4ZA%2F20260810%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Date=20260810T154318Z&X-Amz-Expires=300&X-Amz-Signature=3b9e33f6e814ffa8c1624e6ced395e1edf6dd5390debd3be6c483ee045a42b05&X-Amz-SignedHeaders=host&response-content-disposition=attachment%3Bfilename%3Drealistic.stims.zip&response-content-type=application%2Fx-zip-compressed",
+    "content_type": "application/x-zip-compressed"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "2.2.0",
+    "same_as_primary_download": true
+  }
+}

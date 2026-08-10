@@ -1,0 +1,153 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1558,
+      "hub_id": 2131,
+      "guid": "com.thinkbalanced.1",
+      "name": "Construction time: Instant (legacy mod)",
+      "slug": "construction-time-instant-legacy-mod",
+      "teaser": "Makes the construction time of hideout modules instant.",
+      "thumbnail": "",
+      "downloads": 26248,
+      "favourites_count": 0,
+      "description": "<p>Functions in 3.11</p>\n<p>!!!! Do Not install this mod while upgrades are in progress. It can lead to bugged out profiles. !!!!</p>\n<p>To install:</p>\n<p>Drag and drop the “user” folder into your SPT install directory.</p>\n<p>Location of the mod should look something like this</p>\n<p>C:\\SPT\\user\\mods\\ConstructionTimeInstant</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1558/construction-time-instant-legacy-mod",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 6,
+      "published_at": "2026-05-01T19:25:00.000000Z",
+      "created_at": "2024-07-13T19:25:03.000000Z",
+      "updated_at": "2026-05-14T03:51:09.000000Z",
+      "owner": {
+        "id": 57612,
+        "name": "ThinkSlow",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=T&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2024-07-13T19:07:17.000000Z",
+        "updated_at": "2026-02-20T15:50:16.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 991,
+          "hub_id": 13798,
+          "version": "1.0.3",
+          "description": "Updated to 3.11, comment with mods if if did not function properly.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1558/construction-time-instant-legacy-mod/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 14227,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-25T19:49:26.000000Z",
+          "created_at": "2025-03-25T19:49:26.000000Z",
+          "updated_at": "2026-05-14T02:02:53.000000Z"
+        },
+        {
+          "id": 3476,
+          "hub_id": 10834,
+          "version": "1.0.2",
+          "description": "Thank you Daz96050 for the repackage and Hirowo for telling me about the github issue.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1558/construction-time-instant-legacy-mod/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 10769,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-14T11:05:19.000000Z",
+          "created_at": "2024-07-14T11:05:19.000000Z",
+          "updated_at": "2026-05-14T03:50:58.000000Z"
+        },
+        {
+          "id": 3477,
+          "hub_id": 10833,
+          "version": "1.0.1",
+          "description": "To install mod:\n\nDrag and drop the \"user\" file into your SPT install folder.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1558/construction-time-instant-legacy-mod/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 328,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-14T09:50:27.000000Z",
+          "created_at": "2024-07-14T09:50:27.000000Z",
+          "updated_at": "2026-05-14T03:50:57.000000Z"
+        },
+        {
+          "id": 3492,
+          "hub_id": 10816,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1558/construction-time-instant-legacy-mod/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 924,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-13T19:25:03.000000Z",
+          "created_at": "2024-07-13T19:25:03.000000Z",
+          "updated_at": "2026-05-14T03:51:09.000000Z"
+        }
+      ],
+      "license": {
+        "id": 10,
+        "hub_id": 13,
+        "name": "Apache License 2.0",
+        "link": "https://choosealicense.com/licenses/apache-2.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 6,
+        "hub_id": 23,
+        "title": "Hideout",
+        "slug": "hideout",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/ThinkBalanced/ConstructionTimeInstant3/raw/refs/heads/main/ConstructionTimeInstant.zip",
+          "label": "Download"
+        },
+        {
+          "url": "https://github.com/ThinkBalanced/ConstructionTimeInstant3/tree/main",
+          "label": "Main"
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 991,
+      "hub_id": 13798,
+      "version": "1.0.3",
+      "description": "<p>Updated to 3.11, comment with mods if if did not function properly.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1558/construction-time-instant-legacy-mod/1.0.3",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 14227,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-25T19:49:26.000000Z",
+      "created_at": "2025-03-25T19:49:26.000000Z",
+      "updated_at": "2026-05-14T02:02:53.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1558/ConstructionTimeInstant.zip",
+    "bytes_written": 1580,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/828503879/69c6ab04-d200-4943-a83a-182438f51c18?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A18%3A32Z&rscd=attachment%3B+filename%3DConstructionTimeInstant.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A17%3A56Z&ske=2026-08-10T16%3A18%3A32Z&sks=b&skv=2018-11-09&sig=nRBoeZ2lt4hm3vhG3YODvhDINzyptWPBlyKjbhylR3E%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NjYwNCwibmJmIjoxNzg2Mzc2MzA0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.rgyAW9h5TAk-QqI8vEXQjhZp4VS8yasNNOtmV2jRDSQ&response-content-disposition=attachment%3B%20filename%3DConstructionTimeInstant.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.3",
+    "same_as_primary_download": true
+  }
+}

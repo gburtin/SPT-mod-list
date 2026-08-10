@@ -409,5 +409,15 @@
     "found": true,
     "version": "5.2.3",
     "same_as_primary_download": true
+  },
+  "download_fallback_3_11_4": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://www.dropbox.com/scl/fi/0pnurfhqu0fl0qx7ws1vr/bluehead-AIOTrader-4.0.6.zip?rlkey=wj296038w0ke688w3wrfws0xs&st=qjdrn3nj&dl=0",
+    "target_version": "3.11.4",
+    "version": "4.0.6",
+    "same_as_primary_download": false
   }
 }

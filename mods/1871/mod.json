@@ -1,0 +1,151 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1871,
+      "hub_id": 2531,
+      "guid": null,
+      "name": "BIG BOOM GRENADE",
+      "slug": "big-boom-grenade",
+      "teaser": "BigBoomGrenade (BBG) has a short fuse, just like my mate Dazza. A big explosion radius with LOTS of shrapnel.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2531.jpg",
+      "downloads": 6457,
+      "favourites_count": 1,
+      "description": "<p>This mod adds an extra grenade called BigBoomGrenade (BBG)</p>\n<p>It has a short fuse, just like my mate Dazza. A big explosion radius with LOTS of shrapnel.</p>\n<p>It’s perfect for shredding enemies before they have a chance to run away, just don’t get too close!!</p>\n<p>It is based from code by Echo55 and LumurkFox “PineappleBlitz”, so big thanks to them. I wouldn’t have known where</p>\n<p>to start otherwise.</p>\n<p>Just drop the file into the user/mods folder</p>\n<p>Settings can be adjusted within the src\\config folder and opening the config.ts file using Notepad++</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1871/big-boom-grenade",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-12-06T13:47:09.000000Z",
+      "created_at": "2024-12-06T13:47:09.000000Z",
+      "updated_at": "2026-07-07T16:59:03.000000Z",
+      "owner": {
+        "id": 44073,
+        "name": "watsy",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/eba84fe4dc6c8767b8f081e07878a0fdbbaec82f_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-01-19T01:41:41.000000Z",
+        "updated_at": "2026-08-08T15:01:13.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 1175,
+          "hub_id": 13601,
+          "version": "1.0.11",
+          "description": "Updated for SPT 3.11.x",
+          "link": "https://forge.sp-tarkov.com/mod/download/1871/big-boom-grenade/1.0.11",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 3413,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-16T07:53:14.000000Z",
+          "created_at": "2025-03-16T07:53:14.000000Z",
+          "updated_at": "2025-03-16T07:53:14.000000Z"
+        },
+        {
+          "id": 2062,
+          "hub_id": 12602,
+          "version": "1.0.3",
+          "description": "Forgot to change the background color of the BigBoomGrenade. Now fixed.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1871/big-boom-grenade/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1876,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-11T03:10:57.000000Z",
+          "created_at": "2024-12-11T03:10:57.000000Z",
+          "updated_at": "2026-05-14T03:13:26.000000Z"
+        },
+        {
+          "id": 2079,
+          "hub_id": 12584,
+          "version": "1.0.2",
+          "description": "Bigger Boom Explosion.\n\nSee the \"readme\" file.\n\nI have tried to update the file so that it works with Prapors Grenadier Quest but I just can not get it to work.\n\nFor this reason I would just use [\"Skipper\"](https://hub.sp-tarkov.com/files/file/1861-skipper/) for now.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1871/big-boom-grenade/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 294,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-09T22:41:49.000000Z",
+          "created_at": "2024-12-09T22:41:49.000000Z",
+          "updated_at": "2026-05-14T03:13:35.000000Z"
+        },
+        {
+          "id": 2128,
+          "hub_id": 12522,
+          "version": "1.0.1",
+          "description": "added \"blue\" background to the BigBoomGrenade so it doesn't look exactly like the F1",
+          "link": "https://forge.sp-tarkov.com/mod/download/1871/big-boom-grenade/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 539,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-07T02:20:52.000000Z",
+          "created_at": "2024-12-07T02:20:52.000000Z",
+          "updated_at": "2026-05-14T03:14:27.000000Z"
+        },
+        {
+          "id": 2142,
+          "hub_id": 12506,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1871/big-boom-grenade/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 335,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-06T13:47:09.000000Z",
+          "created_at": "2024-12-06T13:47:09.000000Z",
+          "updated_at": "2026-05-14T03:14:36.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 1175,
+      "hub_id": 13601,
+      "version": "1.0.11",
+      "description": "<p>Updated for SPT 3.11.x</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1871/big-boom-grenade/1.0.11",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 3413,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-16T07:53:14.000000Z",
+      "created_at": "2025-03-16T07:53:14.000000Z",
+      "updated_at": "2025-03-16T07:53:14.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html",
+    "external_url": "https://mega.nz/file/TMVlnAAD#LP8nbioOxvvMUrzS6_zOZ_94RYewX1O8hTy_96OqnpU"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.11",
+    "same_as_primary_download": true
+  }
+}

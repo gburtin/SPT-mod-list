@@ -1,0 +1,165 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2119,
+      "hub_id": 2806,
+      "guid": null,
+      "name": "EPAKIM1 Trader Mod",
+      "slug": "epakim1-trader-mod",
+      "teaser": "Trader mod that adds in the popular and up-and-coming artist \"Epakim1\" and his characters and art work into the world of Tarkov. With custom quests included!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2806.png",
+      "downloads": 11414,
+      "favourites_count": 0,
+      "description": "<p>This mod requires <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/885-virtual-s-custom-quest-loader/\" rel=\"noreferrer noopener\">Virtuals Custom Quest Loader</a> in order to operate!!!</p>\n<p>Introducing my first attempt at a mod, in homage to an artist that of whom’ artwork I extremely enjoy.</p>\n<p>This trader mod includes just under 10 fully custom quests made possible by Virtual and his excellent and “easy” to grasp mod; VCQL.</p>\n<p>As well as a fully custom and arranged menu of barters and tradeable items. This trader features levels 1 - 4 trades in correspondence with the players “affinity” towards the trader themself!</p>\n<p>All artwork used for every single quest/thumbnail is artwork created by Epakim1. Check out their amazing and kickass artwork and socials at the following: <a target=\"_blank\" class=\"external-link\" href=\"https://linktr.ee/EPAKIM1\" rel=\"noreferrer noopener\">EPAKIM1</a></p>\n<p>Disclaimer: { EPAKIM himself has given me permission to utilize his awesome artwork for this mod, in both discord VC and DMs. }</p>\n<p>If you have any criticisms or any sort of feedback, please leave a comment and let me know what can be improved. I will try to maintain this mod in accordance to the updates of SPT in between my work hours and such.</p>\n<p>Have fun and get to work errand boys.</p>\n<p>Ensure you copy and paste every folder file within the link folder.</p>\n<p>Ensure you install VCQL FIRST then Epakim1 and select the replace folders option.</p>\n<p>{Update: Fixed multiple items in Epakim’s inventory that were unable to be purchased.} 5/2/25</p>\n<p>{Update: Added altyn faceshield as a barter in a later trader lvl tier.} 5/15/25</p>\n<p>{08/04/2025 - Fixed trader affinity scoring per mission rewards to allow for mastery of the trader.}</p>\n<p>{Update: New Quest &amp; Russian translation added. 8/22/2025</p>\n<p>(Special Thanks)</p>\n<p>- EpaKim1 - For his awesome artwork</p>\n<p>- Morchello - For RU translation</p>\n<p>- <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/37013-bushtail/?highlight=bushtail\" rel=\"noreferrer noopener\">Bushtail</a> - Teaching me the fundamentals &amp; helping endlessly</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2119/epakim1-trader-mod",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-05-01T06:10:38.000000Z",
+      "created_at": "2025-05-01T06:10:38.000000Z",
+      "updated_at": "2026-07-07T16:59:07.000000Z",
+      "owner": {
+        "id": 73748,
+        "name": "KarterIsNotOnAcid",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/d76734aaaa16f57e4f68cf9c3f793f023cb7a5b6_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/f3f9cdc600d9a421c883f0a6ed28ad9b91961615.gif",
+        "created_at": "2025-02-19T23:27:48.000000Z",
+        "updated_at": "2026-07-15T21:26:43.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 51,
+          "hub_id": 14850,
+          "version": "1.0.5",
+          "description": "New Quest Added: Hemicrania\n\nRussian Translation Added for Questline!",
+          "link": "https://forge.sp-tarkov.com/mod/download/2119/epakim1-trader-mod/1.0.5",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2525,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-23T01:33:15.000000Z",
+          "created_at": "2025-08-23T01:33:15.000000Z",
+          "updated_at": "2026-05-14T01:38:06.000000Z"
+        },
+        {
+          "id": 144,
+          "hub_id": 14739,
+          "version": "1.0.4",
+          "description": "08/04/2025 - Fixed trader affinity scoring per mission rewards to allow for mastery of the trader.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2119/epakim1-trader-mod/1.0.4",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1152,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-04T23:03:02.000000Z",
+          "created_at": "2025-08-04T23:03:02.000000Z",
+          "updated_at": "2026-05-14T01:38:51.000000Z"
+        },
+        {
+          "id": 538,
+          "hub_id": 14317,
+          "version": "1.0.3",
+          "description": "Added new items to trader assort for higher affinity levels.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2119/epakim1-trader-mod/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 4135,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-23T23:55:34.000000Z",
+          "created_at": "2025-05-23T23:55:34.000000Z",
+          "updated_at": "2026-05-14T01:50:18.000000Z"
+        },
+        {
+          "id": 590,
+          "hub_id": 14263,
+          "version": "1.0.2",
+          "description": "Added new barters to trader assort.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2119/epakim1-trader-mod/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1036,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-16T04:55:47.000000Z",
+          "created_at": "2025-05-16T04:55:47.000000Z",
+          "updated_at": "2026-05-14T01:52:29.000000Z"
+        },
+        {
+          "id": 679,
+          "hub_id": 14146,
+          "version": "1.0.1",
+          "description": "{This version fixes a few of Epakims trades, mainly the Ops Core Fast Headgear being unable to purchase. This has been rectified.}",
+          "link": "https://forge.sp-tarkov.com/mod/download/2119/epakim1-trader-mod/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1791,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-02T18:22:37.000000Z",
+          "created_at": "2025-05-02T18:22:37.000000Z",
+          "updated_at": "2026-05-14T01:54:03.000000Z"
+        },
+        {
+          "id": 692,
+          "hub_id": 14133,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2119/epakim1-trader-mod/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 775,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-01T06:10:38.000000Z",
+          "created_at": "2025-05-01T06:10:38.000000Z",
+          "updated_at": "2026-05-14T01:55:19.000000Z"
+        }
+      ],
+      "license": {
+        "id": 9,
+        "hub_id": 12,
+        "name": "Mozilla Public License 2.0",
+        "link": "https://choosealicense.com/licenses/mpl-2.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 51,
+      "hub_id": 14850,
+      "version": "1.0.5",
+      "description": "<p>New Quest Added: Hemicrania</p>\n<p>Russian Translation Added for Questline!</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2119/epakim1-trader-mod/1.0.5",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2525,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-08-23T01:33:15.000000Z",
+      "created_at": "2025-08-23T01:33:15.000000Z",
+      "updated_at": "2026-05-14T01:38:06.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/drive/folders/1dP8FFpnEasAcm-wircoXNxxN8zxu4m_R?usp=sharing"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.5",
+    "same_as_primary_download": true
+  }
+}

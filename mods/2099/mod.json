@@ -1,0 +1,101 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2099,
+      "hub_id": 2784,
+      "guid": null,
+      "name": "Fair Fight - Brain Rebalance",
+      "slug": "fair-fight-brain-rebalance",
+      "teaser": "I'm tired of being instantly beamed on Lighthouse, so i made the rogues somewhat less blatant.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2784.png",
+      "downloads": 11428,
+      "favourites_count": 0,
+      "description": "<p><strong>What this mod does?</strong></p>\n<p>- Normalizes bot skills (BotSound and BotReload) except for cultists;</p>\n<p>- Nerfs Rogues by alot;</p>\n<p>- Nerfs Raiders by a little.</p>\n<p><strong>What is botSound and BotReload?</strong></p>\n<p>- BotSound is a hidden skill that dictated how loud bot footsteps are, the most notable example is Birdeye, rushing you at mach5 without making a sound.</p>\n<p>- BotReload is another hidden skill that boosts reload speed to comical levels, the most notable example is Zryachiy, taking world record breaking 0.1 seconds to reload a .338 AXMC.</p>\n<p><strong>What was changed about Rogues?</strong></p>\n<p>Made them more in line with other bot types, instead of being a literal god they now sit comfortably slightly above the efficiency of raiders;</p>\n<p>They are now more reactive to being shot, less accurate, take longer to reach max accuracy, are more affected by distance, lowered their hearing distance and efficiency, fire smaller bursts and suffer more recoil;</p>\n<p>If that sounds like alot, then don’t worry, they are still slightly better than Raiders in most of those.</p>\n<p>What was changed about Raiders?</p>\n<p>Removed their ability to <strong>DIRECTLY</strong> aim at heads during it’s <strong>INITIAL</strong> engagements, after 5 seconds it’s all clear for the Head/Eyes express.</p>\n<p>Disclaimer: Raiders still might hit a headshot due to inaccuracy, player movement, aim punch, bad luck, pure jank, Nikita’s will, a severe case of “magnet brain” or even the bot shifting his point of aim due to its gun being close to a wall. We at Spring’s Basement Coding INC are not liable to insurance claims, all requests will be forwarded to Prapor’s diving team for further analysis.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2099/fair-fight-brain-rebalance",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-04-15T03:02:15.000000Z",
+      "created_at": "2025-04-15T03:02:15.000000Z",
+      "updated_at": "2026-07-07T16:59:07.000000Z",
+      "owner": {
+        "id": 31264,
+        "name": "Spring",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/c29b3068176685b56abc8d1d942083c2a67cfa9f_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/442373ec5015670d9faf970989a4286965eead27_1280w.webp",
+        "created_at": "2023-05-18T20:28:38.000000Z",
+        "updated_at": "2026-07-10T04:56:55.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 789,
+          "hub_id": 14018,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2099/fair-fight-brain-rebalance/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 11428,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-15T03:02:15.000000Z",
+          "created_at": "2025-04-15T03:02:15.000000Z",
+          "updated_at": "2026-05-14T01:58:29.000000Z"
+        }
+      ],
+      "license": {
+        "id": 13,
+        "hub_id": 16,
+        "name": "The Unlicense",
+        "link": "https://choosealicense.com/licenses/unlicense/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/GabrielSpring/spring-FairFight_BrainRebalance",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 789,
+      "hub_id": 14018,
+      "version": "1.0.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2099/fair-fight-brain-rebalance/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 11428,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-04-15T03:02:15.000000Z",
+      "created_at": "2025-04-15T03:02:15.000000Z",
+      "updated_at": "2026-05-14T01:58:29.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2099/spring-FairFight_BrainRebalance.zip",
+    "bytes_written": 3668,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/966493860/81a52e61-58ae-41db-99cd-e587a705a82f?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A17%3A44Z&rscd=attachment%3B+filename%3Dspring-FairFight_BrainRebalance.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A17%3A05Z&ske=2026-08-10T16%3A17%3A44Z&sks=b&skv=2018-11-09&sig=%2BdR97JA4u8EH%2FM9djjgK%2F7aJrwg1lIgbBPJtc2NFS1U%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3Njc4NCwibmJmIjoxNzg2Mzc2NDg0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.WvE5JFGDY36G_jEJmg2kypVNzMha4EwM9SavK2xtLIE&response-content-disposition=attachment%3B%20filename%3Dspring-FairFight_BrainRebalance.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,129 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1996,
+      "hub_id": 2676,
+      "guid": null,
+      "name": "Basic Flea Options",
+      "slug": "basic-flea-options",
+      "teaser": "Mod that provides some basic options for adjusting Flea Market things.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2676.png",
+      "downloads": 3314,
+      "favourites_count": 0,
+      "description": "<p>Basic Flea Options</p>\n<p>The default config is vanilla settings! You will need to change them to your liking.</p>\n<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Features</div>\n<div class=\"tab-content\"><p>General Flea Options</p>\n<ul>\n<li>Config option for enable/disable the flea market</li>\n<li>Config option for setting flea market minimum player level requirement</li>\n<li>Config option for only allowing FIR items to be sold on flea market</li>\n<li>Option for items bought from flea being FIR</li>\n<li>Option for min and max offers generated per item</li>\n</ul>\n<p>Barter Option</p>\n<ul>\n<li>Option for percentage chance of flea offers being barter trades</li>\n<li>Option for min/max number of items sold per barter trade</li>\n<li>Option for min rouble cost for an offer to become a barter</li>\n</ul>\n<p>Pack Options</p>\n<ul>\n<li>Option for percentage chance of flea offers being packs</li>\n<li>Option for min/max number of items sold per pack offer</li>\n</ul></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Config Options</div>\n<div class=\"tab-content\"><p>Comments are added for this page only, they are not in the actual config file.</p>\n<p>{ “modEnabled”: true, // allows you to disable the mod without removing it entirely “modDebug”: false, // turns on debugging text, for testing/dev use only “configOptions”:{ “fleaEnabled”: true, // disables the Flea button “fleaMinimumLevel”: 15, // level requirement needed to access flea “fleaSellingFIROnly”: false, // only allows FIR items to be sold “fleaItemsBoughtIsFIR”: false, // items bought from Flea become FIR “fleaItemCountMin”: 7, // minimum number of offers per item “fleaItemCountMax”: 30, // maximum number of offers per item “fleaBarterPercent”: 20, // percent of offers that will become barter trades instead “fleaBarterCountMin”: 1, // minimum amount of items required for the barter trade “fleaBarterCountMax”: 3, // maximum amount of items required for the barter trade “fleaMinRoubleCostToBecomeBarter”: 20000, // minimum rouble cost for an item on offer to become a barter trade “fleaPackPercent”: 6, // percent of offers that will become packs of items instead “fleaPackCountMin”: 4, // minimum amount of items that will be sold in the pack “fleaPackCountMax”: 17 // maximum amount of items that will be sold in the pack } } {.endtabset}</p>\n<p>Icon made with all CC0 assets.</p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1996/basic-flea-options",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-02-02T14:03:27.000000Z",
+      "created_at": "2025-02-02T14:03:27.000000Z",
+      "updated_at": "2026-07-07T16:59:05.000000Z",
+      "owner": {
+        "id": 20222,
+        "name": "schkuromi",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/fLZvIJ9NtEkFkuWX3J8LT8nE3uwcUNvzcL0u8w9m_256w.webp",
+        "cover_photo_url": null,
+        "created_at": "2022-07-03T07:20:11.000000Z",
+        "updated_at": "2026-08-10T15:28:03.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 1017,
+          "hub_id": 13770,
+          "version": "1.0.2",
+          "description": "Release for SPT 3.11.x\n\n- Updated for SPT 3.11\n\nVirusTotal Link: <https://www.virustotal.com/gui/file/a46abb54527f8b016af5d0eca7ecba551b9c74ab720d85b9ff9e3128e1d5013b/detection>",
+          "link": "https://forge.sp-tarkov.com/mod/download/1996/basic-flea-options/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1746,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-24T11:55:20.000000Z",
+          "created_at": "2025-03-24T11:55:20.000000Z",
+          "updated_at": "2026-05-14T02:03:08.000000Z"
+        },
+        {
+          "id": 1447,
+          "hub_id": 13314,
+          "version": "1.0.1",
+          "description": "Built for SPT 3.10\n\nAdded  \nGeneral Flea Options\n\n- Option for items bought from flea being FIR\n- Option for min and max offers generated per item\n\nBarter Options\n\n- Option for percentage chance of flea offers being barter trades\n- Option for min/max number of items sold per barter trade\n- Option for min rouble cost for an offer to become a barter\n\nPack Options\n\n- Option for percentage chance of flea offers being packs\n- Option for min/max number of items sold per pack offer\n\nVirusTotal Link: <https://www.virustotal.com/gui/url/6a36f18ceabae32a5f962fe73be8f7b9392c719fd7d86d882eaa38bfbf2aef7a/detection>",
+          "link": "https://forge.sp-tarkov.com/mod/download/1996/basic-flea-options/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 738,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-02-05T23:47:58.000000Z",
+          "created_at": "2025-02-05T23:47:58.000000Z",
+          "updated_at": "2026-05-14T02:23:49.000000Z"
+        },
+        {
+          "id": 1478,
+          "hub_id": 13281,
+          "version": "1.0.0",
+          "description": "Built for SPT 3.10.5\n\nFeatures:\n\n\\- Config option for enable/disable the flea market\n\n\\- Config option for setting flea market minimum player level requirement\n\n\\- Config option for only allowing FIR items to be sold on flea market\n\nVirusTotal Link: <https://www.virustotal.com/gui/url/4c23ad2abce698cf511a206a3ac48d7b7dccd47134705e51811b8f3a746433c7/detection>",
+          "link": "https://forge.sp-tarkov.com/mod/download/1996/basic-flea-options/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 830,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-02-02T14:03:27.000000Z",
+          "created_at": "2025-02-02T14:03:27.000000Z",
+          "updated_at": "2026-05-14T02:26:50.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/schkuromi/basic-flea-options",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 1017,
+      "hub_id": 13770,
+      "version": "1.0.2",
+      "description": "<p>Release for SPT 3.11.x</p>\n<ul>\n<li>Updated for SPT 3.11</li>\n</ul>\n<p>VirusTotal Link: <a target=\"_blank\" class=\"external-link\" href=\"https://www.virustotal.com/gui/file/a46abb54527f8b016af5d0eca7ecba551b9c74ab720d85b9ff9e3128e1d5013b/detection\" rel=\"noreferrer noopener\">https://www.virustotal.com/gui/file/a46abb54527f8b016af5d0eca7ecba551b9c74ab720d85b9ff9e3128e1d5013b/detection</a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1996/basic-flea-options/1.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1746,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-24T11:55:20.000000Z",
+      "created_at": "2025-03-24T11:55:20.000000Z",
+      "updated_at": "2026-05-14T02:03:08.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1996/schkuromi-basicfleaoptions.zip",
+    "bytes_written": 3527,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/926064944/bece11fb-9783-4cfd-982c-4717ee1c420d?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A43%3A39Z&rscd=attachment%3B+filename%3Dschkuromi-basicfleaoptions.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A42%3A49Z&ske=2026-08-10T16%3A43%3A39Z&sks=b&skv=2018-11-09&sig=Qz9LODanxPd1ywcQTZFcIZaUdv7zYZQcmEDJsbnjdfw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzcxNiwibmJmIjoxNzg2Mzc3NDE2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.lD-UQVakconhitbkTRgtPLipg8ro0DmKzf1eiTW93l4&response-content-disposition=attachment%3B%20filename%3Dschkuromi-basicfleaoptions.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.2",
+    "same_as_primary_download": true
+  }
+}

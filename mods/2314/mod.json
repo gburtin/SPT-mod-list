@@ -195,5 +195,15 @@
     "target_version": "4.0.13",
     "version": "2.0.0",
     "same_as_primary_download": false
+  },
+  "download_fallback_3_11_4": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/file/d/16LUDekhRxIGv2WBeDmenjJAarEnQHhaN/view?usp=sharing",
+    "target_version": "3.11.4",
+    "version": "1.1.0",
+    "same_as_primary_download": false
   }
 }

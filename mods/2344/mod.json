@@ -166,5 +166,16 @@
     "target_version": "4.0.13",
     "version": "1.1.0",
     "same_as_primary_download": false
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2344/dynamic-item-weights-1.0.0-spt3114.zip",
+    "bytes_written": 5816,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1072363577/b318cb68-72c1-4ae5-8264-fe8ead1e8dbc?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A47%3A39Z&rscd=attachment%3B+filename%3DTosox.DynamicItemWeights-v1.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A47%3A03Z&ske=2026-08-10T16%3A47%3A39Z&sks=b&skv=2018-11-09&sig=TqEMsfJAy0Bh%2B60bOynuTFYvxfjqEdUV9KdoANsap2Q%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODQxOSwibmJmIjoxNzg2Mzc4MTE5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.jRO8YnEjQIIBBlUTyL7wJLdioW2D0-aZBFtkaZ8uxHw&response-content-disposition=attachment%3B%20filename%3DTosox.DynamicItemWeights-v1.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "1.0.0",
+    "same_as_primary_download": false
   }
 }

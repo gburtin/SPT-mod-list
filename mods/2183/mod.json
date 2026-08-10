@@ -1,0 +1,129 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2183,
+      "hub_id": 2886,
+      "guid": null,
+      "name": "RTT - RaidTimeToy",
+      "slug": "rtt-raidtimetoy",
+      "teaser": "A simple raid time tool that allows you to shorten or lengthen your SPT raid times. There's some randomness if you enjoy keeping things mildly spicy.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2886.png",
+      "downloads": 3931,
+      "favourites_count": 0,
+      "description": "<h1>Simple tool to adjust your raid times.</h1>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/8PDDCMx.png\" alt=\"8PDDCMx.png\" /></p>\n<h2>Features</h2>\n<ul>\n<li>Global, per-map, category, and random raid time multipliers</li>\n<li>Easy config</li>\n<li>Clean, color-coded console output</li>\n</ul>\n<h2>Configuration</h2>\n<p>Edit config/config.json to control how raid times are set.</p>\n<p>You can use:</p>\n<ul>\n<li><strong>Global multiplier</strong>: Set all maps to the same value</li>\n<li><strong>Per-map settings</strong>: Fine-tune individual maps</li>\n<li><strong>Categories</strong>: Group maps and set multipliers for each group - you could even make your own groups if you like</li>\n<li><strong>Random mode</strong>: Randomize all raid times each server restart</li>\n</ul>\n<h2>What are map categories?</h2>\n<p>Just another way of handling variety in raid time multipliers.</p>\n<p>I have created a few default groups which you can change to whatever makes sense to you.</p>\n<p>Currently the maps are split into the following groups :</p>\n<ul>\n<li>Small maps : Factory</li>\n<li>Medium maps : Customs, Reserve and Interchange</li>\n<li>Large maps : Shoreline, Woods, Streets and Lighthouse</li>\n<li>Expensive maps : Labs</li>\n</ul>\n<p>How RaidTimeToy Picks Which Multiplier to Use</p>\n<p><em>When the mod sets the raid time for each map, it checks your config in this order:</em></p>\n<h2>Random Mode</h2>\n<p>If randomMode.enabled is true, a random multiplier (between minMultiplier and maxMultiplier) is used for all maps. This overrides all other settings.</p>\n<h2>Global Multiplier</h2>\n<p>If randomMode.enabled is false and globalMultiplier is true, the value of raidTimeMultiplier is used for all maps. This overrides per-map and category settings.</p>\n<h2>Per-Map Settings</h2>\n<p>If both randomMode.enabled and globalMultiplier are false, the mod checks if the current map is listed in perMapSettings. If it is, that value is used for this map.</p>\n<h2>Categories</h2>\n<p>If the map is not in perMapSettings, the mod checks if it’s included in any categories group. If it is, the category’s multiplier is used.</p>\n<h2>Default Multiplier</h2>\n<p><em>If none of the above apply, the mod uses the value of raidTimeMultiplier as a fallback.</em></p>\n<p>⏩ Priority Table Setting Used When…</p>\n<ul>\n<li>randomMode - If enabled, always used for all maps</li>\n<li>globalMultiplier - If enabled (and randomMode is off), used for all maps</li>\n<li>perMapSettings - If set for a map, used for that map</li>\n<li>categories - If map is in a category, used for that map</li>\n<li>raidTimeMultiplier - Used only if none of the above apply</li>\n</ul>\n<p>⚠️ If Multiple Are Enabled</p>\n<ul>\n<li>Random mode always wins (even if global is also enabled).</li>\n<li>Global wins over per-map and categories.</li>\n<li>Per-map wins over categories.</li>\n<li>Categories win over the default.</li>\n</ul>\n<p>Tip: If you want to use per-map or category settings, make sure both randomMode.enabled and globalMultiplier are set to false.</p>\n<p>Example:</p>\n<p>{ “enabled”: true, “globalMultiplier”: false, “raidTimeMultiplier”: 2.0, “randomMode”: { “enabled”: false, “minMultiplier”: 1.0, “maxMultiplier”: 3.0 }, “categories”: { “smallMaps”: { “multiplier”: 0.5, “maps”: [ “factory4_day”, “factory4_night” ] }, “mediumMaps”: { “multiplier”: 1.5, “maps”: [ “bigmap”, “reservbase”, “interchange” ] }, “bigMaps”: { “multiplier”: 2.5, “maps”: [ “shoreline”, “woods”, “lighthouse”, “tarkovstreets” ] }, “expensiveMaps”: { “multiplier”: 3.0, “maps”: [ “laboratory” ] } }, “perMapSettings”: { “factory4_day”: 1.5, “factory4_night”: 2.5, “laboratory”: 3.0, “bigmap”: 1.5, “woods”: 2.0, “shoreline”: 2.0, “interchange”: 2.0, “reserve”: 2.0, “lighthouse”: 2.0, “tarkovstreets”: 2.0, “sandbox”: 2.0 } }</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2183/rtt-raidtimetoy",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-06-14T13:21:08.000000Z",
+      "created_at": "2025-06-14T13:21:08.000000Z",
+      "updated_at": "2026-07-13T18:00:48.000000Z",
+      "owner": {
+        "id": 50989,
+        "name": "spicymanp",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/af55f90b3e6ccce9225ebd67ff33627479c73496_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-05-06T09:27:14.000000Z",
+        "updated_at": "2026-08-06T11:49:34.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 332,
+          "hub_id": 14540,
+          "version": "1.1.1",
+          "description": "Fixed :\n\n- Trains should arrive and leave according to settings in config (no longer always at 2mins into a new raid).\n- There should no longer be any unexpected changes in raid times, raid times should only change between server restarts (if you changed them OR if you selected random mode).\n\nApologies for the fuckery!\n\nThanks to [DenNoch](https://hub.sp-tarkov.com/user/52905-dennoch/) &amp; [InTheNightfall](https://hub.sp-tarkov.com/user/InTheNightfall/) for reporting the above issues.   \n  \nEnjoy!",
+          "link": "https://forge.sp-tarkov.com/mod/download/2183/rtt-raidtimetoy/1.1.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2626,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-29T15:20:29.000000Z",
+          "created_at": "2025-06-29T15:20:29.000000Z",
+          "updated_at": "2026-05-14T01:43:28.000000Z"
+        },
+        {
+          "id": 370,
+          "hub_id": 14502,
+          "version": "1.1.0",
+          "description": "**Train Times Update**\n\n  \nYou can now change the arrival, waiting period and departure times of trains.\n\nEnjoy!",
+          "link": "https://forge.sp-tarkov.com/mod/download/2183/rtt-raidtimetoy/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 473,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-23T15:38:25.000000Z",
+          "created_at": "2025-06-23T15:38:25.000000Z",
+          "updated_at": "2026-05-14T01:46:05.000000Z"
+        },
+        {
+          "id": 414,
+          "hub_id": 14455,
+          "version": "1.0.0",
+          "description": "**Initial public release.**\n\nA simple raid time tool that allows you to shorten or lengthen your SPT raid times.\n\nThere's some randomness if you enjoy keeping things mildly spicy.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2183/rtt-raidtimetoy/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 832,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-14T13:21:08.000000Z",
+          "created_at": "2025-06-14T13:21:08.000000Z",
+          "updated_at": "2026-07-13T18:00:48.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/spicymanp/RaidTimeToy",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 332,
+      "hub_id": 14540,
+      "version": "1.1.1",
+      "description": "<p>Fixed :</p>\n<ul>\n<li>Trains should arrive and leave according to settings in config (no longer always at 2mins into a new raid).</li>\n<li>There should no longer be any unexpected changes in raid times, raid times should only change between server restarts (if you changed them OR if you selected random mode).</li>\n</ul>\n<p>Apologies for the fuckery!</p>\n<p>Thanks to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/52905-dennoch/\" rel=\"noreferrer noopener\">DenNoch</a> &amp; <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/InTheNightfall/\" rel=\"noreferrer noopener\">InTheNightfall</a> for reporting the above issues.</p>\n<p>Enjoy!</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2183/rtt-raidtimetoy/1.1.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2626,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-06-29T15:20:29.000000Z",
+      "created_at": "2025-06-29T15:20:29.000000Z",
+      "updated_at": "2026-05-14T01:43:28.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2183/raidtimetoy-v1.1.1-spicymanp.zip",
+    "bytes_written": 10846,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1001939142/5e82e6ce-8ceb-475d-8e08-d25f44a401ad?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A17%3A53Z&rscd=attachment%3B+filename%3Draidtimetoy-v1.1.1-spicymanp.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A16%3A59Z&ske=2026-08-10T16%3A17%3A53Z&sks=b&skv=2018-11-09&sig=PhARRExqDGInMQMdwGuhlogxqwwik579U4xKIyJRSnw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NjczNSwibmJmIjoxNzg2Mzc2NDM1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.d86FYUBxJqlTxlXsPeEhLi2RTxGVcoE0j_oMPzabkUA&response-content-disposition=attachment%3B%20filename%3Draidtimetoy-v1.1.1-spicymanp.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.1.1",
+    "same_as_primary_download": true
+  }
+}

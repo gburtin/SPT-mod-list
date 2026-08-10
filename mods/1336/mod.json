@@ -1,0 +1,100 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1336,
+      "hub_id": 1853,
+      "guid": null,
+      "name": "Jormungand Music Pack",
+      "slug": "jormungand-music-pack",
+      "teaser": "I didn't spell Muic this time",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/1853.jpg",
+      "downloads": 872,
+      "favourites_count": 0,
+      "description": "<p>WARNING: DUE TO GOOGLE DRIVE DELETING FILES WHEN UNZIPPED DOWNLOAD BOBBY’s MUSIC PLAYER FIRST AND THEN THIS MOD. MOVE ONLY THE AUDIO FILES NOT THE DLL. ALT SOLUTION: Download the ZIP files from my link in Bobby’s Mod Page and then unzip them to a folder or desktop</p>\n<p>Mod adds in all the music from the anime/manga series Jomungand. Perfect Order is included as well.</p>\n<p>Submod of Bobby’s Main Menu Music mod</p>\n<p>Install: Drag BepinEx folder into SPT directory. this appiles with the new Instructions as well.</p>\n<p>Preview: <a target=\"_blank\" class=\"external-link\" href=\"https://youtu.be/YDP7p2O5NlM?si=r5IVpHIwoM3U\" rel=\"noreferrer noopener\">https://youtu.be/YDP7p2O5NlM?si=r5IVpHIwoM3U</a>_uLi</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1336/jormungand-music-pack",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-04-16T21:09:27.000000Z",
+      "created_at": "2024-04-16T21:09:27.000000Z",
+      "updated_at": "2026-07-07T16:58:55.000000Z",
+      "owner": {
+        "id": 11920,
+        "name": "Junko Space Mommy",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/d3deb82329d12c2130ce7059db5facb8af859540_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/e3431969e0c3ecd77fc51a8e7011645addd295fc.jpg",
+        "created_at": "2021-12-05T09:12:32.000000Z",
+        "updated_at": "2026-08-07T21:06:22.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 4567,
+          "hub_id": 9487,
+          "version": "1.0.0",
+          "description": "Updated to 3.9.5/x SPT/ Submod of Bobby's Main Music Mod. Install: Drag BepinEx folder into SPT directory.\n\nUpdated to 3.10.X SPT version\n\nUpdated tp SPT 3.11 version",
+          "link": "https://forge.sp-tarkov.com/mod/download/1336/jormungand-music-pack/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 872,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-04-16T21:09:27.000000Z",
+          "created_at": "2024-04-16T21:09:27.000000Z",
+          "updated_at": "2026-05-14T04:11:03.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/BobbyRenzobbi/Bobbys-Music-Player",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 4567,
+      "hub_id": 9487,
+      "version": "1.0.0",
+      "description": "<p>Updated to 3.9.5/x SPT/ Submod of Bobby’s Main Music Mod. Install: Drag BepinEx folder into SPT directory.</p>\n<p>Updated to 3.10.X SPT version</p>\n<p>Updated tp SPT 3.11 version</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1336/jormungand-music-pack/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 872,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-04-16T21:09:27.000000Z",
+      "created_at": "2024-04-16T21:09:27.000000Z",
+      "updated_at": "2026-05-14T04:11:03.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/drive/folders/1GqJc4ilmx92Id-TlmnjCjquVuApttL-J"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

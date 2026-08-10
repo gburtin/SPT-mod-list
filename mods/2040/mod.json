@@ -1,0 +1,139 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2040,
+      "hub_id": 2722,
+      "guid": null,
+      "name": "Comprehensive Ammunition Tweaker - Updated",
+      "slug": "comprehensive-ammunition-tweaker-updated",
+      "teaser": "Customize ammo values for your optimal playthrough!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2722.png",
+      "downloads": 2347,
+      "favourites_count": 1,
+      "description": "<p>Ever wanted to customise every individual ammunition by yourself? Make 5.56 better? Introducing, C.A.T, the Comprehensive Ammunition Tweaker, Updated that allows you to do as you please! Contains the ability to make ammo explosive, and blinding too!</p>\n<p>This is a update to the 3.7 mod of the same name by <strong>Tyrian</strong>! I wanted to mess with the values, and since it already existed, I just updated it in a few minutes<br />\nAll credit to Tyrian, they make amazing mods, check them out!!</p>\n<p>Allows individual customization of every ammunition type within base tarkov, most of the important values that ammunitions use has been seperated into their own configurable json files within the mods folder for easy configuration. Ammo can have a variety of things changed about them, from their damage and penetration to whether they are explosive or can blind enemies. Let your creative juices go wild, <strong>feel free to make presets!</strong></p>\n<p>Also comes with a toggleable ‘All In One’ ammunition that you can edit individually from all the other ammunition, an ammunition that only your PMC will use as bots shouldn’t generate with it. Can be used in any weapon or magazine.</p>\n<p><strong>// Not all ammunition has a value for everything listed below, some even have unique values for them. But, here is a guide to help you with them.</strong></p>\n<p>“Enabled”: false, - This will determine whether or not the round is enabled or not for editing, without this set to ‘true’ nothing will change.</p>\n<p>“BulletID”: [“5e81f423763d9f754677bf2e”], – Leave this alone, do not edit it under any circumstances.</p>\n<p>“Weight”: 0.015, – Changes the weight of the round.</p>\n<p>“InitialSpeed”: 340, – Changes the speed of the round.</p>\n<p>“Damage”: 72, – Changes the damage of the round.</p>\n<p>“ammoAccr”: 0, – Changes the accuracy of the round, this is a percentage based value shown. A value of 10 is +10% accuracy, a -10 is -10% accuracy.</p>\n<p>“ammoRec”: 0, – Changes the recoil of the round, this is a percentage based value shown. A value of 10 is +10% recoil, a -10 is -10% recoil.</p>\n<p>“PenetrationPower”: 25, – This is the actual penetration value of a round, 10 pens class 1 armor, 50 pens class 5. So on and so forth.</p>\n<p>“ProjectileCount”: 1, – This determines how many projectiles that the round will fire.</p>\n<p>“MisfireChance”: 0.03, – Chance of the round misfiring in the chamber, 0 is pretty much no chance where as 1 is high chance. Values between 0 and 1 are used, mostly lower than 0.1</p>\n<p>“MinFragmentsCount”: 1, – Minimum amount of fragments the round will fragment into if it fragments.</p>\n<p>“MaxFragmentsCount”: 1, – Mmaximum amount of fragments the round will fragment into if it fragments.</p>\n<p>“FragmentationChance”: 0.01, – Chance of the round fragmenting on a hit, percentage based between 0 and 1, 0.01 is 1% chance of fragmenting.</p>\n<p>“Tracer”: false, – Enables or Disables Tracers on the ammo.</p>\n<p>“TracerColor”: “red”, – Changes the tracer colours, red, green and yellow are confirmed to work. Some rounds may have other values.</p>\n<p>“ArmorDamage”: 36, – How much damage the round does to the armor itself.</p>\n<p>“StaminaBurnPerDamage”: 0.2016, – How much stamina you or your target loses upon being hit by this ammo.</p>\n<p>“HeavyBleedingDelta”: 0, – Percentage based value from 0 to 1, a value of 0.1 is a 10% chance to heavy bleed on being hit.</p>\n<p>“LightBleedingDelta”: 0, – Percentage based value from 0 to 1, a value of 0.1 is a 10% chance to light bleed on being hit.</p>\n<p>“MalfMisfireChance”: 0.175, – Chance of the round malfunctioning in the weapon and causing a jam after being fired, 0 is pretty much no chance where as 1 is high chance. Values between 0 and 1 are used, mostly lower than 0.1</p>\n<p>“DurabilityBurnModificator”: 1, – A value of 1 means that the round doesn’t have an increased or decreased burn modifier, 0.9 means that the round will have a -10% burn modifier where as 1.1 has a +10% burn modifier. So on and so forth. Lower value is better for the weapon.</p>\n<p>“HeatFactor”: 0.9963, – How much heat the round generates, the lower the value the less heat it generates. I’ve seen values above 2 for this.</p>\n<p>“MalfFeedChance”: 0.02, – Chance of the round malfunctioning in the weapon and failing to feed, 0 is pretty much no chance where as 1 is high chance. Values between 0 and 1 are used, mostly lower than 0.1</p>\n<p>“Explosive”: 0, – A special config I’ve setup for ammo, a value of 0 means it isn’t explosive, a value of 1 means it’s a smol explosive similar to what one might expect out of an explosive round, while a value of 2 is pretty much grenade level explosive.</p>\n<p>“FragmentsCount”: 15, – Used on certain grenades and explosive ammo in particular, determines how many fragments the explosion creates.</p>\n<p>“FuzeArmTimeSec”: 0.05, – Used on certain grenades and explosive ammo in particular, determines how long it takes for the fuze to arm before it has a chance to explode. Means if you shoot it too close to yourself it won’t explode, typically.</p>\n<p>“ExplosionStrength”: 80, – The strength of the explosion, I believe this is the damage the explosion causes to those within its distance.</p>\n<p>“MinExplosionDistance”: 1, – The minimum distance that the explosion has for it to cause damage.</p>\n<p>“MaxExplosionDistance”: 4.5, – The maximum distance that the explosion has for it to cause damage. Those outside this range do not take damage, though there’s always the fragments. Not sure if they are limited by this value.</p>\n<p>“Blinding”: false – A special config I’ve setup for ammo, a value of false means the ammo will not stun or blind enemies, where as a value of true makes the round blind and stun enemies it hits.</p>\n<p>Installation: <strong>Goes into user/mods/</strong></p>\n<p><strong>If you’d like to support the original creator’s (Tyrian’s) creations, they have a Ko-fi! (This is not for commissions, They do not do them and they are against SPT policy.) - <a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/tyriansuvious\" rel=\"noreferrer noopener\">https://ko-fi.com/tyriansuvious</a></strong></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2040/comprehensive-ammunition-tweaker-updated",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-03-18T00:32:58.000000Z",
+      "created_at": "2025-03-18T00:32:58.000000Z",
+      "updated_at": "2026-07-07T16:59:06.000000Z",
+      "owner": {
+        "id": 75028,
+        "name": "Lillian",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/a6d1831147a38401dde9ac7ae91e537fefc77e2d_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-03-17T22:53:36.000000Z",
+        "updated_at": "2026-07-10T04:51:53.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 25468,
+          "name": "Tyrian",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/97cfb8a6ce199d08cc45f98d874743a365812ba3_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2023-01-14T18:10:08.000000Z",
+          "updated_at": "2026-07-10T04:50:20.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 987,
+          "hub_id": 13802,
+          "version": "1.3.0",
+          "description": "This version has some bug fixes\n\n**Changelog**\n\n\\- Fixed All in One Ammo\n\n\\- Added .50 AE ammo to the configuration\n\n*Note: Suggestions to the mod and pull requests are highly encouraged!*",
+          "link": "https://forge.sp-tarkov.com/mod/download/2040/comprehensive-ammunition-tweaker-updated/1.3.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1782,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-25T22:04:21.000000Z",
+          "created_at": "2025-03-25T22:04:21.000000Z",
+          "updated_at": "2026-05-14T02:02:51.000000Z"
+        },
+        {
+          "id": 1115,
+          "hub_id": 13664,
+          "version": "1.2.0",
+          "description": "Update to 3.11, and added the missing ammo since 3.7",
+          "link": "https://forge.sp-tarkov.com/mod/download/2040/comprehensive-ammunition-tweaker-updated/1.2.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 565,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-18T00:32:58.000000Z",
+          "created_at": "2025-03-18T00:32:58.000000Z",
+          "updated_at": "2026-05-14T02:04:18.000000Z"
+        }
+      ],
+      "license": {
+        "id": 5,
+        "hub_id": 7,
+        "name": "Creative Commons BY-NC-SA 3.0",
+        "link": "http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/srwxr-xr-x/ComprehensiveAmmunitionTweakerUpdated",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 987,
+      "hub_id": 13802,
+      "version": "1.3.0",
+      "description": "<p>This version has some bug fixes</p>\n<p><strong>Changelog</strong></p>\n<p>- Fixed All in One Ammo</p>\n<p>- Added .50 AE ammo to the configuration</p>\n<p><em>Note: Suggestions to the mod and pull requests are highly encouraged!</em></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2040/comprehensive-ammunition-tweaker-updated/1.3.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1782,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-25T22:04:21.000000Z",
+      "created_at": "2025-03-25T22:04:21.000000Z",
+      "updated_at": "2026-05-14T02:02:51.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1115,
+      "hub_id": 13664,
+      "version": "1.2.0",
+      "description": "<p>Update to 3.11, and added the missing ammo since 3.7</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2040/comprehensive-ammunition-tweaker-updated/1.2.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 565,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-18T00:32:58.000000Z",
+      "created_at": "2025-03-18T00:32:58.000000Z",
+      "updated_at": "2026-05-14T02:04:18.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2040/CAT.-.v1.3.0.zip",
+    "bytes_written": 159452,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/950303403/7aa7250d-4a49-4fc3-94c2-18a543153f8c?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A17%3A46Z&rscd=attachment%3B+filename%3DCAT.-.v1.3.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A17%3A24Z&ske=2026-08-10T16%3A17%3A46Z&sks=b&skv=2018-11-09&sig=9QO53RyXgbk%2F%2BsRkVWBnjvbXa93%2BXv7maPzKX5U7%2F10%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NjY0MywibmJmIjoxNzg2Mzc2MzQzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.O8MSu3lt1ruKVyzZSy7qNCfo_I8wLwhk7YdLjb5RA1M&response-content-disposition=attachment%3B%20filename%3DCAT.-.v1.3.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.3.0",
+    "same_as_primary_download": true
+  }
+}

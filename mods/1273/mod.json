@@ -1,0 +1,243 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1273,
+      "hub_id": 1778,
+      "guid": null,
+      "name": "Tarkov More Settings (TMS)",
+      "slug": "tarkov-more-settings-tms",
+      "teaser": "This AIO config extends SVM, offering custom bot health, bot caps, inertia toggle, increased vault height, and much more.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/1778.png",
+      "downloads": 15826,
+      "favourites_count": 1,
+      "description": "<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/vUDZnYz.png\" alt=\"vUDZnYz.png\" /> Stop having multiple mods to change one thing each. It comes with a config.json where you change what you want to enable/disable. If you have any feedback on what you want to see that isn’t available in SVM, drop a comment. - Custom health for bots</p>\n<ul>\n<li>Control over what items you lose when killed in raid</li>\n<li>Turn off inertia</li>\n<li>Increase vaulting height</li>\n<li>Make all headsets equally good</li>\n<li>Make repair kits less overpowered</li>\n<li>Set ammo color based on pen value</li>\n<li>Make ammo have 0 weight</li>\n<li>Make all foregrips have the same stats</li>\n<li>Disable magazine ammo load penalty</li>\n<li>Ability to set bot caps for all maps</li>\n<li>Add more items to store in SICC Pouch</li>\n<li>Fix some grid thumbnails for larger items like LMGs, and Marksman Rifles to not make the grid item add +2 vertical down or up. Causing the weapon to take up <a target=\"_blank\" class=\"external-link\" href=\"https://i.imgur.com/l6NOsdo.png\" rel=\"noreferrer noopener\">too much vertical space in the stash</a></li>\n<li>Two-slot extended magazines</li>\n<li>Store Lega medals inside Money Case</li>\n</ul>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/DQ2ZGjo.png\" alt=\"DQ2ZGjo.png\" /> Drag the first folder in the ZIP into your SPT directory to install</p>\n<p>Turn off softcore in SVM if you use EnableLostOnDeath in the config</p>\n<p><strong>Be Advised:</strong> The config uses my preferred values. BE SURE TO DISABLE FEATURES YOU DON’T LIKE!</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1273/tarkov-more-settings-tms",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-04-02T14:42:00.000000Z",
+      "created_at": "2024-04-02T14:42:00.000000Z",
+      "updated_at": "2026-07-07T16:58:54.000000Z",
+      "owner": {
+        "id": 29835,
+        "name": "MoxoPixel",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/464072aceb40281611921f5b148200b2fbf86664_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/96b6bc2954ac77a69d9ce6363d504454cad88e0d_1280w.webp",
+        "created_at": "2023-04-08T03:49:17.000000Z",
+        "updated_at": "2026-08-10T14:51:11.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 720,
+          "hub_id": 14102,
+          "version": "1.0.8",
+          "description": "Updated to SPT 3.11, this should work, but please report any errors from the error log if you find any issues. One or two lines from the error is enough. I will ask you if I need more information than that.\n\nConfig currently use values I play the game with. Just turn things false, that is enough if you don't want to use a feature.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1273/tarkov-more-settings-tms/1.0.8",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 5491,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-26T16:46:23.000000Z",
+          "created_at": "2025-04-26T16:46:23.000000Z",
+          "updated_at": "2026-05-14T01:55:52.000000Z"
+        },
+        {
+          "id": 1371,
+          "hub_id": 13393,
+          "version": "1.0.7",
+          "description": "- Fixed scope mounts not applying the changes to ExtraSizeUp if the user activated FixExtraSize in config.\n- Added config option FixExtraSizeExtendedMags to make ExtraSizeDown from 2 to 1. So weapon thumbnail shows them as regular magazines.\n- Added config option ExtendedMagsTwoSlotsHeight which converts extended magazines that have 3x1 size to 2x1 size in stash and inventory.\n- Added config option LegaMedalInsideMoneyCase.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1273/tarkov-more-settings-tms/1.0.7",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1689,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-02-16T11:41:43.000000Z",
+          "created_at": "2025-02-16T11:41:43.000000Z",
+          "updated_at": "2026-05-14T02:21:09.000000Z"
+        },
+        {
+          "id": 1381,
+          "hub_id": 13383,
+          "version": "1.0.6",
+          "description": "- Made default headset values copy the Comtac VI instead of Sordin\n- Added feature: Make all foregrips have the same stats\n- Added feature: Make ammo have 0 weight\n- Removed the feature of GP coins to spawn in wallets. It led to errors and spawned 500+ GP coins on some occasions\n- Merged Actual Sick SICC mod with TMS. The other mod will no longer be updated. Also added many more items that can be stored in SICC pouch\n- Added feature: Fix some grid thumbnails for larger items like LMGs, and Marksman Rifles to not make the grid item add +2 vertical down or up. Causing the weapon to take up too much vertical space in the stash. See picture:\n\n[![l6NOsdo.png](https://i.imgur.com/l6NOsdo.png)](https://i.imgur.com/l6NOsdo.png)\n\n*Note: I changed the name of the mod from \"Tarkov Midcore Settings\" to \"Tarkov More Settings\"*\n\n*Also, remember to take a backup of your old config.json so you don't forget what values you had before updating!*",
+          "link": "https://forge.sp-tarkov.com/mod/download/1273/tarkov-more-settings-tms/1.0.6",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 410,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-02-15T08:22:19.000000Z",
+          "created_at": "2025-02-15T08:22:19.000000Z",
+          "updated_at": "2026-05-14T02:21:15.000000Z"
+        },
+        {
+          "id": 1961,
+          "hub_id": 12719,
+          "version": "1.0.5",
+          "description": "Fixed GP coins not spawning in wallets with correct stackSize and money getting wrong stackSize in bot's wallet.\n\nGP Coins now spawn in wallets by 1 to 8 in stacks which is way more balanced than the prior 5000 GP Coins",
+          "link": "https://forge.sp-tarkov.com/mod/download/1273/tarkov-more-settings-tms/1.0.5",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1489,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-18T23:00:55.000000Z",
+          "created_at": "2024-12-18T23:00:55.000000Z",
+          "updated_at": "2026-05-14T02:51:30.000000Z"
+        },
+        {
+          "id": 2144,
+          "hub_id": 12503,
+          "version": "1.0.4",
+          "description": "- Added ability to set bot caps for all maps\n- Enable GP coins in bot wallets\n- Fixed crouch in inertia setting to not always have increased movement speed\n\nRemember to take a backup of your old config.json for this mod so you don't forget what values you had before updating!",
+          "link": "https://forge.sp-tarkov.com/mod/download/1273/tarkov-more-settings-tms/1.0.4",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 706,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-06T05:44:20.000000Z",
+          "created_at": "2024-12-06T05:44:20.000000Z",
+          "updated_at": "2026-05-14T03:14:34.000000Z"
+        },
+        {
+          "id": 2338,
+          "hub_id": 12269,
+          "version": "1.0.3",
+          "description": "Updated to SPT 3.10\n\n- Added option: DisableMagazineAmmoLoadPenalty",
+          "link": "https://forge.sp-tarkov.com/mod/download/1273/tarkov-more-settings-tms/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 895,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-26T18:42:42.000000Z",
+          "created_at": "2024-11-26T18:42:42.000000Z",
+          "updated_at": "2026-05-14T03:19:57.000000Z"
+        },
+        {
+          "id": 2976,
+          "hub_id": 11481,
+          "version": "1.0.2",
+          "description": "- Ability to increase vaulting height\n- Ability to make all headsets equally good",
+          "link": "https://forge.sp-tarkov.com/mod/download/1273/tarkov-more-settings-tms/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1426,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-08-24T08:52:54.000000Z",
+          "created_at": "2024-08-24T08:52:54.000000Z",
+          "updated_at": "2026-05-14T03:43:11.000000Z"
+        },
+        {
+          "id": 3514,
+          "hub_id": 10792,
+          "version": "1.0.1",
+          "description": "- Updated to SPT 3.9\n- Changed bot types to new ones and added more bot types affected by the custom health section\n- Updated PMC messages route",
+          "link": "https://forge.sp-tarkov.com/mod/download/1273/tarkov-more-settings-tms/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.9.0",
+          "downloads": 1169,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-13T02:53:52.000000Z",
+          "created_at": "2024-07-13T02:53:52.000000Z",
+          "updated_at": "2026-05-14T03:51:24.000000Z"
+        },
+        {
+          "id": 4890,
+          "hub_id": 9110,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1273/tarkov-more-settings-tms/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 2551,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-04-02T14:42:00.000000Z",
+          "created_at": "2024-04-02T14:42:00.000000Z",
+          "updated_at": "2024-04-02T14:42:00.000000Z"
+        }
+      ],
+      "license": {
+        "id": 13,
+        "hub_id": 16,
+        "name": "The Unlicense",
+        "link": "https://choosealicense.com/licenses/unlicense/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/emilanderss0n/TMS",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 720,
+      "hub_id": 14102,
+      "version": "1.0.8",
+      "description": "<p>Updated to SPT 3.11, this should work, but please report any errors from the error log if you find any issues. One or two lines from the error is enough. I will ask you if I need more information than that.</p>\n<p>Config currently use values I play the game with. Just turn things false, that is enough if you don’t want to use a feature.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1273/tarkov-more-settings-tms/1.0.8",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 5491,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-04-26T16:46:23.000000Z",
+      "created_at": "2025-04-26T16:46:23.000000Z",
+      "updated_at": "2026-05-14T01:55:52.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2338,
+      "hub_id": 12269,
+      "version": "1.0.3",
+      "description": "<p>Updated to SPT 3.10</p>\n<ul>\n<li>Added option: DisableMagazineAmmoLoadPenalty</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1273/tarkov-more-settings-tms/1.0.3",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 895,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-11-26T18:42:42.000000Z",
+      "created_at": "2024-11-26T18:42:42.000000Z",
+      "updated_at": "2026-05-14T03:19:57.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 3514,
+      "hub_id": 10792,
+      "version": "1.0.1",
+      "description": "<ul>\n<li>Updated to SPT 3.9</li>\n<li>Changed bot types to new ones and added more bot types affected by the custom health section</li>\n<li>Updated PMC messages route</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1273/tarkov-more-settings-tms/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.9.0",
+      "downloads": 1169,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-07-13T02:53:52.000000Z",
+      "created_at": "2024-07-13T02:53:52.000000Z",
+      "updated_at": "2026-05-14T03:51:24.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1273/MoxoPixel-TMS.zip",
+    "bytes_written": 7721,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/828062261/95e19188-f6fb-4c0c-9df1-e43eb9ba9d8b?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A15%3A49Z&rscd=attachment%3B+filename%3DMoxoPixel-TMS.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A15%3A25Z&ske=2026-08-10T16%3A15%3A49Z&sks=b&skv=2018-11-09&sig=NkRkmssJjMNBLgBjYWnyGvtxepFAjJNdTXmb4jTCeEw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NjYxMCwibmJmIjoxNzg2Mzc2MzEwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.yDYIM-0EDLi4ATUBuyCAIcW0Q_Onn4PQ1toO_-GdDWQ&response-content-disposition=attachment%3B%20filename%3DMoxoPixel-TMS.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.8",
+    "same_as_primary_download": true
+  }
+}

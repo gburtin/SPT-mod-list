@@ -1,0 +1,157 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2181,
+      "hub_id": 2884,
+      "guid": null,
+      "name": "Belt Slot",
+      "slug": "belt-slot",
+      "teaser": "The addition of a new inventory slot.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2884.png",
+      "downloads": 29374,
+      "favourites_count": 1,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Description</div>\n<div class=\"tab-content\"><p>Belt Slot</p>\n<p>This mod by itself adds in a new inventory item called ‘BELT’. To be able to actually use this new slot, you must have a mod that adds in belts or containers that fit into the armband slot.</p>\n<p>Requires a mod that adds containers to the armband slot to actually do anything:</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1790-wtt-pack-n-strap/\" rel=\"noreferrer noopener\">WTT - Pack ’n Strap</a></p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1555-tactical-gear-component/#tab_60ed70c737aabbb05b6613fcd9c60e5279d85e74\" rel=\"noreferrer noopener\">Tactical Gear Component</a></p>\n<p>Works both in and out of raid. All maps have had limited testing.</p>\n<div class=\"youtube-lite\" data-video-id=\"i-IoVNoK3nA\" data-embed-url=\"https://www.youtube-nocookie.com/embed/i-IoVNoK3nA?autoplay=1\"><img src=\"https://i.ytimg.com/vi/i-IoVNoK3nA/hqdefault.jpg\" alt=\"YouTube video thumbnail\" loading=\"lazy\" decoding=\"async\" /></div>\n<div class=\"youtube-lite\" data-video-id=\"eotavXtapBA\" data-embed-url=\"https://www.youtube-nocookie.com/embed/eotavXtapBA?autoplay=1\"><img src=\"https://i.ytimg.com/vi/eotavXtapBA/hqdefault.jpg\" alt=\"YouTube video thumbnail\" loading=\"lazy\" decoding=\"async\" /></div>\n<p>Once the mod is installed you will have a new slot, The belt slot which will accept either belts or armbands, yes, its still an armband slot, and it shares its equipment with the vanilla armband slot. So you will still need to choose between the two which one you want.</p>\n<p>This example is of using a belt from the mod Pack n Strap. You can hotkey items for quick access as per the configuration that mod has made. This mod works both out of raid and in raid. Both the player and the corpses you will be looting will have this new slot. Only pmc’s though as scavs are hard coded in eft to not have armband slots, might look into that in the future.</p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Configuration</div>\n<div class=\"tab-content\"><p>Configuration</p>\n<p>BepInEx config menu.</p>\n<p>Right now there is only one option in the config menu, an option to pick the location of the belt slot. Right now either right above the pockets or right below the pockets. Must restart to apply changes.</p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Known Issues</div>\n<div class=\"tab-content\"><p>Known Issues</p>\n<ul>\n<li>Playing in languages other than English my have odd issues and cause the inventory to bug out as per this <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/gallery/image/2274-weird-error/\" rel=\"noreferrer noopener\">post</a>.</li>\n<li>The ToolMaster belt from pack n’ strap is too long and part of its inventory ends up cut off by the inventory scroll bar.</li>\n<li>You must pick between either equipping a belt or an armband, nothing new if your used to using pack n’ strap. The new slot is still linked to the vanilla armband slot.</li>\n</ul></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2181/belt-slot",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-06-13T02:24:48.000000Z",
+      "created_at": "2025-06-13T02:24:48.000000Z",
+      "updated_at": "2026-07-13T18:00:49.000000Z",
+      "owner": {
+        "id": 59370,
+        "name": "Trenchf00t",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=T&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2024-07-24T16:11:38.000000Z",
+        "updated_at": "2025-11-01T13:33:32.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 269,
+          "hub_id": 14607,
+          "version": "1.0.1",
+          "description": "Added support for users who have mods that allow scavs to have armbands. Thats it. If you don't have a mod that does that, this will change nothing about what scav inventories look like.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2181/belt-slot/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 21072,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-12T20:04:38.000000Z",
+          "created_at": "2025-07-12T20:04:38.000000Z",
+          "updated_at": "2026-07-13T18:00:33.000000Z"
+        },
+        {
+          "id": 273,
+          "hub_id": 14602,
+          "version": "1.0.0",
+          "description": "1.0.0 release\n\nComplete code rewrite. The new implementation fixes all known issues the mod had previously and will work without any configuration or setup from the player. I must thank discord user Searge, which this rewrite is based on his code that he shared with me.\n\nThe user inventory view has been updated on all screens your would expect to see your pmcs loadout. This includes:\n\n- Stash Inventory\n- Build saving and selection screen\n- Insurance screen\n- Deploying pmc loadout popout window\n- In raid pmc inventory\n- The corpses of the pmc's inventory\n\nMod checks if either you or the corpse is a scav, and I HAVE TESTED this. The scav does not have access to the belt due to the fact scavs don't have access to armbands due to checks in bsgs code preventing it.\n\nKnown Issue:\n\n- You must still pick between having either a belt or an armband, you can't have both....yet",
+          "link": "https://forge.sp-tarkov.com/mod/download/2181/belt-slot/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1274,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-11T19:42:20.000000Z",
+          "created_at": "2025-07-11T19:42:20.000000Z",
+          "updated_at": "2026-07-13T18:00:34.000000Z"
+        },
+        {
+          "id": 327,
+          "hub_id": 14545,
+          "version": "0.9.2",
+          "description": "This release adds the belt slot to the vanilla container priority system. The belt slot now functions identical to the vest slot when it comes to looting and comes second if you have a vest equipped.\n\nThe previous issue involving automatic window priority and the soft incompatibility with quick move to containers mod still exist. Basic instructions for setting up the mod are identical and this new system will only work if you have changed Tarkovs window priority system off of automatic and onto anything else.\n\nAlso, the code base and downloads should be moved back to github.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2181/belt-slot/0.9.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 2147,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-29T21:16:22.000000Z",
+          "created_at": "2025-06-29T21:16:22.000000Z",
+          "updated_at": "2026-07-13T18:00:42.000000Z"
+        },
+        {
+          "id": 406,
+          "hub_id": 14465,
+          "version": "0.9.1",
+          "description": "- Code clean up and optimizations. Thank you WTT discord users for advice and help.\n- Addition of a BepInEx settings menu with several options to configure the mod\n- Adjustable location for the belt slot, now you can choose between above the pockets slot, or below it. Updates dynamically\n- Creation of a very basic window priority system in the hopes that it will work at least as well as BSGs vanilla implementation, must be enabled in the settings menu and also supports a hotkey to enable/disable live\n- Addition of a toggle hotkey to open and close the belt slot. Done in an attempt to increase compatibility with inventory sorting mods.\n\nEnabling and disabling the belt slot while looting a dead body can cause the slot to not update right away. You have been warned.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2181/belt-slot/0.9.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 3303,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-15T05:34:14.000000Z",
+          "created_at": "2025-06-15T05:34:14.000000Z",
+          "updated_at": "2026-07-13T18:00:47.000000Z"
+        },
+        {
+          "id": 420,
+          "hub_id": 14448,
+          "version": "0.9.0",
+          "description": "Moved the download to my google drive until github fixes its problem with me.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2181/belt-slot/0.9.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1578,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-13T02:24:48.000000Z",
+          "created_at": "2025-06-13T02:24:48.000000Z",
+          "updated_at": "2026-07-13T18:00:49.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/Trench-foot/BeltSlot",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 269,
+      "hub_id": 14607,
+      "version": "1.0.1",
+      "description": "<p>Added support for users who have mods that allow scavs to have armbands. Thats it. If you don’t have a mod that does that, this will change nothing about what scav inventories look like.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2181/belt-slot/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 21072,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-12T20:04:38.000000Z",
+      "created_at": "2025-07-12T20:04:38.000000Z",
+      "updated_at": "2026-07-13T18:00:33.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2181/belt-slot-1.0.1",
+    "bytes_written": 436,
+    "final_url": "https://github.com/Trench-foot/BeltSlot/releases/tag/1.0.1",
+    "content_type": "application/json; charset=utf-8"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

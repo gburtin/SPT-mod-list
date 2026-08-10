@@ -1,0 +1,143 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1944,
+      "hub_id": 2616,
+      "guid": null,
+      "name": "No Transit Tasks",
+      "slug": "no-transit-tasks",
+      "teaser": "I'm a one map kind of guy.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2616.png",
+      "downloads": 4065,
+      "favourites_count": 0,
+      "description": "<h3>No Transit Tasks</h3>\n<p>This is a fairly simple mod. Removes transit requirements from stock Tarkov tasks and adjusts those tasks to be doable without said transit.</p>\n<p>Why? Transits are buggy (or disabled on Fika) so these tasks are at best hard to complete or at worst impossible to complete.</p>\n<h3>Install</h3>\n<p>Drag it into your SPT install.</p>\n<h3>Known Issues</h3>\n<p><strong>FIXED</strong> The task step text will still say “Complete in one raid” or something similar. This can be ignored. I might fix this for English eventually, I might not.</p>\n<h3>Planned Features</h3>\n<p>Make it dynamically handle custom tasks and maybe fix the task condition text</p>\n<p>Feel free to buy me an overpriced starbucks flat white - <a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/shibdib\" rel=\"noreferrer noopener\">https://ko-fi.com/shibdib</a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1944/no-transit-tasks",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-01-06T07:22:48.000000Z",
+      "created_at": "2025-01-06T07:22:48.000000Z",
+      "updated_at": "2026-07-07T16:59:04.000000Z",
+      "owner": {
+        "id": 41848,
+        "name": "Shibdib",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/VoavEH1BdPgTFow3b8JpqArCg4ZglvVVI2HjKUgI_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2023-12-08T11:50:10.000000Z",
+        "updated_at": "2026-07-20T20:15:49.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 227,
+          "hub_id": 14650,
+          "version": "1.0.3",
+          "description": "3.11 Update\n\n\\- Adds 4 additional transit tasks\n\n\\-- Let me know if I missed any",
+          "link": "https://forge.sp-tarkov.com/mod/download/1944/no-transit-tasks/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1708,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-23T06:23:04.000000Z",
+          "created_at": "2025-07-23T06:23:04.000000Z",
+          "updated_at": "2026-05-14T01:41:42.000000Z"
+        },
+        {
+          "id": 1665,
+          "hub_id": 13065,
+          "version": "1.0.2",
+          "description": "Fixes\n\n- Task text is now correct.\n    - This should pertain to most/all languages.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1944/no-transit-tasks/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1781,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-11T08:54:49.000000Z",
+          "created_at": "2025-01-11T08:54:49.000000Z",
+          "updated_at": "2026-05-14T02:32:17.000000Z"
+        },
+        {
+          "id": 1729,
+          "hub_id": 12990,
+          "version": "1.0.1",
+          "description": "This is just a code cleanup/improved logging.\n\nIf you have 1.0.0 already you do not need to update.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1944/no-transit-tasks/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 441,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-06T07:38:08.000000Z",
+          "created_at": "2025-01-06T07:38:08.000000Z",
+          "updated_at": "2026-05-14T02:33:55.000000Z"
+        },
+        {
+          "id": 1730,
+          "hub_id": 12989,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1944/no-transit-tasks/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 135,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-06T07:22:48.000000Z",
+          "created_at": "2025-01-06T07:22:48.000000Z",
+          "updated_at": "2026-05-14T02:33:56.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/shibdib/SPT-NoTransitTasks",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 227,
+      "hub_id": 14650,
+      "version": "1.0.3",
+      "description": "<p>3.11 Update</p>\n<p>- Adds 4 additional transit tasks</p>\n<p>-- Let me know if I missed any</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1944/no-transit-tasks/1.0.3",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1708,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-23T06:23:04.000000Z",
+      "created_at": "2025-07-23T06:23:04.000000Z",
+      "updated_at": "2026-05-14T01:41:42.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1944/shibdib-NoTransitTasks-103.zip",
+    "bytes_written": 2670,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/912681534/f439f7cc-280d-4444-9dcc-230cffdd7b12?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A50%3A16Z&rscd=attachment%3B+filename%3Dshibdib-NoTransitTasks-103.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A49%3A19Z&ske=2026-08-10T16%3A50%3A16Z&sks=b&skv=2018-11-09&sig=NAdVqVweJwiNYQ9gdAfZ3IFcm%2BGjalyS%2BurjsoofhYw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzMwMiwibmJmIjoxNzg2Mzc3MDAyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.P6pdDw0DTnumIoyoC-UsTpbq7VLtqyK-h3ECzSikNfE&response-content-disposition=attachment%3B%20filename%3Dshibdib-NoTransitTasks-103.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.3",
+    "same_as_primary_download": true
+  }
+}

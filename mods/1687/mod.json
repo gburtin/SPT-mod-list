@@ -1,0 +1,166 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1687,
+      "hub_id": 2304,
+      "guid": null,
+      "name": "Balaclava Eyeslot + Headwear Restrictions Removed",
+      "slug": "balaclava-eyeslot-headwear-restrictions-removed",
+      "teaser": "Are you tired of having no momex with your cqc mask or gasmask?",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2304.png",
+      "downloads": 10193,
+      "favourites_count": 0,
+      "description": "<p>-- BY DEFAULT HEADWEAR RESTRICTIONS ARE SET TO FALSE –</p>\n<p>HEADWEAR RESTRICTIONS CAN ALL BE REMOVED IN THE CONFIG FILE.</p>\n<p>My first mod, its a simple mod that changes all vanilla balaclavas to be equipped into the Eyewear slot</p>\n<p>Credits To penOkOh for help on the initial mod and coding help.</p>\n<p>Mod is all modular so can update what you want in the config file</p>\n<p><strong>ADDED THE OPTION TO REMOVE ALL RESTRICTIONS ON ALL HEADWEAR JUST SET FALSE TO TRUE IN THE CONFIG FILE.</strong></p>\n<p><strong><a target=\"_blank\" class=\"external-link\" href=\"https://drive.google.com/file/d/12oEdjLwhmLziqVVLDKX7xgmOtyK_0AAE/view?usp=drive_link\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://drive.google.com/file/d/12oEdjLwhmLziqVVLDKX7xgmOtyK_0AAE/view?usp=drive_link\" alt=\"view?usp=drive_link\" /></a></strong></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1687/balaclava-eyeslot-headwear-restrictions-removed",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-08-26T23:27:50.000000Z",
+      "created_at": "2024-08-26T23:27:50.000000Z",
+      "updated_at": "2026-07-13T18:03:47.000000Z",
+      "owner": {
+        "id": 53519,
+        "name": "BigTastyNugz",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/feac0bb25c3320261708215e3c313af6e6e6620a_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-06-10T10:59:58.000000Z",
+        "updated_at": "2026-07-10T04:51:17.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 266,
+          "hub_id": 14610,
+          "version": "1.0.2+1",
+          "description": "Sorry last version was borked, please if any issues message me direct on discord or leave a post and ill fix it asap",
+          "link": "https://forge.sp-tarkov.com/mod/download/1687/balaclava-eyeslot-headwear-restrictions-removed/1.0.2+1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 3587,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-13T17:59:45.000000Z",
+          "created_at": "2025-07-13T17:59:45.000000Z",
+          "updated_at": "2026-07-13T18:00:33.000000Z"
+        },
+        {
+          "id": 1321,
+          "hub_id": 13443,
+          "version": "1.0.1",
+          "description": "UPDATED FOR 3.10.X -  \nWill make new changes very soon to the mod.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1687/balaclava-eyeslot-headwear-restrictions-removed/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 1379,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-02-23T21:27:34.000000Z",
+          "created_at": "2025-02-23T21:27:34.000000Z",
+          "updated_at": "2026-07-13T18:01:54.000000Z"
+        },
+        {
+          "id": 2882,
+          "hub_id": 11619,
+          "version": "1.0.0",
+          "description": "**ADD THE OPTION TO REMOVE ALL RESTRICTIONS ON ALL HEADWEAR IN THE CONFIG FILE ITS SET TO FALSE BY DEFAULT JUST SET THE VALUE TO \"true\"**   \n![image.png?ex=66d9ae32&is=66d85cb2&hm=9f4bc5f3a95750eebe00b85be9a08e0c29ee83a731b7ecc4edac490c699ffcdf&=](https://cdn.discordapp.com/attachments/1127621711064477818/1280878107884130356/image.png?ex=66d9ae32&is=66d85cb2&hm=9f4bc5f3a95750eebe00b85be9a08e0c29ee83a731b7ecc4edac490c699ffcdf&=)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1687/balaclava-eyeslot-headwear-restrictions-removed/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 3714,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-09-04T13:14:48.000000Z",
+          "created_at": "2024-09-04T13:14:48.000000Z",
+          "updated_at": "2026-07-13T18:03:36.000000Z"
+        },
+        {
+          "id": 2930,
+          "hub_id": 11548,
+          "version": "0.5.0",
+          "description": "\\- Mod Now Loads from a config file -\n\n\\- Added some server console stuff for debugging later -  \n **PLEASE DELETE OLD MOD FOLDER (Balaclava Eyeslot) AS HAVE RENAMED THE FOLDER.**",
+          "link": "https://forge.sp-tarkov.com/mod/download/1687/balaclava-eyeslot-headwear-restrictions-removed/0.5.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1020,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-08-28T17:29:12.000000Z",
+          "created_at": "2024-08-28T17:29:12.000000Z",
+          "updated_at": "2026-07-12T18:03:37.000000Z"
+        },
+        {
+          "id": 2953,
+          "hub_id": 11522,
+          "version": "0.0.1",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1687/balaclava-eyeslot-headwear-restrictions-removed/0.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 493,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-08-26T23:27:50.000000Z",
+          "created_at": "2024-08-26T23:27:50.000000Z",
+          "updated_at": "2026-07-13T18:03:47.000000Z"
+        }
+      ],
+      "license": {
+        "id": 9,
+        "hub_id": 12,
+        "name": "Mozilla Public License 2.0",
+        "link": "https://choosealicense.com/licenses/mpl-2.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 266,
+      "hub_id": 14610,
+      "version": "1.0.2+1",
+      "description": "<p>Sorry last version was borked, please if any issues message me direct on discord or leave a post and ill fix it asap</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1687/balaclava-eyeslot-headwear-restrictions-removed/1.0.2+1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 3587,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-13T17:59:45.000000Z",
+      "created_at": "2025-07-13T17:59:45.000000Z",
+      "updated_at": "2026-07-13T18:00:33.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1321,
+      "hub_id": 13443,
+      "version": "1.0.1",
+      "description": "<p>UPDATED FOR 3.10.X -<br />\nWill make new changes very soon to the mod.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1687/balaclava-eyeslot-headwear-restrictions-removed/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 1379,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-02-23T21:27:34.000000Z",
+      "created_at": "2025-02-23T21:27:34.000000Z",
+      "updated_at": "2026-07-13T18:01:54.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/file/d/1mKiILCM9iHPPSF5tkYfWxtJFQSIDrebY/view?usp=drive_link"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.2+1",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,209 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1909,
+      "hub_id": 2575,
+      "guid": null,
+      "name": "Backdoor Bandit (BB) (Updated)",
+      "slug": "backdoor-bandit-bb-updated",
+      "teaser": "Updated Backdoor Bandit to SPT version 3.11",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2575.png",
+      "downloads": 40214,
+      "favourites_count": 4,
+      "description": "<p>This file is an updated version of <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1154-backdoor-bandit-bb/\" rel=\"noreferrer noopener\">Backdoor Bandit</a> by <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/18746-props/\" rel=\"noreferrer noopener\">Props</a>, originally published under the MIT License. All credit for the original work goes to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/18746-props/\" rel=\"noreferrer noopener\">Props</a>.</p>\n<p>For information on how to use this mod, please refer to its <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1154-backdoor-bandit-bb/\" rel=\"noreferrer noopener\">original mod page</a>.</p>\n<p>I have not tested every aspect of the mod, but I can confirm that Plebmode, Semi-Plebmode and the breaching Slug from traders work as expected.</p>\n<p>Everything is working as it should in my testing. (Semi-) Plebmode and normal mode are working fine. Breaching slugs and C4 work as expected. On normal doors and doors that need a keycard (labs).</p>\n<p>Differences from the original Mod:</p>\n<p>- C4 can be crafted at a level 2 workbench</p>\n<p>ToDo:</p>\n<p>- FIKA compatability</p>\n<p>- Update to 3.11</p>\n<p>Known issues:</p>\n<p>- C4 breaching not working (working on a fix) Fixed in 1.10.3</p>\n<p>- Every door can be opened, even doors that are not meant to be open (doors that lead to nothing / empty rooms)</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1909/backdoor-bandit-bb-updated",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-12-21T18:52:03.000000Z",
+      "created_at": "2024-12-21T18:52:03.000000Z",
+      "updated_at": "2026-07-07T16:59:04.000000Z",
+      "owner": {
+        "id": 69462,
+        "name": "MakerMacher",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/6050b561d1add8fbda8e6efcbdb73aed021b275b_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-12-13T15:49:28.000000Z",
+        "updated_at": "2026-07-10T04:51:44.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 15516,
+          "name": "Props",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/53f17847d86ea53a84f69a549ce2b50baf31d665_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2022-03-09T07:33:42.000000Z",
+          "updated_at": "2026-07-10T04:50:00.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 607,
+          "hub_id": 14240,
+          "version": "1.11.2",
+          "description": "Accidentally patched the wrong method. Now every door should be breachable using C4.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1909/backdoor-bandit-bb-updated/1.11.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 18718,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-13T11:50:39.000000Z",
+          "created_at": "2025-05-13T11:50:39.000000Z",
+          "updated_at": "2026-05-14T01:52:42.000000Z"
+        },
+        {
+          "id": 619,
+          "hub_id": 14221,
+          "version": "1.11.1",
+          "description": "Updated old Tarkov methods to new ones\n\nThis hopefully fixed the crashing issue when breaching doors using C4",
+          "link": "https://forge.sp-tarkov.com/mod/download/1909/backdoor-bandit-bb-updated/1.11.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 696,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-11T19:07:09.000000Z",
+          "created_at": "2025-05-11T19:07:09.000000Z",
+          "updated_at": "2026-05-14T01:52:51.000000Z"
+        },
+        {
+          "id": 625,
+          "hub_id": 14213,
+          "version": "1.11.0",
+          "description": "Update to 3.11.x\n\nNot thoroughly tested, please report any bugs",
+          "link": "https://forge.sp-tarkov.com/mod/download/1909/backdoor-bandit-bb-updated/1.11.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1033,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-10T08:49:04.000000Z",
+          "created_at": "2025-05-10T08:49:04.000000Z",
+          "updated_at": "2026-05-14T01:53:10.000000Z"
+        },
+        {
+          "id": 1662,
+          "hub_id": 13068,
+          "version": "1.10.3",
+          "description": "**\\[Added\\]**\n\n\\- C4 can now be crafted at a Lvl 2 Workbench. Customize the recipe under \"databse/templates/craftingItem.jsonc\"\n\n**\\[Changed\\]**\n\n\\- Did some code cleanup to reduce load times by a small amount",
+          "link": "https://forge.sp-tarkov.com/mod/download/1909/backdoor-bandit-bb-updated/1.10.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 11692,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-11T15:46:32.000000Z",
+          "created_at": "2025-01-11T15:46:32.000000Z",
+          "updated_at": "2026-05-14T02:32:14.000000Z"
+        },
+        {
+          "id": 1875,
+          "hub_id": 12822,
+          "version": "1.10.2",
+          "description": "### **Fixed**\n\n\\- C4 works on doors now",
+          "link": "https://forge.sp-tarkov.com/mod/download/1909/backdoor-bandit-bb-updated/1.10.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 4951,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-26T00:10:55.000000Z",
+          "created_at": "2024-12-26T00:10:55.000000Z",
+          "updated_at": "2026-05-14T02:40:07.000000Z"
+        },
+        {
+          "id": 1887,
+          "hub_id": 12805,
+          "version": "1.10.1",
+          "description": "Fixed not being able to breach with breaching rounds, melee weapons and grenade launchers.\n\nNow everything should work like the original BackdoorBandit.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1909/backdoor-bandit-bb-updated/1.10.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 953,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-24T14:15:28.000000Z",
+          "created_at": "2024-12-24T14:15:28.000000Z",
+          "updated_at": "2026-05-14T02:40:31.000000Z"
+        },
+        {
+          "id": 1926,
+          "hub_id": 12760,
+          "version": "1.10.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1909/backdoor-bandit-bb-updated/1.10.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 2171,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-21T18:52:03.000000Z",
+          "created_at": "2024-12-21T18:52:03.000000Z",
+          "updated_at": "2026-05-14T02:41:07.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/v-engelowski/backdoorbandit-3.10",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 607,
+      "hub_id": 14240,
+      "version": "1.11.2",
+      "description": "<p>Accidentally patched the wrong method. Now every door should be breachable using C4.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1909/backdoor-bandit-bb-updated/1.11.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 18718,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-13T11:50:39.000000Z",
+      "created_at": "2025-05-13T11:50:39.000000Z",
+      "updated_at": "2026-05-14T01:52:42.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 625,
+      "hub_id": 14213,
+      "version": "1.11.0",
+      "description": "<p>Update to 3.11.x</p>\n<p>Not thoroughly tested, please report any bugs</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1909/backdoor-bandit-bb-updated/1.11.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1033,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-10T08:49:04.000000Z",
+      "created_at": "2025-05-10T08:49:04.000000Z",
+      "updated_at": "2026-05-14T01:53:10.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1909/BackdoorBandit1.11.2.7z",
+    "bytes_written": 5822982,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/906631163/02a6afde-584c-4877-bbde-21c8a9cd7e64?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A43%3A14Z&rscd=attachment%3B+filename%3DBackdoorBandit1.11.2.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A42%3A21Z&ske=2026-08-10T16%3A43%3A14Z&sks=b&skv=2018-11-09&sig=0vex5EeQMDStspuDCVo1wvvlyjnQdya%2FIULHf21kLNM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3Nzc0NywibmJmIjoxNzg2Mzc3NDQ3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.f96RwOgxlGbVPnlxl1lpwk4GnhZy_3DvUGRlxGZziOY&response-content-disposition=attachment%3B%20filename%3DBackdoorBandit1.11.2.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.11.2",
+    "same_as_primary_download": true
+  }
+}

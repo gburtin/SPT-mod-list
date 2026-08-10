@@ -166,5 +166,16 @@
     "target_version": "4.0.13",
     "version": "1.6.0",
     "same_as_primary_download": false
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2329/bushwhacker-standalone-1.5.0-spt3114.7z",
+    "bytes_written": 5732,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1065952055/813bf43a-0962-44e1-9775-2adfba5a413f?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A42%3A48Z&rscd=attachment%3B+filename%3DBushWhacker-Standalone.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A42%3A26Z&ske=2026-08-10T16%3A42%3A48Z&sks=b&skv=2018-11-09&sig=bmuVSX5GsWXWZ7YV9MbqzjF3hl%2BfKaj5fN9CAfKMpwY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODM5NywibmJmIjoxNzg2Mzc4MDk3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.lfEuCCw82GrRkX4NLS0l3JEFBXAcVpBwHiQRsAtxFDI&response-content-disposition=attachment%3B%20filename%3DBushWhacker-Standalone.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "1.5.0",
+    "same_as_primary_download": false
   }
 }

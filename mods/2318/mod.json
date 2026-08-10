@@ -277,5 +277,16 @@
     "found": true,
     "version": "1.1.5",
     "same_as_primary_download": true
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2318/tarkov-rare-collectibles-1.0.5-spt3114.5",
+    "bytes_written": 76385621,
+    "final_url": "https://raw.githubusercontent.com/TheYellowDoge/YellowDoge-TarkovRareCollectibles/refs/heads/main/distribution/YellowDoge-TarkovRareCollectibles-1.0.5.7z",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "1.0.5",
+    "same_as_primary_download": false
   }
 }

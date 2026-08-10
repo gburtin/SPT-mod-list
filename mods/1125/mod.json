@@ -755,5 +755,27 @@
     "found": true,
     "version": "2.0.0",
     "same_as_primary_download": true
+  },
+  "download_311": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1125/tactical-gear-component-1.2.5-spt40.zip",
+    "bytes_written": 661557212,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/806620909/d73b0351-7996-4d54-8813-60058bb41dfd?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A01%3A41Z&rscd=attachment%3B+filename%3DMoxoPixel-TGC.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A00%3A48Z&ske=2026-08-10T16%3A01%3A41Z&sks=b&skv=2018-11-09&sig=ZnhSBf8axECk8ZlZPzspONEzoAME2j53y9iyXwndROY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODE4OSwibmJmIjoxNzg2Mzc0NTg5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.GjrVvF5Yb6R_4885f44ZLEiPdfzT7NAaurmDDsgh1eg&response-content-disposition=attachment%3B%20filename%3DMoxoPixel-TGC.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "1.2.5",
+    "same_as_primary_download": false
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1125/tactical-gear-component-1.2.5-spt3114.zip",
+    "bytes_written": 661557212,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/806620909/d73b0351-7996-4d54-8813-60058bb41dfd?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A43%3A36Z&rscd=attachment%3B+filename%3DMoxoPixel-TGC.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A43%3A09Z&ske=2026-08-10T16%3A43%3A36Z&sks=b&skv=2018-11-09&sig=WTmh2SEG%2FFoUimBOcp0Bj%2Ff2GxMc97%2BO4KyNs267MOk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM4MTM2MSwibmJmIjoxNzg2Mzc3NzYxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.sO1l-u2Ft0M7dwa_m-tGyB9cXymPYgzJZ15Z3J0uGb4&response-content-disposition=attachment%3B%20filename%3DMoxoPixel-TGC.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "1.2.5",
+    "same_as_primary_download": false
   }
 }

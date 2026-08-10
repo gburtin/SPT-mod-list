@@ -1,0 +1,129 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1967,
+      "hub_id": 2644,
+      "guid": null,
+      "name": "It's A Goddamn Shelf",
+      "slug": "its-a-goddamn-shelf",
+      "teaser": "Configurable additions to Hall of Fame",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2644.png",
+      "downloads": 2077,
+      "favourites_count": 1,
+      "description": "<p>Nikita have you seen a shelf before? They don’t have filters. This allows you to add items to both large and small HoF slots.</p>\n<p>Adds armbands to small items slots in the Hall of Fame. Additional item IDs can be added in <code>.config/items.jsonc</code>.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1967/its-a-goddamn-shelf",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-01-16T01:25:46.000000Z",
+      "created_at": "2025-01-16T01:25:46.000000Z",
+      "updated_at": "2026-07-07T16:59:04.000000Z",
+      "owner": {
+        "id": 33775,
+        "name": "bushtail",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/TdWzpvy2rqkXMd0ZgmhFFK4drV4CyIIonC6CpuXT_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/9kPkXgrFjtLcjpFyR4bUGOAc6Rr8PaFIl5GMCjnt.png",
+        "created_at": "2023-07-09T21:22:21.000000Z",
+        "updated_at": "2026-08-09T21:19:05.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 1027,
+          "hub_id": 13759,
+          "version": "1.11.1",
+          "description": "update to 3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/1967/its-a-goddamn-shelf/1.11.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1179,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-23T20:59:55.000000Z",
+          "created_at": "2025-03-23T20:59:55.000000Z",
+          "updated_at": "2026-05-14T01:38:01.000000Z"
+        },
+        {
+          "id": 1608,
+          "hub_id": 13133,
+          "version": "1.0.4",
+          "description": "Jumping 3 versions to play nice with my gitlab CI.\n\nThis should fix the JSON error.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1967/its-a-goddamn-shelf/1.0.4",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 712,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-16T21:49:14.000000Z",
+          "created_at": "2025-01-16T21:49:14.000000Z",
+          "updated_at": "2025-01-16T21:49:14.000000Z"
+        },
+        {
+          "id": 1618,
+          "hub_id": 13121,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1967/its-a-goddamn-shelf/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 186,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-16T01:25:46.000000Z",
+          "created_at": "2025-01-16T01:25:46.000000Z",
+          "updated_at": "2025-01-16T01:25:46.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://gitlab.com/bushtail/itsagoddamnshelf",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 1027,
+      "hub_id": 13759,
+      "version": "1.11.1",
+      "description": "<p>update to 3.11</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1967/its-a-goddamn-shelf/1.11.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1179,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-23T20:59:55.000000Z",
+      "created_at": "2025-03-23T20:59:55.000000Z",
+      "updated_at": "2026-05-14T01:38:01.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1967/bushtail-ItsAGoddamnShelf.zip filenameUTF-8bushtail-ItsAGoddamnShelf.zip",
+    "bytes_written": 4394,
+    "final_url": "https://cdn.artifacts.gitlab-static.net/3c/07/3c07cba025c435ba523ac8c7580ce63cc4b76c5744fd5a2418fa635bbc333f8c/@final/86/6b/7129c54979fcddff4949a551d65345f538d4b60c6676a07bd0a184e562a4?response-content-disposition=attachment%3B%20filename%3D%22bushtail-ItsAGoddamnShelf.zip%22%3B%20filename%2A%3DUTF-8%27%27bushtail-ItsAGoddamnShelf.zip&response-content-type=application%2Fzip&Expires=1786377052&KeyName=gprd-artifacts-cdn&Signature=2cv4Uctjt10EljC0hBm8AXhd3sA=",
+    "content_type": "application/zip"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.11.1",
+    "same_as_primary_download": true
+  }
+}

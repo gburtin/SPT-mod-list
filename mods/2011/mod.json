@@ -199,5 +199,16 @@
     "found": true,
     "version": "1.0.4",
     "same_as_primary_download": true
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2011/actually-found-in-raid-updated-1.0.2-spt3114.zip",
+    "bytes_written": 5149,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/933793771/0a5a92af-9a41-48ee-98f2-8d75e58a4134?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A46%3A33Z&rscd=attachment%3B+filename%3DActuallyFoundInRaid-v1.0.2.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A45%3A37Z&ske=2026-08-10T16%3A46%3A33Z&sks=b&skv=2018-11-09&sig=Dlem3%2BUYwl8R6RMzEia1mlbgXjl4r7awmWPo2VfStZE%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODI1NSwibmJmIjoxNzg2Mzc3OTU1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.L13jssO7XUYKDxjg3FvxTW1VmZf5KlUjOtIbr4WYo7Y&response-content-disposition=attachment%3B%20filename%3DActuallyFoundInRaid-v1.0.2.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "1.0.2",
+    "same_as_primary_download": false
   }
 }

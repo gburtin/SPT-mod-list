@@ -1,0 +1,203 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1646,
+      "hub_id": 2246,
+      "guid": null,
+      "name": "smthing-Configurable Steps Volume",
+      "slug": "smthing-configurable-steps-volume",
+      "teaser": "Lower the volume of your footsteps for you only, bots still hear you normally.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2246.png",
+      "downloads": 10760,
+      "favourites_count": 0,
+      "description": "<p><strong>Please refer to original mod for description and how to install it. I simply updated it to work on 3.9.X.</strong></p>\n<p>- <strong><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1971-configurable-steps-volume/\" rel=\"noreferrer noopener\">CLICK ME-Configurable Steps Volume by smthing</a></strong></p>\n<p>****I streamlined the installation process. Simply drag the user folder into your main Spt Directory and enjoy a world of silence.</p>\n<p>If <strong><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/15199-smthing/\" rel=\"noreferrer noopener\">smthing</a></strong> wants it removed. It will be removed without warning.</p>\n<p><strong>If you wanna edit the volume percentage, go to SPT\\user\\mods\\SPT-ConfigurableStepsVolume-1.1.1 and open the config.json. Change 45 to whatever you prefer. Making it 100 is complete silence. I would go to more than 60.</strong></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1646/smthing-configurable-steps-volume",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-08-12T18:57:24.000000Z",
+      "created_at": "2024-08-12T18:57:24.000000Z",
+      "updated_at": "2026-07-13T18:02:33.000000Z",
+      "owner": {
+        "id": 52018,
+        "name": "PenOkOh",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/4c26d8b5741152f46b02f78fcfb5c55f5ffb823f_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/37c37528c8482d2677cc547eee4f6d2efc8892a1_1280w.webp",
+        "created_at": "2024-05-17T10:34:12.000000Z",
+        "updated_at": "2026-08-10T14:22:59.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 11969,
+          "name": "smthing",
+          "profile_photo_url": "https://ui-avatars.com/api/?name=s&color=7F9CF5&background=EBF4FF",
+          "cover_photo_url": null,
+          "created_at": "2021-12-07T00:02:40.000000Z",
+          "updated_at": "2025-10-14T12:16:06.000000Z"
+        },
+        {
+          "id": 59323,
+          "name": "ViP3R_76",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/c42df989e8809c8c854f34812300442298ff20c5_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2024-07-24T06:02:29.000000Z",
+          "updated_at": "2026-08-10T15:35:41.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 937,
+          "hub_id": 13855,
+          "version": "1.2.0",
+          "description": "### **This version will only work for SPT 3.11.x**\n\n\\- Updated for SPT 3.11.x",
+          "link": "https://forge.sp-tarkov.com/mod/download/1646/smthing-configurable-steps-volume/1.2.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2386,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-29T19:59:25.000000Z",
+          "created_at": "2025-03-29T19:59:25.000000Z",
+          "updated_at": "2026-05-14T02:02:20.000000Z"
+        },
+        {
+          "id": 1770,
+          "hub_id": 12944,
+          "version": "1.1.5",
+          "description": "\\- updated for 3.10.x\n\nerrors? let me know.\n\nsmthing, still haven't figured out Github. Too confusing. Holler at me with how you wanna handle it.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1646/smthing-configurable-steps-volume/1.1.5",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 2023,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-03T13:34:41.000000Z",
+          "created_at": "2025-01-03T13:34:41.000000Z",
+          "updated_at": "2026-07-13T18:02:33.000000Z"
+        },
+        {
+          "id": 3029,
+          "hub_id": 11410,
+          "version": "1.1.4",
+          "description": "\\- someone messed something up. I wont point any fingers or anything\n\n\\- the last one only breaks on new empty profiles. existing users wont notice anything.\n\n\\- download this anyways to make sure future support is for an update version.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1646/smthing-configurable-steps-volume/1.1.4",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 4649,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-08-20T17:49:30.000000Z",
+          "created_at": "2024-08-20T17:49:30.000000Z",
+          "updated_at": "2026-07-03T18:03:47.000000Z"
+        },
+        {
+          "id": 3030,
+          "hub_id": 11409,
+          "version": "1.1.3",
+          "description": "**Messed up on the file name. You need to go into your user/mods and remove the the 1.1.3 version and re-download this. Sorry. The Google Drive link has been replaced, but those affected, do what this says. Just re-download the latest version.**\n\n\\- fixed a skill check. thanks to [Trap](https://hub.sp-tarkov.com/user/18329-trap/) for that one",
+          "link": "https://forge.sp-tarkov.com/mod/download/1646/smthing-configurable-steps-volume/1.1.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 172,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-08-20T17:21:51.000000Z",
+          "created_at": "2024-08-20T17:21:51.000000Z",
+          "updated_at": "2026-07-01T06:03:58.000000Z"
+        },
+        {
+          "id": 3057,
+          "hub_id": 11370,
+          "version": "1.1.2",
+          "description": "\\- the previous error has been fixed. I added [Dazzuh's](https://hub.sp-tarkov.com/user/64849-dazzuh/) suggestion into it.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1646/smthing-configurable-steps-volume/1.1.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 577,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-08-17T21:35:48.000000Z",
+          "created_at": "2024-08-17T21:35:48.000000Z",
+          "updated_at": "2026-07-06T06:03:52.000000Z"
+        },
+        {
+          "id": 3101,
+          "hub_id": 11309,
+          "version": "1.1.1",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1646/smthing-configurable-steps-volume/1.1.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 953,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-08-12T18:57:24.000000Z",
+          "created_at": "2024-08-12T18:57:24.000000Z",
+          "updated_at": "2026-07-03T18:03:55.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/ViP3R76/SPT-ConfigurableStepsVolume",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 937,
+      "hub_id": 13855,
+      "version": "1.2.0",
+      "description": "<h3><strong>This version will only work for SPT 3.11.x</strong></h3>\n<p>- Updated for SPT 3.11.x</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1646/smthing-configurable-steps-volume/1.2.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2386,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-29T19:59:25.000000Z",
+      "created_at": "2025-03-29T19:59:25.000000Z",
+      "updated_at": "2026-05-14T02:02:20.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1770,
+      "hub_id": 12944,
+      "version": "1.1.5",
+      "description": "<p>- updated for 3.10.x</p>\n<p>errors? let me know.</p>\n<p>smthing, still haven’t figured out Github. Too confusing. Holler at me with how you wanna handle it.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1646/smthing-configurable-steps-volume/1.1.5",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 2023,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-01-03T13:34:41.000000Z",
+      "created_at": "2025-01-03T13:34:41.000000Z",
+      "updated_at": "2026-07-13T18:02:33.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1646/CSV-ConfigurableStepsVolume_v1.2.0.zip",
+    "bytes_written": 3839,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/957203703/fdb0daec-f90f-48e9-92dd-b954295cdcf8?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A42%3A57Z&rscd=attachment%3B+filename%3DCSV-ConfigurableStepsVolume_v1.2.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A42%3A15Z&ske=2026-08-10T16%3A42%3A57Z&sks=b&skv=2018-11-09&sig=QTFNoHVn2jad8ktN%2BRTkP0uRtEeUg%2F%2FN7hd%2F0i7aYQc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3Njk3MCwibmJmIjoxNzg2Mzc2NjcwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.9WN4GgQobcjV4SIvFu0aYeuGKUUoMGQAuBfDOo1sNEY&response-content-disposition=attachment%3B%20filename%3DCSV-ConfigurableStepsVolume_v1.2.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.2.0",
+    "same_as_primary_download": true
+  }
+}

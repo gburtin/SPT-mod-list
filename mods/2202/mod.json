@@ -1,0 +1,129 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2202,
+      "hub_id": 2905,
+      "guid": null,
+      "name": "Tell The Time",
+      "slug": "tell-the-time",
+      "teaser": "Allows you to see the time when opening the raid timer. Inspired by Tarkov's latest QoL update.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2905.png",
+      "downloads": 3883,
+      "favourites_count": 3,
+      "description": "<p>Displays a notification telling the current time when opening the raid timer. Very simple but nice QoL addition!</p>\n<p>Also comes with an option to display real-world time.</p>\n<h3>Installation</h3>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://i.imgur.com/vKRw58b.gif\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/vKRw58b.gif\" alt=\"vKRw58b.gif\" /></a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2202/tell-the-time",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-06-26T19:17:05.000000Z",
+      "created_at": "2025-06-26T19:17:05.000000Z",
+      "updated_at": "2026-07-07T16:59:08.000000Z",
+      "owner": {
+        "id": 16168,
+        "name": "MissinginAction",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/Qop8Z5G3nIkjfcao7xwAVLupnS9jra98QdoIUu8z_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/3f86eebde9cafebb88c1c530d251dbb4d7a15bb4.png",
+        "created_at": "2022-03-25T21:08:27.000000Z",
+        "updated_at": "2026-08-10T05:14:39.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 302,
+          "hub_id": 14570,
+          "version": "1.1.1",
+          "description": "Fixed timer issue for people who had problems with time updating.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2202/tell-the-time/1.1.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2895,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-05T02:25:12.000000Z",
+          "created_at": "2025-07-05T02:25:12.000000Z",
+          "updated_at": "2026-05-14T01:42:36.000000Z"
+        },
+        {
+          "id": 347,
+          "hub_id": 14525,
+          "version": "1.1.0",
+          "description": "Added option to display IRL time. Disabled by default.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2202/tell-the-time/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 825,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-26T20:22:21.000000Z",
+          "created_at": "2025-06-26T20:22:21.000000Z",
+          "updated_at": "2026-05-14T01:45:07.000000Z"
+        },
+        {
+          "id": 348,
+          "hub_id": 14524,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2202/tell-the-time/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 163,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-26T19:17:05.000000Z",
+          "created_at": "2025-06-26T19:17:05.000000Z",
+          "updated_at": "2026-05-14T01:45:06.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/ReplayDEVYT/TellTheTime",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 302,
+      "hub_id": 14570,
+      "version": "1.1.1",
+      "description": "<p>Fixed timer issue for people who had problems with time updating.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2202/tell-the-time/1.1.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2895,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-05T02:25:12.000000Z",
+      "created_at": "2025-07-05T02:25:12.000000Z",
+      "updated_at": "2026-05-14T01:42:36.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2202/TellTheTime-1.1.1.rar",
+    "bytes_written": 3001,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1009213172/18c8cd4b-423d-4d00-9841-9ac2e51bc245?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A43%3A49Z&rscd=attachment%3B+filename%3DTellTheTime-1.1.1.rar&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A42%3A56Z&ske=2026-08-10T16%3A43%3A49Z&sks=b&skv=2018-11-09&sig=elEAlZKrqBT3vu0ncQPgstubMIx1Wg5zOnEVYORUYkk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzY3MiwibmJmIjoxNzg2Mzc3MzcyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.ocLfoTEAdOfRIRT8cmQ99QDXn60WqaSvfGdOWInKjhg&response-content-disposition=attachment%3B%20filename%3DTellTheTime-1.1.1.rar&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.1.1",
+    "same_as_primary_download": true
+  }
+}

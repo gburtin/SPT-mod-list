@@ -1,0 +1,107 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2331,
+      "hub_id": null,
+      "guid": "thelootiverse",
+      "name": "The Lootiverse",
+      "slug": "the-lootiverse",
+      "teaser": "Who Said There Couldn't Be Enough Things To Display And Collect? Possibly make a small profit selling? - 399 New Items To Display Collect Or Sell!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/3avAZL5nDtxo5REzGv9s79fSxCADhv8H8yhyH4bG.png",
+      "downloads": 1363,
+      "favourites_count": 0,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Mod Description</div>\n<div class=\"tab-content\"><p><strong>~ Intro ~</strong></p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://i.ibb.co/bMgH2fbm/2e36f755-f644-4615-8935-1ed4e146be22.png\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.ibb.co/bMgH2fbm/2e36f755-f644-4615-8935-1ed4e146be22.png\" alt=\"https://i.ibb.co/bMgH2fbm/2e36f755-f644-4615-8935-1ed4e146be22.png\" /></a></p>\n<p><strong>﻿~ ﻿Included in this mod ~</strong></p>\n<p>399 New Items To Collect And Display At The Hall Of Fame</p>\n<p>Found Via - Change spawn rates via the different item configs</p>\n<p>Scavs / Players\nDead Scav Bodies\nDuffle Bags\nJackets\nDrawers\nToolboxes\nSafes</p>\n<p><em>~ Recommend Mod ~</em></p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2768-allthelootredux\" rel=\"noreferrer noopener\">ALL THE LOOT REDUX</a></p>\n<p><em><strong>~ Known Issues ~</strong></em></p>\n<p>Loads Of Loot - This Will Cause The Items To Bloat A Ton Of Containers</p>\n<p><em>~ WIP ~</em></p>\n<p>Better Texures - Higher Download Cost\n<strong>~ Screenies ~<br />\n<a target=\"_blank\" class=\"external-link\" href=\"https://i.ibb.co/h1HD39Qd/gandr-collage-1.jpg\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.ibb.co/h1HD39Qd/gandr-collage-1.jpg\" alt=\"gandr-collage-1.jpg\" /></a></strong></p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">How To Support Me</div>\n<div class=\"tab-content\"><p><a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/mrpenguin5292\" rel=\"noreferrer noopener\">https://ko-fi.com/mrpenguin5292</a></p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://www.patreon.com/MrPenguin5292\" rel=\"noreferrer noopener\">https://www.patreon.com/MrPenguin5292</a></p>\n<p>(This is not needed, but it helps keep the train going!)</p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Credits</div>\n<div class=\"tab-content\"><p><a target=\"_blank\" class=\"external-link\" href=\"https://img.wattpad.com/f93ffc10270c1438c0035f2f3a13d1b00a161cff/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f647038763734706e61474b5075513d3d2d313131393533343731372e313735303166643537373338383062653939393932303336313836322e676966\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://img.wattpad.com/f93ffc10270c1438c0035f2f3a13d1b00a161cff/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f647038763734706e61474b5075513d3d2d313131393533343731372e313735303166643537373338383062653939393932303336313836322e676966\" alt=\"68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f776174747061642d6d656469612d736572766963652f53746f7279496d6167652f647038763734706e61474b5075513d3d2d313131393533343731372e313735303166643537373338383062653939393932303336313836322e676966\" /></a></p>\n<p>WTT (Groovy) - Framework<br />\nVarious Artists - Too Many To Credit</p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2331/the-lootiverse",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 4,
+      "published_at": "2025-10-02T19:04:00.000000Z",
+      "created_at": "2025-10-02T19:04:47.000000Z",
+      "updated_at": "2026-07-07T16:59:10.000000Z",
+      "owner": {
+        "id": 49193,
+        "name": "MrPenguin5292",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/0298a33474707d968f55c261128a683e6d294198_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/65313152416f3d85cd51ce4600119c42ed2b1e11.jpg",
+        "created_at": "2024-04-27T04:38:23.000000Z",
+        "updated_at": "2026-07-10T04:57:01.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11701,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Base Release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2331/the-lootiverse/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11",
+          "downloads": 1363,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-02T19:09:00.000000Z",
+          "created_at": "2025-10-02T19:35:29.000000Z",
+          "updated_at": "2026-05-14T06:13:13.000000Z"
+        }
+      ],
+      "license": {
+        "id": 16,
+        "hub_id": 19,
+        "name": "Creative Commons BY-NC-ND 4.0",
+        "link": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 4,
+        "hub_id": 21,
+        "title": "Items",
+        "slug": "items",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/MrPenguin5292/The-Lootiverse",
+          "label": "Code"
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11701,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Base Release</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2331/the-lootiverse/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11",
+      "downloads": 1363,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-02T19:09:00.000000Z",
+      "created_at": "2025-10-02T19:35:29.000000Z",
+      "updated_at": "2026-05-14T06:13:13.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2331/The.Lootiverse.zip",
+    "bytes_written": 225206766,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1068704332/1112904f-e6a1-4bb6-a7d4-4b9d108466e2?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A14%3A52Z&rscd=attachment%3B+filename%3DThe.Lootiverse.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A14%3A46Z&ske=2026-08-10T16%3A14%3A52Z&sks=b&skv=2018-11-09&sig=b9jy0pZXFksIxAGElVHUBn31qyirn0LDrv1Z7lc7hpY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3OTg4MywibmJmIjoxNzg2Mzc2MjgzLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.V--AHIZQWrHSLngqk0oXJtQWLPhNMt8ZeVOO92X0bgk&response-content-disposition=attachment%3B%20filename%3DThe.Lootiverse.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

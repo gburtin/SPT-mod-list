@@ -1,0 +1,183 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2061,
+      "hub_id": 2745,
+      "guid": null,
+      "name": "SeasonalOverride&DynamicWeather",
+      "slug": "seasonaloverridedynamicweather",
+      "teaser": "Fully controllable dynamic weather and seasons!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2745.png",
+      "downloads": 7747,
+      "favourites_count": 1,
+      "description": "<p>Dynamically adjust weather conditions and change season every raid, from clear skies to intense storms that you choose the chance of occurring. Say goodbye to the terrible default weather that tarkov has and enjoy a more diverse weather system.</p>\n<p><strong>Edit config.json to modify your selected weight system for the seasons or change the chance the weather is stormy.</strong></p>\n<p><strong>3.10 available under versions</strong></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2061/seasonaloverridedynamicweather",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-03-26T08:38:41.000000Z",
+      "created_at": "2025-03-26T08:38:41.000000Z",
+      "updated_at": "2026-07-07T16:59:06.000000Z",
+      "owner": {
+        "id": 66296,
+        "name": "AGX",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=A&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2024-10-30T01:28:06.000000Z",
+        "updated_at": "2025-09-26T15:39:51.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 972,
+          "hub_id": 13817,
+          "version": "1.2.0",
+          "description": "  \nSPT 3.11\n\nFull rework, seasons now rotate every raid based on a user set weighting. Weather unchanged.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2061/seasonaloverridedynamicweather/1.2.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 6370,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-27T00:48:28.000000Z",
+          "created_at": "2025-03-27T00:48:28.000000Z",
+          "updated_at": "2026-05-14T02:02:41.000000Z"
+        },
+        {
+          "id": 973,
+          "hub_id": 13816,
+          "version": "1.1.1",
+          "description": "  \nSPT 3.11  \n  \nAdded option to disable rain completely.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2061/seasonaloverridedynamicweather/1.1.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 249,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-26T22:24:43.000000Z",
+          "created_at": "2025-03-26T22:24:43.000000Z",
+          "updated_at": "2026-05-14T02:02:41.000000Z"
+        },
+        {
+          "id": 982,
+          "hub_id": 13807,
+          "version": "1.1.0",
+          "description": "  \nSPT 3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/2061/seasonaloverridedynamicweather/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 512,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-26T09:32:31.000000Z",
+          "created_at": "2025-03-26T09:32:31.000000Z",
+          "updated_at": "2025-03-26T09:32:31.000000Z"
+        },
+        {
+          "id": 983,
+          "hub_id": 13806,
+          "version": "1.0.0",
+          "description": "  \nSPT 3.10",
+          "link": "https://forge.sp-tarkov.com/mod/download/2061/seasonaloverridedynamicweather/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 616,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-26T08:38:41.000000Z",
+          "created_at": "2025-03-26T08:38:41.000000Z",
+          "updated_at": "2026-05-14T02:02:47.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 972,
+      "hub_id": 13817,
+      "version": "1.2.0",
+      "description": "<p>SPT 3.11</p>\n<p>Full rework, seasons now rotate every raid based on a user set weighting. Weather unchanged.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2061/seasonaloverridedynamicweather/1.2.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 6370,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-27T00:48:28.000000Z",
+      "created_at": "2025-03-27T00:48:28.000000Z",
+      "updated_at": "2026-05-14T02:02:41.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 973,
+      "hub_id": 13816,
+      "version": "1.1.1",
+      "description": "<p>SPT 3.11</p>\n<p>Added option to disable rain completely.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2061/seasonaloverridedynamicweather/1.1.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 249,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-26T22:24:43.000000Z",
+      "created_at": "2025-03-26T22:24:43.000000Z",
+      "updated_at": "2026-05-14T02:02:41.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 982,
+      "hub_id": 13807,
+      "version": "1.1.0",
+      "description": "<p>SPT 3.11</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2061/seasonaloverridedynamicweather/1.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 512,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-26T09:32:31.000000Z",
+      "created_at": "2025-03-26T09:32:31.000000Z",
+      "updated_at": "2025-03-26T09:32:31.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 983,
+      "hub_id": 13806,
+      "version": "1.0.0",
+      "description": "<p>SPT 3.10</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2061/seasonaloverridedynamicweather/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 616,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-26T08:38:41.000000Z",
+      "created_at": "2025-03-26T08:38:41.000000Z",
+      "updated_at": "2026-05-14T02:02:47.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2061/SeasonalOverride.DynamicWeather3.11.rar",
+    "bytes_written": 4052,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/955168928/bd794720-3702-420b-8702-e7a780d59d52?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A17%3A40Z&rscd=attachment%3B+filename%3DSeasonalOverride.DynamicWeather3.11.rar&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A17%3A12Z&ske=2026-08-10T16%3A17%3A40Z&sks=b&skv=2018-11-09&sig=rScuglLZveUuYA%2F75HMFKJi1QRIJk5%2BGhwnMJVDCbSQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3Njk1OSwibmJmIjoxNzg2Mzc2NjU5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.ejmGFuVwePZguDR2AaAVgiVht-xiCDMGeJIko9-UG2Q&response-content-disposition=attachment%3B%20filename%3DSeasonalOverride.DynamicWeather3.11.rar&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.2.0",
+    "same_as_primary_download": true
+  }
+}

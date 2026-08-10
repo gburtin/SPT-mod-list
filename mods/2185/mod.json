@@ -298,5 +298,16 @@
     "found": true,
     "version": "0.1.1",
     "same_as_primary_download": true
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2185/yetanothertradermod-0.0.2-spt3114.zip",
+    "bytes_written": 2746967,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1001524830/ac2486c4-2037-424b-9723-b63e9ec54480?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A47%3A13Z&rscd=attachment%3B+filename%3DYetAnotherTraderMod-3.11-1.0.2.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A46%3A17Z&ske=2026-08-10T16%3A47%3A13Z&sks=b&skv=2018-11-09&sig=kutj5bs27x478Ffm2U1kVp7lNE%2FjocBKulLCLVOu%2Fi4%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODMwNiwibmJmIjoxNzg2Mzc4MDA2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.hIqZ0HtmB79dVnnN-dxAYzv02Z-w0X_W3hBPkqRQ80k&response-content-disposition=attachment%3B%20filename%3DYetAnotherTraderMod-3.11-1.0.2.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "0.0.2",
+    "same_as_primary_download": false
   }
 }

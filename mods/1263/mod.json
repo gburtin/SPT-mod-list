@@ -1596,5 +1596,15 @@
     "found": true,
     "version": "4.0.8",
     "same_as_primary_download": true
+  },
+  "download_fallback_3_11_4": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://github.com/EpicRangeTime/EpicRangeTime-Weapons/releases/tag/v3.1.4",
+    "target_version": "3.11.4",
+    "version": "3.1.4",
+    "same_as_primary_download": false
   }
 }

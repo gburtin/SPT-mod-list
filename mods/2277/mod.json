@@ -223,5 +223,16 @@
     "found": true,
     "version": "2.0.2",
     "same_as_primary_download": true
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2277/caliber-split-ammo-cases-1.0.1-spt3114.zip",
+    "bytes_written": 50658,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1045953041/f0ec695a-9268-4e45-9ea1-ee2f7aabadef?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A42%3A46Z&rscd=attachment%3B+filename%3DSzonszczyk-CaliberSplitAmmoCases.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A41%3A52Z&ske=2026-08-10T16%3A42%3A46Z&sks=b&skv=2018-11-09&sig=EOBY6QOekq2wSvpZMkOnCiexP%2BzWNGN3ryXgAUO3W%2Bo%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODM3OCwibmJmIjoxNzg2Mzc4MDc4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Ls0jesb_tKgWhaKdPb5FurpSmeQRMIlj4xhkQBTqXF4&response-content-disposition=attachment%3B%20filename%3DSzonszczyk-CaliberSplitAmmoCases.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "1.0.1",
+    "same_as_primary_download": false
   }
 }

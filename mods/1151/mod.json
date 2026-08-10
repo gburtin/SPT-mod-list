@@ -1,0 +1,168 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1151,
+      "hub_id": 1589,
+      "guid": null,
+      "name": "Leaves - Low End Weapon-spawn Drop-rate Searcher (L.E.W.D.S.)",
+      "slug": "leaves-low-end-weapon-spawn-drop-rate-searcher-lewds",
+      "teaser": "Finds those pesky weapon spawns with 0.0002 spawn chance and raises them to a user-set floor. Makes weapons spawns actually work in current spt.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/1589.png",
+      "downloads": 5908,
+      "favourites_count": 0,
+      "description": "<p>Finds those pesky weapon spawns with like 0.0002 spawn chance and raises them to a user-set floor. Makes weapons spawns actually work in current spt.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1151/leaves-low-end-weapon-spawn-drop-rate-searcher-lewds",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2023-11-08T07:13:45.000000Z",
+      "created_at": "2023-11-08T07:13:45.000000Z",
+      "updated_at": "2026-07-13T18:06:28.000000Z",
+      "owner": {
+        "id": 9836,
+        "name": "DeadLeaves",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/205f2557487b1fb0b1de9b1bf202b712eeece2ce_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2021-09-28T18:40:41.000000Z",
+        "updated_at": "2026-08-10T13:52:48.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 906,
+          "hub_id": 13888,
+          "version": "1.1.1",
+          "description": "- Ignore broken items. (Probably from other mods.)\n- Expand upon point dump file.\n\nSTILL WORKS ON 3.10.x AS WELL AS 3.11.x",
+          "link": "https://forge.sp-tarkov.com/mod/download/1151/leaves-low-end-weapon-spawn-drop-rate-searcher-lewds/1.1.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1944,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-01T03:44:10.000000Z",
+          "created_at": "2025-04-01T03:44:10.000000Z",
+          "updated_at": "2026-05-14T02:01:55.000000Z"
+        },
+        {
+          "id": 1107,
+          "hub_id": 13673,
+          "version": "1.1.0",
+          "description": "Rework\n\n- Changed to target any item parent specified in the config. By default this is weapons and mechanical keys.\n- Add the option to also target specific items.\n- Added the feature to dump to point file to use with CJ's DebugPlus. To let you visually explore loot spawn points on maps.\n- Updated compat to 3.11 (this release still works on 3.10)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1151/leaves-low-end-weapon-spawn-drop-rate-searcher-lewds/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 592,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-18T14:20:50.000000Z",
+          "created_at": "2025-03-18T14:20:50.000000Z",
+          "updated_at": "2026-05-14T02:04:13.000000Z"
+        },
+        {
+          "id": 1820,
+          "hub_id": 12891,
+          "version": "1.0.1",
+          "description": "Once again, the fires are lit, and the need for this mod returns.\n\n- Updated to 3.10.x",
+          "link": "https://forge.sp-tarkov.com/mod/download/1151/leaves-low-end-weapon-spawn-drop-rate-searcher-lewds/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 790,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-31T08:57:55.000000Z",
+          "created_at": "2024-12-31T08:57:55.000000Z",
+          "updated_at": "2026-05-14T02:36:54.000000Z"
+        },
+        {
+          "id": 5604,
+          "hub_id": 8182,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1151/leaves-low-end-weapon-spawn-drop-rate-searcher-lewds/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 2582,
+          "fika_compatibility": "unknown",
+          "published_at": "2023-11-08T07:13:45.000000Z",
+          "created_at": "2023-11-08T07:13:45.000000Z",
+          "updated_at": "2026-07-13T18:06:28.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 906,
+      "hub_id": 13888,
+      "version": "1.1.1",
+      "description": "<ul>\n<li>Ignore broken items. (Probably from other mods.)</li>\n<li>Expand upon point dump file.</li>\n</ul>\n<p>STILL WORKS ON 3.10.x AS WELL AS 3.11.x</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1151/leaves-low-end-weapon-spawn-drop-rate-searcher-lewds/1.1.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1944,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-04-01T03:44:10.000000Z",
+      "created_at": "2025-04-01T03:44:10.000000Z",
+      "updated_at": "2026-05-14T02:01:55.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1107,
+      "hub_id": 13673,
+      "version": "1.1.0",
+      "description": "<p>Rework</p>\n<ul>\n<li>Changed to target any item parent specified in the config. By default this is weapons and mechanical keys.</li>\n<li>Add the option to also target specific items.</li>\n<li>Added the feature to dump to point file to use with CJ’s DebugPlus. To let you visually explore loot spawn points on maps.</li>\n<li>Updated compat to 3.11 (this release still works on 3.10)</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1151/leaves-low-end-weapon-spawn-drop-rate-searcher-lewds/1.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 592,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-18T14:20:50.000000Z",
+      "created_at": "2025-03-18T14:20:50.000000Z",
+      "updated_at": "2026-05-14T02:04:13.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1820,
+      "hub_id": 12891,
+      "version": "1.0.1",
+      "description": "<p>Once again, the fires are lit, and the need for this mod returns.</p>\n<ul>\n<li>Updated to 3.10.x</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1151/leaves-low-end-weapon-spawn-drop-rate-searcher-lewds/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 790,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-12-31T08:57:55.000000Z",
+      "created_at": "2024-12-31T08:57:55.000000Z",
+      "updated_at": "2026-05-14T02:36:54.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1151/leaves-lewds1.1.1.zip",
+    "bytes_written": 99962,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/910431809/ca11588f-54c4-4f6c-aaf6-911a6a1a843b?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A45%3A07Z&rscd=attachment%3B+filename%3Dleaves-lewds1.1.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A44%3A57Z&ske=2026-08-10T16%3A45%3A07Z&sks=b&skv=2018-11-09&sig=8EPYZX3T7c5b4FeXrpq5dvMyQoEu6KmBFMF%2F9YyRxiQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzA3MywibmJmIjoxNzg2Mzc2NzczLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Xh5oPrkc4QlWg0wnZi49MCbKXXDxiW1md_tBVOwrfG4&response-content-disposition=attachment%3B%20filename%3Dleaves-lewds1.1.1.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.1.1",
+    "same_as_primary_download": true
+  }
+}

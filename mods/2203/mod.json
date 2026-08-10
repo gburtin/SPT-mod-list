@@ -1,0 +1,101 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2203,
+      "hub_id": 2906,
+      "guid": null,
+      "name": "Advanced Modding Lights",
+      "slug": "advanced-modding-lights",
+      "teaser": "Enhance the lighting in weapon modding and build screens for better visibility and aesthetics",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2906.jpg",
+      "downloads": 6560,
+      "favourites_count": 1,
+      "description": "<h3>Enhance the lighting in weapon modding and build screens for better realism and control. It’s good for controlling the lighting when taking screenshots. It activates a directional light which creates more reflections on the angles you choose.</h3>\n<div class=\"youtube-lite\" data-video-id=\"LYPTjbPlVvA\" data-embed-url=\"https://www.youtube-nocookie.com/embed/LYPTjbPlVvA?autoplay=1\"><img src=\"https://i.ytimg.com/vi/LYPTjbPlVvA/hqdefault.jpg\" alt=\"YouTube video thumbnail\" loading=\"lazy\" decoding=\"async\" /></div>\n<h3><strong>Features</strong></h3>\n<ul>\n<li>Enhanced Lighting: Improves lighting in weapon modding and build screens</li>\n<li>Configurable Settings: Adjust directional light brightness and rotation</li>\n<li>Real-time Updates: Settings apply immediately without restart</li>\n<li>Performance Optimized: Efficient light caching and management</li>\n</ul>\n<h3><strong>Installation</strong></h3>\n<ul>\n<li>Download the latest release</li>\n<li>Extract to your SPT folder</li>\n<li>Configure settings via F12 (Config Manager)</li>\n</ul>\n<h3><strong>Configuration Options</strong></h3>\n<ul>\n<li>Enable Custom Lighting: Toggle enhanced lighting on/off</li>\n<li>Brightness: Control directional light intensity (0.1 - 5.0)</li>\n<li>Rotation X/Y: Adjust light direction (-180° to 180°)</li>\n</ul>\n<p>For feature requests and reporting bugs, please use the <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/emilanderss0n/AdvancedModdingLights\" rel=\"noreferrer noopener\">GitHub repo</a> for this mod</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2203/advanced-modding-lights",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-06-27T19:05:48.000000Z",
+      "created_at": "2025-06-27T19:05:48.000000Z",
+      "updated_at": "2026-07-07T16:59:08.000000Z",
+      "owner": {
+        "id": 29835,
+        "name": "MoxoPixel",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/464072aceb40281611921f5b148200b2fbf86664_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/96b6bc2954ac77a69d9ce6363d504454cad88e0d_1280w.webp",
+        "created_at": "2023-04-08T03:49:17.000000Z",
+        "updated_at": "2026-08-10T14:51:11.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 342,
+          "hub_id": 14530,
+          "version": "1.0.0",
+          "description": "Only for SPT 3.11+",
+          "link": "https://forge.sp-tarkov.com/mod/download/2203/advanced-modding-lights/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 6560,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-27T19:05:48.000000Z",
+          "created_at": "2025-06-27T19:05:48.000000Z",
+          "updated_at": "2026-05-14T01:44:36.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/emilanderss0n/AdvancedModdingLights",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 342,
+      "hub_id": 14530,
+      "version": "1.0.0",
+      "description": "<p>Only for SPT 3.11+</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2203/advanced-modding-lights/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 6560,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-06-27T19:05:48.000000Z",
+      "created_at": "2025-06-27T19:05:48.000000Z",
+      "updated_at": "2026-05-14T01:44:36.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2203/MoxoPixel-AML.zip",
+    "bytes_written": 7212,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1009810379/61c5b49d-662a-416f-946c-43594d9f38d7?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A43%3A08Z&rscd=attachment%3B+filename%3DMoxoPixel-AML.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A42%3A13Z&ske=2026-08-10T16%3A43%3A08Z&sks=b&skv=2018-11-09&sig=pyrkqzoFWLv9byLQV0Lv4HlEu6WOr0RMp0gSClSQreM%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzU1NiwibmJmIjoxNzg2Mzc3MjU2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Q2hQrzqdzDW95-7z4daYP4QwSDJ4Dezaz6rbmBmlEgo&response-content-disposition=attachment%3B%20filename%3DMoxoPixel-AML.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

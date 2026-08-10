@@ -1,0 +1,109 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2260,
+      "hub_id": 2968,
+      "guid": null,
+      "name": "Death Knight Mask Fix",
+      "slug": "death-knight-mask-fix",
+      "teaser": "Makes the Death Knight Mask appear on character & Knight - Doing BSG's job for them",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2968.png",
+      "downloads": 5497,
+      "favourites_count": 0,
+      "description": "<p>Literally just fixes the death knight mask<br />\nDrag and Drop into your SPT Directory</p>\n<p>Support me and/or Join my Server<br />\n<a target=\"_blank\" class=\"external-link\" href=\"https://crypluto.carrd.co\" rel=\"noreferrer noopener\">Links<br />\n</a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2260/death-knight-mask-fix",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": true,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-08-21T00:41:23.000000Z",
+      "created_at": "2025-08-21T00:41:23.000000Z",
+      "updated_at": "2026-07-13T18:00:14.000000Z",
+      "owner": {
+        "id": 44944,
+        "name": "Pluto!",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/c5ca589561729a180df6a8c53aa2dea0e6a8d8b1_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/a2b76828492fe6f925e02ac685e73b7c6a04c7e0_1280w.webp",
+        "created_at": "2024-02-04T02:53:57.000000Z",
+        "updated_at": "2026-07-10T04:57:00.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 47,
+          "hub_id": 14856,
+          "version": "1.0.1",
+          "description": "Death Knight Mask Fix 1.0.1  \n  \nChanges  \n\\- Death Knight Mask added a new item for a bandaid fix  \n\\- Base game death knight mask still abit buggy but mod will still attempt to fix it  \n  \nKnown Issues  \n\\- Sometimes the base game mask will show instead of the fixed mask  \n\\- Bandaid Fix Mask not pushed to boss   \n  \n  \nEFT is 1.0 ready btw, totally",
+          "link": "https://forge.sp-tarkov.com/mod/download/2260/death-knight-mask-fix/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 4166,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-24T00:38:36.000000Z",
+          "created_at": "2025-08-24T00:38:36.000000Z",
+          "updated_at": "2026-07-13T18:00:13.000000Z"
+        },
+        {
+          "id": 60,
+          "hub_id": 14841,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2260/death-knight-mask-fix/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1331,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-21T00:41:23.000000Z",
+          "created_at": "2025-08-21T00:41:23.000000Z",
+          "updated_at": "2026-07-13T18:00:14.000000Z"
+        }
+      ],
+      "license": {
+        "id": 14,
+        "hub_id": 17,
+        "name": "University of Illinois/NCSA Open Source License",
+        "link": "https://choosealicense.com/licenses/ncsa/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 47,
+      "hub_id": 14856,
+      "version": "1.0.1",
+      "description": "<p>Death Knight Mask Fix 1.0.1</p>\n<p>Changes<br />\n- Death Knight Mask added a new item for a bandaid fix<br />\n- Base game death knight mask still abit buggy but mod will still attempt to fix it</p>\n<p>Known Issues<br />\n- Sometimes the base game mask will show instead of the fixed mask<br />\n- Bandaid Fix Mask not pushed to boss</p>\n<p>EFT is 1.0 ready btw, totally</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2260/death-knight-mask-fix/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 4166,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-08-24T00:38:36.000000Z",
+      "created_at": "2025-08-24T00:38:36.000000Z",
+      "updated_at": "2026-07-13T18:00:13.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/file/d/1PNdSQH7WenXibGn7iPdYBzhnujofIyTw/view?usp=sharing"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

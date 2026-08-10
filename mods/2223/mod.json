@@ -1,0 +1,95 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2223,
+      "hub_id": 2926,
+      "guid": null,
+      "name": "Watatsuki No Yorihime",
+      "slug": "watatsuki-no-yorihime",
+      "teaser": "\"The Moon Princess Possessed by Divine Spirits.\"",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2926.jpg",
+      "downloads": 478,
+      "favourites_count": 0,
+      "description": "<p>Hey all, I’m here with another mod release! This adds in another Touhou character: Watatsuki no Yorihime. (backstory Moon Princess that calls on gods and heads up an army the strongest character in the series barring one other)</p>\n<p>install instructions: TThey are the same as all my other mods grab the DB Json ID’s ( very top when you open the files in Notepad or Visual Code Studio) and put them into your character’s profile body parts (feet head etc replace the character ID’s you have there with those ones) The mod will work in menu, hideout and in raid I tested it myself.</p>\n<p>I wish there was a Katana mod (her main weapon) that I could recommend with this but alas use the Gerber Tomahawk or Miller Sword or Taiga.</p>\n<p>with this for now character mods are complete and only the music ones remain for updating to 3.11. that will come eventually.</p>\n<p>As always, I will include music with any character mods so here have this one: <a target=\"_blank\" class=\"external-link\" href=\"https://youtu.be/yuOkeTMoCgg?si=vJJMlFDrBNMutJFd\" rel=\"noreferrer noopener\">https://youtu.be/yuOkeTMoCgg?si=vJJMlFDrBNMutJFd</a></p>\n<p>oh and pictures:</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2223/watatsuki-no-yorihime",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-07-21T05:57:51.000000Z",
+      "created_at": "2025-07-21T05:57:51.000000Z",
+      "updated_at": "2026-07-07T16:59:08.000000Z",
+      "owner": {
+        "id": 11920,
+        "name": "Junko Space Mommy",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/d3deb82329d12c2130ce7059db5facb8af859540_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/e3431969e0c3ecd77fc51a8e7011645addd295fc.jpg",
+        "created_at": "2021-12-05T09:12:32.000000Z",
+        "updated_at": "2026-08-07T21:06:22.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 236,
+          "hub_id": 14641,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2223/watatsuki-no-yorihime/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 478,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-21T05:57:51.000000Z",
+          "created_at": "2025-07-21T05:57:51.000000Z",
+          "updated_at": "2026-05-14T01:41:56.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 236,
+      "hub_id": 14641,
+      "version": "1.0.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2223/watatsuki-no-yorihime/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 478,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-21T05:57:51.000000Z",
+      "created_at": "2025-07-21T05:57:51.000000Z",
+      "updated_at": "2026-05-14T01:41:56.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/drive/folders/1zB3ByhjrpVjMxoX4-e4puAbfFXGvxAIQ?usp=sharing"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,167 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1077,
+      "hub_id": 1490,
+      "guid": null,
+      "name": "Light's Automatic Armband Assistant",
+      "slug": "lights-automatic-armband-assistant",
+      "teaser": "This mod was originally created by Drewgamer, but has not been updated since 3.5.0. With the help of Refringe (especially!), Dirtbikerjc, JustNU, and Anthal, I have restored this mod and added functionality to bloodhounds as well.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/1490.png",
+      "downloads": 2976,
+      "favourites_count": 0,
+      "description": "<p>This mod was originally created by Drewgamer, but has not been updated since 3.5.0. With the help of Refringe (especially!), Dirtbikerjc, JustNU, and Anthal, I have restored this mod and added functionality to bloodhounds as well.</p>\n<p><em>Please go into Aki_Data&gt;Server&gt;Configs&gt;pmc.json, search “Chance”, and change “chanceSameSideIsHostilePercent” to 0! One day, this mod will do that for you…… one day</em></p>\n<p>This mod makes it so that all USECs, BEARs, Scavs, etc. will wear the same armband per faction, which is configurable by you. Current options include white, yellow, red, blue, green, and purple (twitch2020).</p>\n<p>This mod is great for those who make pmc’s of their faction friendly, as you will hopefully have a much easier time identifying who is BEAR, USEC, and SCAV (I doubt you need the purple armband to tell it’s Tagilla, but who knows).</p>\n<p><strong>THIS MOD IS INCOMPATIBLE WITH ALGORITHMIC LEVEL PROGRESSION,</strong> and any mods that change bot loadouts without load-order dependency. I am hoping that the author of ALP will make this mod compatible with theirs, I quite like their mod but sadly it overrides this mod no matter what I’ve tried.</p>\n<p><em>If you use ALP anyways, you have to change ALP’s armband chance in their AdvancedConfig to 100%. This will still cause inconsistent / wrong armbands, but will be better compared to not changing it. I still highly recommend picking one or the other based on what you want to do.</em></p>\n<p><em>IF YOU FIND OTHER INCOMPATABILITIES PLEASE LET ME KNOW!!!</em></p>\n<p><em>…y’know, maybe one day I’ll actually fix it being broken with half the featured mods… oh well</em></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1077/lights-automatic-armband-assistant",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2023-09-27T18:23:41.000000Z",
+      "created_at": "2023-09-27T18:23:41.000000Z",
+      "updated_at": "2026-07-13T18:07:31.000000Z",
+      "owner": {
+        "id": 21928,
+        "name": "LightoftheWorld",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/3f57316eb57284f8f2c42b487889d3d09b7237bc_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2022-08-22T23:09:32.000000Z",
+        "updated_at": "2026-08-10T06:57:49.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 847,
+          "hub_id": 13956,
+          "version": "1.1.2",
+          "description": "Nothing changed. The mod from 3.8 works on 3.11. Get wrecked, complicated mods. Simplicity wins again.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1077/lights-automatic-armband-assistant/1.1.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 746,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-07T21:55:43.000000Z",
+          "created_at": "2025-04-07T21:55:43.000000Z",
+          "updated_at": "2026-07-13T18:01:18.000000Z"
+        },
+        {
+          "id": 3299,
+          "hub_id": 11059,
+          "version": "1.1.1",
+          "description": "how about that, I took 5 minutes and uploaded this thing. Never bothered because no one asked for it and I no longer use it, but hey. Let it never be said I don't get around to my stuff eventually",
+          "link": "https://forge.sp-tarkov.com/mod/download/1077/lights-automatic-armband-assistant/1.1.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 557,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-26T08:34:25.000000Z",
+          "created_at": "2024-07-26T08:34:25.000000Z",
+          "updated_at": "2026-07-13T18:04:11.000000Z"
+        },
+        {
+          "id": 4388,
+          "hub_id": 9693,
+          "version": "1.1.0",
+          "description": "it already worked with 3.8.0 but now it won't be mad at you for using an older version",
+          "link": "https://forge.sp-tarkov.com/mod/download/1077/lights-automatic-armband-assistant/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "3.8.0",
+          "downloads": 442,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-04-30T23:35:57.000000Z",
+          "created_at": "2024-04-30T23:35:57.000000Z",
+          "updated_at": "2026-07-13T18:05:34.000000Z"
+        },
+        {
+          "id": 6164,
+          "hub_id": 7481,
+          "version": "1.0.1",
+          "description": "proper link to mod",
+          "link": "https://forge.sp-tarkov.com/mod/download/1077/lights-automatic-armband-assistant/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1070,
+          "fika_compatibility": "unknown",
+          "published_at": "2023-09-27T18:29:49.000000Z",
+          "created_at": "2023-09-27T18:29:49.000000Z",
+          "updated_at": "2026-07-13T18:07:28.000000Z"
+        },
+        {
+          "id": 6166,
+          "hub_id": 7479,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1077/lights-automatic-armband-assistant/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 161,
+          "fika_compatibility": "unknown",
+          "published_at": "2023-09-27T18:23:41.000000Z",
+          "created_at": "2023-09-27T18:23:41.000000Z",
+          "updated_at": "2026-07-13T18:07:31.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 847,
+      "hub_id": 13956,
+      "version": "1.1.2",
+      "description": "<p>Nothing changed. The mod from 3.8 works on 3.11. Get wrecked, complicated mods. Simplicity wins again.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1077/lights-automatic-armband-assistant/1.1.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 746,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-04-07T21:55:43.000000Z",
+      "created_at": "2025-04-07T21:55:43.000000Z",
+      "updated_at": "2026-07-13T18:01:18.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 4388,
+      "hub_id": 9693,
+      "version": "1.1.0",
+      "description": "<p>it already worked with 3.8.0 but now it won’t be mad at you for using an older version</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1077/lights-automatic-armband-assistant/1.1.0",
+      "content_length": null,
+      "spt_version_constraint": "3.8.0",
+      "downloads": 442,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-04-30T23:35:57.000000Z",
+      "created_at": "2024-04-30T23:35:57.000000Z",
+      "updated_at": "2026-07-13T18:05:34.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1077/lights-automatic-armband-assistant-1.1.2",
+    "bytes_written": 592,
+    "final_url": "https://github.com/Light-of-the-World/LightoftheWorld-LightsAutomaticArmbandAssistant-1.0.0/releases/tag/1.1.2",
+    "content_type": "application/json; charset=utf-8"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.1.2",
+    "same_as_primary_download": true
+  }
+}

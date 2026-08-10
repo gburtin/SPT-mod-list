@@ -334,5 +334,16 @@
     "found": true,
     "version": "2.0.2",
     "same_as_primary_download": true
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/650/hephaestus-1.1.14-spt3114.zip",
+    "bytes_written": 33090,
+    "final_url": "https://ucd9eef0860faf0af5f7364ccd66.dl.dropboxusercontent.com/cd/0/get/DF9Z4fkGCkaqFuf5oWvsfpiG3F8xl6m3Gt74dsN_5wwsXDkPTzNpW1-092TdVpzvXGLxdBK4TGndhMSTIENGqEL1xJBrHtmtHsXgv9dSMeqW4hMm4GLKerFPR-lBUgKkKRypONDzJMp4JGe2cxczTSey/file?dl=1",
+    "content_type": "application/binary",
+    "target_version": "3.11.4",
+    "version": "1.1.14",
+    "same_as_primary_download": false
   }
 }

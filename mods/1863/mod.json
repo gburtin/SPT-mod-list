@@ -1,0 +1,149 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1863,
+      "hub_id": 2516,
+      "guid": "com.vinihns.notsorealistic",
+      "name": "Not So Realistic",
+      "slug": "not-so-realistic",
+      "teaser": "This mod enhances gameplay by improving medical kits, reducing weapon recoil, and adding quality of life changes. Enjoy a better single-player experience in SPT!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2516.png",
+      "downloads": 7243,
+      "favourites_count": 0,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Basics</div>\n<div class=\"tab-content\"><p><strong>Not So Realistic</strong> aims to give EFT a more casual playstyle, heavily inspired by the <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/606-spt-realism-mod/\" rel=\"noreferrer noopener\">SPT Realism Mod</a></p>\n<p>Mod Features:</p>\n<ul>\n<li>Enhanced Medical Kits</li>\n<li>Reduced Weapon Recoil</li>\n<li>Removes the double-action penalty.</li>\n<li>Kriss Vector 9mm now matches the rate of fire of the .45 ACP version (1100 rpm).</li>\n<li>Allows the use of any scope with the Alpha Dog Alpha 9 9x19 sound suppressor.</li>\n<li>RPD and RPDN can now use the same muzzle devices as the AKM.</li>\n<li>New medications: Paracetamol and Exodrine (use with extreme caution)</li>\n</ul>\n<p><strong>Walking in surgery</strong></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://media2.giphy.com/media/v1.Y2lkPTc5MGI3NjExeHpzc3M1cmFhb3YzNjdvbGU2aTdjOXdyNmQ3a3k5c3phOHIxcDc3ZyZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/wm9Kci71WAa9yka0lH/giphy.gif\" alt=\"giphy.gif\" /></p>\n<p><strong>Running while healing</strong></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExMzhxejhtdGxnOTR6bXZtMHRrNzhpdnZpMjB4emdjNGZ5d3BtM21oOCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/Kwy281xw5pa0OVfHAP/giphy.gif\" alt=\"giphy.gif\" /></p>\n<p><strong>Malfunctions without inspection</strong></p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNWVjZzR1c25mMHdjbG8wOWtnM3E1ZjM5anYwdmdmc2gybTE4N3Y5bCZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/g4jkTcGTbHhG5W2dG8/giphy.gif\" alt=\"giphy.gif\" /></p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">How To Install</div>\n<div class=\"tab-content\"><p>Simply extract zvinihns-notsorealistic.zip into your SPT game folder. DrakiaXYZ’s gif for installing a mod:</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/vKRw58b.gif\" alt=\"vKRw58b.gif\" /></p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">How To Config</div>\n<div class=\"tab-content\"><p>In the folder config, you will find medsConfig.json, qolConfig.json, recoilConfig.json where you can customize the following settings:</p>\n<p>MedsConfig.json</p>\n<h3><strong>General Settings for Medkits and Items</strong></h3>\n<ul>\n<li><strong>Usage counts for consumables</strong>:\n<ul>\n<li>calocUsage, armyBandageUsage, analginPainkillersUsage, etc.: Define the number of uses for each item (whole number).</li>\n</ul>\n</li>\n</ul>\n<h3><strong>Custom Settings for Specific Items</strong></h3>\n<p>Each medkit has customizable properties, such as HP, ability to heal specific injuries, and associated costs:</p>\n<p><strong>Note:</strong> If the property medKitNameChanges is set to <strong>false</strong>, the medkit will revert to its default values.</p>\n<ul>\n<li>\n<p><strong>Grizzly(this applies to other medical kits as wel):</strong></p>\n<ul>\n<li>grizzlyChanges <em>(true or false) - Enable or disable the following changes.</em></li>\n<li>grizzlyHP (Whole number) - Amount of HP the medkit have.</li>\n<li><em>GrizzlyCanDoSurgery (true or false) - Enable or disable the ability of the medkit to do surgery like the CMS and Sur12</em></li>\n<li><em>GrizzlySurgeryCost (Whole number) - Cost of the surgery</em></li>\n<li><em>GrizzlyCanHealHeavyBleeding (true or false) - Enable or disable the ability to heal heavy bleeding.</em></li>\n<li><em>GrizzlyHeavyBleedingHealCost (Whole number) - Cost of healing a heavy bleeding.</em></li>\n<li><em>GrizzlyCanHealLightBleeding (true or false) - Enable or disable the ability to heal light bleeding.</em></li>\n<li><em>GrizzlyLightBleedingHealCost (Whole number) - Cost of healing a light bleeding.</em></li>\n<li><em>GrizzlyCanHealFractures (true or false) - Enable or disable the ability to heal fractures.</em></li>\n<li><em>GrizzlyFractureHealCost (Whole number) - Cost of healing a fracture.</em></li>\n</ul>\n</li>\n</ul>\n<p>qolConfig.json</p>\n<h3><strong>General Settings</strong></h3>\n<ul>\n<li>enable <em>(true or false) - Enable or disable the changes.</em></li>\n<li>doubleActionAccuracyPenalty (Whole number) - Amount of Accuracy Penalty.</li>\n</ul>\n<p>recoilConfig.json</p>\n<h3><strong>General Settings (values and description from Documentation, <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/doc/entry/48-recoil-values-and-what-they-do-pre-patch-14/\" rel=\"noreferrer noopener\">here</a> and <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/doc/entry/87-recoil-values-and-what-they-do-patch-14/\" rel=\"noreferrer noopener\">here</a>)</strong></h3>\n<ul>\n<li>\n<p>enable (true or false) - Enable or disable the changes.</p>\n</li>\n<li>\n<p>RecoilCrank (true or false) - if set to true all guns will recoil towards the camera/player’s shoulder instead of recoiling forwards.</p>\n</li>\n<li>\n<p>RecoilDamping (number) - Up/down wiggle. The higher it is, the more guns will wiggle up/down from recoil.</p>\n</li>\n<li>\n<p>RecoilHandDamping (number) - Front/rearward gun/arm wiggle. The higher it is, the more the gun will wiggle forward/back.</p>\n</li>\n</ul>\n<p>This applies to other weapons as well. You have to input a number like 0.5, which represents 50% less smgRecoilUp, for example.</p>\n<ul>\n<li>smgRecoilUp <em>(Number) - Vertical recoil. Simply how much the gun recoils upwards.</em></li>\n<li>smgRecoilBack <em>(Number) - “Horizontal recoil” in the game stats. It is a lie, it causes the gun to recoil backwards/forwards, not horizontally. This is mostly visual. The gun will actually recoil FORWARD by default. Set “RecoilCrank” to true to get guns to recoil backwards as they should..</em></li>\n<li>smgRecoilConvergence <em>(Number) - Generally known as “Recoil Autocompensation”. This dictates how quickly the gun resets after recoil, and its general snappiness. The *higher* it is, the snappier the gun is, and quicker it resets.</em></li>\n<li>smgDispersion <em>(Number) - This is used to calculate the radian the gun bounces around in. Basically, the lower the value, the more “spread” you will have in full auto or spamming semi. Generally doesn’t do as much as it did pre Patch 14.</em></li>\n<li>smgDampingHandRotation <em>(Number) - Intensity of vertical recoil. Lower value means more exaggerated movement, and more wiggle after firing.</em></li>\n<li>smgRecoilCamera <em>(Number) - Camera recoil is much more attached to where your weapon is pointing under recoil. Increace it to have less screen shake.</em></li>\n<li>smgRecoilCategoryMultiplierHandRotation <em>(Number) - Overall procedural intensity of recoil.</em></li>\n<li>smgRecoilStableAngleIncreaseStep <em>(Number) - Related to the amount of spread during stabilization period.</em></li>\n</ul>\n<p>In Game (F12 by default)</p>\n<ul>\n<li>Can walk in surgery: Enables or disables walking while performing surgery.</li>\n<li>Can sprint using meds: Enables or disables sprinting while using medical items.</li>\n<li>Can resolve malfunctions without inspection: Allows the player to resolve weapon malfunctions without inspecting the weapon first.</li>\n<li>Remove boss malfunctions: Removes weapon malfunctions caused by bosses. (needs testing)</li>\n<li>Contaminated Food Chance: Chance to the food contaminate the player (0 -&gt; No contamination)</li>\n</ul></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">Known Issues</div>\n<div class=\"tab-content\"><ul>\n<li>If you enable Surgery in a medkit (e.g., Grizzly) and disable the “Can walk during surgery” option in the BepInEx configurator (F12), your player will stop walking (similar to CMS and Surv12).</li>\n<li>If you find any bugs, please report them</li>\n</ul></div></div>\n<div id=\"tabset-1-panel-5\" class=\"tab-panel\"><div class=\"tab-title\">Incompatibilities</div>\n<div class=\"tab-content\"><ul>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2463-make-meds-great-again/\" rel=\"noreferrer noopener\">Make Meds Great Again</a> - My other mod (This mod includes all the features of this mod)</li>\n</ul></div></div>\n<div id=\"tabset-1-panel-6\" class=\"tab-panel\"><div class=\"tab-title\">Recommended Mods</div>\n<div class=\"tab-content\"><p><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1981-dynamic-maps/\" rel=\"noreferrer noopener\">Dynamic Maps - SPT Mods Workshop</a></p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2418-full-helmet-coverage/\" rel=\"noreferrer noopener\">Full Helmet Coverage - SPT Mods Workshop</a></p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2472-covered-up-armpits/\" rel=\"noreferrer noopener\">Covered Up Armpits - SPT Mods Workshop</a></p></div></div>\n<div id=\"tabset-1-panel-7\" class=\"tab-panel\"><div class=\"tab-title\">Credits</div>\n<div class=\"tab-content\"><ul>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/32691-jehree/\" rel=\"noreferrer noopener\">Jehree</a> -&gt; Big thanks to Jehree for the incredibly helpful Client Modding Quick Start Guide, which made this mod possible!</li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/9277-fontaine/\" rel=\"noreferrer noopener\">Fontaine</a> -&gt; Huge thanks for creating the Realism Mod, which heavily inspired this mod.</li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/50729-noneedname/\" rel=\"noreferrer noopener\">NoNeedName</a>-&gt; Thanks for the Slightly Boosted Meds mod, which served as a great example and inspiration!</li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/37201-dirtbikercj/\" rel=\"noreferrer noopener\">Cj</a>, <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/51211-lacyway/\" rel=\"noreferrer noopener\">Lacyway</a>, <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/16882-arys/\" rel=\"noreferrer noopener\">Arys</a> -&gt; Also huge thanks to these legends for helping me find the classes to patch and answering countless questions.</li>\n<li><strong>SPT discord</strong>-&gt; A big thank you to the entire SPT Discord community for their support and feedback.</li>\n</ul></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1863/not-so-realistic",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 2,
+      "published_at": "2024-12-01T14:53:00.000000Z",
+      "created_at": "2024-12-01T14:53:53.000000Z",
+      "updated_at": "2026-07-13T18:02:54.000000Z",
+      "owner": {
+        "id": 24845,
+        "name": "viniHNS",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/84101c224775f3cd8ee04dcdc31158d6280cc336_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/fd12e19d8bfff462fbccc46bfeb6bb2eebf04094_1280w.webp",
+        "created_at": "2023-01-05T00:28:21.000000Z",
+        "updated_at": "2026-08-08T19:22:00.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 232,
+          "hub_id": 14645,
+          "version": "1.2.0",
+          "description": "3.11 Update\n\n\\- Nothing new, just code rewrite",
+          "link": "https://forge.sp-tarkov.com/mod/download/1863/not-so-realistic/1.2.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1846,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-21T18:55:02.000000Z",
+          "created_at": "2025-07-21T18:55:02.000000Z",
+          "updated_at": "2026-05-14T01:41:46.000000Z"
+        },
+        {
+          "id": 1594,
+          "hub_id": 13151,
+          "version": "1.1.0",
+          "description": "Presets\n\nAdd presets to the config folder: vanilla, vini's preset\n\nAmmo Changes\n\nChanges some damages for big rounds like 7.62x51, 7.62x54R, .338 Lapua, 12.7x55 and 7.62x39\n\n\\- Blunt Damage multiplier\n\n\\- Bullet Damage multiplier\n\n\\- Penetration multiplier\n\n\\- Armor Damage multiplier\n\nChanges\n\nRemoved food poisoning to improve performance.\n\nMaybe fixes the bug where bots heal infinitely\n\nVirusTotal:\n\n[VirusTotal - File - def6aafb6f8d295311304426df4e27d0ad75fdfe8209cf5e5b98ca86806730cc](https://www.virustotal.com/gui/file/def6aafb6f8d295311304426df4e27d0ad75fdfe8209cf5e5b98ca86806730cc)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1863/not-so-realistic/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1925,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-18T17:22:26.000000Z",
+          "created_at": "2025-01-18T17:22:26.000000Z",
+          "updated_at": "2026-05-14T02:31:21.000000Z"
+        },
+        {
+          "id": 2135,
+          "hub_id": 12515,
+          "version": "1.0.1",
+          "description": "Hotfix\n\n\\- The **Exodrine stimulant** now appears in the correct category in the Handbook",
+          "link": "https://forge.sp-tarkov.com/mod/download/1863/not-so-realistic/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 2273,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-06T22:07:10.000000Z",
+          "created_at": "2024-12-06T22:07:10.000000Z",
+          "updated_at": "2026-07-13T18:02:51.000000Z"
+        },
+        {
+          "id": 2208,
+          "hub_id": 12421,
+          "version": "1.0.0",
+          "description": "Initial Release",
+          "link": "https://forge.sp-tarkov.com/mod/download/1863/not-so-realistic/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1199,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-01T14:53:53.000000Z",
+          "created_at": "2024-12-01T14:53:53.000000Z",
+          "updated_at": "2026-07-13T18:02:54.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 2,
+        "hub_id": 79,
+        "title": "Overhauls",
+        "slug": "overhauls",
+        "description": "Large-scale mod packs that overhaul many game systems. Typically combines both client-side and server-side mods into one package."
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/viniHNS/Not-So-Realistic",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 232,
+      "hub_id": 14645,
+      "version": "1.2.0",
+      "description": "<p>3.11 Update</p>\n<p>- Nothing new, just code rewrite</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1863/not-so-realistic/1.2.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1846,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-21T18:55:02.000000Z",
+      "created_at": "2025-07-21T18:55:02.000000Z",
+      "updated_at": "2026-05-14T01:41:46.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1863/zvinihns-notsorealistic.zip",
+    "bytes_written": 93812,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/886924668/dcd9aae0-9415-4141-960b-1b53fc6af32a?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A42%3A29Z&rscd=attachment%3B+filename%3Dzvinihns-notsorealistic.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A42%3A07Z&ske=2026-08-10T16%3A42%3A29Z&sks=b&skv=2018-11-09&sig=vKnFPs2bQ7TveLU%2BWVBeQpPY6KChpRuN%2FTOn92goyXw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzU4OSwibmJmIjoxNzg2Mzc3Mjg5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Q7lGPqGvxe1K9JUjAEVJ2vEHAQKY0uDlQlCW5TSbTzs&response-content-disposition=attachment%3B%20filename%3Dzvinihns-notsorealistic.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.2.0",
+    "same_as_primary_download": true
+  }
+}

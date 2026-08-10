@@ -1,0 +1,101 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2208,
+      "hub_id": 2911,
+      "guid": null,
+      "name": "ShowLootValueInRaid",
+      "slug": "showlootvalueinraid",
+      "teaser": "a mod the show your loot's value in raid",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2911.png",
+      "downloads": 8515,
+      "favourites_count": 0,
+      "description": "<p>This mod add a panel at the top of equipment page, above of tactical vest slot that show how many value of your loots in raid.</p>\n<p>The value panel will just display in raid, when you are in hideout or main menu, it will be hidden.</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://github.com/HiddenCirno/ShowLootValue/blob/main/77033C6CF5925BF8CC8A507A941FE8C0.png\" rel=\"noreferrer noopener\">https://github.com/HiddenCirno/ShowLootValue/blob/main/77033C6CF5925BF8CC8A507A941FE8C0.png</a></p>\n<p>for some reason i cannot upload a attachments so i can just use this way to shou you a image.</p>\n<p><strong>How it calculate the value?</strong></p>\n<p>This mod will generate a price cache when you launch the client and send it to client, for item which can sell or flea, it will get the lowest price on flea, for other(cannot sell on flea), get the handbook price and the result is price*60%(simulate sell it to Therapist).</p>\n<p>It will just caculate loot value, not include your equip, when you start a raid, mod will record your equip and exclude it in loot list, although you drop and pick it back up, it will still not counted as loot.</p>\n<p><strong>How to use it?</strong></p>\n<p>Unzip your download file and drag the BepInEx and user folder in your game folder, that’s all.</p>\n<p>This mod only support SPT 3.11.x, don’t use it in other version.</p>\n<p>Thanks for Janky’s help for upload</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2208/showlootvalueinraid",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-07-01T13:30:44.000000Z",
+      "created_at": "2025-07-01T13:30:44.000000Z",
+      "updated_at": "2026-07-07T16:59:08.000000Z",
+      "owner": {
+        "id": 21463,
+        "name": "HiddenCirno",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/xXNkgFxfCKBqq3AAckNev9HvY3hZOFL5VEmTEPvC_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2022-08-07T06:48:02.000000Z",
+        "updated_at": "2026-08-10T14:31:38.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 318,
+          "hub_id": 14554,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2208/showlootvalueinraid/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 8515,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-01T13:30:44.000000Z",
+          "created_at": "2025-07-01T13:30:44.000000Z",
+          "updated_at": "2026-05-14T01:43:17.000000Z"
+        }
+      ],
+      "license": {
+        "id": 15,
+        "hub_id": 18,
+        "name": "GNU GPLv3",
+        "link": "https://choosealicense.com/licenses/gpl-3.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/HiddenCirno/ShowLootValue/",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 318,
+      "hub_id": 14554,
+      "version": "1.0.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2208/showlootvalueinraid/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 8515,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-01T13:30:44.000000Z",
+      "created_at": "2025-07-01T13:30:44.000000Z",
+      "updated_at": "2026-05-14T01:43:17.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2208/ShowLootValue.zip",
+    "bytes_written": 573104,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1011666176/29db2acc-32ac-4342-8853-152a689db7c4?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A44%3A50Z&rscd=attachment%3B+filename%3DShowLootValue.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A44%3A16Z&ske=2026-08-10T16%3A44%3A50Z&sks=b&skv=2018-11-09&sig=fR12AFkFO800q1HoOa5sdS1brNqA3DmJ9T0hJQ%2B3OL0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzU4MCwibmJmIjoxNzg2Mzc3MjgwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.rkIXDxsW33jUVakl_YqGmDFCCGlk2Aj3fJKUDIJ-46Y&response-content-disposition=attachment%3B%20filename%3DShowLootValue.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

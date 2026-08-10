@@ -1,0 +1,157 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2162,
+      "hub_id": 2863,
+      "guid": null,
+      "name": "Skill Multiplier",
+      "slug": "skill-multiplier",
+      "teaser": "Adds sliders for individual skill EXP multipliers.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2863.png",
+      "downloads": 12146,
+      "favourites_count": 2,
+      "description": "<h2>Features</h2>\n<ul>\n<li>Per-skill XP multipliers (configurable via f12)</li>\n<li>Global XP multiplier</li>\n<li>Option to disable skill fatigue (always gain full XP, enabled by default)</li>\n<li>Automatically generates config entries for all available skills (Should, in theory, work with any mod that adds custom skills)</li>\n</ul>\n<p>Default multipliers are 1x, which effectively means disabled. must be configured in f12 to take effect!</p>\n<p>Installation instructions shamelessly stolen from <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/30839-drakiaxyz/\" rel=\"noreferrer noopener\">DrakiaXYZ</a></p>\n<h3>Installation</h3>\n<p>1) Open the downloaded zip file in <a target=\"_blank\" class=\"external-link\" href=\"https://www.7-zip.org/\" rel=\"noreferrer noopener\">7-zip</a></p>\n<p>2) Select the folder in the zip file in <a target=\"_blank\" class=\"external-link\" href=\"https://www.7-zip.org/\" rel=\"noreferrer noopener\">7-zip</a></p>\n<p>3) Drag the selected folder from <a target=\"_blank\" class=\"external-link\" href=\"https://www.7-zip.org/\" rel=\"noreferrer noopener\">7-zip</a> into your SPT folder</p>\n<p>Demonstration Video (Yes, it’s Quest Tracker, but the same concept applies to most mods. No, you don’t need to drop it onto LICENSE-Launcher.txt, just drop it into your SPT folder):</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/mZ1aLrW.gif\" alt=\"mZ1aLrW.gif\" /></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2162/skill-multiplier",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-05-26T11:37:40.000000Z",
+      "created_at": "2025-05-26T11:37:40.000000Z",
+      "updated_at": "2026-07-13T18:01:01.000000Z",
+      "owner": {
+        "id": 61596,
+        "name": "Dazzuh",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/d8b04059bb58964e2a0e977e7a4e6f203619984b_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-08-17T12:54:38.000000Z",
+        "updated_at": "2026-07-10T04:51:30.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 397,
+          "hub_id": 14474,
+          "version": "1.1.1",
+          "description": "Fixed issue with build script causing an error when launching the server, Apologies.\n\n*Full Changelog*: [1.1.0...1.1.1](https://github.com/Dazzuh/SkillMultiplier/compare/1.1.0...1.1.1)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2162/skill-multiplier/1.1.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 8819,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-16T11:20:50.000000Z",
+          "created_at": "2025-06-16T11:20:50.000000Z",
+          "updated_at": "2026-05-14T01:47:28.000000Z"
+        },
+        {
+          "id": 398,
+          "hub_id": 14473,
+          "version": "1.1.0",
+          "description": "- Added Server component to handle \"HideoutManagement\" and \"Crafting\" skills.\n- You'll need to edit the config.json found in /user/mods/dazzuh-skillmultiplier/config\n- Default values are 1x, which means effectively disabled.\n\n**Full Changelog**: [1.0.3...1.1.0](https://github.com/Dazzuh/SkillMultiplier/compare/1.0.3...1.1.0)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2162/skill-multiplier/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 160,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-16T10:33:55.000000Z",
+          "created_at": "2025-06-16T10:33:55.000000Z",
+          "updated_at": "2026-05-14T01:47:29.000000Z"
+        },
+        {
+          "id": 504,
+          "hub_id": 14356,
+          "version": "1.0.3",
+          "description": "Added an advanced config option to increase the min/max range from -100 - 100 to -1000 - 1000\n\nYou must restart your client when toggling this option.\n\n**Full Changelog**: [1.0.2...1.0.3](https://github.com/Dazzuh/SkillMultiplier/compare/1.0.2...1.0.3)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2162/skill-multiplier/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 2040,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-29T20:38:05.000000Z",
+          "created_at": "2025-05-29T20:38:05.000000Z",
+          "updated_at": "2026-05-14T01:48:54.000000Z"
+        },
+        {
+          "id": 509,
+          "hub_id": 14350,
+          "version": "1.0.2",
+          "description": "Fixed an issue that would allow you to enable the \"Disable Fatigue\" patch despite having the whole mod disabled.\n\n**Full Changelog**: [1.0.1...1.0.2](https://github.com/Dazzuh/SkillMultiplier/compare/1.0.1...1.0.2)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2162/skill-multiplier/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 993,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-26T11:53:38.000000Z",
+          "created_at": "2025-05-26T11:53:38.000000Z",
+          "updated_at": "2026-05-14T01:49:18.000000Z"
+        },
+        {
+          "id": 510,
+          "hub_id": 14349,
+          "version": "1.0.1",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2162/skill-multiplier/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 134,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-26T11:37:40.000000Z",
+          "created_at": "2025-05-26T11:37:40.000000Z",
+          "updated_at": "2026-07-13T18:01:01.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/Dazzuh/SkillMultiplier",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 397,
+      "hub_id": 14474,
+      "version": "1.1.1",
+      "description": "<p>Fixed issue with build script causing an error when launching the server, Apologies.</p>\n<p><em>Full Changelog</em>: <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/Dazzuh/SkillMultiplier/compare/1.1.0...1.1.1\" rel=\"noreferrer noopener\">1.1.0…1.1.1</a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2162/skill-multiplier/1.1.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 8819,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-06-16T11:20:50.000000Z",
+      "created_at": "2025-06-16T11:20:50.000000Z",
+      "updated_at": "2026-05-14T01:47:28.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2162/SkillMultiplier-1.1.1.zip",
+    "bytes_written": 8900,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/990171335/dedf53bd-76c5-4473-880c-58034841c668?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A42%3A52Z&rscd=attachment%3B+filename%3DSkillMultiplier-1.1.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A42%3A10Z&ske=2026-08-10T16%3A42%3A52Z&sks=b&skv=2018-11-09&sig=3DoaplUUR4CSEw%2Ff4yzBz8j0Nh3ASS7QxoGvDiM9%2BRc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzAyNiwibmJmIjoxNzg2Mzc2NzI2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.7KOOTJz9_tnoMVUtNImRu2vhWpFc6dSBpUxuS7Og6Ds&response-content-disposition=attachment%3B%20filename%3DSkillMultiplier-1.1.1.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.1.1",
+    "same_as_primary_download": true
+  }
+}

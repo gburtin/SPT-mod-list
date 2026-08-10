@@ -1,0 +1,134 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2079,
+      "hub_id": 2764,
+      "guid": null,
+      "name": "Josh Mate's Better Backpacks (Ported to 3.11)",
+      "slug": "josh-mates-better-backpacks-ported-to-311",
+      "teaser": "Ported to 3.11",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2764.jpg",
+      "downloads": 22808,
+      "favourites_count": 0,
+      "description": "<p><strong>I ported Josh Mate’s backpack mod to 3.11 and added the new backpacks that came with 0.16.</strong> Also its a direct download now instead of mediafire</p>\n<p>I’ll delete the mod if Josh Mate wants me to.</p>\n<h3><strong>Original description:</strong></h3>\n<p><strong>Makes backpacks bigger in a balanced way</strong></p>\n<h3><strong>Josh Mate’s Better Backpacks</strong></h3>\n<h4><strong>Description</strong></h4>\n<p>Makes Backpacks bigger while still staying in line with Vanilla gameplay balance based on price / rarity / weight</p>\n<p><strong>Changes</strong></p>\n<p>- All single grid backpacks have had their sizes increased by about 40%</p>\n<p>- Boss bags (Birds eye radio / Sanitar / Partisan) have been made significantly larger to fit their boss status</p>\n<p>- Bags with multiple grids were increased by less to prevent UI grid overlap issues</p>\n<p>- The field medic bag had its item restrictions removed</p>\n<h4><strong>How to Configure this mod</strong></h4>\n<p>- All backpacks come pre-edited to new bigger but balanced sizes. Just install and play</p>\n<p>- You can edit the values in Mod.ts to your liking</p>\n<p>- Increasing bag sizes too much can cause UI grid over lap issues</p>\n<p>- Increasing bag sizes on backpacks with multiple frame grids can cause UI issues</p>\n<h4><strong>Installation</strong></h4>\n<p>Move the mod’s “user” folder into your SPT AKI folder that contains your user folder.</p>\n<h4><strong>Special Thanks</strong></h4>\n<p>Special thanks to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/3407-nootropix/\" rel=\"noreferrer noopener\">Nootropix</a> for the original mod framework</p>\n<p>Special thanks to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/10639-jjbeanson/\" rel=\"noreferrer noopener\">JJBeanson</a> for adding the IDs for some missing back packs</p>\n<p>Special thanks to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/74614-tedthepraimortis/\" rel=\"noreferrer noopener\">tedthepraimortis</a> for adding the IDs for the new 3.10 back packs</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2079/josh-mates-better-backpacks-ported-to-311",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-04-03T18:14:21.000000Z",
+      "created_at": "2025-04-03T18:14:21.000000Z",
+      "updated_at": "2026-07-07T16:59:06.000000Z",
+      "owner": {
+        "id": 4749,
+        "name": "Hauzman",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=H&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2021-05-06T16:20:22.000000Z",
+        "updated_at": "2026-05-21T08:12:34.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 21711,
+          "name": "Josh Mate",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/031813cf92d353a693fbcb9efe74cfedba007efd_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2022-08-15T13:28:05.000000Z",
+          "updated_at": "2026-07-10T04:50:12.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 874,
+          "hub_id": 13928,
+          "version": "28.1.0",
+          "description": "Fixed backpack sizes being too big and going off screen.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2079/josh-mates-better-backpacks-ported-to-311/28.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 22055,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-04T05:33:00.000000Z",
+          "created_at": "2025-04-04T05:33:00.000000Z",
+          "updated_at": "2026-05-14T02:01:28.000000Z"
+        },
+        {
+          "id": 881,
+          "hub_id": 13921,
+          "version": "28.0.0",
+          "description": "Is it proper finally? All good? Can I sleep? Yes? Okay.\n\nUpdated to 3.11, added new backpacks, has a direct download link compared to Josh Mate's link, and it has proper file structure so its drag and drop.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2079/josh-mates-better-backpacks-ported-to-311/28.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 753,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-03T18:45:55.000000Z",
+          "created_at": "2025-04-03T18:45:55.000000Z",
+          "updated_at": "2026-05-14T02:01:38.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 874,
+      "hub_id": 13928,
+      "version": "28.1.0",
+      "description": "<p>Fixed backpack sizes being too big and going off screen.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2079/josh-mates-better-backpacks-ported-to-311/28.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 22055,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-04-04T05:33:00.000000Z",
+      "created_at": "2025-04-04T05:33:00.000000Z",
+      "updated_at": "2026-05-14T02:01:28.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 881,
+      "hub_id": 13921,
+      "version": "28.0.0",
+      "description": "<p>Is it proper finally? All good? Can I sleep? Yes? Okay.</p>\n<p>Updated to 3.11, added new backpacks, has a direct download link compared to Josh Mate’s link, and it has proper file structure so its drag and drop.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2079/josh-mates-better-backpacks-ported-to-311/28.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 753,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-04-03T18:45:55.000000Z",
+      "created_at": "2025-04-03T18:45:55.000000Z",
+      "updated_at": "2026-05-14T02:01:38.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2079/JoshMate-BetterBackpacks.7z",
+    "bytes_written": 3296,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/960013939/162ebe5e-cd94-4e00-a128-9d7b255dad7a?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A42%3A42Z&rscd=attachment%3B+filename%3DJoshMate-BetterBackpacks.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A41%3A52Z&ske=2026-08-10T16%3A42%3A42Z&sks=b&skv=2018-11-09&sig=KkLrq4xp5yLjIFObi%2FowP3rKUJciudNjkzVMdPY6lEk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzM0OSwibmJmIjoxNzg2Mzc3MDQ5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.nQUkPTgGlSuWW1MeBzw7lcjf1pAWQpCl7CJy61-JkHU&response-content-disposition=attachment%3B%20filename%3DJoshMate-BetterBackpacks.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "28.1.0",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,186 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1800,
+      "hub_id": 2441,
+      "guid": null,
+      "name": "Visible Minefields",
+      "slug": "visible-minefields",
+      "teaser": "\"I love invisible minefields!\" - said nobody ever",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2441.png",
+      "downloads": 14018,
+      "favourites_count": 1,
+      "description": "<h3><strong>THIS MOD IS (SLIGHTLY) UNDERCOOKED, I’M SORRY! -</strong> If you have any suggestions or notice an issue then <strong>let me know</strong>!</h3>\n<h3>This mod only modifies <strong>minefields</strong>. For claymores check out <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2438-hazardifier\" rel=\"noreferrer noopener\">Hazardifier</a> by <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/30839-drakiaxyz/\" rel=\"noreferrer noopener\"><strong>DrakiaXYZ</strong></a></h3>\n<h3>Introduction</h3>\n<p>This mod makes all <strong>non-boundary</strong> minefields visible. That’s about it.</p>\n<h3>Performance</h3>\n<p>Since this mod creates up to hundreds of GameObjects it may lead reduced performance. Minefield properties can be changed in mapconfig.json.</p>\n<h3>Preview</h3>\n<h3>Installation</h3>\n<p>Just drag &amp; drop the BepInEx folder into your SPT folder.</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://i.imgur.com/wByb5Ln.gif\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/wByb5Ln.gif\" alt=\"wByb5Ln.gif\" /></a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1800/visible-minefields",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-10-27T21:23:55.000000Z",
+      "created_at": "2024-10-27T21:23:55.000000Z",
+      "updated_at": "2026-07-13T18:03:10.000000Z",
+      "owner": {
+        "id": 12179,
+        "name": "pein",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=p&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/0nesldn7JSutui4nqPF0GyFFSoQKV6zImNcy5brD.jpg",
+        "created_at": "2021-12-14T17:06:03.000000Z",
+        "updated_at": "2026-08-10T15:38:36.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 851,
+          "hub_id": 13952,
+          "version": "1.3.0",
+          "description": "- Updated for 3.11\n- Added support for custom minefields, currently only for Customs.\n- Probably a bugfix or two? I forgot.\n\nThis update is completely devoid of **soul**. If there are bugs then please report them and ill get them fixed in.. someday.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1800/visible-minefields/1.3.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 6541,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-07T19:51:37.000000Z",
+          "created_at": "2025-04-07T19:51:37.000000Z",
+          "updated_at": "2026-05-14T02:00:07.000000Z"
+        },
+        {
+          "id": 2217,
+          "hub_id": 12412,
+          "version": "1.2.0",
+          "description": "- Updated to 3.10\n- Fractures should no longer be applied to arms when standing\n- Changed some default config values",
+          "link": "https://forge.sp-tarkov.com/mod/download/1800/visible-minefields/1.2.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 4924,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-30T22:25:26.000000Z",
+          "created_at": "2024-11-30T22:25:26.000000Z",
+          "updated_at": "2026-05-14T03:18:14.000000Z"
+        },
+        {
+          "id": 2470,
+          "hub_id": 12108,
+          "version": "1.1.1",
+          "description": "- Fixed an issue where mines would not disappear when shot from outside the explosion radius.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1800/visible-minefields/1.1.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1170,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-04T22:36:39.000000Z",
+          "created_at": "2024-11-04T22:36:39.000000Z",
+          "updated_at": "2026-07-13T18:03:06.000000Z"
+        },
+        {
+          "id": 2494,
+          "hub_id": 12081,
+          "version": "1.1.0",
+          "description": "- Fixed the bug where other plugins would break when loading a map without minefields. Hopefully. Again.\n- Adjusted landmine damage code.\n- Added some additional explosion damage config options.\n\nI'm sorry for the state that the mod has been in for the past week. Had I done a better job of debugging it wouldn't have been like this.\n\nI want to give a massive thank you to **Skully** from the SPT Discord and [**HOT DOG**](https://hub.sp-tarkov.com/user/55297-hot-dog/) for helping me test and debug.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1800/visible-minefields/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 451,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-01T17:57:07.000000Z",
+          "created_at": "2024-11-01T17:57:07.000000Z",
+          "updated_at": "2026-07-13T18:03:06.000000Z"
+        },
+        {
+          "id": 2499,
+          "hub_id": 12076,
+          "version": "1.0.1",
+          "description": "- <del>Hopefully fixed the issue where some plugins would get disabled without throwing an error</del>\n- Adjusted the explosion damage so that fractures would happen on the closest limb instead of randomly\n\n**BROKEN**",
+          "link": "https://forge.sp-tarkov.com/mod/download/1800/visible-minefields/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 310,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-10-31T05:53:34.000000Z",
+          "created_at": "2024-10-31T05:53:34.000000Z",
+          "updated_at": "2026-07-13T18:03:07.000000Z"
+        },
+        {
+          "id": 2527,
+          "hub_id": 12043,
+          "version": "1.0.0",
+          "description": "**BROKEN**",
+          "link": "https://forge.sp-tarkov.com/mod/download/1800/visible-minefields/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 622,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-10-27T21:23:55.000000Z",
+          "created_at": "2024-10-27T21:23:55.000000Z",
+          "updated_at": "2026-07-13T18:03:10.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/peinwastaken/SPTVisibleMines",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 851,
+      "hub_id": 13952,
+      "version": "1.3.0",
+      "description": "<ul>\n<li>Updated for 3.11</li>\n<li>Added support for custom minefields, currently only for Customs.</li>\n<li>Probably a bugfix or two? I forgot.</li>\n</ul>\n<p>This update is completely devoid of <strong>soul</strong>. If there are bugs then please report them and ill get them fixed in.. someday.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1800/visible-minefields/1.3.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 6541,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-04-07T19:51:37.000000Z",
+      "created_at": "2025-04-07T19:51:37.000000Z",
+      "updated_at": "2026-05-14T02:00:07.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2217,
+      "hub_id": 12412,
+      "version": "1.2.0",
+      "description": "<ul>\n<li>Updated to 3.10</li>\n<li>Fractures should no longer be applied to arms when standing</li>\n<li>Changed some default config values</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1800/visible-minefields/1.2.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 4924,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-11-30T22:25:26.000000Z",
+      "created_at": "2024-11-30T22:25:26.000000Z",
+      "updated_at": "2026-05-14T03:18:14.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1800/VisibleMines.zip",
+    "bytes_written": 2753287,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/879414355/2fe4f63c-0995-493f-a530-5a57d3969369?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A15%3A40Z&rscd=attachment%3B+filename%3DVisibleMines.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A14%3A45Z&ske=2026-08-10T16%3A15%3A40Z&sks=b&skv=2018-11-09&sig=Vu8x64qUKNqEu91AHF7mM29carfzFGwRI8RibrDjv5U%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3Njg0NiwibmJmIjoxNzg2Mzc2NTQ2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.LgfKjk43Yskn6AMVpnuPj0ATZVFms0Z_jgdRlIDBlm0&response-content-disposition=attachment%3B%20filename%3DVisibleMines.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.3.0",
+    "same_as_primary_download": true
+  }
+}

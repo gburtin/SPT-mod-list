@@ -1,0 +1,137 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1881,
+      "hub_id": 2542,
+      "guid": null,
+      "name": "SPT Recoil Standalone",
+      "slug": "spt-recoil-standalone",
+      "teaser": "This mod adjusts the recoil and \"hold breath\" (sway) function whilst in ADS.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2542.png",
+      "downloads": 17081,
+      "favourites_count": 1,
+      "description": "<p>.</p>\n<p># watsy’s SPT Recoil Standalone mod.</p>\n<p>I’m crap at FPS games. I need help. This little mod helps with the games recoil mechanics and it’s hold breath function whilst ADSing.</p>\n<p>Everything can be adjusted including the recoil and sway (hold breath) using the config.ts file. (open with Notepad++ for clear explanations and examples of use for the settings)</p>\n<p>The default settings I use seem really nice. You can go with those settings are play around to suit your own style. (See examples within the config).</p>\n<p>Default settings are also within the config.ts file for reference</p>\n<p>Just drop the SPT Recoil Standalone folder into the user/mods folder.</p>\n<p>Enjoy.</p>\n<p>P.S - Big Thanks to DrakiaXYZ for his help xxx</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1881/spt-recoil-standalone",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-12-11T07:26:46.000000Z",
+      "created_at": "2024-12-11T07:26:46.000000Z",
+      "updated_at": "2026-07-07T16:59:03.000000Z",
+      "owner": {
+        "id": 44073,
+        "name": "watsy",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/eba84fe4dc6c8767b8f081e07878a0fdbbaec82f_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-01-19T01:41:41.000000Z",
+        "updated_at": "2026-08-08T15:01:13.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 1176,
+          "hub_id": 13600,
+          "version": "1.0.11",
+          "description": "Updated for 3.11.x",
+          "link": "https://forge.sp-tarkov.com/mod/download/1881/spt-recoil-standalone/1.0.11",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 9101,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-16T07:49:36.000000Z",
+          "created_at": "2025-03-16T07:49:36.000000Z",
+          "updated_at": "2025-03-16T07:49:36.000000Z"
+        },
+        {
+          "id": 1582,
+          "hub_id": 13164,
+          "version": "1.0.3",
+          "description": "For some reason the mod wasn't working as intended with the previous version so this has now been fixed.\n\nUpdated and tested.\n\nThank you all for the feedback",
+          "link": "https://forge.sp-tarkov.com/mod/download/1881/spt-recoil-standalone/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 3124,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-20T11:17:27.000000Z",
+          "created_at": "2025-01-20T11:17:27.000000Z",
+          "updated_at": "2025-01-20T11:17:27.000000Z"
+        },
+        {
+          "id": 2047,
+          "hub_id": 12621,
+          "version": "1.0.1",
+          "description": "Thankyou Fov90 for the question.\n\nI have now updated for recoil changes to the weapons that will effect \"player only\" and not bot and players as it was previously\n\nI just want to say a big thank you to my poor son who is helping me with this mod. lol.. That's why I paid your Uni fees lol xxx",
+          "link": "https://forge.sp-tarkov.com/mod/download/1881/spt-recoil-standalone/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 4275,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-12T01:11:39.000000Z",
+          "created_at": "2024-12-12T01:11:39.000000Z",
+          "updated_at": "2024-12-12T01:11:39.000000Z"
+        },
+        {
+          "id": 2056,
+          "hub_id": 12608,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1881/spt-recoil-standalone/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 581,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-11T07:26:46.000000Z",
+          "created_at": "2024-12-11T07:26:46.000000Z",
+          "updated_at": "2024-12-11T07:26:46.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 1176,
+      "hub_id": 13600,
+      "version": "1.0.11",
+      "description": "<p>Updated for 3.11.x</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1881/spt-recoil-standalone/1.0.11",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 9101,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-16T07:49:36.000000Z",
+      "created_at": "2025-03-16T07:49:36.000000Z",
+      "updated_at": "2025-03-16T07:49:36.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html",
+    "external_url": "https://mega.nz/file/jMlwhThB#DRAEnQskQui2JvZ1Mz1UmvvTdgoOydfpr3hIBrOoV3w"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.11",
+    "same_as_primary_download": true
+  }
+}

@@ -1435,5 +1435,16 @@
     "target_version": "4.0.13",
     "version": "2.2.1",
     "same_as_primary_download": false
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1594/apbs-acids-progressive-bot-system-1.9.4-spt3114.zip",
+    "bytes_written": 5988274,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/827089296/71082b5f-4a0c-4c0c-b61f-a86d4694850c?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A42%3A52Z&rscd=attachment%3B+filename%3Dacidphantasm-progressivebotsystem.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A42%3A11Z&ske=2026-08-10T16%3A42%3A52Z&sks=b&skv=2018-11-09&sig=DAy1XBUUlbBakfpDUv0zipV3zLNVSqD%2BrlJb2tMfBmQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODE3MywibmJmIjoxNzg2Mzc3ODczLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.vPNWbPZ5pMufGVq8fd9AU24H3rr3tg_YpXhBxjf0Cbw&response-content-disposition=attachment%3B%20filename%3Dacidphantasm-progressivebotsystem.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "1.9.4",
+    "same_as_primary_download": false
   }
 }

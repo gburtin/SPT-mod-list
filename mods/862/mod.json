@@ -1,0 +1,152 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 862,
+      "hub_id": 1160,
+      "guid": null,
+      "name": "KRISS Vector .308 assault rifle",
+      "slug": "kriss-vector-308-assault-rifle",
+      "teaser": "Fictional assault rifle inspired by Rainbow Six: Siege.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/1160.png",
+      "downloads": 11802,
+      "favourites_count": 0,
+      "description": "<p>My earlier work.</p>\n<p>Who wouldn’t want to own a KRISS Vector that fires .308?</p>\n<p>Includes:</p>\n<p>Two barrels: 11-inch standard, 185mm short</p>\n<p>Two magazines: 10-round single stack magazine, 50-round drum magazine, 20-round magazine(1.1.0)</p>\n<h3><strong>Installion:</strong></h3>\n<p><strong>Just like other mods. Unzip and drop Mass_V308 folder into “[Your EFT Directory]/user/mods”.</strong></p>\n<p><strong>You should be able to find it and its parts in Mechanic’s shop and on the flea market.</strong></p>\n<p><strong>Feel free to drop your errors into the comments.</strong></p>\n<h3><strong>Known Issue:</strong></h3>\n<p><strong>Due to it’s nature of mesh stretched KRISS Vector, the gun’s shading in some place may look a bit strange.</strong></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/862/kriss-vector-308-assault-rifle",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2023-04-22T02:55:40.000000Z",
+      "created_at": "2023-04-22T02:55:40.000000Z",
+      "updated_at": "2026-07-07T16:58:46.000000Z",
+      "owner": {
+        "id": 15672,
+        "name": "Massivesoft",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=M&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2022-03-14T13:54:37.000000Z",
+        "updated_at": "2026-08-10T07:36:47.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11527,
+          "hub_id": 14928,
+          "version": "1.3.0",
+          "description": "Updated all bundles to work with 0.16.",
+          "link": "https://forge.sp-tarkov.com/mod/download/862/kriss-vector-308-assault-rifle/1.3.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2163,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-05T11:11:11.000000Z",
+          "created_at": "2025-09-05T11:11:11.000000Z",
+          "updated_at": "2025-09-05T11:11:11.000000Z"
+        },
+        {
+          "id": 3866,
+          "hub_id": 10359,
+          "version": "1.2.0",
+          "description": "Updated to 3.8.x\n\nFixed LODs of the magazines.",
+          "link": "https://forge.sp-tarkov.com/mod/download/862/kriss-vector-308-assault-rifle/1.2.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.8.0",
+          "downloads": 1704,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-06-23T05:22:03.000000Z",
+          "created_at": "2024-06-23T05:22:03.000000Z",
+          "updated_at": "2024-06-23T05:22:03.000000Z"
+        },
+        {
+          "id": 6904,
+          "hub_id": 6446,
+          "version": "1.1.0",
+          "description": "\\- Update to 3.5.7\n\n\\- Add a fictional magpul-style polymer 20-rd magazine:\n\nModel and texture made by John\\_Titor",
+          "link": "https://forge.sp-tarkov.com/mod/download/862/kriss-vector-308-assault-rifle/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 5817,
+          "fika_compatibility": "unknown",
+          "published_at": "2023-06-09T13:21:14.000000Z",
+          "created_at": "2023-06-09T13:21:14.000000Z",
+          "updated_at": "2023-06-09T13:21:14.000000Z"
+        },
+        {
+          "id": 7204,
+          "hub_id": 6049,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/862/kriss-vector-308-assault-rifle/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 2118,
+          "fika_compatibility": "unknown",
+          "published_at": "2023-04-22T02:55:40.000000Z",
+          "created_at": "2023-04-22T02:55:40.000000Z",
+          "updated_at": "2023-04-22T02:55:40.000000Z"
+        }
+      ],
+      "license": {
+        "id": 4,
+        "hub_id": 6,
+        "name": "Creative Commons BY-NC 3.0",
+        "link": "http://creativecommons.org/licenses/by-nc/3.0/legalcode",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11527,
+      "hub_id": 14928,
+      "version": "1.3.0",
+      "description": "<p>Updated all bundles to work with 0.16.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/862/kriss-vector-308-assault-rifle/1.3.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2163,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-05T11:11:11.000000Z",
+      "created_at": "2025-09-05T11:11:11.000000Z",
+      "updated_at": "2025-09-05T11:11:11.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 3866,
+      "hub_id": 10359,
+      "version": "1.2.0",
+      "description": "<p>Updated to 3.8.x</p>\n<p>Fixed LODs of the magazines.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/862/kriss-vector-308-assault-rifle/1.2.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.8.0",
+      "downloads": 1704,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-06-23T05:22:03.000000Z",
+      "created_at": "2024-06-23T05:22:03.000000Z",
+      "updated_at": "2024-06-23T05:22:03.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/file/d/1J-J8rPccIoEF0TjKA03NR9iccp84uRoM/view?usp=sharing"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.3.0",
+    "same_as_primary_download": true
+  }
+}

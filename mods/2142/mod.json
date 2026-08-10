@@ -1,0 +1,152 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2142,
+      "hub_id": 2841,
+      "guid": null,
+      "name": "ODT's Item Info - 3.11 Update & Added Colored Name",
+      "slug": "odts-item-info-311-update-added-colored-name",
+      "teaser": "An updated version of ODT's Item Info mod.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2841.png",
+      "downloads": 8235,
+      "favourites_count": 0,
+      "description": "<p>This is an updated version of ODT’s <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/985-item-info/\" rel=\"noreferrer noopener\">Item Info mod</a>. Uploaded with his permission.</p>\n<p>Features:</p>\n<ul>\n<li>Updated to SPT 3.11</li>\n<li>Added colors to item name</li>\n</ul>\n<p>Edit file “tiers_hex.json” to change colors.</p>\n<p>Dependencies: ColorConverterAPI</p>\n<p>Installation:</p>\n<p>- Copy the mod folder into user/mods (user/mods/ODT-IntemInfo)</p>\n<p>Known Issue:</p>\n<ul>\n<li>English locale only at the moment.</li>\n</ul>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2142/odts-item-info-311-update-added-colored-name",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-05-20T11:04:21.000000Z",
+      "created_at": "2025-05-20T11:04:21.000000Z",
+      "updated_at": "2026-07-07T16:59:08.000000Z",
+      "owner": {
+        "id": 78428,
+        "name": "kobethuy",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/xwnzuK5gF0ndmEIlazGfekomSx7oeNGvTE7UQckP_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-05-04T22:32:08.000000Z",
+        "updated_at": "2026-08-10T14:52:01.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 5975,
+          "name": "ODT",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/d02464f71763fe074db3a85d66abacb269d90905_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2021-06-26T19:49:19.000000Z",
+          "updated_at": "2026-07-10T04:49:39.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 224,
+          "hub_id": 14653,
+          "version": "232025.0.0+jul-311",
+          "description": "Fixed locale",
+          "link": "https://forge.sp-tarkov.com/mod/download/2142/odts-item-info-311-update-added-colored-name/232025.0.0+jul-311",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 3343,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-23T16:46:27.000000Z",
+          "created_at": "2025-07-23T16:46:27.000000Z",
+          "updated_at": "2026-05-14T01:41:36.000000Z"
+        },
+        {
+          "id": 558,
+          "hub_id": 14297,
+          "version": "202025.0.0+may-311",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2142/odts-item-info-311-update-added-colored-name/202025.0.0+may-311",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 2498,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-20T11:04:21.000000Z",
+          "created_at": "2025-05-20T11:04:21.000000Z",
+          "updated_at": "2026-05-14T01:50:32.000000Z"
+        },
+        {
+          "id": 117,
+          "hub_id": 14776,
+          "version": "102025.0.0+aug-311",
+          "description": "Locale should work properly now, also fixed color tag duplication in en locale.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2142/odts-item-info-311-update-added-colored-name/102025.0.0+aug-311",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 921,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-10T05:24:18.000000Z",
+          "created_at": "2025-08-10T05:24:18.000000Z",
+          "updated_at": "2026-05-14T01:38:36.000000Z"
+        },
+        {
+          "id": 46,
+          "hub_id": 14857,
+          "version": "1.1.0",
+          "description": "Fixed the locale properly",
+          "link": "https://forge.sp-tarkov.com/mod/download/2142/odts-item-info-311-update-added-colored-name/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1473,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-24T07:40:41.000000Z",
+          "created_at": "2025-08-24T07:40:41.000000Z",
+          "updated_at": "2026-05-14T01:38:03.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/thuynguyentrungdang/ODT-ItemInfo",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 224,
+      "hub_id": 14653,
+      "version": "232025.0.0+jul-311",
+      "description": "<p>Fixed locale</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2142/odts-item-info-311-update-added-colored-name/232025.0.0+jul-311",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 3343,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-23T16:46:27.000000Z",
+      "created_at": "2025-07-23T16:46:27.000000Z",
+      "updated_at": "2026-05-14T01:41:36.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2142/Jul232025-3.11.zip",
+    "bytes_written": 881182,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/986936778/7aff15a8-f7ee-47fe-a056-a7043a9bd662?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A47%3A35Z&rscd=attachment%3B+filename%3DJul232025-3.11.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A47%3A26Z&ske=2026-08-10T16%3A47%3A35Z&sks=b&skv=2018-11-09&sig=m8oB7oEm%2F01RzhIvwsrybWLGq9MWoEsI%2B5c61%2Blxg%2Fw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzYwNCwibmJmIjoxNzg2Mzc3MzA0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Pv2Sbl4tE0XHY78pVuk2tXF0BTQnrYsr5TJYclT-7Bw&response-content-disposition=attachment%3B%20filename%3DJul232025-3.11.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "232025.0.0+jul-311",
+    "same_as_primary_download": true
+  }
+}

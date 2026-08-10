@@ -1,0 +1,125 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2296,
+      "hub_id": 3010,
+      "guid": null,
+      "name": "Echoes-of-Tarkov---Requisitions's Realism compatibility patch",
+      "slug": "echoes-of-tarkov-requisitionss-realism-compatibility-patch",
+      "teaser": "A compatibility patch about realism mod and Echoes-of-Tarkov---Requisitions",
+      "thumbnail": "",
+      "downloads": 2172,
+      "favourites_count": 0,
+      "description": "<p>This is a compatibility patch</p>\n<p>Used to solve the bug where Echoes-of-Tarkov—Requisitions’s weapons cannot run in the realism mod environment.</p>\n<p>So you must have <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/606-spt-realism-mod/\" rel=\"noreferrer noopener\">SPT-realism mod</a> and <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2842-echoes-of-tarkov-requisitions/\" rel=\"noreferrer noopener\">Echoes-of-Tarkov—Requisitions</a> first.</p>\n<p>After testing, it can resolve the bug of echo mod’s weapon data not loading(the detail page shows a value error of 5/90) when Echoes-of-Tarkov—Requisitions load with SPT-realism mod</p>\n<p><strong>How to install</strong></p>\n<p>Download Echo-of-Tarkov realism-compatibility.zip</p>\n<p>Drag and drop user folder into your SPT root</p>\n<p><strong>If have C:\\root folder\\user\\mods\\SPT-Realism\\db\\templates\\user_templates\\Echoes of Tarkov Requisitions: TypeError: Cannot read properties of undefined (reading ‘Templates’). Try placing the json files in the ‘‘weapons’’ folder （“user\\mods\\SPT-Realism\\db\\templates\\weapons”)</strong></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2296/echoes-of-tarkov-requisitionss-realism-compatibility-patch",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-09-07T07:50:43.000000Z",
+      "created_at": "2025-09-07T07:50:43.000000Z",
+      "updated_at": "2026-07-13T18:15:18.000000Z",
+      "owner": {
+        "id": 83991,
+        "name": "Lenna",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/9cf06acf15906432737e89f0154babe29b36131f_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-08-31T03:53:24.000000Z",
+        "updated_at": "2026-07-25T10:56:46.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11564,
+          "hub_id": 14965,
+          "version": "1.0.1",
+          "description": "Change the download link to GitHub",
+          "link": "https://forge.sp-tarkov.com/mod/download/2296/echoes-of-tarkov-requisitionss-realism-compatibility-patch/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1509,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-10T16:56:18.000000Z",
+          "created_at": "2025-09-10T16:56:18.000000Z",
+          "updated_at": "2026-07-13T18:15:18.000000Z"
+        },
+        {
+          "id": 11532,
+          "hub_id": 14943,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2296/echoes-of-tarkov-requisitionss-realism-compatibility-patch/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 663,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-07T07:50:43.000000Z",
+          "created_at": "2025-09-07T07:50:43.000000Z",
+          "updated_at": "2025-09-07T07:50:43.000000Z"
+        }
+      ],
+      "license": {
+        "id": 13,
+        "hub_id": 16,
+        "name": "The Unlicense",
+        "link": "https://choosealicense.com/licenses/unlicense/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11564,
+      "hub_id": 14965,
+      "version": "1.0.1",
+      "description": "<p>Change the download link to GitHub</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2296/echoes-of-tarkov-requisitionss-realism-compatibility-patch/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1509,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-10T16:56:18.000000Z",
+      "created_at": "2025-09-10T16:56:18.000000Z",
+      "updated_at": "2026-07-13T18:15:18.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11532,
+      "hub_id": 14943,
+      "version": "1.0.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2296/echoes-of-tarkov-requisitionss-realism-compatibility-patch/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 663,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-07T07:50:43.000000Z",
+      "created_at": "2025-09-07T07:50:43.000000Z",
+      "updated_at": "2025-09-07T07:50:43.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2296/echoes-of-tarkov-requisitionss-realism-compatibility-patch-1.0.1",
+    "bytes_written": 2539,
+    "final_url": "https://github.com/Lenna-ump/Echo-of-Tarkov-realism-compatibility",
+    "content_type": "application/json; charset=utf-8"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

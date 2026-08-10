@@ -1,0 +1,115 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2020,
+      "hub_id": 2700,
+      "guid": null,
+      "name": "Simple Damage Modifiers",
+      "slug": "simple-damage-modifiers",
+      "teaser": "Multiply damage applied by ballistic or all damage sources",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2700.png",
+      "downloads": 2375,
+      "favourites_count": 0,
+      "description": "<p>Allows you to configure the amount of damage applied by bullets or from all sources. It also allows you to adjust the ballistic damage done to the head specifically, and adjust the durability damage applied to armor. The modifiers are multiplicative, such that a 2x ballistic modifier alongside a 2x global modifier result in 4x ballistic damage. Only armor damage is independent from the global damage modifier.</p>\n<p>In vanilla, the character’s arms can block bullets or reduce their damage and penetration stats. If the arms are obstructing the thorax, this can make enemies seem tankier, especially against low pen ammo. I’ve included a toggleable fix for this for those of us who consider it a problem</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2020/simple-damage-modifiers",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-02-25T07:51:06.000000Z",
+      "created_at": "2025-02-25T07:51:06.000000Z",
+      "updated_at": "2026-07-07T16:59:06.000000Z",
+      "owner": {
+        "id": 73991,
+        "name": "mynamealien",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=m&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2025-02-25T05:45:09.000000Z",
+        "updated_at": "2025-11-23T02:55:40.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 1058,
+          "hub_id": 13726,
+          "version": "1.0.1",
+          "description": "3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/2020/simple-damage-modifiers/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1813,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-21T21:42:40.000000Z",
+          "created_at": "2025-03-21T21:42:40.000000Z",
+          "updated_at": "2026-05-14T02:03:39.000000Z"
+        },
+        {
+          "id": 1314,
+          "hub_id": 13450,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2020/simple-damage-modifiers/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 562,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-02-25T07:51:06.000000Z",
+          "created_at": "2025-02-25T07:51:06.000000Z",
+          "updated_at": "2026-05-14T02:10:19.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/gitabortedhub/Simple-Damage-Modifiers",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 1058,
+      "hub_id": 13726,
+      "version": "1.0.1",
+      "description": "<p>3.11</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2020/simple-damage-modifiers/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1813,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-21T21:42:40.000000Z",
+      "created_at": "2025-03-21T21:42:40.000000Z",
+      "updated_at": "2026-05-14T02:03:39.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2020/Simple_Damage_Modifiers.dll",
+    "bytes_written": 9216,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/938553647/3668e1d2-0fc3-49f5-8d61-5c810c333c8e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A53%3A13Z&rscd=attachment%3B+filename%3DSimple_Damage_Modifiers.dll&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A52%3A31Z&ske=2026-08-10T16%3A53%3A13Z&sks=b&skv=2018-11-09&sig=BPx9YxGbrPN5bnMRokkySKudYXjShz4pIrT2lW%2Fm%2Faw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzU2NywibmJmIjoxNzg2Mzc3MjY3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.T5D1vf9_HD6KXEkiccmnHdZTHsj3P2RQXMzNC-2r_xU&response-content-disposition=attachment%3B%20filename%3DSimple_Damage_Modifiers.dll&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

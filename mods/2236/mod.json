@@ -1,0 +1,199 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2236,
+      "hub_id": 2939,
+      "guid": null,
+      "name": "AIO Launcher",
+      "slug": "aio-launcher",
+      "teaser": "A launcher that provides an intuitive interface to manage your SPT-AKI server and launcher from one convenient application.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2939.png",
+      "downloads": 2325,
+      "favourites_count": 0,
+      "description": "<p>SPT Launcher v2.0.0 is a comprehensive rewrite and major update to my previous launcher with Fika support.</p>\n<p>Key Features:<br />\nSPT-AKI Management: Launch and manage SPT-AKI installations with ease<br />\nFika Support<br />\nRemote Server Management: Add, test, and quick-connect to remote Fika servers<br />\nAuto-Restart: Seamless launcher restart when changing Fika configuration<br />\nProcess Monitoring: Real-time process status monitoring with visual feedback</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2236/aio-launcher",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-07-31T03:18:57.000000Z",
+      "created_at": "2025-07-31T03:18:57.000000Z",
+      "updated_at": "2026-07-13T18:00:24.000000Z",
+      "owner": {
+        "id": 8719,
+        "name": "bblair321",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=b&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2021-09-09T19:25:31.000000Z",
+        "updated_at": "2026-06-26T19:45:23.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11542,
+          "hub_id": 14933,
+          "version": "2.1.1",
+          "description": "NewFeature: Fully implemented the configuration manager. This will let you edit the spt server configs, it also lets you make a backup of the configs and can restore from the backup.  \n  \nBugFix: I found a bug where sometimes switching between the settings tab and the servers tab would clear out configured servers.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2236/aio-launcher/2.1.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 23,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-05T21:10:01.000000Z",
+          "created_at": "2025-09-05T21:10:01.000000Z",
+          "updated_at": "2025-09-05T21:10:01.000000Z"
+        },
+        {
+          "id": 31,
+          "hub_id": 14879,
+          "version": "2.0.0",
+          "description": "SPT Launcher v2.0.0 is a comprehensive rewrite and major update to my previous launcher with enhanced Fika co-op support.  \n  \nKey Features  \n  \nSPT-AKI Management: Launch and manage SPT-AKI installations with ease  \n  \nFika Support  \n  \nRemote Server Management: Add, test, and quick-connect to remote Fika servers  \n  \nAuto-Restart: Seamless launcher restart when changing Fika configuration  \n  \nProcess Monitoring: Real-time process status monitoring with visual feedback",
+          "link": "https://forge.sp-tarkov.com/mod/download/2236/aio-launcher/2.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 928,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-28T02:22:08.000000Z",
+          "created_at": "2025-08-28T02:22:08.000000Z",
+          "updated_at": "2026-07-13T18:00:12.000000Z"
+        },
+        {
+          "id": 121,
+          "hub_id": 14771,
+          "version": "1.3.5",
+          "description": "Added a toggle for gradients to be turned on or off  \n  \nChange: Changed it so the SPT launcher won't open until the server is ready for connections.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2236/aio-launcher/1.3.5",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 418,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-09T01:51:24.000000Z",
+          "created_at": "2025-08-09T01:51:24.000000Z",
+          "updated_at": "2026-07-13T18:00:21.000000Z"
+        },
+        {
+          "id": 137,
+          "hub_id": 14748,
+          "version": "1.2.5",
+          "description": "Fixed the paths getting wiped out after clsoing and reopening the launcher.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2236/aio-launcher/1.2.5",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 168,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-06T00:53:29.000000Z",
+          "created_at": "2025-08-06T00:53:29.000000Z",
+          "updated_at": "2026-07-13T18:00:23.000000Z"
+        },
+        {
+          "id": 140,
+          "hub_id": 14745,
+          "version": "1.2.4",
+          "description": "This release comes with 2 new features.  \n  \nNew auto update system has been implemented. Making future updates easier.  \n  \nA system to let users create their own themes and be able to export or import them to customize the feel of the launcher.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2236/aio-launcher/1.2.4",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 75,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-05T21:39:18.000000Z",
+          "created_at": "2025-08-05T21:39:18.000000Z",
+          "updated_at": "2026-07-13T18:00:23.000000Z"
+        },
+        {
+          "id": 149,
+          "hub_id": 14734,
+          "version": "1.0.4",
+          "description": "�� What's New:  \nJust some small QOL changes.  \nSmart log scrolling: Scroll up to pause, scroll down to resume  \n  \nVisual indicators: Clear feedback about auto-scroll state  \n  \nKeyboard shortcuts: Quick access to common functions  \n  \nLoading states: Visual feedback during operations  \n  \nCopy logs: Easy log export for troubleshooting",
+          "link": "https://forge.sp-tarkov.com/mod/download/2236/aio-launcher/1.0.4",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 189,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-03T19:48:55.000000Z",
+          "created_at": "2025-08-03T19:48:55.000000Z",
+          "updated_at": "2026-07-13T18:00:24.000000Z"
+        },
+        {
+          "id": 177,
+          "hub_id": 14702,
+          "version": "1.0.3",
+          "description": "Fixed a hard coded path that was left behind during testing.  \n  \nTweaked some default logging settings to make it more responsive.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2236/aio-launcher/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 328,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-31T17:40:27.000000Z",
+          "created_at": "2025-07-31T17:40:27.000000Z",
+          "updated_at": "2026-05-14T01:40:20.000000Z"
+        },
+        {
+          "id": 179,
+          "hub_id": 14700,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2236/aio-launcher/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 196,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-31T03:18:57.000000Z",
+          "created_at": "2025-07-31T03:18:57.000000Z",
+          "updated_at": "2026-05-14T01:40:21.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/bblair321/spt-launcher/tree/main",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 31,
+      "hub_id": 14879,
+      "version": "2.0.0",
+      "description": "<p>SPT Launcher v2.0.0 is a comprehensive rewrite and major update to my previous launcher with enhanced Fika co-op support.</p>\n<p>Key Features</p>\n<p>SPT-AKI Management: Launch and manage SPT-AKI installations with ease</p>\n<p>Fika Support</p>\n<p>Remote Server Management: Add, test, and quick-connect to remote Fika servers</p>\n<p>Auto-Restart: Seamless launcher restart when changing Fika configuration</p>\n<p>Process Monitoring: Real-time process status monitoring with visual feedback</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2236/aio-launcher/2.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 928,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-08-28T02:22:08.000000Z",
+      "created_at": "2025-08-28T02:22:08.000000Z",
+      "updated_at": "2026-07-13T18:00:12.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2236/aio-launcher-2.0.0",
+    "bytes_written": 442,
+    "final_url": "https://github.com/bblair321/spt-launcher/releases/tag/2.0.0",
+    "content_type": "application/json; charset=utf-8"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "2.0.0",
+    "same_as_primary_download": true
+  }
+}

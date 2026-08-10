@@ -1,0 +1,101 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2113,
+      "hub_id": 2799,
+      "guid": null,
+      "name": "UwUifier 3.11 Port",
+      "slug": "uwuifier-311-port",
+      "teaser": "Dis is a p-powt of an owwwwld mod-nyaa~ dat UwUifies aww da texty-wext in…\r\nEscapey Fwom Tawkov! (◕‿◕) P-pwepare fow c-cutenyess ovewwodeeee~!\r\n\r\nH-have extwa fwun, cuties~! >w< J-just…don’t b-bwame mew if y-y-yowr PMC becwomes KAWAII DESU! … (´• ω •`)",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2799.png",
+      "downloads": 1196,
+      "favourites_count": 0,
+      "description": "<p><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1056-uwuifier/\" rel=\"noreferrer noopener\">Owiginaw Mod :3</a></p>\n<p>Thankies to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/1211-fin/\" rel=\"noreferrer noopener\">Finn</a> (Cutie) Chan :3 ANDDDDD <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/29422-kaeno/\" rel=\"noreferrer noopener\">Kaeno</a> sama fwor mwakingggg the owwiginaw mod and awwowing me to pwort it to 3.11 fwor awwww da cuties nyaa~~ :3</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2113/uwuifier-311-port",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-04-23T16:59:09.000000Z",
+      "created_at": "2025-04-23T16:59:09.000000Z",
+      "updated_at": "2026-07-07T16:59:07.000000Z",
+      "owner": {
+        "id": 72782,
+        "name": "Saryn",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/decb57144148d82bfa7361c336810ee6157bfa7b_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-02-02T18:36:01.000000Z",
+        "updated_at": "2026-07-10T04:51:50.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 744,
+          "hub_id": 14076,
+          "version": "2.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2113/uwuifier-311-port/2.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1196,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-23T16:59:09.000000Z",
+          "created_at": "2025-04-23T16:59:09.000000Z",
+          "updated_at": "2026-05-14T01:56:22.000000Z"
+        }
+      ],
+      "license": {
+        "id": 5,
+        "hub_id": 7,
+        "name": "Creative Commons BY-NC-SA 3.0",
+        "link": "http://creativecommons.org/licenses/by-nc-sa/3.0/legalcode",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/Sarynas/UwUifier",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 744,
+      "hub_id": 14076,
+      "version": "2.0.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2113/uwuifier-311-port/2.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1196,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-04-23T16:59:09.000000Z",
+      "created_at": "2025-04-23T16:59:09.000000Z",
+      "updated_at": "2026-05-14T01:56:22.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2113/UwUifier.7z",
+    "bytes_written": 8724,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/971518735/07fb9360-b3b1-43e6-8d0d-aea25e8e653e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A42%3A56Z&rscd=attachment%3B+filename%3DUwUifier.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A42%3A37Z&ske=2026-08-10T16%3A42%3A56Z&sks=b&skv=2018-11-09&sig=d1bCiRGoAiMEyHeiVZ2xHEwen%2BI5imCym0TW1%2BKoIwY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzUxMiwibmJmIjoxNzg2Mzc3MjEyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.GOFKfV562vAmCtK6S58OL4hU6u4wV5SaDZW5RtohPqw&response-content-disposition=attachment%3B%20filename%3DUwUifier.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "2.0.0",
+    "same_as_primary_download": true
+  }
+}

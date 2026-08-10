@@ -1,0 +1,129 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1976,
+      "hub_id": 2654,
+      "guid": null,
+      "name": "Better Zeroing",
+      "slug": "better-zeroing",
+      "teaser": "Use the loaded ammo for elevation adjustment calculations rather than a weapon's default ammo.",
+      "thumbnail": "",
+      "downloads": 17414,
+      "favourites_count": 4,
+      "description": "<p>This mod causes your the game to use the loaded ammo for elevation adjustment calculations rather than a weapon’s default ammo. The adjustments are recalculated when you equip a gun or reload. Magazine fed weapons will now use the magazine’s first round rather than the chambered round. If no magazine is detected, the chambered round is used. This allows the user to reload a weapon, chamber a new round and then zero the weapon with the relevant ammunition.</p>\n<p>Works very well with <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2655-extended-zero-ranges/\" rel=\"noreferrer noopener\">Extended Zero Ranges</a></p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://i.postimg.cc/XYq2Bb8Q/zeroing.gif\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.postimg.cc/XYq2Bb8Q/zeroing.gif\" alt=\"zeroing.gif\" /></a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1976/better-zeroing",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-01-21T10:54:35.000000Z",
+      "created_at": "2025-01-21T10:54:35.000000Z",
+      "updated_at": "2026-07-13T18:02:21.000000Z",
+      "owner": {
+        "id": 71973,
+        "name": "ehaugw",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/9458e5e35745330dc82edf18da020631dc6accb6_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-01-21T10:06:02.000000Z",
+        "updated_at": "2026-07-10T04:51:48.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 316,
+          "hub_id": 14556,
+          "version": "1.0.2",
+          "description": "Updated to netstandard 2.1. I don't know if it's needed for end users, but it was required for the mod to compile",
+          "link": "https://forge.sp-tarkov.com/mod/download/1976/better-zeroing/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 3950,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-01T15:06:02.000000Z",
+          "created_at": "2025-07-01T15:06:02.000000Z",
+          "updated_at": "2026-07-13T18:00:40.000000Z"
+        },
+        {
+          "id": 1567,
+          "hub_id": 13182,
+          "version": "1.0.1",
+          "description": "Magazine fed weapons will now use the magazine's first round rather than the chambered round. If no magazine is detected, the chambered round is used. This allows the user to reload a weapon, chamber a new round and then zero the weapon with the relevant ammunition.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1976/better-zeroing/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 13151,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-21T20:29:48.000000Z",
+          "created_at": "2025-01-21T20:29:48.000000Z",
+          "updated_at": "2026-07-13T18:02:20.000000Z"
+        },
+        {
+          "id": 1572,
+          "hub_id": 13176,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1976/better-zeroing/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 313,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-21T10:54:35.000000Z",
+          "created_at": "2025-01-21T10:54:35.000000Z",
+          "updated_at": "2026-07-13T18:02:21.000000Z"
+        }
+      ],
+      "license": {
+        "id": 15,
+        "hub_id": 18,
+        "name": "GNU GPLv3",
+        "link": "https://choosealicense.com/licenses/gpl-3.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/ehaugw/SPT-BetterZeroing/tree/master",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 316,
+      "hub_id": 14556,
+      "version": "1.0.2",
+      "description": "<p>Updated to netstandard 2.1. I don’t know if it’s needed for end users, but it was required for the mod to compile</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1976/better-zeroing/1.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 3950,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-01T15:06:02.000000Z",
+      "created_at": "2025-07-01T15:06:02.000000Z",
+      "updated_at": "2026-07-13T18:00:40.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1976/better-zeroing-1.0.2",
+    "bytes_written": 2890,
+    "final_url": "https://media.githubusercontent.com/media/ehaugw/SPT-BetterZeroing/refs/tags/v1.0.2/BetterZeroing.zip",
+    "content_type": "application/zip"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.2",
+    "same_as_primary_download": true
+  }
+}

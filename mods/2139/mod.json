@@ -1,0 +1,115 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2139,
+      "hub_id": 2838,
+      "guid": null,
+      "name": "Simple Declutter",
+      "slug": "simple-declutter",
+      "teaser": "Removes clutter or shadows per map. Use on streets to lift performance.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2838.png",
+      "downloads": 32712,
+      "favourites_count": 5,
+      "description": "<p>Based on <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/Xenoxia8953/Tyrian-DeClutterer/tree/main\" rel=\"noreferrer noopener\">https://github.com/Xenoxia8953/Tyrian-DeClutterer/tree/main</a></p>\n<ul>\n<li>Updated for 3.11</li>\n<li>Removed all performance options</li>\n<li>Added option to remove ALL shadows on map (for maps like streets you can gain big performance uplifts). Try this option with night time or late evening raids. No shadows in broad day light looks a bit weird.</li>\n<li>Simplified declutter options. Turning this on got me at most 4-5fps saving on streets map.</li>\n<li>All performance options can be turned on/off per map.</li>\n</ul>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2139/simple-declutter",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-05-18T00:14:06.000000Z",
+      "created_at": "2025-05-18T00:14:06.000000Z",
+      "updated_at": "2026-07-07T16:59:07.000000Z",
+      "owner": {
+        "id": 76808,
+        "name": "somtam",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=s&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2025-04-13T14:33:36.000000Z",
+        "updated_at": "2026-08-10T12:52:34.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 542,
+          "hub_id": 14313,
+          "version": "1.0.0+310",
+          "description": "For 3.10",
+          "link": "https://forge.sp-tarkov.com/mod/download/2139/simple-declutter/1.0.0+310",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 13135,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-18T00:14:06.000000Z",
+          "created_at": "2025-05-18T00:14:06.000000Z",
+          "updated_at": "2025-11-13T22:07:36.000000Z"
+        },
+        {
+          "id": 575,
+          "hub_id": 14278,
+          "version": "1.0.0+311",
+          "description": "For 3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/2139/simple-declutter/1.0.0+311",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 19577,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-18T00:14:07.000000Z",
+          "created_at": "2025-05-18T00:14:07.000000Z",
+          "updated_at": "2026-05-14T01:51:50.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/gitTerebi/Simple-Declutter",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 575,
+      "hub_id": 14278,
+      "version": "1.0.0+311",
+      "description": "<p>For 3.11</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2139/simple-declutter/1.0.0+311",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 19577,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-18T00:14:07.000000Z",
+      "created_at": "2025-05-18T00:14:07.000000Z",
+      "updated_at": "2026-05-14T01:51:50.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2139/somtam.SimpleDeClutter.zip",
+    "bytes_written": 10443,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/985519915/df776712-e086-49e1-89a8-dfdb250dfcaf?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A43%3A37Z&rscd=attachment%3B+filename%3Dsomtam.SimpleDeClutter.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A43%3A01Z&ske=2026-08-10T16%3A43%3A37Z&sks=b&skv=2018-11-09&sig=i4Iq1AdNkQjFSt8lFhwJ2h%2FxluHbH7vLmvjQ8filHFA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzYyNiwibmJmIjoxNzg2Mzc3MzI2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.o_P3Q8rOfGNJqBXFuFRbFhbXRtrVlWTK8MkZ_QiKlT8&response-content-disposition=attachment%3B%20filename%3Dsomtam.SimpleDeClutter.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0+311",
+    "same_as_primary_download": true
+  }
+}

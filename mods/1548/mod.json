@@ -1,0 +1,221 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1548,
+      "hub_id": 2118,
+      "guid": "com.sheepy.simpleseasondetector",
+      "name": "Simple Season Selector",
+      "slug": "simple-season-selector",
+      "teaser": "Wish you could select the season in SPT instead of relying on the inevitable passage of time? Now you can.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2118.png",
+      "downloads": 22942,
+      "favourites_count": 1,
+      "description": "<p>Yep, I finally did it, made my first proper mod. This one is fairly straightforward: instead of SPT determining what season the game should be based on the date, you can force a specific one using this mod.</p>\n<p>To disable seasonal events, use a mod like <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2440-disable-seasonal-events/\" rel=\"noreferrer noopener\">Kuromi’s Disable Seasonal Events</a>.</p>\n<p>To randomly select seasons, use a mod like <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2610-random-season-ripoff\" rel=\"noreferrer noopener\">Random Season Ripoff</a>.</p>\n<p>To complexly select seasons, use a mod like <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2745-seasonaloverride-dynamicweather/\" rel=\"noreferrer noopener\">Season Override &amp; Dynamic Weather</a>.</p>\n<p>Installation:</p>\n<p>Drag and drop the content of the archive into your SPT folder. Please use <a target=\"_blank\" class=\"external-link\" href=\"https://www.7-zip.org/\" rel=\"noreferrer noopener\">7zip</a>.</p>\n<p>Configuration:</p>\n<p>You can set the desired season inside<br />\nuser\\mods\\Sheepy-SimpleSeasonSelector\\config\\config.jsonc<br />\nUse notepad to edit it. In case something went wrong, it will automatically pick Auto.</p>\n<p>Special thanks go to Chomp for making the mod examples and AcidPhantasm for parts of the code and feedback.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1548/simple-season-selector",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2024-07-11T07:47:00.000000Z",
+      "created_at": "2024-07-11T07:47:21.000000Z",
+      "updated_at": "2026-07-07T16:58:58.000000Z",
+      "owner": {
+        "id": 17571,
+        "name": "sheepy",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/fa96307fd4d29d0a2ccf67da74d233f9e6064610_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2022-05-11T11:59:39.000000Z",
+        "updated_at": "2026-08-10T14:26:55.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 1236,
+          "hub_id": 13536,
+          "version": "1.1.5",
+          "description": "Updated for SPT 3.11\n\n  \nRemoved \"Save Christmas\" as I hope it's fixed.  \nRemoved the override checker. Some mods, like Raid Overhaul, set the season in such a way that isn't easily detectable by this mod.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1548/simple-season-selector/1.1.5",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 5708,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-15T19:58:00.000000Z",
+          "created_at": "2025-03-15T19:58:08.000000Z",
+          "updated_at": "2026-05-14T02:08:06.000000Z"
+        },
+        {
+          "id": 1812,
+          "hub_id": 12899,
+          "version": "1.1.4",
+          "description": "New Function: Save Christmas\n\nWhen set to true, extends both Winter and Christmas to the 31st of December. Enjoy it until the 1st of January, when it's actually meant to end.\n\nTo not use the fix, set \"SaveChristmas\" to false in the config.\n\nSPT 3.10 has a bug where it doesn't cover that date with any season nor event, giving 1 day of Summer and cutting Christmas short.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1548/simple-season-selector/1.1.4",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 4827,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-31T11:27:18.000000Z",
+          "created_at": "2024-12-31T11:27:18.000000Z",
+          "updated_at": "2026-05-14T02:36:48.000000Z"
+        },
+        {
+          "id": 2354,
+          "hub_id": 12243,
+          "version": "1.1.3",
+          "description": "Update to 3.10\n\nAdded code that checks if another mod overrode the season  \nRedid the config file",
+          "link": "https://forge.sp-tarkov.com/mod/download/1548/simple-season-selector/1.1.3",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 3600,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-26T15:19:00.000000Z",
+          "created_at": "2024-11-26T15:19:05.000000Z",
+          "updated_at": "2026-05-14T03:20:05.000000Z"
+        },
+        {
+          "id": 2462,
+          "hub_id": 12117,
+          "version": "1.1.2",
+          "description": "Good news! Summer works again. You no longer have to put up with Spring to not have snow on the ground.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1548/simple-season-selector/1.1.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 3324,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-06T17:10:50.000000Z",
+          "created_at": "2024-11-06T17:10:50.000000Z",
+          "updated_at": "2026-05-14T03:22:37.000000Z"
+        },
+        {
+          "id": 3374,
+          "hub_id": 10969,
+          "version": "1.1.1",
+          "description": "Mod repackaged into a .zip instead of .7z due to a false-positive detection blocking the download for some users.\n\nFixes a code error. Thank you [Hooshu](https://hub.sp-tarkov.com/user/52967-hooshu/) for spotting it.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1548/simple-season-selector/1.1.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 3897,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-20T14:06:06.000000Z",
+          "created_at": "2024-07-20T14:06:06.000000Z",
+          "updated_at": "2026-05-14T03:49:13.000000Z"
+        },
+        {
+          "id": 3375,
+          "hub_id": 10968,
+          "version": "1.1.0",
+          "description": "Near total code rewrite. No new features, but at least the code isn't a complete mess.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1548/simple-season-selector/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 282,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-20T13:02:53.000000Z",
+          "created_at": "2024-07-20T13:02:53.000000Z",
+          "updated_at": "2026-05-14T03:49:12.000000Z"
+        },
+        {
+          "id": 3551,
+          "hub_id": 10738,
+          "version": "1.0.0",
+          "description": "Initial Release  \nThe season is forced to Spring by default, since that's what I imagine a lot of people want.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1548/simple-season-selector/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1304,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-11T07:47:21.000000Z",
+          "created_at": "2024-07-11T07:47:21.000000Z",
+          "updated_at": "2026-05-14T03:52:42.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/sheepiest/Simple-Season-Selector",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 1236,
+      "hub_id": 13536,
+      "version": "1.1.5",
+      "description": "<p>Updated for SPT 3.11</p>\n<p>Removed “Save Christmas” as I hope it’s fixed.<br />\nRemoved the override checker. Some mods, like Raid Overhaul, set the season in such a way that isn’t easily detectable by this mod.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1548/simple-season-selector/1.1.5",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 5708,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-15T19:58:00.000000Z",
+      "created_at": "2025-03-15T19:58:08.000000Z",
+      "updated_at": "2026-05-14T02:08:06.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1812,
+      "hub_id": 12899,
+      "version": "1.1.4",
+      "description": "<p>New Function: Save Christmas</p>\n<p>When set to true, extends both Winter and Christmas to the 31st of December. Enjoy it until the 1st of January, when it’s actually meant to end.</p>\n<p>To not use the fix, set “SaveChristmas” to false in the config.</p>\n<p>SPT 3.10 has a bug where it doesn’t cover that date with any season nor event, giving 1 day of Summer and cutting Christmas short.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1548/simple-season-selector/1.1.4",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 4827,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-12-31T11:27:18.000000Z",
+      "created_at": "2024-12-31T11:27:18.000000Z",
+      "updated_at": "2026-05-14T02:36:48.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2354,
+      "hub_id": 12243,
+      "version": "1.1.3",
+      "description": "<p>Update to 3.10</p>\n<p>Added code that checks if another mod overrode the season<br />\nRedid the config file</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1548/simple-season-selector/1.1.3",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 3600,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-11-26T15:19:00.000000Z",
+      "created_at": "2024-11-26T15:19:05.000000Z",
+      "updated_at": "2026-05-14T03:20:05.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1548/Simple.Season.Selector.1.1.5.zip",
+    "bytes_written": 2503,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/827181240/b558a96f-4841-4db6-b0ab-81b9e4ebe632?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A20%3A59Z&rscd=attachment%3B+filename%3DSimple.Season.Selector.1.1.5.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A20%3A44Z&ske=2026-08-10T16%3A20%3A59Z&sks=b&skv=2018-11-09&sig=UswXRLNhmhz3mibJ%2FEl4hrcA5xWHGHsD%2FpTR2bqWdy0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3Njc4NywibmJmIjoxNzg2Mzc2NDg3LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.9VbOpKfSlT8EjfyW1ld_IuJlYDkh_RMGF5NYIRJXzRQ&response-content-disposition=attachment%3B%20filename%3DSimple.Season.Selector.1.1.5.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.1.5",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2292,
+      "hub_id": 3006,
+      "guid": null,
+      "name": "Superi 46 4.6x30 SMG",
+      "slug": "superi-46-46x30-smg",
+      "teaser": "Conserve your precious 4.6x30 ammo！",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/3006.png",
+      "downloads": 4708,
+      "favourites_count": 0,
+      "description": "<p>A really-fast-semi-automatic pistol-caliber carbine that fires 4.6x30mm ammo at a fire rate of 700 rpm, ported from COD.</p>\n<h3><strong>Installion:</strong></h3>\n<p><strong>Just like other mods. Unzip and drop Mass_Longbow folder into “[Your EFT Directory]/user/mods”.</strong></p>\n<p><strong>You should be able to find them in Mechanic’s shop and on the flea market.</strong></p>\n<p><strong>Models and textures are properties of Actvision;</strong></p>\n<p><strong>Please give clear indication of the author or origin when reuploading on other websites or publicly sharing this mod.</strong></p>\n<p><strong>Please do not publish mod containing files or their variants with the suffix <em>.bundle</em> within this mod without permission.</strong></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2292/superi-46-46x30-smg",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-09-06T10:51:19.000000Z",
+      "created_at": "2025-09-06T10:51:19.000000Z",
+      "updated_at": "2026-07-07T16:59:09.000000Z",
+      "owner": {
+        "id": 15672,
+        "name": "Massivesoft",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=M&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2022-03-14T13:54:37.000000Z",
+        "updated_at": "2026-08-10T07:36:47.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11563,
+          "hub_id": 14964,
+          "version": "1.0.1",
+          "description": "Fixed errors caused by broken pathID linkage.\n\nFixed errors caused by incorrect bundle manifest.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2292/superi-46-46x30-smg/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 3395,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-10T16:21:33.000000Z",
+          "created_at": "2025-09-10T16:21:33.000000Z",
+          "updated_at": "2025-09-10T16:21:33.000000Z"
+        },
+        {
+          "id": 11538,
+          "hub_id": 14937,
+          "version": "1.0.0",
+          "description": "**Deprecated**",
+          "link": "https://forge.sp-tarkov.com/mod/download/2292/superi-46-46x30-smg/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1313,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-06T10:51:19.000000Z",
+          "created_at": "2025-09-06T10:51:19.000000Z",
+          "updated_at": "2025-09-06T10:51:19.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11563,
+      "hub_id": 14964,
+      "version": "1.0.1",
+      "description": "<p>Fixed errors caused by broken pathID linkage.</p>\n<p>Fixed errors caused by incorrect bundle manifest.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2292/superi-46-46x30-smg/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 3395,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-10T16:21:33.000000Z",
+      "created_at": "2025-09-10T16:21:33.000000Z",
+      "updated_at": "2025-09-10T16:21:33.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11538,
+      "hub_id": 14937,
+      "version": "1.0.0",
+      "description": "<p><strong>Deprecated</strong></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2292/superi-46-46x30-smg/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1313,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-06T10:51:19.000000Z",
+      "created_at": "2025-09-06T10:51:19.000000Z",
+      "updated_at": "2025-09-06T10:51:19.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/file/d/11jOwCkPuxYAYUXLhsOML0hYOOIrYBviu/view?usp=sharing"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

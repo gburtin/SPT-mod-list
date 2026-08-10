@@ -1,0 +1,154 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2309,
+      "hub_id": 3024,
+      "guid": null,
+      "name": "zzzMassiveSoft Mechanic Fix",
+      "slug": "zzzmassivesoft-mechanic-fix",
+      "teaser": "A simple server-side fix for the MassiveSoft mod crash where Mechanic (or other traders) refuse to load and spit out an error",
+      "thumbnail": "",
+      "downloads": 2175,
+      "favourites_count": 0,
+      "description": "<p><strong>This is a compatibility patch</strong></p>\n<p>With the help of GPT i created this mod to solve the bug where <strong>MassiveSoft’s mod</strong> causes <strong>Mechanic</strong> (and sometimes other traders) to crash with a null to Int32 error.</p>\n<p>The crash happens because MassiveSoft (and sometimes other mods) generate broken trader offers with null stock counts, barter prices, or loyalty levels.</p>\n<p><strong>This mod</strong> automatically sanitises Mechanic’s assort (and all other traders, just in case) after everything loads.</p>\n<p><strong>What It Does</strong></p>\n<p>Loads <strong>after all other mods</strong>.<br />\nCleans up Mechanic’s assort by:<br />\n- Forcing StackObjectsCount to at least <strong>1<br />\n-</strong> Replacing missing barter counts with <strong>₽1000<br />\n-</strong> Fixing loyalty levels to always be in the range <strong>1–4<br />\n-</strong> Keeps items usable instead of deleting them.</p>\n<p><strong>How to Install</strong></p>\n<p>Download zzz<strong>MassiveSoft-MechanicFix.zip</strong></p>\n<p>Drag and drop the <strong>user</strong> folder into your SPT root</p>\n<p><strong>Compatibility</strong><br />\nTested on <strong>SPT 3.11.0</strong>.<br />\nSafe to use alongside MassiveSoft and other trader mods.<br />\nWorks even if you don’t use MassiveSoft (it just ensures traders never have bad data).</p>\n<p><strong>Credits</strong><br />\nMod by <strong>HaaWkk</strong><br />\nThanks to the SPT community for bug hunting and fixes</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2309/zzzmassivesoft-mechanic-fix",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-09-13T22:13:38.000000Z",
+      "created_at": "2025-09-13T22:13:38.000000Z",
+      "updated_at": "2026-05-14T06:13:01.000000Z",
+      "owner": {
+        "id": 84524,
+        "name": "HaaWkk",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/f57c1fde8d8c52b1aa34aeff2f7f9148441cecc3_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-09-12T03:47:24.000000Z",
+        "updated_at": "2026-07-10T04:52:08.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11692,
+          "hub_id": null,
+          "version": "1.0.2",
+          "description": "Fixed an issue where trader weapons were spawning with missing parts. This was caused by SPT-Realism’s “randomize trader stock” option occasionally setting null values on root offers.\n\nSanitizer now only touches root offers, leaving attachments and part trees intact.\n\nEnsures stock, barter counts, and loyalty levels are always valid integers.\n\nShould now work cleanly with both vanilla SPT and Realism enabled.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2309/zzzmassivesoft-mechanic-fix/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 857,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-30T06:22:00.000000Z",
+          "created_at": "2025-09-30T07:08:56.000000Z",
+          "updated_at": "2026-05-14T06:13:01.000000Z"
+        },
+        {
+          "id": 11604,
+          "hub_id": 15005,
+          "version": "1.0.1",
+          "description": "Updated package.json to support all 3.11.x versions of SPT.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2309/zzzmassivesoft-mechanic-fix/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 929,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-14T22:58:16.000000Z",
+          "created_at": "2025-09-14T22:58:16.000000Z",
+          "updated_at": "2026-05-14T05:58:42.000000Z"
+        },
+        {
+          "id": 11596,
+          "hub_id": 14997,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2309/zzzmassivesoft-mechanic-fix/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 389,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-13T22:13:38.000000Z",
+          "created_at": "2025-09-13T22:13:38.000000Z",
+          "updated_at": "2026-05-14T05:58:39.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11692,
+      "hub_id": null,
+      "version": "1.0.2",
+      "description": "<p>Fixed an issue where trader weapons were spawning with missing parts. This was caused by SPT-Realism’s “randomize trader stock” option occasionally setting null values on root offers.</p>\n<p>Sanitizer now only touches root offers, leaving attachments and part trees intact.</p>\n<p>Ensures stock, barter counts, and loyalty levels are always valid integers.</p>\n<p>Should now work cleanly with both vanilla SPT and Realism enabled.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2309/zzzmassivesoft-mechanic-fix/1.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 857,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-30T06:22:00.000000Z",
+      "created_at": "2025-09-30T07:08:56.000000Z",
+      "updated_at": "2026-05-14T06:13:01.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11604,
+      "hub_id": 15005,
+      "version": "1.0.1",
+      "description": "<p>Updated package.json to support all 3.11.x versions of SPT.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2309/zzzmassivesoft-mechanic-fix/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 929,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-14T22:58:16.000000Z",
+      "created_at": "2025-09-14T22:58:16.000000Z",
+      "updated_at": "2026-05-14T05:58:42.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11596,
+      "hub_id": 14997,
+      "version": "1.0.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2309/zzzmassivesoft-mechanic-fix/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 389,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-13T22:13:38.000000Z",
+      "created_at": "2025-09-13T22:13:38.000000Z",
+      "updated_at": "2026-05-14T05:58:39.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2309/zzzMassiveSoft.Mechanic.Fix.7z",
+    "bytes_written": 1517,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1066935203/bdce95fb-0f96-4e2c-848e-5705010545be?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A43%3A33Z&rscd=attachment%3B+filename%3DzzzMassiveSoft.Mechanic.Fix.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A43%3A33Z&ske=2026-08-10T16%3A43%3A33Z&sks=b&skv=2018-11-09&sig=TW3Te7qKwYnUlsINmxJhTxKzSLVPSaVjbEvVRj7YxnE%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3Nzc1NSwibmJmIjoxNzg2Mzc3NDU1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.BamQl0Lsv5N6wQr8tWlQ9vrACTF-PswyfRRBZhM5GCo&response-content-disposition=attachment%3B%20filename%3DzzzMassiveSoft.Mechanic.Fix.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.2",
+    "same_as_primary_download": true
+  }
+}

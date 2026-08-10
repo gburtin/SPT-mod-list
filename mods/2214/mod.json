@@ -155,5 +155,16 @@
     "found": true,
     "version": "1.1.1",
     "same_as_primary_download": true
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2214/doordash-1.1.0-spt3114.zip",
+    "bytes_written": 8920,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1016162719/3493770f-6859-4334-92e5-18fe243c9e00?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A44%3A18Z&rscd=attachment%3B+filename%3Ddoordash-1.1.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A44%3A10Z&ske=2026-08-10T16%3A44%3A18Z&sks=b&skv=2018-11-09&sig=ffbkZYoWb%2FmhQ1x1PHq7LJBJd%2FDngV9rhgjouKaDy%2B0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODMxNiwibmJmIjoxNzg2Mzc4MDE2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.VL8JP0WD69JKtLE4UmYL0nKdmLLgD3g9yLfP8rho-14&response-content-disposition=attachment%3B%20filename%3Ddoordash-1.1.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "1.1.0",
+    "same_as_primary_download": false
   }
 }

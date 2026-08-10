@@ -1,0 +1,173 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1828,
+      "hub_id": 2474,
+      "guid": null,
+      "name": "Configurable Armor Durability",
+      "slug": "configurable-armor-durability",
+      "teaser": "Configure durability of plates and inserts, as well as their blunt throughput.",
+      "thumbnail": "",
+      "downloads": 2332,
+      "favourites_count": 0,
+      "description": "<p><strong>Configure durability of plates and inserts using a config file.</strong></p>\n<p><em><strong>Without editing the config this mod will change nothing</strong></em></p>\n<p><strong>Usage</strong></p>\n<p>To change armor durability:</p>\n<ol>\n<li>Open SPT\\user\\mods\\ConfigurableArmorDurability\\config\\config.json</li>\n<li>edit <em><strong>plateDurabilityMult</strong></em> to desired multiplier (higher is more)</li>\n<li>Save the file</li>\n</ol>\n<p><strong>Installation</strong></p>\n<ol>\n<li>Download</li>\n<li>Extract zip to SPT root</li>\n<li>Probably put at bottom of load order</li>\n</ol>\n<p><strong>Disclaimer:</strong></p>\n<p><strong>THIS CHANGES THE PLATE DURABILITY FOR BOTS TOO</strong></p>\n<p>I haven’t done much testing on the blunt throughput changes. Ideally a lower number = less blunt damage.</p>\n<p>s/o to Chomp for mod examples</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1828/configurable-armor-durability",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-11-08T15:13:18.000000Z",
+      "created_at": "2024-11-08T15:13:18.000000Z",
+      "updated_at": "2026-05-14T03:22:34.000000Z",
+      "owner": {
+        "id": 59721,
+        "name": "GeneralGoon",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=G&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2024-07-27T20:15:55.000000Z",
+        "updated_at": "2025-10-05T01:01:53.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 606,
+          "hub_id": 14242,
+          "version": "1.1.0",
+          "description": "Updated to accommodate armored equipment",
+          "link": "https://forge.sp-tarkov.com/mod/download/1828/configurable-armor-durability/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 772,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-13T22:10:24.000000Z",
+          "created_at": "2025-05-13T22:10:24.000000Z",
+          "updated_at": "2026-05-14T01:52:38.000000Z"
+        },
+        {
+          "id": 618,
+          "hub_id": 14222,
+          "version": "1.0.2",
+          "description": "Updated for SPT 3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/1828/configurable-armor-durability/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 246,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-11T21:16:40.000000Z",
+          "created_at": "2025-05-11T21:16:40.000000Z",
+          "updated_at": "2026-05-14T01:52:47.000000Z"
+        },
+        {
+          "id": 2275,
+          "hub_id": 12335,
+          "version": "1.0.1",
+          "description": "Updated for SPT 3.10",
+          "link": "https://forge.sp-tarkov.com/mod/download/1828/configurable-armor-durability/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 888,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-27T14:57:28.000000Z",
+          "created_at": "2024-11-27T14:57:28.000000Z",
+          "updated_at": "2026-05-14T03:18:59.000000Z"
+        },
+        {
+          "id": 2454,
+          "hub_id": 12125,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1828/configurable-armor-durability/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 426,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-08T15:13:18.000000Z",
+          "created_at": "2024-11-08T15:13:18.000000Z",
+          "updated_at": "2026-05-14T03:22:34.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/GeneralGoon/ConfigurableArmorDurability",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 606,
+      "hub_id": 14242,
+      "version": "1.1.0",
+      "description": "<p>Updated to accommodate armored equipment</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1828/configurable-armor-durability/1.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 772,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-13T22:10:24.000000Z",
+      "created_at": "2025-05-13T22:10:24.000000Z",
+      "updated_at": "2026-05-14T01:52:38.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 618,
+      "hub_id": 14222,
+      "version": "1.0.2",
+      "description": "<p>Updated for SPT 3.11</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1828/configurable-armor-durability/1.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 246,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-11T21:16:40.000000Z",
+      "created_at": "2025-05-11T21:16:40.000000Z",
+      "updated_at": "2026-05-14T01:52:47.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2275,
+      "hub_id": 12335,
+      "version": "1.0.1",
+      "description": "<p>Updated for SPT 3.10</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1828/configurable-armor-durability/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 888,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-11-27T14:57:28.000000Z",
+      "created_at": "2024-11-27T14:57:28.000000Z",
+      "updated_at": "2026-05-14T03:18:59.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1828/generalgoon-configurablearmordurability.zip",
+    "bytes_written": 3949,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/885426970/1b973baa-4349-48e0-9f8c-84767a2ce3fd?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A18%3A09Z&rscd=attachment%3B+filename%3Dgeneralgoon-configurablearmordurability.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A18%3A00Z&ske=2026-08-10T16%3A18%3A09Z&sks=b&skv=2018-11-09&sig=UIcq2fhhsWl27cGkq3Ws%2BQ6uo%2FpUmkZIEh8NzC%2B97T8%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3Njg1OSwibmJmIjoxNzg2Mzc2NTU5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Dk1AZAvPDWPr-r7hC2l4Styc3olfrvtXKDYO8IEJnjA&response-content-disposition=attachment%3B%20filename%3Dgeneralgoon-configurablearmordurability.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.1.0",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,105 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2081,
+      "hub_id": 2766,
+      "guid": null,
+      "name": "DeDistortionizer (3.11 Port)",
+      "slug": "dedistortionizer-311-port",
+      "teaser": "Ported to 3.11, added new headsets.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2766.jpg",
+      "downloads": 4231,
+      "favourites_count": 0,
+      "description": "<p><strong>I ported Solarint’s DeDistortionizer mod to 3.11 and added the new headsets, with folder structure for ease of install.</strong></p>\n<p>I’ll delete the mod if Solarint wants me to.</p>\n<h3><strong>Original description:</strong></h3>\n<p>This removes all audio distortion when using headsets. That is it.</p>\n<p>A very simple mod that just sets the distortion value for all headsets to 0.</p>\n<p>Mostly for personal use, but thought I might as well upload it.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2081/dedistortionizer-311-port",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-04-03T19:20:07.000000Z",
+      "created_at": "2025-04-03T19:20:07.000000Z",
+      "updated_at": "2026-07-07T16:59:06.000000Z",
+      "owner": {
+        "id": 4749,
+        "name": "Hauzman",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=H&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2021-05-06T16:20:22.000000Z",
+        "updated_at": "2026-05-21T08:12:34.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 27463,
+          "name": "Solarint",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/9fa66985990895e0c115adbdee4dbf71409d1566_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2023-02-23T17:11:59.000000Z",
+          "updated_at": "2026-07-10T04:50:24.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 879,
+          "hub_id": 13923,
+          "version": "1.0.2",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2081/dedistortionizer-311-port/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 4231,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-03T19:20:07.000000Z",
+          "created_at": "2025-04-03T19:20:07.000000Z",
+          "updated_at": "2026-05-14T02:01:36.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 879,
+      "hub_id": 13923,
+      "version": "1.0.2",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2081/dedistortionizer-311-port/1.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 4231,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-04-03T19:20:07.000000Z",
+      "created_at": "2025-04-03T19:20:07.000000Z",
+      "updated_at": "2026-05-14T02:01:36.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2081/Solarint-DeDistortionizer-1.0.2.7z",
+    "bytes_written": 1761,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/960041625/e015f87d-8321-4dbf-ac94-8b17c2e33e4f?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A45%3A03Z&rscd=attachment%3B+filename%3DSolarint-DeDistortionizer-1.0.2.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A44%3A05Z&ske=2026-08-10T16%3A45%3A03Z&sks=b&skv=2018-11-09&sig=oXtRA0yBrXHSh9sNhPslaXfDX92HY%2BkVo5Wht7cxKRI%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzQ0MiwibmJmIjoxNzg2Mzc3MTQyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.tgr9iV3LT3tmdkAqrcxVXR60fN2M9dyxAgxrz0S8ri4&response-content-disposition=attachment%3B%20filename%3DSolarint-DeDistortionizer-1.0.2.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.2",
+    "same_as_primary_download": true
+  }
+}

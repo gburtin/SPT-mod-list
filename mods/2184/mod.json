@@ -1,0 +1,109 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2184,
+      "hub_id": 2887,
+      "guid": null,
+      "name": "Lightsaber Hilts pack (W.I.P)",
+      "slug": "lightsaber-hilts-pack-wip",
+      "teaser": "Lightsaber hilts!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2887.png",
+      "downloads": 1234,
+      "favourites_count": 0,
+      "description": "<p>This will be a pack of lightsaber hilts for you to collect. There is only one hilt (Darth Revan), but I will be adding more soon. Thanks! (You can find this on flea)</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2184/lightsaber-hilts-pack-wip",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-06-15T00:23:53.000000Z",
+      "created_at": "2025-06-15T00:23:53.000000Z",
+      "updated_at": "2026-07-07T16:59:08.000000Z",
+      "owner": {
+        "id": 54735,
+        "name": "Turok",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=T&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2024-06-24T16:42:33.000000Z",
+        "updated_at": "2025-12-08T19:32:11.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 407,
+          "hub_id": 14462,
+          "version": "1.0.1",
+          "description": "\\+ Darth Vader hilt\n\nPLEASE DELETE OLD VERSION BEFORE DOWNLOADING THIS.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2184/lightsaber-hilts-pack-wip/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1150,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-15T01:34:25.000000Z",
+          "created_at": "2025-06-15T01:34:25.000000Z",
+          "updated_at": "2026-05-14T01:47:32.000000Z"
+        },
+        {
+          "id": 409,
+          "hub_id": 14460,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2184/lightsaber-hilts-pack-wip/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 84,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-15T00:23:53.000000Z",
+          "created_at": "2025-06-15T00:23:53.000000Z",
+          "updated_at": "2026-05-14T01:47:37.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 407,
+      "hub_id": 14462,
+      "version": "1.0.1",
+      "description": "<p>+ Darth Vader hilt</p>\n<p>PLEASE DELETE OLD VERSION BEFORE DOWNLOADING THIS.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2184/lightsaber-hilts-pack-wip/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1150,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-06-15T01:34:25.000000Z",
+      "created_at": "2025-06-15T01:34:25.000000Z",
+      "updated_at": "2026-05-14T01:47:32.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://www.dropbox.com/scl/fi/sqrjophq39g3rcc47ck91/LightSaberPack-W.I.P-V2.7z?rlkey=0nnncjoifkfsbw3iqwpeuhb94&st=zobaypr3&dl=0"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

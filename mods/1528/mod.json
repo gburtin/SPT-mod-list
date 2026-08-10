@@ -1,0 +1,181 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1528,
+      "hub_id": 2094,
+      "guid": null,
+      "name": "Fin's AutoBalanceLevels but fixed",
+      "slug": "fins-autobalancelevels-but-fixed",
+      "teaser": "Fin's AutoBalanceLevels but fixed",
+      "thumbnail": "",
+      "downloads": 2699,
+      "favourites_count": 0,
+      "description": "<p>This is a fixed version of Fin’s AutoBalanceLevels so it would work with 3.9.0  3.10 3.11</p>\n<p>The original upload can be found here <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/468-fin-s-automatically-balance-levels-to-equal-skills/\" rel=\"noreferrer noopener\">Fin’s Automatically Balance Levels to Equal Skills  </a></p>\n<p>7zip is required to extract</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1528/fins-autobalancelevels-but-fixed",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-07-07T09:09:44.000000Z",
+      "created_at": "2024-07-07T09:09:44.000000Z",
+      "updated_at": "2025-09-29T04:21:02.000000Z",
+      "owner": {
+        "id": 18963,
+        "name": "CausingAphid01",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/hBY9SUrwRuLY22O7szuPQkpKz3CjeTtxY1UMGAON_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2022-05-26T22:00:37.000000Z",
+        "updated_at": "2026-08-09T18:10:10.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 164,
+          "name": "Fin",
+          "profile_photo_url": "https://ui-avatars.com/api/?name=F&color=7F9CF5&background=EBF4FF",
+          "cover_photo_url": null,
+          "created_at": "2020-08-09T11:29:14.000000Z",
+          "updated_at": "2025-09-26T15:43:02.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 1177,
+          "hub_id": 13599,
+          "version": "1.0.4",
+          "description": "Updated to 3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/1528/fins-autobalancelevels-but-fixed/1.0.4",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 835,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-16T07:31:19.000000Z",
+          "created_at": "2025-03-16T07:31:19.000000Z",
+          "updated_at": "2025-03-16T07:31:19.000000Z"
+        },
+        {
+          "id": 1905,
+          "hub_id": 12784,
+          "version": "1.0.3",
+          "description": "changed line 144 staticRouterModservice was dynamicRouterModService\n\nruns on raid start now",
+          "link": "https://forge.sp-tarkov.com/mod/download/1528/fins-autobalancelevels-but-fixed/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 394,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-23T14:48:30.000000Z",
+          "created_at": "2024-12-23T14:48:30.000000Z",
+          "updated_at": "2024-12-23T14:48:30.000000Z"
+        },
+        {
+          "id": 2040,
+          "hub_id": 12630,
+          "version": "1.0.2",
+          "description": "changed \"/client/match/local/end\" was \"/raid/profile/save\n\nchanged \"/client/match/local/start\" was \"/client/location/getlocalloot\" (not sure if this one works, though, not sure if mod actually ran on raid start any way)\n\nfor 3.10",
+          "link": "https://forge.sp-tarkov.com/mod/download/1528/fins-autobalancelevels-but-fixed/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 327,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-13T03:01:50.000000Z",
+          "created_at": "2024-12-13T03:01:50.000000Z",
+          "updated_at": "2024-12-13T03:01:50.000000Z"
+        },
+        {
+          "id": 3720,
+          "hub_id": 10537,
+          "version": "1.0.1",
+          "description": "forgot the license file\n\nFor 3.9",
+          "link": "https://forge.sp-tarkov.com/mod/download/1528/fins-autobalancelevels-but-fixed/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.9.0",
+          "downloads": 1143,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-07T09:18:16.000000Z",
+          "created_at": "2024-07-07T09:18:16.000000Z",
+          "updated_at": "2024-07-07T09:18:16.000000Z"
+        }
+      ],
+      "license": {
+        "id": 1,
+        "hub_id": 3,
+        "name": "Creative Commons BY 3.0",
+        "link": "http://creativecommons.org/licenses/by/3.0/legalcode",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://hub.sp-tarkov.com/files/file/468-fin-s-automatically-balance-levels-to-equal-skills/",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 1177,
+      "hub_id": 13599,
+      "version": "1.0.4",
+      "description": "<p>Updated to 3.11</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1528/fins-autobalancelevels-but-fixed/1.0.4",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 835,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-16T07:31:19.000000Z",
+      "created_at": "2025-03-16T07:31:19.000000Z",
+      "updated_at": "2025-03-16T07:31:19.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2040,
+      "hub_id": 12630,
+      "version": "1.0.2",
+      "description": "<p>changed “/client/match/local/end” was “/raid/profile/save</p>\n<p>changed “/client/match/local/start” was “/client/location/getlocalloot” (not sure if this one works, though, not sure if mod actually ran on raid start any way)</p>\n<p>for 3.10</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1528/fins-autobalancelevels-but-fixed/1.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 327,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-12-13T03:01:50.000000Z",
+      "created_at": "2024-12-13T03:01:50.000000Z",
+      "updated_at": "2024-12-13T03:01:50.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 3720,
+      "hub_id": 10537,
+      "version": "1.0.1",
+      "description": "<p>forgot the license file</p>\n<p>For 3.9</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1528/fins-autobalancelevels-but-fixed/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.9.0",
+      "downloads": 1143,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-07-07T09:18:16.000000Z",
+      "created_at": "2024-07-07T09:18:16.000000Z",
+      "updated_at": "2024-07-07T09:18:16.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html",
+    "external_url": "https://mega.nz/file/gXABELSQ#Ii9VNGUp4Iu0YMtqkaRzUiJ_Y2ctEWUU7jjbmGyoAPc"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.4",
+    "same_as_primary_download": true
+  }
+}

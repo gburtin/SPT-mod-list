@@ -1,0 +1,289 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2354,
+      "hub_id": null,
+      "guid": null,
+      "name": "Head-Eyes Like Experience (SAIN Preset)",
+      "slug": "head-eyes-like-experience-sain-preset",
+      "teaser": "\"I got Lvl 6 plates. I am invincible!\" - not on my watch, champ.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/ixFL35QCnuKKUUnDUx1EUQsuXJW80nfzIpZlD6jC.jpg",
+      "downloads": 438,
+      "favourites_count": 0,
+      "description": "<p>This is a continuation of Shibdib’s Live Like Experience 1.2.0 which enables aiming for head for all the bots.</p>\n<h2>tl;dr PMC’s and Bosses will try to headshot you at least once per standard mag on average.</h2>\n<p>PMC’s: 1.25 - 5% chance (higher bot difficulty = bigger chance);\nSCAV’s: 0.5 - 1.1% chance;\nBosses: 3% and their followers: 2%;\nRogues and Raiders: 1.3 - 3.5% chance;\nGoons: 2 - 8% chance for BigPipe, 3 - 9% for Birdeye, 4 - 10% for Knight;\nCultists: 1.1 - 1.4% chance and their Priest: 1.15-1.6% chance;</p>\n<p>Bot hearing has also been buffed per group, with PMC’s hearing up to 40% better than baseline (at impossible difficulty). SCAV hear 40 up to 10% worse than baseline (depends on bot difficulty). Bosses always hear 10% better than baseline, and their followers hear 20% worse. Goons hear 20% better than baseline.</p>\n<p>Global bot hearing has been increased by 30% (compared to Live Like Experience).\nGlobal aggression, bot accuracy and precision have been increased by 5%.</p>\n<p>Original preset by Shibdib:\n<a target=\"_blank\" class=\"external-link\" href=\"https://forge.sp-tarkov.com/mod/1933/live-like-experience-sain-preset\" rel=\"noreferrer noopener\">https://forge.sp-tarkov.com/mod/1933/live-like-experience-sain-preset</a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2354/head-eyes-like-experience-sain-preset",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 5,
+      "published_at": "2025-10-11T09:14:00.000000Z",
+      "created_at": "2025-10-11T10:52:45.000000Z",
+      "updated_at": "2026-07-07T16:59:10.000000Z",
+      "owner": {
+        "id": 85560,
+        "name": "leeberichie",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/Iga4zkoG5BbVVGTVrSO6nittXqzm0NEkuTYPZoQL_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-10-11T09:05:23.000000Z",
+        "updated_at": "2026-07-10T04:52:15.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 41848,
+          "name": "Shibdib",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/VoavEH1BdPgTFow3b8JpqArCg4ZglvVVI2HjKUgI_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2023-12-08T11:50:10.000000Z",
+          "updated_at": "2026-07-20T20:15:49.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 11804,
+          "hub_id": null,
+          "version": "1.2.2",
+          "description": "Testing with Dynamic maps, I see bots are stil deaf. \n- Reset Global bot hearing to default SAIN values. ",
+          "link": "https://forge.sp-tarkov.com/mod/download/2354/head-eyes-like-experience-sain-preset/1.2.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 255,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-12T12:47:00.000000Z",
+          "created_at": "2025-10-12T12:47:51.000000Z",
+          "updated_at": "2026-05-14T06:37:23.000000Z"
+        },
+        {
+          "id": 11753,
+          "hub_id": null,
+          "version": "1.2.1",
+          "description": "Compared to Live Like Experience 1.2.0: \n\n- Added aiming for head to all the bots with varying chances:\nPMC's: 1.25 - 5% chance (higher bot difficulty = bigger chance)\nSCAV's: 0.5 - 1.1% chance\nBosses: 3% and their followers: 2%\nRogues and Raiders: 1.3 - 3.5% chance\nGoons: 2 - 8% chance for BigPipe, 3 - 9% for Birdeye, 4 - 10% for Knight\nCultists: 1.1 - 1.4% chance and their Priest: 1.15-1.6% chance\n\n- Bot hearing has also been buffed per group, with PMC's hearing up to 40% better than baseline (at impossible difficulty). SCAV hear 40 up to 10% worse than baseline (depends on bot difficulty). Bosses always hear 10% better than baseline, and their followers hear 20% worse. Goons hear 20% better than baseline. \n\n- Global bot hearing has been increased by 30% (compared to Live Like Experience).\n\n- Global aggression, bot accuracy and precision have been increased by 5% ;",
+          "link": "https://forge.sp-tarkov.com/mod/download/2354/head-eyes-like-experience-sain-preset/1.2.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 183,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-11T10:55:00.000000Z",
+          "created_at": "2025-10-11T11:03:43.000000Z",
+          "updated_at": "2026-05-14T06:26:37.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 5,
+        "hub_id": 22,
+        "title": "Bots",
+        "slug": "bots",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/leeberichie/Harder-Live-Like-Experience",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11804,
+      "hub_id": null,
+      "version": "1.2.2",
+      "description": "<p>Testing with Dynamic maps, I see bots are stil deaf.</p>\n<ul>\n<li>Reset Global bot hearing to default SAIN values.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2354/head-eyes-like-experience-sain-preset/1.2.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 255,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-12T12:47:00.000000Z",
+      "created_at": "2025-10-12T12:47:51.000000Z",
+      "updated_at": "2026-05-14T06:37:23.000000Z",
+      "dependencies": [
+        {
+          "id": 791,
+          "hub_id": 1062,
+          "guid": "me.sol.sain",
+          "name": "SAIN - Solarint's AI Modifications - Full AI Combat System Replacement",
+          "slug": "sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+          "teaser": "Bots that don't suck.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1062.jpg",
+          "downloads": 1252690,
+          "favourites_count": 483,
+          "detail_url": "https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2023-03-09T02:46:00.000000Z",
+          "created_at": "2023-03-09T02:46:50.000000Z",
+          "updated_at": "2026-08-04T17:42:31.000000Z",
+          "owner": {
+            "id": 27463,
+            "name": "Solarint",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/9fa66985990895e0c115adbdee4dbf71409d1566_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-02-23T17:11:59.000000Z",
+            "updated_at": "2026-07-10T04:50:24.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 27605,
+              "name": "DrakiaXYZ",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/M9qMWlknCITEk33QXO07mJG0j8qP4xhz1QOsHUHD_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2023-02-26T18:51:50.000000Z",
+              "updated_at": "2026-08-10T15:00:42.000000Z"
+            },
+            {
+              "id": 52282,
+              "name": "ArchangelWTF",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bc678ae6a663d65b719827be994414a484a8e356_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-05-20T14:55:34.000000Z",
+              "updated_at": "2026-08-10T15:52:34.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 157,
+              "hub_id": 14725,
+              "version": "4.1.3",
+              "description": "<p>Rebalanced default presets.</p>\n<p>Heavily nerfed scavs (disabled faster cqb reaction, reduced hearing range)</p>\n<p>Goons can now aim for your head (sometimes).</p>\n<p>Killa and tagilla hold down the trigger for longer and wait less between shots.</p>\n<p>Buffed most bosses and followers.</p>\n<p>Re-enabled “Aim Center Mass” for PMCs on default difficulty, was a mistake.</p>\n<p>Slightly lowered “Aim Center Mass Point” to reduce headshots, was raised quite a bit in 4.1.0, but accidental headshots are a bit too frequent now.</p>\n<p>Lots of small changes to bot configs, too many to list.</p>\n<p><strong>You’ll need to create a new preset to get the new changes, but old presets are working fine.</strong></p>\n<p>Fixes:</p>\n<p>Fixed many boss followers being broken.</p>\n<p>Disabled smoothing or any modification to bot steering when a bot isn’t in combat. Spinny bots should be fixed now. Will return to this in the future, but something is breaking when using the new smoothing solution.</p>\n<p>Fixed some bots getting stuck in a vanilla layer, making them unable to move or fight enemies (fairly sure I fixed this, its hard to test for, but I couldn’t find any bots doing it after)</p>\n<p>Project Fika - Fixed error spam and broken bots when 1 player extracts, but the rest stay in raid.</p>\n<p>Project Fika - Fixed footstep sound from player being triggered when they weren’t moving. (Oops)</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement/4.1.3",
+              "content_length": null,
+              "spt_version_constraint": "~3.11.0",
+              "downloads": 68021,
+              "fika_compatibility": "unknown",
+              "published_at": "2025-08-02T03:59:00.000000Z",
+              "created_at": "2025-08-02T03:59:17.000000Z",
+              "updated_at": "2026-05-14T01:38:56.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        }
+      ]
+    },
+    {
+      "id": 11753,
+      "hub_id": null,
+      "version": "1.2.1",
+      "description": "<p>Compared to Live Like Experience 1.2.0:</p>\n<ul>\n<li>\n<p>Added aiming for head to all the bots with varying chances:\nPMC’s: 1.25 - 5% chance (higher bot difficulty = bigger chance)\nSCAV’s: 0.5 - 1.1% chance\nBosses: 3% and their followers: 2%\nRogues and Raiders: 1.3 - 3.5% chance\nGoons: 2 - 8% chance for BigPipe, 3 - 9% for Birdeye, 4 - 10% for Knight\nCultists: 1.1 - 1.4% chance and their Priest: 1.15-1.6% chance</p>\n</li>\n<li>\n<p>Bot hearing has also been buffed per group, with PMC’s hearing up to 40% better than baseline (at impossible difficulty). SCAV hear 40 up to 10% worse than baseline (depends on bot difficulty). Bosses always hear 10% better than baseline, and their followers hear 20% worse. Goons hear 20% better than baseline.</p>\n</li>\n<li>\n<p>Global bot hearing has been increased by 30% (compared to Live Like Experience).</p>\n</li>\n<li>\n<p>Global aggression, bot accuracy and precision have been increased by 5% ;</p>\n</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2354/head-eyes-like-experience-sain-preset/1.2.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 183,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-11T10:55:00.000000Z",
+      "created_at": "2025-10-11T11:03:43.000000Z",
+      "updated_at": "2026-05-14T06:26:37.000000Z",
+      "dependencies": [
+        {
+          "id": 791,
+          "hub_id": 1062,
+          "guid": "me.sol.sain",
+          "name": "SAIN - Solarint's AI Modifications - Full AI Combat System Replacement",
+          "slug": "sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+          "teaser": "Bots that don't suck.",
+          "thumbnail": "https://forge-static.sp-tarkov.com/mods/1062.jpg",
+          "downloads": 1252690,
+          "favourites_count": 483,
+          "detail_url": "https://forge.sp-tarkov.com/mod/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement",
+          "fika_compatibility": true,
+          "featured": true,
+          "contains_ads": false,
+          "contains_ai_content": false,
+          "shows_profile_binding_notice": false,
+          "cheat_notice": false,
+          "category_id": 5,
+          "published_at": "2023-03-09T02:46:00.000000Z",
+          "created_at": "2023-03-09T02:46:50.000000Z",
+          "updated_at": "2026-08-04T17:42:31.000000Z",
+          "owner": {
+            "id": 27463,
+            "name": "Solarint",
+            "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/9fa66985990895e0c115adbdee4dbf71409d1566_128w.webp",
+            "cover_photo_url": null,
+            "created_at": "2023-02-23T17:11:59.000000Z",
+            "updated_at": "2026-07-10T04:50:24.000000Z"
+          },
+          "additional_authors": [
+            {
+              "id": 27605,
+              "name": "DrakiaXYZ",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/M9qMWlknCITEk33QXO07mJG0j8qP4xhz1QOsHUHD_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2023-02-26T18:51:50.000000Z",
+              "updated_at": "2026-08-10T15:00:42.000000Z"
+            },
+            {
+              "id": 52282,
+              "name": "ArchangelWTF",
+              "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bc678ae6a663d65b719827be994414a484a8e356_128w.webp",
+              "cover_photo_url": null,
+              "created_at": "2024-05-20T14:55:34.000000Z",
+              "updated_at": "2026-08-10T15:52:34.000000Z"
+            }
+          ],
+          "versions": [
+            {
+              "id": 157,
+              "hub_id": 14725,
+              "version": "4.1.3",
+              "description": "<p>Rebalanced default presets.</p>\n<p>Heavily nerfed scavs (disabled faster cqb reaction, reduced hearing range)</p>\n<p>Goons can now aim for your head (sometimes).</p>\n<p>Killa and tagilla hold down the trigger for longer and wait less between shots.</p>\n<p>Buffed most bosses and followers.</p>\n<p>Re-enabled “Aim Center Mass” for PMCs on default difficulty, was a mistake.</p>\n<p>Slightly lowered “Aim Center Mass Point” to reduce headshots, was raised quite a bit in 4.1.0, but accidental headshots are a bit too frequent now.</p>\n<p>Lots of small changes to bot configs, too many to list.</p>\n<p><strong>You’ll need to create a new preset to get the new changes, but old presets are working fine.</strong></p>\n<p>Fixes:</p>\n<p>Fixed many boss followers being broken.</p>\n<p>Disabled smoothing or any modification to bot steering when a bot isn’t in combat. Spinny bots should be fixed now. Will return to this in the future, but something is breaking when using the new smoothing solution.</p>\n<p>Fixed some bots getting stuck in a vanilla layer, making them unable to move or fight enemies (fairly sure I fixed this, its hard to test for, but I couldn’t find any bots doing it after)</p>\n<p>Project Fika - Fixed error spam and broken bots when 1 player extracts, but the rest stay in raid.</p>\n<p>Project Fika - Fixed footstep sound from player being triggered when they weren’t moving. (Oops)</p>\n",
+              "link": "https://forge.sp-tarkov.com/mod/download/791/sain-solarints-ai-modifications-full-ai-combat-system-replacement/4.1.3",
+              "content_length": null,
+              "spt_version_constraint": "~3.11.0",
+              "downloads": 68021,
+              "fika_compatibility": "unknown",
+              "published_at": "2025-08-02T03:59:00.000000Z",
+              "created_at": "2025-08-02T03:59:17.000000Z",
+              "updated_at": "2026-05-14T01:38:56.000000Z"
+            }
+          ],
+          "category": {
+            "id": 5,
+            "hub_id": 22,
+            "title": "Bots",
+            "slug": "bots",
+            "description": ""
+          }
+        }
+      ]
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2354/Harder.Live.Like.Experience.1.2.2.zip",
+    "bytes_written": 100272,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1074169291/7006d2a6-79fc-4df8-baf8-db4c2d2a36f9?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A43%3A23Z&rscd=attachment%3B+filename%3DHarder.Live.Like.Experience.1.2.2.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A42%3A48Z&ske=2026-08-10T16%3A43%3A23Z&sks=b&skv=2018-11-09&sig=hU2h%2FZKMm2XkogjZenvmJDLrWVE3xw%2FXt8MYdNcefPU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzQ1NiwibmJmIjoxNzg2Mzc3MTU2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Iwgel8C-K0D2-y6BWgcUvTuNj3yYJ-3goYsVRw8CaxU&response-content-disposition=attachment%3B%20filename%3DHarder.Live.Like.Experience.1.2.2.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.2.2",
+    "same_as_primary_download": true
+  }
+}

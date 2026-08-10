@@ -328,5 +328,16 @@
     "found": true,
     "version": "1.2.2",
     "same_as_primary_download": true
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1775/wtt-menu-overhaul-1.0.9-spt3114.zip",
+    "bytes_written": 2730288,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/870966768/b741296c-f5d5-4b9f-b76b-31c287fc189e?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A45%3A35Z&rscd=attachment%3B+filename%3DMoxoPixel-MenuOverhaul.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A44%3A46Z&ske=2026-08-10T16%3A45%3A35Z&sks=b&skv=2018-11-09&sig=OIs3HIUM6D1GbHet7p5rGg0RX0PsnmErjS7kPMuzwWc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODE5NCwibmJmIjoxNzg2Mzc3ODk0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.3SL3oJukaD5vOwV6I41Rot6vpXAUR1OCE7lQxAZ9ZLs&response-content-disposition=attachment%3B%20filename%3DMoxoPixel-MenuOverhaul.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "1.0.9",
+    "same_as_primary_download": false
   }
 }

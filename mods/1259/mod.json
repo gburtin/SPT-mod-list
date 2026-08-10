@@ -1,0 +1,101 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1259,
+      "hub_id": 1756,
+      "guid": null,
+      "name": "Like A Boss",
+      "slug": "like-a-boss",
+      "teaser": "Feel like Tarkov boss",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/1756.png",
+      "downloads": 2957,
+      "favourites_count": 0,
+      "description": "<p>Do you want to add variety to the gameplay as a scav? Then this mod is for you!</p>\n<p>With a certain chance you have the opportunity to play as a scav boss.</p>\n<p>Contains a configuration with which you can configure it.</p>\n<p>{ //removing the scav cooldown “remove_scav_cooldown”: true, //If enabled, it replaces the colored keycards with an access keycards to the laboratory “replace_color_keycards”: true, //Chance to become the boss at each fence reputation level “chances_to_become_boss”: [ 1, 5, 10, 15, 20, 25, 35 ], //list of bosses you can play as “boss_list”: [ “bossboar”, “bossbully”, “bossgluhar”, “bosskilla”, “bossknight”, “bosskojaniy”, “bosskolontay”, “bosspartisan”, “bosssanitar”, “bosstagilla”, “bosszryachiy”, “followerbigpipe”, “followerbirdeye” ] } There are a few things I want to make clear:</p>\n<ul>\n<li>Scavs can still shoot you if you have a bad reputation.</li>\n<li>You will spawn at the PMC spawnpoints.</li>\n<li>Bosses with the same type as yours may still be on the location.</li>\n<li>Followers and scav’s do not listen to you, considering you an ordinary scav.</li>\n<li>Tagilla’s hammer was removed due to being unplayable</li>\n</ul>\n<p>All this will be fixed in future versions.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1259/like-a-boss",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-03-18T09:45:18.000000Z",
+      "created_at": "2024-03-18T09:45:18.000000Z",
+      "updated_at": "2026-07-07T16:58:53.000000Z",
+      "owner": {
+        "id": 46185,
+        "name": "Toha3673",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/33753d25871c1412a48c018c336819b58d635598_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/mByx181TqymbrnrCd5HoJZaqNyk6lQWelqv9ap57.png",
+        "created_at": "2024-03-04T06:30:44.000000Z",
+        "updated_at": "2026-08-04T08:50:32.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 630,
+          "hub_id": 14208,
+          "version": "1.4.0",
+          "description": "\\- Added support for SPT version 3.11\n\n\\- Completely rewritten code",
+          "link": "https://forge.sp-tarkov.com/mod/download/1259/like-a-boss/1.4.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2957,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-09T15:51:10.000000Z",
+          "created_at": "2025-05-09T15:51:10.000000Z",
+          "updated_at": "2026-05-14T01:53:11.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/Toha3673/LikeABoss",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 630,
+      "hub_id": 14208,
+      "version": "1.4.0",
+      "description": "<p>- Added support for SPT version 3.11</p>\n<p>- Completely rewritten code</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1259/like-a-boss/1.4.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2957,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-09T15:51:10.000000Z",
+      "created_at": "2025-05-09T15:51:10.000000Z",
+      "updated_at": "2026-05-14T01:53:11.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1259/Like.A.Boss.zip",
+    "bytes_written": 4851,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/980595903/c8fcc903-681c-42fa-8e66-8cfc899287b6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A21%3A34Z&rscd=attachment%3B+filename%3DLike.A.Boss.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A21%3A34Z&ske=2026-08-10T16%3A21%3A34Z&sks=b&skv=2018-11-09&sig=StnES0UQ3qrJQQrDFPL3gIvlQPrXKA0QakTCbzWX3oo%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3Njg4NSwibmJmIjoxNzg2Mzc2NTg1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.8u48xq3JmeohfXm6y4j_95lbGTvyowIAYpRN8jAR858&response-content-disposition=attachment%3B%20filename%3DLike.A.Boss.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.4.0",
+    "same_as_primary_download": true
+  }
+}

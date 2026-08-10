@@ -1,0 +1,110 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2160,
+      "hub_id": 2860,
+      "guid": null,
+      "name": "JAK-12 Automatic Shotgun",
+      "slug": "jak-12-automatic-shotgun",
+      "teaser": "Not AA-12!!!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2860.webp",
+      "downloads": 2901,
+      "favourites_count": 0,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Overview</div>\n<div class=\"tab-content\"><p>This mod introduces the <strong>JAK-12</strong>, an automatic shotgun created by <strong>Infinity Ward</strong> and inspired by the <strong>AA-12</strong> from <strong>Call of Duty</strong>.</p>\n<p>- Features <strong>basic configuration</strong> with an <strong>8-round magazine</strong>.</p>\n<p>- <strong>Models and textures</strong> are sourced from <strong>Call of Duty</strong> by Infinity Ward.</p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Setup and Usage</div>\n<div class=\"tab-content\"><p>1. Unzip the downloaded files.</p>\n<p>2. Drop the mod folder in to the spt directory.</p>\n<p>3. Launch the game.</p>\n<p>4. Visit <strong>Mechanic’s shop</strong> or the <strong>Flea Market</strong> to find the rifle and its parts.</p>\n<p><strong>Note for MPT/Fika users:</strong></p>\n<p>If you encounter bundle loading issues (e.g., white texture or doge), manually distribute bundle files:</p>\n<p>- Copy <code>/user/mods/\\[this mod name\\]/\\[this mod name\\]/bundles</code> folder</p>\n<p>- Merge it with the <strong>same-name folder under <code>/user/cache/</code></strong></p>\n<p>This method applies to all my mods.</p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Permissions and Legal</div>\n<div class=\"tab-content\"><p>- <strong>When reuploading or sharing this mod</strong>, please clearly indicate the author or source.</p>\n<p>- <strong>Do not distribute files with the <code>.bundle</code> extension</strong> (or its variants) from this mod without permission.</p>\n<p>- Respect the original creator’s rights</p>\n<p>- <strong>Models, Textures, Sounds, Animations:</strong> Infinity Ward (Call of Duty)</p>\n<p>- <strong>Converted Textures:</strong> John_Titor</p>\n<p>- <strong>Animation Baking:</strong> Miraki (来自二次元的公主殿下)</p>\n<p>- <strong>Tarkov Port &amp; Code:</strong> <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/18902-massivesoft/\" rel=\"noreferrer noopener\">Massivesoft</a></p></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">Known Issues</div>\n<div class=\"tab-content\"><p>- Some animations may look a little weird.</p></div></div>\n<div id=\"tabset-1-panel-5\" class=\"tab-panel\"><div class=\"tab-title\">Credits</div>\n<div class=\"tab-content\"><p>- <strong>Models, Textures, Sounds, Animations:</strong> Infinity Ward (Call of Duty)</p>\n<p>- <strong>Converted Textures:</strong> John_Titor</p>\n<p>- <strong>Animation Baking:</strong> Miraki (来自二次元的公主殿下)</p>\n<p>- <strong>Mod Author:</strong> <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/18902-massivesoft/\" rel=\"noreferrer noopener\">Massivesoft</a> (ported everything into Tarkov, built unity assets, tweaked animations, created code, etc.)</p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2160/jak-12-automatic-shotgun",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-05-26T05:54:06.000000Z",
+      "created_at": "2025-05-26T05:54:06.000000Z",
+      "updated_at": "2026-07-07T16:59:07.000000Z",
+      "owner": {
+        "id": 59864,
+        "name": "AmightyTank",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/ca455d7c3c3a7a3a5f0c349de15469a9aedb1443_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-07-29T05:47:41.000000Z",
+        "updated_at": "2026-08-10T12:37:38.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 15672,
+          "name": "Massivesoft",
+          "profile_photo_url": "https://ui-avatars.com/api/?name=M&color=7F9CF5&background=EBF4FF",
+          "cover_photo_url": null,
+          "created_at": "2022-03-14T13:54:37.000000Z",
+          "updated_at": "2026-08-10T07:36:47.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 512,
+          "hub_id": 14345,
+          "version": "1.4.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2160/jak-12-automatic-shotgun/1.4.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2901,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-26T05:54:06.000000Z",
+          "created_at": "2025-05-26T05:54:06.000000Z",
+          "updated_at": "2026-05-14T01:49:21.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/AlmightyTank/Mass_JAK12",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 512,
+      "hub_id": 14345,
+      "version": "1.4.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2160/jak-12-automatic-shotgun/1.4.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2901,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-26T05:54:06.000000Z",
+      "created_at": "2025-05-26T05:54:06.000000Z",
+      "updated_at": "2026-05-14T01:49:21.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2160/Mass_JAK12-3.11-1.4.0.zip",
+    "bytes_written": 21062204,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/990434809/8bdfddef-21b5-48b4-b7c5-fc9d3af6fcad?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A22%3A03Z&rscd=attachment%3B+filename%3DMass_JAK12-3.11-1.4.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A21%3A48Z&ske=2026-08-10T16%3A22%3A03Z&sks=b&skv=2018-11-09&sig=3%2BSlpuM8QfcGhrbCQrSyz4xdFxCU4lDgJHsVceaeoMc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODY5MSwibmJmIjoxNzg2Mzc2ODkxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Q8JI9Th9bgOOYAvAgmn87Pu4EDiyU3mY2byX9wmgu5E&response-content-disposition=attachment%3B%20filename%3DMass_JAK12-3.11-1.4.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.4.0",
+    "same_as_primary_download": true
+  }
+}

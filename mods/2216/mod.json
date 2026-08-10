@@ -1,0 +1,101 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2216,
+      "hub_id": 2919,
+      "guid": null,
+      "name": "AleLite",
+      "slug": "alelite",
+      "teaser": "Level endurance at half rate when you're overweight",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2919.png",
+      "downloads": 2083,
+      "favourites_count": 0,
+      "description": "<p>Level endurance at half rate when overweight. Different from ALE in the sense that this one sets you to not be overweight for endurance leveling and then halves the original xp gain, while ALE calculates the experience to be gained while overweight using the (at the time of development) existing experience formula. This means that this mod is compatible with other mods that changes the endurance experience gain formula, while ALE is not.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2216/alelite",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-07-10T08:23:49.000000Z",
+      "created_at": "2025-07-10T08:23:49.000000Z",
+      "updated_at": "2026-07-13T18:00:36.000000Z",
+      "owner": {
+        "id": 71973,
+        "name": "ehaugw",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/9458e5e35745330dc82edf18da020631dc6accb6_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-01-21T10:06:02.000000Z",
+        "updated_at": "2026-07-10T04:51:48.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 277,
+          "hub_id": 14598,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2216/alelite/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2083,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-10T08:23:49.000000Z",
+          "created_at": "2025-07-10T08:23:49.000000Z",
+          "updated_at": "2026-07-13T18:00:36.000000Z"
+        }
+      ],
+      "license": {
+        "id": 8,
+        "hub_id": 11,
+        "name": "GNU LGPLv3",
+        "link": "https://choosealicense.com/licenses/lgpl-3.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/ehaugw/SPT-AleLite/tree/master",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 277,
+      "hub_id": 14598,
+      "version": "1.0.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2216/alelite/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2083,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-10T08:23:49.000000Z",
+      "created_at": "2025-07-10T08:23:49.000000Z",
+      "updated_at": "2026-07-13T18:00:36.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2216/alelite-1.0.0",
+    "bytes_written": 2768,
+    "final_url": "https://media.githubusercontent.com/media/ehaugw/SPT-AleLite/refs/tags/v1.0.0/AleLite.zip",
+    "content_type": "application/zip"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

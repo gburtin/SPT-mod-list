@@ -1,0 +1,95 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2111,
+      "hub_id": 2797,
+      "guid": null,
+      "name": "Howa Type 64",
+      "slug": "howa-type-64",
+      "teaser": "Introduces the Howa Type 64 to Tarkov",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2797.png",
+      "downloads": 5988,
+      "favourites_count": 0,
+      "description": "<p><em><strong>It looks like a child drew this gun - Comment from a certain individual</strong></em></p>\n<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Description</div>\n<div class=\"tab-content\"><p>Howa Type 64, a rifle that is well known both in media and the JSDF, is chambered in 7.62 Nato rounds. Although it’s supposed to use a modified cartridges with lower gunpowder, locals seems to use regular ones. Oh yeah 30 of them were lost, but i guess that doesn’t matter since it somehow ended up here.</p>\n<p><em><strong>How did this get into a slavic country, like genuinely how, who on gods earth smuggled this here.</strong></em></p>\n<p>Can be bought from Mechanic LL1 (Most of it are in euro or barter)</p>\n<p>Requested by Rena-Chan</p>\n<p>&lt;iframe width=“560” height=“315” src=“https://www.youtube.com/embed/UP1aftg6rDg?si=PwwTPZzuRkoKZ4Bn” title=“YouTube video player” frameborder=“0” allow=“accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share” referrerpolicy=“strict-origin-when-cross-origin” allowfullscreen&gt;&lt;/iframe&gt; Animation by me</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://www.cgtrader.com/3d-models/military/gun/howa-type-64-japanese-battle-rifle-with-m1-bayonet\" rel=\"noreferrer noopener\">Model</a> By <a target=\"_blank\" class=\"external-link\" href=\"https://www.cgtrader.com/designers/8siandude\" rel=\"noreferrer noopener\">8sianDude</a></p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Install Instruction</div>\n<div class=\"tab-content\"><p>1. Download the Zip from the Gdrive</p>\n<p>2. Open the Zip</p>\n<p>3. Copy the content of the Zip your SPT folder</p>\n<p>4. Enjoy</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://i.imgur.com/wMIskD3.gif\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/wMIskD3.gif\" alt=\"wMIskD3.gif\" /></a></p></div></div></div>\n<p><em>P.S You ever been held at gun point by a crazy lady?</em></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2111/howa-type-64",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": true,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-04-23T10:19:54.000000Z",
+      "created_at": "2025-04-23T10:19:54.000000Z",
+      "updated_at": "2026-07-13T18:01:16.000000Z",
+      "owner": {
+        "id": 44,
+        "name": "Choccy Milk",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/385222d64fa85020e601547d6e3f90cd761236d0_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2020-07-03T04:06:15.000000Z",
+        "updated_at": "2026-07-10T04:49:17.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 746,
+          "hub_id": 14073,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2111/howa-type-64/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 5988,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-23T10:19:54.000000Z",
+          "created_at": "2025-04-23T10:19:54.000000Z",
+          "updated_at": "2026-07-13T18:01:16.000000Z"
+        }
+      ],
+      "license": {
+        "id": 4,
+        "hub_id": 6,
+        "name": "Creative Commons BY-NC 3.0",
+        "link": "http://creativecommons.org/licenses/by-nc/3.0/legalcode",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 746,
+      "hub_id": 14073,
+      "version": "1.0.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2111/howa-type-64/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 5988,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-04-23T10:19:54.000000Z",
+      "created_at": "2025-04-23T10:19:54.000000Z",
+      "updated_at": "2026-07-13T18:01:16.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/file/d/1IW8xzd5CuhHUSHrNGngqAWe-GtBNjuq1/view?usp=drive_link"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

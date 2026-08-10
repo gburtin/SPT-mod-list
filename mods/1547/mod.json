@@ -1,0 +1,214 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1547,
+      "hub_id": 2117,
+      "guid": null,
+      "name": "Trader QoL",
+      "slug": "trader-qol",
+      "teaser": "All features are optional and off by default. Unify all traders to use a single currency. Set multipliers for trader prices, reputation gain from quests, loyalty level requirements, repair prices, and insurance prices.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2117.png",
+      "downloads": 7620,
+      "favourites_count": 0,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Basics</div>\n<div class=\"tab-content\"><p>Simple QoL mod, everything is disabled by default, enable the modules you want in config.jsonc</p>\n<h3>Features</h3>\n<ul>\n<li>Unify trader currencies so everyone uses dollars for example (RUB, EUR, USD)</li>\n<li>Increase reputation gain from quests</li>\n<li>Increase/Decrease prices of all items in game</li>\n<li>Change amount spent requirement for leveling traders</li>\n<li>Change repair pricing</li>\n<li>Change insurance pricing</li>\n</ul></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">How To Install</div>\n<div class=\"tab-content\"><p>Simply extract mattdokn-traderqol.zip into your game folder</p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">How To Config</div>\n<div class=\"tab-content\"><p>The config has comments in it to explain. Make sure you enable the sections if you want to use them!</p></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">Known Issues</div>\n<div class=\"tab-content\"><p>If you see anything that stands out to you, please let me know in the comments and I’ll work on it as soon as I can!</p></div></div>\n<div id=\"tabset-1-panel-5\" class=\"tab-panel\"><div class=\"tab-title\">Support My Work</div>\n<div class=\"tab-content\"><p>Never feel obligated to donate for support.</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/mattdokn\" rel=\"noreferrer noopener\">https://ko-fi.com/mattdokn</a></p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1547/trader-qol",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-07-11T00:51:26.000000Z",
+      "created_at": "2024-07-11T00:51:26.000000Z",
+      "updated_at": "2026-07-07T16:58:58.000000Z",
+      "owner": {
+        "id": 41131,
+        "name": "Mattdokn",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/89604c57f05fe3a50ae9cee0fb450fe70fa1a8c1_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/1adc5c0f9967a60f96e9eab432644a0329932c81_1280w.webp",
+        "created_at": "2023-11-25T01:52:38.000000Z",
+        "updated_at": "2026-07-25T18:31:36.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 489,
+          "hub_id": 14371,
+          "version": "1.3.0",
+          "description": "Updated to 3.11.x",
+          "link": "https://forge.sp-tarkov.com/mod/download/1547/trader-qol/1.3.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2019,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-31T03:20:10.000000Z",
+          "created_at": "2025-05-31T03:20:10.000000Z",
+          "updated_at": "2026-05-14T01:48:17.000000Z"
+        },
+        {
+          "id": 1897,
+          "hub_id": 12792,
+          "version": "1.2.1",
+          "description": "Updated for 3.10.x!",
+          "link": "https://forge.sp-tarkov.com/mod/download/1547/trader-qol/1.2.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 1489,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-23T17:08:31.000000Z",
+          "created_at": "2024-12-23T17:08:31.000000Z",
+          "updated_at": "2026-05-14T02:40:38.000000Z"
+        },
+        {
+          "id": 2641,
+          "hub_id": 11908,
+          "version": "1.2.0",
+          "description": "\\- Can now remove FiR requirement on quests (Applies to modded traders!)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1547/trader-qol/1.2.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 867,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-10-07T13:58:24.000000Z",
+          "created_at": "2024-10-07T13:58:24.000000Z",
+          "updated_at": "2026-05-14T03:26:36.000000Z"
+        },
+        {
+          "id": 2792,
+          "hub_id": 11733,
+          "version": "1.1.1",
+          "description": "- Unlimited trader stock setting now also removes buy restrictions.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1547/trader-qol/1.1.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 568,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-09-14T16:01:53.000000Z",
+          "created_at": "2024-09-14T16:01:53.000000Z",
+          "updated_at": "2026-05-14T03:30:41.000000Z"
+        },
+        {
+          "id": 3192,
+          "hub_id": 11192,
+          "version": "1.1.0",
+          "description": "\\- Added Multipliers for trader stock and buy restriction amount\n\n\\- Added option for unlimited stock on traders",
+          "link": "https://forge.sp-tarkov.com/mod/download/1547/trader-qol/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1043,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-08-04T02:22:05.000000Z",
+          "created_at": "2024-08-04T02:22:05.000000Z",
+          "updated_at": "2026-05-14T03:45:48.000000Z"
+        },
+        {
+          "id": 3525,
+          "hub_id": 10780,
+          "version": "1.0.2",
+          "description": "Fixed single currency feature. (Works now hopefully)",
+          "link": "https://forge.sp-tarkov.com/mod/download/1547/trader-qol/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1111,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-12T17:15:42.000000Z",
+          "created_at": "2024-07-12T17:15:42.000000Z",
+          "updated_at": "2026-05-14T03:52:03.000000Z"
+        },
+        {
+          "id": 3533,
+          "hub_id": 10764,
+          "version": "1.0.1",
+          "description": "Added settings for multiplying repair price.\n\nMake sure you reconfigure after updating!",
+          "link": "https://forge.sp-tarkov.com/mod/download/1547/trader-qol/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 206,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-12T04:34:50.000000Z",
+          "created_at": "2024-07-12T04:34:50.000000Z",
+          "updated_at": "2026-05-14T03:52:06.000000Z"
+        },
+        {
+          "id": 3559,
+          "hub_id": 10727,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1547/trader-qol/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 317,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-11T00:51:26.000000Z",
+          "created_at": "2024-07-11T00:51:26.000000Z",
+          "updated_at": "2026-05-14T03:53:03.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/m-barneto/TraderQoL",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 489,
+      "hub_id": 14371,
+      "version": "1.3.0",
+      "description": "<p>Updated to 3.11.x</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1547/trader-qol/1.3.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2019,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-31T03:20:10.000000Z",
+      "created_at": "2025-05-31T03:20:10.000000Z",
+      "updated_at": "2026-05-14T01:48:17.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1897,
+      "hub_id": 12792,
+      "version": "1.2.1",
+      "description": "<p>Updated for 3.10.x!</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1547/trader-qol/1.2.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 1489,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-12-23T17:08:31.000000Z",
+      "created_at": "2024-12-23T17:08:31.000000Z",
+      "updated_at": "2026-05-14T02:40:38.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1547/mattdokn-traderqol.zip",
+    "bytes_written": 4886,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/791508083/5071177a-b72c-4dfc-b832-8a1c32c481e6?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A21%3A53Z&rscd=attachment%3B+filename%3Dmattdokn-traderqol.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A20%3A55Z&ske=2026-08-10T16%3A21%3A53Z&sks=b&skv=2018-11-09&sig=zT7Kd16gCHqk2Bdb0B%2FNqG3DF745pLG5%2Bwf8zgSSdok%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzIzMCwibmJmIjoxNzg2Mzc2OTMwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.gx3QW1bYCUGFDdy30Y923bL-ftNX_5E1A8URYyQLVFk&response-content-disposition=attachment%3B%20filename%3Dmattdokn-traderqol.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.3.0",
+    "same_as_primary_download": true
+  }
+}

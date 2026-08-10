@@ -400,5 +400,16 @@
     "target_version": "4.0.13",
     "version": "1.7.0",
     "same_as_primary_download": false
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/820/door-randomizer-1.6.0-spt3114.7z",
+    "bytes_written": 4930,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/621055118/c816b205-c238-462a-a452-7711d0dfcb92?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A49%3A05Z&rscd=attachment%3B+filename%3DDrakiaXYZ-DoorRandomizer-1.6.0.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A48%3A44Z&ske=2026-08-10T16%3A49%3A05Z&sks=b&skv=2018-11-09&sig=LCgJR8KROz8IlSkzYrdt01H%2BW4hcXzDhzLXrNJDaC3c%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODQ0NSwibmJmIjoxNzg2Mzc4MTQ1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.an_yk56Q92z2CR_f6CQBuNYvrb-5rppm0VVHc9v0Ipk&response-content-disposition=attachment%3B%20filename%3DDrakiaXYZ-DoorRandomizer-1.6.0.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "1.6.0",
+    "same_as_primary_download": false
   }
 }

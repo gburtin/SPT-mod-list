@@ -1,0 +1,115 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2196,
+      "hub_id": 2899,
+      "guid": null,
+      "name": "Better Arm Stamina",
+      "slug": "better-arm-stamina",
+      "teaser": "You're meant to be a soldier, right? With soldier arms?",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2899.jpg",
+      "downloads": 6109,
+      "favourites_count": 0,
+      "description": "<h2><strong>Better Arm Stamina</strong></h2>\n<p>In Escape From Tarkov you’re meant to be a soldier, right? Not a software engineer. Surely you could rest your arm against your knee much longer when holding a gun? Surely when you lay down, you’ll naturally rest your arms on the gun and the gun on the ground and be comfortable for much longer? Surely!</p>\n<p>This is a mod for SPTarkov that provides more realistic arm stamina draining when aiming down sights (ADS) based on your stance and weapon mounting. It’s entirely configurable so you can set the drain rate of various states to your liking.</p>\n<h3>Features</h3>\n<p>You can adjust the ADS arm stamina drain when using bipods or when in standing, crouch, and prone stances.</p>\n<p>Standing**<br />\nSure, this should drain at some reasonable pace (100% drain rate by default)</p>\n<p><strong>Crouching</strong><br />\nYour PMC can hold his aim a bit longer when he’s got a knee down. Pretend you’re resting your elbow on your knee for stability (60% drain rate by default)</p>\n<p><strong>Prone</strong> When you’re laying on the ground, you can hold your aim way longer (30% drain rate by default)</p>\n<p><strong>Mounted</strong> Press V near a mountable surface or deploy a bipod and you can hold your aim way longer (30% drain rate by default)</p>\n<h3>Compatibility</h3>\n<p>This should be compatible with most mods except for ones that tinker with arm stamina drain rates. Will likely conflict with Realism one day. Anything that edits <em>HandsStamina.Multiplier</em> will make things weird.</p>\n<h3>Installation</h3>\n<p>Just like any other client side plugin, extract the release archive into your <code>SPT/BepInEx/plugins/</code> folder.</p>\n\n<h3>Configuration</h3>\n<p>You can configure the stamina drain rates in the BepInEx Configuration Manager (F12 in game)</p>\n<p>If you don’t like the default values, just change them! They’re percentages, so:<br />\n- 100 = Normal drain rate (vanilla)<br />\n- 50 = Half drain rate<br />\n- 200 = Double drain rate</p>\n<p><strong>Feedback, thinking, and bugs are very welcome!</strong></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2196/better-arm-stamina",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-06-22T13:08:17.000000Z",
+      "created_at": "2025-06-22T13:08:17.000000Z",
+      "updated_at": "2026-07-07T16:59:08.000000Z",
+      "owner": {
+        "id": 5900,
+        "name": "goatonabicycle",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/9bb5fb01caab9049a72f848f688964760e2f2681_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2021-06-22T19:18:02.000000Z",
+        "updated_at": "2026-08-03T20:45:53.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 369,
+          "hub_id": 14503,
+          "version": "1.1.0",
+          "description": "A significantly more performant version!   \n  \nCalculating whether or not the player is mounted is done in a way better way now.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2196/better-arm-stamina/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 5599,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-23T16:14:22.000000Z",
+          "created_at": "2025-06-23T16:14:22.000000Z",
+          "updated_at": "2026-05-14T01:46:01.000000Z"
+        },
+        {
+          "id": 375,
+          "hub_id": 14496,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2196/better-arm-stamina/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 510,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-22T13:08:17.000000Z",
+          "created_at": "2025-06-22T13:08:17.000000Z",
+          "updated_at": "2026-05-14T01:46:04.000000Z"
+        }
+      ],
+      "license": {
+        "id": 13,
+        "hub_id": 16,
+        "name": "The Unlicense",
+        "link": "https://choosealicense.com/licenses/unlicense/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/goatonabicycle/SPT-BetterArmStamina",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 369,
+      "hub_id": 14503,
+      "version": "1.1.0",
+      "description": "<p>A significantly more performant version!</p>\n<p>Calculating whether or not the player is mounted is done in a way better way now.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2196/better-arm-stamina/1.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 5599,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-06-23T16:14:22.000000Z",
+      "created_at": "2025-06-23T16:14:22.000000Z",
+      "updated_at": "2026-05-14T01:46:01.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2196/BetterArmStamina-1.1.0.zip",
+    "bytes_written": 5161,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1003071793/a878f9f7-d7eb-48f3-9cad-de4a23e9e3ad?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A15%3A44Z&rscd=attachment%3B+filename%3DBetterArmStamina-1.1.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A15%3A03Z&ske=2026-08-10T16%3A15%3A44Z&sks=b&skv=2018-11-09&sig=Zqq4TKaJuySMwcaSVObe8NcPMhJxzQe0AO6JP07brpY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NjU3NiwibmJmIjoxNzg2Mzc2Mjc2LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.GbaDOO_fS1lM4jM4y6D_nWeuhZ-vDKBo6P2w6LL86mY&response-content-disposition=attachment%3B%20filename%3DBetterArmStamina-1.1.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.1.0",
+    "same_as_primary_download": true
+  }
+}

@@ -255,5 +255,16 @@
     "found": true,
     "version": "1.4.1",
     "same_as_primary_download": true
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1260/reach-extender-1.4.0-spt3114.zip",
+    "bytes_written": 3901,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/775735526/fecfffb1-6d4c-4a0a-a295-98fae4a10c66?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A49%3A45Z&rscd=attachment%3B+filename%3DReachExtender.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A48%3A57Z&ske=2026-08-10T16%3A49%3A45Z&sks=b&skv=2018-11-09&sig=F1QPorOOxgQcSR4wo3%2FeDJgG%2BQwQCINPG6bdCxfDp2w%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODA4NCwibmJmIjoxNzg2Mzc3Nzg0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.erktp3gIYhGzz9r1ZxSvCi7KrlqaQ1JPsHilNIxReXg&response-content-disposition=attachment%3B%20filename%3DReachExtender.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "1.4.0",
+    "same_as_primary_download": false
   }
 }

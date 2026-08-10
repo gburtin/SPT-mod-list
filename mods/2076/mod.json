@@ -261,5 +261,16 @@
     "found": true,
     "version": "2.0.2",
     "same_as_primary_download": true
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2076/hideout-in-progress-1.1.1-spt3114.zip",
+    "bytes_written": 12861,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/955186563/8811832b-c305-4d29-a4db-d4e5f68f96d9?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A43%3A19Z&rscd=attachment%3B+filename%3DTyfon-HideoutInProgress-1.1.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A42%3A39Z&ske=2026-08-10T16%3A43%3A19Z&sks=b&skv=2018-11-09&sig=7L15OiaNyC7TJD%2Fg7rQ1uj6xJwz6vKdQ%2Fn6K%2Bae99tw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODI2OSwibmJmIjoxNzg2Mzc3OTY5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.kVrCf9SqHpDKjv-5xIjwgwbtYHFFfd1s3UceeNlhUfE&response-content-disposition=attachment%3B%20filename%3DTyfon-HideoutInProgress-1.1.1.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "1.1.1",
+    "same_as_primary_download": false
   }
 }

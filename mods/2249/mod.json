@@ -1,0 +1,163 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2249,
+      "hub_id": 2955,
+      "guid": "com.slunk.scc",
+      "name": "Slunk's Central City (SCC for PTT)",
+      "slug": "slunks-central-city-scc-for-ptt",
+      "teaser": "Addition to the PTT mod that shuffles the Maps to form a ring around Streets making Basement Decent in Streets your Hideout. (see the maps attached)",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2955.jpg",
+      "downloads": 1948,
+      "favourites_count": 0,
+      "description": "<p><strong>SLUNK CENTRAL CITY (SCC)</strong></p>\n<p>This Mod is built for, and requires PTT (Path To Tarkov) If you Didn’t know PTT Makes Takov Play “OpenWorld’ like STALKER 1 with map to map transition type of gameplay and Traders that must be visited at their locations</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/Dg2VS17.jpeg\" alt=\"SCC map2\" /></p>\n<p>-Are you a city Dweller at heart?</p>\n<p>-Ever wanted to Play PTT with Streets as the base for your hideout?</p>\n<p>-Wish the Map Layout felt fresh with Streets as the Central map while the other maps surround streets?</p>\n<p>-Ever wish Reserve and Labs were difficult to reach making it more like visiting one of the Labs in STALKER for example?</p>\n<p>-Well get ready for Escape To Tarkov</p>\n<p><strong>Map Tips</strong></p>\n<p>-Streets is Central While all the other maps form a ring around Streets</p>\n<p>-Almost every map is accessible Via Streets for free (NOT including Factory,Reserve,Labs)</p>\n<p>-The only way to access Factory is via Customs and Woods (standard)</p>\n<p>-The only FREE way to Access Reserve is Via Tunnel (Interchange/Lighthouse) and is the only way out…</p>\n<p>-The only FREE way to Access Labs is via Reserve D2 and is the only way out…</p>\n<p>-Reserve can also be accessed Via all the Flare Extracts (Ground Zero, Streets, Customs, Woods) [Oneways]</p>\n<p>-Labs can also be accessed via all the Extracts that require a key (SafeRoom on interchange, Factory Key extracts on Customs and Factory, Woods ZB-14) [Oneways]</p>\n<p>-You’ll find that most Traders in Labs Deal in Dollars so bring your Green Backs!</p>\n<p>-You must carry your money to traders at their locations to barter and complete quests.</p>\n<p>-so if you have no Keys and no Flares, to get to Labs you must journey to the tunnel on the bottom left of the map to get to Reserve and then Take D2 to Labs. The only way back is the way you came…</p>\n<p><strong>IMPORTANT Hardcore Playthrough Recommendations:</strong></p>\n<p>-Use Server Value Modifier to change all key durability to 1 making keys a 1 time use. This is also important for Lab access, its not intended for you to have a key that gives you permanent access to Labs. its meant to be as a 1 time shortcut if you manage to find a key. I would also recommend increasing the spawn chance for keys on Bots and Loot to make it so that you find keys more often (There are lots of mods to accomplish this) Personally I think this makes keys better for hardcore playthrough and makes the game feel more dynamic. (Please follow this advice, you will have a more authentic experience like this)</p>\n<p>-Make it so that Traders Sell limited Inventory, it Helps with all the modded Traders having any OP items as half of their inventory is missing with every refresh.</p>\n<p>-Streets is hard to Run even for NASA computers so use the AI limit mod and the Declutter Mod and other mods that help performance. You’ll needs it.</p>\n<p><strong>Issues and Compatibility:</strong></p>\n<p>-No compatibility Issues</p>\n<p>-Can be used for 3.11, 3.10 and older</p>\n<p>-SCAV raids show randomized extracts that don’t exist/work sometimes. Only extracts that I have programed in can act as extracts (even if they don’t show up in your extract list when you press ‘o’). WHY? I don’t use all the extract that are provided on every map. This is intended to spaces out the transitions so that you don’t have raids that are super short. But only Scav Raids still show these Extracts when you press ‘o’ just ignore them.</p>\n<p><strong>Installation:</strong></p>\n<p>-Install the Required Mods for this to Work (Path To Tarkov and Interactable Exfils API)</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2937-trap-s-path-to-tarkov-3-11-update/\" rel=\"noreferrer noopener\"><strong>Trap’s Path to Tarkov - 3.11 Update - SPT Mods Workshop</strong></a></p>\n<h3><strong><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2286-interactable-exfils-api\" rel=\"noreferrer noopener\">Interactable Exfils API</a></strong></h3>\n<p>-Then Just Paste My mod into your Game Directory and it will auto fill what is needed for PTT to Runs this mod</p>\n<p>-CONFIG FILE NO LONGER INCLUDED SO AFTER INSTALL GO TO SPT\\user\\mods\\Trap-PathToTarkov\\configs AND OPEN THE UserConfig.json5 AND EDIT THIS selectedConfig: ‘SCC’,</p>\n<p><em><strong>-OPTIONAL TRADERS:</strong></em></p>\n<p><strong>List Of Modded Traders Used:</strong></p>\n<p>- some are for older versions of the Game so check to make sure you are using Traders that are for your Game version!</p>\n<p>-Also if you wish to see a Trader that I didn’t include if future versions? Please make your recommendations. (Ones with Quests or Hardcore Inventory are best.)</p>\n<p>-Leave a comment Here or come chat with me on my Twitch Stream Slunk_Gaming</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/2omVN3c.jpeg\" alt=\"SCC map1\" /></p>\n<p><strong>Modded Traders (with quests) not Required but Recommended:</strong></p>\n<p>-Oni</p>\n<p>-Artem</p>\n<p>-Tony</p>\n<p>-Painter</p>\n<p>-A.E.S.</p>\n<p>-Epakim</p>\n<p>-Saria</p>\n<p>-Coyote</p>\n<p>-Guiding Light/???</p>\n<p>-Lotus</p>\n<p>-Scorpion</p>\n<p>-Badger</p>\n<p><strong>Modded Traders (without Quests) Optional extras:</strong></p>\n<p>-Legs</p>\n<p>-Harry</p>\n<p>-Cat Burglar</p>\n<p>-Volkov</p>\n<p>-Priscilus</p>\n<p>-Gambler</p>\n<p>-Scav Cat</p>\n<p>-AllAmmoTrader</p>\n<p>-Croupier</p>\n<p>-Couturier</p>\n<p>-Chef</p>\n<p>-Requisition</p>\n<p>-Frostbite</p>\n<p>-Gunsmith</p>\n<p>Cheers!</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2249/slunks-central-city-scc-for-ptt",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 2,
+      "published_at": "2025-08-09T17:22:00.000000Z",
+      "created_at": "2025-08-09T13:22:28.000000Z",
+      "updated_at": "2026-07-13T18:00:20.000000Z",
+      "owner": {
+        "id": 83056,
+        "name": "Slunk_",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/92191e4b1cb8734f0176f32e7aa67d08695d9a03_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-08-09T09:54:51.000000Z",
+        "updated_at": "2026-07-10T04:52:06.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11671,
+          "hub_id": 15073,
+          "version": "2.0.0",
+          "description": "A New version of SCC V2.0.\n\n-HaaWkk has Created a new visual map for everyone to use along side the Mod. Looks Slick!!\n\n-We are no longer squatting in 'Stylobate Elevator' Thanks to HaaWkk's help we were able convert one of the unused exfils to be the new central player hideout location\n\n**-Some map transitions have been altered slightly**\n\n-Skier is now a one-way to interchange (to cut down on interchange exfils being too close together)\n\n-AAT,CHEF,HARRY were moved to be with ragman Emercom and Dorms Vexfil no longer has traders and stash\n\n-Lighthouse grotto is now home to a new trader 'Jiang Hu' and has a one-way to shoreline island\n\n-Guiding light is now has a one-way to lighthouse docks\n\n-Reserve free access has been slightly moved to be in lighthouse tunnel now.\n\n-Streets now has a one-way to factory but bring a gasmask as its a hazard with realism mod.\n\n-Ground Zero now has a one-way to the side streets on the basement level. also nakatani links to baluga bar elevator now and is two way.\n\n-a bunch of modded traders have been moved around for balance (further balance in future)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2249/slunks-central-city-scc-for-ptt/2.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 539,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-26T10:08:18.000000Z",
+          "created_at": "2025-09-26T10:08:18.000000Z",
+          "updated_at": "2025-09-26T10:08:18.000000Z"
+        },
+        {
+          "id": 115,
+          "hub_id": 14779,
+          "version": "1.0.4",
+          "description": "-Basement Decent was removed as an extract in the latest version of SPT 3.11, as a result for a temporary quick fix we will be squating in 'Stylobate Elevator'",
+          "link": "https://forge.sp-tarkov.com/mod/download/2249/slunks-central-city-scc-for-ptt/1.0.4",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1069,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-10T10:15:56.000000Z",
+          "created_at": "2025-08-10T10:15:56.000000Z",
+          "updated_at": "2026-07-13T18:00:19.000000Z"
+        },
+        {
+          "id": 118,
+          "hub_id": 14775,
+          "version": "1.0.3",
+          "description": "-fixed woods transition from northern UN Roadblock transitioning to the wrong location, now its Streets Vents.\n\n-fixed woods not having transit to shoreline ('Outskirts River' is not a valid Extract I guess.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2249/slunks-central-city-scc-for-ptt/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 218,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-09T17:56:52.000000Z",
+          "created_at": "2025-08-09T17:56:52.000000Z",
+          "updated_at": "2026-07-13T18:00:20.000000Z"
+        },
+        {
+          "id": 119,
+          "hub_id": 14774,
+          "version": "1.0.2",
+          "description": "-Made a correction to Gas Gate Customs leading to wrong location on woods UN RoadBlock\n\n-Made a change so that Flea only works for Streets Hideout",
+          "link": "https://forge.sp-tarkov.com/mod/download/2249/slunks-central-city-scc-for-ptt/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 122,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-08-09T16:38:51.000000Z",
+          "created_at": "2025-08-09T16:38:51.000000Z",
+          "updated_at": "2026-07-13T18:00:20.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 2,
+        "hub_id": 79,
+        "title": "Overhauls",
+        "slug": "overhauls",
+        "description": "Large-scale mod packs that overhaul many game systems. Typically combines both client-side and server-side mods into one package."
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Slunkk/slunks-central-city",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11671,
+      "hub_id": 15073,
+      "version": "2.0.0",
+      "description": "<p>A New version of SCC V2.0.</p>\n<p>-HaaWkk has Created a new visual map for everyone to use along side the Mod. Looks Slick!!</p>\n<p>-We are no longer squatting in ‘Stylobate Elevator’ Thanks to HaaWkk’s help we were able convert one of the unused exfils to be the new central player hideout location</p>\n<p><strong>-Some map transitions have been altered slightly</strong></p>\n<p>-Skier is now a one-way to interchange (to cut down on interchange exfils being too close together)</p>\n<p>-AAT,CHEF,HARRY were moved to be with ragman Emercom and Dorms Vexfil no longer has traders and stash</p>\n<p>-Lighthouse grotto is now home to a new trader ‘Jiang Hu’ and has a one-way to shoreline island</p>\n<p>-Guiding light is now has a one-way to lighthouse docks</p>\n<p>-Reserve free access has been slightly moved to be in lighthouse tunnel now.</p>\n<p>-Streets now has a one-way to factory but bring a gasmask as its a hazard with realism mod.</p>\n<p>-Ground Zero now has a one-way to the side streets on the basement level. also nakatani links to baluga bar elevator now and is two way.</p>\n<p>-a bunch of modded traders have been moved around for balance (further balance in future)</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2249/slunks-central-city-scc-for-ptt/2.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 539,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-26T10:08:18.000000Z",
+      "created_at": "2025-09-26T10:08:18.000000Z",
+      "updated_at": "2025-09-26T10:08:18.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 115,
+      "hub_id": 14779,
+      "version": "1.0.4",
+      "description": "<p>-Basement Decent was removed as an extract in the latest version of SPT 3.11, as a result for a temporary quick fix we will be squating in ‘Stylobate Elevator’</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2249/slunks-central-city-scc-for-ptt/1.0.4",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1069,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-08-10T10:15:56.000000Z",
+      "created_at": "2025-08-10T10:15:56.000000Z",
+      "updated_at": "2026-07-13T18:00:19.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/file/d/1FGDudY74t9eTB2tFdWsAiAPp8zGTHiAf/view?usp=sharing"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "2.0.0",
+    "same_as_primary_download": true
+  }
+}

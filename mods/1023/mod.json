@@ -501,5 +501,27 @@
     "found": true,
     "version": "3.0.1",
     "same_as_primary_download": true
+  },
+  "download_311": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1023/wtt-artem-2.1.2-spt40.zip",
+    "bytes_written": 1636743911,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/781191123/e06a2765-d2fc-477e-8167-27f0e49eefa5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T15%3A52%3A26Z&rscd=attachment%3B+filename%3DArtem.2.1.2.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T14%3A51%3A48Z&ske=2026-08-10T15%3A52%3A26Z&sks=b&skv=2018-11-09&sig=uAexSejWNcPmM2HrWyLo84OJ0f%2ByDmElrw2SQZgNuOU%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODEzOCwibmJmIjoxNzg2Mzc0NTM4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.gykHADf6tI2CFilso67Ppi9udT7KKt3WABofcPg0DD8&response-content-disposition=attachment%3B%20filename%3DArtem.2.1.2.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "2.1.2",
+    "same_as_primary_download": false
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1023/wtt-artem-2.1.2-spt3114.zip",
+    "bytes_written": 1636743911,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/781191123/e06a2765-d2fc-477e-8167-27f0e49eefa5?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A47%3A21Z&rscd=attachment%3B+filename%3DArtem.2.1.2.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A47%3A21Z&ske=2026-08-10T16%3A47%3A21Z&sks=b&skv=2018-11-09&sig=HZaQAv4Ig1TKu0roel%2Bqqd47gMzNuPOn5slCRPhBQmY%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM4MTMzOSwibmJmIjoxNzg2Mzc3NzM5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ._mhm1Em4p8CX4kjOoWPuiwOxCoOgzG-DmVNNTV5cWEE&response-content-disposition=attachment%3B%20filename%3DArtem.2.1.2.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "2.1.2",
+    "same_as_primary_download": false
   }
 }

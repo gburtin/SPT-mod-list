@@ -1,0 +1,171 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2105,
+      "hub_id": 2791,
+      "guid": null,
+      "name": "BodySound",
+      "slug": "bodysound",
+      "teaser": "Customize the game's sounds to your liking Body mov / healing / UI sound [...] No more sound pollution you won't be caught off guard anymore",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2791.webp",
+      "downloads": 8070,
+      "favourites_count": 2,
+      "description": "<p>This mod lets you fine-tune the sound levels of each action individually in game.</p>\n<p>Fully configurable via the in-game F12 menu.</p>\n<p>Only affects your local player other PMCs or scavs remain untouched.</p>\n<ol>\n<li>\n<p><strong>Config : Only On Raid :</strong></p>\n<ul>\n<li>You can configure whether the sound system is active only during raids.</li>\n</ul>\n</li>\n<li>\n<p><strong>Weight-Based Body Sound Adjustment :</strong></p>\n<ul>\n<li>Body-related sounds can now have their volume automatically adjusted based on the player’s carried equipment weight.</li>\n<li>By default, the maximum weight is set to 95 kg.<br />\nYou can change this value if you are using other mods that modify player weight.</li>\n<li>Body sounds with a <strong>volume different from 100%</strong> are excluded from the weight-based adjustment and use their own configured volume.</li>\n</ul>\n<p>Adjust the volume of :</p>\n</li>\n</ol>\n<ul>\n<li>👣 <strong>Walking</strong></li>\n<li>🔄 <strong>Turning</strong></li>\n<li>🎒 <strong>Gear noise</strong></li>\n<li>🛑 <strong>Stopping</strong></li>\n<li>🏃 <strong>Sprinting</strong></li>\n<li>🦘 <strong>Jumping &amp; Landing</strong></li>\n<li><strong>🤸 Vault</strong></li>\n<li><strong>🚑🚑🚑 Medical (</strong> MedKit / Inject / Surger / Pills <strong>[…] ) 🚑🚑🚑</strong></li>\n</ul>\n<h3>Remove the volume of :</h3>\n<ul>\n<li><strong>🤏 looting / Weapon handling</strong></li>\n<li><strong>Drill</strong></li>\n<li><strong>💼 inventory opening/closing</strong></li>\n<li><strong>🍃 breath (near death / visor)</strong></li>\n<li><strong>🌑 Nocturne / Visor</strong> (<strong>On / Off)</strong></li>\n<li><strong>📚 UI (<strong>PickUp / Drop / Over button / Install Equip</strong>)</strong></li>\n<li><strong>📢 Notification</strong></li>\n<li><strong>[…]</strong></li>\n</ul>\n<div class=\"youtube-lite\" data-video-id=\"5ddVGEb59Jc\" data-embed-url=\"https://www.youtube-nocookie.com/embed/5ddVGEb59Jc?autoplay=1\"><img src=\"https://i.ytimg.com/vi/5ddVGEb59Jc/hqdefault.jpg\" alt=\"YouTube video thumbnail\" loading=\"lazy\" decoding=\"async\" /></div>\n<div class=\"youtube-lite\" data-video-id=\"1wrd3xb4loc\" data-embed-url=\"https://www.youtube-nocookie.com/embed/1wrd3xb4loc?autoplay=1\"><img src=\"https://i.ytimg.com/vi/1wrd3xb4loc/hqdefault.jpg\" alt=\"YouTube video thumbnail\" loading=\"lazy\" decoding=\"async\" /></div>\n<p>Installation :</p>\n<p>Exctract BodySound directory containing DLL to `\\\\BepInEx\\\\plugins\\\\</p>\n<p><strong>Troubleshooting / Debug Mode</strong></p>\n<p>If you encounter any <strong>issues</strong>, you can enable debug mode by editing the file:</p>\n<p><code>\\\\\\\\BepInEx\\\\\\\\plugins\\\\\\\\BodySound\\\\\\\\debug.cfg</code></p>\n<p>Set the value to: <code>true</code></p>\n<p>his will generate a <code>.txt</code> log file in the same folder to help identify the problem.</p>\n<p>Don’t leave debug mode enabled all the time — it may impact performance</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2105/bodysound",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-04-18T15:21:46.000000Z",
+      "created_at": "2025-04-18T15:21:46.000000Z",
+      "updated_at": "2026-07-07T16:59:07.000000Z",
+      "owner": {
+        "id": 48193,
+        "name": "Netnikogo",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/TOodhpGKeMkbouVX3gIRPmtGj7mfs7g4RGPUtwQU_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-04-13T04:34:25.000000Z",
+        "updated_at": "2026-07-10T04:51:07.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 362,
+          "hub_id": 14510,
+          "version": "1.0.5",
+          "description": "Bush sound management",
+          "link": "https://forge.sp-tarkov.com/mod/download/2105/bodysound/1.0.5",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 3642,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-24T10:17:27.000000Z",
+          "created_at": "2025-06-24T10:17:27.000000Z",
+          "updated_at": "2026-05-14T01:45:54.000000Z"
+        },
+        {
+          "id": 624,
+          "hub_id": 14214,
+          "version": "1.0.4",
+          "description": "FIx weight-based adjustment choice.\n\nBodySound Categories Only\n\n- Value with **100% = Auto-Calculating Weight** &lt;=&gt; Sound",
+          "link": "https://forge.sp-tarkov.com/mod/download/2105/bodysound/1.0.4",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1829,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-10T11:34:47.000000Z",
+          "created_at": "2025-05-10T11:34:47.000000Z",
+          "updated_at": "2026-05-14T01:52:52.000000Z"
+        },
+        {
+          "id": 698,
+          "hub_id": 14125,
+          "version": "1.0.3",
+          "description": "*Thx for your feed back*\n\n**New feature :**\n\n1. **Config : Only On Raid :**\n    - You can configure whether the sound system is active only during raids.\n2. **Weight-Based Body Sound Adjustment : @[S\\_gamez ](https://hub.sp-tarkov.com/user/25291-s-gamez/)**\n    - Body-related sounds can now have their volume automatically adjusted based on the player's carried equipment weight.\n    - Body sounds with a volume different from 100% are excluded from the weight-based adjustment and use their own configured volume.\n\n**New sound : @[Brin](https://hub.sp-tarkov.com/user/7923-brin/)**\n\n1. Drill (Un)load\n2. breath with visor\n3. breath PMC near dead / hurt\n4. Nocturne **On Off**\n5. **Visor On Off**\n\nve nice day",
+          "link": "https://forge.sp-tarkov.com/mod/download/2105/bodysound/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 861,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-29T18:43:20.000000Z",
+          "created_at": "2025-04-29T18:43:20.000000Z",
+          "updated_at": "2026-05-14T01:55:23.000000Z"
+        },
+        {
+          "id": 709,
+          "hub_id": 14114,
+          "version": "1.0.2",
+          "description": "**https://youtu.be/1wrd3xb4loc**\n\n**=== In-Game Sounds (related to your character) ===**\n\n**HandGrip**: Sounds of hand\n\n**Weapon In/Out**: Sounds of drawing and holstering a weapon\n\n**Switcher**: Sounds of switching\n\n**Medical Sounds**: Sounds related to healing\n\n- Medkits\n- Bandages\n- Surgical Kits\n- Injectors\n- Balms\n- Splints\n- Pill bottles\n\n=== Menu / Interface Sounds ===\n\n*I couldn't stand those sounds anymore...*\n\n**Equip**: Sounds of equipping items in the interface\n\n**PickUp**: Sounds of picking up items in the interface\n\n**Drop**: Sounds of dropping items in the interface\n\n**Over**: Sounds when hovering over items in the inventory\n\n**Install**: Sounds of installing attachments or upgrades\n\n**Inspector**: Sounds of opening windows\n\n**Notification**: System notification sounds @[higashi\\_35](https://hub.sp-tarkov.com/user/10070-higashi-35/)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2105/bodysound/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 342,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-28T17:16:23.000000Z",
+          "created_at": "2025-04-28T17:16:23.000000Z",
+          "updated_at": "2026-05-14T01:55:40.000000Z"
+        },
+        {
+          "id": 736,
+          "hub_id": 14086,
+          "version": "1.0.1",
+          "description": "2 new features :\n\n- Allows you to remove **the looting sound**\n- Allows you to remove the sound of the **inventory opening/closing**\n\n***(Changing the volume was way too complicated without getting into Unity engine natif C++)*\n\nAdd **Vault** sound on body sound with F12.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2105/bodysound/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 579,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-24T19:02:01.000000Z",
+          "created_at": "2025-04-24T19:02:01.000000Z",
+          "updated_at": "2026-05-14T01:56:02.000000Z"
+        },
+        {
+          "id": 778,
+          "hub_id": 14040,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2105/bodysound/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 817,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-18T15:21:46.000000Z",
+          "created_at": "2025-04-18T15:21:46.000000Z",
+          "updated_at": "2026-05-14T01:58:23.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/yox92/BodySound",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 362,
+      "hub_id": 14510,
+      "version": "1.0.5",
+      "description": "<p>Bush sound management</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2105/bodysound/1.0.5",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 3642,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-06-24T10:17:27.000000Z",
+      "created_at": "2025-06-24T10:17:27.000000Z",
+      "updated_at": "2026-05-14T01:45:54.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2105/BodySound.zip",
+    "bytes_written": 16286,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/968573467/7645b6d3-e346-486e-9319-147d66448405?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A43%3A01Z&rscd=attachment%3B+filename%3DBodySound.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A42%3A02Z&ske=2026-08-10T16%3A43%3A01Z&sks=b&skv=2018-11-09&sig=C3T%2BBHRIkLnIwtnYf9Zvo7DvD%2BYsaqoCgWjMDZBmPnw%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzEyNSwibmJmIjoxNzg2Mzc2ODI1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.76ncbBaP5gOlj8CIaZSqHT1IOrxVrryI2kSxLcbpw9Y&response-content-disposition=attachment%3B%20filename%3DBodySound.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.5",
+    "same_as_primary_download": true
+  }
+}

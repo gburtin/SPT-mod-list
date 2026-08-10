@@ -1,0 +1,147 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1924,
+      "hub_id": 2595,
+      "guid": null,
+      "name": "Weight-Less-Ammo Port to 3.11",
+      "slug": "weight-less-ammo-port-to-311",
+      "teaser": "Wanted this personally and ik quite a few people miss it so here it is. Oh yeah and trans rights are human rights",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2595.jpg",
+      "downloads": 10745,
+      "favourites_count": 0,
+      "description": "<p>If MNSTR ever wants this taken down, he can tell me as such, and I’ll do it without hesitation. <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1688-weightless-ammo/\" rel=\"noreferrer noopener\">Weightless Ammo</a> here’s the link to the original mod page</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1924/weight-less-ammo-port-to-311",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-12-30T05:06:22.000000Z",
+      "created_at": "2024-12-30T05:06:22.000000Z",
+      "updated_at": "2026-07-13T18:02:34.000000Z",
+      "owner": {
+        "id": 54735,
+        "name": "Turok",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=T&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2024-06-24T16:42:33.000000Z",
+        "updated_at": "2025-12-08T19:32:11.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 42161,
+          "name": "MNSTR",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/63ed734b6e442d78d0084f5b08a0efc06859e234_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2023-12-14T01:05:33.000000Z",
+          "updated_at": "2026-07-10T04:50:56.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 207,
+          "hub_id": 14670,
+          "version": "1.3.1",
+          "description": "Just an update to the version number to keep things organized",
+          "link": "https://forge.sp-tarkov.com/mod/download/1924/weight-less-ammo-port-to-311/1.3.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 3143,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-07-26T05:10:32.000000Z",
+          "created_at": "2025-07-26T05:10:32.000000Z",
+          "updated_at": "2026-07-13T18:00:28.000000Z"
+        },
+        {
+          "id": 1028,
+          "hub_id": 13758,
+          "version": "1.0.1",
+          "description": "Update to 3.11!",
+          "link": "https://forge.sp-tarkov.com/mod/download/1924/weight-less-ammo-port-to-311/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 5714,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-23T19:00:51.000000Z",
+          "created_at": "2025-03-23T19:00:51.000000Z",
+          "updated_at": "2026-07-13T18:01:34.000000Z"
+        },
+        {
+          "id": 1838,
+          "hub_id": 12870,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1924/weight-less-ammo-port-to-311/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 1888,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-30T05:06:22.000000Z",
+          "created_at": "2024-12-30T05:06:22.000000Z",
+          "updated_at": "2026-07-13T18:02:34.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 207,
+      "hub_id": 14670,
+      "version": "1.3.1",
+      "description": "<p>Just an update to the version number to keep things organized</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1924/weight-less-ammo-port-to-311/1.3.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 3143,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-07-26T05:10:32.000000Z",
+      "created_at": "2025-07-26T05:10:32.000000Z",
+      "updated_at": "2026-07-13T18:00:28.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1028,
+      "hub_id": 13758,
+      "version": "1.0.1",
+      "description": "<p>Update to 3.11!</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1924/weight-less-ammo-port-to-311/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 5714,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-23T19:00:51.000000Z",
+      "created_at": "2025-03-23T19:00:51.000000Z",
+      "updated_at": "2026-07-13T18:01:34.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/file/d/111gnCXhPovZwpzeVFsV4EclUhSpZGbJW/view?usp=sharing"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.3.1",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2122,
+      "hub_id": 2809,
+      "guid": null,
+      "name": "WTT - Fusion Hub",
+      "slug": "wtt-fusion-hub",
+      "teaser": "Want your front sight to have more picatinny rails? Now you can, thanks to the Fusion Hub!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2809.png",
+      "downloads": 2956,
+      "favourites_count": 0,
+      "description": "<p>Qwerty can do something other than port old and/or Oddba mods? Apparently so! With the help of the WTT Team, there’s now some spicy <em>new</em> bundles for you to add to your game!</p>\n<p>I’m happy to bring you the first thing I’ve made to the game, the Unity Fusion Hub - A picatinny front sight mount that allows you to have an above-bore attachment point as well as a front sight.</p>\n<p>Coming in Black and FDE with both folding and fixed irons, you can attach either a canted picatinny adapter, or two picatinny rails by foregoing the front sight. They can be purchased from Skier LL3,.</p>\n<p>Both 3.11 <em><strong>AND</strong></em> 3.10/3.9 downloads can be found at the link, make sure you grab the right one for your install!</p>\n<p>If anyone finds any bugs, lemme know in the comments and I can try to get them fixed - Since this is my first scratch-built I expect there might be one or two things I’ve forgotten.</p>\n<p>Credits to Tron, Groovey, Epic, and the rest of the team for helping me get these from blender all the way into the game.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2122/wtt-fusion-hub",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": true,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-05-02T03:15:38.000000Z",
+      "created_at": "2025-05-02T03:15:38.000000Z",
+      "updated_at": "2026-07-13T18:01:12.000000Z",
+      "owner": {
+        "id": 53632,
+        "name": "Qwertyalex",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/552e25a6551cc9c2fe049f7bd0b349a0d9098191_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-06-13T05:33:17.000000Z",
+        "updated_at": "2026-08-10T14:47:29.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 22121,
+          "name": "Tron",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/2e25bad47ca8504c2559e88fb16cea7adfc20189_128w.webp",
+          "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/719d357b66aa2a18f3bd21f3a8c192b0a8bdcc5d_1280w.webp",
+          "created_at": "2022-08-31T05:49:04.000000Z",
+          "updated_at": "2026-08-10T13:20:09.000000Z"
+        },
+        {
+          "id": 30890,
+          "name": "GrooveypenguinX",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/dbec02c8d33df986b0e101bea4deec01b992b02a_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2023-05-07T19:55:52.000000Z",
+          "updated_at": "2026-08-09T14:03:01.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 683,
+          "hub_id": 14142,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2122/wtt-fusion-hub/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2956,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-02T03:15:38.000000Z",
+          "created_at": "2025-05-02T03:15:38.000000Z",
+          "updated_at": "2026-07-13T18:01:12.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 683,
+      "hub_id": 14142,
+      "version": "1.0.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2122/wtt-fusion-hub/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2956,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-02T03:15:38.000000Z",
+      "created_at": "2025-05-02T03:15:38.000000Z",
+      "updated_at": "2026-07-13T18:01:12.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2122/wtt-fusion-hub-1.0.0",
+    "bytes_written": 526,
+    "final_url": "https://github.com/Qwertyalex11/TarkovModReleases/releases/tag/Fusion_Mounts_v1.0.0",
+    "content_type": "application/json; charset=utf-8"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

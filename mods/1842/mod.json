@@ -1,0 +1,124 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1842,
+      "hub_id": 2489,
+      "guid": null,
+      "name": "Troike's Woeful Art Traders (icons) - TWAT",
+      "slug": "troikes-woeful-art-traders-icons-twat",
+      "teaser": "Imagine if trader icons were good",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2489.png",
+      "downloads": 771,
+      "favourites_count": 0,
+      "description": "<p>Req TraderNamer -</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2093-trader-namer/\" rel=\"noreferrer noopener\">hub.sp-tarkov.com/files/file/2093-trader-namer/</a></p>\n<p>Objectively the right Icons mod</p>\n<p>Has custom traders</p>\n<p>Scorpion, Gunsmith, Painter, Priscilu, Lotus</p>\n<p>Just install over tradernamer and you’re golden (maybe you’ll have to clear temp files with the launcher idfk)</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1842/troikes-woeful-art-traders-icons-twat",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-11-15T03:16:49.000000Z",
+      "created_at": "2024-11-15T03:16:49.000000Z",
+      "updated_at": "2026-07-07T16:59:02.000000Z",
+      "owner": {
+        "id": 67550,
+        "name": "Troike",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=T&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2024-11-15T03:03:15.000000Z",
+        "updated_at": "2025-09-26T15:39:51.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 1846,
+          "hub_id": 12857,
+          "version": "1.0.2",
+          "description": "added support for a couple more traders (maybe they work)   \nupdated for 3.10.x",
+          "link": "https://forge.sp-tarkov.com/mod/download/1842/troikes-woeful-art-traders-icons-twat/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 415,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-29T08:36:59.000000Z",
+          "created_at": "2024-12-29T08:36:59.000000Z",
+          "updated_at": "2026-05-14T10:54:23.000000Z"
+        },
+        {
+          "id": 2414,
+          "hub_id": 12168,
+          "version": "1.0.1",
+          "description": "Now with your fave custom traders\n\nGunsmith, Scorpion, Priscilu, Painter, Lotus",
+          "link": "https://forge.sp-tarkov.com/mod/download/1842/troikes-woeful-art-traders-icons-twat/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 218,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-15T04:51:19.000000Z",
+          "created_at": "2024-11-15T04:51:19.000000Z",
+          "updated_at": "2026-05-14T10:54:59.000000Z"
+        },
+        {
+          "id": 2415,
+          "hub_id": 12167,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1842/troikes-woeful-art-traders-icons-twat/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 138,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-15T03:16:49.000000Z",
+          "created_at": "2024-11-15T03:16:49.000000Z",
+          "updated_at": "2026-05-14T10:54:59.000000Z"
+        }
+      ],
+      "license": {
+        "id": 15,
+        "hub_id": 18,
+        "name": "GNU GPLv3",
+        "link": "https://choosealicense.com/licenses/gpl-3.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 1846,
+      "hub_id": 12857,
+      "version": "1.0.2",
+      "description": "<p>added support for a couple more traders (maybe they work)<br />\nupdated for 3.10.x</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1842/troikes-woeful-art-traders-icons-twat/1.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 415,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-12-29T08:36:59.000000Z",
+      "created_at": "2024-12-29T08:36:59.000000Z",
+      "updated_at": "2026-05-14T10:54:23.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1842/troikes-woeful-art-traders-icons-twat-1.0.2",
+    "bytes_written": 590300,
+    "final_url": "https://files.catbox.moe/97jtks.7z",
+    "content_type": "application/x-7z-compressed"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.2",
+    "same_as_primary_download": true
+  }
+}

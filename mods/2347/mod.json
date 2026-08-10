@@ -1,0 +1,107 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2347,
+      "hub_id": null,
+      "guid": "com.epicrangetime.powerbeats",
+      "name": "PowerBeats Headphones",
+      "slug": "powerbeats-headphones",
+      "teaser": "A mod adding small ear protection for wearing with any helmet.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/Sh6dQmCrfa0MbR2tlV6ejapvbxwbZn4UJ5NPYMAh.jpg",
+      "downloads": 1583,
+      "favourites_count": 0,
+      "description": "<p>This is a mod that adds PowerBeats Pro headphones to the game.</p>\n<p>For game purposes these function exactly like Comtac IVs only that you can wear them under helmets that normally would block earpro.</p>\n<p>Thanks to Caleb for the mod idea and asking me to make it.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2347/powerbeats-headphones",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": true,
+      "cheat_notice": false,
+      "category_id": 15,
+      "published_at": "2025-10-10T06:11:00.000000Z",
+      "created_at": "2025-10-10T06:11:20.000000Z",
+      "updated_at": "2026-07-07T16:59:10.000000Z",
+      "owner": {
+        "id": 36153,
+        "name": "EpicRangeTime",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/80209a4aec54836a03e10eeabd944d2668084215_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/e92f6113cef81fe9a7ad58950e63d8fb25468163_1280w.webp",
+        "created_at": "2023-08-26T03:19:00.000000Z",
+        "updated_at": "2026-08-09T19:17:01.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11845,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Initial Version",
+          "link": "https://forge.sp-tarkov.com/mod/download/2347/powerbeats-headphones/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11",
+          "downloads": 1583,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-14T21:18:00.000000Z",
+          "created_at": "2025-10-14T21:37:36.000000Z",
+          "updated_at": "2026-05-14T06:39:49.000000Z"
+        }
+      ],
+      "license": {
+        "id": 16,
+        "hub_id": 19,
+        "name": "Creative Commons BY-NC-ND 4.0",
+        "link": "https://creativecommons.org/licenses/by-nc-nd/4.0/legalcode",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 15,
+        "hub_id": 78,
+        "title": "Equipment",
+        "slug": "equipment",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/EpicRangeTime/PowerBeats/",
+          "label": "Github"
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11845,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Initial Version</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2347/powerbeats-headphones/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11",
+      "downloads": 1583,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-14T21:18:00.000000Z",
+      "created_at": "2025-10-14T21:37:36.000000Z",
+      "updated_at": "2026-05-14T06:39:49.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2347/PowerBeats.1.0.0.zip",
+    "bytes_written": 1309386,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1076436642/bd0fb1ff-7dc4-49c2-bbcc-32d9f206928c?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A20%3A22Z&rscd=attachment%3B+filename%3DPowerBeats.1.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A20%3A05Z&ske=2026-08-10T16%3A20%3A22Z&sks=b&skv=2018-11-09&sig=gmVtdPUtrp%2Fyhb5ShpgpnyytT2xVSjSD9Ab5ZiVuR%2Bs%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzA2NSwibmJmIjoxNzg2Mzc2NzY1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.52gvldEhTJLxfj3ffKRfGBiO7NKau_258cqrw2tepv0&response-content-disposition=attachment%3B%20filename%3DPowerBeats.1.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

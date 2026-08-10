@@ -1,0 +1,113 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2080,
+      "hub_id": 2765,
+      "guid": null,
+      "name": "The Featherlight Redux",
+      "slug": "the-featherlight-redux",
+      "teaser": "The Featherlight Redux is an updated version of the original FeatherLight mod by Shardbyte, made compatible for SPT-AKI version 3.11.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2765.png",
+      "downloads": 4174,
+      "favourites_count": 0,
+      "description": "<p>This mod sets multiple categories of items to zero weight, giving players more freedom in how they move and manage inventory during raids. Whether you’re tired of getting slowed down by meds, food, or stacks of ammo, Featherlight Redux helps streamline your gameplay by making commonly carried items weightless.</p>\n<p><strong>Features:</strong></p>\n<ul>\n<li>Weightless item categories include ammo, throwables, food, drink, and medical supplies</li>\n<li>Improves mobility and stamina efficiency during raids</li>\n<li>Configurable settings to let you pick which categories you want to affect</li>\n<li>Lightweight and compatible with most other mods</li>\n</ul>\n<p><strong>Installation:</strong> To install download file, extract the zip and drag the user file into your spt directory.</p>\n<p>**Customization:**To customize which categories are weightless, simply edit the config.jsonc file in the mod’s folder. Toggle categories on or off, save your changes, and restart SPT for them to take effect.</p>\n<p>**Compatibility:**This version has been updated to work with SPT-AKI 3.11. It may work with future versions, but that’s not guaranteed. I’ll try my best to keep it updated as new SPT versions release, but no promises.</p>\n<p>**License:**This project is released under the MIT License, which allows for reuse, modification, and distribution with proper attribution. Please respect the terms of the license when using or sharing this mod.</p>\n<p>**Credits:**All credit for the original mod goes to Shardbyte. This is a reupload/redux for version 3.11 to ensure the community can still enjoy it on the latest version of SPT. If the original author would like me to take it down, I absolutely will upon request.</p>\n<p>Enjoy the lighter side of Tarkov with The Featherlight Redux!</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2080/the-featherlight-redux",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-04-03T18:59:27.000000Z",
+      "created_at": "2025-04-03T18:59:27.000000Z",
+      "updated_at": "2026-07-07T16:59:06.000000Z",
+      "owner": {
+        "id": 55333,
+        "name": "h3ticnade",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/317451a06f4f497a82ed099bab9db94b880c3408_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-07-03T20:56:19.000000Z",
+        "updated_at": "2026-07-10T04:51:20.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 1450,
+          "name": "chomp",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/8b5553070151eb62e0d18c268f338c0ed4c71368_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2021-01-10T12:20:24.000000Z",
+          "updated_at": "2026-08-09T10:10:01.000000Z"
+        },
+        {
+          "id": 59593,
+          "name": "Shardbyte",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/77bdfa183274cb70e11752230e6e2c9a6a0ede07_128w.webp",
+          "cover_photo_url": null,
+          "created_at": "2024-07-26T17:38:38.000000Z",
+          "updated_at": "2026-07-10T04:51:27.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 880,
+          "hub_id": 13922,
+          "version": "1.0.0",
+          "description": "version 1.0.0, for spt 3.11.2 and up for now",
+          "link": "https://forge.sp-tarkov.com/mod/download/2080/the-featherlight-redux/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 4174,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-03T18:59:27.000000Z",
+          "created_at": "2025-04-03T18:59:27.000000Z",
+          "updated_at": "2026-05-14T02:01:34.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 880,
+      "hub_id": 13922,
+      "version": "1.0.0",
+      "description": "<p>version 1.0.0, for spt 3.11.2 and up for now</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2080/the-featherlight-redux/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 4174,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-04-03T18:59:27.000000Z",
+      "created_at": "2025-04-03T18:59:27.000000Z",
+      "updated_at": "2026-05-14T02:01:34.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2080/TheFeatherlightRedux.zip",
+    "bytes_written": 7431,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/959999662/823f23b3-27f2-46c9-8e3c-aa677fee9064?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A18%3A20Z&rscd=attachment%3B+filename%3DTheFeatherlightRedux.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A17%3A26Z&ske=2026-08-10T16%3A18%3A20Z&sks=b&skv=2018-11-09&sig=1FaKPpILjIL0xylV1%2Bn8%2F53y3wriG0ZKKvL%2BZrREwc8%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NjU1MiwibmJmIjoxNzg2Mzc2MjUyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.m4v-cBF_itaqyBQnZt4H2W4ZlLHFDXkEyRxvU_GrT90&response-content-disposition=attachment%3B%20filename%3DTheFeatherlightRedux.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

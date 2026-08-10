@@ -1,0 +1,100 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2169,
+      "hub_id": 2871,
+      "guid": null,
+      "name": "Menu Hot Keys",
+      "slug": "menu-hot-keys",
+      "teaser": "A return of Inventory tabbing and keyboard navigation for 'some' of SPTs menus",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2871.jpg",
+      "downloads": 822,
+      "favourites_count": 0,
+      "description": "<p>Are you tired of having to use your mouse to navigate all of Tarkovs menus? Do you miss the old inventory tabbing mod? Well this may be for your!</p>\n<p>Menu Hot Keys began as an update to the 3.9 <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/2198-kztarkov-change-tabs-mod/\" rel=\"noreferrer noopener\">KZTarkov Change Tabs Mod</a> but has been extended considerably. Various menus can now be accessed with hotkeys from the main menu, the tabbing feature has been expanded and refined. In the player inventory it includes all current tabs and has end wrapping. This feature has also been expanded to work on the trader screen for selecting which trader you want to interact with as well as a separate key to select which service you want to use from said trader. Menu Hot Keys includes hotkeys to access various screens from the main menu including the Player screen, the Trader screen, the Flea market screen and the Hideout screen.</p>\n<p>Outside of the main menu hotkeys and the inventory/trader tabbing, there is basic menu items navigation. By default you use the W/S keys to navigate the menu with select being the spacebar. The screens that support this feature include: Main menu, Scav/PMC select menu, Raid location menu, Offline raid menu, Insurance menu.</p>\n<p>The keys can be configured in the F12 menu.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2169/menu-hot-keys",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-06-05T13:02:25.000000Z",
+      "created_at": "2025-06-05T13:02:25.000000Z",
+      "updated_at": "2026-07-13T18:00:58.000000Z",
+      "owner": {
+        "id": 59370,
+        "name": "Trenchf00t",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=T&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2024-07-24T16:11:38.000000Z",
+        "updated_at": "2025-11-01T13:33:32.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 466,
+          "hub_id": 14396,
+          "version": "1.0.0",
+          "description": "Updated download link to google drive till github fixes its issue with me.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2169/menu-hot-keys/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 822,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-05T13:02:25.000000Z",
+          "created_at": "2025-06-05T13:02:25.000000Z",
+          "updated_at": "2026-07-13T18:00:58.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/Trench-foot/MenuHotKeys",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 466,
+      "hub_id": 14396,
+      "version": "1.0.0",
+      "description": "<p>Updated download link to google drive till github fixes its issue with me.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2169/menu-hot-keys/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 822,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-06-05T13:02:25.000000Z",
+      "created_at": "2025-06-05T13:02:25.000000Z",
+      "updated_at": "2026-07-13T18:00:58.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/file/d/1-d1gChPPkVnxeOYtJ9uWKMvv0PYWvvaM/view?usp=sharing"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

@@ -253,5 +253,16 @@
     "target_version": "4.0.13",
     "version": "1.4.0",
     "same_as_primary_download": false
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1533/more-tag-colours-1.3.0-spt3114.zip",
+    "bytes_written": 4701,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/825551928/99dff9e6-c143-4073-b21a-d3ec17964cb3?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A44%3A49Z&rscd=attachment%3B+filename%3Dacidphantasm-moretagcolours.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A43%3A59Z&ske=2026-08-10T16%3A44%3A49Z&sks=b&skv=2018-11-09&sig=8VHT2LDL0OG5aZrhwBb4THf%2FuN6IvOf0lBFySgPsQks%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODE1NSwibmJmIjoxNzg2Mzc3ODU1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.My7TDkvAR4O-vonkXUlLYQj3AztFt11ULKkCKjDZAis&response-content-disposition=attachment%3B%20filename%3Dacidphantasm-moretagcolours.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "1.3.0",
+    "same_as_primary_download": false
   }
 }

@@ -1,0 +1,217 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1462,
+      "hub_id": 2019,
+      "guid": null,
+      "name": "Immersive Daylight Cycle",
+      "slug": "immersive-daylight-cycle",
+      "teaser": "Immersive, Semi-Hardcore Time System!\r\n-Time is paused when out of raid\r\n-Only one time available when entering a raid based on what time it was when you left your last raid\r\n-Configurable daylight cycle rate and more!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2019.jpg",
+      "downloads": 6757,
+      "favourites_count": 1,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Overview</div>\n<div class=\"tab-content\"><p>This mod does the following:</p>\n<ul>\n<li>Pauses in-game time when out of raid</li>\n<li>Slows down the daylight cycle in raid from 7x IRL speed to 5x. (configurable)</li>\n<li>Stores a current out of raid time based on when you left your last raid (can be changed manually in the config)</li>\n<li>When you exit a raid, the current in-game time + a time jump of 1 hour (configurable) will be saved and used when you enter the next raid</li>\n<li>When you die, the time will reset to 8 am (configurable)</li>\n<li>Factory will be locked to day or night depending on the current saved time\n<ul>\n<li>Night time for Factory starts at 21:00 and ends at 06:00</li>\n<li>You can disable the time system specifically for Factory in the config if you’d rather still be able to choose the time on that map</li>\n</ul>\n</li>\n</ul>\n<p>NOTE: This mod will NOT affect hideout craft times or trader restocks. You will need to adjust the server-side time rate via SVM or similar to change that.</p>\n<p><strong>If you’d like to support my work, you can <a target=\"_blank\" class=\"external-link\" href=\"https://ko-fi.com/jehree\" rel=\"noreferrer noopener\">buy me a coffee!</a></strong></p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Installation</div>\n<div class=\"tab-content\"><ol>\n<li>Click the big blue <strong>DOWNLOAD</strong> button in the top right</li>\n<li>Select the correct version</li>\n<li>Drag contents of the zip into the folder you installed SPT to:</li>\n</ol>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://i.imgur.com/mZ1aLrW.gif\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/mZ1aLrW.gif\" alt=\"mZ1aLrW.gif\" /></a></p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Credits</div>\n<div class=\"tab-content\"><p><strong>MASSIVE</strong> thanks to the many awesome people who helped me both with this mod, as well as with learning how to make client mods in general!</p>\n<ul>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/30839-drakiaxyz/\" rel=\"noreferrer noopener\">DrakiaXYZ</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/37201-dirtbikercj/\" rel=\"noreferrer noopener\">Cj</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/user-file-list/51211-lacyway/\" rel=\"noreferrer noopener\">Lacyway</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/16882-arys/\" rel=\"noreferrer noopener\">Arys</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/12898-cwx/\" rel=\"noreferrer noopener\">CWX</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/50720-mpstark/\" rel=\"noreferrer noopener\">mpstark</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/49246-tyfon/\" rel=\"noreferrer noopener\">Tyfon</a></li>\n<li><a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/40264-djlang/\" rel=\"noreferrer noopener\">DJ</a></li>\n</ul>\n<p>…and probably more. Yell at me if I missed you!</p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1462/immersive-daylight-cycle",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-06-05T04:14:55.000000Z",
+      "created_at": "2024-06-05T04:14:55.000000Z",
+      "updated_at": "2026-07-13T18:05:12.000000Z",
+      "owner": {
+        "id": 29457,
+        "name": "Jehree",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/b76a842c5be538441b8116448f409081876f9783_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2023-03-30T17:43:41.000000Z",
+        "updated_at": "2026-08-07T18:40:36.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 994,
+          "hub_id": 13795,
+          "version": "2.2.0",
+          "description": "**For SPT 3.11.X Only**\n\nSPT 3.11 update",
+          "link": "https://forge.sp-tarkov.com/mod/download/1462/immersive-daylight-cycle/2.2.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1958,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-25T15:29:57.000000Z",
+          "created_at": "2025-03-25T15:29:57.000000Z",
+          "updated_at": "2026-05-14T02:02:54.000000Z"
+        },
+        {
+          "id": 1789,
+          "hub_id": 12925,
+          "version": "2.1.0",
+          "description": "**For SPT 3.10.X Only**\n\n- Time data is now stored in the new server mod backend\n- Raids that last 5 minutes or less won't experience a time jump, instead they will only advance by the amount of time spent in the raid \\* the cycle rate. Idea here is to make super short raids still feel short.\n- Fika compatibility improved\n- Full patch notes here: <https://github.com/Jehree/SPT-ImmersiveDaylightCycle/releases/tag/v2.1.0>",
+          "link": "https://forge.sp-tarkov.com/mod/download/1462/immersive-daylight-cycle/2.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 543,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-02T01:38:19.000000Z",
+          "created_at": "2025-01-02T01:38:19.000000Z",
+          "updated_at": "2026-07-13T18:02:34.000000Z"
+        },
+        {
+          "id": 1643,
+          "hub_id": 13093,
+          "version": "2.1.0+hf1",
+          "description": "**For SPT 3.10.X Only**\n\nHotfix that fixes issue where hour value could sometimes be greater than 23, causing UI bugs and crashes on raid start with errors about invalid time data.  \n  \nThank you Dicey for reporting it and testing the fix!",
+          "link": "https://forge.sp-tarkov.com/mod/download/1462/immersive-daylight-cycle/2.1.0+hf1",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 1076,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-13T15:43:38.000000Z",
+          "created_at": "2025-01-13T15:43:38.000000Z",
+          "updated_at": "2026-05-14T02:31:53.000000Z"
+        },
+        {
+          "id": 3249,
+          "hub_id": 11124,
+          "version": "2.0.0",
+          "description": "Sorry it took so long to update! Should be version agnostic for 3.9.X+",
+          "link": "https://forge.sp-tarkov.com/mod/download/1462/immersive-daylight-cycle/2.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.9.0",
+          "downloads": 1570,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-07-30T01:05:54.000000Z",
+          "created_at": "2024-07-30T01:05:54.000000Z",
+          "updated_at": "2026-07-13T18:04:06.000000Z"
+        },
+        {
+          "id": 4002,
+          "hub_id": 10173,
+          "version": "1.0.0",
+          "description": "This version will ONLY work on SPT 3.8.X versions!\n\nOnce the SPT 3.9.0 update is released, it should be version agnostic going forward.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1462/immersive-daylight-cycle/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "3.9.0",
+          "downloads": 1610,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-06-05T04:14:55.000000Z",
+          "created_at": "2024-06-05T04:14:55.000000Z",
+          "updated_at": "2026-07-13T18:05:12.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/Jehree/ImmersiveDaylightCycle",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 994,
+      "hub_id": 13795,
+      "version": "2.2.0",
+      "description": "<p><strong>For SPT 3.11.X Only</strong></p>\n<p>SPT 3.11 update</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1462/immersive-daylight-cycle/2.2.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1958,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-25T15:29:57.000000Z",
+      "created_at": "2025-03-25T15:29:57.000000Z",
+      "updated_at": "2026-05-14T02:02:54.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1789,
+      "hub_id": 12925,
+      "version": "2.1.0",
+      "description": "<p><strong>For SPT 3.10.X Only</strong></p>\n<ul>\n<li>Time data is now stored in the new server mod backend</li>\n<li>Raids that last 5 minutes or less won’t experience a time jump, instead they will only advance by the amount of time spent in the raid * the cycle rate. Idea here is to make super short raids still feel short.</li>\n<li>Fika compatibility improved</li>\n<li>Full patch notes here: <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/Jehree/SPT-ImmersiveDaylightCycle/releases/tag/v2.1.0\" rel=\"noreferrer noopener\">https://github.com/Jehree/SPT-ImmersiveDaylightCycle/releases/tag/v2.1.0</a></li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1462/immersive-daylight-cycle/2.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 543,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-01-02T01:38:19.000000Z",
+      "created_at": "2025-01-02T01:38:19.000000Z",
+      "updated_at": "2026-07-13T18:02:34.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 1643,
+      "hub_id": 13093,
+      "version": "2.1.0+hf1",
+      "description": "<p><strong>For SPT 3.10.X Only</strong></p>\n<p>Hotfix that fixes issue where hour value could sometimes be greater than 23, causing UI bugs and crashes on raid start with errors about invalid time data.</p>\n<p>Thank you Dicey for reporting it and testing the fix!</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1462/immersive-daylight-cycle/2.1.0+hf1",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 1076,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-01-13T15:43:38.000000Z",
+      "created_at": "2025-01-13T15:43:38.000000Z",
+      "updated_at": "2026-05-14T02:31:53.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 3249,
+      "hub_id": 11124,
+      "version": "2.0.0",
+      "description": "<p>Sorry it took so long to update! Should be version agnostic for 3.9.X+</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1462/immersive-daylight-cycle/2.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.9.0",
+      "downloads": 1570,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-07-30T01:05:54.000000Z",
+      "created_at": "2024-07-30T01:05:54.000000Z",
+      "updated_at": "2026-07-13T18:04:06.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 4002,
+      "hub_id": 10173,
+      "version": "1.0.0",
+      "description": "<p>This version will ONLY work on SPT 3.8.X versions!</p>\n<p>Once the SPT 3.9.0 update is released, it should be version agnostic going forward.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1462/immersive-daylight-cycle/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "3.9.0",
+      "downloads": 1610,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-06-05T04:14:55.000000Z",
+      "created_at": "2024-06-05T04:14:55.000000Z",
+      "updated_at": "2026-07-13T18:05:12.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1462/ImmersiveDaylightCycle-2.2.0.zip",
+    "bytes_written": 19164,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/809514380/d63ce7f7-90a0-4a54-a7b8-50f839ec7d87?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A49%3A09Z&rscd=attachment%3B+filename%3DImmersiveDaylightCycle-2.2.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A48%3A30Z&ske=2026-08-10T16%3A49%3A09Z&sks=b&skv=2018-11-09&sig=r6f0ydIMA13WTUfoaQyUrh3VvavIftp0DMrKnBjTLa0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzU0NCwibmJmIjoxNzg2Mzc3MjQ0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.WmGPayYe-X4UKuUT-WRBkauWgPjx07zaeaqmKeJP_eM&response-content-disposition=attachment%3B%20filename%3DImmersiveDaylightCycle-2.2.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "2.2.0",
+    "same_as_primary_download": true
+  }
+}

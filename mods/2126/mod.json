@@ -1,0 +1,129 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2126,
+      "hub_id": 2814,
+      "guid": null,
+      "name": "In-Raid Traders",
+      "slug": "in-raid-traders",
+      "teaser": "A Mod to add In-Raid traders to Single Player Tarkov",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2814.webp",
+      "downloads": 2711,
+      "favourites_count": 0,
+      "description": "<h3>In-Raid Traders</h3>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://img.shields.io/github/license/srwxr-xr-x/InRaidTraders.svg\" alt=\"InRaidTraders.svg\" /><img loading=\"lazy\" decoding=\"async\" src=\"https://img.shields.io/github/issues/srwxr-xr-x/InRaidTraders.svg\" alt=\"InRaidTraders.svg\" /></p>\n<h2>Installation</h2>\n<p>You will need <strong>SPT version 3.11.x</strong> installed. Unzip and drag the mod into the root of your SPT install, where the EXE is located.</p>\n<p>The mod should be under the path <em>SPTLocation/BepInEx/plugins/In-RaidTraders.-Core</em>, and <em>SPTLocation/user/mods/InRaidTraders-Server/</em></p>\n<h2><em>Trying to find the traders and need help? Or just a trader modder who wants to add your trader? Check out the wiki!<br />\n<a target=\"_blank\" class=\"external-link\" href=\"https://github.com/srwxr-xr-x/InRaidTraders/wiki\" rel=\"noreferrer noopener\">https://github.com/srwxr-xr-x/InRaidTraders/wiki</a></em></h2>\n<p><strong>Traders are by default ONLY in raid, the traders button is disabled and removed in the main menu unless you have modded traders not compatible with IRT. There is a configuration option to add them in the main menu <em>and</em> in raid, “*Enable Traders out of raid?”.</strong>*</p>\n<h2><strong>!!THIS IS BETA SOFTWARE!!</strong></h2>\n<h2><strong>Traders are BY DESIGN only Interactable cubes at this point! I was working with WTT but due to conflicts with team members, that has been severed. I will eventually add my own trader models, but this is going to take very long.</strong></h2>\n<h2>Reporting Issues and Bugs</h2>\n<p>You can report bugs and crashes by opening an issue on our <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/srwxr-xr-x/InRaidTraders/issues\" rel=\"noreferrer noopener\">Issue Tracker</a>.</p>\n<h2>Building with Rider</h2>\n<p>In-RaidTraders uses a typical C# project structure and can be built by simply running the default <em>Debug</em> or <em>Release</em> task.</p>\n<p>After Rider finishes building the project, you can find the built mod in <em>bin/Debug</em> or <em>bin/Release</em>. Feel free to open a pull request!</p>\n<h2>Development</h2>\n<p>If you are going to help develop the mod (which I highly recommend!) I only ask that you pull request your feature!</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i0.wp.com/thewomxnproject.org/wp-content/uploads/2018/10/transrights.png?w=851&amp;ssl=1\" alt=\"transrights.png?w=851&amp;ssl=1\" /></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2126/in-raid-traders",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-05-05T09:23:10.000000Z",
+      "created_at": "2025-05-05T09:23:10.000000Z",
+      "updated_at": "2026-07-07T16:59:07.000000Z",
+      "owner": {
+        "id": 75028,
+        "name": "Lillian",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/a6d1831147a38401dde9ac7ae91e537fefc77e2d_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-03-17T22:53:36.000000Z",
+        "updated_at": "2026-07-10T04:51:53.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 645,
+          "hub_id": 14192,
+          "version": "1.2.1",
+          "description": "**Changelog**\n\n\\- Added the ability for custom traders to spawn on multiple maps, as well as a spawn chance.\n\n\\- Added the ability to enable traders out of raid in the menu\n\n#### !!NOTE!! THIS VERSION IS MISSING RAGMAN AND CUSTOM TRADER SERVICES! THIS WILL BE FIXED!\n\n*Note: Suggestions to the mod and pull requests are highly encouraged!*",
+          "link": "https://forge.sp-tarkov.com/mod/download/2126/in-raid-traders/1.2.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2113,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-07T07:13:14.000000Z",
+          "created_at": "2025-05-07T07:13:14.000000Z",
+          "updated_at": "2026-05-14T01:53:38.000000Z"
+        },
+        {
+          "id": 654,
+          "hub_id": 14175,
+          "version": "1.1.0",
+          "description": "This version contains a fix for a major error\n\n**Changelog**\n\n\\- Fixed a major error removing the container and adding a dogtag to the character on trader menu opened.\n\n###  !!NOTE!! THIS VERSION IS MISSING RAGMAN SERVICES, AS WELL AS THE ABILITY FOR ADDED CUSTOM TRADERS TO BE ON MULTIPLE MAPS!!! THIS WILL BE FIXED!\n\n*Note: Suggestions to the mod and pull requests are highly encouraged!*",
+          "link": "https://forge.sp-tarkov.com/mod/download/2126/in-raid-traders/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 287,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-06T00:04:52.000000Z",
+          "created_at": "2025-05-06T00:04:52.000000Z",
+          "updated_at": "2026-05-14T01:53:41.000000Z"
+        },
+        {
+          "id": 660,
+          "hub_id": 14168,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2126/in-raid-traders/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 311,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-05T09:23:10.000000Z",
+          "created_at": "2025-05-05T09:23:10.000000Z",
+          "updated_at": "2026-05-14T01:53:43.000000Z"
+        }
+      ],
+      "license": {
+        "id": 15,
+        "hub_id": 18,
+        "name": "GNU GPLv3",
+        "link": "https://choosealicense.com/licenses/gpl-3.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/srwxr-xr-x/InRaidTraders",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 645,
+      "hub_id": 14192,
+      "version": "1.2.1",
+      "description": "<p><strong>Changelog</strong></p>\n<p>- Added the ability for custom traders to spawn on multiple maps, as well as a spawn chance.</p>\n<p>- Added the ability to enable traders out of raid in the menu</p>\n<h4>!!NOTE!! THIS VERSION IS MISSING RAGMAN AND CUSTOM TRADER SERVICES! THIS WILL BE FIXED!</h4>\n<p><em>Note: Suggestions to the mod and pull requests are highly encouraged!</em></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2126/in-raid-traders/1.2.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2113,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-07T07:13:14.000000Z",
+      "created_at": "2025-05-07T07:13:14.000000Z",
+      "updated_at": "2026-05-14T01:53:38.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2126/InRaidTraders.v1.2.1.zip",
+    "bytes_written": 326158,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/966500046/efb0e738-0976-4943-b305-d50d00f18d90?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A42%3A17Z&rscd=attachment%3B+filename%3DInRaidTraders.v1.2.1.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A42%3A13Z&ske=2026-08-10T16%3A42%3A17Z&sks=b&skv=2018-11-09&sig=pmcT6SYkwtO%2FcOqY4qVgePM843fU5PrwiuvkWNNjR4o%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzE4OCwibmJmIjoxNzg2Mzc2ODg4LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.jiJ2gu15F6-uYDfPYU0RWu9nIiZHsVmOzmJWsry2w0g&response-content-disposition=attachment%3B%20filename%3DInRaidTraders.v1.2.1.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.2.1",
+    "same_as_primary_download": true
+  }
+}

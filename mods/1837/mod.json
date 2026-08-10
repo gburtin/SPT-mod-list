@@ -1,0 +1,153 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1837,
+      "hub_id": 2484,
+      "guid": null,
+      "name": "FIREARM DEAFEN- REUPLOAD",
+      "slug": "firearm-deafen-reupload",
+      "teaser": "update for a mod that I personally needed",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2484.png",
+      "downloads": 4720,
+      "favourites_count": 0,
+      "description": "<p>This just makes it so that firing guns without any ear pro or suppressors make your character’s ears ring<br />\n(Also now stationary weapons give you concussion, because they should)</p>\n<p>BTW DVL-50 by SiulSC (<a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1699-dvl-50-50-cal-single-shot-bolt-action-sniper-rifle/\" rel=\"noreferrer noopener\">DVL-50 .50 Cal Single-Shot Bolt-Action Sniper Rifle</a>) will give you concussion too(ofc only if you are not using earpro)</p>\n<p>original mod page - <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/838-firearm-deafen/\" rel=\"noreferrer noopener\">Firearm Deafen</a></p>\n<p>any feedback on possible errors is welcome, only tested it on my pc for now</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1837/firearm-deafen-reupload",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-11-12T04:09:39.000000Z",
+      "created_at": "2024-11-12T04:09:39.000000Z",
+      "updated_at": "2026-07-13T18:03:06.000000Z",
+      "owner": {
+        "id": 66779,
+        "name": "Radzig",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/50b655e8cba1b981e4c5032d05eaf2fae7e9c068_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/4352b897b249ba033e0ac4d7b130a8ee79b61e48_1280w.webp",
+        "created_at": "2024-11-07T15:36:09.000000Z",
+        "updated_at": "2026-07-10T04:57:06.000000Z"
+      },
+      "additional_authors": [
+        {
+          "id": 3786,
+          "name": "Kobrakon",
+          "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/b190231b33c6e4490651994c58c724e72ce38e52_128w.webp",
+          "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/15928fed480f0b16841c521b014647a495ad7d62.png",
+          "created_at": "2021-04-05T03:41:00.000000Z",
+          "updated_at": "2026-07-10T04:56:44.000000Z"
+        }
+      ],
+      "versions": [
+        {
+          "id": 1062,
+          "hub_id": 13721,
+          "version": "1.3.0",
+          "description": "SPT 3.11 recompile  \nthank god I did not have to change code like last time, bcs I forgor everything from the last time   \nAlmost no testing was done, but if you find any errors **PLS RECORD THEM AND SEND THEM TO ME OTHERWISE I WILL DO NOTHING**",
+          "link": "https://forge.sp-tarkov.com/mod/download/1837/firearm-deafen-reupload/1.3.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2191,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-21T19:40:35.000000Z",
+          "created_at": "2025-03-21T19:40:35.000000Z",
+          "updated_at": "2026-07-13T18:01:36.000000Z"
+        },
+        {
+          "id": 2320,
+          "hub_id": 12287,
+          "version": "1.2.0",
+          "description": "### **SPT 3.10 ONLY**",
+          "link": "https://forge.sp-tarkov.com/mod/download/1837/firearm-deafen-reupload/1.2.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 1941,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-26T19:42:37.000000Z",
+          "created_at": "2024-11-26T19:42:37.000000Z",
+          "updated_at": "2026-07-13T18:02:59.000000Z"
+        },
+        {
+          "id": 2429,
+          "hub_id": 12153,
+          "version": "1.1.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/1837/firearm-deafen-reupload/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 588,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-12T04:09:39.000000Z",
+          "created_at": "2024-11-12T04:09:39.000000Z",
+          "updated_at": "2026-07-13T18:03:06.000000Z"
+        }
+      ],
+      "license": {
+        "id": 6,
+        "hub_id": 8,
+        "name": "Creative Commons BY-NC-ND 3.0",
+        "link": "http://creativecommons.org/licenses/by-nc-nd/3.0/legalcode",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/Radzig-Kobyla/FirearmDeafenbykobrakon-Reupload",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 1062,
+      "hub_id": 13721,
+      "version": "1.3.0",
+      "description": "<p>SPT 3.11 recompile<br />\nthank god I did not have to change code like last time, bcs I forgor everything from the last time<br />\nAlmost no testing was done, but if you find any errors <strong>PLS RECORD THEM AND SEND THEM TO ME OTHERWISE I WILL DO NOTHING</strong></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1837/firearm-deafen-reupload/1.3.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2191,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-21T19:40:35.000000Z",
+      "created_at": "2025-03-21T19:40:35.000000Z",
+      "updated_at": "2026-07-13T18:01:36.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2320,
+      "hub_id": 12287,
+      "version": "1.2.0",
+      "description": "<h3><strong>SPT 3.10 ONLY</strong></h3>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1837/firearm-deafen-reupload/1.2.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 1941,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-11-26T19:42:37.000000Z",
+      "created_at": "2024-11-26T19:42:37.000000Z",
+      "updated_at": "2026-07-13T18:02:59.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1837/firearm-deafen-reupload-1.3.0",
+    "bytes_written": 510,
+    "final_url": "https://github.com/Radzig-Kobyla/FirearmDeafenbykobrakon-Reupload/releases/tag/3.11",
+    "content_type": "application/json; charset=utf-8"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.3.0",
+    "same_as_primary_download": true
+  }
+}

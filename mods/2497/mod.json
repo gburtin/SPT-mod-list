@@ -1,0 +1,107 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2497,
+      "hub_id": null,
+      "guid": null,
+      "name": "Quest Keys At Traders",
+      "slug": "quest-keys-at-traders",
+      "teaser": "Traders now sell quest keys!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/0zFPnKxaJ2mnV3t9N0G6q8gOFJ4Kyf2li1c5ACiH.png",
+      "downloads": 408,
+      "favourites_count": 0,
+      "description": "<p>I play SPT without flea and I find it almost impossible to find most of the keys.</p>\n<p>I don’t like using mods that will make keys spawn randomly as I endup with too many keys and I want somewhat of a challenge</p>\n<p><strong>Solution:</strong> Traders have to sell some keys!</p>\n<h4>Please let me know if I missed any keys.</h4>\n<p>This mod should work on SPT 3.8 and up to 3.11.4 (If you are on a version earlier than .11, just update the SPT version in package.json).</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2497/quest-keys-at-traders",
+      "fika_compatibility": true,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 7,
+      "published_at": "2025-12-12T13:06:00.000000Z",
+      "created_at": "2025-12-12T14:06:35.000000Z",
+      "updated_at": "2026-07-07T16:59:14.000000Z",
+      "owner": {
+        "id": 69214,
+        "name": "FallegaHQ",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bffaad855ea2df626bce720aaae9c3686055ea75_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-12-08T21:25:53.000000Z",
+        "updated_at": "2026-08-05T01:56:18.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 12581,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Initial release!\nPlease let me know if I missed any keys!",
+          "link": "https://forge.sp-tarkov.com/mod/download/2497/quest-keys-at-traders/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": ">=3.8.0 <3.12.0",
+          "downloads": 408,
+          "fika_compatibility": "compatible",
+          "published_at": "2025-12-12T13:08:00.000000Z",
+          "created_at": "2025-12-12T14:10:02.000000Z",
+          "updated_at": "2026-05-14T08:39:19.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 7,
+        "hub_id": 24,
+        "title": "Quests",
+        "slug": "quests",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/FallegaHQ/FallegaHQ-QuestKeys",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 12581,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Initial release!\nPlease let me know if I missed any keys!</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2497/quest-keys-at-traders/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": ">=3.8.0 <3.12.0",
+      "downloads": 408,
+      "fika_compatibility": "compatible",
+      "published_at": "2025-12-12T13:08:00.000000Z",
+      "created_at": "2025-12-12T14:10:02.000000Z",
+      "updated_at": "2026-05-14T08:39:19.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2497/fallegahq-questkeystradermod.zip",
+    "bytes_written": 8421,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1115201687/22e21c0a-562f-4064-8da6-045f2d96e075?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A45%3A40Z&rscd=attachment%3B+filename%3Dfallegahq-questkeystradermod.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A44%3A57Z&ske=2026-08-10T16%3A45%3A40Z&sks=b&skv=2018-11-09&sig=jVOAESD2%2FAycNPTHcLGlqX9ufv0nZG65kkTF7msc1AI%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzA4NSwibmJmIjoxNzg2Mzc2Nzg1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.nhsP2a6kzRHQuZFCKYEZbFBqWjY9HdF67a3BO1RAOOY&response-content-disposition=attachment%3B%20filename%3Dfallegahq-questkeystradermod.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

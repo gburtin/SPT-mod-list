@@ -1,0 +1,158 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1852,
+      "hub_id": 2499,
+      "guid": null,
+      "name": "Dynamic Goons",
+      "slug": "dynamic-goons",
+      "teaser": "Simulates the Goons rotating from map-to-map in SPT.",
+      "thumbnail": "",
+      "downloads": 17636,
+      "favourites_count": 1,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">FEATURES</div>\n<div class=\"tab-content\"><p>- Map-to-map rotation for the Goons.</p>\n<p>- Increased rotation chance the longer they stay on a map.</p>\n<p>- Custom chat bot to help track the Goons’ location and rotation chances.</p>\n<p>- Configurable spawn chances.</p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">INSTALLATION</div>\n<div class=\"tab-content\"><p>Simply drag and drop the contents of the zip into your SPT installation folder.</p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">CHAT BOT</div>\n<div class=\"tab-content\"><p>The mod introduces a chat bot that you can access via the in-game friends list. You can type commands to the chat bot to get the latest updates on the Goons’ reported locations and rotation chance.</p>\n<p>available commands:</p>\n<p>- goons track</p>\n<p>- goons rotation</p></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">CONFIGURATION</div>\n<div class=\"tab-content\"><p>{ “debugLogs”: false, “preventSameMapRotation”: false, “goonsSpawnChance”: 35, “rotationInterval”: 180 } preventSameMapRotation:</p>\n<p>Prevents the Goons from rotating to the same map consecutively.</p>\n<p>- true: The Goons will always rotate to a different map.</p>\n<p>- false: The Goons will be able to rotate to the same map they were on previously I.E Customs → Customs.</p>\n<p>rotationInterval:</p>\n<p>Maximum time (in minutes) the Goons can stay on a map.</p>\n<p>- Default 180 minutes (3 hours). The longer they stay on a map, the higher the chance they will rotate to a new one after a raid.</p></div></div>\n<div id=\"tabset-1-panel-5\" class=\"tab-panel\"><div class=\"tab-title\">ROTATION</div>\n<div class=\"tab-content\"><p>In base SPT, the Goons have a static 35% spawn chance per raid on their designated maps. However, this mod implements a rotation mechanic that simulates the Goons traveling through four maps: Customs, Woods, Shoreline, and Lighthouse. By default, the Goons typically stay on a single map for approximately 3 hours. Their spawn chances are adjusted to reflect their current location. For example, if they are on Customs then their spawn chance will be 30% (Configurable) on Customs, and 0% on other maps.</p>\n<p>Rotations occur only at <strong>server start</strong> or <strong>after completing a raid</strong>. At these points, the mod evaluates whether the Goons should rotate to a new map, with the rotation chance increasing the longer they’ve stayed on their current map. This chance grows over time and is capped at 100%, ensuring they eventually move.</p>\n<p>This is meant to simulate their behavior on live EFT.</p>\n<p>According to the patch notes of <a target=\"_blank\" class=\"external-link\" href=\"https://escapefromtarkov.fandom.com/wiki/Changelog#0.12.12.30_(28_Jun_2022)\" rel=\"noreferrer noopener\">patch 0.12.12.30</a>, which introduced <a target=\"_blank\" class=\"external-link\" href=\"https://escapefromtarkov.fandom.com/wiki/The_Goons\" rel=\"noreferrer noopener\">the Goon squad</a>, they “do not stay in one location, but wander through them” and “if they are at one location, they will be absent from the others”</p></div></div>\n<div id=\"tabset-1-panel-6\" class=\"tab-panel\"><div class=\"tab-title\">COMPATIBILITY</div>\n<div class=\"tab-content\"><p>Should work out-of-the-box with Questing Bots, as that’s the system I’ve built the mod with in mind. From my limited testing, MOAR should also work without requiring any changes to the load order. However, <strong>this mod is not compatible with SWAG</strong>. If you want to use this mod with SWAG, you will need to load this mod after SWAG to overwrite their boss spawn changes.</p></div></div>\n<div id=\"tabset-1-panel-7\" class=\"tab-panel\"><div class=\"tab-title\">CREDITS</div>\n<div class=\"tab-content\"><p>- Chomp for providing mod examples.</p>\n<p>- SPT Mod Development Channel for their discussions, which helped me a ton during development.</p>\n<p>- A user on the Fika discord that posted their fix for Fika filtering out modded chat bots.</p>\n<p>- Thank you to Lillian for updating the mod to 3.11!</p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1852/dynamic-goons",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-11-24T18:54:31.000000Z",
+      "created_at": "2024-11-24T18:54:31.000000Z",
+      "updated_at": "2026-05-14T03:20:21.000000Z",
+      "owner": {
+        "id": 67028,
+        "name": "inory",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/5407cc95b3e4237efbe7b7abfa1ec891482e0f92_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/1136505f2f5e7f7b3786e724fa9639690029d2aa.jpg",
+        "created_at": "2024-11-09T15:14:08.000000Z",
+        "updated_at": "2026-07-10T04:57:05.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 845,
+          "hub_id": 13958,
+          "version": "1.1.1",
+          "description": "Changelogs - Updated by Lillian\n===============================\n\nAll credit goes to [@Lillian](https://github.com/srwxr-xr-x)\n\n- Updated to SPT 3.11\n- Refactored code",
+          "link": "https://forge.sp-tarkov.com/mod/download/1852/dynamic-goons/1.1.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 5380,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-08T08:25:23.000000Z",
+          "created_at": "2025-04-08T08:25:23.000000Z",
+          "updated_at": "2026-05-14T02:00:04.000000Z"
+        },
+        {
+          "id": 1784,
+          "hub_id": 12930,
+          "version": "1.1.0",
+          "description": "New Features\n============\n\n- The Goons can now rotate to any map in the game.\n- Rotations can be individually toggled on/off per map via the new mapConfig file.\n\nNew Spawn Locations\n===================\n\n### Streets:\n\n- Spawns inside and outside of the cinema.\n- Spawns in the Concordia parking lot.\n\n### Factory:\n\n- Spawns everywhere on the map.\n\n### Labs:\n\n- Spawns everywhere except basement areas.\n\n### Reserve:\n\n- Barracks\n- Railway storage area.\n\n### Interchange:\n\n- Power station\n- Center of the mall.\n\n### Ground Zero (Level 21+):\n\n- Spawns everywhere.\n\nNote\n====\n\nThe vanilla Goons are very aggressive. They may aggro AI PMCs, or the player, and push out from their designated spawn locations.\n\nSpawn zones are subject to change, if you have any feedback regarding their spawn zones let me know.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1852/dynamic-goons/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 8704,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-01-02T05:57:03.000000Z",
+          "created_at": "2025-01-02T05:57:03.000000Z",
+          "updated_at": "2026-05-14T02:35:34.000000Z"
+        },
+        {
+          "id": 2174,
+          "hub_id": 12458,
+          "version": "1.0.2",
+          "description": "Changelogs\n==========\n\n- Updated for SPT 3.10.\n- Fika is now compatible by default and no longer needs patching. (Thanks, Archangel!)\n- Adjusted value in the rotation chance calculation to make the chance rise more slowly at the beginning and dramatically increase towards the end of the rotation interval. As a result, Goons should stay on a map for longer now.\n- Updated chat bot to use MongoID.\n- Updated to use new 3.10 endpoints.\n\nLet me know if you encounter any issues, happy Goon hunting!",
+          "link": "https://forge.sp-tarkov.com/mod/download/1852/dynamic-goons/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 3118,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-02T15:26:02.000000Z",
+          "created_at": "2024-12-02T15:26:02.000000Z",
+          "updated_at": "2026-05-14T03:14:54.000000Z"
+        },
+        {
+          "id": 2379,
+          "hub_id": 12213,
+          "version": "1.0.1",
+          "description": "Fixed unintentional hard dependency on Fika  \nTweaked default spawn chance to reflect live values",
+          "link": "https://forge.sp-tarkov.com/mod/download/1852/dynamic-goons/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 434,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-25T02:04:14.000000Z",
+          "created_at": "2024-11-25T02:04:14.000000Z",
+          "updated_at": "2026-05-14T03:20:21.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/ppowa/SPT-Dynamic-Goons",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 845,
+      "hub_id": 13958,
+      "version": "1.1.1",
+      "description": "<h1>Changelogs - Updated by Lillian</h1>\n<p>All credit goes to <a target=\"_blank\" class=\"external-link\" href=\"https://github.com/srwxr-xr-x\" rel=\"noreferrer noopener\">@Lillian</a></p>\n<ul>\n<li>Updated to SPT 3.11</li>\n<li>Refactored code</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1852/dynamic-goons/1.1.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 5380,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-04-08T08:25:23.000000Z",
+      "created_at": "2025-04-08T08:25:23.000000Z",
+      "updated_at": "2026-05-14T02:00:04.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2174,
+      "hub_id": 12458,
+      "version": "1.0.2",
+      "description": "<h1>Changelogs</h1>\n<ul>\n<li>Updated for SPT 3.10.</li>\n<li>Fika is now compatible by default and no longer needs patching. (Thanks, Archangel!)</li>\n<li>Adjusted value in the rotation chance calculation to make the chance rise more slowly at the beginning and dramatically increase towards the end of the rotation interval. As a result, Goons should stay on a map for longer now.</li>\n<li>Updated chat bot to use MongoID.</li>\n<li>Updated to use new 3.10 endpoints.</li>\n</ul>\n<p>Let me know if you encounter any issues, happy Goon hunting!</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1852/dynamic-goons/1.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 3118,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-12-02T15:26:02.000000Z",
+      "created_at": "2024-12-02T15:26:02.000000Z",
+      "updated_at": "2026-05-14T03:14:54.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1852/inory-dynamicgoons-1.1.1.rar",
+    "bytes_written": 9446,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/893540272/0b288e35-4cdb-45d5-8b69-2c1be06d87f1?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A29%3A07Z&rscd=attachment%3B+filename%3Dinory-dynamicgoons-1.1.1.rar&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A28%3A09Z&ske=2026-08-10T16%3A29%3A07Z&sks=b&skv=2018-11-09&sig=ZtVJVlyc9fjrEqK5wVmxMwaWcUcLT3mfcXz8xNpEjwc%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzQ2NSwibmJmIjoxNzg2Mzc3MTY1LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.z8euJTKY-T_uYznp-4_X4qqWt4rsFmPdaUrNfRK2n18&response-content-disposition=attachment%3B%20filename%3Dinory-dynamicgoons-1.1.1.rar&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.1.1",
+    "same_as_primary_download": true
+  }
+}

@@ -334,5 +334,16 @@
     "found": true,
     "version": "3.0.0",
     "same_as_primary_download": true
+  },
+  "download_fallback_3_11_4": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/784/hardcore-rules-2.2.1-spt3114.zip",
+    "bytes_written": 28814,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/608477626/99e4307b-b02b-4d1e-9aad-d63594278844?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A48%3A48Z&rscd=attachment%3B+filename%3DDanW-SPTHardcoreRules.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A48%3A07Z&ske=2026-08-10T16%3A48%3A48Z&sks=b&skv=2018-11-09&sig=DMETUwwFew3QeHRdVk0P%2B8zifLRR7%2BaWQLSeEpeYlpk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODQ0MiwibmJmIjoxNzg2Mzc4MTQyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.NIju7-tn16VYascQzH5KjYXSJJS7_CO2WJgCxPZL_3s&response-content-disposition=attachment%3B%20filename%3DDanW-SPTHardcoreRules.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream",
+    "target_version": "3.11.4",
+    "version": "2.2.1",
+    "same_as_primary_download": false
   }
 }

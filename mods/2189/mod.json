@@ -1,0 +1,101 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2189,
+      "hub_id": 2892,
+      "guid": null,
+      "name": "Eukyre's Vinyl Records",
+      "slug": "eukyres-vinyl-records",
+      "teaser": "\"When you gonna Learn?\"",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2892.png",
+      "downloads": 1884,
+      "favourites_count": 0,
+      "description": "<div class=\"tabset\"><div id=\"tabset-1-panel-1\" class=\"tab-panel\"><div class=\"tab-title\">Overview</div>\n<div class=\"tab-content\"><p>This mod adds various 12-inch vinyl LP records based on artists that I myself made and others (Turok, Hoshizoraa, RheddElBozo) recommended.</p>\n<p>This mod will be continually updated with the planned records until completion.</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/YRc4yHf.png\" alt=\"YRc4yHf.png\" /></p></div></div>\n<div id=\"tabset-1-panel-2\" class=\"tab-panel\"><div class=\"tab-title\">Installation</div>\n<div class=\"tab-content\"><p><img loading=\"lazy\" decoding=\"async\" src=\"https://imgur.com/vKRw58b.gif\" alt=\"vKRw58b.gif\" /></p></div></div>\n<div id=\"tabset-1-panel-3\" class=\"tab-panel\"><div class=\"tab-title\">Contents</div>\n<div class=\"tab-content\"><p>Currently this mod contains:<br />\n- A Vinyl Storage Case to hold these collectibles<br />\n- Bocchi The Rock! Records 1 and 2<br />\n- King Gizzard and the Lizard Wizard’s Teenage Gizzard LP<br />\n- CASIOPEA’s Mint Jams (Standard &amp; Green Vinyl)<br />\n- Alfie Templeman’s Mellow Moon (Pink Vinyl)<br />\n- Alfie Templeman’s Radiosoul (Rare Printed Vinyl)<br />\n- Weezer’s Blue Album<br />\n- Yes’ Fragile (Original 1970s vinyl)<br />\n- Jamiroquai’s Travelling Without Moving (Deluxe Vinyl)</p>\n<p><img loading=\"lazy\" decoding=\"async\" src=\"https://i.imgur.com/YRc4yHf.png\" alt=\"YRc4yHf.png\" /></p></div></div>\n<div id=\"tabset-1-panel-4\" class=\"tab-panel\"><div class=\"tab-title\">Planned</div>\n<div class=\"tab-content\"><p>You can find my planned additions for this mod here: <a target=\"_blank\" class=\"external-link\" href=\"https://trello.com/c/QgrbfB9Q\" rel=\"noreferrer noopener\">https://trello.com/c/QgrbfB9Q</a></p></div></div></div>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2189/eukyres-vinyl-records",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-06-16T16:53:35.000000Z",
+      "created_at": "2025-06-16T16:53:35.000000Z",
+      "updated_at": "2026-07-13T18:00:47.000000Z",
+      "owner": {
+        "id": 58981,
+        "name": "probablyEukyre",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/6b14f569dfc35cbab2a39266e8b20b20f3a9ca62_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/luydB7qfy3yKsLjY09U1gO5qMQG0bOgi9rVtP8ql.png",
+        "created_at": "2024-07-21T15:22:59.000000Z",
+        "updated_at": "2026-08-10T13:49:27.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 396,
+          "hub_id": 14475,
+          "version": "1.0.0",
+          "description": "Initial Commit",
+          "link": "https://forge.sp-tarkov.com/mod/download/2189/eukyres-vinyl-records/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1884,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-16T16:53:35.000000Z",
+          "created_at": "2025-06-16T16:53:35.000000Z",
+          "updated_at": "2026-07-13T18:00:47.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/eukyre/Eukyre-Vinyls",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 396,
+      "hub_id": 14475,
+      "version": "1.0.0",
+      "description": "<p>Initial Commit</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2189/eukyres-vinyl-records/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1884,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-06-16T16:53:35.000000Z",
+      "created_at": "2025-06-16T16:53:35.000000Z",
+      "updated_at": "2026-07-13T18:00:47.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2189/eukyres-vinyl-records-1.0.0",
+    "bytes_written": 440,
+    "final_url": "https://github.com/eukyre/Eukyre-Vinyls/releases/tag/v1.0.0",
+    "content_type": "application/json; charset=utf-8"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

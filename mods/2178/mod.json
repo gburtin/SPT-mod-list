@@ -1,0 +1,115 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2178,
+      "hub_id": 2881,
+      "guid": null,
+      "name": "Key Case",
+      "slug": "key-case",
+      "teaser": "A mod that adds a recreation of the Key Case container which is available on the live server, and the barter trade to buy it from Therapist.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2881.png",
+      "downloads": 9224,
+      "favourites_count": 0,
+      "description": "<p>A simple mod which recreates the Key Case, which is available on the live servers.</p>\n<p>The case can hold keys, keycards, Gingy keychain, key tools and keycard holders.<br />\nIt can be obtained via the same barter as on live servers from Therapist LL1 and Ref LL2.</p>\n<p>A massive thank you to DrakiaXYZ and Jehree for allowing me to use some code from their Gilded Key Storage Mod to get this working.</p>\n<p>Also, a thank you to Dsnyder, Groovy, and Tron from Discord for helping me maintain my sanity while attempting to make the model work.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2178/key-case",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-06-11T20:22:06.000000Z",
+      "created_at": "2025-06-11T20:22:06.000000Z",
+      "updated_at": "2026-07-07T16:59:08.000000Z",
+      "owner": {
+        "id": 80238,
+        "name": "Trinagan",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/f5c8c2d67ac3c820b4247b25dc968b71a6f7c1ac_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-06-11T14:00:08.000000Z",
+        "updated_at": "2026-08-03T12:32:25.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 425,
+          "hub_id": 14443,
+          "version": "1.0.1",
+          "description": "- Added a barter trade for Ref LL2, which is also present on live servers.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2178/key-case/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 8673,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-12T13:00:47.000000Z",
+          "created_at": "2025-06-12T13:00:47.000000Z",
+          "updated_at": "2026-05-14T01:47:46.000000Z"
+        },
+        {
+          "id": 429,
+          "hub_id": 14438,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2178/key-case/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 551,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-11T20:22:06.000000Z",
+          "created_at": "2025-06-11T20:22:06.000000Z",
+          "updated_at": "2026-05-14T01:47:47.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/Trinagan/SPT-KeyCase/",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 425,
+      "hub_id": 14443,
+      "version": "1.0.1",
+      "description": "<ul>\n<li>Added a barter trade for Ref LL2, which is also present on live servers.</li>\n</ul>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2178/key-case/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 8673,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-06-12T13:00:47.000000Z",
+      "created_at": "2025-06-12T13:00:47.000000Z",
+      "updated_at": "2026-05-14T01:47:46.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2178/trinagan-keycase.zip",
+    "bytes_written": 6237687,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1000369326/f9d01b96-8117-4ce2-98ff-a6431c9090a9?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A17%3A32Z&rscd=attachment%3B+filename%3Dtrinagan-keycase.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A17%3A14Z&ske=2026-08-10T16%3A17%3A32Z&sks=b&skv=2018-11-09&sig=PX0%2BEPyQbJf8QThvallcgiV415o2k4ILqe0fdJjbs8c%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3Njg3MCwibmJmIjoxNzg2Mzc2NTcwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Y6c1k6H0yqxiffa3_ngLyeZAIKWD7VTp-JTx2nt8Pzs&response-content-disposition=attachment%3B%20filename%3Dtrinagan-keycase.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2280,
+      "hub_id": 2994,
+      "guid": null,
+      "name": "Old Walther MRS",
+      "slug": "old-walther-mrs",
+      "teaser": "the return of the reflex brand to the type of patch 12.10",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2994.webp",
+      "downloads": 895,
+      "favourites_count": 0,
+      "description": "<p>Changes the target brand of patch 12.10. All code and directory are taken from the Old PK-06 Restoration mod with permission from the author of <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/30096-boogle/\" rel=\"noreferrer noopener\">Boogle </a></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2280/old-walther-mrs",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-09-03T21:28:11.000000Z",
+      "created_at": "2025-09-03T21:28:11.000000Z",
+      "updated_at": "2026-07-07T16:59:09.000000Z",
+      "owner": {
+        "id": 24367,
+        "name": "Yunthegane",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/bf884b19e7f097d6a64c74906b11fdb680d95365_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/6927b109db097471434bea80cf365e65a5723f2e.png",
+        "created_at": "2022-12-25T11:42:21.000000Z",
+        "updated_at": "2026-08-09T00:35:53.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11516,
+          "hub_id": 14916,
+          "version": "1.0.1",
+          "description": "Reduced overall dimensions for 2 types of Marks and edits for Mark clarity\n\n[![image.png](https://i.ibb.co/4ZbmGGdx/image.png)](https://imgbb.com/)\n\n[![image.png](https://i.ibb.co/8nDSkJ8r/image.png)](https://ibb.co/ZR6k93TB)",
+          "link": "https://forge.sp-tarkov.com/mod/download/2280/old-walther-mrs/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 645,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-04T11:16:34.000000Z",
+          "created_at": "2025-09-04T11:16:34.000000Z",
+          "updated_at": "2025-09-04T11:16:34.000000Z"
+        },
+        {
+          "id": 11512,
+          "hub_id": 14913,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2280/old-walther-mrs/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 250,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-09-03T21:28:11.000000Z",
+          "created_at": "2025-09-03T21:28:11.000000Z",
+          "updated_at": "2025-09-03T21:28:11.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11516,
+      "hub_id": 14916,
+      "version": "1.0.1",
+      "description": "<p>Reduced overall dimensions for 2 types of Marks and edits for Mark clarity</p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://imgbb.com/\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.ibb.co/4ZbmGGdx/image.png\" alt=\"image.png\" /></a></p>\n<p><a target=\"_blank\" class=\"external-link\" href=\"https://ibb.co/ZR6k93TB\" rel=\"noreferrer noopener\"><img loading=\"lazy\" decoding=\"async\" src=\"https://i.ibb.co/8nDSkJ8r/image.png\" alt=\"image.png\" /></a></p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2280/old-walther-mrs/1.0.1",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 645,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-04T11:16:34.000000Z",
+      "created_at": "2025-09-04T11:16:34.000000Z",
+      "updated_at": "2025-09-04T11:16:34.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 11512,
+      "hub_id": 14913,
+      "version": "1.0.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2280/old-walther-mrs/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 250,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-09-03T21:28:11.000000Z",
+      "created_at": "2025-09-03T21:28:11.000000Z",
+      "updated_at": "2025-09-03T21:28:11.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": true,
+    "reason": "landing_page_detected",
+    "content_type": "text/html; charset=utf-8",
+    "external_url": "https://drive.google.com/file/d/1ynkNjY4QYK942MabJ_F7uQgYks6x1zL7/view?usp=sharing"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.1",
+    "same_as_primary_download": true
+  }
+}

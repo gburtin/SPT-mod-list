@@ -1,0 +1,115 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2090,
+      "hub_id": 2775,
+      "guid": null,
+      "name": "Cooking Grenades",
+      "slug": "cooking-grenades",
+      "teaser": "Allows Cooking Grenades",
+      "thumbnail": "",
+      "downloads": 3078,
+      "favourites_count": 1,
+      "description": "<h1>Cooking Grenades</h1>\n<p>This mod adds grenade cooking mechanics and realistic fuse time randomization.</p>\n<h2>✨ Features</h2>\n<h3>Cooking</h3>\n<ul>\n<li>Allows <strong>cooking of grenades</strong> (holding before throwing).</li>\n<li>Cooking <strong>only starts after</strong> the safety pull ring removal animation is complete.</li>\n<li>Prevents storing the grenade back into inventory while cooking.</li>\n</ul>\n<h3>Cooking Method</h3>\n<ul>\n<li><strong>Hold</strong> the mouse button to prepare to throw the grenade.</li>\n<li><strong>Press the opposite mouse button</strong> to start cooking.</li>\n<li><strong>Release</strong> the originally held button to throw the cooked grenade.</li>\n<li>(note) Originally planned to spawn a Unity object that explodes when the timer expires, but due to complexity, the system was simplified:\n<ul>\n<li>Grenade is <strong>automatically thrown</strong> when the fuse time expires.</li>\n</ul>\n</li>\n</ul>\n<h3>Cooking Notification (Optional)</h3>\n<ul>\n<li>Optionally displays a <strong>notification</strong> when cooking begins.</li>\n</ul>\n<h3>Realistic Fuse Time Randomization</h3>\n<ul>\n<li>Fuse times follow a <strong>normal distribution</strong>.</li>\n<li>Adjustable using the FuseTimeSpreadFactor parameter.</li>\n</ul>\n<h3>Inventory UI Toggle</h3>\n<ul>\n<li>Toggle between showing the <strong>default fuse time</strong> or the <strong>randomized fuse time</strong> in the inventory UI.</li>\n</ul>\n<h3>Fuse Time Tester</h3>\n<ul>\n<li>tool to <strong>test and visualize</strong> fuse time distributions for debugging and balance.</li>\n</ul>\n<h2>Installation</h2>\n<ul>\n<li>Unzip into your SPT folder.</li>\n</ul>\n<h2>Configuration</h2>\n<h3>Options</h3>\n<h4>0. Cooking Grenades</h4>\n<ul>\n<li><strong>EnableCookingNotification</strong> (Default: false)\n<ul>\n<li>Shows a notification when grenade cooking begins.</li>\n</ul>\n</li>\n<li><strong>ShowDefaultFuseTimeInInventoryUI</strong> (Default: true)\n<ul>\n<li>If true, displays the default fuse time in the inventory UI. If false, shows the randomized value.</li>\n</ul>\n</li>\n</ul>\n<h4>1. Realistic Fuse Time</h4>\n<ul>\n<li><strong>RealisticFuseTimeEnable</strong> (Default: true)\n<ul>\n<li>Enables or disables fuse time randomization.</li>\n</ul>\n</li>\n<li><strong>FuseTimeSpreadFactor</strong> (Default: 0.085, Range: 0.001 ~ 0.6)\n<ul>\n<li>Controls the variability of fuse times. Higher values increase randomness.</li>\n</ul>\n</li>\n</ul>\n<h4>2. Realistic Fuse Time Tester</h4>\n<ul>\n<li><strong>TimeSimulationValue</strong> (Default: 5.0, Range: 1.0 ~ 10.0)\n<ul>\n<li>The base fuse time to simulate in the tester.</li>\n</ul>\n</li>\n<li><strong>FuseTimeTestCount</strong> (Default: 10000, Range: 1 ~ 100000)\n<ul>\n<li>Number of iterations for the fuse time distribution test.</li>\n</ul>\n</li>\n<li><strong>TimeSimulationOutput</strong> (Default: false)\n<ul>\n<li>Set to true to run the simulation once. Results are logged to BepInEx/LogOutput.log.</li>\n</ul>\n</li>\n</ul>\n<h4>3. Debug</h4>\n<ul>\n<li><strong>DebugGUI</strong> (Default: false)\n<ul>\n<li>Enables a GUI to display cooking time (for debugging).</li>\n</ul>\n</li>\n<li><strong>UserWarningConfirmed</strong> (Default: false, Advanced)\n<ul>\n<li>Confirms user acknowledgment of warnings (hidden in advanced settings).</li>\n</ul>\n</li>\n</ul>\n<h3>Example video</h3>\n<div class=\"youtube-lite\" data-video-id=\"qB4tEmT6GlQ\" data-embed-url=\"https://www.youtube-nocookie.com/embed/qB4tEmT6GlQ?autoplay=1\"><img src=\"https://i.ytimg.com/vi/qB4tEmT6GlQ/hqdefault.jpg\" alt=\"YouTube video thumbnail\" loading=\"lazy\" decoding=\"async\" /></div>\n<h2>Grenade Cooking Guide</h2>\n<p>This section outlines real-world safety procedures for “cooking off” grenades, adapted from military training manuals.</p>\n<h3>🍳 Cooking Off</h3>\n<h4>Definition</h4>\n<p>“Cooking off” is the practice of using part of the grenade’s delay time <strong>before throwing</strong>, causing it to detonate <strong>aboveground</strong> or <strong>shortly after impact</strong>.</p>\n<h4>Steps for Cooking Off</h4>\n<ol>\n<li>Remove the <strong>safety clip</strong>.</li>\n<li>Disengage <strong>pull ring from confidence clip</strong> (if equipped).</li>\n<li>Remove the <strong>pull ring and safety pin</strong>.</li>\n<li>Release the <strong>safety lever</strong>.</li>\n<li>Count: <strong>“one thousand one, one thousand two”</strong> (about 2 seconds).</li>\n<li>Throw the grenade in a <strong>high arc</strong>.</li>\n<li>Seek <strong>cover</strong> until detonation.</li>\n</ol>\n<h4>Purpose</h4>\n<ul>\n<li>Shortens time between impact and explosion.</li>\n<li>Useful for aboveground or near-impact detonation.</li>\n</ul>\n<h4>⚠️ Warnings on Cooking Off</h4>\n<ul>\n<li><strong>Do not cook off live fragmentation grenades in training.</strong></li>\n<li><strong>Use the cook-off procedure only with grenades that have a fuze setting of 4 seconds or greater in a combat environment.</strong></li>\n<li><strong>Never cook off</strong> the following grenades:\n<ul>\n<li>M84 (stun grenade / flashbang)</li>\n<li>M18, M83, M14 (smoke or special-purpose grenades)</li>\n</ul>\n</li>\n<li>These often have <strong>1.0 to 2.3 second fuzes</strong> — extremely dangerous.</li>\n<li>Cooking off <strong>exploding, bursting, or burning-type grenades</strong> can cause <strong>death or serious injury</strong>.</li>\n</ul>\n<h4>✅ Summary Table</h4>\n<p>Action Description Risk Level Use When? <strong>Cooking Off</strong> Delaying throw after pulling pin for quicker detonation High (unless trained) <strong>Combat only</strong> with long fuze <strong>Reference:</strong> <a target=\"_blank\" class=\"external-link\" href=\"https://armypubs.army.mil/epubs/DR_pubs/DR_a/ARN37340-TC_3-23.30-001-WEB-3.pdf\" rel=\"noreferrer noopener\">TC 3-23.30, C1 – <em>Hand Grenades</em> (01 Feb 2023)</a></p>\n<h2>Credits</h2>\n<ul>\n<li><strong>Provided .csproj</strong>: Michael P. Starkweather, CJ</li>\n<li><strong>SPT Modding Community</strong>: I referenced the source code of many mods for learning purposes while creating this mod. Sincere thanks to the community for making their mods open-source and helping me learn.</li>\n<li><strong>Grok AI</strong>: An all-knowing friend who answers any question I have.</li>\n</ul>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2090/cooking-grenades",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-04-09T14:02:11.000000Z",
+      "created_at": "2025-04-09T14:02:11.000000Z",
+      "updated_at": "2026-05-14T01:59:56.000000Z",
+      "owner": {
+        "id": 3106,
+        "name": "November75",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=N&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2021-02-25T16:27:43.000000Z",
+        "updated_at": "2025-09-26T15:30:04.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 809,
+          "hub_id": 13998,
+          "version": "1.1.0",
+          "description": "**Sound Rework**\n================\n\n- **Improved Cooking Sound Logic**:\n    - Previously, the \"Lever\" sound from the Pulling Safety Ring animation was reused for cooking. Now, the mod plays the upcoming \"SndFuse\" sound during cooking and disables the subsequent \"SndFuse\" playback to avoid duplication.\n- **New Config Option: UseAlternativePinSound**:\n    - Added a new configuration option to play a \"TripwirePin\" sound (similar to a ping) instead of \"SndFuse\" for specific grenades during cooking.\n    - Affected grenades: M67 Hand, V40 Mini, M18 Smoke Green, Model 7290 Flash Bang, RDG-2B Smoke.\n    - Note: Attempted to fix the default Tarkov M67 grenade playing a fuse sound, but it was too complex and abandoned 😭.\n\n**Bug Fixes**\n=============\n\n- Fixed an issue where changing the FuseTimeSpreadFactor setting did not apply to the fuse times of already spawned grenades.\n\n**🙏 Special Thanks**\n====================\n\nHuge thanks to [**adishee**](https://hub.sp-tarkov.com/user/56229-adishee/) for generously sharing knowledge and ideas that greatly contributed to the grenade sound system improvements.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2090/cooking-grenades/1.1.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 2624,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-12T12:19:22.000000Z",
+          "created_at": "2025-04-12T12:19:22.000000Z",
+          "updated_at": "2026-05-14T01:58:39.000000Z"
+        },
+        {
+          "id": 832,
+          "hub_id": 13972,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2090/cooking-grenades/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 454,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-04-09T14:02:11.000000Z",
+          "created_at": "2025-04-09T14:02:11.000000Z",
+          "updated_at": "2026-05-14T01:59:56.000000Z"
+        }
+      ],
+      "license": {
+        "id": 15,
+        "hub_id": 18,
+        "name": "GNU GPLv3",
+        "link": "https://choosealicense.com/licenses/gpl-3.0/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/November75-SPT/CookingGrenades",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 809,
+      "hub_id": 13998,
+      "version": "1.1.0",
+      "description": "<h1><strong>Sound Rework</strong></h1>\n<ul>\n<li><strong>Improved Cooking Sound Logic</strong>:\n<ul>\n<li>Previously, the “Lever” sound from the Pulling Safety Ring animation was reused for cooking. Now, the mod plays the upcoming “SndFuse” sound during cooking and disables the subsequent “SndFuse” playback to avoid duplication.</li>\n</ul>\n</li>\n<li><strong>New Config Option: UseAlternativePinSound</strong>:\n<ul>\n<li>Added a new configuration option to play a “TripwirePin” sound (similar to a ping) instead of “SndFuse” for specific grenades during cooking.</li>\n<li>Affected grenades: M67 Hand, V40 Mini, M18 Smoke Green, Model 7290 Flash Bang, RDG-2B Smoke.</li>\n<li>Note: Attempted to fix the default Tarkov M67 grenade playing a fuse sound, but it was too complex and abandoned 😭.</li>\n</ul>\n</li>\n</ul>\n<h1><strong>Bug Fixes</strong></h1>\n<ul>\n<li>Fixed an issue where changing the FuseTimeSpreadFactor setting did not apply to the fuse times of already spawned grenades.</li>\n</ul>\n<h1><strong>🙏 Special Thanks</strong></h1>\n<p>Huge thanks to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/56229-adishee/\" rel=\"noreferrer noopener\"><strong>adishee</strong></a> for generously sharing knowledge and ideas that greatly contributed to the grenade sound system improvements.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2090/cooking-grenades/1.1.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 2624,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-04-12T12:19:22.000000Z",
+      "created_at": "2025-04-12T12:19:22.000000Z",
+      "updated_at": "2026-05-14T01:58:39.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2090/CookingGrenades-1.1.0.zip",
+    "bytes_written": 27005,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/961226824/9aca50cc-f44f-483b-89ce-32ba87f20365?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A42%3A45Z&rscd=attachment%3B+filename%3DCookingGrenades-1.1.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A42%3A19Z&ske=2026-08-10T16%3A42%3A45Z&sks=b&skv=2018-11-09&sig=9YjxuyIFfXCx6MaI1oIZBdPGxhi86QAFx3U56HTmYE0%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzY2OSwibmJmIjoxNzg2Mzc3MzY5LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.UZsW8n1pAO89hPRYI0Bb78f3MIBWojAgMIFB4bX-ozE&response-content-disposition=attachment%3B%20filename%3DCookingGrenades-1.1.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.1.0",
+    "same_as_primary_download": true
+  }
+}

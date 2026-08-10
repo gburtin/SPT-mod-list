@@ -1,0 +1,186 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 1817,
+      "hub_id": 2462,
+      "guid": null,
+      "name": "Flea Limiter",
+      "slug": "flea-limiter",
+      "teaser": "Blacklist item categories from the flea using a config file.",
+      "thumbnail": "",
+      "downloads": 2348,
+      "favourites_count": 0,
+      "description": "<p><em><strong>Without editing the config this mod will change nothing</strong></em></p>\n<p><strong>Usage</strong></p>\n<p>To blacklist a category from the flea:</p>\n<ol>\n<li>Open SPT\\user\\mods\\FleaLimiter\\config\\config.json</li>\n<li>Edit category you wish to be blacklisted to <strong>true</strong></li>\n<li>Save the file</li>\n</ol>\n<p><strong>Installation</strong></p>\n<ol>\n<li>Download</li>\n<li>Extract zip to SPT root</li>\n<li>Probably put at bottom of load order</li>\n</ol>\n<p><strong>Disclaimer:</strong></p>\n<p>I made this mod for my own personal use. I feel like the Flea can make progression a little fast sometimes and wanted a challenge. However I wanted to be able to buy barter items because hunting for ES Lamps isn’t fun to me.</p>\n<p>With that being said this mod blacklists overarching categories (gear, keys, etc). If there is a desire for the config to be more granular to where you’re able to blacklist subcategories (helmets, electronic keys, etc), I will update the mod to do so.</p>\n<p>s/o to Chomp for mod examples</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/1817/flea-limiter",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2024-11-03T19:03:08.000000Z",
+      "created_at": "2024-11-03T19:03:08.000000Z",
+      "updated_at": "2026-05-14T03:23:24.000000Z",
+      "owner": {
+        "id": 59721,
+        "name": "GeneralGoon",
+        "profile_photo_url": "https://ui-avatars.com/api/?name=G&color=7F9CF5&background=EBF4FF",
+        "cover_photo_url": null,
+        "created_at": "2024-07-27T20:15:55.000000Z",
+        "updated_at": "2025-10-05T01:01:53.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 617,
+          "hub_id": 14223,
+          "version": "1.0.6",
+          "description": "Updated for SPT 3.11",
+          "link": "https://forge.sp-tarkov.com/mod/download/1817/flea-limiter/1.0.6",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 837,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-05-11T21:19:29.000000Z",
+          "created_at": "2025-05-11T21:19:29.000000Z",
+          "updated_at": "2026-05-14T01:52:46.000000Z"
+        },
+        {
+          "id": 1810,
+          "hub_id": 12901,
+          "version": "1.0.5",
+          "description": "Added container settings to config. You will need to overwrite config and change it again.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1817/flea-limiter/1.0.5",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 403,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-12-31T15:52:34.000000Z",
+          "created_at": "2024-12-31T15:52:34.000000Z",
+          "updated_at": "2026-05-14T02:36:48.000000Z"
+        },
+        {
+          "id": 2273,
+          "hub_id": 12337,
+          "version": "1.0.4",
+          "description": "Updated for SPT 3.10",
+          "link": "https://forge.sp-tarkov.com/mod/download/1817/flea-limiter/1.0.4",
+          "content_length": null,
+          "spt_version_constraint": "~3.10.0",
+          "downloads": 437,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-27T15:03:32.000000Z",
+          "created_at": "2024-11-27T15:03:32.000000Z",
+          "updated_at": "2026-05-14T03:18:54.000000Z"
+        },
+        {
+          "id": 2481,
+          "hub_id": 12096,
+          "version": "1.0.3",
+          "description": "I swear it works this time.",
+          "link": "https://forge.sp-tarkov.com/mod/download/1817/flea-limiter/1.0.3",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 325,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-03T21:10:53.000000Z",
+          "created_at": "2024-11-03T21:10:53.000000Z",
+          "updated_at": "2026-05-14T03:23:23.000000Z"
+        },
+        {
+          "id": 2482,
+          "hub_id": 12095,
+          "version": "1.0.2",
+          "description": "Fixed rookie mistakes",
+          "link": "https://forge.sp-tarkov.com/mod/download/1817/flea-limiter/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 179,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-03T19:24:19.000000Z",
+          "created_at": "2024-11-03T19:24:19.000000Z",
+          "updated_at": "2026-05-14T03:23:22.000000Z"
+        },
+        {
+          "id": 2483,
+          "hub_id": 12094,
+          "version": "1.0.1",
+          "description": "I goofed",
+          "link": "https://forge.sp-tarkov.com/mod/download/1817/flea-limiter/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 167,
+          "fika_compatibility": "unknown",
+          "published_at": "2024-11-03T19:12:55.000000Z",
+          "created_at": "2024-11-03T19:12:55.000000Z",
+          "updated_at": "2026-05-14T03:23:24.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/GeneralGoon/FleaLimiter",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 617,
+      "hub_id": 14223,
+      "version": "1.0.6",
+      "description": "<p>Updated for SPT 3.11</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1817/flea-limiter/1.0.6",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 837,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-05-11T21:19:29.000000Z",
+      "created_at": "2025-05-11T21:19:29.000000Z",
+      "updated_at": "2026-05-14T01:52:46.000000Z",
+      "dependencies": []
+    },
+    {
+      "id": 2273,
+      "hub_id": 12337,
+      "version": "1.0.4",
+      "description": "<p>Updated for SPT 3.10</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/1817/flea-limiter/1.0.4",
+      "content_length": null,
+      "spt_version_constraint": "~3.10.0",
+      "downloads": 437,
+      "fika_compatibility": "unknown",
+      "published_at": "2024-11-27T15:03:32.000000Z",
+      "created_at": "2024-11-27T15:03:32.000000Z",
+      "updated_at": "2026-05-14T03:18:54.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/1817/generalgoon-flealimiter.zip",
+    "bytes_written": 4042,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/882760266/8b3661f6-72be-481a-9514-f58523c14ee9?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A41%3A41Z&rscd=attachment%3B+filename%3Dgeneralgoon-flealimiter.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A41%3A21Z&ske=2026-08-10T16%3A41%3A41Z&sks=b&skv=2018-11-09&sig=GuGVNBDxCZqZ1GoMbGbGgZi3gmS6qoyguKmZzYSiv8o%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzQ4MiwibmJmIjoxNzg2Mzc3MTgyLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.mo2I0lxPv6xd9GlyCx26IZaijRoeSm_0JptvcQsjDVk&response-content-disposition=attachment%3B%20filename%3Dgeneralgoon-flealimiter.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.6",
+    "same_as_primary_download": true
+  }
+}

@@ -1,0 +1,96 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2036,
+      "hub_id": 2718,
+      "guid": null,
+      "name": "Custom Hideout Poster Replacer",
+      "slug": "custom-hideout-poster-replacer",
+      "teaser": "Want to replace those gross half dressed posters of ladies with something more appealing like jars of mayo? Now you can! With a little bit of computer knowledge you can customize the textures/images of the new hideout posters added in the 3.11 update!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2718.png",
+      "downloads": 977,
+      "favourites_count": 0,
+      "description": "<p><strong>YOU NEED PYTHON, PIP, AND A PYTHON PACKAGE TO MAKE YOUR OWN IMAGES SHOW UP IN GAME. SUPPORT FOR INSTALLING/RUNNING/OR TROUBLESHOOTING PYTHON DOES NOT EXTEND BEYOND THE DESCRIPTION OF THIS MOD. DO NOT PESTER OTHERS WITH QUESTIONS ON HOW TO INSTALL AND RUN PYTHON/PIP. GOOGLE IS YOUR FRIEND. THE HELPERS SHOULD NOT HELP YOU DO BASIC COMPUTING TASKS. DO NOT BUG THEM WITH THIS. DO NOT BUG ME WITH THIS.</strong></p>\n<p><strong>If you can’t figure out how to work the Python thing don’t worry about it. I’m going to take like a day or two to catch my breath and then I’ll start work on what should be a much easier to</strong></p>\n<p>**use client sided mod. If you can’t make it work just be patient.</p>\n<p>**I don’t care if you put images in your hideout that wouldn’t be allowed on this site or on the Discord due to the 16+ rule, but if you post screenshots of it and get banned that’s on you. Have a bit of intelligence, okay?</p>\n<p><strong>1. You need Python, you need to install it with admin privileges and you need to “add Python.exe to PATH”. <a target=\"_blank\" class=\"external-link\" href=\"https://www.python.org/\" rel=\"noreferrer noopener\">https://www.python.org/</a><br />\n2. Then you need to use PIP (should be installed with Python) to get the UnityPy package. Run the following command in Powershell as admin: pip install UnityPy</strong></p>\n<p>**If you have trouble with this you need to figure it out on your own and Google it, ask ChatGPT, or whatever.</p>\n<p><strong>Okay now that we got all that nonsense out of the way:</strong></p>\n<p>This mod will allow you to replace the posters added by the 3.11 update with new textures. I’ve included all of the ones that are easy-ish to replace. There’s some that are multiple posters on one big image that are cut up and made into smaller posters for whatever reason, those aren’t included. If you want to try to figure that out I wish you luck.</p>\n<p>The concept is pretty simple. Inside the mod there’s a few folders. You only need to worry about ONE of them. <strong>“Custom Images”.</strong> This is the folder where YOU are going to be doing a bit of work. Inside the Custom Images folder there’s nested folders. Inside each one of those folders is the base image for that specific poster bundle. If you want to replace that poster’s image and texture all you need to do is drop in a new image that matches the RESOLUTION and NAME of the file EXACTLY. It also needs to be formatted as .png</p>\n<p>THERE ARE TWO POSTERS THAT WILL COME OUT LOOKING JANK, I’M TRYING TO FIGURE OUT WHY. DON’T TOUCH GIRL5 OR GIRL2. Or do, I’m not a cop, but don’t complain about it when it looks like shit.</p>\n<p>If you don’t want to replace a poster just don’t touch that image and it won’t be overwritten when you run the script.</p>\n<p>Once you have all the images you want to replace in their respective folders, go back to the main folder of the mod and run “main.py”. It’ll pop up a command prompt and run through all of the bundles super fast. If you fucked up this is where it’ll tell you that you fucked up. You’ll have to go fix it. If you followed my instructions you shouldn’t have any errors. Start the server, open the launcher, clear your temp files, and launch the game. All of the hideout posters images will be changed. Congrats!</p>\n<p>Let me know if you have any issues that aren’t caused by stupidity and I’ll try to help. I might expand this to include the shooting range targets and things like that as well if there’s enough interest.</p>\n<p><strong>HUGE THANKS</strong></p>\n<p><strong>rpmwmp</strong> For writing the parts of the Python script that make this work, I was banging my head against the wall and he helped out a TON. This wouldn’t be possible without him.</p>\n<p>Ency for showing me how this is even possible to do! This also wouldn’t be possible without him!<br />\n<strong>WTT-EpicRangeTime</strong> for helping me figure out how the hell bundles find their dependencies</p>\n<p><strong>WTT-QwertyAlex</strong> for helping me figure out what the hell the JS code I was stealing was even trying to do in the first place</p>\n<p><strong>Archangel</strong> for helping me find the double forward slash that was making this entire mod not work</p>\n<p><strong>Chomp</strong> for making all the examples I barely understand but somehow manage to turn into functional mods</p>\n<p><strong>SPT DEVS FOR BEING FUCKING AWESOME AND MAKING THE BEST FUCKING MOD I’VE EVER PLAYED</strong></p>\n<p><strong>SPT Discord STAFF for putting up with my insanity</strong></p>\n<p><strong>SPT Discord Helpers for putting up with the rest of you</strong></p>\n<p><strong>I SWEAR ON ALL THAT IS UNHOLY IF YOU BOTHER THE HELPERS WITH FIGURING OUT HOW TO INSTALL/RUN/TROUBLESHOOT PYTHON OR THIS SCRIPT I WILL TAKE THIS MOD DOWN AND YOU WILL RUIN IT FOR EVERYONE.</strong></p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2036/custom-hideout-poster-replacer",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-03-16T20:13:54.000000Z",
+      "created_at": "2025-03-16T20:13:54.000000Z",
+      "updated_at": "2026-07-07T16:59:06.000000Z",
+      "owner": {
+        "id": 72782,
+        "name": "Saryn",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/decb57144148d82bfa7361c336810ee6157bfa7b_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-02-02T18:36:01.000000Z",
+        "updated_at": "2026-07-10T04:51:50.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 1151,
+          "hub_id": 13626,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2036/custom-hideout-poster-replacer/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 977,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-16T20:13:54.000000Z",
+          "created_at": "2025-03-16T20:13:54.000000Z",
+          "updated_at": "2026-05-14T02:06:09.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": []
+    }
+  },
+  "all_versions": [
+    {
+      "id": 1151,
+      "hub_id": 13626,
+      "version": "1.0.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2036/custom-hideout-poster-replacer/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 977,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-16T20:13:54.000000Z",
+      "created_at": "2025-03-16T20:13:54.000000Z",
+      "updated_at": "2026-05-14T02:06:09.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2036/saryn-hideoutposterreplacer.7z",
+    "bytes_written": 28589481,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/949572894/a7eca8b4-b025-4ea6-ae7f-292f5e0fab7a?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A44%3A22Z&rscd=attachment%3B+filename%3Dsaryn-hideoutposterreplacer.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A43%3A58Z&ske=2026-08-10T16%3A44%3A22Z&sks=b&skv=2018-11-09&sig=ex1RmZ5MMbk4huehKKE3Lok2YsyFU1YmSN%2F2aTSGqG8%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3ODkyNCwibmJmIjoxNzg2Mzc3MTI0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.anpIh9GTYuP0Kqwn1JZ0_8NwDEIenb_7a20LrNpDLEI&response-content-disposition=attachment%3B%20filename%3Dsaryn-hideoutposterreplacer.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

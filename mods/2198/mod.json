@@ -1,0 +1,129 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2198,
+      "hub_id": 2901,
+      "guid": null,
+      "name": "SatisfyingOverlay",
+      "slug": "satisfyingoverlay",
+      "teaser": "Because nothing calms you down like a rug being pressure-washed…\r\n...while you're bleeding out in Interchange.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2901.png",
+      "downloads": 711,
+      "favourites_count": 0,
+      "description": "<h2><strong>This mod adds configurable video-overlay directly into your SPT raids.</strong></h2>\n<h2>Pure visual dopamine, perfect for tactical vibing mid-fight.</h2>\n<h2><strong>🧠 Features</strong></h2>\n<ul>\n<li>🎥 Plays videos during raids\n<ul>\n<li>Supports adding up to 10 videos at the same time!!</li>\n</ul>\n</li>\n<li>⚙️ Fully separate configurable for each video-player:\n<ul>\n<li>Position (X/Y)</li>\n<li>Scale (Width/Height)</li>\n<li>Transparency</li>\n<li>Audio toggle</li>\n<li>Setup video from folder mod</li>\n</ul>\n</li>\n</ul>\n<h3><strong>🔧 Installation:</strong></h3>\n<h3><strong>Install <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1215-kmy-tarkov-api/\" rel=\"noreferrer noopener\">KmyTarkovApi</a> 1.4.0 or later, You MUST install it</strong></h3>\n<h3><strong>Extract BepInEx folder from 7z to Game Root directory. Profit!</strong></h3>\n<h3><strong>How to use</strong></h3>\n<div class=\"youtube-lite\" data-video-id=\"ZoWvqE2H6d4\" data-embed-url=\"https://www.youtube-nocookie.com/embed/ZoWvqE2H6d4?autoplay=1\"><img src=\"https://i.ytimg.com/vi/ZoWvqE2H6d4/hqdefault.jpg\" alt=\"YouTube video thumbnail\" loading=\"lazy\" decoding=\"async\" /></div>\n<h3><strong>🔹How do add my videos?</strong></h3>\n<ul>\n<li>Put your .mp4 videos in this folder:<br />\nBepInEx/plugins/SatisfyingOverlay/Videos</li>\n<li>Start SPT</li>\n<li>Press F12 to open configurator</li>\n<li>Choose a new added video in dropdown</li>\n</ul>\n<h3><strong>🔹Does this work outside of raids?</strong></h3>\n<ul>\n<li>No. Videos only play <strong>during raids.</strong></li>\n</ul>\n<h3><strong>🔹Why is the weight of the archive large?</strong></h3>\n<ul>\n<li>Because embedded with the mod 5 example videos:\n<ul>\n<li>Carpet cleaning</li>\n<li>Kinetic sand cutting</li>\n<li>Slime</li>\n<li>Soap crush</li>\n<li>Subway Surf gameplay</li>\n</ul>\n</li>\n</ul>\n<h3><strong>🔹Can videos play sound?</strong></h3>\n<ul>\n<li><strong>Yes! Turn on “AudioEnable” in settings video-slot Volume is linked to in-game music volume slider</strong></li>\n</ul>\n<h3><strong>🔹My video doesn’t show up!</strong></h3>\n<ul>\n<li>Make sure it’s an .mp4 file.</li>\n<li>Avoid weird characters in the name.</li>\n<li>Re-encode the video by ffmpeg ffmpeg -i broken.mp4 -c:v libx264 -c:a aac fixed.mp4</li>\n</ul>\n<p>Made by Katrin0522 aka Kat.</p>\n<p>Idea sparked by pure overstimulation and a love for oddly satisfying TikToks.</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2198/satisfyingoverlay",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-06-23T19:26:11.000000Z",
+      "created_at": "2025-06-23T19:26:11.000000Z",
+      "updated_at": "2026-07-13T18:00:46.000000Z",
+      "owner": {
+        "id": 80313,
+        "name": "Katrin0522",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/b74b866bad43739616963992bc7d8187ea01f5c2_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/4aeb3bda77bd76170f24227d63d761ea8871defe.jpg",
+        "created_at": "2025-06-13T13:44:23.000000Z",
+        "updated_at": "2026-08-10T09:56:33.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 338,
+          "hub_id": 14534,
+          "version": "1.0.2",
+          "description": "Fix: Global toggle for videos not working",
+          "link": "https://forge.sp-tarkov.com/mod/download/2198/satisfyingoverlay/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 442,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-28T12:55:20.000000Z",
+          "created_at": "2025-06-28T12:55:20.000000Z",
+          "updated_at": "2026-05-14T01:45:03.000000Z"
+        },
+        {
+          "id": 353,
+          "hub_id": 14519,
+          "version": "1.0.1",
+          "description": "+Added video tutorial How-To-Use\n\n\\*Full remake overview mod\n\n+Added support audio output for video\n\n+Simplify add and select videos\n\n\\*Little edited descriptions in config",
+          "link": "https://forge.sp-tarkov.com/mod/download/2198/satisfyingoverlay/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 151,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-25T17:48:44.000000Z",
+          "created_at": "2025-06-25T17:48:44.000000Z",
+          "updated_at": "2026-05-14T01:45:36.000000Z"
+        },
+        {
+          "id": 368,
+          "hub_id": 14504,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2198/satisfyingoverlay/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 118,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-23T19:26:11.000000Z",
+          "created_at": "2025-06-23T19:26:11.000000Z",
+          "updated_at": "2026-07-13T18:00:46.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/Katrin0522/SPT_SatisfyingOverlay",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 338,
+      "hub_id": 14534,
+      "version": "1.0.2",
+      "description": "<p>Fix: Global toggle for videos not working</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2198/satisfyingoverlay/1.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 442,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-06-28T12:55:20.000000Z",
+      "created_at": "2025-06-28T12:55:20.000000Z",
+      "updated_at": "2026-05-14T01:45:03.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2198/SPT_SatisfyingOverlay_1_0_2.7z",
+    "bytes_written": 192750546,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1006586218/737aa5fd-88ec-4c66-8890-f48299144035?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A17%3A16Z&rscd=attachment%3B+filename%3DSPT_SatisfyingOverlay_1_0_2.7z&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A17%3A13Z&ske=2026-08-10T16%3A17%3A16Z&sks=b&skv=2018-11-09&sig=5X1aXjaep8W95Nmv10UTxDHs8XQJuO%2Ff9M3NJm1vdpk%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM4MDA5MCwibmJmIjoxNzg2Mzc2NDkwLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.Wz2cP7CrtAisWKayg5YtE8LJZ2OmcumRFMgDRjH9AKM&response-content-disposition=attachment%3B%20filename%3DSPT_SatisfyingOverlay_1_0_2.7z&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.2",
+    "same_as_primary_download": true
+  }
+}

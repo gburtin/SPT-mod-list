@@ -1,0 +1,129 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2064,
+      "hub_id": 2748,
+      "guid": null,
+      "name": "TARK - Tactical Arms Racketeer: Kaliber",
+      "slug": "tark-tactical-arms-racketeer-kaliber",
+      "teaser": "New trader who sells all of the ammunition and grenades you could ever need.",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2748.jpg",
+      "downloads": 8926,
+      "favourites_count": 0,
+      "description": "<h1><strong>Tark - Tactical Arms Racketeer: Kaliber</strong></h1>\n<h3><strong>Backstory</strong></h3>\n<p>Born in the war-torn Balkans, Mikhail “Kaliber” Kozlov grew up surrounded by conflict. As a teenager, he learned the value of firepower—not just in battle, but in business. Smuggling ammunition and repairing abandoned weapons, he built a reputation as someone who could find, fix, and flip anything that shot, exploded, or killed.</p>\n<p>By his mid-20s, he had contacts in ex-Soviet military stockpiles, European black markets, and Middle Eastern war zones. Governments, rebels, and mercenaries alike knew that if they needed specialized gear—armor-piercing rounds, experimental scopes, vintage suppressors—Kaliber was the man to call. His network stretched from back-alley arms fairs in Serbia to elite private security firms in Paris.</p>\n<p>Despite his ruthless efficiency, Kaliber is not just a thug with bullets—he’s a businessman. He deals in weapons, not wars, and only moves product when the price is right. But if you cross him? Well, let’s just say he never sells anything he hasn’t tested himself.</p>\n<p>Kaliber is a new custom trader that sells any and all of the games ammunitions and grenades for a configurable price.</p>\n<h3>Installation</h3>\n<p>1) Open the downloaded zip file in <a target=\"_blank\" class=\"external-link\" href=\"https://www.7-zip.org/\" rel=\"noreferrer noopener\">7-zip</a></p>\n<p>2) Select the folder in the zip file in <a target=\"_blank\" class=\"external-link\" href=\"https://www.7-zip.org/\" rel=\"noreferrer noopener\">7-zip</a></p>\n<p>3) Drag the selected folder from <a target=\"_blank\" class=\"external-link\" href=\"https://www.7-zip.org/\" rel=\"noreferrer noopener\">7-zip</a> into your SPT folder</p>\n<p>Configuration</p>\n<p><strong>itemPriceMultiplier: (Default: 1)</strong></p>\n<p><strong>The number that the base game item price is multiplied by to decide how much the trader sells his items for. Must be at the very least set to 0.01 if you want the cheapest items possible, and 1 is base effectively base game price.</strong></p>\n<p><strong>traderRefresh: (Default Min: 1800 Max: 3600)</strong></p>\n<p>Minimum and maximum time in seconds respectively that the traders stock will refresh.</p>\n<p><strong>addTraderToFlea: (Default: true)</strong></p>\n<p>Whether or not the traders offers will be listed on the Flea Market. Must be true or false.</p>\n<p><strong>debugLogging: (Default: false)</strong></p>\n<p>Whether or not logging is enabled for key load points on server start.</p>\n<p><strong>Compatibility</strong></p>\n<p>If you are using Item Valuation it must be loaded after this mod.</p>\n<p>Acknowledgments</p>\n<ol>\n<li>Huge thanks go out to <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/76044-saryn/?highlight=Saryn\" rel=\"noreferrer noopener\">Saryn</a> for their help in creating a fantastic trader avatar for our new friend.</li>\n<li>Also <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/51352-acidphantasm/?highlight=Acid\" rel=\"noreferrer noopener\">AcidPhantasm</a> for his work on <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/files/file/1817-harryhideout/\" rel=\"noreferrer noopener\">HarryHideout</a>, It was a tremendous help in understanding the logic behind traders.</li>\n<li>Along with <a target=\"_blank\" class=\"external-link\" href=\"https://hub.sp-tarkov.com/user/4571-chomp/?highlight=Chomp\" rel=\"noreferrer noopener\">Chomp</a>’s work in the Mod-Examples page.</li>\n<li>Lastly the SPT Dev Team and the great community in the SPT Pub Discord server for being welcoming and helpful to someone who is of plentiful questions.</li>\n</ol>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2064/tark-tactical-arms-racketeer-kaliber",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-03-28T06:11:59.000000Z",
+      "created_at": "2025-03-28T06:11:59.000000Z",
+      "updated_at": "2026-07-13T18:01:26.000000Z",
+      "owner": {
+        "id": 74544,
+        "name": "IdiotTurdle",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/a684946319630bae581fa522f222fb7a261c66db_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2025-03-09T04:11:09.000000Z",
+        "updated_at": "2026-07-10T04:51:52.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 950,
+          "hub_id": 13841,
+          "version": "1.0.2",
+          "description": "Removed references to a file that was removed in v1.0.1\n\nIf you installed v1.0.1 you will need to redownload and install this version.\n\nMy apologies folks.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2064/tark-tactical-arms-racketeer-kaliber/1.0.2",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 8636,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-28T07:47:22.000000Z",
+          "created_at": "2025-03-28T07:47:22.000000Z",
+          "updated_at": "2026-07-13T18:01:25.000000Z"
+        },
+        {
+          "id": 951,
+          "hub_id": 13840,
+          "version": "1.0.1",
+          "description": "Minor refactoring to code base - Update isn't required\n\n- Remove Glock from trader assort for the time being. This will be revisited once I have more weapon presets ready to add.",
+          "link": "https://forge.sp-tarkov.com/mod/download/2064/tark-tactical-arms-racketeer-kaliber/1.0.1",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 135,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-28T07:10:48.000000Z",
+          "created_at": "2025-03-28T07:10:48.000000Z",
+          "updated_at": "2026-07-13T18:01:26.000000Z"
+        },
+        {
+          "id": 952,
+          "hub_id": 13839,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2064/tark-tactical-arms-racketeer-kaliber/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "",
+          "downloads": 155,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-03-28T06:11:59.000000Z",
+          "created_at": "2025-03-28T06:11:59.000000Z",
+          "updated_at": "2026-07-13T18:01:26.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/ClaytonHebbe96/TARK-TacticalArmsRacketeerKaliber.git",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 950,
+      "hub_id": 13841,
+      "version": "1.0.2",
+      "description": "<p>Removed references to a file that was removed in v1.0.1</p>\n<p>If you installed v1.0.1 you will need to redownload and install this version.</p>\n<p>My apologies folks.</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2064/tark-tactical-arms-racketeer-kaliber/1.0.2",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 8636,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-03-28T07:47:22.000000Z",
+      "created_at": "2025-03-28T07:47:22.000000Z",
+      "updated_at": "2026-07-13T18:01:25.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2064/tark-tactical-arms-racketeer-kaliber-1.0.2",
+    "bytes_written": 520,
+    "final_url": "https://github.com/ClaytonHebbe96/TARK-TacticalArmsRacketeerKaliber/releases/tag/1.0.2",
+    "content_type": "application/json; charset=utf-8"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.2",
+    "same_as_primary_download": true
+  }
+}

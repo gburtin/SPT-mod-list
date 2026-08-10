@@ -1,0 +1,101 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2171,
+      "hub_id": 2874,
+      "guid": null,
+      "name": "The Moon",
+      "slug": "the-moon",
+      "teaser": "The Moon item",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/2874.png",
+      "downloads": 1499,
+      "favourites_count": 0,
+      "description": "<p>Small little mod that adds the Moon as an item.</p>\n<p>Huge thanks to WTT fellas - Tron and GrooveypenguinX for helping with bundle and server stuff!!</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2171/the-moon",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": null,
+      "published_at": "2025-06-06T21:28:17.000000Z",
+      "created_at": "2025-06-06T21:28:17.000000Z",
+      "updated_at": "2026-07-07T16:59:07.000000Z",
+      "owner": {
+        "id": 65264,
+        "name": "tarkin",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/3458fcb0a0ba6b7402a1b797878ac6613f59c0e0_128w.webp",
+        "cover_photo_url": null,
+        "created_at": "2024-10-11T13:28:38.000000Z",
+        "updated_at": "2026-08-10T13:58:20.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 461,
+          "hub_id": 14402,
+          "version": "1.0.0",
+          "description": "",
+          "link": "https://forge.sp-tarkov.com/mod/download/2171/the-moon/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 1499,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-06-06T21:28:17.000000Z",
+          "created_at": "2025-06-06T21:28:17.000000Z",
+          "updated_at": "2026-05-14T01:48:00.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": null,
+      "source_code_links": [
+        {
+          "url": "https://github.com/bmpq/spt-moonitem",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 461,
+      "hub_id": 14402,
+      "version": "1.0.0",
+      "description": "",
+      "link": "https://forge.sp-tarkov.com/mod/download/2171/the-moon/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 1499,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-06-06T21:28:17.000000Z",
+      "created_at": "2025-06-06T21:28:17.000000Z",
+      "updated_at": "2026-05-14T01:48:00.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2171/TheMoon_1.0.0.zip",
+    "bytes_written": 7890972,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/995191125/840d5c6d-ed86-4aaa-b474-9f3e15246408?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A18%3A27Z&rscd=attachment%3B+filename%3DTheMoon_1.0.0.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A17%3A35Z&ske=2026-08-10T16%3A18%3A27Z&sks=b&skv=2018-11-09&sig=2c2zswWje44GvjxY88AwaO7PSf9D%2FfWwrwcyyp4FIfQ%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NjkzNCwibmJmIjoxNzg2Mzc2NjM0LCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.GlEi83XMdgJGHq0Hdib8h6aqNsKVww1nRt8mb_4zTZQ&response-content-disposition=attachment%3B%20filename%3DTheMoon_1.0.0.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

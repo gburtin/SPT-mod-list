@@ -1,0 +1,105 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2388,
+      "hub_id": null,
+      "guid": null,
+      "name": "TheFinals Music Pack",
+      "slug": "thefinals-music-pack",
+      "teaser": "Enjoy the electronic synthwave music feast brought by Embark!",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/pQcs0c5meQE1yfZAHhjdlrJn4xxCigtViLVpbeSC.jpg",
+      "downloads": 621,
+      "favourites_count": 0,
+      "description": "<p>WARNING: DUE TO GOOGLE DRIVE DELETING FILES WHEN UNZIPPED DOWNLOAD BOBBY’s MUSIC PLAYER FIRST AND THEN THIS MOD. MOVE ONLY THE AUDIO FILES NOT THE DLL.</p>\n<p>The mod adds The Finals game soundtrack created by Embrak, as well as a music track remixed by an independent artist, and removes certain inappropriate music tracks. All copyrights belong to the publisher Embark, Embark Studios, and the artists. Updated to version 3.11.X of SPT, and compatible with version 3.10.X. Installation instructions: drag the Bepin folder into the SPT directory.</p>\n<p>Preview: <a target=\"_blank\" class=\"external-link\" href=\"https://www.bilibili.com/video/BV17iLnzVESJ/?spm_id_from=333.1387.favlist.content.click&amp;vd_source=1b3c01b9ffef41ebb5d301dab9abe8ac\" rel=\"noreferrer noopener\">https://www.bilibili.com/video/BV17iLnzVESJ/?spm_id_from=333.1387.favlist.content.click&amp;vd_source=1b3c01b9ffef41ebb5d301dab9abe8ac</a></p>\n<p>Get ready to ignite an electronic synthesis craze at TKF.!</p>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2388/thefinals-music-pack",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": false,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 12,
+      "published_at": "2025-10-21T04:27:00.000000Z",
+      "created_at": "2025-10-21T04:31:35.000000Z",
+      "updated_at": "2026-07-07T16:59:11.000000Z",
+      "owner": {
+        "id": 86100,
+        "name": "Metro Man",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/s9itmTNPcPkpdmmFmpPgqQgTV5Vo8eVNDNZzneuD_256w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/4SW4dmdcPXz7hHsJkAelAHk3cuu8tHQznrS5nKLx_1280w.webp",
+        "created_at": "2025-10-21T03:36:41.000000Z",
+        "updated_at": "2026-07-10T04:57:11.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11950,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Updated to 3.9.5/x versions of SPT. Submod of Bobby’s Main menu music mod. Install: Drag BepinEx folder into SPT directory.\n\nUpdated to 3.10 SPT version.\n\nfinally upgraded to SPT 3.11 version",
+          "link": "https://forge.sp-tarkov.com/mod/download/2388/thefinals-music-pack/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11.0",
+          "downloads": 621,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-21T06:24:00.000000Z",
+          "created_at": "2025-10-21T06:16:29.000000Z",
+          "updated_at": "2025-10-21T06:26:14.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 12,
+        "hub_id": 75,
+        "title": "Audio",
+        "slug": "audio",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/BobbyRenzobbi/Bobbys-Music-Player",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11950,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Updated to 3.9.5/x versions of SPT. Submod of Bobby’s Main menu music mod. Install: Drag BepinEx folder into SPT directory.</p>\n<p>Updated to 3.10 SPT version.</p>\n<p>finally upgraded to SPT 3.11 version</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2388/thefinals-music-pack/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11.0",
+      "downloads": 621,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-21T06:24:00.000000Z",
+      "created_at": "2025-10-21T06:16:29.000000Z",
+      "updated_at": "2025-10-21T06:26:14.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": false,
+    "needs_manual": false,
+    "error": "HTTP 403",
+    "final_url": "https://storage.googleapis.com/drive-bulk-export-anonymous/20251021T062423.343Z/4133399871716478688/699dadc9-353e-432b-a7cf-d348bc35cf37/1/636fd1e8-fc3a-4973-815c-9e823feee667?authuser"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

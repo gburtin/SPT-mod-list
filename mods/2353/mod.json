@@ -1,0 +1,107 @@
+{
+  "mod": {
+    "success": true,
+    "data": {
+      "id": 2353,
+      "hub_id": null,
+      "guid": "com.bubbles.chronos",
+      "name": "Bubbles - Chronos",
+      "slug": "bubbles-chronos",
+      "teaser": "Choose your in-game time or select from a fixed preset (dawn, noon, etc.)",
+      "thumbnail": "https://forge-static.sp-tarkov.com/mods/9xUVEjFjKsxOPR3H3SjXf5mL02BEwfBuFeBGmkbV.jpg",
+      "downloads": 388,
+      "favourites_count": 0,
+      "description": "<p>Chronos – SPT 3.11 Time Setter (by Bubbles)</p>\n<p>Overview</p>\n<ul>\n<li>Chronos lets you pick the raid start time before you load into a raid in SPT 3.11. It provides a simple in‑game menu where you can select a preset (Dawn/Noon/Dusk/Midnight) or enter a custom 24‑hour time (HH:mm).</li>\n</ul>\n<p>Quick start (in‑game Menu)</p>\n<ul>\n<li>Press F10 (default) in the main menus to toggle the Chronos window.</li>\n<li>Choose Mode:\n<ul>\n<li>Preset: pick one of Dawn/Noon/Dusk/Midnight.</li>\n<li>Custom: type a time as HH:mm (24‑hour), then click Set (or click Now to insert the current time).</li>\n</ul>\n</li>\n<li>Click “Apply” to queue your chosen time for the next raid load.</li>\n<li>Start a raid. Chronos applies the time as the world finishes loading.</li>\n</ul>\n<p>Notes</p>\n<ul>\n<li>The window is only available outside raids and stays accessible even if the mod is disabled.</li>\n<li>“Enabled” toggle disables time application while leaving the menu usable.</li>\n</ul>\n<p>Configuration (BepInEx config)</p>\n<ul>\n<li>Enabled: turn the mod’s effect on/off.</li>\n<li>Mode: Preset or Custom.</li>\n<li>Preset: one of Dawn/Noon/Dusk/Midnight.</li>\n<li>CustomTime: default custom time (HH:mm).</li>\n<li>ToggleKey: key to show/hide the window (default F10).</li>\n<li>VerboseLogging: extra debug logs (optional).</li>\n<li>WindowX/WindowY: window position persists between runs.</li>\n</ul>\n<p>Troubleshooting</p>\n<ul>\n<li>If time doesn’t change:\n<ul>\n<li>Ensure “Enabled” is on and you clicked Apply before starting the raid.</li>\n<li>Enable VerboseLogging and check BepInEx console/log for Chronos messages (it will try multiple reflection paths).</li>\n<li>Mod conflicts that also set raid time can override behavior; try disabling other time/weather mods.</li>\n</ul>\n</li>\n</ul>\n",
+      "detail_url": "https://forge.sp-tarkov.com/mod/2353/bubbles-chronos",
+      "fika_compatibility": false,
+      "featured": false,
+      "contains_ads": false,
+      "contains_ai_content": true,
+      "custom_ai_disclosure": "",
+      "shows_profile_binding_notice": false,
+      "cheat_notice": false,
+      "category_id": 17,
+      "published_at": "2025-10-11T01:22:00.000000Z",
+      "created_at": "2025-10-11T01:23:34.000000Z",
+      "updated_at": "2026-07-07T16:59:10.000000Z",
+      "owner": {
+        "id": 30786,
+        "name": "Bubblefarts",
+        "profile_photo_url": "https://forge-static.sp-tarkov.com/profile-photos/f3c71661bead84463336d0727a038cf0f416459d_128w.webp",
+        "cover_photo_url": "https://forge-static.sp-tarkov.com/cover-photos/2MccHSl3W1pZmAnNS46peTE29RO1b4SfhxlDUXCN_2560w.webp",
+        "created_at": "2023-05-03T22:52:00.000000Z",
+        "updated_at": "2026-08-08T16:56:00.000000Z"
+      },
+      "additional_authors": [],
+      "versions": [
+        {
+          "id": 11746,
+          "hub_id": null,
+          "version": "1.0.0",
+          "description": "Initial Release",
+          "link": "https://forge.sp-tarkov.com/mod/download/2353/bubbles-chronos/1.0.0",
+          "content_length": null,
+          "spt_version_constraint": "~3.11",
+          "downloads": 388,
+          "fika_compatibility": "unknown",
+          "published_at": "2025-10-11T01:24:00.000000Z",
+          "created_at": "2025-10-11T01:24:30.000000Z",
+          "updated_at": "2026-05-14T06:15:19.000000Z"
+        }
+      ],
+      "license": {
+        "id": 11,
+        "hub_id": 14,
+        "name": "MIT License",
+        "link": "https://choosealicense.com/licenses/mit/",
+        "created_at": "2025-09-26T15:44:12.000000Z",
+        "updated_at": "2025-09-26T15:44:12.000000Z"
+      },
+      "category": {
+        "id": 17,
+        "hub_id": 28,
+        "title": "Other",
+        "slug": "other",
+        "description": ""
+      },
+      "source_code_links": [
+        {
+          "url": "https://github.com/Ein633/Chronos",
+          "label": ""
+        }
+      ]
+    }
+  },
+  "all_versions": [
+    {
+      "id": 11746,
+      "hub_id": null,
+      "version": "1.0.0",
+      "description": "<p>Initial Release</p>\n",
+      "link": "https://forge.sp-tarkov.com/mod/download/2353/bubbles-chronos/1.0.0",
+      "content_length": null,
+      "spt_version_constraint": "~3.11",
+      "downloads": 388,
+      "fika_compatibility": "unknown",
+      "published_at": "2025-10-11T01:24:00.000000Z",
+      "created_at": "2025-10-11T01:24:30.000000Z",
+      "updated_at": "2026-05-14T06:15:19.000000Z",
+      "dependencies": []
+    }
+  ],
+  "addons": [],
+  "download": {
+    "success": true,
+    "needs_manual": false,
+    "path": "spt_forge_backup/mods/2353/Bubbles-Chronos.zip",
+    "bytes_written": 10457,
+    "final_url": "https://release-assets.githubusercontent.com/github-production-release-asset/1073998948/f946fbc1-e53b-46b3-a38d-c1c0f4d00118?sp=r&sv=2018-11-09&sr=b&spr=https&se=2026-08-10T16%3A23%3A33Z&rscd=attachment%3B+filename%3DBubbles-Chronos.zip&rsct=application%2Foctet-stream&skoid=96c2d410-5711-43a1-aedd-ab1947aa7ab0&sktid=398a6654-997b-47e9-b12b-9515b896b4de&skt=2026-08-10T15%3A23%3A10Z&ske=2026-08-10T16%3A23%3A33Z&sks=b&skv=2018-11-09&sig=5kD2zgITZF7RIoXY5WmQ69slF7HQ%2B8BAQFX4nB9qLTA%3D&jwt=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmVsZWFzZS1hc3NldHMuZ2l0aHVidXNlcmNvbnRlbnQuY29tIiwia2V5Ijoia2V5MSIsImV4cCI6MTc4NjM3NzI5MSwibmJmIjoxNzg2Mzc2OTkxLCJwYXRoIjoicmVsZWFzZWFzc2V0cHJvZHVjdGlvbi5ibG9iLmNvcmUud2luZG93cy5uZXQifQ.5bQbziV0DpRWL1QpP6Fm6lnU_Jx0oCzcZ1We2gBLw0A&response-content-disposition=attachment%3B%20filename%3DBubbles-Chronos.zip&response-content-type=application%2Foctet-stream",
+    "content_type": "application/octet-stream"
+  },
+  "download_fallback_3_11_4": {
+    "target_version": "3.11.4",
+    "found": true,
+    "version": "1.0.0",
+    "same_as_primary_download": true
+  }
+}

@@ -436,5 +436,14 @@
     "found": true,
     "version": "2.0.0",
     "same_as_primary_download": true
+  },
+  "download_fallback_3_11_4": {
+    "success": false,
+    "needs_manual": false,
+    "error": "HTTP 404",
+    "final_url": "https://drive.usercontent.google.com/download?id=1uqVYWV_FT6rwL7wOfDPiJRJx17Z0v75b&export=download",
+    "target_version": "3.11.4",
+    "version": "1.0.4",
+    "same_as_primary_download": false
   }
 }
