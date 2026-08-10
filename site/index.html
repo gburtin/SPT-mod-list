@@ -69,6 +69,44 @@
     .layout { grid-template-columns: 1fr; }
   }
 
+  .hamburger-btn { display: none; }
+  .sidebar-backdrop { display: none; }
+  @media (max-width: 800px) {
+    .hamburger-btn {
+      display: inline-block;
+      margin-left: auto;
+      background: var(--panel-2);
+      border: 1px solid var(--border);
+      color: var(--text);
+      font-family: var(--mono);
+      font-size: 12px;
+      padding: 6px 10px;
+      border-radius: 2px;
+      cursor: pointer;
+    }
+    aside#sidebar {
+      position: fixed;
+      top: 53px;
+      left: 0;
+      bottom: 0;
+      width: 85%;
+      max-width: 320px;
+      z-index: 20;
+      overflow-y: auto;
+      transform: translateX(-100%);
+      transition: transform 0.2s ease;
+      box-shadow: 4px 0 24px rgba(0, 0, 0, 0.6);
+    }
+    aside#sidebar.open { transform: translateX(0); }
+    .sidebar-backdrop.open {
+      display: block;
+      position: fixed;
+      inset: 53px 0 0 0;
+      background: rgba(0, 0, 0, 0.5);
+      z-index: 15;
+    }
+  }
+
   aside {
     border-right: 1px solid var(--border);
     padding: 18px 16px;
@@ -376,6 +414,26 @@
   }
   .sync-status.error { color: #d98b80; }
   .sync-status.pending { color: var(--accent); }
+  .sync-toggle-link {
+    display: block;
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--muted);
+    margin-top: 4px;
+  }
+  .sync-hint {
+    font-family: var(--mono);
+    font-size: 10px;
+    color: var(--muted);
+    line-height: 1.5;
+    margin: 8px 0;
+  }
+  .sync-hint code {
+    color: var(--accent);
+    background: var(--panel-2);
+    padding: 1px 4px;
+    border-radius: 2px;
+  }
 </style>
 </head>
 <body>
@@ -383,10 +441,13 @@
 <header>
   <h1>&#9635; Archive SPT</h1>
   <span class="sub">Forge local — instantané hors ligne</span>
+  <button id="filterToggle" class="hamburger-btn" onclick="toggleSidebar()">&#9776; Filtres</button>
 </header>
 
+<div id="sidebarBackdrop" class="sidebar-backdrop" onclick="closeSidebar()"></div>
+
 <div class="layout">
-  <aside>
+  <aside id="sidebar">
     <div class="filter-group">
       <h3>Catégorie</h3>
       <select id="categoryFilter"><option value="">Toutes</option></select>
@@ -397,7 +458,7 @@
     </div>
     <div class="filter-group">
       <h3>Affichage</h3>
-      <label><input type="checkbox" id="showThumbnails" checked> Afficher les vignettes</label>
+      <label><input type="checkbox" id="showThumbnails"> Afficher les vignettes</label>
     </div>
     <div class="filter-group">
       <h3>Autres</h3>
@@ -415,8 +476,17 @@
     <div class="filter-group" id="syncGroup">
       <h3>Synchro GitHub</h3>
       <div id="syncDisconnected">
-        <input type="password" id="githubTokenInput" placeholder="Token GitHub (gist)" class="sync-input">
-        <button class="userdata-btn" onclick="connectGithubSync()">Connecter</button>
+        <input type="text" id="syncUsernameInput" placeholder="Pseudo GitHub" class="sync-input" autocomplete="username">
+        <input type="password" id="syncPassphraseInput" placeholder="Phrase secrète" class="sync-input" autocomplete="current-password">
+        <button class="userdata-btn" onclick="connectWithPassphrase()">Se connecter</button>
+        <a href="#" class="sync-toggle-link" onclick="toggleSetupPanel(event)">Première fois ? Configurer l'accès</a>
+        <div id="setupPanel" style="display:none">
+          <p class="sync-hint">À faire une seule fois, sur un seul appareil. Colle ton token GitHub (permission <code>gist</code>), choisis une phrase secrète que tu pourras retaper sur tes autres appareils.</p>
+          <input type="password" id="setupTokenInput" placeholder="Token GitHub (gist)" class="sync-input">
+          <input type="password" id="setupPassphraseInput" placeholder="Choisis une phrase secrète" class="sync-input">
+          <input type="password" id="setupPassphraseConfirm" placeholder="Confirme la phrase secrète" class="sync-input">
+          <button class="userdata-btn" onclick="bootstrapPassphraseAccess()">Configurer</button>
+        </div>
       </div>
       <div id="syncConnected" style="display:none">
         <div class="sync-status" id="syncStatus">Connecté</div>
@@ -611,28 +681,160 @@ async function pushToGist() {
   }
 }
 
-async function connectGithubSync() {
-  const token = document.getElementById('githubTokenInput').value.trim();
-  if (!token) return;
+// --- Chiffrement local du token (Web Crypto API, aucune lib externe) ---
+const TOKEN_ENC_FILENAME = 'spt_archive_token.enc.json';
+const PBKDF2_ITERATIONS = 600000; // recommandation OWASP 2026 pour PBKDF2-SHA256
+
+function toBase64(buf) {
+  return btoa(String.fromCharCode(...new Uint8Array(buf)));
+}
+function fromBase64(b64) {
+  return Uint8Array.from(atob(b64), c => c.charCodeAt(0));
+}
+
+async function deriveKey(passphrase, saltBytes) {
+  const enc = new TextEncoder();
+  const baseKey = await crypto.subtle.importKey('raw', enc.encode(passphrase), 'PBKDF2', false, ['deriveKey']);
+  return crypto.subtle.deriveKey(
+    { name: 'PBKDF2', salt: saltBytes, iterations: PBKDF2_ITERATIONS, hash: 'SHA-256' },
+    baseKey,
+    { name: 'AES-GCM', length: 256 },
+    false,
+    ['encrypt', 'decrypt']
+  );
+}
+
+async function encryptToken(token, passphrase) {
+  const salt = crypto.getRandomValues(new Uint8Array(16));
+  const iv = crypto.getRandomValues(new Uint8Array(12));
+  const key = await deriveKey(passphrase, salt);
+  const ciphertext = await crypto.subtle.encrypt({ name: 'AES-GCM', iv }, key, new TextEncoder().encode(token));
+  return { salt: toBase64(salt), iv: toBase64(iv), ciphertext: toBase64(ciphertext) };
+}
+
+async function decryptToken(encObj, passphrase) {
+  const key = await deriveKey(passphrase, fromBase64(encObj.salt));
+  const plaintext = await crypto.subtle.decrypt(
+    { name: 'AES-GCM', iv: fromBase64(encObj.iv) }, key, fromBase64(encObj.ciphertext)
+  );
+  return new TextDecoder().decode(plaintext);
+}
+
+// Appel API GitHub public (lecture seule, sans authentification) — utilisé pour retrouver
+// et lire le gist public contenant le token chiffré, sans avoir besoin du vrai token.
+async function githubApiPublic(path) {
+  const resp = await fetch(`https://api.github.com${path}`, {
+    headers: { 'Accept': 'application/vnd.github+json' },
+  });
+  if (!resp.ok) throw new Error(`GitHub API ${resp.status}`);
+  return resp.json();
+}
+
+function toggleSetupPanel(e) {
+  e.preventDefault();
+  const panel = document.getElementById('setupPanel');
+  panel.style.display = panel.style.display === 'none' ? '' : 'none';
+}
+
+async function bootstrapPassphraseAccess() {
+  const token = document.getElementById('setupTokenInput').value.trim();
+  const passphrase = document.getElementById('setupPassphraseInput').value;
+  const confirm = document.getElementById('setupPassphraseConfirm').value;
+
+  if (!token || !passphrase) return;
+  if (passphrase !== confirm) {
+    alert("Les deux phrases secrètes ne correspondent pas.");
+    return;
+  }
+
   localStorage.setItem(GITHUB_TOKEN_KEY, token);
-  setSyncStatus('Connexion...', 'pending');
+  setSyncStatus('Configuration...', 'pending');
 
   try {
-    let gistId = getGistId();
-    if (!gistId) {
-      gistId = await findExistingGist();
-      if (!gistId) gistId = await createGist();
-      localStorage.setItem(GITHUB_GIST_ID_KEY, gistId);
+    const user = await githubApi('/user');
+    const encObj = await encryptToken(token, passphrase);
+    const encContent = JSON.stringify(encObj);
+
+    // Gist PUBLIC contenant le token chiffré (illisible sans la phrase secrète).
+    // On réutilise le gist existant s'il y en a déjà un (ex: relance de la config sur un
+    // autre appareil), plutôt que d'en créer un nouveau à chaque fois.
+    const existingGists = await githubApi('/gists?per_page=100');
+    const existingTokenGist = existingGists.find(g => g.files && g.files[TOKEN_ENC_FILENAME]);
+    if (existingTokenGist) {
+      await githubApi(`/gists/${existingTokenGist.id}`, {
+        method: 'PATCH',
+        body: JSON.stringify({ files: { [TOKEN_ENC_FILENAME]: { content: encContent } } }),
+      });
+    } else {
+      await githubApi('/gists', {
+        method: 'POST',
+        body: JSON.stringify({
+          description: 'SPT Archive — accès chiffré (ne pas supprimer)',
+          public: true,
+          files: { [TOKEN_ENC_FILENAME]: { content: encContent } },
+        }),
+      });
     }
+
+    // Gist privé habituel pour les favoris/installés.
+    let gistId = await findExistingGist();
+    if (!gistId) gistId = await createGist();
+    localStorage.setItem(GITHUB_GIST_ID_KEY, gistId);
+
     await pullFromGist(gistId);
     showSyncConnected();
-    setSyncStatus('Connecté — synchronisé ✓');
+    setSyncStatus(`Connecté (${user.login}) — synchronisé ✓`);
+    applyFilters();
+    alert(`Configuration terminée. Sur tes autres appareils, connecte-toi avec :\nPseudo : ${user.login}\nPhrase secrète : (celle que tu viens de choisir)`);
+  } catch (e) {
+    console.warn('Configuration échouée', e);
+    localStorage.removeItem(GITHUB_TOKEN_KEY);
+    alert("Configuration échouée. Vérifie que le token a bien la permission 'gist'.");
+    setSyncStatus('', '');
+  }
+}
+
+async function connectWithPassphrase() {
+  const username = document.getElementById('syncUsernameInput').value.trim();
+  const passphrase = document.getElementById('syncPassphraseInput').value;
+  if (!username || !passphrase) return;
+
+  setSyncStatus('Recherche...', 'pending');
+  try {
+    const gists = await githubApiPublic(`/users/${encodeURIComponent(username)}/gists?per_page=100`);
+    const match = gists.find(g => g.files && g.files[TOKEN_ENC_FILENAME]);
+    if (!match) {
+      setSyncStatus('', '');
+      alert("Aucun accès configuré pour ce pseudo. As-tu fait la configuration initiale sur un autre appareil ?");
+      return;
+    }
+
+    const gistDetail = await githubApiPublic(`/gists/${match.id}`);
+    const encObj = JSON.parse(gistDetail.files[TOKEN_ENC_FILENAME].content);
+
+    let token;
+    try {
+      token = await decryptToken(encObj, passphrase);
+    } catch (e) {
+      setSyncStatus('', '');
+      alert("Phrase secrète incorrecte.");
+      return;
+    }
+
+    localStorage.setItem(GITHUB_TOKEN_KEY, token);
+
+    let gistId = await findExistingGist();
+    if (!gistId) gistId = await createGist();
+    localStorage.setItem(GITHUB_GIST_ID_KEY, gistId);
+
+    await pullFromGist(gistId);
+    showSyncConnected();
+    setSyncStatus(`Connecté (${username}) — synchronisé ✓`);
     applyFilters();
   } catch (e) {
-    console.warn('Connexion GitHub échouée', e);
-    localStorage.removeItem(GITHUB_TOKEN_KEY);
-    localStorage.removeItem(GITHUB_GIST_ID_KEY);
-    alert("Connexion échouée. Vérifie que le token a bien la permission 'gist'.");
+    console.warn('Connexion échouée', e);
+    setSyncStatus('', '');
+    alert("Connexion échouée (vérifie ta connexion internet et ton pseudo).");
   }
 }
 
@@ -828,7 +1030,18 @@ function escapeHtml(s) {
 }
 
 // --- Routing / detail view ---
+function toggleSidebar() {
+  const isOpen = document.getElementById('sidebar').classList.toggle('open');
+  document.getElementById('sidebarBackdrop').classList.toggle('open', isOpen);
+}
+
+function closeSidebar() {
+  document.getElementById('sidebar').classList.remove('open');
+  document.getElementById('sidebarBackdrop').classList.remove('open');
+}
+
 async function route() {
+  closeSidebar(); // ferme le menu filtres mobile à chaque navigation
   const hash = location.hash;
   const match = hash.match(/^#\/mod\/(\d+)/);
   if (match) {
